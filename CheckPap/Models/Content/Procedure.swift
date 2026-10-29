@@ -68,7 +68,7 @@ struct Source: Decodable, Identifiable, Hashable {
 
 struct Question: Decodable, Identifiable, Hashable {
     enum Kind: String, Decodable {
-        case single, yesNo, date
+        case single, yesNo, date, country
     }
 
     let id: String
@@ -85,7 +85,7 @@ struct Question: Decodable, Identifiable, Hashable {
         switch kind {
         case .single: options ?? []
         case .yesNo: [AnswerOption.yes, AnswerOption.no]
-        case .date: []
+        case .date, .country: []
         }
     }
 }

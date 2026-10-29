@@ -111,6 +111,8 @@ final class QuestionnaireModel {
             return question.choices.first { $0.id == value }?.label.resolved(locale)
         case .date:
             return DayDate.parse(value)?.formatted(.dateTime.day().month(.wide).year().locale(locale))
+        case .country:
+            return value
         }
     }
 }

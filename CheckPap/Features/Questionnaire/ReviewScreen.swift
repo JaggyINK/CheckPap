@@ -47,6 +47,15 @@ private struct AnswerRow: View {
     let model: QuestionnaireModel
     let question: Question
     @Environment(\.locale) private var locale
+    @Environment(ContentStore.self) private var store
+
+    private var label: String? {
+        if question.kind == .country, let code = model.answer(for: question),
+           let country = store.countries?.country(id: code) {
+            return "\(country.flag) \(country.name.resolved(locale))"
+        }
+        return model.answerLabel(for: question, locale: locale)
+    }
 
     var body: some View {
         Button {
@@ -58,7 +67,7 @@ private struct AnswerRow: View {
                         .font(.footnote)
                         .foregroundStyle(.secondary)
                     Group {
-                        if let label = model.answerLabel(for: question, locale: locale) {
+                        if let label {
                             Text(verbatim: label)
                         } else {
                             Text("Sans réponse")

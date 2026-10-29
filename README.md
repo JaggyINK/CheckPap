@@ -11,9 +11,9 @@ Quatre onglets :
 | Onglet | Contenu |
 |---|---|
 | **Actualités** | Ce qui change pour les étrangers (lois, décrets, taxes, délais, aides), publié par l'administration, filtrable par thème. |
-| **Démarches** | 16 démarches rangées par catégorie et sous-catégorie, avec recherche. Pour chacune : questions en entonnoir, orientation si la situation ne correspond pas, liste de pièces personnalisée et cochable, étapes guidées, dates calculées, fiches "Comment l'obtenir ?", modèles de courriers. |
+| **Démarches** | 16 démarches rangées par catégorie et sous-catégorie, avec recherche. Pour chacune : questions en entonnoir, orientation si la situation ne correspond pas, liste de pièces personnalisée et cochable (pièces inutiles à retirer), étapes guidées à cocher, dates calculées, lieu de dépôt ou de rendez-vous (préfecture trouvée par code postal), rendez-vous enregistré avec calendrier et rappels, fiches "Comment l'obtenir ?", modèles de courriers. |
 | **Mes droits** | "1 étranger, 1 solution" : un questionnaire page par page, puis les droits et aides qui peuvent concerner la personne (santé, argent, logement, travail, famille, banque, recours). |
-| **Mes dossiers** | Les démarches commencées et leur avancement. |
+| **Mes dossiers** | Mon titre de séjour (date de fin, dates de renouvellement, rappels), puis les démarches commencées : avancement, rendez-vous enregistré, suppression. |
 
 Catégories de démarches :
 

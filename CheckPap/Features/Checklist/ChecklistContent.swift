@@ -24,6 +24,10 @@ struct ChecklistContent: View {
                 ProgressHeader(procedure: procedure, done: done, total: documents.count)
                     .staggeredAppear(0)
 
+                if let country = procedure.questions.first(where: { $0.kind == .country }).flatMap({ answers[$0.id] }) {
+                    DestinationCard(countryCode: country)
+                }
+
                 if isReady && !appointments.isEmpty {
                     ReadyBanner(procedure: procedure, appointments: appointments)
                         .transition(.scale(scale: 0.95).combined(with: .opacity))

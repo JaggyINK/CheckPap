@@ -55,6 +55,11 @@ struct QuestionScreen: View {
                     .staggeredAppear(index)
                 }
             }
+        case .country:
+            CountryQuestionPicker(selected: model.answer(for: question)) { code in
+                withAnimation(.snappy) { model.select(code) }
+                goNext()
+            }
         case .date:
             DatePicker("Date", selection: $date, displayedComponents: .date)
                 .datePickerStyle(.graphical)

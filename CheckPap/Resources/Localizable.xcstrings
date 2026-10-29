@@ -10,16 +10,6 @@
     "%lld questions au maximum, une par écran." : {
 
     },
-    "%lld sur %lld" : {
-      "localizations" : {
-        "fr" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "%1$lld sur %2$lld"
-          }
-        }
-      }
-    },
     "%lld sur %lld pièces prêtes" : {
       "localizations" : {
         "fr" : {
@@ -75,7 +65,13 @@
     "Afrique" : {
 
     },
+    "Ajouter au calendrier" : {
+
+    },
     "Amériques" : {
+
+    },
+    "Annuler" : {
 
     },
     "Aperçu" : {
@@ -117,6 +113,9 @@
     "Avant de déposer" : {
 
     },
+    "Avez-vous déjà pris rendez-vous ?" : {
+
+    },
     "Banque" : {
 
     },
@@ -141,7 +140,7 @@
     "Ce sont des repères, pas des prix exacts : votre budget réel dépend de votre logement et de votre mode de vie." : {
 
     },
-    "Ces informations ont été rassemblées depuis les sites de l'administration et sont en cours de relecture. Vérifiez toujours auprès de votre préfecture." : {
+    "Changer" : {
 
     },
     "Changer de statut" : {
@@ -154,6 +153,9 @@
           }
         }
       }
+    },
+    "Choisir mon département dans la liste" : {
+
     },
     "Choisir un pays" : {
 
@@ -190,9 +192,6 @@
     "Contenu bientôt disponible" : {
 
     },
-    "Contenu en cours de vérification" : {
-
-    },
     "Continuer" : {
 
     },
@@ -212,6 +211,9 @@
 
     },
     "Date de naissance" : {
+
+    },
+    "Date et heure" : {
 
     },
     "Dates" : {
@@ -257,6 +259,12 @@
     "Effacer vos réponses et vos coches pour cette démarche ?" : {
 
     },
+    "Enregistrer" : {
+
+    },
+    "Étape en cours" : {
+
+    },
     "Étapes" : {
 
     },
@@ -278,6 +286,9 @@
     "Ex. : 12 mars 1998" : {
 
     },
+    "Ex. : 94000" : {
+
+    },
     "Ex. : Amina DIALLO" : {
 
     },
@@ -287,7 +298,13 @@
     "Ex. : Dakar (Sénégal)" : {
 
     },
+    "Ex. : numéro de rendez-vous, guichet, pièces à ne pas oublier" : {
+
+    },
     "Ex. : Préfecture du Val-de-Marne" : {
+
+    },
+    "Ex. : Préfecture du Val-de-Marne, Créteil" : {
 
     },
     "Ex. : prenom.nom@exemple.fr" : {
@@ -314,6 +331,9 @@
     "Gardées uniquement sur ce téléphone, pour vos prochains courriers." : {
 
     },
+    "Glissez un dossier vers la gauche pour le supprimer." : {
+
+    },
     "Identité" : {
 
     },
@@ -329,10 +349,16 @@
     "Indiqué sur votre titre de séjour" : {
 
     },
+    "Indiquez votre code postal pour trouver votre préfecture et sa page de rendez-vous." : {
+
+    },
     "Informations vérifiées le %@" : {
 
     },
     "Investir, créer une entreprise" : {
+
+    },
+    "Je n'ai pas besoin de cette pièce" : {
 
     },
     "Langue et intégration" : {
@@ -342,6 +368,12 @@
 
     },
     "Les conditions détaillées par motif ne sont pas encore disponibles pour ce pays. Consultez les liens utiles ci-dessous." : {
+
+    },
+    "Les droits et aides qui peuvent vous concerner, et où les demander." : {
+
+    },
+    "Les notifications sont désactivées pour Check Pap. Vous pouvez les activer dans les Réglages de l'iPhone." : {
 
     },
     "Liens utiles" : {
@@ -365,10 +397,22 @@
     "Marquer comme prête" : {
 
     },
+    "Marquer l'étape comme à faire" : {
+
+    },
+    "Marquer l'étape comme faite" : {
+
+    },
+    "Me le rappeler" : {
+
+    },
     "Mes dossiers" : {
 
     },
     "Mes droits" : {
+
+    },
+    "Modifier" : {
 
     },
     "Modifier ma réponse" : {
@@ -408,10 +452,19 @@
     "Nom et prénom" : {
 
     },
+    "Notes" : {
+
+    },
+    "Nous n'avons pas trouvé de préfecture pour ce code postal. Vérifiez-le, ou choisissez votre département dans la liste." : {
+
+    },
     "Numéro de dossier" : {
 
     },
     "Numéro étranger" : {
+
+    },
+    "Numéro ou nom du département" : {
 
     },
     "Numéro, rue, code postal, ville" : {
@@ -426,10 +479,22 @@
     "Orientation" : {
 
     },
+    "Où ?" : {
+
+    },
+    "Où déposer votre dossier" : {
+
+    },
     "Où déposer, quand, et ce qui se passe ensuite." : {
 
     },
     "Où partent le plus de Français" : {
+
+    },
+    "Oui, j'enregistre mon rendez-vous" : {
+
+    },
+    "Ouvrir le site de la préfecture" : {
 
     },
     "Par exemple d'étudiant à salarié" : {
@@ -458,6 +523,9 @@
     "Pièces" : {
 
     },
+    "Pièces retirées (%lld)" : {
+
+    },
     "Pour qui ?" : {
 
     },
@@ -473,10 +541,19 @@
     "Préfecture" : {
 
     },
+    "Prendre rendez-vous sur le site de la préfecture" : {
+
+    },
     "Préparer mon départ" : {
 
     },
     "Préparer un courrier" : {
+
+    },
+    "Prochaine étape : déposer votre demande ou prendre rendez-vous." : {
+
+    },
+    "Quand ?" : {
 
     },
     "Quand vous commencez une démarche, elle apparaît ici avec votre liste de pièces." : {
@@ -506,6 +583,9 @@
     "Qui peut vous aider" : {
 
     },
+    "Rappels activés" : {
+
+    },
     "Récapitulatif" : {
 
     },
@@ -524,6 +604,9 @@
     "Recours et justice" : {
 
     },
+    "Remettre" : {
+
+    },
     "Remplacer un titre perdu ou volé" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -534,6 +617,9 @@
           }
         }
       }
+    },
+    "Rendez-vous bientôt" : {
+
     },
     "Renouveler mon titre de séjour" : {
       "extractionState" : "stale",
@@ -553,9 +639,6 @@
 
     },
     "Répondez à quelques questions" : {
-
-    },
-    "Répondez à quelques questions : nous vous montrons les droits et aides qui peuvent vous concerner, et où les demander." : {
 
     },
     "Ressources" : {
@@ -595,10 +678,22 @@
     "Suivez les étapes" : {
 
     },
+    "Supprimer" : {
+
+    },
+    "Supprimer ce dossier" : {
+
+    },
+    "Supprimer ce dossier ? Vos réponses, vos coches et votre rendez-vous enregistré seront effacés." : {
+
+    },
     "Taux de change du %@" : {
 
     },
     "Téléphone" : {
+
+    },
+    "Touchez le numéro d'une étape quand elle est faite." : {
 
     },
     "Touchez une pièce pour voir le détail, et le rond pour la cocher quand elle est prête." : {
@@ -642,6 +737,9 @@
     "Vacances-travail (PVT)" : {
 
     },
+    "Valider" : {
+
+    },
     "Vérifiez vos réponses" : {
 
     },
@@ -670,10 +768,22 @@
     "Votre âge : %lld ans" : {
 
     },
+    "Votre commune dépend peut-être d'une sous-préfecture : voir la liste" : {
+
+    },
+    "Votre département" : {
+
+    },
+    "Votre dossier est prêt !" : {
+
+    },
     "Votre profil" : {
 
     },
     "Votre projet" : {
+
+    },
+    "Votre rendez-vous" : {
 
     },
     "Vous pourriez y avoir droit" : {

@@ -471,3 +471,7 @@ Tableau facultatif dans chaque `procedures/<id>.json`. L'app l'affiche quand tou
 ```
 
 `appointmentUrl` : page "Prendre rendez-vous" ou "Démarches étrangers" du site de la préfecture, seulement si elle a été trouvée et vérifiée ; sinon absent (l'app renvoie au site). Paris : préfecture de police.
+
+### Question `country`
+
+`"kind": "country"` : la personne choisit un pays dans la liste de `countries.json` (recherche par nom). La réponse est le code ISO du pays (ex. `"CA"`). La liste de pièces affiche alors une carte "Votre destination" (budget repère, lien vers la fiche pays). Pas de `condition` sur la valeur d'une question `country`.

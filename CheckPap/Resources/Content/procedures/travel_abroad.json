@@ -384,6 +384,25 @@
       ]
     },
     {
+      "id": "destination_country",
+      "kind": "country",
+      "title": {
+        "fr": "Dans quel pays partez-vous ?",
+        "en": "Which country are you going to?"
+      },
+      "help": {
+        "fr": "Nous vous montrerons ensuite la fiche de ce pays : liens utiles, conditions d'entrée et budget repère selon la durée de votre séjour.",
+        "en": "We will then show you this country's guide: useful links, entry conditions and a budget estimate for the length of your stay."
+      },
+      "example": {
+        "fr": "Tapez les premières lettres : « Can » pour Canada.",
+        "en": "Type the first letters: \"Can\" for Canada."
+      },
+      "sources": [
+        "dipl_cav"
+      ]
+    },
+    {
       "id": "permit_expiry_date",
       "kind": "date",
       "title": {

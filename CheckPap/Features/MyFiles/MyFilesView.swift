@@ -14,7 +14,12 @@ struct MyFilesView: View {
 
     var body: some View {
         let entries = saved.compactMap { store.entry(id: $0.procedureId) }
-        Group {
+        List {
+            PermitCard()
+                .listRowBackground(Color.clear)
+                .listRowSeparator(.hidden)
+                .listRowInsets(EdgeInsets(top: 6, leading: 20, bottom: 6, trailing: 20))
+
             if entries.isEmpty {
                 ContentUnavailableView {
                     Label("Aucun dossier en cours", systemImage: "tray")
@@ -24,33 +29,35 @@ struct MyFilesView: View {
                     Button("Voir les démarches", action: onBrowse)
                         .primaryGlassButton()
                 }
+                .listRowBackground(Color.clear)
+                .listRowSeparator(.hidden)
             } else {
-                List {
-                    Section {
-                        ForEach(entries) { entry in
-                            ProcedureCard(entry: entry)
-                                .listRowBackground(Color.clear)
-                                .listRowSeparator(.hidden)
-                                .listRowInsets(EdgeInsets(top: 6, leading: 20, bottom: 6, trailing: 20))
-                                .swipeActions {
-                                    Button(role: .destructive) { toDelete = entry } label: {
-                                        Label("Supprimer", systemImage: "trash")
-                                    }
+                Section {
+                    ForEach(entries) { entry in
+                        ProcedureCard(entry: entry)
+                            .listRowBackground(Color.clear)
+                            .listRowSeparator(.hidden)
+                            .listRowInsets(EdgeInsets(top: 6, leading: 20, bottom: 6, trailing: 20))
+                            .swipeActions {
+                                Button(role: .destructive) { toDelete = entry } label: {
+                                    Label("Supprimer", systemImage: "trash")
                                 }
-                                .contextMenu {
-                                    Button(role: .destructive) { toDelete = entry } label: {
-                                        Label("Supprimer ce dossier", systemImage: "trash")
-                                    }
+                            }
+                            .contextMenu {
+                                Button(role: .destructive) { toDelete = entry } label: {
+                                    Label("Supprimer ce dossier", systemImage: "trash")
                                 }
-                        }
-                    } footer: {
-                        Text("Glissez un dossier vers la gauche pour le supprimer.")
+                            }
                     }
+                } header: {
+                    Text("Mes démarches en cours")
+                } footer: {
+                    Text("Glissez un dossier vers la gauche pour le supprimer.")
                 }
-                .listStyle(.plain)
-                .scrollContentBackground(.hidden)
             }
         }
+        .listStyle(.plain)
+        .scrollContentBackground(.hidden)
         .background(AppBackground())
         .navigationTitle("Mes dossiers")
         .confirmationDialog(

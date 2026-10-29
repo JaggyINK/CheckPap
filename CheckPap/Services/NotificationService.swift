@@ -33,6 +33,29 @@ enum NotificationService {
         return ids
     }
 
+    /// Un rappel à 9 h le jour de chaque date (dates passées ignorées).
+    static func schedule(_ reminders: [(date: Date, title: String, body: String)]) async -> [String] {
+        var ids: [String] = []
+        for reminder in reminders {
+            var components = Calendar.current.dateComponents([.year, .month, .day], from: reminder.date)
+            components.hour = 9
+            guard let fireDate = Calendar.current.date(from: components), fireDate > .now else { continue }
+            let content = UNMutableNotificationContent()
+            content.title = reminder.title
+            content.body = reminder.body
+            content.sound = .default
+            let id = UUID().uuidString
+            let request = UNNotificationRequest(
+                identifier: id, content: content,
+                trigger: UNCalendarNotificationTrigger(dateMatching: components, repeats: false)
+            )
+            if (try? await UNUserNotificationCenter.current().add(request)) != nil {
+                ids.append(id)
+            }
+        }
+        return ids
+    }
+
     static func cancel(_ ids: [String]) {
         UNUserNotificationCenter.current().removePendingNotificationRequests(withIdentifiers: ids)
     }
