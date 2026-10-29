@@ -94,7 +94,8 @@ Dernière mise à jour du plan : 29/10/2026.
 - S'expatrier : parcours complet pour les personnes étrangères vivant en France (passeport de leur pays, visa selon la nationalité, effet d'une longue absence sur le titre de séjour, réfugiés, impôts, protection sociale), plus d'impasse.
 - Mon titre de séjour (onglet Mes dossiers) : date de fin et type de titre, dates de renouvellement calculées avec les règles de la démarche Renouvellement, rappels à 9 h ces jours-là et le jour de la fin de validité.
 - Préparer mon départ et Voyager hors de France : nouvelle question "Dans quel pays partez-vous ?" (type `country`) ; la liste affiche une carte "Votre destination" avec le budget repère et le lien vers la fiche pays.
-- En cours : annuaire des préfectures (`prefectures.json`).
+- Annuaire des préfectures (`prefectures.json`) : 101 départements avec adresse, téléphone et sous-préfectures ; site vérifié pour 50, page de rendez-vous pour Paris seulement (les sites des préfectures ont bloqué les vérifications). Sinon, l'app ouvre la fiche de la préfecture dans l'annuaire de l'administration.
+- À faire : relancer la vérification des sites et pages de rendez-vous des préfectures, lentement (une requête toutes les 3 secondes).
 
 ## Feuille de route après la v1 (demandes de l'utilisatrice)
 

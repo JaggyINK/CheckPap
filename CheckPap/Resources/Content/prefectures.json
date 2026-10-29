@@ -1,0 +1,3094 @@
+{
+  "lastVerified": "2026-10-29",
+  "sources": [
+    {
+      "id": "annuaire_api",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "API Annuaire de l'administration et des services publics",
+      "url": "https://api-lannuaire.service-public.gouv.fr/explore/dataset/api-lannuaire-administration/api/",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_dataset",
+      "publisher": "data.gouv.fr",
+      "title": "Service-public.gouv.fr - Annuaire de l'administration - Base de données locales",
+      "url": "https://www.data.gouv.fr/datasets/service-public-gouv-fr-annuaire-de-ladministration-base-de-donnees-locales",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_01",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Ain - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/auvergne-rhone-alpes/ain/52540ade-49fd-4b93-9de0-d1b7834097c5",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_01",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 3 résultat(s) Ain - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/auvergne-rhone-alpes/ain/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_02",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Aisne - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/hauts-de-france/aisne/715f7838-001b-4f45-9cd0-cfb95b6b6fd2",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_02",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 4 résultat(s) Aisne - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/hauts-de-france/aisne/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_03",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Allier - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/auvergne-rhone-alpes/allier/862954e0-d918-4581-bdb3-e397df94003d",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_03",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 2 résultat(s) Allier - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/auvergne-rhone-alpes/allier/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_04",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Alpes-de-Haute-Provence - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/provence-alpes-cote-d-azur/alpes-de-haute-provence/e91978a4-0aff-4cdd-b27a-f752d54f6bc1",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_04",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 3 résultat(s) Alpes-de-Haute-Provence - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/provence-alpes-cote-d-azur/alpes-de-haute-provence/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_05",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Hautes-Alpes - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/provence-alpes-cote-d-azur/hautes-alpes/b90485a7-f293-4dd6-84b2-8bd60df5c2fb",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_05",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 1 résultat(s) Hautes-Alpes - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/provence-alpes-cote-d-azur/hautes-alpes/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_06",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Alpes-Maritimes - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/provence-alpes-cote-d-azur/alpes-maritimes/26a9c215-0daa-4ee8-849f-13a15c5dec5a",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_06",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 2 résultat(s) Alpes-Maritimes - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/provence-alpes-cote-d-azur/alpes-maritimes/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_07",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Ardèche - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/auvergne-rhone-alpes/ardeche/5763d4b9-36f1-46ef-8a1f-be2586b82f0e",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_07",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 2 résultat(s) Ardèche - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/auvergne-rhone-alpes/ardeche/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_08",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Ardennes - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/grand-est/ardennes/3c16cdaf-0aef-45e6-b0bb-f39705c9be44",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_08",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 3 résultat(s) Ardennes - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/grand-est/ardennes/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_09",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Ariège - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/occitanie/ariege/02f0cd6c-39a8-4804-abca-db83f1dbf3fb",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_09",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 2 résultat(s) Ariège - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/occitanie/ariege/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_10",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Aube - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/grand-est/aube/ab7e2333-bcc1-4d47-b705-a0dc6e1d058c",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_10",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 2 résultat(s) Aube - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/grand-est/aube/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_11",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Aude - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/occitanie/aude/c5fb7c1b-2426-47bf-b96b-991f84e63a1f",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_11",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 2 résultat(s) Aude - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/occitanie/aude/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_12",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Aveyron - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/occitanie/aveyron/15e75ffd-e4c3-4b3e-97e8-1f91760ab105",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_12",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 2 résultat(s) Aveyron - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/occitanie/aveyron/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_13",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Bouches-du-Rhône - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/provence-alpes-cote-d-azur/bouches-du-rhone/e5bd70c4-80df-41da-bb65-2e53299b9119",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_13",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 3 résultat(s) Bouches-du-Rhône - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/provence-alpes-cote-d-azur/bouches-du-rhone/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_14",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Calvados - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/normandie/calvados/72fbe34d-5350-42ae-90b9-e47106d0e7d8",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_14",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 3 résultat(s) Calvados - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/normandie/calvados/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_15",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Cantal - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/auvergne-rhone-alpes/cantal/9b4029f4-b42c-4b5d-9934-483d5b38b63f",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_15",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 2 résultat(s) Cantal - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/auvergne-rhone-alpes/cantal/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_16",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Charente - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/nouvelle-aquitaine/charente/b5738c18-0e90-4c8b-bca3-5f42f6c31807",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_16",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 2 résultat(s) Charente - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/nouvelle-aquitaine/charente/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_17",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Charente-Maritime - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/nouvelle-aquitaine/charente-maritime/b15e371b-5e5d-4a51-b030-411823e4eb3e",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_17",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 4 résultat(s) Charente-Maritime - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/nouvelle-aquitaine/charente-maritime/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_18",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Cher - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/centre-val-de-loire/cher/3594994d-5d1f-4276-89fa-7e6494d3ebb0",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_18",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 2 résultat(s) Cher - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/centre-val-de-loire/cher/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_19",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Corrèze - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/nouvelle-aquitaine/correze/74aff24d-6edf-4a6f-a9a3-3cbeea9309a3",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_19",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 2 résultat(s) Corrèze - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/nouvelle-aquitaine/correze/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_2a",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Corse-du-Sud - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/corse/corse-du-sud/4806a1b0-e34a-416f-95e3-21f729837f8f",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_2a",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 1 résultat(s) Corse-du-Sud - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/corse/corse-du-sud/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_2b",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Haute-Corse - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/corse/haute-corse/9e476da4-b440-4767-a3d5-f32753dec22b",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_2b",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 2 résultat(s) Haute-Corse - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/corse/haute-corse/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_21",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Côte-d'Or - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/bourgogne-franche-comte/cote-d-or/32bfc2bc-9fc9-494b-b0d7-ad7ba0025c69",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_21",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 2 résultat(s) Côte-d'Or - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/bourgogne-franche-comte/cote-d-or/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_22",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Côtes-d'Armor - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/bretagne/cotes-d-armor/106c2d6a-4f2b-4aa6-b08a-998e63790aab",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_22",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 3 résultat(s) Côtes-d'Armor - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/bretagne/cotes-d-armor/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_23",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Creuse - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/nouvelle-aquitaine/creuse/14732cd9-a9ed-4528-9666-b57ea3660ace",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_23",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 1 résultat(s) Creuse - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/nouvelle-aquitaine/creuse/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_24",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Dordogne - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/nouvelle-aquitaine/dordogne/770ad5fe-b798-4bac-9df2-1f0ecd3d6e57",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_24",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 3 résultat(s) Dordogne - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/nouvelle-aquitaine/dordogne/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_25",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Doubs - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/bourgogne-franche-comte/doubs/27632011-2e64-484f-9707-00afd5ddb0d9",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_25",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 2 résultat(s) Doubs - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/bourgogne-franche-comte/doubs/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_26",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Drôme - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/auvergne-rhone-alpes/drome/d8c995cf-0b36-4eef-a68d-dd0802c76cbf",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_26",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 2 résultat(s) Drôme - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/auvergne-rhone-alpes/drome/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_27",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Eure - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/normandie/eure/ec1de053-417a-4088-8ddb-02b5089b657f",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_27",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 2 résultat(s) Eure - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/normandie/eure/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_28",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Eure-et-Loir - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/centre-val-de-loire/eure-et-loir/d1dc3abd-cdb8-4d93-aca2-6106411883d8",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_28",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 3 résultat(s) Eure-et-Loir - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/centre-val-de-loire/eure-et-loir/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_29",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Finistère - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/bretagne/finistere/2a739ac5-4620-45fc-82c5-83fe8db07df0",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_29",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 3 résultat(s) Finistère - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/bretagne/finistere/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_30",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Gard - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/occitanie/gard/6c56f81e-c303-4006-bf23-0e35ecf0b9c0",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_30",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 2 résultat(s) Gard - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/occitanie/gard/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_31",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Haute-Garonne - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/occitanie/haute-garonne/bcbcfb2e-89ec-44a4-b2ae-28f87c55357f",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_31",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 2 résultat(s) Haute-Garonne - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/occitanie/haute-garonne/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_32",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Gers - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/occitanie/gers/dd662b7a-5485-48d6-ad1a-f1720b05830f",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_32",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 2 résultat(s) Gers - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/occitanie/gers/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_33",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Gironde - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/nouvelle-aquitaine/gironde/03ba0b47-7bd0-4e68-9a14-4125b9ae0484",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_33",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 5 résultat(s) Gironde - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/nouvelle-aquitaine/gironde/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_34",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Hérault - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/occitanie/herault/cc7a5287-6ebb-4dc7-af37-fab99bc266a6",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_34",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 2 résultat(s) Hérault - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/occitanie/herault/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_35",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Ille-et-Vilaine - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/bretagne/ille-et-vilaine/229f6896-6ee0-443d-901c-0a3f44b15f30",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_35",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 3 résultat(s) Ille-et-Vilaine - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/bretagne/ille-et-vilaine/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_36",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Indre - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/centre-val-de-loire/indre/1c1f751c-55a1-4056-ab65-33b2f7392a81",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_36",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 3 résultat(s) Indre - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/centre-val-de-loire/indre/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_37",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Indre-et-Loire - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/centre-val-de-loire/indre-et-loire/206b64cc-3e35-4f28-a521-f3da90bf54cb",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_37",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 2 résultat(s) Indre-et-Loire - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/centre-val-de-loire/indre-et-loire/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_38",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Isère - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/auvergne-rhone-alpes/isere/d43894ef-bf14-42d2-b07d-0c1f6b906026",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_38",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 2 résultat(s) Isère - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/auvergne-rhone-alpes/isere/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_39",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Jura - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/bourgogne-franche-comte/jura/989adb94-9d39-4054-aaf5-2572aa11ec63",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_39",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 2 résultat(s) Jura - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/bourgogne-franche-comte/jura/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_40",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Landes - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/nouvelle-aquitaine/landes/634271f6-e001-48ff-97bd-4b91ca455d0a",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_40",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 1 résultat(s) Landes - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/nouvelle-aquitaine/landes/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_41",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Loir-et-Cher - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/centre-val-de-loire/loir-et-cher/d5282ebc-1fcd-4bf5-ab53-269d21b0bc67",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_41",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 2 résultat(s) Loir-et-Cher - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/centre-val-de-loire/loir-et-cher/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_42",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Loire - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/auvergne-rhone-alpes/loire/19fefc85-ec18-4b72-b858-516e20cf1147",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_42",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 2 résultat(s) Loire - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/auvergne-rhone-alpes/loire/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_43",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Haute-Loire - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/auvergne-rhone-alpes/haute-loire/389ea306-c22b-42f2-b5d4-186b7e742301",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_43",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 2 résultat(s) Haute-Loire - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/auvergne-rhone-alpes/haute-loire/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_44",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Loire-Atlantique - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/pays-de-la-loire/loire-atlantique/99392b20-dff3-40bd-9496-8d6d999b7872",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_44",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 2 résultat(s) Loire-Atlantique - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/pays-de-la-loire/loire-atlantique/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_45",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Loiret - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/centre-val-de-loire/loiret/3040f259-ddb7-4e8a-bd5a-9ea9149270e2",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_45",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 2 résultat(s) Loiret - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/centre-val-de-loire/loiret/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_46",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Lot - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/occitanie/lot/2b702572-9604-48f4-b836-518f5a841bb1",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_46",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 2 résultat(s) Lot - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/occitanie/lot/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_47",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Lot-et-Garonne - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/nouvelle-aquitaine/lot-et-garonne/5f7fffa8-a2f3-4830-9c59-d8c67d56ba8a",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_47",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 2 résultat(s) Lot-et-Garonne - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/nouvelle-aquitaine/lot-et-garonne/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_48",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Lozère - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/occitanie/lozere/77157508-65b5-4cc4-b427-28d0d7c8109a",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_48",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 1 résultat(s) Lozère - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/occitanie/lozere/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_49",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Maine-et-Loire - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/pays-de-la-loire/maine-et-loire/c28fed7b-ba94-4baa-97ca-0346b526229d",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_49",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 3 résultat(s) Maine-et-Loire - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/pays-de-la-loire/maine-et-loire/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_50",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Manche - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/normandie/manche/e5db6c06-1ccb-4402-a7a8-f0ceb5ac9268",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_50",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 3 résultat(s) Manche - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/normandie/manche/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_51",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Marne - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/grand-est/marne/1cb215c2-96e1-4a94-921a-98a370bc9887",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_51",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 3 résultat(s) Marne - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/grand-est/marne/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_52",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Haute-Marne - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/grand-est/haute-marne/15395ad3-2176-46b0-9d0a-ee60133d7906",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_52",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 2 résultat(s) Haute-Marne - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/grand-est/haute-marne/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_53",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Mayenne - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/pays-de-la-loire/mayenne/869d8e5a-0c0a-468c-8736-ce74cfacbc76",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_53",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 2 résultat(s) Mayenne - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/pays-de-la-loire/mayenne/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_54",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Meurthe-et-Moselle - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/grand-est/meurthe-et-moselle/b07dff0b-5af8-4359-9c04-ffeb1cba13c9",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_54",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 3 résultat(s) Meurthe-et-Moselle - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/grand-est/meurthe-et-moselle/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_55",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Meuse - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/grand-est/meuse/7ced2ae9-068c-40c5-8175-e0f2fbd596b1",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_55",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 2 résultat(s) Meuse - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/grand-est/meuse/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_56",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Morbihan - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/bretagne/morbihan/966f71dd-d463-4994-ad32-2f351bccb55c",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_56",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 2 résultat(s) Morbihan - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/bretagne/morbihan/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_57",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Moselle - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/grand-est/moselle/b72ca22f-907c-48ff-91e0-c8b3aa953ae5",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_57",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 4 résultat(s) Moselle - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/grand-est/moselle/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_58",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Nièvre - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/bourgogne-franche-comte/nievre/2cf88fcb-e2ee-4531-805b-13135f256ff6",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_58",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 3 résultat(s) Nièvre - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/bourgogne-franche-comte/nievre/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_59",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Nord - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/hauts-de-france/nord/88df876f-8048-41cd-b985-d796bd21580e",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_59",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 5 résultat(s) Nord - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/hauts-de-france/nord/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_60",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Oise - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/hauts-de-france/oise/51d7cd1b-4d4e-4910-9a7b-947ffd055ced",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_60",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 3 résultat(s) Oise - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/hauts-de-france/oise/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_61",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Orne - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/normandie/orne/c4fd783b-bdcc-402d-b870-223fc4445b0c",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_61",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 2 résultat(s) Orne - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/normandie/orne/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_62",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Pas-de-Calais - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/hauts-de-france/pas-de-calais/a198c12b-5ae6-4c67-9a29-fb47323c8b7f",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_62",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 6 résultat(s) Pas-de-Calais - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/hauts-de-france/pas-de-calais/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_63",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Puy-de-Dôme - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/auvergne-rhone-alpes/puy-de-dome/d495649e-148a-4d09-97c2-2c11263bd7cf",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_63",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 4 résultat(s) Puy-de-Dôme - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/auvergne-rhone-alpes/puy-de-dome/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_64",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Pyrénées-Atlantiques - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/nouvelle-aquitaine/pyrenees-atlantiques/1f948f35-9246-4220-92dd-dfc63c909135",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_64",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 2 résultat(s) Pyrénées-Atlantiques - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/nouvelle-aquitaine/pyrenees-atlantiques/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_65",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Hautes-Pyrénées - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/occitanie/hautes-pyrenees/46f1fa23-691f-4c8e-bc70-93e9c8c42e1c",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_65",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 2 résultat(s) Hautes-Pyrénées - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/occitanie/hautes-pyrenees/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_66",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Pyrénées-Orientales - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/occitanie/pyrenees-orientales/26e27775-3024-4da5-b6d7-ecb3b0a8733c",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_66",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 2 résultat(s) Pyrénées-Orientales - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/occitanie/pyrenees-orientales/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_67",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Bas-Rhin - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/grand-est/bas-rhin/2d5be364-275d-4e49-93cd-f132cfd45255",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_67",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 4 résultat(s) Bas-Rhin - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/grand-est/bas-rhin/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_68",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Haut-Rhin - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/grand-est/haut-rhin/9a58d701-f793-486d-863c-63ee35dd2b10",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_68",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 3 résultat(s) Haut-Rhin - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/grand-est/haut-rhin/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_69",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Rhône - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/auvergne-rhone-alpes/rhone/97aee73f-4216-4b70-94bb-bc5bd5d76984",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_69",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 1 résultat(s) Rhône - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/auvergne-rhone-alpes/rhone/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_70",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Haute-Saône - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/bourgogne-franche-comte/haute-saone/f0726527-39a6-4c4c-a6cd-2284d82d48b9",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_70",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 1 résultat(s) Haute-Saône - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/bourgogne-franche-comte/haute-saone/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_71",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Saône-et-Loire - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/bourgogne-franche-comte/saone-et-loire/e27befdb-2fb3-47fd-955a-60c930941d02",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_71",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 4 résultat(s) Saône-et-Loire - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/bourgogne-franche-comte/saone-et-loire/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_72",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Sarthe - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/pays-de-la-loire/sarthe/885ea458-c4db-4634-8d91-d651c44ba72d",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_72",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 2 résultat(s) Sarthe - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/pays-de-la-loire/sarthe/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_73",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Savoie - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/auvergne-rhone-alpes/savoie/81344c70-3601-481e-857d-a24f50b5e5a7",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_73",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 2 résultat(s) Savoie - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/auvergne-rhone-alpes/savoie/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_74",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Haute-Savoie - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/auvergne-rhone-alpes/haute-savoie/7996bb87-77d0-4570-a7cd-325e0cc48b2f",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_74",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 3 résultat(s) Haute-Savoie - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/auvergne-rhone-alpes/haute-savoie/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_75",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture de police de Paris - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/ile-de-france/paris/90c98979-445b-4410-8dc9-feae721b0738",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "pref_rdv_75",
+      "publisher": "prefecturedepolice.interieur.gouv.fr",
+      "title": "Titres de séjour - Nous contacter | Préfecture de Police",
+      "url": "https://www.prefecturedepolice.interieur.gouv.fr/demarches/titres-de-sejour-nous-contacter",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_76",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Seine-Maritime - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/normandie/seine-maritime/67aefdb7-9729-43ee-bc54-a768300c1f20",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_76",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 2 résultat(s) Seine-Maritime - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/normandie/seine-maritime/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_77",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Seine-et-Marne - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/ile-de-france/seine-et-marne/245006d0-6cc2-4b53-861a-c2e9b8a6747b",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_77",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 4 résultat(s) Seine-et-Marne - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/ile-de-france/seine-et-marne/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_78",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Yvelines - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/ile-de-france/yvelines/b8310757-c178-43fe-aec5-0cb4803b86b2",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_78",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 3 résultat(s) Yvelines - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/ile-de-france/yvelines/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_79",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Deux-Sèvres - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/nouvelle-aquitaine/deux-sevres/e4859d0d-a7c5-44a9-a714-7b3252f74552",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_79",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 2 résultat(s) Deux-Sèvres - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/nouvelle-aquitaine/deux-sevres/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_80",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Somme - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/hauts-de-france/somme/57fbd6c8-62b5-443b-bf52-d7b3db5b2b47",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_80",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 3 résultat(s) Somme - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/hauts-de-france/somme/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_81",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Tarn - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/occitanie/tarn/677614ea-f87a-48ca-9f3d-928e5aa2b272",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_81",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 1 résultat(s) Tarn - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/occitanie/tarn/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_82",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Tarn-et-Garonne - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/occitanie/tarn-et-garonne/6e8b5540-e240-41d3-a029-b6262c5a5373",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_82",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 1 résultat(s) Tarn-et-Garonne - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/occitanie/tarn-et-garonne/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_83",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Var - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/provence-alpes-cote-d-azur/var/162ab3b2-360f-46cc-ac83-67c967b214bd",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_83",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 2 résultat(s) Var - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/provence-alpes-cote-d-azur/var/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_84",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Vaucluse - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/provence-alpes-cote-d-azur/vaucluse/55e56746-59d1-4cb5-8b4a-136171fb5784",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_84",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 2 résultat(s) Vaucluse - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/provence-alpes-cote-d-azur/vaucluse/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_85",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Vendée - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/pays-de-la-loire/vendee/f1a3efbb-cff0-4990-90f1-6d40c13abdfa",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_85",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 2 résultat(s) Vendée - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/pays-de-la-loire/vendee/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_86",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Vienne - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/nouvelle-aquitaine/vienne/044f4ada-e551-426d-8c62-6d7b19f5d21a",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_86",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 2 résultat(s) Vienne - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/nouvelle-aquitaine/vienne/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_87",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Haute-Vienne - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/nouvelle-aquitaine/haute-vienne/86d0ebc6-a84b-4cc8-a178-f5172ca3584c",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_87",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 2 résultat(s) Haute-Vienne - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/nouvelle-aquitaine/haute-vienne/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_88",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Vosges - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/grand-est/vosges/f999af82-5a34-4f67-a8df-52a2a8c177d1",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_88",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 2 résultat(s) Vosges - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/grand-est/vosges/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_89",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Yonne - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/bourgogne-franche-comte/yonne/cc30c13c-3551-4a44-8750-bc5bca8d6f92",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_89",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 2 résultat(s) Yonne - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/bourgogne-franche-comte/yonne/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_90",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Territoire de Belfort - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/bourgogne-franche-comte/territoire-de-belfort/6ade1784-caf8-438a-869d-6139cb1b6353",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_91",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Essonne - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/ile-de-france/essonne/68982b67-c7ab-46f7-aa74-c9a46a7d04ad",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_91",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 2 résultat(s) Essonne - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/ile-de-france/essonne/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_92",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Hauts-de-Seine - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/ile-de-france/hauts-de-seine/0d56064a-bf03-4ef4-a8b0-85d882fa4677",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_92",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 2 résultat(s) Hauts-de-Seine - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/ile-de-france/hauts-de-seine/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_93",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Seine-Saint-Denis - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/ile-de-france/seine-saint-denis/6cbec247-95d0-4aca-befe-352a3805c7de",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_93",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 2 résultat(s) Seine-Saint-Denis - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/ile-de-france/seine-saint-denis/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_94",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Val-de-Marne - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/ile-de-france/val-de-marne/dc82689e-1fe2-495d-aceb-6f1fed3c5690",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_94",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 2 résultat(s) Val-de-Marne - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/ile-de-france/val-de-marne/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_95",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Val-d'Oise - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/ile-de-france/val-d-oise/70ca07b0-db06-41a7-ae0f-58239c9a643a",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_95",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 2 résultat(s) Val-d'Oise - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/ile-de-france/val-d-oise/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_971",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Guadeloupe - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/guadeloupe/guadeloupe/7121906b-cecf-46b5-abe5-ec4f9ef8c669",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_971",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 1 résultat(s) Guadeloupe - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/guadeloupe/guadeloupe/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_972",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Martinique - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/martinique/martinique/f9d7fb06-b1c4-4fb4-9840-235085c3e637",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_972",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 3 résultat(s) Martinique - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/martinique/martinique/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_973",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Guyane - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/guyane/guyane/1efa4780-c58a-4b68-84ca-725d0c7cf82c",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_973",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 2 résultat(s) Guyane - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/guyane/guyane/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_974",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - La Réunion - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/la-reunion/la-reunion/b10e78eb-7e1f-4a39-a345-5356a242b6d9",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sp_974",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - 3 résultat(s) La Réunion - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/la-reunion/la-reunion/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_976",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Mayotte - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/mayotte/mayotte/d67b1697-0e17-45a5-a1e3-eaa12eba8270",
+      "consulted": "2026-10-29"
+    }
+  ],
+  "departments": [
+    {
+      "code": "01",
+      "name": "Ain",
+      "prefecture": {
+        "fr": "Préfecture de l'Ain",
+        "en": "Ain prefecture"
+      },
+      "city": "Bourg-en-Bresse",
+      "address": "45 avenue Alsace-Lorraine, 01000 Bourg-en-Bresse",
+      "phone": "0474323000",
+      "website": "https://www.ain.gouv.fr/",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/auvergne-rhone-alpes/ain/sous_pref",
+      "sources": [
+        "annuaire_01",
+        "annuaire_sp_01"
+      ]
+    },
+    {
+      "code": "02",
+      "name": "Aisne",
+      "prefecture": {
+        "fr": "Préfecture de l'Aisne",
+        "en": "Aisne prefecture"
+      },
+      "city": "Laon",
+      "address": "2 rue Paul-Doumer, 02000 Laon",
+      "phone": "0323218282",
+      "website": "https://www.aisne.gouv.fr/",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/hauts-de-france/aisne/sous_pref",
+      "sources": [
+        "annuaire_02",
+        "annuaire_sp_02"
+      ]
+    },
+    {
+      "code": "03",
+      "name": "Allier",
+      "prefecture": {
+        "fr": "Préfecture de l'Allier",
+        "en": "Allier prefecture"
+      },
+      "city": "Moulins",
+      "address": "2 rue Michel-de-L'Hospital, 03000 Moulins",
+      "phone": "0470483000",
+      "website": "https://www.allier.gouv.fr/",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/auvergne-rhone-alpes/allier/sous_pref",
+      "sources": [
+        "annuaire_03",
+        "annuaire_sp_03"
+      ]
+    },
+    {
+      "code": "04",
+      "name": "Alpes-de-Haute-Provence",
+      "prefecture": {
+        "fr": "Préfecture des Alpes-de-Haute-Provence",
+        "en": "Alpes-de-Haute-Provence prefecture"
+      },
+      "city": "Digne-les-Bains",
+      "address": "Place André Thisy, 04000 Digne-les-Bains",
+      "phone": "0492367200",
+      "website": "https://www.alpes-de-haute-provence.gouv.fr/",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/provence-alpes-cote-d-azur/alpes-de-haute-provence/sous_pref",
+      "sources": [
+        "annuaire_04",
+        "annuaire_sp_04"
+      ]
+    },
+    {
+      "code": "05",
+      "name": "Hautes-Alpes",
+      "prefecture": {
+        "fr": "Préfecture des Hautes-Alpes",
+        "en": "Hautes-Alpes prefecture"
+      },
+      "city": "Gap",
+      "address": "28 rue Saint-Arey, 05000 Gap",
+      "phone": "0492404800",
+      "website": "https://www.hautes-alpes.gouv.fr/",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/provence-alpes-cote-d-azur/hautes-alpes/sous_pref",
+      "sources": [
+        "annuaire_05",
+        "annuaire_sp_05"
+      ]
+    },
+    {
+      "code": "06",
+      "name": "Alpes-Maritimes",
+      "prefecture": {
+        "fr": "Préfecture des Alpes-Maritimes",
+        "en": "Alpes-Maritimes prefecture"
+      },
+      "city": "Nice",
+      "address": "Centre administratif, 147 boulevard du Mercantour, 06200 Nice",
+      "phone": "0493722000",
+      "website": "https://www.alpes-maritimes.gouv.fr/",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/provence-alpes-cote-d-azur/alpes-maritimes/sous_pref",
+      "sources": [
+        "annuaire_06",
+        "annuaire_sp_06"
+      ]
+    },
+    {
+      "code": "07",
+      "name": "Ardèche",
+      "prefecture": {
+        "fr": "Préfecture de l'Ardèche",
+        "en": "Ardèche prefecture"
+      },
+      "city": "Privas",
+      "address": "5 rue Pierre-Filliat, 07000 Privas",
+      "phone": "0475665000",
+      "website": "https://www.ardeche.gouv.fr/",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/auvergne-rhone-alpes/ardeche/sous_pref",
+      "sources": [
+        "annuaire_07",
+        "annuaire_sp_07"
+      ]
+    },
+    {
+      "code": "08",
+      "name": "Ardennes",
+      "prefecture": {
+        "fr": "Préfecture des Ardennes",
+        "en": "Ardennes prefecture"
+      },
+      "city": "Charleville-Mézières",
+      "address": "1 place de la Préfecture, 08000 Charleville-Mézières",
+      "phone": "0324596600",
+      "website": "https://www.ardennes.gouv.fr/",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/grand-est/ardennes/sous_pref",
+      "sources": [
+        "annuaire_08",
+        "annuaire_sp_08"
+      ]
+    },
+    {
+      "code": "09",
+      "name": "Ariège",
+      "prefecture": {
+        "fr": "Préfecture de l'Ariège",
+        "en": "Ariège prefecture"
+      },
+      "city": "Foix",
+      "address": "2 rue de la Préfecture, 09000 Foix",
+      "phone": "0561021000",
+      "website": "https://www.ariege.gouv.fr/",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/occitanie/ariege/sous_pref",
+      "sources": [
+        "annuaire_09",
+        "annuaire_sp_09"
+      ]
+    },
+    {
+      "code": "10",
+      "name": "Aube",
+      "prefecture": {
+        "fr": "Préfecture de l'Aube",
+        "en": "Aube prefecture"
+      },
+      "city": "Troyes",
+      "address": "2 rue Pierre-Labonde, 10000 Troyes",
+      "phone": "0325423500",
+      "website": "https://www.aube.gouv.fr/",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/grand-est/aube/sous_pref",
+      "sources": [
+        "annuaire_10",
+        "annuaire_sp_10"
+      ]
+    },
+    {
+      "code": "11",
+      "name": "Aude",
+      "prefecture": {
+        "fr": "Préfecture de l'Aude",
+        "en": "Aude prefecture"
+      },
+      "city": "Carcassonne",
+      "address": "52 rue Jean-Bringer, 11000 Carcassonne",
+      "phone": "0468102700",
+      "website": "https://www.aude.gouv.fr/",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/occitanie/aude/sous_pref",
+      "sources": [
+        "annuaire_11",
+        "annuaire_sp_11"
+      ]
+    },
+    {
+      "code": "12",
+      "name": "Aveyron",
+      "prefecture": {
+        "fr": "Préfecture de l'Aveyron",
+        "en": "Aveyron prefecture"
+      },
+      "city": "Rodez",
+      "address": "Centre administratif Foch, Place Foch, 12000 Rodez",
+      "phone": "0565757171",
+      "website": "https://www.aveyron.gouv.fr/",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/occitanie/aveyron/sous_pref",
+      "sources": [
+        "annuaire_12",
+        "annuaire_sp_12"
+      ]
+    },
+    {
+      "code": "13",
+      "name": "Bouches-du-Rhône",
+      "prefecture": {
+        "fr": "Préfecture des Bouches-du-Rhône",
+        "en": "Bouches-du-Rhône prefecture"
+      },
+      "city": "Marseille",
+      "address": "1 rue Edmond Rostand, 13006 Marseille",
+      "phone": "0484354000",
+      "website": "https://www.bouches-du-rhone.gouv.fr/",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/provence-alpes-cote-d-azur/bouches-du-rhone/sous_pref",
+      "sources": [
+        "annuaire_13",
+        "annuaire_sp_13"
+      ]
+    },
+    {
+      "code": "14",
+      "name": "Calvados",
+      "prefecture": {
+        "fr": "Préfecture du Calvados",
+        "en": "Calvados prefecture"
+      },
+      "city": "Caen",
+      "address": "Rue Daniel-Huet, 14000 Caen",
+      "phone": "0231306400",
+      "website": "https://www.calvados.gouv.fr/",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/normandie/calvados/sous_pref",
+      "sources": [
+        "annuaire_14",
+        "annuaire_sp_14"
+      ]
+    },
+    {
+      "code": "15",
+      "name": "Cantal",
+      "prefecture": {
+        "fr": "Préfecture du Cantal",
+        "en": "Cantal prefecture"
+      },
+      "city": "Aurillac",
+      "address": "Cours Monthyon, 15000 Aurillac",
+      "phone": "0471462300",
+      "website": "https://www.cantal.gouv.fr/",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/auvergne-rhone-alpes/cantal/sous_pref",
+      "sources": [
+        "annuaire_15",
+        "annuaire_sp_15"
+      ]
+    },
+    {
+      "code": "16",
+      "name": "Charente",
+      "prefecture": {
+        "fr": "Préfecture de la Charente",
+        "en": "Charente prefecture"
+      },
+      "city": "Angoulême",
+      "address": "7-9 rue de la Préfecture, 16000 Angoulême",
+      "phone": "0545976100",
+      "website": "https://www.charente.gouv.fr/",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/nouvelle-aquitaine/charente/sous_pref",
+      "sources": [
+        "annuaire_16",
+        "annuaire_sp_16"
+      ]
+    },
+    {
+      "code": "17",
+      "name": "Charente-Maritime",
+      "prefecture": {
+        "fr": "Préfecture de la Charente-Maritime",
+        "en": "Charente-Maritime prefecture"
+      },
+      "city": "La Rochelle",
+      "address": "Cité administrative, Site Duperré, 5 Place des Cordeliers, 17000 La Rochelle",
+      "phone": "0546274300",
+      "website": "https://www.charente-maritime.gouv.fr/",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/nouvelle-aquitaine/charente-maritime/sous_pref",
+      "sources": [
+        "annuaire_17",
+        "annuaire_sp_17"
+      ]
+    },
+    {
+      "code": "18",
+      "name": "Cher",
+      "prefecture": {
+        "fr": "Préfecture du Cher",
+        "en": "Cher prefecture"
+      },
+      "city": "Bourges",
+      "address": "place Marcel-Plaisant, 18000 Bourges",
+      "phone": "0248671818",
+      "website": "https://www.cher.gouv.fr/",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/centre-val-de-loire/cher/sous_pref",
+      "sources": [
+        "annuaire_18",
+        "annuaire_sp_18"
+      ]
+    },
+    {
+      "code": "19",
+      "name": "Corrèze",
+      "prefecture": {
+        "fr": "Préfecture de la Corrèze",
+        "en": "Corrèze prefecture"
+      },
+      "city": "Tulle",
+      "address": "1 rue Souham, 19000 Tulle",
+      "phone": "0555205520",
+      "website": "https://www.correze.gouv.fr/",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/nouvelle-aquitaine/correze/sous_pref",
+      "sources": [
+        "annuaire_19",
+        "annuaire_sp_19"
+      ]
+    },
+    {
+      "code": "2A",
+      "name": "Corse-du-Sud",
+      "prefecture": {
+        "fr": "Préfecture de la Corse-du-Sud",
+        "en": "Corse-du-Sud prefecture"
+      },
+      "city": "Ajaccio",
+      "address": "Palais Lantivy, Cours Napoléon, 20000 Ajaccio",
+      "phone": "0495111213",
+      "website": "https://www.corse-du-sud.gouv.fr/",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/corse/corse-du-sud/sous_pref",
+      "sources": [
+        "annuaire_2a",
+        "annuaire_sp_2a"
+      ]
+    },
+    {
+      "code": "2B",
+      "name": "Haute-Corse",
+      "prefecture": {
+        "fr": "Préfecture de la Haute-Corse",
+        "en": "Haute-Corse prefecture"
+      },
+      "city": "Bastia",
+      "address": "rond-point, Maréchal Leclerc de Hautecloque, 20200 Bastia",
+      "phone": "0495345000",
+      "website": "https://www.haute-corse.gouv.fr/",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/corse/haute-corse/sous_pref",
+      "sources": [
+        "annuaire_2b",
+        "annuaire_sp_2b"
+      ]
+    },
+    {
+      "code": "21",
+      "name": "Côte-d'Or",
+      "prefecture": {
+        "fr": "Préfecture de la Côte-d'Or",
+        "en": "Côte-d'Or prefecture"
+      },
+      "city": "Dijon",
+      "address": "53 rue de la Préfecture, 21000 Dijon",
+      "phone": "0380446400",
+      "website": "https://www.cote-dor.gouv.fr/",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/bourgogne-franche-comte/cote-d-or/sous_pref",
+      "sources": [
+        "annuaire_21",
+        "annuaire_sp_21"
+      ]
+    },
+    {
+      "code": "22",
+      "name": "Côtes-d'Armor",
+      "prefecture": {
+        "fr": "Préfecture des Côtes-d'Armor",
+        "en": "Côtes-d'Armor prefecture"
+      },
+      "city": "Saint-Brieuc",
+      "address": "1 place du Général-de-Gaulle, 22000 Saint-Brieuc",
+      "phone": "0221273022",
+      "website": "https://www.cotes-darmor.gouv.fr",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/bretagne/cotes-d-armor/sous_pref",
+      "sources": [
+        "annuaire_22",
+        "annuaire_sp_22"
+      ]
+    },
+    {
+      "code": "23",
+      "name": "Creuse",
+      "prefecture": {
+        "fr": "Préfecture de la Creuse",
+        "en": "Creuse prefecture"
+      },
+      "city": "Guéret",
+      "address": "place Louis-Lacrocq, 23000 Guéret",
+      "phone": "0555515900",
+      "website": "https://www.creuse.gouv.fr/",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/nouvelle-aquitaine/creuse/sous_pref",
+      "sources": [
+        "annuaire_23",
+        "annuaire_sp_23"
+      ]
+    },
+    {
+      "code": "24",
+      "name": "Dordogne",
+      "prefecture": {
+        "fr": "Préfecture de la Dordogne",
+        "en": "Dordogne prefecture"
+      },
+      "city": "Périgueux",
+      "address": "2 rue Paul-Louis-Courier, 24000 Périgueux",
+      "phone": "0553022424",
+      "website": "https://www.dordogne.gouv.fr/",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/nouvelle-aquitaine/dordogne/sous_pref",
+      "sources": [
+        "annuaire_24",
+        "annuaire_sp_24"
+      ]
+    },
+    {
+      "code": "25",
+      "name": "Doubs",
+      "prefecture": {
+        "fr": "Préfecture du Doubs",
+        "en": "Doubs prefecture"
+      },
+      "city": "Besançon",
+      "address": "3 avenue de la Gare d'Eau, 25000 Besançon",
+      "phone": "0381251000",
+      "website": "https://www.doubs.gouv.fr/",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/bourgogne-franche-comte/doubs/sous_pref",
+      "sources": [
+        "annuaire_25",
+        "annuaire_sp_25"
+      ]
+    },
+    {
+      "code": "26",
+      "name": "Drôme",
+      "prefecture": {
+        "fr": "Préfecture de la Drôme",
+        "en": "Drôme prefecture"
+      },
+      "city": "Valence",
+      "address": "3 boulevard Vauban, 26000 Valence",
+      "phone": "0475792800",
+      "website": "https://www.drome.gouv.fr/",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/auvergne-rhone-alpes/drome/sous_pref",
+      "sources": [
+        "annuaire_26",
+        "annuaire_sp_26"
+      ]
+    },
+    {
+      "code": "27",
+      "name": "Eure",
+      "prefecture": {
+        "fr": "Préfecture de l'Eure",
+        "en": "Eure prefecture"
+      },
+      "city": "Évreux",
+      "address": "boulevard Georges-Chauvin, 27000 Évreux",
+      "phone": "0232782727",
+      "website": "https://www.eure.gouv.fr/",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/normandie/eure/sous_pref",
+      "sources": [
+        "annuaire_27",
+        "annuaire_sp_27"
+      ]
+    },
+    {
+      "code": "28",
+      "name": "Eure-et-Loir",
+      "prefecture": {
+        "fr": "Préfecture d'Eure-et-Loir",
+        "en": "Eure-et-Loir prefecture"
+      },
+      "city": "Chartres",
+      "address": "place de la République, 28000 Chartres",
+      "phone": "0237277200",
+      "website": "https://www.eure-et-loir.gouv.fr/",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/centre-val-de-loire/eure-et-loir/sous_pref",
+      "sources": [
+        "annuaire_28",
+        "annuaire_sp_28"
+      ]
+    },
+    {
+      "code": "29",
+      "name": "Finistère",
+      "prefecture": {
+        "fr": "Préfecture du Finistère",
+        "en": "Finistère prefecture"
+      },
+      "city": "Quimper",
+      "address": "42 boulevard Dupleix, 29000 Quimper",
+      "phone": "0290772000",
+      "website": "https://www.finistere.gouv.fr/",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/bretagne/finistere/sous_pref",
+      "sources": [
+        "annuaire_29",
+        "annuaire_sp_29"
+      ]
+    },
+    {
+      "code": "30",
+      "name": "Gard",
+      "prefecture": {
+        "fr": "Préfecture du Gard",
+        "en": "Gard prefecture"
+      },
+      "city": "Nîmes",
+      "address": "1 rue Guillemette, 30000 Nîmes",
+      "phone": "0466364390",
+      "website": "https://www.gard.gouv.fr/",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/occitanie/gard/sous_pref",
+      "sources": [
+        "annuaire_30",
+        "annuaire_sp_30"
+      ]
+    },
+    {
+      "code": "31",
+      "name": "Haute-Garonne",
+      "prefecture": {
+        "fr": "Préfecture de la Haute-Garonne",
+        "en": "Haute-Garonne prefecture"
+      },
+      "city": "Toulouse",
+      "address": "1 place Saint-Etienne, 31000 Toulouse",
+      "phone": "0534453445",
+      "website": "https://www.haute-garonne.gouv.fr/",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/occitanie/haute-garonne/sous_pref",
+      "sources": [
+        "annuaire_31",
+        "annuaire_sp_31"
+      ]
+    },
+    {
+      "code": "32",
+      "name": "Gers",
+      "prefecture": {
+        "fr": "Préfecture du Gers",
+        "en": "Gers prefecture"
+      },
+      "city": "Auch",
+      "address": "3 place du Préfet-Claude-Érignac, 32000 Auch",
+      "phone": "0562614400",
+      "website": "https://www.gers.gouv.fr/",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/occitanie/gers/sous_pref",
+      "sources": [
+        "annuaire_32",
+        "annuaire_sp_32"
+      ]
+    },
+    {
+      "code": "33",
+      "name": "Gironde",
+      "prefecture": {
+        "fr": "Préfecture de la Gironde",
+        "en": "Gironde prefecture"
+      },
+      "city": "Bordeaux",
+      "address": "rue Claude Bonnier, 33000 Bordeaux",
+      "phone": "0556906060",
+      "website": "https://www.gironde.gouv.fr/",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/nouvelle-aquitaine/gironde/sous_pref",
+      "sources": [
+        "annuaire_33",
+        "annuaire_sp_33"
+      ]
+    },
+    {
+      "code": "34",
+      "name": "Hérault",
+      "prefecture": {
+        "fr": "Préfecture de l'Hérault",
+        "en": "Hérault prefecture"
+      },
+      "city": "Montpellier",
+      "address": "Place des Martyrs-de-la-Résistance, 34000 Montpellier",
+      "phone": "0467616161",
+      "website": "https://www.herault.gouv.fr",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/occitanie/herault/sous_pref",
+      "sources": [
+        "annuaire_34",
+        "annuaire_sp_34"
+      ]
+    },
+    {
+      "code": "35",
+      "name": "Ille-et-Vilaine",
+      "prefecture": {
+        "fr": "Préfecture d'Ille-et-Vilaine",
+        "en": "Ille-et-Vilaine prefecture"
+      },
+      "city": "Rennes",
+      "address": "81 boulevard d'Armorique, 35700 Rennes",
+      "phone": "0221862535",
+      "website": "https://www.ille-et-vilaine.gouv.fr",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/bretagne/ille-et-vilaine/sous_pref",
+      "sources": [
+        "annuaire_35",
+        "annuaire_sp_35"
+      ]
+    },
+    {
+      "code": "36",
+      "name": "Indre",
+      "prefecture": {
+        "fr": "Préfecture de l'Indre",
+        "en": "Indre prefecture"
+      },
+      "city": "Châteauroux",
+      "address": "rue des Jeux Marins, 36000 Châteauroux",
+      "phone": "0254295000",
+      "website": "https://www.indre.gouv.fr/",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/centre-val-de-loire/indre/sous_pref",
+      "sources": [
+        "annuaire_36",
+        "annuaire_sp_36"
+      ]
+    },
+    {
+      "code": "37",
+      "name": "Indre-et-Loire",
+      "prefecture": {
+        "fr": "Préfecture d'Indre-et-Loire",
+        "en": "Indre-et-Loire prefecture"
+      },
+      "city": "Tours",
+      "address": "15 rue Bernard-Palissy, 37000 Tours",
+      "phone": "0247643737",
+      "website": "https://www.indre-et-loire.gouv.fr/",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/centre-val-de-loire/indre-et-loire/sous_pref",
+      "sources": [
+        "annuaire_37",
+        "annuaire_sp_37"
+      ]
+    },
+    {
+      "code": "38",
+      "name": "Isère",
+      "prefecture": {
+        "fr": "Préfecture de l'Isère",
+        "en": "Isère prefecture"
+      },
+      "city": "Grenoble",
+      "address": "12 place de Verdun, 38000 Grenoble",
+      "phone": "0476603400",
+      "website": "https://www.isere.gouv.fr",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/auvergne-rhone-alpes/isere/sous_pref",
+      "sources": [
+        "annuaire_38",
+        "annuaire_sp_38"
+      ]
+    },
+    {
+      "code": "39",
+      "name": "Jura",
+      "prefecture": {
+        "fr": "Préfecture du Jura",
+        "en": "Jura prefecture"
+      },
+      "city": "Lons-le-Saunier",
+      "address": "8 rue de la Préfecture, 39000 Lons-le-Saunier",
+      "phone": "0384868400",
+      "website": "https://www.jura.gouv.fr/",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/bourgogne-franche-comte/jura/sous_pref",
+      "sources": [
+        "annuaire_39",
+        "annuaire_sp_39"
+      ]
+    },
+    {
+      "code": "40",
+      "name": "Landes",
+      "prefecture": {
+        "fr": "Préfecture des Landes",
+        "en": "Landes prefecture"
+      },
+      "city": "Mont-de-Marsan",
+      "address": "24-26 rue Victor-Hugo, 40000 Mont-de-Marsan",
+      "phone": "0558065806",
+      "website": "https://www.landes.gouv.fr/",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/nouvelle-aquitaine/landes/sous_pref",
+      "sources": [
+        "annuaire_40",
+        "annuaire_sp_40"
+      ]
+    },
+    {
+      "code": "41",
+      "name": "Loir-et-Cher",
+      "prefecture": {
+        "fr": "Préfecture de Loir-et-Cher",
+        "en": "Loir-et-Cher prefecture"
+      },
+      "city": "Blois",
+      "address": "place de la République, 41000 Blois",
+      "phone": "0254704141",
+      "website": "https://www.loir-et-cher.gouv.fr/",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/centre-val-de-loire/loir-et-cher/sous_pref",
+      "sources": [
+        "annuaire_41",
+        "annuaire_sp_41"
+      ]
+    },
+    {
+      "code": "42",
+      "name": "Loire",
+      "prefecture": {
+        "fr": "Préfecture de la Loire",
+        "en": "Loire prefecture"
+      },
+      "city": "Saint-Étienne",
+      "address": "2 rue Charles-de-Gaulle, 42000 Saint-Étienne",
+      "phone": "0477484848",
+      "website": "https://www.loire.gouv.fr/",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/auvergne-rhone-alpes/loire/sous_pref",
+      "sources": [
+        "annuaire_42",
+        "annuaire_sp_42"
+      ]
+    },
+    {
+      "code": "43",
+      "name": "Haute-Loire",
+      "prefecture": {
+        "fr": "Préfecture de la Haute-Loire",
+        "en": "Haute-Loire prefecture"
+      },
+      "city": "Le Puy-en-Velay",
+      "address": "6 avenue du Général-de-Gaulle, 43000 Le Puy-en-Velay",
+      "phone": "0471094343",
+      "website": "https://www.haute-loire.gouv.fr/",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/auvergne-rhone-alpes/haute-loire/sous_pref",
+      "sources": [
+        "annuaire_43",
+        "annuaire_sp_43"
+      ]
+    },
+    {
+      "code": "44",
+      "name": "Loire-Atlantique",
+      "prefecture": {
+        "fr": "Préfecture de la Loire-Atlantique",
+        "en": "Loire-Atlantique prefecture"
+      },
+      "city": "Nantes",
+      "address": "6 quai Ceineray, 44000 Nantes",
+      "phone": "0240412020",
+      "website": "https://www.loire-atlantique.gouv.fr/",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/pays-de-la-loire/loire-atlantique/sous_pref",
+      "sources": [
+        "annuaire_44",
+        "annuaire_sp_44"
+      ]
+    },
+    {
+      "code": "45",
+      "name": "Loiret",
+      "prefecture": {
+        "fr": "Préfecture du Loiret",
+        "en": "Loiret prefecture"
+      },
+      "city": "Orléans",
+      "address": "181 rue de Bourgogne, 45000 Orléans",
+      "phone": "0238914545",
+      "website": "https://www.loiret.gouv.fr/",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/centre-val-de-loire/loiret/sous_pref",
+      "sources": [
+        "annuaire_45",
+        "annuaire_sp_45"
+      ]
+    },
+    {
+      "code": "46",
+      "name": "Lot",
+      "prefecture": {
+        "fr": "Préfecture du Lot",
+        "en": "Lot prefecture"
+      },
+      "city": "Cahors",
+      "address": "Cité Chapou, Rue de la Légion d'Honneur, 46000 Cahors",
+      "phone": "0565231000",
+      "website": "https://www.lot.gouv.fr/",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/occitanie/lot/sous_pref",
+      "sources": [
+        "annuaire_46",
+        "annuaire_sp_46"
+      ]
+    },
+    {
+      "code": "47",
+      "name": "Lot-et-Garonne",
+      "prefecture": {
+        "fr": "Préfecture de Lot-et-Garonne",
+        "en": "Lot-et-Garonne prefecture"
+      },
+      "city": "Agen",
+      "address": "place de Verdun, 47000 Agen",
+      "phone": "0553776047",
+      "website": "https://www.lot-et-garonne.gouv.fr/",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/nouvelle-aquitaine/lot-et-garonne/sous_pref",
+      "sources": [
+        "annuaire_47",
+        "annuaire_sp_47"
+      ]
+    },
+    {
+      "code": "48",
+      "name": "Lozère",
+      "prefecture": {
+        "fr": "Préfecture de la Lozère",
+        "en": "Lozère prefecture"
+      },
+      "city": "Mende",
+      "address": "2 rue de la Rovère, 48000 Mende",
+      "phone": "0466496000",
+      "website": "https://www.lozere.gouv.fr/",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/occitanie/lozere/sous_pref",
+      "sources": [
+        "annuaire_48",
+        "annuaire_sp_48"
+      ]
+    },
+    {
+      "code": "49",
+      "name": "Maine-et-Loire",
+      "prefecture": {
+        "fr": "Préfecture de Maine-et-Loire",
+        "en": "Maine-et-Loire prefecture"
+      },
+      "city": "Angers",
+      "address": "Place Michel-Debré, 49100 Angers",
+      "phone": "0241818181",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/pays-de-la-loire/maine-et-loire/sous_pref",
+      "sources": [
+        "annuaire_49",
+        "annuaire_sp_49"
+      ]
+    },
+    {
+      "code": "50",
+      "name": "Manche",
+      "prefecture": {
+        "fr": "Préfecture de la Manche",
+        "en": "Manche prefecture"
+      },
+      "city": "Saint-Lô",
+      "address": "Place de la Préfecture, 50000 Saint-Lô",
+      "phone": "0233754950",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/normandie/manche/sous_pref",
+      "sources": [
+        "annuaire_50",
+        "annuaire_sp_50"
+      ]
+    },
+    {
+      "code": "51",
+      "name": "Marne",
+      "prefecture": {
+        "fr": "Préfecture de la Marne",
+        "en": "Marne prefecture"
+      },
+      "city": "Châlons-en-Champagne",
+      "address": "17-19 rue Carnot, 51000 Châlons-en-Champagne",
+      "phone": "0326261010",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/grand-est/marne/sous_pref",
+      "sources": [
+        "annuaire_51",
+        "annuaire_sp_51"
+      ]
+    },
+    {
+      "code": "52",
+      "name": "Haute-Marne",
+      "prefecture": {
+        "fr": "Préfecture de la Haute-Marne",
+        "en": "Haute-Marne prefecture"
+      },
+      "city": "Chaumont",
+      "address": "89 rue Victoire-de-la-Marne, 52000 Chaumont",
+      "phone": "0325305252",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/grand-est/haute-marne/sous_pref",
+      "sources": [
+        "annuaire_52",
+        "annuaire_sp_52"
+      ]
+    },
+    {
+      "code": "53",
+      "name": "Mayenne",
+      "prefecture": {
+        "fr": "Préfecture de la Mayenne",
+        "en": "Mayenne prefecture"
+      },
+      "city": "Laval",
+      "address": "46 rue Mazagran, 53000 Laval",
+      "phone": "0243015000",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/pays-de-la-loire/mayenne/sous_pref",
+      "sources": [
+        "annuaire_53",
+        "annuaire_sp_53"
+      ]
+    },
+    {
+      "code": "54",
+      "name": "Meurthe-et-Moselle",
+      "prefecture": {
+        "fr": "Préfecture de Meurthe-et-Moselle",
+        "en": "Meurthe-et-Moselle prefecture"
+      },
+      "city": "Nancy",
+      "address": "6 rue Sainte-Catherine, 54000 Nancy",
+      "phone": "0383342626",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/grand-est/meurthe-et-moselle/sous_pref",
+      "sources": [
+        "annuaire_54",
+        "annuaire_sp_54"
+      ]
+    },
+    {
+      "code": "55",
+      "name": "Meuse",
+      "prefecture": {
+        "fr": "Préfecture de la Meuse",
+        "en": "Meuse prefecture"
+      },
+      "city": "Bar-le-Duc",
+      "address": "40 rue du Bourg, 55000 Bar-le-Duc",
+      "phone": "0329775555",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/grand-est/meuse/sous_pref",
+      "sources": [
+        "annuaire_55",
+        "annuaire_sp_55"
+      ]
+    },
+    {
+      "code": "56",
+      "name": "Morbihan",
+      "prefecture": {
+        "fr": "Préfecture du Morbihan",
+        "en": "Morbihan prefecture"
+      },
+      "city": "Vannes",
+      "address": "10 place du Général-de-Gaulle, 56000 Vannes",
+      "phone": "0297548400",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/bretagne/morbihan/sous_pref",
+      "sources": [
+        "annuaire_56",
+        "annuaire_sp_56"
+      ]
+    },
+    {
+      "code": "57",
+      "name": "Moselle",
+      "prefecture": {
+        "fr": "Préfecture de la Moselle",
+        "en": "Moselle prefecture"
+      },
+      "city": "Metz",
+      "address": "place Jean-Marie-Rausch, 57000 Metz",
+      "phone": "0387348734",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/grand-est/moselle/sous_pref",
+      "sources": [
+        "annuaire_57",
+        "annuaire_sp_57"
+      ]
+    },
+    {
+      "code": "58",
+      "name": "Nièvre",
+      "prefecture": {
+        "fr": "Préfecture de la Nièvre",
+        "en": "Nièvre prefecture"
+      },
+      "city": "Nevers",
+      "address": "40 rue de la Préfecture, 58000 Nevers",
+      "phone": "0386607080",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/bourgogne-franche-comte/nievre/sous_pref",
+      "sources": [
+        "annuaire_58",
+        "annuaire_sp_58"
+      ]
+    },
+    {
+      "code": "59",
+      "name": "Nord",
+      "prefecture": {
+        "fr": "Préfecture du Nord",
+        "en": "Nord prefecture"
+      },
+      "city": "Lille",
+      "address": "12 rue Jean-sans-Peur, 59000 Lille",
+      "phone": "0320305959",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/hauts-de-france/nord/sous_pref",
+      "sources": [
+        "annuaire_59",
+        "annuaire_sp_59"
+      ]
+    },
+    {
+      "code": "60",
+      "name": "Oise",
+      "prefecture": {
+        "fr": "Préfecture de l'Oise",
+        "en": "Oise prefecture"
+      },
+      "city": "Beauvais",
+      "address": "1 place de la Préfecture, 60000 Beauvais",
+      "phone": "0344061260",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/hauts-de-france/oise/sous_pref",
+      "sources": [
+        "annuaire_60",
+        "annuaire_sp_60"
+      ]
+    },
+    {
+      "code": "61",
+      "name": "Orne",
+      "prefecture": {
+        "fr": "Préfecture de l'Orne",
+        "en": "Orne prefecture"
+      },
+      "city": "Alençon",
+      "address": "39 rue Saint-Blaise, 61000 Alençon",
+      "phone": "0233806161",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/normandie/orne/sous_pref",
+      "sources": [
+        "annuaire_61",
+        "annuaire_sp_61"
+      ]
+    },
+    {
+      "code": "62",
+      "name": "Pas-de-Calais",
+      "prefecture": {
+        "fr": "Préfecture du Pas-de-Calais",
+        "en": "Pas-de-Calais prefecture"
+      },
+      "city": "Arras",
+      "address": "rue Ferdinand-Buisson, 62000 Arras",
+      "phone": "0321212000",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/hauts-de-france/pas-de-calais/sous_pref",
+      "sources": [
+        "annuaire_62",
+        "annuaire_sp_62"
+      ]
+    },
+    {
+      "code": "63",
+      "name": "Puy-de-Dôme",
+      "prefecture": {
+        "fr": "Préfecture du Puy-de-Dôme",
+        "en": "Puy-de-Dôme prefecture"
+      },
+      "city": "Clermont-Ferrand",
+      "address": "1 rue d'Assas, 63000 Clermont-Ferrand",
+      "phone": "0473986363",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/auvergne-rhone-alpes/puy-de-dome/sous_pref",
+      "sources": [
+        "annuaire_63",
+        "annuaire_sp_63"
+      ]
+    },
+    {
+      "code": "64",
+      "name": "Pyrénées-Atlantiques",
+      "prefecture": {
+        "fr": "Préfecture des Pyrénées-Atlantiques",
+        "en": "Pyrénées-Atlantiques prefecture"
+      },
+      "city": "Pau",
+      "address": "2 rue du Maréchal-Joffre, 64000 Pau",
+      "phone": "0559982424",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/nouvelle-aquitaine/pyrenees-atlantiques/sous_pref",
+      "sources": [
+        "annuaire_64",
+        "annuaire_sp_64"
+      ]
+    },
+    {
+      "code": "65",
+      "name": "Hautes-Pyrénées",
+      "prefecture": {
+        "fr": "Préfecture des Hautes-Pyrénées",
+        "en": "Hautes-Pyrénées prefecture"
+      },
+      "city": "Tarbes",
+      "address": "3 rue des Ursulines, 65000 Tarbes",
+      "phone": "0562566565",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/occitanie/hautes-pyrenees/sous_pref",
+      "sources": [
+        "annuaire_65",
+        "annuaire_sp_65"
+      ]
+    },
+    {
+      "code": "66",
+      "name": "Pyrénées-Orientales",
+      "prefecture": {
+        "fr": "Préfecture des Pyrénées-Orientales",
+        "en": "Pyrénées-Orientales prefecture"
+      },
+      "city": "Perpignan",
+      "address": "24 quai Sadi-Carnot, 66000 Perpignan",
+      "phone": "0468516666",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/occitanie/pyrenees-orientales/sous_pref",
+      "sources": [
+        "annuaire_66",
+        "annuaire_sp_66"
+      ]
+    },
+    {
+      "code": "67",
+      "name": "Bas-Rhin",
+      "prefecture": {
+        "fr": "Préfecture du Bas-Rhin",
+        "en": "Bas-Rhin prefecture"
+      },
+      "city": "Strasbourg",
+      "address": "5 place de la République, 67000 Strasbourg",
+      "phone": "3400",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/grand-est/bas-rhin/sous_pref",
+      "sources": [
+        "annuaire_67",
+        "annuaire_sp_67"
+      ]
+    },
+    {
+      "code": "68",
+      "name": "Haut-Rhin",
+      "prefecture": {
+        "fr": "Préfecture du Haut-Rhin",
+        "en": "Haut-Rhin prefecture"
+      },
+      "city": "Colmar",
+      "address": "Cité administrative, 3 rue Fleischhauer, 68000 Colmar",
+      "phone": "0389292000",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/grand-est/haut-rhin/sous_pref",
+      "sources": [
+        "annuaire_68",
+        "annuaire_sp_68"
+      ]
+    },
+    {
+      "code": "69",
+      "name": "Rhône",
+      "prefecture": {
+        "fr": "Préfecture du Rhône",
+        "en": "Rhône prefecture"
+      },
+      "city": "Lyon",
+      "address": "106 rue Pierre-Corneille, 69003 Lyon",
+      "phone": "0472616161",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/auvergne-rhone-alpes/rhone/sous_pref",
+      "sources": [
+        "annuaire_69",
+        "annuaire_sp_69"
+      ]
+    },
+    {
+      "code": "70",
+      "name": "Haute-Saône",
+      "prefecture": {
+        "fr": "Préfecture de la Haute-Saône",
+        "en": "Haute-Saône prefecture"
+      },
+      "city": "Vesoul",
+      "address": "1 rue de la Préfecture, 70000 Vesoul",
+      "phone": "0384777000",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/bourgogne-franche-comte/haute-saone/sous_pref",
+      "sources": [
+        "annuaire_70",
+        "annuaire_sp_70"
+      ]
+    },
+    {
+      "code": "71",
+      "name": "Saône-et-Loire",
+      "prefecture": {
+        "fr": "Préfecture de Saône-et-Loire",
+        "en": "Saône-et-Loire prefecture"
+      },
+      "city": "Mâcon",
+      "address": "196 rue de Strasbourg, 71000 Mâcon",
+      "phone": "0385218100",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/bourgogne-franche-comte/saone-et-loire/sous_pref",
+      "sources": [
+        "annuaire_71",
+        "annuaire_sp_71"
+      ]
+    },
+    {
+      "code": "72",
+      "name": "Sarthe",
+      "prefecture": {
+        "fr": "Préfecture de la Sarthe",
+        "en": "Sarthe prefecture"
+      },
+      "city": "Le Mans",
+      "address": "place Aristide-Briand, 72000 Le Mans",
+      "phone": "0285327272",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/pays-de-la-loire/sarthe/sous_pref",
+      "sources": [
+        "annuaire_72",
+        "annuaire_sp_72"
+      ]
+    },
+    {
+      "code": "73",
+      "name": "Savoie",
+      "prefecture": {
+        "fr": "Préfecture de la Savoie",
+        "en": "Savoie prefecture"
+      },
+      "city": "Chambéry",
+      "address": "Château des Ducs-de-Savoie, place Caffe, 73000 Chambéry",
+      "phone": "0479755000",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/auvergne-rhone-alpes/savoie/sous_pref",
+      "sources": [
+        "annuaire_73",
+        "annuaire_sp_73"
+      ]
+    },
+    {
+      "code": "74",
+      "name": "Haute-Savoie",
+      "prefecture": {
+        "fr": "Préfecture de la Haute-Savoie",
+        "en": "Haute-Savoie prefecture"
+      },
+      "city": "Annecy",
+      "address": "rue du 30e-Régiment-d'Infanterie, 74000 Annecy",
+      "phone": "0450336000",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/auvergne-rhone-alpes/haute-savoie/sous_pref",
+      "sources": [
+        "annuaire_74",
+        "annuaire_sp_74"
+      ]
+    },
+    {
+      "code": "75",
+      "name": "Paris",
+      "prefecture": {
+        "fr": "Préfecture de police",
+        "en": "Paris Police Prefecture"
+      },
+      "city": "Paris",
+      "address": "1 bis rue de Lutèce, 75004 Paris",
+      "phone": "3430",
+      "website": "https://www.prefecturedepolice.interieur.gouv.fr/",
+      "appointmentUrl": "https://www.prefecturedepolice.interieur.gouv.fr/demarches/titres-de-sejour-nous-contacter",
+      "sources": [
+        "annuaire_75",
+        "pref_rdv_75"
+      ]
+    },
+    {
+      "code": "76",
+      "name": "Seine-Maritime",
+      "prefecture": {
+        "fr": "Préfecture de la Seine-Maritime",
+        "en": "Seine-Maritime prefecture"
+      },
+      "city": "Rouen",
+      "address": "7 place de la Madeleine, 76000 Rouen",
+      "phone": "0232765000",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/normandie/seine-maritime/sous_pref",
+      "sources": [
+        "annuaire_76",
+        "annuaire_sp_76"
+      ]
+    },
+    {
+      "code": "77",
+      "name": "Seine-et-Marne",
+      "prefecture": {
+        "fr": "Préfecture de Seine-et-Marne",
+        "en": "Seine-et-Marne prefecture"
+      },
+      "city": "Melun",
+      "address": "12 rue des Saints-Pères, 77000 Melun",
+      "phone": "0164717777",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/ile-de-france/seine-et-marne/sous_pref",
+      "sources": [
+        "annuaire_77",
+        "annuaire_sp_77"
+      ]
+    },
+    {
+      "code": "78",
+      "name": "Yvelines",
+      "prefecture": {
+        "fr": "Préfecture des Yvelines",
+        "en": "Yvelines prefecture"
+      },
+      "city": "Versailles",
+      "address": "1 rue Jean-Houdon, 78000 Versailles",
+      "phone": "0139497800",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/ile-de-france/yvelines/sous_pref",
+      "sources": [
+        "annuaire_78",
+        "annuaire_sp_78"
+      ]
+    },
+    {
+      "code": "79",
+      "name": "Deux-Sèvres",
+      "prefecture": {
+        "fr": "Préfecture des Deux-Sèvres",
+        "en": "Deux-Sèvres prefecture"
+      },
+      "city": "Niort",
+      "address": "4 rue du Guesclin, 79000 Niort",
+      "phone": "0549086868",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/nouvelle-aquitaine/deux-sevres/sous_pref",
+      "sources": [
+        "annuaire_79",
+        "annuaire_sp_79"
+      ]
+    },
+    {
+      "code": "80",
+      "name": "Somme",
+      "prefecture": {
+        "fr": "Préfecture de la Somme",
+        "en": "Somme prefecture"
+      },
+      "city": "Amiens",
+      "address": "51 rue de la République, 80000 Amiens",
+      "phone": "0322978080",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/hauts-de-france/somme/sous_pref",
+      "sources": [
+        "annuaire_80",
+        "annuaire_sp_80"
+      ]
+    },
+    {
+      "code": "81",
+      "name": "Tarn",
+      "prefecture": {
+        "fr": "Préfecture du Tarn",
+        "en": "Tarn prefecture"
+      },
+      "city": "Albi",
+      "address": "Place de la Préfecture, 81000 Albi",
+      "phone": "0563456161",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/occitanie/tarn/sous_pref",
+      "sources": [
+        "annuaire_81",
+        "annuaire_sp_81"
+      ]
+    },
+    {
+      "code": "82",
+      "name": "Tarn-et-Garonne",
+      "prefecture": {
+        "fr": "Préfecture de Tarn-et-Garonne",
+        "en": "Tarn-et-Garonne prefecture"
+      },
+      "city": "Montauban",
+      "address": "2 allée de l'Empereur, 82013 Montauban",
+      "phone": "0563228200",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/occitanie/tarn-et-garonne/sous_pref",
+      "sources": [
+        "annuaire_82",
+        "annuaire_sp_82"
+      ]
+    },
+    {
+      "code": "83",
+      "name": "Var",
+      "prefecture": {
+        "fr": "Préfecture du Var",
+        "en": "Var prefecture"
+      },
+      "city": "Toulon",
+      "address": "Hôtel de la Préfecture, boulevard du 112e Régiment-d'Infanterie, 83000 Toulon",
+      "phone": "0494188383",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/provence-alpes-cote-d-azur/var/sous_pref",
+      "sources": [
+        "annuaire_83",
+        "annuaire_sp_83"
+      ]
+    },
+    {
+      "code": "84",
+      "name": "Vaucluse",
+      "prefecture": {
+        "fr": "Préfecture de Vaucluse",
+        "en": "Vaucluse prefecture"
+      },
+      "city": "Avignon",
+      "address": "2 avenue de la Folie, 84000 Avignon",
+      "phone": "0488178484",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/provence-alpes-cote-d-azur/vaucluse/sous_pref",
+      "sources": [
+        "annuaire_84",
+        "annuaire_sp_84"
+      ]
+    },
+    {
+      "code": "85",
+      "name": "Vendée",
+      "prefecture": {
+        "fr": "Préfecture de la Vendée",
+        "en": "Vendée prefecture"
+      },
+      "city": "La Roche-sur-Yon",
+      "address": "29 rue Delille, 85000 La Roche-sur-Yon",
+      "phone": "0251367085",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/pays-de-la-loire/vendee/sous_pref",
+      "sources": [
+        "annuaire_85",
+        "annuaire_sp_85"
+      ]
+    },
+    {
+      "code": "86",
+      "name": "Vienne",
+      "prefecture": {
+        "fr": "Préfecture de la Vienne",
+        "en": "Vienne prefecture"
+      },
+      "city": "Poitiers",
+      "address": "7 place Aristide-Briand, 86000 Poitiers",
+      "phone": "0549557000",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/nouvelle-aquitaine/vienne/sous_pref",
+      "sources": [
+        "annuaire_86",
+        "annuaire_sp_86"
+      ]
+    },
+    {
+      "code": "87",
+      "name": "Haute-Vienne",
+      "prefecture": {
+        "fr": "Préfecture de la Haute-Vienne",
+        "en": "Haute-Vienne prefecture"
+      },
+      "city": "Limoges",
+      "address": "6 rue Daniel Lamazière, 87000 Limoges",
+      "phone": "0555441800",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/nouvelle-aquitaine/haute-vienne/sous_pref",
+      "sources": [
+        "annuaire_87",
+        "annuaire_sp_87"
+      ]
+    },
+    {
+      "code": "88",
+      "name": "Vosges",
+      "prefecture": {
+        "fr": "Préfecture des Vosges",
+        "en": "Vosges prefecture"
+      },
+      "city": "Epinal",
+      "address": "place Foch, 88026 Epinal",
+      "phone": "0329698888",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/grand-est/vosges/sous_pref",
+      "sources": [
+        "annuaire_88",
+        "annuaire_sp_88"
+      ]
+    },
+    {
+      "code": "89",
+      "name": "Yonne",
+      "prefecture": {
+        "fr": "Préfecture de l'Yonne",
+        "en": "Yonne prefecture"
+      },
+      "city": "Auxerre",
+      "address": "2 rue Cochois, 89000 Auxerre",
+      "phone": "0386727989",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/bourgogne-franche-comte/yonne/sous_pref",
+      "sources": [
+        "annuaire_89",
+        "annuaire_sp_89"
+      ]
+    },
+    {
+      "code": "90",
+      "name": "Territoire de Belfort",
+      "prefecture": {
+        "fr": "Préfecture du Territoire de Belfort",
+        "en": "Territoire de Belfort prefecture"
+      },
+      "city": "Belfort",
+      "address": "1 rue Bartholdi, 90000 Belfort",
+      "phone": "0384570007",
+      "sources": [
+        "annuaire_90"
+      ]
+    },
+    {
+      "code": "91",
+      "name": "Essonne",
+      "prefecture": {
+        "fr": "Préfecture de l'Essonne",
+        "en": "Essonne prefecture"
+      },
+      "city": "Évry-Courcouronnes",
+      "address": "Cité administrative, Boulevard de France, 91000 Évry-Courcouronnes",
+      "phone": "0169919191",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/ile-de-france/essonne/sous_pref",
+      "sources": [
+        "annuaire_91",
+        "annuaire_sp_91"
+      ]
+    },
+    {
+      "code": "92",
+      "name": "Hauts-de-Seine",
+      "prefecture": {
+        "fr": "Préfecture des Hauts-de-Seine",
+        "en": "Hauts-de-Seine prefecture"
+      },
+      "city": "Nanterre",
+      "address": "Centre administratif départemental, 167 avenue Joliot-Curie, 92100 Nanterre",
+      "phone": "0140972000",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/ile-de-france/hauts-de-seine/sous_pref",
+      "sources": [
+        "annuaire_92",
+        "annuaire_sp_92"
+      ]
+    },
+    {
+      "code": "93",
+      "name": "Seine-Saint-Denis",
+      "prefecture": {
+        "fr": "Préfecture de la Seine-Saint-Denis",
+        "en": "Seine-Saint-Denis prefecture"
+      },
+      "city": "Bobigny",
+      "address": "1 esplanade Jean-Moulin, 93000 Bobigny",
+      "phone": "0141606060",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/ile-de-france/seine-saint-denis/sous_pref",
+      "sources": [
+        "annuaire_93",
+        "annuaire_sp_93"
+      ]
+    },
+    {
+      "code": "94",
+      "name": "Val-de-Marne",
+      "prefecture": {
+        "fr": "Préfecture du Val-de-Marne",
+        "en": "Val-de-Marne prefecture"
+      },
+      "city": "Créteil",
+      "address": "21-29 avenue du Général-de-Gaulle, 94000 Créteil",
+      "phone": "0149566000",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/ile-de-france/val-de-marne/sous_pref",
+      "sources": [
+        "annuaire_94",
+        "annuaire_sp_94"
+      ]
+    },
+    {
+      "code": "95",
+      "name": "Val-d'Oise",
+      "prefecture": {
+        "fr": "Préfecture du Val-d'Oise",
+        "en": "Val-d'Oise prefecture"
+      },
+      "city": "Cergy-Pontoise",
+      "address": "5 avenue Bernard-Hirsch, 95000 Cergy-Pontoise",
+      "phone": "0134209595",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/ile-de-france/val-d-oise/sous_pref",
+      "sources": [
+        "annuaire_95",
+        "annuaire_sp_95"
+      ]
+    },
+    {
+      "code": "971",
+      "name": "Guadeloupe",
+      "prefecture": {
+        "fr": "Préfecture de la Guadeloupe",
+        "en": "Guadeloupe prefecture"
+      },
+      "city": "Basse-Terre",
+      "address": "Avenue Paul Lacavé, 97100 Basse-Terre",
+      "phone": "0590993900",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/guadeloupe/guadeloupe/sous_pref",
+      "sources": [
+        "annuaire_971",
+        "annuaire_sp_971"
+      ]
+    },
+    {
+      "code": "972",
+      "name": "Martinique",
+      "prefecture": {
+        "fr": "Préfecture de la Martinique",
+        "en": "Martinique prefecture"
+      },
+      "city": "Fort-de-France",
+      "address": "Rue Louis Blanc, 97200 Fort-de-France",
+      "phone": "0596393600",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/martinique/martinique/sous_pref",
+      "sources": [
+        "annuaire_972",
+        "annuaire_sp_972"
+      ]
+    },
+    {
+      "code": "973",
+      "name": "Guyane",
+      "prefecture": {
+        "fr": "Préfecture de la Guyane",
+        "en": "Guyane prefecture"
+      },
+      "city": "Cayenne",
+      "address": "Rue Fiedmond, 97300 Cayenne",
+      "phone": "0594394500",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/guyane/guyane/sous_pref",
+      "sources": [
+        "annuaire_973",
+        "annuaire_sp_973"
+      ]
+    },
+    {
+      "code": "974",
+      "name": "La Réunion",
+      "prefecture": {
+        "fr": "Préfecture de La Réunion",
+        "en": "La Réunion prefecture"
+      },
+      "city": "Saint-Denis",
+      "address": "6 rue des Messageries, 97400 Saint-Denis",
+      "phone": "0262407777",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/la-reunion/la-reunion/sous_pref",
+      "sources": [
+        "annuaire_974",
+        "annuaire_sp_974"
+      ]
+    },
+    {
+      "code": "976",
+      "name": "Mayotte",
+      "prefecture": {
+        "fr": "Préfecture de Mayotte",
+        "en": "Mayotte prefecture"
+      },
+      "city": "Mamoudzou",
+      "address": "Avenue de la Préfecture, 97600 Mamoudzou",
+      "phone": "0269635000",
+      "sources": [
+        "annuaire_976"
+      ]
+    }
+  ],
+  "reviewNotes": [
+    "Départements sans appointmentUrl (aucune page \"Prendre un rendez-vous\" ou \"Étrangers\" vérifiée HTTP 200, à cause de la coupure des sites de préfecture décrite plus bas ; des pages candidates existent pour beaucoup d'entre eux) : 01 Ain, 02 Aisne, 03 Allier, 04 Alpes-de-Haute-Provence, 05 Hautes-Alpes, 06 Alpes-Maritimes, 07 Ardèche, 08 Ardennes, 09 Ariège, 10 Aube, 11 Aude, 12 Aveyron, 13 Bouches-du-Rhône, 14 Calvados, 15 Cantal, 16 Charente, 17 Charente-Maritime, 18 Cher, 19 Corrèze, 2A Corse-du-Sud, 2B Haute-Corse, 21 Côte-d'Or, 22 Côtes-d'Armor, 23 Creuse, 24 Dordogne, 25 Doubs, 26 Drôme, 27 Eure, 28 Eure-et-Loir, 29 Finistère, 30 Gard, 31 Haute-Garonne, 32 Gers, 33 Gironde, 34 Hérault, 35 Ille-et-Vilaine, 36 Indre, 37 Indre-et-Loire, 38 Isère, 39 Jura, 40 Landes, 41 Loir-et-Cher, 42 Loire, 43 Haute-Loire, 44 Loire-Atlantique, 45 Loiret, 46 Lot, 47 Lot-et-Garonne, 48 Lozère, 49 Maine-et-Loire, 50 Manche, 51 Marne, 52 Haute-Marne, 53 Mayenne, 54 Meurthe-et-Moselle, 55 Meuse, 56 Morbihan, 57 Moselle, 58 Nièvre, 59 Nord, 60 Oise, 61 Orne, 62 Pas-de-Calais, 63 Puy-de-Dôme, 64 Pyrénées-Atlantiques, 65 Hautes-Pyrénées, 66 Pyrénées-Orientales, 67 Bas-Rhin, 68 Haut-Rhin, 69 Rhône, 70 Haute-Saône, 71 Saône-et-Loire, 72 Sarthe, 73 Savoie, 74 Haute-Savoie, 76 Seine-Maritime, 77 Seine-et-Marne, 78 Yvelines, 79 Deux-Sèvres, 80 Somme, 81 Tarn, 82 Tarn-et-Garonne, 83 Var, 84 Vaucluse, 85 Vendée, 86 Vienne, 87 Haute-Vienne, 88 Vosges, 89 Yonne, 90 Territoire de Belfort, 91 Essonne, 92 Hauts-de-Seine, 93 Seine-Saint-Denis, 94 Val-de-Marne, 95 Val-d'Oise, 971 Guadeloupe, 972 Martinique, 973 Guyane, 974 La Réunion, 976 Mayotte. L'app renvoie au site de la préfecture.",
+    "Départements sans subprefecturesUrl : l'annuaire n'y liste aucune sous-préfecture (75 Paris, 90 Territoire de Belfort, 976 Mayotte).",
+    "Champ website omis (site indiqué par l'annuaire mais réponse HTTP 200 non vérifiée, voir la note sur la coupure) : 49 Maine-et-Loire, 50 Manche, 51 Marne, 52 Haute-Marne, 53 Mayenne, 54 Meurthe-et-Moselle, 55 Meuse, 56 Morbihan, 57 Moselle, 58 Nièvre, 59 Nord, 60 Oise, 61 Orne, 62 Pas-de-Calais, 63 Puy-de-Dôme, 64 Pyrénées-Atlantiques, 65 Hautes-Pyrénées, 66 Pyrénées-Orientales, 67 Bas-Rhin, 68 Haut-Rhin, 69 Rhône, 70 Haute-Saône, 71 Saône-et-Loire, 72 Sarthe, 73 Savoie, 74 Haute-Savoie, 76 Seine-Maritime, 77 Seine-et-Marne, 78 Yvelines, 79 Deux-Sèvres, 80 Somme, 81 Tarn, 82 Tarn-et-Garonne, 83 Var, 84 Vaucluse, 85 Vendée, 86 Vienne, 87 Haute-Vienne, 88 Vosges, 89 Yonne, 90 Territoire de Belfort, 91 Essonne, 92 Hauts-de-Seine, 93 Seine-Saint-Denis, 94 Val-de-Marne, 95 Val-d'Oise, 971 Guadeloupe, 972 Martinique, 973 Guyane, 974 La Réunion, 976 Mayotte.",
+    "Vérification des sites de préfecture interrompue le 2026-10-29 vers 23h40 : les serveurs des sites *.gouv.fr des préfectures ont coupé toutes les connexions depuis notre poste (erreur HTTP/2 ENHANCE_YOUR_CALM, limitation de débit) pendant plus d'une heure. Les pages d'accueil des départements 01 à 48 (dont 2A et 2B) ont répondu HTTP 200 avant la coupure ; les autres n'ont pas pu être vérifiées. Aucune page de rendez-vous des sites *.gouv.fr de préfecture n'a pu être vérifiée HTTP 200 : appointmentUrl n'est donc renseigné que pour Paris. À refaire en relançant le script de crawl lent (une requête toutes les 3 secondes).",
+    "Pistes repérées mais non vérifiées (à contrôler avant ajout) : l'annuaire liste un lien de prise de rendez-vous sur certains sites (par exemple /Prendre-un-rendez-vous pour le Val-de-Marne, /Prendre-un-rendez-vous-en-ligne pour le Vaucluse) ; pour le Rhône, l'inventaire cite https://www.rhone.gouv.fr/Prendre-un-rendez-vous/Accueil-des-etrangers.",
+    "Paris : le site de la préfecture de police exige JavaScript et cookies ; la page \"Titres de séjour - Nous contacter\" a répondu HTTP 200 après la redirection de contrôle et contient les liens de prise de rendez-vous (titre de séjour). Le téléphone indiqué par l'annuaire est le 3430. L'adresse est celle du siège (1 bis rue de Lutèce) ; les premières demandes se font aux CRE du 17e et du 9e (voir inventaire).",
+    "Rhône : coordonnées de la préfecture du Rhône (Lyon). Mayotte : préfecture de Mayotte ; l'annuaire n'y liste aucune sous-préfecture.",
+    "Champ phone : premier numéro de la fiche annuaire, espaces retirés. Les fiches indiquent souvent aussi le serveur vocal national 34 00, non repris.",
+    "Libellés \"Préfecture du/de la/de l'...\" : article ajouté selon l'usage grammatical ; le nom du département vient de l'annuaire (\"Préfecture - <département>\")."
+  ]
+}

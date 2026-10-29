@@ -78,13 +78,13 @@ struct PrefectureCard: View {
             }
             .font(.caption.weight(.semibold))
         }
-        if let destination = department.appointmentUrl ?? department.website {
-            Link(destination: destination) {
-                Label(department.appointmentUrl != nil ? "Prendre rendez-vous sur le site de la préfecture" : "Ouvrir le site de la préfecture",
-                      systemImage: "calendar.badge.plus")
-                    .frame(maxWidth: .infinity)
-            }
-            .primaryGlassButton()
+        if let appointment = department.appointmentUrl {
+            primaryLink("Prendre rendez-vous sur le site de la préfecture", url: appointment)
+        } else if let website = department.website {
+            primaryLink("Ouvrir le site de la préfecture", url: website)
+        } else if let directory = store.prefectures?.sources(for: department.sources).first?.url {
+            // Site pas encore vérifié : la fiche de l'annuaire de l'administration donne site, horaires et contacts.
+            primaryLink("Voir la fiche de la préfecture (site, horaires)", url: directory)
         }
         if let address = department.address {
             Label { Text(verbatim: address) } icon: { Image(systemName: "mappin") }
@@ -103,5 +103,13 @@ struct PrefectureCard: View {
             .font(.footnote.weight(.semibold))
         }
         SourcesList(sources: store.prefectures?.sources(for: department.sources) ?? [])
+    }
+
+    private func primaryLink(_ title: LocalizedStringKey, url: URL) -> some View {
+        Link(destination: url) {
+            Label(title, systemImage: "calendar.badge.plus")
+                .frame(maxWidth: .infinity)
+        }
+        .primaryGlassButton()
     }
 }
