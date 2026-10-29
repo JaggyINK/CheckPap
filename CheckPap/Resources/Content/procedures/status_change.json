@@ -1,0 +1,3030 @@
+{
+  "id": "status_change",
+  "reviewStatus": "draft",
+  "lastVerified": "2026-10-29",
+  "title": {
+    "fr": "Changer de statut",
+    "en": "Change my residence status"
+  },
+  "summary": {
+    "fr": "Vous avez un titre de séjour, par exemple étudiant, et vous voulez un titre pour un autre motif : salarié, travailleur temporaire, recherche d'emploi ou création d'entreprise, entrepreneur ou talent. Cette liste vous aide à préparer les pièces et les étapes. Le dépôt se fait le plus souvent auprès de la préfecture, sauf pour les cartes talent, qui se demandent sur le site de l'ANEF.",
+    "en": "You hold a residence permit, for example a student permit, and you want a permit for another purpose: employee, temporary worker, job search or business creation, entrepreneur or talent. This list helps you prepare the documents and the steps. You usually apply to the prefecture, except for talent cards, which you request on the ANEF website."
+  },
+  "sources": [
+    {
+      "id": "sp_salarie",
+      "publisher": "service-public.gouv.fr",
+      "title": "Travail d'un étranger en France : carte de séjour - salarié/travailleur temporaire (Vérifié le 01 mai 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F15898",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_apres_etudes",
+      "publisher": "service-public.gouv.fr",
+      "title": "Étudiant étranger : comment travailler en France après ses études ? (Vérifié le 01 juin 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2229",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_rece",
+      "publisher": "service-public.gouv.fr",
+      "title": "Carte de séjour ou VLS-TS - Recherche d'emploi/création d'entreprise (Vérifié le 01 juin 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F17319",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_entrepreneur",
+      "publisher": "service-public.gouv.fr",
+      "title": "Carte de séjour \"entrepreneur/profession libérale\" d'un étranger en France (Vérifié le 01 juin 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F35795",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_talent",
+      "publisher": "service-public.gouv.fr",
+      "title": "Carte talent : carte de séjour pluriannuelle d'un étranger en France (Vérifié le 01 juin 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F16922",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_algerien",
+      "publisher": "service-public.gouv.fr",
+      "title": "Certificat de résidence d'1 an pour Algérien (Vérifié le 01 août 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2215",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_aes",
+      "publisher": "service-public.gouv.fr",
+      "title": "Qu'est-ce que la régularisation pour motif humanitaire ou exceptionnel d'un étranger en situation irrégulière ? (Vérifié le 12 mars 2025)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F17146",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_autorisation_travail",
+      "publisher": "service-public.gouv.fr",
+      "title": "Autorisation de travail d'un salarié étranger en France (Vérifié le 18 juin 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2728",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_service_autorisation_travail",
+      "publisher": "service-public.gouv.fr",
+      "title": "Demander en ligne une autorisation de travail pour embaucher un salarié étranger (Vérifié le 27 avril 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R58908",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_anef",
+      "publisher": "service-public.gouv.fr",
+      "title": "Faire une demande sur internet pour un titre de séjour, un changement de situation, un titre de voyage, une demande de naturalisation - ANEF (Vérifié le 13 août 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R59398",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_justificatif_domicile",
+      "publisher": "service-public.gouv.fr",
+      "title": "Demande de carte de séjour : quel justificatif de domicile ? (Vérifié le 05 août 2025)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33052",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_engagement_republique",
+      "publisher": "service-public.gouv.fr",
+      "title": "Qu'est-ce que le contrat d'engagement à respecter les principes de la République ? (Vérifié le 04 août 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F38329",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_actu_taxes_2026",
+      "publisher": "service-public.gouv.fr",
+      "title": "Timbre fiscal - Titres de séjour : augmentation du montant des taxes demandées aux étrangers à compter du 1er mai (Publié le 22 avril 2026, mis à jour le 12 mai 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/actualites/A18881",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "lf_decret_2026_1001",
+      "publisher": "legifrance.gouv.fr",
+      "title": "Décret n° 2026-1001 du 26 octobre 2026 relatif aux droits des ressortissants étrangers autorisés à travailler en France (JORF du 29 octobre 2026, lu par fragments)",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055023061",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "pref_ille_et_vilaine",
+      "publisher": "ille-et-vilaine.gouv.fr",
+      "title": "Renouvellement de titre et changement de statut - Préfecture d'Ille-et-Vilaine (aucune date de mise à jour visible)",
+      "url": "https://www.ille-et-vilaine.gouv.fr/Demarches/Ressortissants-etrangers-vos-demarches/Sejour/Renouvellement-de-titre-et-changement-de-statut",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "pref_herault",
+      "publisher": "herault.gouv.fr",
+      "title": "Quelles sont les conditions pour demander un changement de statut étudiant – salarié/travailleur temporaire ? - Préfecture de l'Hérault (aucune date de mise à jour visible)",
+      "url": "https://www.herault.gouv.fr/Demarches/Demarches-etrangers-titres-de-sejour/Foire-aux-questions/Etudiants2/Quelles-sont-les-conditions-pour-demander-un-changement-de-statut-etudiant-salarie-travailleur-temporaire",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "pref_hauts_de_seine",
+      "publisher": "hauts-de-seine.gouv.fr",
+      "title": "Changement de statut pour les étrangers résidant dans l'arrondissement de Nanterre - Préfecture des Hauts-de-Seine (Mis à jour le 10/12/2024)",
+      "url": "https://www.hauts-de-seine.gouv.fr/Demarches/Etrangers-dans-les-Hauts-de-Seine/SEJOUR/SEJOUR-prefecture-de-Nanterre/Renouvellement-de-titre-de-sejour/Changement-de-statut",
+      "consulted": "2026-10-29"
+    }
+  ],
+  "questions": [
+    {
+      "id": "current_status",
+      "kind": "single",
+      "title": {
+        "fr": "Quel titre de séjour avez-vous aujourd'hui ?",
+        "en": "Which residence permit do you have today?"
+      },
+      "help": {
+        "fr": "Le motif est écrit sur votre carte de séjour ou sur votre visa long séjour. Les pièces et le délai de dépôt dépendent de ce titre.",
+        "en": "The purpose is written on your residence card or on your long-stay visa. The documents and the filing period depend on this permit."
+      },
+      "example": {
+        "fr": "Exemple : il est écrit \"ÉTUDIANT\" sur votre carte.",
+        "en": "Example: your card says \"ÉTUDIANT\" (student)."
+      },
+      "options": [
+        {
+          "id": "student",
+          "label": {
+            "fr": "Étudiant",
+            "en": "Student"
+          }
+        },
+        {
+          "id": "student_mobility",
+          "label": {
+            "fr": "Étudiant - programme de mobilité",
+            "en": "Student - mobility programme"
+          }
+        },
+        {
+          "id": "talent_researcher",
+          "label": {
+            "fr": "Talent - chercheur",
+            "en": "Talent - researcher"
+          },
+          "help": {
+            "fr": "Service-public indique qu'à la fin de cette carte, vous pouvez demander la carte recherche d'emploi ou création d'entreprise si vous avez achevé vos travaux de recherche.",
+            "en": "Service-public says that when this card ends, you can request the job search or business creation card if you have finished your research work."
+          }
+        },
+        {
+          "id": "rece",
+          "label": {
+            "fr": "Recherche d'emploi ou création d'entreprise",
+            "en": "Job search or business creation"
+          }
+        },
+        {
+          "id": "salarie",
+          "label": {
+            "fr": "Salarié",
+            "en": "Employee"
+          }
+        },
+        {
+          "id": "travailleur_temporaire",
+          "label": {
+            "fr": "Travailleur temporaire",
+            "en": "Temporary worker"
+          }
+        }
+      ],
+      "condition": null,
+      "sources": [
+        "sp_apres_etudes",
+        "sp_rece",
+        "sp_autorisation_travail"
+      ]
+    },
+    {
+      "id": "target_status",
+      "kind": "single",
+      "title": {
+        "fr": "Quel titre de séjour voulez-vous demander ?",
+        "en": "Which residence permit do you want to apply for?"
+      },
+      "help": {
+        "fr": "Service-public indique que le titre \"salarié\" correspond à un CDI et le titre \"travailleur temporaire\" à un CDD. Les cartes talent ont des seuils de salaire précis.",
+        "en": "Service-public says the \"employee\" permit is for a permanent contract (CDI) and the \"temporary worker\" permit is for a fixed-term contract (CDD). Talent cards have specific salary thresholds."
+      },
+      "example": {
+        "fr": "Exemple : vous avez signé un CDD de 8 mois, vous choisissez \"Travailleur temporaire\".",
+        "en": "Example: you signed an 8-month fixed-term contract, so you choose \"Temporary worker\"."
+      },
+      "options": [
+        {
+          "id": "salarie",
+          "label": {
+            "fr": "Salarié (CDI)",
+            "en": "Employee (permanent contract)"
+          }
+        },
+        {
+          "id": "travailleur_temporaire",
+          "label": {
+            "fr": "Travailleur temporaire (CDD)",
+            "en": "Temporary worker (fixed-term contract)"
+          }
+        },
+        {
+          "id": "rece",
+          "label": {
+            "fr": "Recherche d'emploi ou création d'entreprise",
+            "en": "Job search or business creation"
+          },
+          "help": {
+            "fr": "Pour les étudiants : il faut avoir obtenu au cours des 12 derniers mois une licence professionnelle, un Mastère Spécialisé, un Master of Science ou un diplôme au moins équivalent au master.",
+            "en": "For students: you must have obtained, in the last 12 months, a professional bachelor's degree (licence professionnelle), a Mastère Spécialisé, a Master of Science or a degree at least equivalent to a master's."
+          }
+        },
+        {
+          "id": "entrepreneur",
+          "label": {
+            "fr": "Entrepreneur ou profession libérale",
+            "en": "Entrepreneur or self-employed professional"
+          }
+        },
+        {
+          "id": "talent_qualified",
+          "label": {
+            "fr": "Talent - salarié qualifié",
+            "en": "Talent - qualified employee"
+          },
+          "help": {
+            "fr": "Service-public indique notamment : un diplôme au moins équivalent au master obtenu en France et un salaire brut annuel d'au moins 39 582 €.",
+            "en": "Service-public lists in particular: a degree at least equivalent to a master's obtained in France and a gross annual salary of at least €39,582."
+          }
+        },
+        {
+          "id": "talent_blue_card",
+          "label": {
+            "fr": "Talent - carte bleue européenne",
+            "en": "Talent - EU Blue Card"
+          },
+          "help": {
+            "fr": "Service-public indique notamment : un contrat d'au moins 6 mois et un salaire brut annuel d'au moins 59 373 €.",
+            "en": "Service-public lists in particular: a contract of at least 6 months and a gross annual salary of at least €59,373."
+          }
+        },
+        {
+          "id": "talent_project",
+          "label": {
+            "fr": "Talent - porteur de projet (création d'entreprise)",
+            "en": "Talent - project holder (business creation)"
+          },
+          "help": {
+            "fr": "Service-public indique notamment : un financement du projet d'au moins 30 000 € et des ressources d'au moins 22 404,20 € brut par an.",
+            "en": "Service-public lists in particular: project funding of at least €30,000 and resources of at least €22,404.20 gross per year."
+          }
+        }
+      ],
+      "condition": null,
+      "sources": [
+        "sp_salarie",
+        "sp_rece",
+        "sp_entrepreneur",
+        "sp_talent",
+        "sp_apres_etudes"
+      ]
+    },
+    {
+      "id": "permit_still_valid",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Votre titre de séjour actuel est-il encore valable aujourd'hui ?",
+        "en": "Is your current residence permit still valid today?"
+      },
+      "help": {
+        "fr": "Service-public indique que la demande de changement de statut se dépose avant la fin de validité de votre titre. Un récépissé ou une attestation de prolongation en cours de validité compte aussi : répondez oui et indiquez sa date de fin.",
+        "en": "Service-public says you file the change of status before your permit expires. A valid receipt or extension certificate also counts: answer yes and enter its end date."
+      },
+      "condition": null,
+      "sources": [
+        "sp_salarie",
+        "sp_rece",
+        "sp_entrepreneur",
+        "sp_talent"
+      ]
+    },
+    {
+      "id": "permit_expiry_date",
+      "kind": "date",
+      "title": {
+        "fr": "Quelle est la date de fin de validité de votre titre actuel ?",
+        "en": "When does your current permit expire?"
+      },
+      "help": {
+        "fr": "La date est écrite sur votre carte de séjour ou sur votre visa. Elle sert à calculer la période pour déposer votre demande.",
+        "en": "The date is written on your residence card or on your visa. It is used to work out when to file your application."
+      },
+      "example": {
+        "fr": "Exemple : \"Valable jusqu'au 30/09/2027\".",
+        "en": "Example: \"Valid until 30/09/2027\"."
+      },
+      "condition": {
+        "question": "permit_still_valid",
+        "equals": "yes"
+      },
+      "sources": [
+        "sp_salarie",
+        "sp_rece",
+        "sp_entrepreneur",
+        "sp_talent",
+        "sp_apres_etudes"
+      ]
+    },
+    {
+      "id": "is_algerian",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Êtes-vous de nationalité algérienne ?",
+        "en": "Are you an Algerian national?"
+      },
+      "help": {
+        "fr": "Service-public indique que d'autres règles s'appliquent aux Algériens pour le titre salarié et l'autorisation de travail, et que la carte recherche d'emploi ou création d'entreprise ne les concerne pas.",
+        "en": "Service-public says other rules apply to Algerians for the employee permit and the work authorisation, and that the job search or business creation card does not apply to them."
+      },
+      "condition": null,
+      "sources": [
+        "sp_salarie",
+        "sp_rece",
+        "sp_autorisation_travail"
+      ]
+    },
+    {
+      "id": "diploma_level",
+      "kind": "single",
+      "title": {
+        "fr": "Quel diplôme avez-vous obtenu en France ?",
+        "en": "Which degree did you obtain in France?"
+      },
+      "help": {
+        "fr": "Service-public indique que les titres possibles et les conditions de l'emploi changent selon le diplôme obtenu.",
+        "en": "Service-public says the permits you can get and the job conditions depend on the degree you obtained."
+      },
+      "example": {
+        "fr": "Exemple : un diplôme d'ingénieur est un diplôme au moins équivalent au master.",
+        "en": "Example: an engineering degree (diplôme d'ingénieur) is at least equivalent to a master's."
+      },
+      "options": [
+        {
+          "id": "bac2",
+          "label": {
+            "fr": "Bac+2",
+            "en": "Two-year degree (Bac+2)"
+          }
+        },
+        {
+          "id": "licence",
+          "label": {
+            "fr": "Licence",
+            "en": "Bachelor's degree (licence)"
+          }
+        },
+        {
+          "id": "licence_pro",
+          "label": {
+            "fr": "Licence professionnelle",
+            "en": "Professional bachelor's degree (licence professionnelle)"
+          }
+        },
+        {
+          "id": "master",
+          "label": {
+            "fr": "Master ou diplôme équivalent",
+            "en": "Master's or equivalent degree"
+          },
+          "help": {
+            "fr": "Service-public cite par exemple le diplôme d'ingénieur, le DEA, le DESS ou le diplôme d'institut d'études politiques.",
+            "en": "Service-public gives examples such as the engineering degree, DEA, DESS or the degree of an institute of political studies."
+          }
+        },
+        {
+          "id": "other",
+          "label": {
+            "fr": "Autre situation",
+            "en": "Other situation"
+          }
+        }
+      ],
+      "condition": {
+        "all": [
+          {
+            "question": "current_status",
+            "in": [
+              "student",
+              "student_mobility"
+            ]
+          },
+          {
+            "not": {
+              "question": "target_status",
+              "equals": "entrepreneur"
+            }
+          }
+        ]
+      },
+      "sources": [
+        "sp_apres_etudes",
+        "sp_rece"
+      ]
+    },
+    {
+      "id": "diploma_recent",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Avez-vous obtenu ce diplôme au cours des 12 derniers mois ?",
+        "en": "Did you obtain this degree in the last 12 months?"
+      },
+      "help": {
+        "fr": "Pour la carte recherche d'emploi ou création d'entreprise, service-public indique que le diplôme doit avoir été obtenu au cours des 12 derniers mois si vous résidez en France.",
+        "en": "For the job search or business creation card, service-public says the degree must have been obtained in the last 12 months if you live in France."
+      },
+      "example": {
+        "fr": "Exemple : diplôme obtenu en juillet 2026, demande déposée en octobre 2026.",
+        "en": "Example: degree obtained in July 2026, application filed in October 2026."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "target_status",
+            "equals": "rece"
+          },
+          {
+            "question": "current_status",
+            "in": [
+              "student",
+              "student_mobility"
+            ]
+          },
+          {
+            "question": "diploma_level",
+            "in": [
+              "licence_pro",
+              "master"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_rece"
+      ]
+    },
+    {
+      "id": "job_matches_studies",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Le poste est-il en lien avec votre formation et payé au moins 2 800,53 € brut par mois ?",
+        "en": "Is the job related to your studies and paid at least €2,800.53 gross per month?"
+      },
+      "help": {
+        "fr": "Service-public indique que, dans ce cas, l'employeur n'a pas à publier l'offre d'emploi avant de demander l'autorisation de travail, si vous avez une licence professionnelle, un master ou une carte recherche d'emploi ou création d'entreprise.",
+        "en": "Service-public says that in this case the employer does not have to publish the job offer before requesting the work authorisation, if you have a professional bachelor's degree, a master's or a job search or business creation card."
+      },
+      "example": {
+        "fr": "Exemple : vous avez un master en informatique et un contrat de développeur à 3 000 € brut par mois.",
+        "en": "Example: you have a master's in computer science and a developer contract at €3,000 gross per month."
+      },
+      "condition": {
+        "question": "target_status",
+        "in": [
+          "salarie",
+          "travailleur_temporaire"
+        ]
+      },
+      "sources": [
+        "sp_autorisation_travail",
+        "sp_apres_etudes"
+      ]
+    },
+    {
+      "id": "talent_salary_ok",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Votre salaire brut annuel atteint-il le seuil de la carte talent choisie ?",
+        "en": "Does your gross annual salary reach the threshold for the chosen talent card?"
+      },
+      "help": {
+        "fr": "Service-public indique au moins 39 582 € brut par an pour la carte talent - salarié qualifié, et au moins 59 373 € brut par an pour la carte bleue européenne.",
+        "en": "Service-public gives at least €39,582 gross per year for the talent - qualified employee card, and at least €59,373 gross per year for the EU Blue Card."
+      },
+      "example": {
+        "fr": "Exemple : 3 400 € brut par mois sur 12 mois font 40 800 € brut par an.",
+        "en": "Example: €3,400 gross per month over 12 months makes €40,800 gross per year."
+      },
+      "condition": {
+        "question": "target_status",
+        "in": [
+          "talent_qualified",
+          "talent_blue_card"
+        ]
+      },
+      "sources": [
+        "sp_talent",
+        "sp_rece"
+      ]
+    },
+    {
+      "id": "work_authorization_obtained",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Votre employeur a-t-il déjà obtenu l'autorisation de travail ?",
+        "en": "Has your employer already obtained the work authorisation?"
+      },
+      "help": {
+        "fr": "C'est votre employeur qui fait cette demande en ligne. Une confirmation de dépôt n'est pas une autorisation de travail.",
+        "en": "Your employer makes this request online. A filing confirmation is not a work authorisation."
+      },
+      "condition": {
+        "question": "target_status",
+        "in": [
+          "salarie",
+          "travailleur_temporaire"
+        ]
+      },
+      "sources": [
+        "sp_autorisation_travail",
+        "sp_salarie"
+      ]
+    },
+    {
+      "id": "rece_business_project",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Voulez-vous créer une entreprise pendant cette carte ?",
+        "en": "Do you want to create a business while holding this card?"
+      },
+      "help": {
+        "fr": "Si c'est votre objectif, la préfecture demande un justificatif de votre projet de création d'entreprise.",
+        "en": "If this is your goal, the prefecture asks for proof of your business creation project."
+      },
+      "condition": {
+        "question": "target_status",
+        "equals": "rece"
+      },
+      "sources": [
+        "sp_rece"
+      ]
+    },
+    {
+      "id": "business_type",
+      "kind": "single",
+      "title": {
+        "fr": "Quelle activité voulez-vous exercer ?",
+        "en": "What kind of activity do you want to carry out?"
+      },
+      "help": {
+        "fr": "Les pièces demandées changent selon l'activité et selon qu'il s'agit d'une création ou de la poursuite d'une activité.",
+        "en": "The documents required depend on the activity and on whether you are creating it or continuing it."
+      },
+      "example": {
+        "fr": "Exemple : ouvrir une boutique est une activité commerciale ; être consultant indépendant peut être une activité libérale.",
+        "en": "Example: opening a shop is a commercial activity; working as an independent consultant can be a liberal (self-employed) activity."
+      },
+      "options": [
+        {
+          "id": "commercial_creation",
+          "label": {
+            "fr": "Créer une activité commerciale, industrielle ou artisanale",
+            "en": "Create a commercial, industrial or craft activity"
+          }
+        },
+        {
+          "id": "commercial_continuation",
+          "label": {
+            "fr": "Poursuivre une activité commerciale, industrielle ou artisanale",
+            "en": "Continue a commercial, industrial or craft activity"
+          }
+        },
+        {
+          "id": "liberal_creation",
+          "label": {
+            "fr": "Créer une activité libérale",
+            "en": "Create a liberal (self-employed) activity"
+          }
+        },
+        {
+          "id": "liberal_continuation",
+          "label": {
+            "fr": "Poursuivre une activité libérale",
+            "en": "Continue a liberal (self-employed) activity"
+          }
+        }
+      ],
+      "condition": {
+        "question": "target_status",
+        "equals": "entrepreneur"
+      },
+      "sources": [
+        "sp_entrepreneur"
+      ]
+    },
+    {
+      "id": "business_form",
+      "kind": "single",
+      "title": {
+        "fr": "Sous quelle forme créez-vous votre activité ?",
+        "en": "In what form are you creating your activity?"
+      },
+      "help": {
+        "fr": "La préfecture demande des documents différents pour une entreprise individuelle et pour une société.",
+        "en": "The prefecture asks for different documents for a sole proprietorship and for a company."
+      },
+      "options": [
+        {
+          "id": "individual_new",
+          "label": {
+            "fr": "Micro-entreprise ou entreprise individuelle : création",
+            "en": "Micro-business or sole proprietorship: new business"
+          }
+        },
+        {
+          "id": "individual_takeover",
+          "label": {
+            "fr": "Entreprise individuelle : reprise d'un fonds de commerce",
+            "en": "Sole proprietorship: taking over a business"
+          }
+        },
+        {
+          "id": "individual_lease",
+          "label": {
+            "fr": "Entreprise individuelle : location-gérance",
+            "en": "Sole proprietorship: lease management (location-gérance)"
+          }
+        },
+        {
+          "id": "company_french",
+          "label": {
+            "fr": "Société de droit français",
+            "en": "French company"
+          }
+        },
+        {
+          "id": "company_subsidiary",
+          "label": {
+            "fr": "Société de droit français, filiale d'une société étrangère",
+            "en": "French company that is a subsidiary of a foreign company"
+          }
+        },
+        {
+          "id": "branch_foreign",
+          "label": {
+            "fr": "Établissement d'une société étrangère",
+            "en": "Branch of a foreign company"
+          }
+        }
+      ],
+      "condition": {
+        "question": "business_type",
+        "equals": "commercial_creation"
+      },
+      "sources": [
+        "sp_entrepreneur"
+      ]
+    },
+    {
+      "id": "regulated_activity",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Votre métier ou votre activité est-il réglementé ?",
+        "en": "Is your profession or activity regulated?"
+      },
+      "help": {
+        "fr": "Une activité réglementée demande un diplôme, une autorisation ou une inscription particulière pour l'exercer. Dans ce cas, la préfecture demande la preuve que vous respectez ces conditions.",
+        "en": "A regulated activity requires a specific degree, licence or registration. In that case, the prefecture asks for proof that you meet these conditions."
+      },
+      "example": {
+        "fr": "Exemple : une profession qui demande une inscription à un ordre professionnel.",
+        "en": "Example: a profession that requires registration with a professional body (ordre)."
+      },
+      "condition": {
+        "question": "target_status",
+        "in": [
+          "entrepreneur",
+          "talent_qualified",
+          "talent_blue_card",
+          "talent_project"
+        ]
+      },
+      "sources": [
+        "sp_entrepreneur",
+        "sp_talent"
+      ]
+    },
+    {
+      "id": "polygamy_country",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Êtes-vous marié(e) et ressortissant d'un pays qui autorise la polygamie ?",
+        "en": "Are you married and a national of a country that allows polygamy?"
+      },
+      "help": {
+        "fr": "Dans ce cas, la préfecture demande une déclaration sur l'honneur.",
+        "en": "In that case, the prefecture asks for a sworn statement."
+      },
+      "condition": {
+        "question": "target_status",
+        "in": [
+          "rece",
+          "entrepreneur"
+        ]
+      },
+      "sources": [
+        "sp_rece",
+        "sp_entrepreneur"
+      ]
+    }
+  ],
+  "documents": [
+    {
+      "id": "identity_document",
+      "category": "identity",
+      "title": {
+        "fr": "Passeport ou justificatif de nationalité avec photo",
+        "en": "Passport or proof of nationality with photo"
+      },
+      "details": {
+        "fr": "Passeport : pages sur l'état civil, les dates de validité, les cachets d'entrée et les visas. À défaut : attestation consulaire avec photo, carte d'identité avec photo, carte consulaire avec photo ou certificat de nationalité de moins de 6 mois avec photo.",
+        "en": "Passport: pages showing your personal details, validity dates, entry stamps and visas. Otherwise: consular certificate with photo, identity card with photo, consular card with photo or certificate of nationality less than 6 months old with photo."
+      },
+      "tip": {
+        "fr": "Pensez à copier toutes les pages qui portent un cachet d'entrée ou un visa.",
+        "en": "Remember to copy every page with an entry stamp or a visa."
+      },
+      "condition": null,
+      "sources": [
+        "sp_salarie",
+        "sp_rece",
+        "sp_entrepreneur",
+        "sp_talent"
+      ]
+    },
+    {
+      "id": "current_permit",
+      "category": "residence",
+      "title": {
+        "fr": "Titre de séjour ou visa long séjour en cours de validité",
+        "en": "Valid residence permit or long-stay visa"
+      },
+      "details": {
+        "fr": "Votre titre actuel, encore valable. Pour la carte recherche d'emploi ou création d'entreprise : carte étudiant (ou étudiant - programme de mobilité, ou talent-chercheur) en cours de validité, ou visa long séjour valant titre de séjour validé sur internet.",
+        "en": "Your current permit, still valid. For the job search or business creation card: a valid student card (or student - mobility programme, or talent-researcher card), or a long-stay visa equivalent to a residence permit that was validated online."
+      },
+      "condition": null,
+      "sources": [
+        "sp_salarie",
+        "sp_rece",
+        "sp_entrepreneur",
+        "sp_talent"
+      ]
+    },
+    {
+      "id": "proof_of_address",
+      "category": "address",
+      "title": {
+        "fr": "Justificatif de domicile de moins de 6 mois",
+        "en": "Proof of address less than 6 months old"
+      },
+      "details": {
+        "fr": "Locataire ou propriétaire : facture d'électricité, de gaz, d'eau, de téléphone fixe ou d'internet, bail ou quittance de loyer. À l'hôtel : attestation de l'hôtelier et facture du dernier mois. Hébergé chez un particulier : attestation de l'hébergeant datée et signée, copie de sa carte d'identité ou de sa carte de séjour, et justificatif de domicile à son nom si l'adresse de sa carte n'est plus à jour.",
+        "en": "Tenant or owner: electricity, gas, water, landline or internet bill, lease or rent receipt. Hotel: certificate from the hotel and last month's bill. Staying with someone: dated and signed certificate from your host, a copy of their identity card or residence card, and proof of address in their name if the address on their card is out of date."
+      },
+      "example": {
+        "fr": "Exemple : une facture d'électricité à votre nom datée du mois dernier.",
+        "en": "Example: an electricity bill in your name dated last month."
+      },
+      "tip": {
+        "fr": "Service-public indique qu'un justificatif de domicile sécurisé, avec un code-barres 2D-Doc, ne peut pas être refusé.",
+        "en": "Service-public says a secure proof of address with a 2D-Doc barcode cannot be refused."
+      },
+      "condition": null,
+      "sources": [
+        "sp_justificatif_domicile",
+        "sp_salarie",
+        "sp_rece",
+        "sp_entrepreneur",
+        "sp_talent"
+      ]
+    },
+    {
+      "id": "photos",
+      "category": "photo",
+      "title": {
+        "fr": "3 photos d'identité",
+        "en": "3 identity photos"
+      },
+      "details": {
+        "fr": "Trois photos d'identité récentes.",
+        "en": "Three recent identity photos."
+      },
+      "tip": {
+        "fr": "Si la demande se fait sur internet, la préfecture demande le code de la e-photo, fourni par le photographe ou la cabine agréée sur la planche photo.",
+        "en": "If you apply online, the prefecture asks for the e-photo code, given by the approved photographer or photo booth on the photo sheet."
+      },
+      "condition": {
+        "not": {
+          "question": "target_status",
+          "in": [
+            "talent_qualified",
+            "talent_blue_card",
+            "talent_project"
+          ]
+        }
+      },
+      "sources": [
+        "sp_salarie",
+        "sp_rece",
+        "sp_entrepreneur"
+      ]
+    },
+    {
+      "id": "e_photo",
+      "category": "photo",
+      "title": {
+        "fr": "Code de la e-photo",
+        "en": "E-photo code"
+      },
+      "details": {
+        "fr": "Le code est fourni par le photographe ou la cabine agréée, sur la planche photo. Vous le saisissez lors de la demande en ligne.",
+        "en": "The code is given by the approved photographer or photo booth, on the photo sheet. You enter it in the online application."
+      },
+      "condition": {
+        "question": "target_status",
+        "in": [
+          "talent_qualified",
+          "talent_blue_card",
+          "talent_project"
+        ]
+      },
+      "sources": [
+        "sp_talent"
+      ]
+    },
+    {
+      "id": "republic_commitment",
+      "category": "integration",
+      "title": {
+        "fr": "Contrat d'engagement à respecter les principes de la République, signé",
+        "en": "Signed contract of commitment to respect the principles of the Republic"
+      },
+      "details": {
+        "fr": "Un exemplaire signé, joint au dossier lors du dépôt. Sur le site de l'ANEF, la signature se fait en ligne.",
+        "en": "A signed copy, included in your file when you apply. On the ANEF website, you sign it online."
+      },
+      "tip": {
+        "fr": "La version signée et jointe au dossier doit être la version en français. Sans ce contrat, la préfecture considère le dossier comme incomplet. Service-public indique que la signature est facultative dans certains cas, par exemple pour les Algériens, et pour les Marocains et les Tunisiens qui demandent un titre salarié.",
+        "en": "The signed copy in your file must be the French version. Without this contract, the prefecture treats the file as incomplete. Service-public says signing is optional in some cases, for example for Algerians, and for Moroccans and Tunisians applying for an employee permit."
+      },
+      "condition": null,
+      "sources": [
+        "sp_engagement_republique",
+        "sp_salarie",
+        "sp_rece",
+        "sp_entrepreneur",
+        "sp_talent"
+      ]
+    },
+    {
+      "id": "work_authorization_copy",
+      "category": "work",
+      "title": {
+        "fr": "Copie de l'autorisation de travail obtenue par votre employeur",
+        "en": "Copy of the work authorisation obtained by your employer"
+      },
+      "details": {
+        "fr": "C'est votre futur employeur qui demande l'autorisation de travail en ligne. Vous joignez une copie de l'autorisation obtenue.",
+        "en": "Your future employer requests the work authorisation online. You include a copy of the authorisation once it is granted."
+      },
+      "tip": {
+        "fr": "La confirmation de dépôt reçue par l'employeur ne remplace pas l'autorisation de travail.",
+        "en": "The filing confirmation received by the employer does not replace the work authorisation."
+      },
+      "condition": {
+        "question": "target_status",
+        "in": [
+          "salarie",
+          "travailleur_temporaire"
+        ]
+      },
+      "sources": [
+        "sp_salarie",
+        "sp_autorisation_travail"
+      ]
+    },
+    {
+      "id": "health_insurance",
+      "category": "other",
+      "title": {
+        "fr": "Justificatif d'assurance maladie",
+        "en": "Proof of health insurance"
+      },
+      "condition": {
+        "question": "target_status",
+        "equals": "rece"
+      },
+      "sources": [
+        "sp_rece"
+      ]
+    },
+    {
+      "id": "diploma_rece",
+      "category": "studies",
+      "title": {
+        "fr": "Diplôme obtenu au cours des 12 derniers mois",
+        "en": "Degree obtained in the last 12 months"
+      },
+      "details": {
+        "fr": "Diplôme au moins équivalent au grade de master ou licence professionnelle obtenu au cours des 12 derniers mois. Si vous n'avez pas encore le diplôme, l'attestation de réussite définitive, en présentant le diplôme plus tard.",
+        "en": "A degree at least equivalent to a master's, or a professional bachelor's degree, obtained in the last 12 months. If you do not have the diploma yet, the final certificate of success, and you show the diploma later."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "target_status",
+            "equals": "rece"
+          },
+          {
+            "question": "current_status",
+            "in": [
+              "student",
+              "student_mobility"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_rece"
+      ]
+    },
+    {
+      "id": "research_completion",
+      "category": "work",
+      "title": {
+        "fr": "Confirmation de l'achèvement des travaux de recherche",
+        "en": "Confirmation that your research work is completed"
+      },
+      "details": {
+        "fr": "Document de l'organisme de recherche qui confirme la fin de vos travaux. Vous pouvez le présenter au moment de la remise de la carte.",
+        "en": "A document from the research organisation confirming that your work is finished. You can show it when you collect the card."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "target_status",
+            "equals": "rece"
+          },
+          {
+            "question": "current_status",
+            "equals": "talent_researcher"
+          }
+        ]
+      },
+      "sources": [
+        "sp_rece"
+      ]
+    },
+    {
+      "id": "rece_project_proof",
+      "category": "work",
+      "title": {
+        "fr": "Justificatif du projet de création d'entreprise",
+        "en": "Proof of your business creation project"
+      },
+      "details": {
+        "fr": "Le projet doit être dans un domaine qui correspond à votre formation.",
+        "en": "The project must be in a field that matches your studies."
+      },
+      "condition": {
+        "question": "rece_business_project",
+        "equals": "yes"
+      },
+      "sources": [
+        "sp_rece"
+      ]
+    },
+    {
+      "id": "non_polygamy_statement",
+      "category": "family",
+      "title": {
+        "fr": "Déclaration sur l'honneur de non-polygamie en France",
+        "en": "Sworn statement that you do not live in polygamy in France"
+      },
+      "condition": {
+        "question": "polygamy_country",
+        "equals": "yes"
+      },
+      "sources": [
+        "sp_rece",
+        "sp_entrepreneur"
+      ]
+    },
+    {
+      "id": "ent_cerfa_form",
+      "category": "work",
+      "title": {
+        "fr": "Formulaire cerfa \"commerçant, artisan, industriel\" complété",
+        "en": "Completed cerfa form \"trader, craftsman, industrialist\""
+      },
+      "condition": {
+        "question": "business_type",
+        "equals": "commercial_creation"
+      },
+      "sources": [
+        "sp_entrepreneur"
+      ]
+    },
+    {
+      "id": "ent_tax_status",
+      "category": "tax",
+      "title": {
+        "fr": "Bordereau de situation fiscale (impôt sur le revenu)",
+        "en": "Tax status statement (income tax)"
+      },
+      "details": {
+        "fr": "Demandé si vous résidez en France. Il concerne le paiement de votre impôt sur le revenu.",
+        "en": "Requested if you live in France. It shows the payment of your income tax."
+      },
+      "condition": {
+        "question": "business_type",
+        "equals": "commercial_creation"
+      },
+      "sources": [
+        "sp_entrepreneur"
+      ]
+    },
+    {
+      "id": "ent_capacity_proof",
+      "category": "work",
+      "title": {
+        "fr": "Pièces qui montrent votre capacité à exercer l'activité",
+        "en": "Documents showing you are able to carry out the activity"
+      },
+      "details": {
+        "fr": "Pièces justifiant de votre capacité à exercer l'activité commerciale, industrielle ou artisanale. L'activité doit correspondre à vos qualifications ou à votre expérience professionnelle.",
+        "en": "Documents proving you are able to carry out the commercial, industrial or craft activity. The activity must match your qualifications or professional experience."
+      },
+      "example": {
+        "fr": "Exemple : diplôme, certificats de travail.",
+        "en": "Example: diploma, employment certificates."
+      },
+      "condition": {
+        "question": "business_type",
+        "equals": "commercial_creation"
+      },
+      "sources": [
+        "sp_entrepreneur"
+      ]
+    },
+    {
+      "id": "ent_platform_opinion",
+      "category": "work",
+      "title": {
+        "fr": "Avis de la plateforme de la main-d'œuvre étrangère",
+        "en": "Opinion from the foreign workforce platform"
+      },
+      "details": {
+        "fr": "Avis rendu par la plateforme chargée de la main-d'œuvre étrangère compétente dans le département du projet.",
+        "en": "Opinion given by the foreign workforce platform in charge of the department where the project takes place."
+      },
+      "condition": {
+        "question": "business_type",
+        "in": [
+          "commercial_creation",
+          "liberal_creation"
+        ]
+      },
+      "sources": [
+        "sp_entrepreneur"
+      ]
+    },
+    {
+      "id": "ent_registration",
+      "category": "work",
+      "title": {
+        "fr": "Justificatif d'immatriculation de l'entreprise",
+        "en": "Proof of business registration"
+      },
+      "details": {
+        "fr": "Statuts, extrait K ou Kbis, ou affiliation au régime social des indépendants. Pour une création, ce justificatif est à présenter lors de la fabrication de la carte.",
+        "en": "Articles of association, K or Kbis extract, or registration with the self-employed social security scheme. For a new business, you show it when the card is being made."
+      },
+      "condition": {
+        "question": "business_type",
+        "in": [
+          "commercial_creation",
+          "commercial_continuation"
+        ]
+      },
+      "sources": [
+        "sp_entrepreneur"
+      ]
+    },
+    {
+      "id": "ent_business_plan",
+      "category": "work",
+      "title": {
+        "fr": "Présentation du projet, plan d'affaires et budget prévisionnel",
+        "en": "Project presentation, business plan and forecast budget"
+      },
+      "details": {
+        "fr": "Sur papier libre : présentation du projet de création, plan d'affaires et budget prévisionnel sur plusieurs années.",
+        "en": "On plain paper: presentation of the project, business plan and forecast budget over several years."
+      },
+      "condition": {
+        "question": "business_type",
+        "equals": "commercial_creation"
+      },
+      "sources": [
+        "sp_entrepreneur"
+      ]
+    },
+    {
+      "id": "ent_financial_guarantee",
+      "category": "resources",
+      "title": {
+        "fr": "Caution bancaire ou attestation de compte créditeur",
+        "en": "Bank guarantee or statement of a positive account balance"
+      },
+      "details": {
+        "fr": "Justificatif de caution pris par un établissement de crédit ou une entreprise d'assurance agréée en France, ou attestation de solde créditeur d'un compte à votre nom ouvert en France.",
+        "en": "Proof of a guarantee from a credit institution or an insurance company approved in France, or a statement showing a positive balance on an account in your name opened in France."
+      },
+      "condition": {
+        "question": "business_type",
+        "equals": "commercial_creation"
+      },
+      "sources": [
+        "sp_entrepreneur"
+      ]
+    },
+    {
+      "id": "ent_premises_individual",
+      "category": "work",
+      "title": {
+        "fr": "Promesse de bail, sous-location ou contrat de domiciliation",
+        "en": "Promise of lease, sublease or business address contract"
+      },
+      "details": {
+        "fr": "Copie de la promesse de bail, ou du contrat de sous-location qui mentionne l'activité (avec l'autorisation du propriétaire si besoin), ou copie du contrat de domiciliation.",
+        "en": "Copy of the promise of lease, or of the sublease contract mentioning the activity (with the owner's permission if needed), or copy of the business address (domiciliation) contract."
+      },
+      "condition": {
+        "question": "business_form",
+        "equals": "individual_new"
+      },
+      "sources": [
+        "sp_entrepreneur"
+      ]
+    },
+    {
+      "id": "ent_takeover_contract",
+      "category": "work",
+      "title": {
+        "fr": "Promesse de vente ou contrat de vente du fonds de commerce",
+        "en": "Promise of sale or sale contract for the business"
+      },
+      "details": {
+        "fr": "Copie de la promesse de vente ou du contrat de vente du fonds.",
+        "en": "Copy of the promise of sale or of the sale contract for the business."
+      },
+      "condition": {
+        "question": "business_form",
+        "equals": "individual_takeover"
+      },
+      "sources": [
+        "sp_entrepreneur"
+      ]
+    },
+    {
+      "id": "ent_lease_management",
+      "category": "work",
+      "title": {
+        "fr": "Documents de location-gérance",
+        "en": "Lease management documents"
+      },
+      "details": {
+        "fr": "Copie de la promesse ou du contrat de location-gérance, extrait de l'inscription au registre du commerce et des sociétés ou au répertoire des métiers du précédent exploitant (moins de 3 mois), et copie du bail au nom du propriétaire du fonds.",
+        "en": "Copy of the promise or contract of lease management, extract from the trade and companies register or the trades register for the previous operator (less than 3 months old), and copy of the lease in the business owner's name."
+      },
+      "condition": {
+        "question": "business_form",
+        "equals": "individual_lease"
+      },
+      "sources": [
+        "sp_entrepreneur"
+      ]
+    },
+    {
+      "id": "ent_company_documents",
+      "category": "work",
+      "title": {
+        "fr": "Promesse de bail commercial et projet de statuts",
+        "en": "Promise of commercial lease and draft articles of association"
+      },
+      "details": {
+        "fr": "Copie de la promesse de bail commercial ou du contrat de sous-location qui mentionne l'activité (avec l'autorisation du propriétaire si besoin), et copie du projet de statuts de la société avec la répartition prévue du capital.",
+        "en": "Copy of the promise of commercial lease or of the sublease mentioning the activity (with the owner's permission if needed), and copy of the draft articles of association showing the planned split of share capital."
+      },
+      "condition": {
+        "question": "business_form",
+        "equals": "company_french"
+      },
+      "sources": [
+        "sp_entrepreneur"
+      ]
+    },
+    {
+      "id": "ent_subsidiary_documents",
+      "category": "work",
+      "title": {
+        "fr": "Documents pour une filiale d'une société étrangère",
+        "en": "Documents for a subsidiary of a foreign company"
+      },
+      "details": {
+        "fr": "Justificatif de votre nomination (ou lettre d'intention de l'organe compétent), copie des statuts de la société étrangère, copie de la promesse de bail commercial ou du contrat de sous-location, et copie du projet de statuts de la société avec la répartition prévue du capital.",
+        "en": "Proof of your appointment (or letter of intent from the competent body), copy of the foreign company's articles of association, copy of the promise of commercial lease or sublease, and copy of the draft articles of association showing the planned split of share capital."
+      },
+      "condition": {
+        "question": "business_form",
+        "equals": "company_subsidiary"
+      },
+      "sources": [
+        "sp_entrepreneur"
+      ]
+    },
+    {
+      "id": "ent_branch_documents",
+      "category": "work",
+      "title": {
+        "fr": "Documents pour un établissement d'une société étrangère",
+        "en": "Documents for a branch of a foreign company"
+      },
+      "details": {
+        "fr": "Justificatif de votre nomination (ou lettre d'intention de l'organe compétent) et copie des statuts de la société étrangère.",
+        "en": "Proof of your appointment (or letter of intent from the competent body) and copy of the foreign company's articles of association."
+      },
+      "condition": {
+        "question": "business_form",
+        "equals": "branch_foreign"
+      },
+      "sources": [
+        "sp_entrepreneur"
+      ]
+    },
+    {
+      "id": "ent_activity_resources",
+      "category": "resources",
+      "title": {
+        "fr": "Preuves de l'activité réelle et de ses revenus",
+        "en": "Proof that the business is active and of its income"
+      },
+      "details": {
+        "fr": "Tout justificatif montrant que l'entreprise fonctionne et que l'activité vous rapporte au moins 1 867,02 € par mois.",
+        "en": "Any document showing that the business is operating and that the activity brings you at least €1,867.02 per month."
+      },
+      "condition": {
+        "question": "business_type",
+        "equals": "commercial_continuation"
+      },
+      "sources": [
+        "sp_entrepreneur"
+      ]
+    },
+    {
+      "id": "ent_continuation_files",
+      "category": "work",
+      "title": {
+        "fr": "Bail ou domiciliation, situation fiscale et assurance de l'entreprise",
+        "en": "Lease or business address, tax status and insurance of the business"
+      },
+      "details": {
+        "fr": "Si vous continuez l'activité que vous avez créée : copie du bail ou du contrat de domiciliation, bordereau de situation fiscale de l'entreprise (P237) et attestation d'assurance (local, véhicule ou autre bien nécessaire à l'activité).",
+        "en": "If you continue the activity you created: copy of the lease or business address contract, tax status statement of the business (P237) and insurance certificate (premises, vehicle or other item needed for the activity)."
+      },
+      "condition": {
+        "question": "business_type",
+        "equals": "commercial_continuation"
+      },
+      "sources": [
+        "sp_entrepreneur"
+      ]
+    },
+    {
+      "id": "ent_income_proof",
+      "category": "resources",
+      "title": {
+        "fr": "Avis d'imposition et preuves de rémunération",
+        "en": "Tax notice and proof of pay"
+      },
+      "details": {
+        "fr": "Avis d'imposition sur le revenu. Si vous êtes salarié de l'entreprise : fiches de salaire des 3 derniers mois (des 12 derniers mois si vous n'avez pas d'avis d'imposition). Sinon : extrait du livre de compte indiquant votre rémunération sur la même période.",
+        "en": "Income tax notice. If you are an employee of the business: payslips for the last 3 months (last 12 months if you have no tax notice). Otherwise: an extract from the account book showing your pay over the same period."
+      },
+      "condition": {
+        "question": "business_type",
+        "equals": "commercial_continuation"
+      },
+      "sources": [
+        "sp_entrepreneur"
+      ]
+    },
+    {
+      "id": "lib_urssaf_registration",
+      "category": "work",
+      "title": {
+        "fr": "Justificatif d'immatriculation à l'Urssaf",
+        "en": "Proof of registration with Urssaf"
+      },
+      "condition": {
+        "question": "business_type",
+        "equals": "liberal_creation"
+      },
+      "sources": [
+        "sp_entrepreneur"
+      ]
+    },
+    {
+      "id": "lib_income_capacity",
+      "category": "resources",
+      "title": {
+        "fr": "Preuves que l'activité peut rapporter au moins 1 867,02 € par mois",
+        "en": "Proof that the activity can bring in at least €1,867.02 per month"
+      },
+      "example": {
+        "fr": "Exemple : contrats ou devis signés avec des clients.",
+        "en": "Example: signed contracts or quotes with clients."
+      },
+      "condition": {
+        "question": "business_type",
+        "equals": "liberal_creation"
+      },
+      "sources": [
+        "sp_entrepreneur"
+      ]
+    },
+    {
+      "id": "lib_continuation_proof",
+      "category": "resources",
+      "title": {
+        "fr": "Preuves de la poursuite de l'activité et de ses revenus",
+        "en": "Proof that the activity continues and of its income"
+      },
+      "details": {
+        "fr": "Justificatif de la poursuite d'activité et des ressources tirées de l'activité, au moins égales à 1 867,02 € par mois.",
+        "en": "Proof that the activity continues and of the income it brings, at least €1,867.02 per month."
+      },
+      "condition": {
+        "question": "business_type",
+        "equals": "liberal_continuation"
+      },
+      "sources": [
+        "sp_entrepreneur"
+      ]
+    },
+    {
+      "id": "regulated_authorization",
+      "category": "work",
+      "title": {
+        "fr": "Autorisation d'exercer une activité réglementée",
+        "en": "Licence to carry out a regulated activity"
+      },
+      "details": {
+        "fr": "Preuves que vous respectez les conditions pour exercer : autorisation d'exercice, diplôme, titre, certification, habilitation, déclaration ou inscription à l'ordre concerné.",
+        "en": "Proof that you meet the conditions to practise: licence, diploma, title, certification, approval, declaration or registration with the relevant professional body."
+      },
+      "condition": {
+        "question": "regulated_activity",
+        "equals": "yes"
+      },
+      "sources": [
+        "sp_entrepreneur",
+        "sp_talent"
+      ]
+    },
+    {
+      "id": "talent_diploma_master",
+      "category": "studies",
+      "title": {
+        "fr": "Diplôme au moins équivalent au master obtenu en France",
+        "en": "Degree at least equivalent to a master's, obtained in France"
+      },
+      "details": {
+        "fr": "Ou diplôme de niveau 1 labellisé par la Conférence des grandes écoles et délivré par un établissement habilité au niveau national.",
+        "en": "Or a level 1 degree accredited by the Conférence des grandes écoles and awarded by an institution approved at national level."
+      },
+      "condition": {
+        "question": "target_status",
+        "equals": "talent_qualified"
+      },
+      "sources": [
+        "sp_talent"
+      ]
+    },
+    {
+      "id": "talent_employer_attestation",
+      "category": "work",
+      "title": {
+        "fr": "Attestation de l'employeur",
+        "en": "Employer certificate"
+      },
+      "details": {
+        "fr": "Un modèle d'attestation employeur pour les dossiers talent et motifs salarié est proposé en ligne.",
+        "en": "A template employer certificate for talent and employee applications is available online."
+      },
+      "tip": {
+        "fr": "Pour ces cartes talent, service-public indique que l'employeur n'a pas à demander d'autorisation de travail.",
+        "en": "For these talent cards, service-public says the employer does not need to request a work authorisation."
+      },
+      "condition": {
+        "question": "target_status",
+        "in": [
+          "talent_qualified",
+          "talent_blue_card"
+        ]
+      },
+      "sources": [
+        "sp_talent"
+      ]
+    },
+    {
+      "id": "talent_blue_card_qualification",
+      "category": "studies",
+      "title": {
+        "fr": "Diplôme Bac+3 ou preuves d'expérience professionnelle",
+        "en": "Three-year degree (Bac+3) or proof of work experience"
+      },
+      "details": {
+        "fr": "Diplôme d'au moins 3 années d'études supérieures, ou tout document qui justifie d'au moins 5 années (ou 3 années pour certaines professions) d'expérience professionnelle de niveau comparable.",
+        "en": "A degree of at least 3 years of higher education, or any document proving at least 5 years (or 3 years for some professions) of work experience at a comparable level."
+      },
+      "example": {
+        "fr": "Exemple : curriculum vitae et certificats de travail.",
+        "en": "Example: CV and employment certificates."
+      },
+      "condition": {
+        "question": "target_status",
+        "equals": "talent_blue_card"
+      },
+      "sources": [
+        "sp_talent"
+      ]
+    },
+    {
+      "id": "talent_project_qualification",
+      "category": "studies",
+      "title": {
+        "fr": "Diplôme au moins équivalent au master ou 5 ans d'expérience",
+        "en": "Degree at least equivalent to a master's or 5 years of experience"
+      },
+      "details": {
+        "fr": "Diplôme au moins équivalent au master, ou tout document qui justifie d'une expérience professionnelle d'au moins 5 ans d'un niveau comparable.",
+        "en": "A degree at least equivalent to a master's, or any document proving at least 5 years of work experience at a comparable level."
+      },
+      "condition": {
+        "question": "target_status",
+        "equals": "talent_project"
+      },
+      "sources": [
+        "sp_talent"
+      ]
+    },
+    {
+      "id": "talent_project_criminal_record",
+      "category": "civil_status",
+      "title": {
+        "fr": "Extrait de casier judiciaire",
+        "en": "Criminal record extract"
+      },
+      "details": {
+        "fr": "Demandé pour une première demande de titre talent. Extrait de casier judiciaire ou pièce équivalente du pays dont vous avez la nationalité.",
+        "en": "Required for a first talent permit application. Criminal record extract or equivalent document from your country of nationality."
+      },
+      "condition": {
+        "question": "target_status",
+        "equals": "talent_project"
+      },
+      "sources": [
+        "sp_talent"
+      ]
+    },
+    {
+      "id": "talent_project_investment",
+      "category": "resources",
+      "title": {
+        "fr": "Preuve d'un investissement d'au moins 30 000 € dans le projet",
+        "en": "Proof of an investment of at least €30,000 in the project"
+      },
+      "details": {
+        "fr": "En ressources propres ou empruntées.",
+        "en": "From your own funds or borrowed funds."
+      },
+      "example": {
+        "fr": "Exemple : relevé bancaire ou offre de prêt.",
+        "en": "Example: bank statement or loan offer."
+      },
+      "condition": {
+        "question": "target_status",
+        "equals": "talent_project"
+      },
+      "sources": [
+        "sp_talent"
+      ]
+    },
+    {
+      "id": "talent_project_resources",
+      "category": "resources",
+      "title": {
+        "fr": "Justificatifs de ressources au moins égales au Smic à temps plein",
+        "en": "Proof of resources at least equal to the full-time minimum wage"
+      },
+      "details": {
+        "fr": "Service-public indique un montant de 22 404,20 € brut par an.",
+        "en": "Service-public gives an amount of €22,404.20 gross per year."
+      },
+      "condition": {
+        "question": "target_status",
+        "equals": "talent_project"
+      },
+      "sources": [
+        "sp_talent"
+      ]
+    },
+    {
+      "id": "talent_project_registration",
+      "category": "work",
+      "title": {
+        "fr": "Justificatif d'immatriculation de l'entreprise",
+        "en": "Proof of business registration"
+      },
+      "details": {
+        "fr": "Statuts, extrait K ou numéro SIREN, ou affiliation au régime social des indépendants.",
+        "en": "Articles of association, K extract or SIREN number, or registration with the self-employed social security scheme."
+      },
+      "condition": {
+        "question": "target_status",
+        "equals": "talent_project"
+      },
+      "sources": [
+        "sp_talent"
+      ]
+    },
+    {
+      "id": "talent_project_economy_opinion",
+      "category": "work",
+      "title": {
+        "fr": "Avis du ministère chargé de l'économie sur votre projet",
+        "en": "Opinion from the Ministry for the Economy on your project"
+      },
+      "details": {
+        "fr": "Avis sur le caractère réel et sérieux du projet de création d'entreprise. Il faut le demander avant la demande de carte.",
+        "en": "Opinion on whether the business creation project is genuine and serious. You must request it before applying for the card."
+      },
+      "condition": {
+        "question": "target_status",
+        "equals": "talent_project"
+      },
+      "sources": [
+        "sp_talent"
+      ]
+    },
+    {
+      "id": "tax_stamp_350",
+      "category": "tax",
+      "title": {
+        "fr": "Timbres fiscaux de 350 €",
+        "en": "Tax stamps for €350"
+      },
+      "details": {
+        "fr": "350 € : droit de timbre de 50 € et taxe de 300 €. Le justificatif de paiement est demandé à la remise de la carte, pas au dépôt.",
+        "en": "€350: €50 stamp duty and €300 tax. Proof of payment is requested when you collect the card, not when you apply."
+      },
+      "tip": {
+        "fr": "Le timbre s'achète sur internet ou dans un bureau de tabac équipé. Attention à ne pas acheter un timbre amende par erreur.",
+        "en": "You can buy the stamp online or in an equipped tobacco shop. Be careful not to buy a fine stamp (timbre amende) by mistake."
+      },
+      "condition": {
+        "not": {
+          "question": "target_status",
+          "equals": "rece"
+        }
+      },
+      "sources": [
+        "sp_salarie",
+        "sp_entrepreneur",
+        "sp_talent",
+        "sp_actu_taxes_2026"
+      ]
+    },
+    {
+      "id": "tax_stamp_150",
+      "category": "tax",
+      "title": {
+        "fr": "Timbres fiscaux de 150 €",
+        "en": "Tax stamps for €150"
+      },
+      "details": {
+        "fr": "150 € : droit de timbre de 50 € et taxe de 100 €. C'est le tarif minoré prévu pour la carte recherche d'emploi ou création d'entreprise.",
+        "en": "€150: €50 stamp duty and €100 tax. This is the reduced rate for the job search or business creation card."
+      },
+      "tip": {
+        "fr": "Le timbre s'achète sur internet ou dans un bureau de tabac équipé.",
+        "en": "You can buy the stamp online or in an equipped tobacco shop."
+      },
+      "condition": {
+        "question": "target_status",
+        "equals": "rece"
+      },
+      "sources": [
+        "sp_rece",
+        "sp_actu_taxes_2026"
+      ]
+    },
+    {
+      "id": "ofii_medical_certificate",
+      "category": "other",
+      "title": {
+        "fr": "Certificat médical délivré par l'Ofii",
+        "en": "Medical certificate issued by Ofii"
+      },
+      "details": {
+        "fr": "À remettre au moment de la remise du titre, pas au dépôt.",
+        "en": "To hand in when you collect the permit, not when you apply."
+      },
+      "condition": {
+        "question": "target_status",
+        "in": [
+          "salarie",
+          "travailleur_temporaire",
+          "entrepreneur"
+        ]
+      },
+      "sources": [
+        "sp_salarie",
+        "sp_entrepreneur"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "check_job_bac2_licence",
+      "phase": "before",
+      "title": {
+        "fr": "Vérifier si le métier est \"en tension\"",
+        "en": "Check if the job is a \"shortage occupation\""
+      },
+      "body": {
+        "fr": "Avec un Bac+2 ou une licence, service-public indique que la situation de l'emploi vous est opposée, sauf si le métier figure sur la liste des métiers en tension. Si votre pays a signé un accord sur les migrations professionnelles avec la France, une autre liste de métiers peut s'appliquer.",
+        "en": "With a two-year degree or a bachelor's degree, service-public says the employment situation is taken into account, unless the job is on the list of shortage occupations. If your country has signed a work migration agreement with France, another list of jobs may apply."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "target_status",
+            "in": [
+              "salarie",
+              "travailleur_temporaire"
+            ]
+          },
+          {
+            "question": "diploma_level",
+            "in": [
+              "bac2",
+              "licence"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_apres_etudes",
+        "sp_autorisation_travail"
+      ]
+    },
+    {
+      "id": "check_job_master",
+      "phase": "before",
+      "title": {
+        "fr": "Vérifier les conditions liées à votre diplôme",
+        "en": "Check the conditions linked to your degree"
+      },
+      "body": {
+        "fr": "Avec une licence professionnelle ou un master, service-public indique que la situation de l'emploi ne vous est pas opposée si le poste est en lien avec votre formation et payé au moins 2 800,53 € brut par mois, ou si le métier est en tension. Pour un diplôme équivalent au master, la page sur l'autorisation de travail précise que le diplôme doit avoir été obtenu dans l'année.",
+        "en": "With a professional bachelor's degree or a master's, service-public says the employment situation is not taken into account if the job is related to your studies and paid at least €2,800.53 gross per month, or if it is a shortage occupation. For a master's-level degree, the work authorisation page says the degree must have been obtained within the year."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "target_status",
+            "in": [
+              "salarie",
+              "travailleur_temporaire"
+            ]
+          },
+          {
+            "question": "diploma_level",
+            "in": [
+              "licence_pro",
+              "master"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_apres_etudes",
+        "sp_autorisation_travail"
+      ]
+    },
+    {
+      "id": "employer_job_offer",
+      "phase": "before",
+      "title": {
+        "fr": "L'employeur publie l'offre d'emploi",
+        "en": "The employer publishes the job offer"
+      },
+      "body": {
+        "fr": "Avant de demander l'autorisation de travail, l'employeur doit publier l'offre pendant 3 semaines de suite, dans les 6 mois avant sa demande, auprès du service public de l'emploi, par exemple France Travail. Ce n'est pas obligatoire si le métier figure sur la liste des métiers en tension.",
+        "en": "Before requesting the work authorisation, the employer must publish the offer for 3 weeks in a row, within the 6 months before the request, with the public employment service, for example France Travail. This is not required if the job is on the list of shortage occupations."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "target_status",
+            "in": [
+              "salarie",
+              "travailleur_temporaire"
+            ]
+          },
+          {
+            "question": "job_matches_studies",
+            "equals": "no"
+          }
+        ]
+      },
+      "sources": [
+        "sp_autorisation_travail"
+      ]
+    },
+    {
+      "id": "employer_requests_authorization",
+      "phase": "before",
+      "title": {
+        "fr": "L'employeur demande l'autorisation de travail en ligne",
+        "en": "The employer requests the work authorisation online"
+      },
+      "body": {
+        "fr": "C'est votre employeur, ou une personne qu'il mandate, qui fait la demande, uniquement sur internet. La demande est transmise au préfet du département du siège de l'employeur. La confirmation de dépôt reçue par l'employeur ne permet pas de travailler. Vous déposez ensuite votre demande de titre avec une copie de l'autorisation obtenue.",
+        "en": "Your employer, or someone they appoint, makes the request, online only. It is sent to the prefect of the department where the employer has its head office. The filing confirmation received by the employer does not allow you to work. You then apply for your permit with a copy of the authorisation granted."
+      },
+      "link": {
+        "title": {
+          "fr": "Ouvrir la page de demande pour l'employeur",
+          "en": "Open the employer request page"
+        },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R58908"
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "target_status",
+            "in": [
+              "salarie",
+              "travailleur_temporaire"
+            ]
+          },
+          {
+            "question": "work_authorization_obtained",
+            "equals": "no"
+          }
+        ]
+      },
+      "sources": [
+        "sp_autorisation_travail",
+        "sp_service_autorisation_travail",
+        "sp_salarie"
+      ]
+    },
+    {
+      "id": "get_authorization_copy",
+      "phase": "before",
+      "title": {
+        "fr": "Récupérer la copie de l'autorisation de travail",
+        "en": "Get a copy of the work authorisation"
+      },
+      "body": {
+        "fr": "Service-public indique que l'autorisation de travail doit vous être donnée pour faire votre changement de statut. Demandez une copie à votre employeur et joignez-la à votre dossier.",
+        "en": "Service-public says the work authorisation must be given to you so you can change your status. Ask your employer for a copy and add it to your file."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "target_status",
+            "in": [
+              "salarie",
+              "travailleur_temporaire"
+            ]
+          },
+          {
+            "question": "work_authorization_obtained",
+            "equals": "yes"
+          }
+        ]
+      },
+      "sources": [
+        "sp_autorisation_travail",
+        "sp_salarie"
+      ]
+    },
+    {
+      "id": "switch_cdi_cdd",
+      "phase": "before",
+      "title": {
+        "fr": "Passer de salarié à travailleur temporaire, ou l'inverse",
+        "en": "Switch from employee to temporary worker, or the reverse"
+      },
+      "body": {
+        "fr": "Service-public indique qu'avec une carte salarié et une autorisation de travail pour un CDD, ou avec une carte travailleur temporaire et une autorisation pour un CDI, vous ne pouvez pas travailler avec votre carte actuelle. Il faut demander un changement de statut et attendre au moins un récépissé qui indique \"autorise son titulaire à travailler\".",
+        "en": "Service-public says that with an employee card and a work authorisation for a fixed-term contract, or with a temporary worker card and an authorisation for a permanent contract, you cannot work with your current card. You must apply for a change of status and wait for at least a receipt stating \"autorise son titulaire à travailler\" (allows the holder to work)."
+      },
+      "condition": {
+        "question": "current_status",
+        "in": [
+          "salarie",
+          "travailleur_temporaire"
+        ]
+      },
+      "sources": [
+        "sp_autorisation_travail"
+      ]
+    },
+    {
+      "id": "rece_conditions",
+      "phase": "before",
+      "title": {
+        "fr": "Vérifier les conditions de la carte recherche d'emploi ou création d'entreprise",
+        "en": "Check the conditions for the job search or business creation card"
+      },
+      "body": {
+        "fr": "Étudiant : vous devez avoir une carte étudiant ou étudiant - programme de mobilité et avoir obtenu au cours des 12 derniers mois une licence professionnelle, un Mastère Spécialisé, un Master of Science ou un diplôme au moins équivalent au master. Talent-chercheur : vous devez avoir achevé vos travaux de recherche. Cette carte ne concerne pas les étudiants algériens. Si votre pays a signé un accord sur les flux migratoires avec la France, vous pouvez aussi demander une autorisation provisoire de séjour pour une première expérience professionnelle.",
+        "en": "Student: you must hold a student or student - mobility programme card and have obtained in the last 12 months a professional bachelor's degree, a Mastère Spécialisé, a Master of Science or a degree at least equivalent to a master's. Talent-researcher: you must have finished your research work. This card does not apply to Algerian students. If your country has signed a migration agreement with France, you can also request a temporary residence authorisation (APS) for a first work experience."
+      },
+      "condition": {
+        "question": "target_status",
+        "equals": "rece"
+      },
+      "sources": [
+        "sp_rece"
+      ]
+    },
+    {
+      "id": "entrepreneur_conditions",
+      "phase": "before",
+      "title": {
+        "fr": "Vérifier les conditions de la carte entrepreneur",
+        "en": "Check the conditions for the entrepreneur card"
+      },
+      "body": {
+        "fr": "Service-public indique que l'activité doit être exercée à titre principal, inscrite au guichet unique des formalités des entreprises, économiquement viable, vous apporter des moyens d'existence suffisants et correspondre à vos qualifications ou à votre expérience. Les actes d'état civil doivent être accompagnés de leur traduction en français par un traducteur interprète agréé.",
+        "en": "Service-public says the activity must be your main activity, registered with the single business formalities desk (guichet unique), economically viable, give you enough to live on and match your qualifications or experience. Civil status documents must come with a French translation by an approved translator."
+      },
+      "condition": {
+        "question": "target_status",
+        "equals": "entrepreneur"
+      },
+      "sources": [
+        "sp_entrepreneur"
+      ]
+    },
+    {
+      "id": "talent_qualified_conditions",
+      "phase": "before",
+      "title": {
+        "fr": "Vérifier les conditions de la carte talent - salarié qualifié",
+        "en": "Check the conditions for the talent - qualified employee card"
+      },
+      "body": {
+        "fr": "Parcours salarié qualifié : diplôme au moins équivalent au master obtenu en France (ou diplôme de niveau 1 labellisé par la Conférence des grandes écoles) et contrat de travail de plus de 3 mois avec un salaire brut annuel d'au moins 39 582 €. Votre employeur n'a pas à demander d'autorisation de travail.",
+        "en": "Qualified employee route: a degree at least equivalent to a master's obtained in France (or a level 1 degree accredited by the Conférence des grandes écoles) and an employment contract of more than 3 months with a gross annual salary of at least €39,582. Your employer does not need to request a work authorisation."
+      },
+      "condition": {
+        "question": "target_status",
+        "equals": "talent_qualified"
+      },
+      "sources": [
+        "sp_talent",
+        "sp_rece"
+      ]
+    },
+    {
+      "id": "talent_blue_card_conditions",
+      "phase": "before",
+      "title": {
+        "fr": "Vérifier les conditions de la carte bleue européenne",
+        "en": "Check the conditions for the EU Blue Card"
+      },
+      "body": {
+        "fr": "Service-public indique : un diplôme d'au moins 3 années d'études supérieures ou une expérience professionnelle de niveau comparable, un contrat de travail d'au moins 6 mois et un salaire brut annuel d'au moins 59 373 €. Votre employeur n'a pas à demander d'autorisation de travail.",
+        "en": "Service-public lists: a degree of at least 3 years of higher education or comparable work experience, an employment contract of at least 6 months and a gross annual salary of at least €59,373. Your employer does not need to request a work authorisation."
+      },
+      "condition": {
+        "question": "target_status",
+        "equals": "talent_blue_card"
+      },
+      "sources": [
+        "sp_talent"
+      ]
+    },
+    {
+      "id": "talent_project_conditions",
+      "phase": "before",
+      "title": {
+        "fr": "Demander l'avis du ministère de l'économie sur votre projet",
+        "en": "Ask the Ministry for the Economy for an opinion on your project"
+      },
+      "body": {
+        "fr": "Pour la carte talent - porteur de projet (création d'entreprise), service-public indique : diplôme au moins équivalent au master ou 5 ans d'expérience de niveau comparable, projet réel et sérieux, ressources d'au moins 22 404,20 € brut par an et financement d'au moins 30 000 €. Vous devez d'abord demander un avis au ministère chargé de l'économie sur le caractère réel et sérieux du projet.",
+        "en": "For the talent - project holder card (business creation), service-public lists: a degree at least equivalent to a master's or 5 years of comparable experience, a genuine and serious project, resources of at least €22,404.20 gross per year and funding of at least €30,000. You must first ask the Ministry for the Economy for an opinion on whether the project is genuine and serious."
+      },
+      "condition": {
+        "question": "target_status",
+        "equals": "talent_project"
+      },
+      "sources": [
+        "sp_talent"
+      ]
+    },
+    {
+      "id": "check_prefecture_procedure",
+      "phase": "before",
+      "title": {
+        "fr": "Vérifier comment votre préfecture reçoit les dossiers",
+        "en": "Check how your prefecture receives applications"
+      },
+      "body": {
+        "fr": "Pour ce titre, service-public indique un dépôt à la préfecture ou à la sous-préfecture de votre domicile, et pas sur le site de l'ANEF. La façon de déposer change selon la préfecture : par exemple, la préfecture d'Ille-et-Vilaine utilise une plateforme en ligne, la préfecture de l'Hérault demande un rendez-vous une fois l'autorisation de travail obtenue, et celle des Hauts-de-Seine un dépôt en ligne. Certaines sous-préfectures ne traitent pas ces démarches. Regardez le site de votre préfecture.",
+        "en": "For this permit, service-public says you apply to the prefecture or sub-prefecture where you live, not on the ANEF website. How you apply depends on the prefecture: for example, the Ille-et-Vilaine prefecture uses an online platform, the Hérault prefecture asks you to book an appointment once the work authorisation is granted, and the Hauts-de-Seine prefecture uses online filing. Some sub-prefectures do not handle these applications. Check your prefecture's website."
+      },
+      "link": {
+        "title": {
+          "fr": "Trouver le site de ma préfecture",
+          "en": "Find my prefecture's website"
+        },
+        "url": "https://www.interieur.gouv.fr/Le-ministere/Prefectures"
+      },
+      "condition": {
+        "question": "target_status",
+        "in": [
+          "salarie",
+          "travailleur_temporaire",
+          "rece",
+          "entrepreneur"
+        ]
+      },
+      "sources": [
+        "sp_salarie",
+        "sp_rece",
+        "sp_entrepreneur",
+        "pref_ille_et_vilaine",
+        "pref_herault",
+        "pref_hauts_de_seine"
+      ],
+      "letters": [
+        "appointment_request",
+        "cannot_use_online"
+      ]
+    },
+    {
+      "id": "submit_prefecture",
+      "phase": "submit",
+      "title": {
+        "fr": "Déposer la demande auprès de la préfecture",
+        "en": "Apply to the prefecture"
+      },
+      "body": {
+        "fr": "Déposez votre dossier avant la fin de validité de votre titre actuel, selon la procédure de votre préfecture. Pour la carte recherche d'emploi ou création d'entreprise et la carte entrepreneur, service-public indique un dépôt dans les 2 mois avant la fin de votre titre. Pour un étudiant qui demande le titre salarié ou travailleur temporaire, service-public indique aussi un dépôt dans les 2 mois avant la fin de la carte étudiant.",
+        "en": "Submit your file before your current permit expires, following your prefecture's procedure. For the job search or business creation card and the entrepreneur card, service-public says to apply within the 2 months before your permit expires. For a student applying for the employee or temporary worker permit, service-public also says to apply within the 2 months before the student card expires."
+      },
+      "condition": {
+        "question": "target_status",
+        "in": [
+          "salarie",
+          "travailleur_temporaire",
+          "rece",
+          "entrepreneur"
+        ]
+      },
+      "sources": [
+        "sp_salarie",
+        "sp_apres_etudes",
+        "sp_rece",
+        "sp_entrepreneur"
+      ],
+      "letters": [
+        "appointment_request"
+      ]
+    },
+    {
+      "id": "submit_anef_talent",
+      "phase": "submit",
+      "title": {
+        "fr": "Déposer la demande sur le site de l'ANEF",
+        "en": "Apply on the ANEF website"
+      },
+      "body": {
+        "fr": "Pour une carte talent, service-public indique que la demande se fait sur internet, au plus tôt 4 mois et au plus tard 2 mois avant la fin de validité de votre titre. Vous recevez tout de suite une attestation de dépôt.",
+        "en": "For a talent card, service-public says you apply online, no earlier than 4 months and no later than 2 months before your permit expires. You immediately receive a filing certificate."
+      },
+      "link": {
+        "title": {
+          "fr": "Ouvrir le site de l'ANEF",
+          "en": "Open the ANEF website"
+        },
+        "url": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/"
+      },
+      "condition": {
+        "question": "target_status",
+        "in": [
+          "talent_qualified",
+          "talent_blue_card",
+          "talent_project"
+        ]
+      },
+      "sources": [
+        "sp_talent",
+        "sp_anef"
+      ],
+      "letters": [
+        "cannot_use_online"
+      ]
+    },
+    {
+      "id": "receipt_and_work",
+      "phase": "after",
+      "title": {
+        "fr": "Recevoir le récépissé",
+        "en": "Receive the receipt"
+      },
+      "body": {
+        "fr": "Si votre dossier est complet, vous recevez un récépissé en attendant la réponse de la préfecture. Pour le titre salarié ou travailleur temporaire, vous ne pouvez travailler qu'avec un récépissé qui indique \"autorise son titulaire à travailler\", et seulement avec l'employeur qui a obtenu l'autorisation de travail.",
+        "en": "If your file is complete, you receive a receipt while the prefecture reviews it. For the employee or temporary worker permit, you can only work with a receipt stating \"autorise son titulaire à travailler\" (allows the holder to work), and only for the employer who obtained the work authorisation."
+      },
+      "condition": {
+        "question": "target_status",
+        "in": [
+          "salarie",
+          "travailleur_temporaire",
+          "rece",
+          "entrepreneur"
+        ]
+      },
+      "sources": [
+        "sp_salarie",
+        "sp_rece",
+        "sp_autorisation_travail"
+      ],
+      "letters": [
+        "receipt_request"
+      ]
+    },
+    {
+      "id": "anef_attestation_work",
+      "phase": "after",
+      "title": {
+        "fr": "Garder l'attestation de dépôt",
+        "en": "Keep the filing certificate"
+      },
+      "body": {
+        "fr": "Service-public indique que l'attestation de confirmation de dépôt ne permet pas de travailler. L'attestation de prolongation d'instruction d'une première demande de carte talent permet de travailler.",
+        "en": "Service-public says the filing confirmation certificate does not allow you to work. The certificate extending the review of a first talent card application does allow you to work."
+      },
+      "condition": {
+        "question": "target_status",
+        "in": [
+          "talent_qualified",
+          "talent_blue_card",
+          "talent_project"
+        ]
+      },
+      "sources": [
+        "sp_autorisation_travail",
+        "sp_talent"
+      ]
+    },
+    {
+      "id": "wait_decision",
+      "phase": "after",
+      "title": {
+        "fr": "Attendre la décision",
+        "en": "Wait for the decision"
+      },
+      "body": {
+        "fr": "Si votre demande est acceptée, vous êtes informé par la préfecture, par exemple par SMS avec le montant des taxes, puis convoqué pour la remise du titre. Sans réponse après un certain délai, la demande est considérée comme refusée (refus implicite). Les pages de service-public, vérifiées entre mai et juin 2026, indiquent un délai de 4 mois. Un décret du 26 octobre 2026 modifie ce délai à partir du 30 octobre 2026. Si votre récépissé arrive à sa fin sans réponse, renseignez-vous sur son renouvellement auprès de votre préfecture.",
+        "en": "If your application is accepted, the prefecture informs you, for example by text message with the amount of the taxes, then invites you to collect your permit. With no answer after a certain time, the application is considered refused (implicit refusal). The service-public pages, checked between May and June 2026, give a period of 4 months. A decree of 26 October 2026 changes this period from 30 October 2026. If your receipt is about to expire with no answer, ask your prefecture about renewing it."
+      },
+      "condition": null,
+      "sources": [
+        "sp_salarie",
+        "sp_talent",
+        "sp_actu_taxes_2026",
+        "lf_decret_2026_1001"
+      ],
+      "letters": [
+        "file_followup",
+        "receipt_request"
+      ]
+    },
+    {
+      "id": "collect_permit",
+      "phase": "after",
+      "title": {
+        "fr": "Payer les timbres et retirer votre titre",
+        "en": "Pay the stamps and collect your permit"
+      },
+      "body": {
+        "fr": "Achetez les timbres fiscaux quand la préfecture vous confirme que le titre est prêt, sur internet ou dans un bureau de tabac équipé. La carte vous est remise par la préfecture ou la sous-préfecture. Dans la plupart des préfectures, il faut prendre rendez-vous. Apportez aussi les pièces demandées à la remise, comme le certificat médical de l'Ofii si votre liste le prévoit.",
+        "en": "Buy the tax stamps when the prefecture confirms your permit is ready, online or in an equipped tobacco shop. The card is handed to you by the prefecture or sub-prefecture. In most prefectures you need an appointment. Also bring the documents requested at collection, such as the Ofii medical certificate if your list includes it."
+      },
+      "link": {
+        "title": {
+          "fr": "Acheter un timbre fiscal en ligne",
+          "en": "Buy a tax stamp online"
+        },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R49486"
+      },
+      "condition": null,
+      "sources": [
+        "sp_talent",
+        "sp_salarie",
+        "sp_actu_taxes_2026"
+      ]
+    },
+    {
+      "id": "rece_next_steps",
+      "phase": "after",
+      "title": {
+        "fr": "Pendant et après la carte recherche d'emploi",
+        "en": "During and after the job search card"
+      },
+      "body": {
+        "fr": "La carte est valable 1 an et n'est pas renouvelable. Pendant sa validité, vous pouvez travailler comme salarié sans autorisation de travail, si l'emploi est en lien avec vos études ou vos recherches et payé plus de 2 800,53 € brut par mois. À la fin, si vous avez trouvé un emploi ou créé une entreprise, vous pouvez demander une carte à titre professionnel : salarié, travailleur temporaire, talent, ou entrepreneur.",
+        "en": "The card is valid for 1 year and cannot be renewed. While it is valid, you can work as an employee without a work authorisation, if the job is related to your studies or research and paid more than €2,800.53 gross per month. At the end, if you have found a job or created a business, you can apply for a work-related card: employee, temporary worker, talent, or entrepreneur."
+      },
+      "condition": {
+        "question": "target_status",
+        "equals": "rece"
+      },
+      "sources": [
+        "sp_rece",
+        "sp_autorisation_travail"
+      ]
+    }
+  ],
+  "deadlines": [
+    {
+      "id": "prefecture_window_start",
+      "relativeTo": "permit_expiry_date",
+      "offsetDays": -60,
+      "title": {
+        "fr": "Début des 2 mois pour déposer votre demande",
+        "en": "Start of the 2 months to file your application"
+      },
+      "condition": {
+        "any": [
+          {
+            "question": "target_status",
+            "in": [
+              "rece",
+              "entrepreneur"
+            ]
+          },
+          {
+            "all": [
+              {
+                "question": "target_status",
+                "in": [
+                  "salarie",
+                  "travailleur_temporaire"
+                ]
+              },
+              {
+                "question": "current_status",
+                "in": [
+                  "student",
+                  "student_mobility"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_apres_etudes",
+        "sp_rece",
+        "sp_entrepreneur"
+      ]
+    },
+    {
+      "id": "prefecture_permit_end",
+      "relativeTo": "permit_expiry_date",
+      "offsetDays": 0,
+      "title": {
+        "fr": "Fin de validité de votre titre : déposez votre demande avant cette date",
+        "en": "Your permit expires: file your application before this date"
+      },
+      "condition": {
+        "question": "target_status",
+        "in": [
+          "salarie",
+          "travailleur_temporaire",
+          "rece",
+          "entrepreneur"
+        ]
+      },
+      "sources": [
+        "sp_salarie",
+        "sp_rece",
+        "sp_entrepreneur"
+      ]
+    },
+    {
+      "id": "talent_window_start",
+      "relativeTo": "permit_expiry_date",
+      "offsetDays": -120,
+      "title": {
+        "fr": "Au plus tôt : début de la période pour déposer sur l'ANEF",
+        "en": "Earliest date to apply on ANEF"
+      },
+      "condition": {
+        "question": "target_status",
+        "in": [
+          "talent_qualified",
+          "talent_blue_card",
+          "talent_project"
+        ]
+      },
+      "sources": [
+        "sp_talent"
+      ]
+    },
+    {
+      "id": "talent_window_end",
+      "relativeTo": "permit_expiry_date",
+      "offsetDays": -60,
+      "title": {
+        "fr": "Au plus tard : fin de la période pour déposer sur l'ANEF",
+        "en": "Latest date to apply on ANEF"
+      },
+      "condition": {
+        "question": "target_status",
+        "in": [
+          "talent_qualified",
+          "talent_blue_card",
+          "talent_project"
+        ]
+      },
+      "sources": [
+        "sp_talent"
+      ]
+    }
+  ],
+  "reviewNotes": [
+    "Contacts et courriers référencés (france_services, point_justice, anef_contact, prefecture_directory ; appointment_request, cannot_use_online, receipt_request, file_followup) : définis dans help.json par une autre personne, non vérifiés ici. defenseur_des_droits n'est pas utilisé : aucune source lue pour cette démarche ne le cite.",
+    "Outcome permit_expired : renvoie vers la fiche admission exceptionnelle au séjour F17146, vérifiée le 12/03/2025, antérieure à la hausse des taxes du 01/05/2026 ; aucun montant repris. Seuls la règle de dépôt avant la fin du titre (F15898) et le renvoi de F2728 sont affichés.",
+    "Certificat de résidence algérien (F2215, vérifiée le 01/08/2026) : indique 250 € en cas de changement de statut ; non repris, page en cours de mise à jour (décret 2026-1001).",
+    "Décret n° 2026-1001 du 26 octobre 2026 (JORF du 29/10/2026, entrée en vigueur le lendemain, soit le 30/10/2026) : d'après une lecture par fragments de Légifrance, le délai de décision du préfet passe de 4 mois à 90 jours à compter du dépôt d'une demande complète (R432-2 nouveau), et la décision implicite de rejet naît au bout de 90 jours. Les fiches service-public F15898, F2728 et F16922 affichent un bandeau « Cette page est en cours de mise à jour ». Le texte affiché garde le délai de 4 mois en vigueur au 29/10/2026 et signale le changement ; à mettre à jour dès le 30/10/2026 après relecture intégrale du décret.",
+    "Refus implicite : F16922 (talent) indique 60 jours dans la rubrique chercheur et 4 mois dans les rubriques salarié qualifié et carte bleue européenne ; F2728 indique 2 mois pour l'autorisation de travail. Valeurs non reprises en détail ; à revoir avec le décret 2026-1001.",
+    "Taxes : montants repris des fiches F15898 (vérifiée le 01/05/2026), F17319, F35795 et F16922 (vérifiées le 01/06/2026), cohérents avec l'actualité A18881 sur la hausse au 1er mai 2026 (première délivrance 350 €, tarif minoré 150 € pour recherche d'emploi/création d'entreprise). F15898 a été vérifiée le jour même de la hausse : à reconfirmer.",
+    "Contradiction : F15898 et F35795 indiquent un droit de visa de régularisation de 180 € en cas de renouvellement hors délai, alors que l'actualité A18881 indique 300 € (dont 100 € non remboursables) depuis le 1er mai 2026. Montant non affiché dans l'app ; à clarifier.",
+    "Délais de dépôt : « dans les 2 mois précédant » (F2229, F17319, F35795) a été converti en 60 jours (offsetDays -60) ; « au plus tôt 4 mois et au plus tard 2 mois » (F16922) en -120 et -60 jours. Approximation à valider. F15898 dit seulement « avant la fin de votre titre de séjour » pour la demande en France. La préfecture d'Ille-et-Vilaine indique « environ deux mois » et, pour les autres renouvellements, « 3 mois avant la fin de validité » : écart local non repris.",
+    "Canal : le changement de statut vers salarié, travailleur temporaire, recherche d'emploi/création d'entreprise et entrepreneur se fait en préfecture (F15898, F17319, F35795), pas sur l'ANEF d'après plusieurs préfectures (Ille-et-Vilaine, Hauts-de-Seine). Les plateformes demarches-simplifiees.fr et demarche.numerique.gouv.fr citées par les préfectures ne sont pas dans les domaines autorisés et n'ont pas été consultées. La page des Hauts-de-Seine date du 10/12/2024 ; les pages de l'Hérault et de l'Ille-et-Vilaine n'affichent pas de date. Bouches-du-Rhône : recherche d'emploi « VOIE POSTALE au renouvellement ou changement de statut » ; salarié « GUICHET 1ère demande » et « VOIE POSTALE au renouvellement », changement de statut non précisé.",
+    "Talent : F16922 indique un dépôt sur internet (ANEF) pour les personnes en France, mais la préfecture des Hauts-de-Seine (10/12/2024) indique que le passage d'un motif talent à un autre motif talent ne se fait pas sur l'ANEF. Cas talent vers talent non traité dans ce fichier.",
+    "Examen civique et langue (loi du 26 janvier 2024, en vigueur depuis le 01/01/2026) : exigés pour une 1re carte de séjour pluriannuelle pour les titres soumis au CIR (F39530, vérifiée le 10/02/2026). F16922 ne mentionne ni examen civique ni niveau de langue pour les cartes talent ; non vérifié si les cartes talent sont soumises au CIR. Non repris dans les pièces. Les cartes salarié, travailleur temporaire, recherche d'emploi et entrepreneur demandées ici sont des cartes temporaires d'1 an (pas concernées à ce stade selon F15898 et F35795).",
+    "Pièces non trouvées dans les sources pour la carte talent : justificatif de paiement et certificat médical de l'Ofii ne figurent pas dans la liste de F16922 (le paiement de 350 € est indiqué à la remise). Pour la carte recherche d'emploi, F17319 ne liste ni certificat Ofii ni justificatif de paiement dans les pièces (coût 150 € indiqué).",
+    "Accords bilatéraux : F2229 liste des métiers ouverts pour certaines nationalités (Bénin, Burkina Faso, Cap-Vert, Congo, Gabon, Géorgie, Maurice, Sénégal, Tunisie) ; non repris en détail (listes longues). L'APS « première expérience professionnelle » est citée par F17319 sans liste de pièces.",
+    "Autres changements de statut non traités faute de pièces spécifiques lues : étudiant vers vie privée et familiale (conjoint de Français, etc.), talent-chercheur vers salarié, talent - projet économique innovant et investissement, talent - profession artistique ou médicale (seuils cités par F17319 : 1 306,91 € et 41 386,48 €).",
+    "Arrêté du 4 mai 2022 (liste nationale des pièces) et annexe 10 du CESEDA (points 26 à 28) non lus. Légifrance n'est lisible que par fragments.",
+    "Ce qui dépend de la préfecture : mode de dépôt (guichet, courrier, plateforme en ligne, rendez-vous), sous-préfectures compétentes, renouvellement du récépissé, convocation pour la remise du titre, pièces locales complémentaires (formulaires, copies)."
+  ],
+  "outcomes": [
+    {
+      "id": "permit_expired",
+      "kind": "redirect",
+      "condition": {
+        "question": "permit_still_valid",
+        "equals": "no"
+      },
+      "title": {
+        "fr": "Cette démarche suppose un titre encore valable",
+        "en": "This procedure assumes a permit that is still valid"
+      },
+      "body": {
+        "fr": "D'après service-public, la demande de changement de statut se dépose avant la fin de validité du titre de séjour. La page sur l'autorisation de travail précise aussi que la demande en ligne de l'employeur n'est pas possible si la personne est en France sans titre de séjour ; elle renvoie alors vers une demande d'admission exceptionnelle au séjour.",
+        "en": "According to service-public, you file a change of status before your residence permit expires. The work authorisation page also says the employer's online request is not possible if the person is in France without a residence permit; it then refers to an application for exceptional admission to stay."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Vérifier votre document",
+            "en": "Check your document"
+          },
+          "body": {
+            "fr": "Si vous avez un récépissé ou une attestation de prolongation encore valable, revenez en arrière et répondez oui.",
+            "en": "If you have a receipt or an extension certificate that is still valid, go back and answer yes."
+          }
+        },
+        {
+          "title": {
+            "fr": "Vous renseigner sur l'admission exceptionnelle au séjour",
+            "en": "Find out about exceptional admission to stay"
+          },
+          "body": {
+            "fr": "Service-public indique que cette demande se dépose en préfecture et que la décision reste à l'appréciation du préfet, au cas par cas. Un point-justice ou France services peut vous aider à comprendre votre situation.",
+            "en": "Service-public says this application is filed at the prefecture and that the decision is up to the prefect, case by case. A point-justice or France services office can help you understand your situation."
+          },
+          "link": {
+            "title": {
+              "fr": "Lire la fiche admission exceptionnelle au séjour",
+              "en": "Read the exceptional admission page"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F17146"
+          }
+        }
+      ],
+      "contacts": [
+        "point_justice",
+        "france_services",
+        "prefecture_directory"
+      ],
+      "letters": [
+        "appointment_request"
+      ],
+      "sources": [
+        "sp_salarie",
+        "sp_autorisation_travail",
+        "sp_aes"
+      ]
+    },
+    {
+      "id": "same_status",
+      "kind": "redirect",
+      "condition": {
+        "any": [
+          {
+            "all": [
+              {
+                "question": "current_status",
+                "equals": "salarie"
+              },
+              {
+                "question": "target_status",
+                "equals": "salarie"
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "question": "current_status",
+                "equals": "travailleur_temporaire"
+              },
+              {
+                "question": "target_status",
+                "equals": "travailleur_temporaire"
+              }
+            ]
+          }
+        ]
+      },
+      "title": {
+        "fr": "Il s'agit plutôt d'un renouvellement",
+        "en": "This looks more like a renewal"
+      },
+      "body": {
+        "fr": "Vous demandez le même titre que celui que vous avez. Service-public décrit ce cas comme un renouvellement de la carte salarié ou travailleur temporaire, avec ses propres pièces, par exemple si vous avez changé d'emploi.",
+        "en": "You are asking for the same permit as the one you hold. Service-public describes this case as a renewal of the employee or temporary worker card, with its own documents, for example if you changed jobs."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Consulter la démarche de renouvellement",
+            "en": "See the renewal procedure"
+          },
+          "body": {
+            "fr": "Service-public indique un dépôt à la préfecture au plus tard 2 mois avant la fin de validité du titre.",
+            "en": "Service-public says you apply to the prefecture no later than 2 months before your permit expires."
+          },
+          "link": {
+            "title": {
+              "fr": "Lire la fiche salarié et travailleur temporaire",
+              "en": "Read the employee and temporary worker page"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F15898"
+          }
+        }
+      ],
+      "contacts": [
+        "prefecture_directory",
+        "france_services"
+      ],
+      "letters": [],
+      "sources": [
+        "sp_salarie"
+      ]
+    },
+    {
+      "id": "rece_status_not_covered",
+      "kind": "redirect",
+      "condition": {
+        "all": [
+          {
+            "question": "target_status",
+            "equals": "rece"
+          },
+          {
+            "question": "current_status",
+            "in": [
+              "salarie",
+              "travailleur_temporaire",
+              "rece"
+            ]
+          }
+        ]
+      },
+      "title": {
+        "fr": "Cette carte concerne d'autres situations",
+        "en": "This card is for other situations"
+      },
+      "body": {
+        "fr": "D'après service-public, la carte recherche d'emploi ou création d'entreprise concerne les personnes qui ont une carte étudiant, étudiant - programme de mobilité ou talent-chercheur. Elle est valable 1 an et n'est pas renouvelable.",
+        "en": "According to service-public, the job search or business creation card is for people holding a student, student - mobility programme or talent-researcher card. It is valid for 1 year and cannot be renewed."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Regarder les titres possibles après cette carte",
+            "en": "See the permits available after this card"
+          },
+          "body": {
+            "fr": "Si vous avez déjà la carte recherche d'emploi et que vous avez trouvé un emploi ou créé une entreprise, service-public cite les cartes salarié, travailleur temporaire, talent et entrepreneur. Revenez en arrière pour choisir l'un de ces titres.",
+            "en": "If you already hold the job search card and have found a job or created a business, service-public lists the employee, temporary worker, talent and entrepreneur cards. Go back to choose one of these permits."
+          },
+          "link": {
+            "title": {
+              "fr": "Lire la fiche recherche d'emploi ou création d'entreprise",
+              "en": "Read the job search or business creation page"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F17319"
+          }
+        }
+      ],
+      "contacts": [
+        "france_services",
+        "prefecture_directory"
+      ],
+      "letters": [],
+      "sources": [
+        "sp_rece"
+      ]
+    },
+    {
+      "id": "rece_algerian",
+      "kind": "redirect",
+      "condition": {
+        "all": [
+          {
+            "question": "target_status",
+            "equals": "rece"
+          },
+          {
+            "question": "is_algerian",
+            "equals": "yes"
+          }
+        ]
+      },
+      "title": {
+        "fr": "Cette carte ne concerne pas les étudiants algériens",
+        "en": "This card does not apply to Algerian students"
+      },
+      "body": {
+        "fr": "D'après service-public, la carte recherche d'emploi ou création d'entreprise ne concerne pas les étudiants algériens. Les Algériens demandent un certificat de résidence, avec des règles différentes.",
+        "en": "According to service-public, the job search or business creation card does not apply to Algerian students. Algerians apply for a residence certificate, under different rules."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Consulter la page pour les Algériens",
+            "en": "See the page for Algerian nationals"
+          },
+          "body": {
+            "fr": "La fiche certificat de résidence d'1 an présente les règles selon votre situation, dont le changement de statut.",
+            "en": "The one-year residence certificate page sets out the rules for each situation, including change of status."
+          },
+          "link": {
+            "title": {
+              "fr": "Lire la fiche pour les Algériens",
+              "en": "Read the page for Algerian nationals"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2215"
+          }
+        }
+      ],
+      "contacts": [
+        "prefecture_directory",
+        "france_services"
+      ],
+      "letters": [],
+      "sources": [
+        "sp_rece",
+        "sp_algerien"
+      ]
+    },
+    {
+      "id": "algerian_other_rules",
+      "kind": "warning",
+      "condition": {
+        "all": [
+          {
+            "question": "is_algerian",
+            "equals": "yes"
+          },
+          {
+            "not": {
+              "question": "target_status",
+              "equals": "rece"
+            }
+          }
+        ]
+      },
+      "title": {
+        "fr": "D'autres règles s'appliquent aux Algériens",
+        "en": "Other rules apply to Algerian nationals"
+      },
+      "body": {
+        "fr": "Service-public indique que d'autres règles s'appliquent aux Algériens pour le titre salarié et pour l'autorisation de travail. Les Algériens demandent un certificat de résidence. Les pièces de cette liste peuvent ne pas correspondre à votre situation.",
+        "en": "Service-public says other rules apply to Algerians for the employee permit and the work authorisation. Algerians apply for a residence certificate. The documents in this list may not match your situation."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Consulter la page pour les Algériens",
+            "en": "See the page for Algerian nationals"
+          },
+          "body": {
+            "fr": "Vérifiez les pièces et le coût sur la fiche certificat de résidence d'1 an, puis auprès de votre préfecture.",
+            "en": "Check the documents and cost on the one-year residence certificate page, then with your prefecture."
+          },
+          "link": {
+            "title": {
+              "fr": "Lire la fiche pour les Algériens",
+              "en": "Read the page for Algerian nationals"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2215"
+          }
+        }
+      ],
+      "contacts": [
+        "prefecture_directory"
+      ],
+      "letters": [],
+      "sources": [
+        "sp_salarie",
+        "sp_autorisation_travail",
+        "sp_algerien"
+      ]
+    },
+    {
+      "id": "rece_diploma_level",
+      "kind": "redirect",
+      "condition": {
+        "all": [
+          {
+            "question": "target_status",
+            "equals": "rece"
+          },
+          {
+            "question": "current_status",
+            "in": [
+              "student",
+              "student_mobility"
+            ]
+          },
+          {
+            "question": "diploma_level",
+            "in": [
+              "bac2",
+              "licence",
+              "other"
+            ]
+          }
+        ]
+      },
+      "title": {
+        "fr": "Cette carte demande un diplôme précis",
+        "en": "This card requires a specific degree"
+      },
+      "body": {
+        "fr": "D'après service-public, la carte recherche d'emploi ou création d'entreprise concerne les personnes qui ont obtenu une licence professionnelle, un Mastère Spécialisé, un Master of Science ou un diplôme au moins équivalent au master.",
+        "en": "According to service-public, the job search or business creation card is for people who obtained a professional bachelor's degree, a Mastère Spécialisé, a Master of Science or a degree at least equivalent to a master's."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Regarder le titre salarié ou travailleur temporaire",
+            "en": "Consider the employee or temporary worker permit"
+          },
+          "body": {
+            "fr": "Avec un Bac+2 ou une licence, service-public indique que vous pouvez obtenir une carte salarié ou travailleur temporaire si vous avez un contrat de travail ou une promesse d'embauche et que votre employeur a obtenu une autorisation de travail.",
+            "en": "With a two-year degree or a bachelor's degree, service-public says you can get an employee or temporary worker card if you have an employment contract or a job offer and your employer has obtained a work authorisation."
+          },
+          "link": {
+            "title": {
+              "fr": "Lire la fiche sur le travail après les études",
+              "en": "Read the page on working after your studies"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2229"
+          }
+        }
+      ],
+      "contacts": [
+        "france_services",
+        "prefecture_directory"
+      ],
+      "letters": [],
+      "sources": [
+        "sp_rece",
+        "sp_apres_etudes"
+      ]
+    },
+    {
+      "id": "rece_diploma_old",
+      "kind": "redirect",
+      "condition": {
+        "question": "diploma_recent",
+        "equals": "no"
+      },
+      "title": {
+        "fr": "Le diplôme doit être récent",
+        "en": "The degree must be recent"
+      },
+      "body": {
+        "fr": "D'après service-public, si vous résidez en France, la carte recherche d'emploi ou création d'entreprise concerne les personnes qui ont obtenu leur diplôme au cours des 12 derniers mois.",
+        "en": "According to service-public, if you live in France, the job search or business creation card is for people who obtained their degree in the last 12 months."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Regarder les autres titres après les études",
+            "en": "Consider other permits after your studies"
+          },
+          "body": {
+            "fr": "Avec une licence professionnelle ou un master, service-public cite aussi la carte salarié ou travailleur temporaire (avec une autorisation de travail) et la carte talent, sous conditions, notamment de salaire.",
+            "en": "With a professional bachelor's degree or a master's, service-public also lists the employee or temporary worker card (with a work authorisation) and the talent card, under conditions, including salary."
+          },
+          "link": {
+            "title": {
+              "fr": "Lire la fiche sur le travail après les études",
+              "en": "Read the page on working after your studies"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2229"
+          }
+        }
+      ],
+      "contacts": [
+        "france_services",
+        "prefecture_directory"
+      ],
+      "letters": [],
+      "sources": [
+        "sp_rece",
+        "sp_apres_etudes"
+      ]
+    },
+    {
+      "id": "talent_salary_below",
+      "kind": "redirect",
+      "condition": {
+        "question": "talent_salary_ok",
+        "equals": "no"
+      },
+      "title": {
+        "fr": "Le salaire est sous le seuil indiqué pour cette carte",
+        "en": "The salary is below the threshold given for this card"
+      },
+      "body": {
+        "fr": "D'après service-public, la carte talent - salarié qualifié demande un salaire brut annuel d'au moins 39 582 €, et la carte bleue européenne d'au moins 59 373 €.",
+        "en": "According to service-public, the talent - qualified employee card requires a gross annual salary of at least €39,582, and the EU Blue Card at least €59,373."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Regarder le titre salarié ou travailleur temporaire",
+            "en": "Consider the employee or temporary worker permit"
+          },
+          "body": {
+            "fr": "Service-public cite la carte salarié ou travailleur temporaire, avec une autorisation de travail demandée par l'employeur. Si votre salaire atteint 39 582 € mais pas 59 373 €, la carte talent - salarié qualifié peut aussi être regardée.",
+            "en": "Service-public lists the employee or temporary worker card, with a work authorisation requested by the employer. If your salary reaches €39,582 but not €59,373, the talent - qualified employee card can also be considered."
+          },
+          "link": {
+            "title": {
+              "fr": "Lire la fiche recherche d'emploi ou création d'entreprise",
+              "en": "Read the job search or business creation page"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F17319"
+          }
+        }
+      ],
+      "contacts": [
+        "france_services",
+        "prefecture_directory"
+      ],
+      "letters": [],
+      "sources": [
+        "sp_talent",
+        "sp_rece"
+      ]
+    },
+    {
+      "id": "talent_qualified_diploma",
+      "kind": "warning",
+      "condition": {
+        "all": [
+          {
+            "question": "target_status",
+            "equals": "talent_qualified"
+          },
+          {
+            "question": "diploma_level",
+            "in": [
+              "bac2",
+              "licence",
+              "licence_pro",
+              "other"
+            ]
+          }
+        ]
+      },
+      "title": {
+        "fr": "Vérifiez la condition de diplôme",
+        "en": "Check the degree condition"
+      },
+      "body": {
+        "fr": "D'après service-public, le parcours salarié qualifié demande un diplôme au moins équivalent au master obtenu en France. Le parcours salarié d'une entreprise innovante a d'autres conditions : entreprise reconnue innovante, fonctions liées à son projet de recherche et développement, salaire d'au moins 39 582 € brut par an.",
+        "en": "According to service-public, the qualified employee route requires a degree at least equivalent to a master's obtained in France. The innovative company employee route has other conditions: a company recognised as innovative, duties linked to its research and development project, and a salary of at least €39,582 gross per year."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Lire les conditions des cartes talent",
+            "en": "Read the conditions for talent cards"
+          },
+          "body": {
+            "fr": "Sinon, service-public cite la carte salarié ou travailleur temporaire, avec une autorisation de travail.",
+            "en": "Otherwise, service-public lists the employee or temporary worker card, with a work authorisation."
+          },
+          "link": {
+            "title": {
+              "fr": "Lire la fiche carte talent",
+              "en": "Read the talent card page"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F16922"
+          }
+        }
+      ],
+      "contacts": [
+        "anef_contact",
+        "france_services"
+      ],
+      "letters": [],
+      "sources": [
+        "sp_talent",
+        "sp_apres_etudes"
+      ]
+    },
+    {
+      "id": "talent_blue_card_diploma",
+      "kind": "warning",
+      "condition": {
+        "all": [
+          {
+            "question": "target_status",
+            "equals": "talent_blue_card"
+          },
+          {
+            "question": "diploma_level",
+            "in": [
+              "bac2",
+              "other"
+            ]
+          }
+        ]
+      },
+      "title": {
+        "fr": "Vérifiez la condition de diplôme ou d'expérience",
+        "en": "Check the degree or experience condition"
+      },
+      "body": {
+        "fr": "D'après service-public, la carte bleue européenne demande un diplôme d'au moins 3 années d'études supérieures, ou au moins 5 années d'expérience professionnelle de niveau comparable (3 années pour certaines professions).",
+        "en": "According to service-public, the EU Blue Card requires a degree of at least 3 years of higher education, or at least 5 years of comparable work experience (3 years for some professions)."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Lire les conditions de la carte bleue européenne",
+            "en": "Read the EU Blue Card conditions"
+          },
+          "body": {
+            "fr": "La liste de pièces demande le diplôme ou les preuves d'expérience, par exemple un CV et des certificats de travail.",
+            "en": "The document list asks for the degree or proof of experience, for example a CV and employment certificates."
+          },
+          "link": {
+            "title": {
+              "fr": "Lire la fiche carte talent",
+              "en": "Read the talent card page"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F16922"
+          }
+        }
+      ],
+      "contacts": [
+        "anef_contact",
+        "france_services"
+      ],
+      "letters": [],
+      "sources": [
+        "sp_talent"
+      ]
+    },
+    {
+      "id": "talent_project_diploma",
+      "kind": "warning",
+      "condition": {
+        "all": [
+          {
+            "question": "target_status",
+            "equals": "talent_project"
+          },
+          {
+            "question": "diploma_level",
+            "in": [
+              "bac2",
+              "licence",
+              "licence_pro",
+              "other"
+            ]
+          }
+        ]
+      },
+      "title": {
+        "fr": "Vérifiez la condition de diplôme ou d'expérience",
+        "en": "Check the degree or experience condition"
+      },
+      "body": {
+        "fr": "D'après service-public, la carte talent - porteur de projet (création d'entreprise) demande un diplôme au moins équivalent au master ou 5 années d'expérience professionnelle de niveau comparable.",
+        "en": "According to service-public, the talent - project holder card (business creation) requires a degree at least equivalent to a master's or 5 years of comparable work experience."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Regarder la carte entrepreneur",
+            "en": "Consider the entrepreneur card"
+          },
+          "body": {
+            "fr": "Service-public cite aussi la carte entrepreneur ou profession libérale pour créer une entreprise. Ses conditions ne mentionnent pas de diplôme minimum, mais l'activité doit correspondre à vos qualifications ou à votre expérience.",
+            "en": "Service-public also lists the entrepreneur or self-employed card to create a business. Its conditions do not mention a minimum degree, but the activity must match your qualifications or experience."
+          },
+          "link": {
+            "title": {
+              "fr": "Lire la fiche entrepreneur",
+              "en": "Read the entrepreneur page"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F35795"
+          }
+        }
+      ],
+      "contacts": [
+        "france_services",
+        "anef_contact"
+      ],
+      "letters": [],
+      "sources": [
+        "sp_talent",
+        "sp_entrepreneur",
+        "sp_rece"
+      ]
+    },
+    {
+      "id": "job_not_matching",
+      "kind": "warning",
+      "condition": {
+        "all": [
+          {
+            "question": "target_status",
+            "in": [
+              "salarie",
+              "travailleur_temporaire"
+            ]
+          },
+          {
+            "question": "job_matches_studies",
+            "equals": "no"
+          }
+        ]
+      },
+      "title": {
+        "fr": "L'employeur devra peut-être publier l'offre d'emploi",
+        "en": "The employer may have to publish the job offer"
+      },
+      "body": {
+        "fr": "D'après service-public, si le poste n'est pas en lien avec votre formation ou est payé moins de 2 800,53 € brut par mois, la situation de l'emploi est prise en compte. L'employeur doit alors publier l'offre pendant 3 semaines auprès du service public de l'emploi avant de demander l'autorisation de travail, sauf si le métier est sur la liste des métiers en tension.",
+        "en": "According to service-public, if the job is not related to your studies or pays less than €2,800.53 gross per month, the employment situation is taken into account. The employer must then publish the offer for 3 weeks with the public employment service before requesting the work authorisation, unless the job is on the list of shortage occupations."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "En parler avec l'employeur",
+            "en": "Talk to the employer"
+          },
+          "body": {
+            "fr": "Prévenez votre employeur de ce délai avant la fin de votre titre.",
+            "en": "Let your employer know about this delay before your permit expires."
+          },
+          "link": {
+            "title": {
+              "fr": "Lire la fiche autorisation de travail",
+              "en": "Read the work authorisation page"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2728"
+          }
+        }
+      ],
+      "contacts": [
+        "france_services"
+      ],
+      "letters": [],
+      "sources": [
+        "sp_autorisation_travail",
+        "sp_apres_etudes"
+      ]
+    },
+    {
+      "id": "no_work_authorization_yet",
+      "kind": "warning",
+      "condition": {
+        "all": [
+          {
+            "question": "target_status",
+            "in": [
+              "salarie",
+              "travailleur_temporaire"
+            ]
+          },
+          {
+            "question": "work_authorization_obtained",
+            "equals": "no"
+          }
+        ]
+      },
+      "title": {
+        "fr": "Le dossier demande l'autorisation de travail",
+        "en": "Your file needs the work authorisation"
+      },
+      "body": {
+        "fr": "D'après service-public, le titre salarié ou travailleur temporaire demande une autorisation de travail, et le dossier de changement de statut comprend une copie de l'autorisation obtenue par l'employeur. La confirmation de dépôt de l'employeur ne permet pas de travailler.",
+        "en": "According to service-public, the employee or temporary worker permit requires a work authorisation, and the change of status file includes a copy of the authorisation obtained by the employer. The employer's filing confirmation does not allow you to work."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Suivre la demande de l'employeur",
+            "en": "Follow up on the employer's request"
+          },
+          "body": {
+            "fr": "L'employeur fait la demande en ligne. Pensez à la date de fin de votre titre.",
+            "en": "The employer makes the request online. Keep in mind when your permit expires."
+          },
+          "link": {
+            "title": {
+              "fr": "Page de demande pour l'employeur",
+              "en": "Employer request page"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R58908"
+          }
+        }
+      ],
+      "contacts": [
+        "anef_contact",
+        "france_services"
+      ],
+      "letters": [],
+      "sources": [
+        "sp_salarie",
+        "sp_autorisation_travail",
+        "sp_service_autorisation_travail"
+      ]
+    }
+  ]
+}

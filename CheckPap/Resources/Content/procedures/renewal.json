@@ -1,0 +1,4470 @@
+{
+  "id": "renewal",
+  "reviewStatus": "draft",
+  "lastVerified": "2026-10-29",
+  "title": {
+    "fr": "Renouveler mon titre de séjour",
+    "en": "Renew my residence permit"
+  },
+  "summary": {
+    "fr": "Cette démarche vous aide à préparer le renouvellement de votre titre de séjour en France. Selon votre titre, la demande se fait en ligne sur l'ANEF ou en préfecture. La liste des pièces s'adapte à vos réponses.",
+    "en": "This guide helps you prepare the renewal of your residence permit in France. Depending on your permit, you apply online on ANEF or at the prefecture. The document list adapts to your answers."
+  },
+  "sources": [
+    {
+      "id": "sp_n110",
+      "publisher": "service-public.gouv.fr",
+      "title": "Titres, cartes de séjour et documents de circulation pour étranger en France (date de vérification non affichée)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/N110",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f2231",
+      "publisher": "service-public.gouv.fr",
+      "title": "Étudiant étranger en France : visa de long séjour ou titre de séjour (Vérifié le 01 août 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2231",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f15898",
+      "publisher": "service-public.gouv.fr",
+      "title": "Travail d'un étranger en France : carte de séjour - salarié/travailleur temporaire (Vérifié le 01 mai 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F15898",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f2209",
+      "publisher": "service-public.gouv.fr",
+      "title": "Carte de séjour \"vie privée et familiale\" d'un étranger en France (Vérifié le 01 mai 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2209",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f16922",
+      "publisher": "service-public.gouv.fr",
+      "title": "Carte talent : carte de séjour pluriannuelle d'un étranger en France (Vérifié le 01 juin 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F16922",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f302",
+      "publisher": "service-public.gouv.fr",
+      "title": "Carte de séjour temporaire \"visiteur\" d'un étranger en France (Vérifié le 01 juin 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F302",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f2208",
+      "publisher": "service-public.gouv.fr",
+      "title": "Carte de résident de 10 ans d'un étranger en France (Vérifié le 01 juillet 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2208",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f17359",
+      "publisher": "service-public.gouv.fr",
+      "title": "Carte de résident de longue durée-UE (étranger en France depuis 5 ans) (Vérifié le 01 juin 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F17359",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f11201",
+      "publisher": "service-public.gouv.fr",
+      "title": "Carte de résident permanent d'un étranger en France (Vérifié le 01 mai 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F11201",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f33052",
+      "publisher": "service-public.gouv.fr",
+      "title": "Demande de carte de séjour : quel justificatif de domicile ? (Vérifié le 05 août 2025)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33052",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f38329",
+      "publisher": "service-public.gouv.fr",
+      "title": "Qu'est-ce que le contrat d'engagement à respecter les principes de la République ? (Vérifié le 04 août 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F38329",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f39530",
+      "publisher": "service-public.gouv.fr",
+      "title": "Carte de séjour pluriannuelle et carte de résident : comment passer l'examen civique ? (Vérifié le 10 février 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F39530",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f34501",
+      "publisher": "service-public.gouv.fr",
+      "title": "Carte de résident et carte de séjour pluriannuelle : comment justifier de votre connaissance du français ? (Vérifié le 10 février 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34501",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f36206",
+      "publisher": "service-public.gouv.fr",
+      "title": "Qu'est-ce qu'une attestation de demande de carte de séjour ? (Vérifié le 15 décembre 2023)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F36206",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f15763",
+      "publisher": "service-public.gouv.fr",
+      "title": "Qu'est-ce qu'un récépissé de demande de titre de séjour ? (Vérifié le 17 novembre 2023)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F15763",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f33071",
+      "publisher": "service-public.gouv.fr",
+      "title": "Étranger en France : comment acheter un timbre fiscal ? (Vérifié le 19 avril 2024)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33071",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f39",
+      "publisher": "service-public.gouv.fr",
+      "title": "Quels titres de séjour un ressortissant étranger doit-il avoir pour rester en France plus de 3 mois ? (Vérifié le 08 juillet 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F39",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f17319",
+      "publisher": "service-public.gouv.fr",
+      "title": "Carte de séjour ou VLS-TS - Recherche d'emploi/création d'entreprise (Vérifié le 01 juin 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F17319",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f2215",
+      "publisher": "service-public.gouv.fr",
+      "title": "Certificat de résidence d'1 an pour Algérien (Vérifié le 01 août 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2215",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f2257",
+      "publisher": "service-public.gouv.fr",
+      "title": "Certificat de résidence de 10 ans - Personne de nationalité algérienne (Vérifié le 01 octobre 2024)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2257",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f31969",
+      "publisher": "service-public.gouv.fr",
+      "title": "Que faire en cas de difficulté lors d'une demande de titre de séjour ? (Vérifié le 03 juillet 2024)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F31969",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_a18881",
+      "publisher": "service-public.gouv.fr",
+      "title": "Titres de séjour : augmentation du montant des taxes demandées aux étrangers à compter du 1er mai (Publié le 22 avril 2026, mis à jour le 12 mai 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/actualites/A18881",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "lf_r431_5",
+      "publisher": "legifrance.gouv.fr",
+      "title": "Code de l'entrée et du séjour des étrangers et du droit d'asile, article R431-5 (En vigueur depuis le 01 mai 2021)",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043292776",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "lf_lf2026_art128",
+      "publisher": "legifrance.gouv.fr",
+      "title": "Article 128 - LOI n° 2026-103 du 19 février 2026 de finances pour 2026 (taxes en vigueur au 1er mai 2026)",
+      "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000053508916",
+      "consulted": "2026-10-29"
+    }
+  ],
+  "questions": [
+    {
+      "id": "nationality_group",
+      "kind": "single",
+      "title": {
+        "fr": "Quelle est votre nationalité ?",
+        "en": "What is your nationality?"
+      },
+      "help": {
+        "fr": "Les citoyens européens et les Algériens suivent des règles différentes pour le séjour en France.",
+        "en": "European citizens and Algerian nationals follow different rules for staying in France."
+      },
+      "options": [
+        {
+          "id": "eu_eea_swiss",
+          "label": {
+            "fr": "Pays de l'Union européenne, de l'Espace économique européen ou Suisse",
+            "en": "EU country, European Economic Area country or Switzerland"
+          },
+          "help": {
+            "fr": "Par exemple : Italie, Portugal, Norvège, Suisse.",
+            "en": "For example: Italy, Portugal, Norway, Switzerland."
+          }
+        },
+        {
+          "id": "algerian",
+          "label": {
+            "fr": "Algérienne",
+            "en": "Algerian"
+          }
+        },
+        {
+          "id": "other_nationality",
+          "label": {
+            "fr": "Autre nationalité",
+            "en": "Another nationality"
+          }
+        }
+      ],
+      "condition": null,
+      "sources": [
+        "sp_f39",
+        "sp_f15898",
+        "sp_f302"
+      ]
+    },
+    {
+      "id": "permit_type",
+      "kind": "single",
+      "title": {
+        "fr": "Quel titre de séjour avez-vous aujourd'hui ?",
+        "en": "Which residence permit do you have today?"
+      },
+      "help": {
+        "fr": "La mention de votre titre est écrite sur la carte, sous le mot \"Titre de séjour\" ou \"Carte de résident\". Les pièces et le lieu de dépôt changent selon cette mention.",
+        "en": "The category of your permit is printed on the card, under the words \"Titre de séjour\" or \"Carte de résident\". The documents and where you apply depend on this category."
+      },
+      "example": {
+        "fr": "Exemple : votre carte porte la mention \"ÉTUDIANT\", \"SALARIÉ\" ou \"VIE PRIVÉE ET FAMILIALE\".",
+        "en": "Example: your card says \"ÉTUDIANT\" (student), \"SALARIÉ\" (employee) or \"VIE PRIVÉE ET FAMILIALE\" (private and family life)."
+      },
+      "options": [
+        {
+          "id": "student",
+          "label": {
+            "fr": "Étudiant",
+            "en": "Student"
+          },
+          "help": {
+            "fr": "Carte de séjour ou visa long séjour mention \"étudiant\".",
+            "en": "Residence card or long-stay visa marked \"étudiant\"."
+          }
+        },
+        {
+          "id": "employee",
+          "label": {
+            "fr": "Salarié",
+            "en": "Employee"
+          },
+          "help": {
+            "fr": "Titre \"salarié\" (contrat à durée indéterminée).",
+            "en": "\"Salarié\" permit (permanent contract)."
+          }
+        },
+        {
+          "id": "temp_worker",
+          "label": {
+            "fr": "Travailleur temporaire",
+            "en": "Temporary worker"
+          },
+          "help": {
+            "fr": "Titre \"travailleur temporaire\" (contrat à durée déterminée).",
+            "en": "\"Travailleur temporaire\" permit (fixed-term contract)."
+          }
+        },
+        {
+          "id": "private_family_life",
+          "label": {
+            "fr": "Vie privée et familiale",
+            "en": "Private and family life"
+          },
+          "help": {
+            "fr": "Titre \"vie privée et familiale\". La question suivante précise le motif.",
+            "en": "\"Vie privée et familiale\" permit. The next question asks for the reason."
+          }
+        },
+        {
+          "id": "talent",
+          "label": {
+            "fr": "Talent (passeport talent)",
+            "en": "Talent (talent passport)"
+          },
+          "help": {
+            "fr": "Carte de séjour pluriannuelle \"talent\", quel que soit le parcours (salarié qualifié, chercheur, porteur de projet...).",
+            "en": "Multi-year \"talent\" card, whatever the track (qualified employee, researcher, business founder...)."
+          }
+        },
+        {
+          "id": "visitor",
+          "label": {
+            "fr": "Visiteur",
+            "en": "Visitor"
+          },
+          "help": {
+            "fr": "Carte de séjour temporaire \"visiteur\" (séjour sans travailler).",
+            "en": "Temporary \"visiteur\" card (stay without working)."
+          }
+        },
+        {
+          "id": "resident_card",
+          "label": {
+            "fr": "Carte de résident",
+            "en": "Resident card"
+          },
+          "help": {
+            "fr": "Carte de résident de 10 ans ou carte de résident de longue durée-UE.",
+            "en": "10-year resident card or EU long-term resident card."
+          }
+        },
+        {
+          "id": "other",
+          "label": {
+            "fr": "Autre titre",
+            "en": "Other permit"
+          },
+          "help": {
+            "fr": "Par exemple : entrepreneur, saisonnier, retraité, certificat de résidence pour Algérien. Cette app ne couvre pas encore ces cas : consultez la fiche de votre titre sur service-public.gouv.fr.",
+            "en": "For example: entrepreneur, seasonal worker, retiree, residence certificate for Algerians. This app does not cover these cases yet: check the page for your permit on service-public.gouv.fr."
+          }
+        }
+      ],
+      "condition": {
+        "question": "nationality_group",
+        "equals": "other_nationality"
+      },
+      "sources": [
+        "sp_n110",
+        "sp_f2231",
+        "sp_f15898",
+        "sp_f2209",
+        "sp_f16922",
+        "sp_f302",
+        "sp_f2208",
+        "sp_f17359"
+      ]
+    },
+    {
+      "id": "permit_expiry_date",
+      "kind": "date",
+      "title": {
+        "fr": "Quelle est la date de fin de validité de votre titre ?",
+        "en": "When does your current permit expire?"
+      },
+      "help": {
+        "fr": "Les délais pour déposer la demande se comptent à partir de cette date.",
+        "en": "The deadlines to apply are counted from this date."
+      },
+      "example": {
+        "fr": "Exemple : sur la carte, la date est écrite après \"Valable jusqu'au\".",
+        "en": "Example: on the card, the date appears after \"Valable jusqu'au\" (valid until)."
+      },
+      "condition": {
+        "question": "permit_type",
+        "in": [
+          "student",
+          "employee",
+          "temp_worker",
+          "private_family_life",
+          "talent",
+          "visitor",
+          "resident_card"
+        ]
+      },
+      "sources": [
+        "sp_f2231",
+        "sp_f15898",
+        "sp_f2209",
+        "lf_r431_5"
+      ]
+    },
+    {
+      "id": "permit_status",
+      "kind": "single",
+      "title": {
+        "fr": "Combien de temps reste-t-il avant la fin de votre titre ?",
+        "en": "How long is left before your permit expires?"
+      },
+      "help": {
+        "fr": "Les fiches fixent une période pour déposer la demande. Cette réponse permet de vous signaler si vous êtes en avance ou en retard.",
+        "en": "The pages set a period in which to apply. This answer lets us tell you if you are early or late."
+      },
+      "example": {
+        "fr": "Exemple : votre titre finit le 30 juin et nous sommes le 15 mai : il reste moins de 2 mois.",
+        "en": "Example: your permit ends on 30 June and today is 15 May: less than 2 months are left."
+      },
+      "options": [
+        {
+          "id": "more_than_4_months",
+          "label": {
+            "fr": "Plus de 4 mois",
+            "en": "More than 4 months"
+          }
+        },
+        {
+          "id": "between_4_and_2_months",
+          "label": {
+            "fr": "Entre 4 et 2 mois",
+            "en": "Between 4 and 2 months"
+          }
+        },
+        {
+          "id": "less_than_2_months",
+          "label": {
+            "fr": "Moins de 2 mois",
+            "en": "Less than 2 months"
+          }
+        },
+        {
+          "id": "expired",
+          "label": {
+            "fr": "Mon titre a déjà expiré",
+            "en": "My permit has already expired"
+          }
+        }
+      ],
+      "condition": {
+        "question": "permit_type",
+        "in": [
+          "student",
+          "employee",
+          "temp_worker",
+          "private_family_life",
+          "talent",
+          "visitor",
+          "resident_card"
+        ]
+      },
+      "sources": [
+        "lf_r431_5",
+        "sp_f2231",
+        "sp_f15898",
+        "sp_f2209"
+      ]
+    },
+    {
+      "id": "vpf_reason",
+      "kind": "single",
+      "title": {
+        "fr": "Pour quel motif avez-vous reçu votre titre \"vie privée et familiale\" ?",
+        "en": "On what grounds did you get your \"private and family life\" permit?"
+      },
+      "help": {
+        "fr": "Le motif figure sur la décision de la préfecture ou sur votre précédente demande. Il change le lieu de dépôt et les pièces.",
+        "en": "The grounds appear on the prefecture's decision or on your previous application. They change where you apply and which documents you need."
+      },
+      "options": [
+        {
+          "id": "spouse_of_french",
+          "label": {
+            "fr": "Époux ou épouse de Français",
+            "en": "Spouse of a French citizen"
+          }
+        },
+        {
+          "id": "parent_of_french_child",
+          "label": {
+            "fr": "Parent d'enfant français",
+            "en": "Parent of a French child"
+          }
+        },
+        {
+          "id": "family_ties",
+          "label": {
+            "fr": "Liens personnels et familiaux en France",
+            "en": "Personal and family ties in France"
+          }
+        },
+        {
+          "id": "spouse_of_eu_resident",
+          "label": {
+            "fr": "Époux ou épouse d'un résident de longue durée-UE",
+            "en": "Spouse of an EU long-term resident"
+          },
+          "help": {
+            "fr": "Votre époux ou épouse a le statut \"résident de longue durée - UE\" dans un autre pays de l'Union européenne.",
+            "en": "Your spouse holds \"EU long-term resident\" status in another EU country."
+          }
+        },
+        {
+          "id": "humanitarian",
+          "label": {
+            "fr": "Motifs humanitaires ou exceptionnels",
+            "en": "Humanitarian or exceptional grounds"
+          }
+        },
+        {
+          "id": "other_vpf",
+          "label": {
+            "fr": "Autre motif",
+            "en": "Other grounds"
+          },
+          "help": {
+            "fr": "Par exemple : jeune majeur, étranger malade, victime d'infraction, rente d'accident du travail. Consultez la rubrique \"Renouvellement\" de la fiche service-public.",
+            "en": "For example: young adult, ill foreign national, victim of a crime, work accident pension. Check the \"Renouvellement\" section of the service-public page."
+          }
+        }
+      ],
+      "condition": {
+        "question": "permit_type",
+        "equals": "private_family_life"
+      },
+      "sources": [
+        "sp_f2209"
+      ]
+    },
+    {
+      "id": "resident_next_card",
+      "kind": "single",
+      "title": {
+        "fr": "Quelle carte demandez-vous en renouvellement ?",
+        "en": "Which card are you applying for at renewal?"
+      },
+      "help": {
+        "fr": "Service-public indique qu'au renouvellement d'une carte de résident, vous pouvez demander une carte de résident de longue durée-UE ou une carte de résident permanent. La carte de résident permanent est proposée après 2 cartes de résident consécutives, et délivrée si vous avez plus de 60 ans (sauf si vous demandez la carte longue durée-UE).",
+        "en": "Service-public says that when renewing a resident card, you can apply for an EU long-term resident card or a permanent resident card. The permanent card is offered after 2 consecutive resident cards, and issued if you are over 60 (unless you apply for the EU long-term card)."
+      },
+      "options": [
+        {
+          "id": "long_term_eu",
+          "label": {
+            "fr": "Carte de résident de longue durée-UE",
+            "en": "EU long-term resident card"
+          }
+        },
+        {
+          "id": "permanent",
+          "label": {
+            "fr": "Carte de résident permanent",
+            "en": "Permanent resident card"
+          }
+        }
+      ],
+      "condition": {
+        "question": "permit_type",
+        "equals": "resident_card"
+      },
+      "sources": [
+        "sp_f2208",
+        "sp_f17359",
+        "sp_f11201"
+      ]
+    },
+    {
+      "id": "resident_absence",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Depuis que vous avez cette carte, avez-vous vécu hors de France plus de 3 ans d'affilée ?",
+        "en": "Since you got this card, have you lived outside France for more than 3 years in a row?"
+      },
+      "help": {
+        "fr": "Service-public indique qu'une carte de résident n'est plus valable dans certains cas d'absence prolongée.",
+        "en": "Service-public says a resident card is no longer valid in some cases of long absence."
+      },
+      "condition": {
+        "question": "permit_type",
+        "equals": "resident_card"
+      },
+      "sources": [
+        "sp_f2208",
+        "sp_f17359"
+      ]
+    },
+    {
+      "id": "student_continue",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Continuez-vous vos études l'année prochaine ?",
+        "en": "Are you continuing your studies next year?"
+      },
+      "help": {
+        "fr": "Le renouvellement du titre \"étudiant\" demande une inscription ou une préinscription dans un établissement. Si vous avez fini vos études et voulez travailler ou chercher un emploi, c'est une autre démarche.",
+        "en": "Renewing a \"student\" permit requires enrolment or pre-enrolment in a school. If you have finished your studies and want to work or look for a job, it is a different procedure."
+      },
+      "condition": {
+        "question": "permit_type",
+        "equals": "student"
+      },
+      "sources": [
+        "sp_f2231",
+        "sp_f17319"
+      ]
+    },
+    {
+      "id": "card_kind",
+      "kind": "single",
+      "title": {
+        "fr": "Votre titre actuel est-il une carte d'un an ou une carte pluriannuelle ?",
+        "en": "Is your current permit a 1-year card or a multi-year card?"
+      },
+      "help": {
+        "fr": "Regardez les dates de début et de fin sur la carte. Si vous passez d'une carte d'un an à une 1re carte pluriannuelle, la préfecture demande des preuves de niveau de français et d'examen civique.",
+        "en": "Look at the start and end dates on the card. If you move from a 1-year card to a first multi-year card, the prefecture asks for proof of French level and of the civic exam."
+      },
+      "example": {
+        "fr": "Exemple : une carte valable du 15/03/2025 au 14/03/2026 est une carte d'un an.",
+        "en": "Example: a card valid from 15/03/2025 to 14/03/2026 is a 1-year card."
+      },
+      "options": [
+        {
+          "id": "temporary",
+          "label": {
+            "fr": "Carte d'un an (carte de séjour temporaire ou visa long séjour)",
+            "en": "1-year card (temporary residence card or long-stay visa)"
+          }
+        },
+        {
+          "id": "multi_year",
+          "label": {
+            "fr": "Carte pluriannuelle (2 à 4 ans)",
+            "en": "Multi-year card (2 to 4 years)"
+          }
+        }
+      ],
+      "condition": {
+        "any": [
+          {
+            "question": "permit_type",
+            "equals": "employee"
+          },
+          {
+            "all": [
+              {
+                "question": "permit_type",
+                "equals": "private_family_life"
+              },
+              {
+                "question": "vpf_reason",
+                "in": [
+                  "spouse_of_french",
+                  "parent_of_french_child",
+                  "family_ties",
+                  "humanitarian"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_f15898",
+        "sp_f2209",
+        "sp_f39530"
+      ]
+    },
+    {
+      "id": "employment_status",
+      "kind": "single",
+      "title": {
+        "fr": "Où en êtes-vous avec votre emploi ?",
+        "en": "What is your job situation?"
+      },
+      "help": {
+        "fr": "Les pièces demandées dépendent de votre situation à la date du renouvellement.",
+        "en": "The documents requested depend on your situation at renewal time."
+      },
+      "options": [
+        {
+          "id": "same_job",
+          "label": {
+            "fr": "J'occupe toujours le même emploi",
+            "en": "I still have the same job"
+          },
+          "help": {
+            "fr": "L'emploi qui a justifié votre dernière autorisation de travail.",
+            "en": "The job covered by your last work authorisation."
+          }
+        },
+        {
+          "id": "new_job",
+          "label": {
+            "fr": "J'ai changé ou je vais changer d'emploi",
+            "en": "I changed or will change jobs"
+          }
+        },
+        {
+          "id": "no_job",
+          "label": {
+            "fr": "Je n'ai plus d'emploi",
+            "en": "I no longer have a job"
+          },
+          "help": {
+            "fr": "Pour un titre \"travailleur temporaire\", la fiche service-public ne publie pas de liste de pièces pour ce cas.",
+            "en": "For a \"travailleur temporaire\" permit, the service-public page does not publish a document list for this case."
+          }
+        }
+      ],
+      "condition": {
+        "question": "permit_type",
+        "in": [
+          "employee",
+          "temp_worker"
+        ]
+      },
+      "sources": [
+        "sp_f15898"
+      ]
+    },
+    {
+      "id": "over_65",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Avez-vous plus de 65 ans ?",
+        "en": "Are you over 65?"
+      },
+      "help": {
+        "fr": "Les preuves de niveau de français et d'examen civique ne sont pas demandées si vous avez plus de 65 ans.",
+        "en": "Proof of French level and of the civic exam is not required if you are over 65."
+      },
+      "condition": {
+        "any": [
+          {
+            "all": [
+              {
+                "question": "permit_type",
+                "equals": "employee"
+              },
+              {
+                "question": "card_kind",
+                "equals": "temporary"
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "question": "permit_type",
+                "equals": "private_family_life"
+              },
+              {
+                "question": "card_kind",
+                "equals": "temporary"
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "question": "permit_type",
+                "equals": "resident_card"
+              },
+              {
+                "question": "resident_next_card",
+                "equals": "permanent"
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_f15898",
+        "sp_f2209",
+        "sp_f11201",
+        "sp_f39530",
+        "sp_f34501"
+      ]
+    },
+    {
+      "id": "student_resources",
+      "kind": "single",
+      "title": {
+        "fr": "Comment justifiez-vous vos ressources ?",
+        "en": "How do you prove your income?"
+      },
+      "help": {
+        "fr": "La préfecture demande des ressources d'au moins 877,5 € par mois. Si vous avez plusieurs sources, il faudra un justificatif pour chacune : choisissez la principale ici.",
+        "en": "The prefecture asks for income of at least €877.50 per month. If you have several sources, you need proof for each one: choose the main one here."
+      },
+      "options": [
+        {
+          "id": "french_scholarship",
+          "label": {
+            "fr": "Bourse du gouvernement français ou programme européen",
+            "en": "French government scholarship or EU programme"
+          }
+        },
+        {
+          "id": "home_scholarship",
+          "label": {
+            "fr": "Bourse de mon pays d'origine",
+            "en": "Scholarship from my home country"
+          }
+        },
+        {
+          "id": "work",
+          "label": {
+            "fr": "Je travaille",
+            "en": "I work"
+          }
+        },
+        {
+          "id": "third_party",
+          "label": {
+            "fr": "Une personne me verse de l'argent",
+            "en": "Someone sends me money"
+          }
+        },
+        {
+          "id": "own_funds",
+          "label": {
+            "fr": "J'ai assez d'argent sur mon compte",
+            "en": "I have enough money in my account"
+          }
+        }
+      ],
+      "condition": {
+        "all": [
+          {
+            "question": "permit_type",
+            "equals": "student"
+          },
+          {
+            "question": "student_continue",
+            "equals": "yes"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f2231"
+      ]
+    },
+    {
+      "id": "visitor_third_party",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Une autre personne vous prend-elle en charge financièrement ?",
+        "en": "Does another person support you financially?"
+      },
+      "help": {
+        "fr": "Pour le titre \"visiteur\", les ressources peuvent venir d'un membre de votre famille ou d'un garant. La préfecture demande alors des pièces sur cette personne.",
+        "en": "For the \"visitor\" permit, the income can come from a family member or a guarantor. The prefecture then asks for documents about this person."
+      },
+      "condition": {
+        "question": "permit_type",
+        "equals": "visitor"
+      },
+      "sources": [
+        "sp_f302"
+      ]
+    },
+    {
+      "id": "married",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Êtes-vous marié(e) ?",
+        "en": "Are you married?"
+      },
+      "help": {
+        "fr": "Si vous êtes marié(e) et que votre pays autorise la polygamie, certaines fiches demandent une déclaration sur l'honneur de non polygamie en France.",
+        "en": "If you are married and your country allows polygamy, some pages ask for a sworn statement that you are not in a polygamous marriage in France."
+      },
+      "condition": {
+        "any": [
+          {
+            "question": "permit_type",
+            "in": [
+              "visitor",
+              "resident_card"
+            ]
+          },
+          {
+            "all": [
+              {
+                "question": "permit_type",
+                "equals": "private_family_life"
+              },
+              {
+                "question": "vpf_reason",
+                "in": [
+                  "parent_of_french_child",
+                  "family_ties",
+                  "spouse_of_eu_resident",
+                  "humanitarian"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_f2209",
+        "sp_f302",
+        "sp_f17359",
+        "sp_f11201"
+      ]
+    },
+    {
+      "id": "housing",
+      "kind": "single",
+      "title": {
+        "fr": "Où habitez-vous ?",
+        "en": "Where do you live?"
+      },
+      "help": {
+        "fr": "Le justificatif de domicile dépend de votre logement. Il doit dater de moins de 6 mois.",
+        "en": "The proof of address depends on your housing. It must be less than 6 months old."
+      },
+      "example": {
+        "fr": "Exemple : vous vivez chez un ami ou un parent sans être sur le bail : choisissez \"hébergé chez un particulier\".",
+        "en": "Example: you live with a friend or relative and your name is not on the lease: choose \"hosted by a private person\"."
+      },
+      "options": [
+        {
+          "id": "tenant_owner",
+          "label": {
+            "fr": "Locataire ou propriétaire",
+            "en": "Tenant or owner"
+          }
+        },
+        {
+          "id": "hosted",
+          "label": {
+            "fr": "Hébergé chez un particulier (famille, ami...)",
+            "en": "Hosted by a private person (family, friend...)"
+          }
+        },
+        {
+          "id": "hotel",
+          "label": {
+            "fr": "À l'hôtel",
+            "en": "In a hotel"
+          }
+        }
+      ],
+      "condition": {
+        "all": [
+          {
+            "question": "permit_type",
+            "in": [
+              "student",
+              "employee",
+              "temp_worker",
+              "private_family_life",
+              "talent",
+              "visitor",
+              "resident_card"
+            ]
+          },
+          {
+            "not": {
+              "question": "vpf_reason",
+              "equals": "other_vpf"
+            }
+          }
+        ]
+      },
+      "sources": [
+        "sp_f33052"
+      ]
+    }
+  ],
+  "documents": [
+    {
+      "id": "passport",
+      "category": "identity",
+      "title": {
+        "fr": "Passeport",
+        "en": "Passport"
+      },
+      "details": {
+        "fr": "Pages concernant l'état civil, les dates de validité, les cachets d'entrée et les visas. Les fiches acceptent aussi une attestation consulaire avec photo, une carte d'identité avec photo, une carte consulaire avec photo ou un certificat de nationalité de moins de 6 mois avec photo.",
+        "en": "Pages showing your personal details, validity dates, entry stamps and visas. The pages also accept a consular certificate with photo, an identity card with photo, a consular card with photo or a nationality certificate less than 6 months old with photo."
+      },
+      "tip": {
+        "fr": "Pour un dépôt en ligne, les documents doivent être numérisés et lisibles.",
+        "en": "For an online application, documents must be scanned and readable."
+      },
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "permit_type",
+                "in": [
+                  "student",
+                  "employee",
+                  "temp_worker",
+                  "private_family_life",
+                  "talent",
+                  "visitor",
+                  "resident_card"
+                ]
+              },
+              {
+                "not": {
+                  "all": [
+                    {
+                      "question": "permit_type",
+                      "equals": "private_family_life"
+                    },
+                    {
+                      "question": "vpf_reason",
+                      "in": [
+                        "other_vpf"
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "not": {
+              "question": "permit_type",
+              "equals": "student"
+            }
+          }
+        ]
+      },
+      "sources": [
+        "sp_f15898",
+        "sp_f2209",
+        "sp_f16922",
+        "sp_f302",
+        "sp_f17359",
+        "sp_f11201"
+      ]
+    },
+    {
+      "id": "current_permit",
+      "category": "residence",
+      "title": {
+        "fr": "Titre de séjour actuel",
+        "en": "Current residence permit"
+      },
+      "details": {
+        "fr": "Votre titre de séjour en cours de validité (ou visa long séjour). Pour une carte de résident, la carte de résident en cours de validité.",
+        "en": "Your valid residence permit (or long-stay visa). For a resident card, your valid resident card."
+      },
+      "tip": {
+        "fr": "Ne laissez pas votre titre expirer avant de déposer : les délais de dépôt se comptent à partir de sa date de fin.",
+        "en": "Do not let your permit expire before applying: deadlines are counted from its end date."
+      },
+      "condition": {
+        "any": [
+          {
+            "question": "permit_type",
+            "in": [
+              "student",
+              "employee",
+              "temp_worker",
+              "talent",
+              "visitor"
+            ]
+          },
+          {
+            "all": [
+              {
+                "question": "permit_type",
+                "equals": "resident_card"
+              },
+              {
+                "question": "resident_next_card",
+                "equals": "long_term_eu"
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_f2231",
+        "sp_f15898",
+        "sp_f16922",
+        "sp_f302",
+        "sp_f17359"
+      ]
+    },
+    {
+      "id": "birth_certificate",
+      "category": "civil_status",
+      "title": {
+        "fr": "Copie intégrale d'acte de naissance",
+        "en": "Full copy of birth certificate"
+      },
+      "details": {
+        "fr": "Copie intégrale comportant les mentions les plus récentes. Les actes en langue étrangère doivent être accompagnés d'une traduction en français par un traducteur interprète agréé.",
+        "en": "Full copy with the most recent annotations. Documents in a foreign language must come with a French translation by an approved translator."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "permit_type",
+            "equals": "resident_card"
+          },
+          {
+            "question": "resident_next_card",
+            "equals": "long_term_eu"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f17359",
+        "sp_f2209"
+      ]
+    },
+    {
+      "id": "proof_of_address",
+      "category": "address",
+      "title": {
+        "fr": "Justificatif de domicile",
+        "en": "Proof of address"
+      },
+      "details": {
+        "fr": "Datant de moins de 6 mois.",
+        "en": "Less than 6 months old."
+      },
+      "tip": {
+        "fr": "Service-public indique qu'un justificatif de domicile sécurisé (avec un code-barres 2D-Doc) ne peut pas être refusé.",
+        "en": "Service-public says that a secure proof of address (with a 2D-Doc barcode) cannot be refused."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "permit_type",
+            "in": [
+              "student",
+              "employee",
+              "temp_worker",
+              "private_family_life",
+              "talent",
+              "visitor",
+              "resident_card"
+            ]
+          },
+          {
+            "not": {
+              "all": [
+                {
+                  "question": "permit_type",
+                  "equals": "private_family_life"
+                },
+                {
+                  "question": "vpf_reason",
+                  "in": [
+                    "other_vpf"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "sources": [
+        "sp_f33052",
+        "sp_f2231",
+        "sp_f15898",
+        "sp_f2209",
+        "sp_f302"
+      ]
+    },
+    {
+      "id": "address_tenant",
+      "category": "address",
+      "title": {
+        "fr": "Facture, bail ou quittance de loyer",
+        "en": "Bill, lease or rent receipt"
+      },
+      "details": {
+        "fr": "Un de ces documents : facture d'électricité, de gaz, d'eau, de téléphone fixe ou d'accès à internet, bail de location ou quittance de loyer.",
+        "en": "One of these: electricity, gas, water, landline or internet bill, rental lease or rent receipt."
+      },
+      "example": {
+        "fr": "Exemple : votre dernière facture d'électricité à votre nom.",
+        "en": "Example: your latest electricity bill in your name."
+      },
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "permit_type",
+                "in": [
+                  "student",
+                  "employee",
+                  "temp_worker",
+                  "private_family_life",
+                  "talent",
+                  "visitor",
+                  "resident_card"
+                ]
+              },
+              {
+                "not": {
+                  "all": [
+                    {
+                      "question": "permit_type",
+                      "equals": "private_family_life"
+                    },
+                    {
+                      "question": "vpf_reason",
+                      "in": [
+                        "other_vpf"
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "question": "housing",
+            "equals": "tenant_owner"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f33052"
+      ]
+    },
+    {
+      "id": "host_certificate",
+      "category": "address",
+      "title": {
+        "fr": "Attestation d'hébergement",
+        "en": "Host's certificate"
+      },
+      "details": {
+        "fr": "Attestation de votre hébergeant, datée et signée. Un modèle est disponible sur service-public.",
+        "en": "Certificate from your host, dated and signed. A template is available on service-public."
+      },
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "permit_type",
+                "in": [
+                  "student",
+                  "employee",
+                  "temp_worker",
+                  "private_family_life",
+                  "talent",
+                  "visitor",
+                  "resident_card"
+                ]
+              },
+              {
+                "not": {
+                  "all": [
+                    {
+                      "question": "permit_type",
+                      "equals": "private_family_life"
+                    },
+                    {
+                      "question": "vpf_reason",
+                      "in": [
+                        "other_vpf"
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "question": "housing",
+            "equals": "hosted"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f33052"
+      ]
+    },
+    {
+      "id": "host_id",
+      "category": "address",
+      "title": {
+        "fr": "Pièce d'identité de l'hébergeant",
+        "en": "Host's ID"
+      },
+      "details": {
+        "fr": "Copie de la carte d'identité ou de la carte de séjour de l'hébergeant.",
+        "en": "Copy of the host's identity card or residence card."
+      },
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "permit_type",
+                "in": [
+                  "student",
+                  "employee",
+                  "temp_worker",
+                  "private_family_life",
+                  "talent",
+                  "visitor",
+                  "resident_card"
+                ]
+              },
+              {
+                "not": {
+                  "all": [
+                    {
+                      "question": "permit_type",
+                      "equals": "private_family_life"
+                    },
+                    {
+                      "question": "vpf_reason",
+                      "in": [
+                        "other_vpf"
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "question": "housing",
+            "equals": "hosted"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f33052"
+      ]
+    },
+    {
+      "id": "host_address_proof",
+      "category": "address",
+      "title": {
+        "fr": "Justificatif de domicile de l'hébergeant",
+        "en": "Host's proof of address"
+      },
+      "details": {
+        "fr": "Seulement si l'adresse sur la carte d'identité ou la carte de séjour de l'hébergeant n'est plus à jour : acte de propriété, relevé de taxe d'habitation, copie du bail, ou facture d'électricité, de gaz, d'eau, de téléphone fixe ou d'accès à internet à son nom.",
+        "en": "Only if the address on the host's identity or residence card is out of date: title deed, housing tax statement, copy of the lease, or electricity, gas, water, landline or internet bill in the host's name."
+      },
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "permit_type",
+                "in": [
+                  "student",
+                  "employee",
+                  "temp_worker",
+                  "private_family_life",
+                  "talent",
+                  "visitor",
+                  "resident_card"
+                ]
+              },
+              {
+                "not": {
+                  "all": [
+                    {
+                      "question": "permit_type",
+                      "equals": "private_family_life"
+                    },
+                    {
+                      "question": "vpf_reason",
+                      "in": [
+                        "other_vpf"
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "question": "housing",
+            "equals": "hosted"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f33052"
+      ]
+    },
+    {
+      "id": "hotel_certificate",
+      "category": "address",
+      "title": {
+        "fr": "Attestation de l'hôtelier et facture",
+        "en": "Hotel certificate and bill"
+      },
+      "details": {
+        "fr": "Les 2 documents : attestation de votre hôtelier et facture du dernier mois.",
+        "en": "Both documents: certificate from the hotel and last month's bill."
+      },
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "permit_type",
+                "in": [
+                  "student",
+                  "employee",
+                  "temp_worker",
+                  "private_family_life",
+                  "talent",
+                  "visitor",
+                  "resident_card"
+                ]
+              },
+              {
+                "not": {
+                  "all": [
+                    {
+                      "question": "permit_type",
+                      "equals": "private_family_life"
+                    },
+                    {
+                      "question": "vpf_reason",
+                      "in": [
+                        "other_vpf"
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "question": "housing",
+            "equals": "hotel"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f33052"
+      ]
+    },
+    {
+      "id": "photos",
+      "category": "photo",
+      "title": {
+        "fr": "Photos d'identité (e-photo)",
+        "en": "ID photos (e-photo)"
+      },
+      "details": {
+        "fr": "Pour une demande en ligne : le code de la e-photo, fourni par le photographe ou la cabine agréée sur la planche photo. Pour un dépôt en préfecture, les fiches demandent 3 photos.",
+        "en": "For an online application: the e-photo code, given by the photographer or approved photo booth on the photo sheet. For an application at the prefecture, the pages ask for 3 photos."
+      },
+      "example": {
+        "fr": "Exemple : la planche photo porte un code e-photo à recopier dans le formulaire en ligne.",
+        "en": "Example: the photo sheet shows an e-photo code to type into the online form."
+      },
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "permit_type",
+                "in": [
+                  "student",
+                  "employee",
+                  "temp_worker",
+                  "private_family_life",
+                  "talent",
+                  "visitor",
+                  "resident_card"
+                ]
+              },
+              {
+                "not": {
+                  "all": [
+                    {
+                      "question": "permit_type",
+                      "equals": "private_family_life"
+                    },
+                    {
+                      "question": "vpf_reason",
+                      "in": [
+                        "other_vpf"
+                      ]
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "not": {
+              "question": "permit_type",
+              "equals": "visitor"
+            }
+          }
+        ]
+      },
+      "sources": [
+        "sp_f2231",
+        "sp_f15898",
+        "sp_f2209",
+        "sp_f16922",
+        "sp_f17359",
+        "sp_f11201"
+      ]
+    },
+    {
+      "id": "republic_commitment",
+      "category": "integration",
+      "title": {
+        "fr": "Contrat d'engagement à respecter les principes de la République",
+        "en": "Commitment to respect the principles of the Republic"
+      },
+      "details": {
+        "fr": "Exemplaire signé, joint au dépôt du dossier. Sur l'ANEF, il se signe en ligne. La version signée doit être en français. Certaines nationalités sont dispensées (Algériens notamment) : voir la fiche.",
+        "en": "Signed copy, included when you apply. On ANEF, it is signed online. The signed version must be in French. Some nationalities are exempt (Algerians in particular): see the page."
+      },
+      "tip": {
+        "fr": "Service-public précise qu'un dossier sans ce contrat est considéré comme incomplet.",
+        "en": "Service-public says an application without this contract is treated as incomplete."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "permit_type",
+            "in": [
+              "student",
+              "employee",
+              "temp_worker",
+              "private_family_life",
+              "talent",
+              "visitor",
+              "resident_card"
+            ]
+          },
+          {
+            "not": {
+              "all": [
+                {
+                  "question": "permit_type",
+                  "equals": "private_family_life"
+                },
+                {
+                  "question": "vpf_reason",
+                  "in": [
+                    "other_vpf"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "sources": [
+        "sp_f38329",
+        "sp_f2231",
+        "sp_f15898",
+        "sp_f2209"
+      ]
+    },
+    {
+      "id": "student_enrollment",
+      "category": "studies",
+      "title": {
+        "fr": "Inscription ou préinscription",
+        "en": "Enrolment or pre-enrolment"
+      },
+      "details": {
+        "fr": "Document produit par l'établissement d'enseignement (public ou privé d'enseignement supérieur).",
+        "en": "Document issued by your school (public or private higher education)."
+      },
+      "tip": {
+        "fr": "Pour une carte \"étudiant - programme de mobilité\", la fiche demande aussi un document de l'établissement justifiant que votre cursus relève d'un programme de mobilité dans l'Union européenne.",
+        "en": "For a \"student - mobility programme\" card, the page also asks for a document from your school showing your course is part of an EU mobility programme."
+      },
+      "condition": {
+        "question": "permit_type",
+        "equals": "student"
+      },
+      "sources": [
+        "sp_f2231"
+      ]
+    },
+    {
+      "id": "student_transcripts",
+      "category": "studies",
+      "title": {
+        "fr": "Relevés de notes de l'année écoulée",
+        "en": "Transcripts for the past year"
+      },
+      "details": {
+        "fr": "Relevés de notes de l'année écoulée.",
+        "en": "Transcripts for the past academic year."
+      },
+      "condition": {
+        "question": "permit_type",
+        "equals": "student"
+      },
+      "sources": [
+        "sp_f2231"
+      ]
+    },
+    {
+      "id": "student_last_diploma",
+      "category": "studies",
+      "title": {
+        "fr": "Dernier diplôme obtenu en France",
+        "en": "Last diploma obtained in France"
+      },
+      "details": {
+        "fr": "Votre dernier diplôme obtenu en France.",
+        "en": "Your last diploma obtained in France."
+      },
+      "condition": {
+        "question": "permit_type",
+        "equals": "student"
+      },
+      "sources": [
+        "sp_f2231"
+      ]
+    },
+    {
+      "id": "student_success_certificate",
+      "category": "studies",
+      "title": {
+        "fr": "Attestation de réussite",
+        "en": "Certificate of success"
+      },
+      "details": {
+        "fr": "Attestation de réussite délivrée par l'établissement.",
+        "en": "Certificate of success issued by your school."
+      },
+      "condition": {
+        "question": "permit_type",
+        "equals": "student"
+      },
+      "sources": [
+        "sp_f2231"
+      ]
+    },
+    {
+      "id": "student_res_french_scholarship",
+      "category": "resources",
+      "title": {
+        "fr": "Justificatif de bourse ou de programme européen",
+        "en": "Proof of scholarship or EU programme"
+      },
+      "details": {
+        "fr": "Justificatif de votre situation de boursier du gouvernement français ou de bénéficiaire d'un programme européen.",
+        "en": "Proof that you hold a French government scholarship or take part in an EU programme."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "permit_type",
+            "equals": "student"
+          },
+          {
+            "question": "student_resources",
+            "equals": "french_scholarship"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f2231"
+      ]
+    },
+    {
+      "id": "student_res_home_scholarship",
+      "category": "resources",
+      "title": {
+        "fr": "Attestation de bourse du pays d'origine",
+        "en": "Home-country scholarship certificate"
+      },
+      "details": {
+        "fr": "Attestation de l'organisme payeur du pays d'origine, précisant le montant et la durée de la bourse.",
+        "en": "Certificate from the paying body in your home country, stating the amount and length of the scholarship."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "permit_type",
+            "equals": "student"
+          },
+          {
+            "question": "student_resources",
+            "equals": "home_scholarship"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f2231"
+      ]
+    },
+    {
+      "id": "student_res_payslips",
+      "category": "resources",
+      "title": {
+        "fr": "3 dernières fiches de paie",
+        "en": "Last 3 payslips"
+      },
+      "details": {
+        "fr": "Vos 3 dernières fiches de paie.",
+        "en": "Your last 3 payslips."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "permit_type",
+            "equals": "student"
+          },
+          {
+            "question": "student_resources",
+            "equals": "work"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f2231"
+      ]
+    },
+    {
+      "id": "student_res_third_party",
+      "category": "resources",
+      "title": {
+        "fr": "Justificatifs de prise en charge par un tiers",
+        "en": "Proof of support from another person"
+      },
+      "details": {
+        "fr": "Justificatif d'identité de la personne qui vous aide, et attestations bancaires de virements réguliers (ou attestation sur l'honneur de versement des sommes permettant d'atteindre 877,5 € par mois).",
+        "en": "ID of the person who supports you, and bank statements showing regular transfers (or a sworn statement that they pay enough to reach €877.50 per month)."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "permit_type",
+            "equals": "student"
+          },
+          {
+            "question": "student_resources",
+            "equals": "third_party"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f2231"
+      ]
+    },
+    {
+      "id": "student_res_bank",
+      "category": "resources",
+      "title": {
+        "fr": "Attestation bancaire de solde suffisant",
+        "en": "Bank certificate of sufficient balance"
+      },
+      "details": {
+        "fr": "Attestation bancaire de solde créditeur suffisant.",
+        "en": "Bank certificate showing a sufficient credit balance."
+      },
+      "tip": {
+        "fr": "En cas de ressources multiples, joignez le justificatif de chacune.",
+        "en": "If you have several sources of income, include proof for each one."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "permit_type",
+            "equals": "student"
+          },
+          {
+            "question": "student_resources",
+            "equals": "own_funds"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f2231"
+      ]
+    },
+    {
+      "id": "work_authorisation",
+      "category": "work",
+      "title": {
+        "fr": "Autorisation de travail correspondant au poste occupé",
+        "en": "Work authorisation for your current job"
+      },
+      "details": {
+        "fr": "L'autorisation de travail du poste que vous occupez.",
+        "en": "The work authorisation for the job you hold."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "permit_type",
+            "in": [
+              "employee",
+              "temp_worker"
+            ]
+          },
+          {
+            "question": "employment_status",
+            "equals": "same_job"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f15898"
+      ]
+    },
+    {
+      "id": "employment_proof",
+      "category": "work",
+      "title": {
+        "fr": "Preuve du maintien de votre emploi",
+        "en": "Proof that you are still employed"
+      },
+      "details": {
+        "fr": "Déclaration sociale nominative de l'employeur vous concernant avant la demande de renouvellement, attestation d'activité ou attestation d'activité professionnelle des 12 derniers mois.",
+        "en": "Your employer's nominative social declaration (DSN) about you before the renewal request, or an activity certificate covering the last 12 months."
+      },
+      "tip": {
+        "fr": "Si votre employeur est un particulier, la fiche demande une attestation de conformité aux déclarations en ligne du contrat de travail (Cesu ou autre organisme de déclaration).",
+        "en": "If your employer is a private individual, the page asks for a certificate that the employment contract was declared online (Cesu or another declaration body)."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "permit_type",
+            "in": [
+              "employee",
+              "temp_worker"
+            ]
+          },
+          {
+            "question": "employment_status",
+            "equals": "same_job"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f15898"
+      ]
+    },
+    {
+      "id": "new_work_authorisation",
+      "category": "work",
+      "title": {
+        "fr": "Autorisation de travail du nouvel employeur",
+        "en": "Work authorisation from the new employer"
+      },
+      "details": {
+        "fr": "Autorisation de travail dématérialisée délivrée au nouvel employeur.",
+        "en": "Online work authorisation issued to your new employer."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "permit_type",
+            "in": [
+              "employee",
+              "temp_worker"
+            ]
+          },
+          {
+            "question": "employment_status",
+            "equals": "new_job"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f15898"
+      ]
+    },
+    {
+      "id": "france_travail_employer_certificate",
+      "category": "work",
+      "title": {
+        "fr": "Attestation employeur destinée à France Travail",
+        "en": "Employer certificate for France Travail"
+      },
+      "details": {
+        "fr": "Attestation du précédent employeur destinée à France Travail (anciennement Pôle emploi), justifiant la rupture du contrat de travail.",
+        "en": "Certificate from your previous employer for France Travail (formerly Pôle emploi), showing the end of your contract."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "permit_type",
+            "equals": "employee"
+          },
+          {
+            "question": "employment_status",
+            "in": [
+              "new_job",
+              "no_job"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_f15898"
+      ]
+    },
+    {
+      "id": "france_travail_status",
+      "category": "work",
+      "title": {
+        "fr": "Avis de situation France Travail",
+        "en": "France Travail status notice"
+      },
+      "details": {
+        "fr": "Avis de situation individuelle établi par France Travail.",
+        "en": "Individual status notice issued by France Travail."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "permit_type",
+            "equals": "employee"
+          },
+          {
+            "question": "employment_status",
+            "equals": "no_job"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f15898"
+      ]
+    },
+    {
+      "id": "french_a2",
+      "category": "integration",
+      "title": {
+        "fr": "Attestation de niveau de français A2",
+        "en": "Proof of French level A2"
+      },
+      "details": {
+        "fr": "Demandée pour une 1re carte de séjour pluriannuelle, sauf si vous avez plus de 65 ans. Le niveau peut être prouvé par une certification (TCF ou TEF), un diplôme (DELF, DALF, DUEF, DCL...) ou un diplôme français de niveau 3 ou plus.",
+        "en": "Required for a first multi-year card, unless you are over 65. The level can be proven by a certification (TCF or TEF), a diploma (DELF, DALF, DUEF, DCL...) or a French diploma at level 3 or above."
+      },
+      "tip": {
+        "fr": "Service-public indique que les attestations de certification linguistique sont valables 2 ans et que les diplômes étrangers, même d'un pays francophone, ne sont pas admis.",
+        "en": "Service-public says language certification results are valid for 2 years and foreign diplomas, even from a French-speaking country, are not accepted."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "over_65",
+            "equals": "no"
+          },
+          {
+            "question": "card_kind",
+            "equals": "temporary"
+          },
+          {
+            "any": [
+              {
+                "all": [
+                  {
+                    "question": "permit_type",
+                    "equals": "employee"
+                  },
+                  {
+                    "question": "employment_status",
+                    "equals": "same_job"
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "question": "permit_type",
+                    "equals": "private_family_life"
+                  },
+                  {
+                    "question": "vpf_reason",
+                    "in": [
+                      "spouse_of_french",
+                      "parent_of_french_child",
+                      "humanitarian"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_f15898",
+        "sp_f2209",
+        "sp_f34501"
+      ]
+    },
+    {
+      "id": "civic_exam_csp",
+      "category": "integration",
+      "title": {
+        "fr": "Attestation de réussite à l'examen civique",
+        "en": "Civic exam pass certificate"
+      },
+      "details": {
+        "fr": "Mention \"carte de séjour pluriannuelle\", pour une 1re carte pluriannuelle, sauf si vous avez plus de 65 ans. L'examen se passe dans un centre agréé.",
+        "en": "\"Multi-year card\" level, for a first multi-year card, unless you are over 65. The exam is taken in an approved centre."
+      },
+      "tip": {
+        "fr": "Service-public précise que l'attestation de réussite n'a pas de durée de validité.",
+        "en": "Service-public says the pass certificate does not expire."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "over_65",
+            "equals": "no"
+          },
+          {
+            "question": "card_kind",
+            "equals": "temporary"
+          },
+          {
+            "any": [
+              {
+                "all": [
+                  {
+                    "question": "permit_type",
+                    "equals": "employee"
+                  },
+                  {
+                    "question": "employment_status",
+                    "equals": "same_job"
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "question": "permit_type",
+                    "equals": "private_family_life"
+                  },
+                  {
+                    "question": "vpf_reason",
+                    "in": [
+                      "spouse_of_french",
+                      "parent_of_french_child",
+                      "humanitarian"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_f15898",
+        "sp_f2209",
+        "sp_f39530"
+      ]
+    },
+    {
+      "id": "marriage_certificate",
+      "category": "family",
+      "title": {
+        "fr": "Acte de mariage",
+        "en": "Marriage certificate"
+      },
+      "details": {
+        "fr": "Copie intégrale de l'acte de mariage, ou transcription de l'acte de mariage célébré à l'étranger.",
+        "en": "Full copy of the marriage certificate, or transcription of a marriage held abroad."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "permit_type",
+            "equals": "private_family_life"
+          },
+          {
+            "question": "vpf_reason",
+            "in": [
+              "spouse_of_french"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_f2209"
+      ]
+    },
+    {
+      "id": "spouse_french_nationality",
+      "category": "family",
+      "title": {
+        "fr": "Preuve de nationalité française de votre époux(se)",
+        "en": "Proof of your spouse's French nationality"
+      },
+      "details": {
+        "fr": "Passeport ou carte nationale d'identité en cours de validité, ou certificat de nationalité française de moins de 6 mois.",
+        "en": "Valid passport or national identity card, or French nationality certificate less than 6 months old."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "permit_type",
+            "equals": "private_family_life"
+          },
+          {
+            "question": "vpf_reason",
+            "in": [
+              "spouse_of_french"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_f2209"
+      ]
+    },
+    {
+      "id": "shared_life_proof",
+      "category": "family",
+      "title": {
+        "fr": "Justificatifs de communauté de vie",
+        "en": "Proof of living together"
+      },
+      "details": {
+        "fr": "Déclaration sur l'honneur conjointe de vie commune, et tous documents montrant la vie commune en France (contrat de bail, facture d'énergie, relevé d'identité bancaire, etc.).",
+        "en": "Joint sworn statement that you live together, and any documents showing life together in France (lease, energy bill, bank details, etc.)."
+      },
+      "tip": {
+        "fr": "Si la vie commune a été rompue par un décès ou des violences conjugales ou familiales, la fiche demande : acte de décès, dépôt de plainte, jugement de divorce pour faute ou condamnation du conjoint pour violences.",
+        "en": "If life together ended because of a death or domestic or family violence, the page asks for: death certificate, police complaint, divorce ruling for fault or conviction of the spouse for violence."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "permit_type",
+            "equals": "private_family_life"
+          },
+          {
+            "question": "vpf_reason",
+            "in": [
+              "spouse_of_french"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_f2209"
+      ]
+    },
+    {
+      "id": "child_birth_certificate",
+      "category": "family",
+      "title": {
+        "fr": "Acte de naissance de l'enfant",
+        "en": "Child's birth certificate"
+      },
+      "details": {
+        "fr": "Copie intégrale de l'acte de naissance de l'enfant français, avec la filiation.",
+        "en": "Full copy of the French child's birth certificate, showing parentage."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "permit_type",
+            "equals": "private_family_life"
+          },
+          {
+            "question": "vpf_reason",
+            "in": [
+              "parent_of_french_child"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_f2209"
+      ]
+    },
+    {
+      "id": "child_french_nationality",
+      "category": "family",
+      "title": {
+        "fr": "Preuve de nationalité française de l'enfant",
+        "en": "Proof of the child's French nationality"
+      },
+      "details": {
+        "fr": "Passeport ou carte nationale d'identité en cours de validité, ou certificat de nationalité française de moins de 6 mois.",
+        "en": "Valid passport or national identity card, or French nationality certificate less than 6 months old."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "permit_type",
+            "equals": "private_family_life"
+          },
+          {
+            "question": "vpf_reason",
+            "in": [
+              "parent_of_french_child"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_f2209"
+      ]
+    },
+    {
+      "id": "child_residence",
+      "category": "family",
+      "title": {
+        "fr": "Preuve que l'enfant vit en France",
+        "en": "Proof the child lives in France"
+      },
+      "details": {
+        "fr": "Preuve par tous moyens.",
+        "en": "Any kind of proof."
+      },
+      "example": {
+        "fr": "Exemple : certificat de scolarité ou de crèche.",
+        "en": "Example: school or nursery certificate."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "permit_type",
+            "equals": "private_family_life"
+          },
+          {
+            "question": "vpf_reason",
+            "in": [
+              "parent_of_french_child"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_f2209"
+      ]
+    },
+    {
+      "id": "child_support_proof",
+      "category": "family",
+      "title": {
+        "fr": "Preuves de votre contribution à l'entretien et à l'éducation de l'enfant",
+        "en": "Proof you support and raise the child"
+      },
+      "details": {
+        "fr": "Depuis sa naissance ou depuis au moins 2 ans : versement d'une pension, preuves d'achats, attestations (hébergement, suivi scolaire), preuves du lien affectif, témoignages.",
+        "en": "Since birth or for at least 2 years: maintenance payments, receipts for purchases, certificates (housing, school follow-up), proof of an emotional bond, testimonies."
+      },
+      "example": {
+        "fr": "Exemple : tickets de caisse de vêtements ou de jouets, virements de pension.",
+        "en": "Example: receipts for clothes or toys, maintenance transfers."
+      },
+      "tip": {
+        "fr": "Si la filiation avec le parent français vient d'une reconnaissance, la fiche demande aussi des preuves que le parent français contribue à l'entretien de l'enfant, ou une décision du juge.",
+        "en": "If the child's link to the French parent comes from a formal recognition, the page also asks for proof that the French parent supports the child, or a court decision."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "permit_type",
+            "equals": "private_family_life"
+          },
+          {
+            "question": "vpf_reason",
+            "in": [
+              "parent_of_french_child"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_f2209"
+      ]
+    },
+    {
+      "id": "family_ties_proof",
+      "category": "family",
+      "title": {
+        "fr": "Justificatifs de vos liens personnels et familiaux en France",
+        "en": "Proof of your personal and family ties in France"
+      },
+      "details": {
+        "fr": "Actes de mariage ou de naissance des enfants avec filiation, actes de naissance des parents et de la fratrie, jugement d'adoption ou de tutelle, liens professionnels ou personnels (contrat de travail, fiches de paie, vie associative), copie des titres de séjour ou cartes d'identité des membres de la famille, preuves de relations continues avec eux.",
+        "en": "Marriage certificate or children's birth certificates with parentage, birth certificates of parents and siblings, adoption or guardianship ruling, work or personal ties (employment contract, payslips, community life), copies of family members' residence permits or ID cards, proof of ongoing relations with them."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "permit_type",
+            "equals": "private_family_life"
+          },
+          {
+            "question": "vpf_reason",
+            "in": [
+              "family_ties"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_f2209"
+      ]
+    },
+    {
+      "id": "habitual_residence_proof",
+      "category": "residence",
+      "title": {
+        "fr": "Justificatifs de résidence habituelle en France",
+        "en": "Proof of habitual residence in France"
+      },
+      "details": {
+        "fr": "Tous documents utiles : visa, attestation de demande de carte de séjour, documents d'une administration (préfecture, service social, école), certificat médical, relevés bancaires, attestations de proches.",
+        "en": "Any useful documents: visa, residence application certificate, documents from a public body (prefecture, social services, school), medical certificate, bank statements, statements from relatives."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "permit_type",
+            "equals": "private_family_life"
+          },
+          {
+            "question": "vpf_reason",
+            "in": [
+              "family_ties"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_f2209"
+      ]
+    },
+    {
+      "id": "living_conditions_integration",
+      "category": "resources",
+      "title": {
+        "fr": "Conditions d'existence et insertion en France",
+        "en": "Living conditions and integration in France"
+      },
+      "details": {
+        "fr": "Justificatifs de revenus (salaires, relevés bancaires) et de votre insertion (attestations d'amis, adhésion à des associations, bénévolat, participation aux activités scolaires des enfants). La fiche cite aussi les actes de décès des membres de famille restés à l'étranger, pour montrer vos liens avec le pays d'origine.",
+        "en": "Proof of income (salaries, bank statements) and of your integration (statements from friends, membership of associations, volunteering, taking part in children's school activities). The page also mentions death certificates of family members abroad, to show your ties with your home country."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "permit_type",
+            "equals": "private_family_life"
+          },
+          {
+            "question": "vpf_reason",
+            "in": [
+              "family_ties"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_f2209"
+      ]
+    },
+    {
+      "id": "spouse_eu_cards",
+      "category": "family",
+      "title": {
+        "fr": "Cartes de séjour de votre époux(se)",
+        "en": "Your spouse's residence cards"
+      },
+      "details": {
+        "fr": "La carte de séjour délivrée par la France à votre époux(se) (ou l'attestation de demande en cas d'arrivée ensemble), et sa carte \"résident de longue durée - UE\" délivrée par un autre pays de l'Union européenne.",
+        "en": "The residence card issued by France to your spouse (or the application certificate if you arrived together), and their \"EU long-term resident\" card issued by another EU country."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "permit_type",
+            "equals": "private_family_life"
+          },
+          {
+            "question": "vpf_reason",
+            "in": [
+              "spouse_of_eu_resident"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_f2209"
+      ]
+    },
+    {
+      "id": "spouse_eu_your_residence",
+      "category": "residence",
+      "title": {
+        "fr": "Preuve de votre séjour dans l'autre pays de l'UE",
+        "en": "Proof of your stay in the other EU country"
+      },
+      "details": {
+        "fr": "Carte de séjour ou décision favorable de regroupement familial de l'autre pays de l'Union européenne.",
+        "en": "Residence card or favourable family reunification decision from the other EU country."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "permit_type",
+            "equals": "private_family_life"
+          },
+          {
+            "question": "vpf_reason",
+            "in": [
+              "spouse_of_eu_resident"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_f2209"
+      ]
+    },
+    {
+      "id": "own_resources",
+      "category": "resources",
+      "title": {
+        "fr": "Justificatifs de ressources propres",
+        "en": "Proof of your own income"
+      },
+      "details": {
+        "fr": "Les prestations sociales et allocations ne sont pas prises en compte.",
+        "en": "Social benefits and allowances are not counted."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "permit_type",
+            "equals": "private_family_life"
+          },
+          {
+            "question": "vpf_reason",
+            "in": [
+              "spouse_of_eu_resident"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_f2209"
+      ]
+    },
+    {
+      "id": "health_insurance_eu_spouse",
+      "category": "other",
+      "title": {
+        "fr": "Justificatif d'assurance maladie",
+        "en": "Proof of health insurance"
+      },
+      "details": {
+        "fr": "Carte d'assurance maladie ou attestation d'assurance maladie.",
+        "en": "Health insurance card or certificate."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "permit_type",
+            "equals": "private_family_life"
+          },
+          {
+            "question": "vpf_reason",
+            "in": [
+              "spouse_of_eu_resident"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_f2209"
+      ]
+    },
+    {
+      "id": "humanitarian_proof",
+      "category": "other",
+      "title": {
+        "fr": "Justificatifs des motifs humanitaires ou exceptionnels",
+        "en": "Proof of humanitarian or exceptional grounds"
+      },
+      "details": {
+        "fr": "Par exemple : circonstances humanitaires particulières, durée de présence en France, emploi passé, qualification professionnelle, services rendus dans le domaine culturel, sportif, associatif, civique ou économique.",
+        "en": "For example: specific humanitarian circumstances, length of stay in France, past employment, professional qualifications, services in culture, sport, associations, civic life or the economy."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "permit_type",
+            "equals": "private_family_life"
+          },
+          {
+            "question": "vpf_reason",
+            "in": [
+              "humanitarian"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_f2209"
+      ]
+    },
+    {
+      "id": "talent_track_documents",
+      "category": "work",
+      "title": {
+        "fr": "Pièces liées à votre parcours \"talent\"",
+        "en": "Documents for your \"talent\" track"
+      },
+      "details": {
+        "fr": "Elles dépendent du parcours (salarié qualifié, carte bleue européenne, chercheur, porteur de projet, profession artistique...). Par exemple pour un salarié qualifié : diplôme, attestation employeur (un modèle est proposé sur la fiche) et, si l'activité est réglementée, preuve des conditions d'exercice. Consultez la rubrique de votre parcours sur la fiche.",
+        "en": "They depend on your track (qualified employee, EU Blue Card, researcher, business founder, artist...). For example for a qualified employee: diploma, employer certificate (a template is on the page) and, if the job is regulated, proof you meet the conditions to practise. Check the section for your track on the page."
+      },
+      "condition": {
+        "question": "permit_type",
+        "equals": "talent"
+      },
+      "sources": [
+        "sp_f16922"
+      ]
+    },
+    {
+      "id": "visitor_resources",
+      "category": "resources",
+      "title": {
+        "fr": "Justificatifs de ressources",
+        "en": "Proof of income"
+      },
+      "details": {
+        "fr": "Ressources atteignant 17 735,19 € par an : attestations bancaires, cautions de personnes solvables, titre de pension pour les retraités, etc. Les allocations familiales ne sont pas prises en compte.",
+        "en": "Income reaching €17,735.19 per year: bank certificates, guarantees from solvent people, pension certificate for retirees, etc. Family allowances are not counted."
+      },
+      "condition": {
+        "question": "permit_type",
+        "equals": "visitor"
+      },
+      "sources": [
+        "sp_f302"
+      ]
+    },
+    {
+      "id": "visitor_sponsor",
+      "category": "resources",
+      "title": {
+        "fr": "Pièces de la personne qui vous prend en charge",
+        "en": "Documents from the person supporting you"
+      },
+      "details": {
+        "fr": "Documents justifiant des ressources suffisantes du garant, attestation de prise en charge financière et carte d'identité du garant.",
+        "en": "Documents proving the guarantor has enough income, a financial support statement and the guarantor's ID card."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "permit_type",
+            "equals": "visitor"
+          },
+          {
+            "question": "visitor_third_party",
+            "equals": "yes"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f302"
+      ]
+    },
+    {
+      "id": "visitor_no_work_statement",
+      "category": "work",
+      "title": {
+        "fr": "Attestation sur l'honneur de ne pas travailler",
+        "en": "Sworn statement that you will not work"
+      },
+      "details": {
+        "fr": "Attestation sur l'honneur manuscrite de ne pas travailler en France.",
+        "en": "Handwritten sworn statement that you will not work in France."
+      },
+      "condition": {
+        "question": "permit_type",
+        "equals": "visitor"
+      },
+      "sources": [
+        "sp_f302"
+      ]
+    },
+    {
+      "id": "visitor_health_insurance",
+      "category": "other",
+      "title": {
+        "fr": "Attestation d'assurance maladie",
+        "en": "Health insurance certificate"
+      },
+      "details": {
+        "fr": "Assurance maladie couvrant la durée de votre séjour.",
+        "en": "Health insurance covering the length of your stay."
+      },
+      "condition": {
+        "question": "permit_type",
+        "equals": "visitor"
+      },
+      "sources": [
+        "sp_f302"
+      ]
+    },
+    {
+      "id": "ltr_absence_statement",
+      "category": "residence",
+      "title": {
+        "fr": "Attestation sur l'honneur sur vos séjours hors de France",
+        "en": "Sworn statement about time spent outside France"
+      },
+      "details": {
+        "fr": "Si votre carte actuelle ne porte pas la mention \"résident de longue durée-UE\" : vous déclarez ne pas avoir séjourné plus de 3 années consécutives hors de France au cours des 10 dernières années. Si elle porte cette mention : pas plus de 3 années consécutives hors de l'Union européenne ou 6 ans hors de France au cours des 10 dernières années, et pas de statut de résident longue durée-UE acquis dans un autre pays de l'Union.",
+        "en": "If your current card does not say \"EU long-term resident\": you declare you did not stay more than 3 consecutive years outside France in the last 10 years. If it does: no more than 3 consecutive years outside the EU or 6 years outside France in the last 10 years, and no EU long-term resident status obtained in another EU country."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "permit_type",
+            "equals": "resident_card"
+          },
+          {
+            "question": "resident_next_card",
+            "equals": "long_term_eu"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f17359"
+      ]
+    },
+    {
+      "id": "perm_absence_statement",
+      "category": "residence",
+      "title": {
+        "fr": "Attestation sur l'honneur sur vos séjours hors de France",
+        "en": "Sworn statement about time spent outside France"
+      },
+      "details": {
+        "fr": "Vous déclarez ne pas avoir séjourné plus de 3 ans consécutifs en dehors de la France au cours des 10 dernières années.",
+        "en": "You declare you did not stay more than 3 consecutive years outside France in the last 10 years."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "permit_type",
+            "equals": "resident_card"
+          },
+          {
+            "question": "resident_next_card",
+            "equals": "permanent"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f11201"
+      ]
+    },
+    {
+      "id": "french_b1",
+      "category": "integration",
+      "title": {
+        "fr": "Diplôme ou certification de français niveau B1",
+        "en": "French diploma or certification at level B1"
+      },
+      "details": {
+        "fr": "Pour la carte de résident permanent, sauf si vous avez plus de 65 ans ou un certificat médical notifiant votre incapacité à passer le test.",
+        "en": "For the permanent resident card, unless you are over 65 or have a medical certificate stating you cannot take the test."
+      },
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "permit_type",
+                "equals": "resident_card"
+              },
+              {
+                "question": "resident_next_card",
+                "equals": "permanent"
+              }
+            ]
+          },
+          {
+            "question": "over_65",
+            "equals": "no"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f11201",
+        "sp_f34501"
+      ]
+    },
+    {
+      "id": "civic_exam_resident",
+      "category": "integration",
+      "title": {
+        "fr": "Attestation de réussite à l'examen civique",
+        "en": "Civic exam pass certificate"
+      },
+      "details": {
+        "fr": "Pour la carte de résident permanent, sauf si vous avez plus de 65 ans ou un certificat médical notifiant votre incapacité à passer l'examen.",
+        "en": "For the permanent resident card, unless you are over 65 or have a medical certificate stating you cannot take the exam."
+      },
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "permit_type",
+                "equals": "resident_card"
+              },
+              {
+                "question": "resident_next_card",
+                "equals": "permanent"
+              }
+            ]
+          },
+          {
+            "question": "over_65",
+            "equals": "no"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f11201",
+        "sp_f39530"
+      ]
+    },
+    {
+      "id": "non_polygamy_statement",
+      "category": "family",
+      "title": {
+        "fr": "Déclaration sur l'honneur de non polygamie",
+        "en": "Sworn statement of non-polygamy"
+      },
+      "details": {
+        "fr": "Demandée si vous êtes marié(e) et ressortissant(e) d'un pays qui autorise la polygamie.",
+        "en": "Required if you are married and a national of a country that allows polygamy."
+      },
+      "condition": {
+        "question": "married",
+        "equals": "yes"
+      },
+      "sources": [
+        "sp_f2209",
+        "sp_f302",
+        "sp_f17359",
+        "sp_f11201"
+      ]
+    },
+    {
+      "id": "ofii_medical_certificate",
+      "category": "other",
+      "title": {
+        "fr": "Certificat médical de l'Ofii",
+        "en": "OFII medical certificate"
+      },
+      "details": {
+        "fr": "À remettre au moment de la remise du titre. Pour le titre visiteur, sauf si vous l'avez déjà produit.",
+        "en": "To hand in when you collect the card. For the visitor permit, unless you already provided it."
+      },
+      "condition": {
+        "any": [
+          {
+            "question": "permit_type",
+            "in": [
+              "employee",
+              "temp_worker",
+              "visitor"
+            ]
+          },
+          {
+            "all": [
+              {
+                "question": "permit_type",
+                "equals": "private_family_life"
+              },
+              {
+                "question": "vpf_reason",
+                "in": [
+                  "family_ties",
+                  "spouse_of_eu_resident",
+                  "humanitarian"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_f15898",
+        "sp_f2209",
+        "sp_f302"
+      ]
+    },
+    {
+      "id": "tax_stamp_standard",
+      "category": "tax",
+      "title": {
+        "fr": "Timbres fiscaux : 250 €",
+        "en": "Tax stamps: €250"
+      },
+      "details": {
+        "fr": "Les fiches indiquent 250 € (droit de timbre de 50 € et taxe de 200 €) pour ce renouvellement. Le justificatif de paiement est demandé lors de la remise de la carte.",
+        "en": "The pages state €250 (€50 stamp duty and €200 tax) for this renewal. Proof of payment is requested when you collect the card."
+      },
+      "tip": {
+        "fr": "Le timbre est électronique : achat en ligne ou dans un bureau de tabac équipé. Attention à ne pas acheter un timbre amende.",
+        "en": "The stamp is electronic: buy it online or in an equipped tobacco shop. Be careful not to buy a fine stamp (\"timbre amende\")."
+      },
+      "condition": {
+        "any": [
+          {
+            "question": "permit_type",
+            "in": [
+              "employee",
+              "temp_worker",
+              "visitor"
+            ]
+          },
+          {
+            "all": [
+              {
+                "question": "permit_type",
+                "equals": "private_family_life"
+              },
+              {
+                "question": "vpf_reason",
+                "in": [
+                  "spouse_of_french",
+                  "parent_of_french_child",
+                  "family_ties",
+                  "spouse_of_eu_resident",
+                  "humanitarian"
+                ]
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "question": "permit_type",
+                "equals": "resident_card"
+              },
+              {
+                "question": "resident_next_card",
+                "equals": "long_term_eu"
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_f15898",
+        "sp_f2209",
+        "sp_f302",
+        "sp_f17359",
+        "sp_a18881",
+        "lf_lf2026_art128"
+      ]
+    },
+    {
+      "id": "tax_stamp_student",
+      "category": "tax",
+      "title": {
+        "fr": "Timbres fiscaux : 100 € (ou 150 €)",
+        "en": "Tax stamps: €100 (or €150)"
+      },
+      "details": {
+        "fr": "La fiche indique 100 € (taxe et droit de timbre) pour le renouvellement de la carte étudiant, et 150 € (100 € de taxe + 50 € de droit de timbre) si vous recevez un titre pluriannuel étudiant.",
+        "en": "The page states €100 (tax and stamp duty) to renew the student card, and €150 (€100 tax + €50 stamp duty) if you get a multi-year student permit."
+      },
+      "tip": {
+        "fr": "Le timbre est électronique : achat en ligne ou dans un bureau de tabac équipé. Attention à ne pas acheter un timbre amende.",
+        "en": "The stamp is electronic: buy it online or in an equipped tobacco shop. Be careful not to buy a fine stamp (\"timbre amende\")."
+      },
+      "condition": {
+        "question": "permit_type",
+        "equals": "student"
+      },
+      "sources": [
+        "sp_f2231",
+        "sp_a18881"
+      ]
+    },
+    {
+      "id": "tax_stamp_permanent",
+      "category": "tax",
+      "title": {
+        "fr": "Timbres fiscaux : 350 €",
+        "en": "Tax stamps: €350"
+      },
+      "details": {
+        "fr": "La fiche indique 350 € (taxe de 300 € + droit de timbre de 50 €) pour la carte de résident permanent. Le justificatif est demandé le jour de la remise de la carte.",
+        "en": "The page states €350 (€300 tax + €50 stamp duty) for the permanent resident card. Proof is requested on the day you collect the card."
+      },
+      "tip": {
+        "fr": "Le timbre est électronique : achat en ligne ou dans un bureau de tabac équipé. Attention à ne pas acheter un timbre amende.",
+        "en": "The stamp is electronic: buy it online or in an equipped tobacco shop. Be careful not to buy a fine stamp (\"timbre amende\")."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "permit_type",
+            "equals": "resident_card"
+          },
+          {
+            "question": "resident_next_card",
+            "equals": "permanent"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f11201"
+      ]
+    },
+    {
+      "id": "tax_stamp_talent",
+      "category": "tax",
+      "title": {
+        "fr": "Timbres fiscaux",
+        "en": "Tax stamps"
+      },
+      "details": {
+        "fr": "La préfecture vous confirme la disponibilité de la carte et le montant de la taxe. Le justificatif de paiement est demandé lors de la remise de la carte. La fiche talent indique 350 € (droit de timbre de 50 € + taxe de 300 €) sans préciser le cas du renouvellement.",
+        "en": "The prefecture confirms when the card is ready and the amount of the tax. Proof of payment is requested when you collect the card. The talent page states €350 (€50 stamp duty + €300 tax) without covering the renewal case."
+      },
+      "tip": {
+        "fr": "Le timbre est électronique : achat en ligne ou dans un bureau de tabac équipé. Attention à ne pas acheter un timbre amende.",
+        "en": "The stamp is electronic: buy it online or in an equipped tobacco shop. Be careful not to buy a fine stamp (\"timbre amende\")."
+      },
+      "condition": {
+        "question": "permit_type",
+        "equals": "talent"
+      },
+      "sources": [
+        "sp_f16922",
+        "sp_a18881"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "check_other_permit",
+      "phase": "before",
+      "title": {
+        "fr": "Trouver la fiche de votre titre",
+        "en": "Find the page for your permit"
+      },
+      "body": {
+        "fr": "Votre titre n'est pas encore couvert par cette liste. Ouvrez l'index des titres de séjour sur service-public.gouv.fr, choisissez votre titre et lisez la rubrique sur le renouvellement : délais, lieu de dépôt et pièces.",
+        "en": "Your permit is not covered by this list yet. Open the index of residence permits on service-public.gouv.fr, choose your permit and read the renewal section: deadlines, where to apply and documents."
+      },
+      "link": {
+        "title": {
+          "fr": "Voir les titres de séjour",
+          "en": "See residence permits"
+        },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/N110"
+      },
+      "condition": {
+        "any": [
+          {
+            "question": "permit_type",
+            "equals": "other"
+          },
+          {
+            "all": [
+              {
+                "question": "permit_type",
+                "equals": "private_family_life"
+              },
+              {
+                "question": "vpf_reason",
+                "in": [
+                  "other_vpf"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_n110",
+        "sp_f2209"
+      ]
+    },
+    {
+      "id": "check_deadline",
+      "phase": "before",
+      "title": {
+        "fr": "Vérifier la période de dépôt",
+        "en": "Check when to apply"
+      },
+      "body": {
+        "fr": "Pour les titres demandés sur l'ANEF, les fiches indiquent de déposer au plus tôt 4 mois et au plus tard 2 mois avant la fin de validité. Pour les titres déposés en préfecture, elles indiquent 2 mois avant la fin de validité. En cas de dépôt hors délai, les fiches signalent qu'un droit de visa de régularisation peut s'ajouter (sauf force majeure ou visa valide).",
+        "en": "For permits requested on ANEF, the pages say to apply no earlier than 4 months and no later than 2 months before expiry. For permits filed at the prefecture, they say 2 months before expiry. If you apply late, the pages say a regularisation visa fee may be added (except in cases of force majeure or with a valid visa)."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "permit_type",
+            "in": [
+              "student",
+              "employee",
+              "temp_worker",
+              "private_family_life",
+              "talent",
+              "visitor",
+              "resident_card"
+            ]
+          },
+          {
+            "not": {
+              "all": [
+                {
+                  "question": "permit_type",
+                  "equals": "private_family_life"
+                },
+                {
+                  "question": "vpf_reason",
+                  "in": [
+                    "other_vpf"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "sources": [
+        "sp_f2231",
+        "sp_f15898",
+        "sp_f2209",
+        "sp_f302",
+        "lf_r431_5"
+      ]
+    },
+    {
+      "id": "get_ephoto",
+      "phase": "before",
+      "title": {
+        "fr": "Faire une e-photo",
+        "en": "Get an e-photo"
+      },
+      "body": {
+        "fr": "Pour une demande en ligne, faites vos photos chez un photographe ou dans une cabine agréée. Vous recevez une planche avec un code e-photo à saisir dans le formulaire.",
+        "en": "For an online application, have your photos taken by a photographer or in an approved booth. You get a sheet with an e-photo code to enter in the form."
+      },
+      "condition": {
+        "all": [
+          {
+            "any": [
+              {
+                "question": "permit_type",
+                "in": [
+                  "student",
+                  "talent",
+                  "visitor",
+                  "resident_card"
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "question": "permit_type",
+                    "equals": "private_family_life"
+                  },
+                  {
+                    "question": "vpf_reason",
+                    "in": [
+                      "spouse_of_french",
+                      "parent_of_french_child"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "not": {
+              "question": "permit_type",
+              "equals": "visitor"
+            }
+          }
+        ]
+      },
+      "sources": [
+        "sp_f2231",
+        "sp_f2209",
+        "sp_f16922",
+        "sp_f17359"
+      ]
+    },
+    {
+      "id": "prepare_integration",
+      "phase": "before",
+      "title": {
+        "fr": "Préparer le test de français et l'examen civique",
+        "en": "Prepare the French test and civic exam"
+      },
+      "body": {
+        "fr": "Pour une 1re carte pluriannuelle, la préfecture demande un niveau A2 en français et la réussite à l'examen civique (sauf après 65 ans). Pour la carte de résident permanent, le niveau demandé est B1. L'examen civique se passe dans un centre agréé : prévoyez ces démarches avant le dépôt.",
+        "en": "For a first multi-year card, the prefecture asks for French level A2 and a pass in the civic exam (except over 65). For the permanent resident card, the level required is B1. The civic exam is taken in an approved centre: plan these steps before applying."
+      },
+      "link": {
+        "title": {
+          "fr": "En savoir plus sur l'examen civique",
+          "en": "Learn about the civic exam"
+        },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F39530"
+      },
+      "condition": {
+        "any": [
+          {
+            "all": [
+              {
+                "question": "over_65",
+                "equals": "no"
+              },
+              {
+                "question": "card_kind",
+                "equals": "temporary"
+              },
+              {
+                "any": [
+                  {
+                    "all": [
+                      {
+                        "question": "permit_type",
+                        "equals": "employee"
+                      },
+                      {
+                        "question": "employment_status",
+                        "equals": "same_job"
+                      }
+                    ]
+                  },
+                  {
+                    "all": [
+                      {
+                        "question": "permit_type",
+                        "equals": "private_family_life"
+                      },
+                      {
+                        "question": "vpf_reason",
+                        "in": [
+                          "spouse_of_french",
+                          "parent_of_french_child",
+                          "humanitarian"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "all": [
+                  {
+                    "question": "permit_type",
+                    "equals": "resident_card"
+                  },
+                  {
+                    "question": "resident_next_card",
+                    "equals": "permanent"
+                  }
+                ]
+              },
+              {
+                "question": "over_65",
+                "equals": "no"
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_f39530",
+        "sp_f34501",
+        "sp_f15898",
+        "sp_f2209",
+        "sp_f11201"
+      ]
+    },
+    {
+      "id": "sign_commitment",
+      "phase": "before",
+      "title": {
+        "fr": "Signer le contrat d'engagement républicain",
+        "en": "Sign the Republic commitment contract"
+      },
+      "body": {
+        "fr": "Ce contrat se signe au dépôt : sur l'ANEF si vous déposez en ligne, ou en préfecture sinon. Un modèle et ses traductions sont proposés par le ministère de l'Intérieur. La version signée doit être en français.",
+        "en": "This contract is signed when you apply: on ANEF if you apply online, or at the prefecture otherwise. A template and translations are provided by the Ministry of the Interior. The signed version must be in French."
+      },
+      "link": {
+        "title": {
+          "fr": "Voir le modèle de contrat",
+          "en": "See the contract template"
+        },
+        "url": "https://www.immigration.interieur.gouv.fr/Immigration/Contrat-d-engagement-a-respecter-les-principes-de-la-Republique"
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "permit_type",
+            "in": [
+              "student",
+              "employee",
+              "temp_worker",
+              "private_family_life",
+              "talent",
+              "visitor",
+              "resident_card"
+            ]
+          },
+          {
+            "not": {
+              "all": [
+                {
+                  "question": "permit_type",
+                  "equals": "private_family_life"
+                },
+                {
+                  "question": "vpf_reason",
+                  "in": [
+                    "other_vpf"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "sources": [
+        "sp_f38329"
+      ]
+    },
+    {
+      "id": "submit_anef",
+      "phase": "submit",
+      "title": {
+        "fr": "Déposer la demande en ligne sur l'ANEF",
+        "en": "Apply online on ANEF"
+      },
+      "body": {
+        "fr": "Pour votre titre, la demande se fait sur internet. Créez ou ouvrez votre compte, choisissez la démarche, puis ajoutez les pièces numérisées. Dès le dépôt, vous recevez une attestation de dépôt. Elle ne prouve pas à elle seule que votre séjour est régulier. Si vous ne pouvez pas faire la démarche en ligne, vous pouvez demander de l'aide ou une autre solution.",
+        "en": "For your permit, the application is made online. Create or open your account, choose the procedure, then upload the scanned documents. As soon as you submit, you get a filing certificate. On its own, it does not prove that your stay is legal. If you cannot apply online, you can ask for help or another option."
+      },
+      "link": {
+        "title": {
+          "fr": "Ouvrir le service ANEF",
+          "en": "Open the ANEF service"
+        },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R59398"
+      },
+      "condition": {
+        "any": [
+          {
+            "question": "permit_type",
+            "in": [
+              "student",
+              "talent",
+              "visitor",
+              "resident_card"
+            ]
+          },
+          {
+            "all": [
+              {
+                "question": "permit_type",
+                "equals": "private_family_life"
+              },
+              {
+                "question": "vpf_reason",
+                "in": [
+                  "spouse_of_french",
+                  "parent_of_french_child"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_f2231",
+        "sp_f2209",
+        "sp_f302",
+        "sp_f16922",
+        "sp_f17359",
+        "sp_f11201",
+        "sp_f36206"
+      ],
+      "letters": [
+        "cannot_use_online"
+      ]
+    },
+    {
+      "id": "talent_medical_note",
+      "phase": "submit",
+      "title": {
+        "fr": "Cas des professions médicales et de la pharmacie",
+        "en": "Medical and pharmacy professions"
+      },
+      "body": {
+        "fr": "Pour la carte \"talent-professions médicales et de la pharmacie\", la fiche indique un dépôt auprès de la préfecture de votre département, dans les 2 mois précédant la fin de validité de votre titre. Les modalités sont sur le site de votre préfecture.",
+        "en": "For the \"talent - medical and pharmacy professions\" card, the page says to apply at your department's prefecture, within the 2 months before your permit expires. The details are on your prefecture's website."
+      },
+      "condition": {
+        "question": "permit_type",
+        "equals": "talent"
+      },
+      "sources": [
+        "sp_f16922"
+      ]
+    },
+    {
+      "id": "submit_prefecture",
+      "phase": "submit",
+      "title": {
+        "fr": "Déposer la demande en préfecture",
+        "en": "Apply at the prefecture"
+      },
+      "body": {
+        "fr": "Pour votre titre, la demande se dépose à la préfecture ou sous-préfecture de votre domicile. Le mode de dépôt varie : vérifiez-le sur le site de votre préfecture. Dans la plupart des préfectures, il faut prendre rendez-vous, et certaines sous-préfectures ne traitent pas ces démarches. Si aucun rendez-vous n'est disponible, vous pouvez écrire à la préfecture.",
+        "en": "For your permit, you apply at the prefecture or sub-prefecture where you live. The way to apply varies: check your prefecture's website. Most prefectures require an appointment, and some sub-prefectures do not handle these procedures. If no appointment is available, you can write to the prefecture."
+      },
+      "link": {
+        "title": {
+          "fr": "Trouver ma préfecture",
+          "en": "Find my prefecture"
+        },
+        "url": "https://lannuaire.service-public.gouv.fr/"
+      },
+      "condition": {
+        "any": [
+          {
+            "question": "permit_type",
+            "in": [
+              "employee",
+              "temp_worker"
+            ]
+          },
+          {
+            "all": [
+              {
+                "question": "permit_type",
+                "equals": "private_family_life"
+              },
+              {
+                "question": "vpf_reason",
+                "in": [
+                  "family_ties",
+                  "spouse_of_eu_resident",
+                  "humanitarian"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_f15898",
+        "sp_f2209"
+      ],
+      "letters": [
+        "appointment_request"
+      ]
+    },
+    {
+      "id": "after_anef_attestation",
+      "phase": "after",
+      "title": {
+        "fr": "Suivre le dossier en ligne",
+        "en": "Track your application online"
+      },
+      "body": {
+        "fr": "Si votre dossier est complet et déposé dans les délais, vous recevez sur l'ANEF une attestation de prolongation d'instruction. C'est un document provisoire de séjour, valable 3 mois au plus et renouvelé tant qu'aucune décision n'est prise. Suivez votre dossier et répondez aux demandes de compléments. Un passage en préfecture pour les empreintes peut être demandé.",
+        "en": "If your file is complete and filed on time, you get an extension-of-processing certificate on ANEF. It is a temporary residence document, valid up to 3 months and renewed until a decision is made. Track your file and answer requests for more documents. You may be asked to go to the prefecture for fingerprints."
+      },
+      "condition": {
+        "any": [
+          {
+            "question": "permit_type",
+            "in": [
+              "student",
+              "talent",
+              "visitor",
+              "resident_card"
+            ]
+          },
+          {
+            "all": [
+              {
+                "question": "permit_type",
+                "equals": "private_family_life"
+              },
+              {
+                "question": "vpf_reason",
+                "in": [
+                  "spouse_of_french",
+                  "parent_of_french_child"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_f36206",
+        "sp_f2231"
+      ],
+      "letters": [
+        "receipt_request",
+        "file_followup"
+      ]
+    },
+    {
+      "id": "after_prefecture_receipt",
+      "phase": "after",
+      "title": {
+        "fr": "Garder le récépissé",
+        "en": "Keep the receipt"
+      },
+      "body": {
+        "fr": "Si votre dossier est complet, la préfecture vous remet un récépissé. En renouvellement, il est valable 3 mois à partir du lendemain de la fin de votre carte et prolonge les droits de votre titre. S'il arrive à sa fin sans réponse, demandez son renouvellement selon les règles de votre préfecture.",
+        "en": "If your file is complete, the prefecture gives you a receipt (récépissé). For a renewal, it is valid for 3 months from the day after your card expires and extends the rights of your permit. If it runs out with no answer, ask for a renewal following your prefecture's rules."
+      },
+      "condition": {
+        "any": [
+          {
+            "question": "permit_type",
+            "in": [
+              "employee",
+              "temp_worker"
+            ]
+          },
+          {
+            "all": [
+              {
+                "question": "permit_type",
+                "equals": "private_family_life"
+              },
+              {
+                "question": "vpf_reason",
+                "in": [
+                  "family_ties",
+                  "spouse_of_eu_resident",
+                  "humanitarian"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_f15763",
+        "sp_f2209",
+        "sp_f15898"
+      ],
+      "letters": [
+        "receipt_request",
+        "file_followup"
+      ]
+    },
+    {
+      "id": "buy_tax_stamp",
+      "phase": "after",
+      "title": {
+        "fr": "Acheter le timbre fiscal",
+        "en": "Buy the tax stamp"
+      },
+      "body": {
+        "fr": "Quand la demande est acceptée, vous êtes informé de la disponibilité du titre et du montant à payer. Achetez le timbre fiscal électronique en ligne ou dans un bureau de tabac équipé.",
+        "en": "When your application is accepted, you are told the card is ready and how much to pay. Buy the electronic tax stamp online or in an equipped tobacco shop."
+      },
+      "link": {
+        "title": {
+          "fr": "Acheter un timbre fiscal",
+          "en": "Buy a tax stamp"
+        },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R49486"
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "permit_type",
+            "in": [
+              "student",
+              "employee",
+              "temp_worker",
+              "private_family_life",
+              "talent",
+              "visitor",
+              "resident_card"
+            ]
+          },
+          {
+            "not": {
+              "all": [
+                {
+                  "question": "permit_type",
+                  "equals": "private_family_life"
+                },
+                {
+                  "question": "vpf_reason",
+                  "in": [
+                    "other_vpf"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "sources": [
+        "sp_a18881",
+        "sp_f33071",
+        "sp_f2209"
+      ]
+    },
+    {
+      "id": "collect_card",
+      "phase": "after",
+      "title": {
+        "fr": "Récupérer la nouvelle carte",
+        "en": "Collect your new card"
+      },
+      "body": {
+        "fr": "La carte est remise par la préfecture ou la sous-préfecture de votre domicile, souvent sur rendez-vous ou convocation. Apportez le justificatif de paiement du timbre et, si votre fiche le demande, le certificat médical de l'Ofii.",
+        "en": "The card is handed over by the prefecture or sub-prefecture where you live, often by appointment or invitation. Bring proof of the stamp payment and, if your page asks for it, the OFII medical certificate."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "permit_type",
+            "in": [
+              "student",
+              "employee",
+              "temp_worker",
+              "private_family_life",
+              "talent",
+              "visitor",
+              "resident_card"
+            ]
+          },
+          {
+            "not": {
+              "all": [
+                {
+                  "question": "permit_type",
+                  "equals": "private_family_life"
+                },
+                {
+                  "question": "vpf_reason",
+                  "in": [
+                    "other_vpf"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "sources": [
+        "sp_f2209",
+        "sp_f15898",
+        "sp_f302",
+        "sp_f11201"
+      ]
+    }
+  ],
+  "deadlines": [
+    {
+      "id": "anef_window_start",
+      "relativeTo": "permit_expiry_date",
+      "offsetDays": -120,
+      "title": {
+        "fr": "Début de la période de dépôt en ligne (4 mois avant la fin du titre)",
+        "en": "Online filing period opens (4 months before expiry)"
+      },
+      "condition": {
+        "any": [
+          {
+            "question": "permit_type",
+            "in": [
+              "student",
+              "talent",
+              "visitor",
+              "resident_card"
+            ]
+          },
+          {
+            "all": [
+              {
+                "question": "permit_type",
+                "equals": "private_family_life"
+              },
+              {
+                "question": "vpf_reason",
+                "in": [
+                  "spouse_of_french",
+                  "parent_of_french_child"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "lf_r431_5",
+        "sp_f2231",
+        "sp_f2209",
+        "sp_f302",
+        "sp_f17359"
+      ]
+    },
+    {
+      "id": "anef_window_end",
+      "relativeTo": "permit_expiry_date",
+      "offsetDays": -60,
+      "title": {
+        "fr": "Date limite de dépôt en ligne (2 mois avant la fin du titre)",
+        "en": "Online filing deadline (2 months before expiry)"
+      },
+      "condition": {
+        "any": [
+          {
+            "question": "permit_type",
+            "in": [
+              "student",
+              "talent",
+              "visitor",
+              "resident_card"
+            ]
+          },
+          {
+            "all": [
+              {
+                "question": "permit_type",
+                "equals": "private_family_life"
+              },
+              {
+                "question": "vpf_reason",
+                "in": [
+                  "spouse_of_french",
+                  "parent_of_french_child"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "lf_r431_5",
+        "sp_f2231",
+        "sp_f2209",
+        "sp_f302",
+        "sp_f17359"
+      ]
+    },
+    {
+      "id": "prefecture_filing",
+      "relativeTo": "permit_expiry_date",
+      "offsetDays": -60,
+      "title": {
+        "fr": "Dépôt en préfecture : 2 mois avant la fin du titre, selon service-public",
+        "en": "Prefecture filing: 2 months before expiry, according to service-public"
+      },
+      "condition": {
+        "any": [
+          {
+            "question": "permit_type",
+            "in": [
+              "employee",
+              "temp_worker"
+            ]
+          },
+          {
+            "all": [
+              {
+                "question": "permit_type",
+                "equals": "private_family_life"
+              },
+              {
+                "question": "vpf_reason",
+                "in": [
+                  "family_ties",
+                  "spouse_of_eu_resident",
+                  "humanitarian"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_f15898",
+        "sp_f2209"
+      ]
+    }
+  ],
+  "outcomes": [
+    {
+      "id": "eu_citizen",
+      "kind": "redirect",
+      "condition": {
+        "question": "nationality_group",
+        "equals": "eu_eea_swiss"
+      },
+      "title": {
+        "fr": "Cette démarche ne semble pas correspondre à votre situation",
+        "en": "This procedure does not seem to match your situation"
+      },
+      "body": {
+        "fr": "D'après service-public, les citoyens d'un pays de l'Espace économique européen et les Suisses ne sont pas obligés d'avoir un titre de séjour. Ils peuvent toutefois en demander un.",
+        "en": "According to service-public, citizens of a European Economic Area country and Swiss citizens do not have to hold a residence permit. They can still apply for one if they wish."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Ce que vous pouvez faire",
+            "en": "What you can do"
+          },
+          "body": {
+            "fr": "Si vous souhaitez une carte, consultez la fiche sur les titres de séjour pour les Européens.",
+            "en": "If you want a card, read the page on residence permits for Europeans."
+          },
+          "link": {
+            "title": {
+              "fr": "Lire la fiche",
+              "en": "Read the page"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F39"
+          }
+        }
+      ],
+      "contacts": [
+        "france_services"
+      ],
+      "letters": [],
+      "sources": [
+        "sp_f39",
+        "sp_f302"
+      ]
+    },
+    {
+      "id": "algerian_national",
+      "kind": "redirect",
+      "condition": {
+        "question": "nationality_group",
+        "equals": "algerian"
+      },
+      "title": {
+        "fr": "Des règles propres s'appliquent à votre nationalité",
+        "en": "Specific rules apply to your nationality"
+      },
+      "body": {
+        "fr": "D'après service-public, d'autres règles s'appliquent aux Algériens : ils reçoivent un certificat de résidence (1 an ou 10 ans) au lieu des cartes de séjour décrites ici. Cette app ne couvre pas encore ce cas.",
+        "en": "According to service-public, different rules apply to Algerian nationals: they receive a residence certificate (1 year or 10 years) instead of the cards described here. This app does not cover this case yet."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Certificat de résidence d'1 an",
+            "en": "1-year residence certificate"
+          },
+          "body": {
+            "fr": "Lisez la fiche correspondant à votre certificat : conditions, pièces et lieu de dépôt.",
+            "en": "Read the page for your certificate: conditions, documents and where to apply."
+          },
+          "link": {
+            "title": {
+              "fr": "Lire la fiche (1 an)",
+              "en": "Read the page (1 year)"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2215"
+          }
+        },
+        {
+          "title": {
+            "fr": "Certificat de résidence de 10 ans",
+            "en": "10-year residence certificate"
+          },
+          "body": {
+            "fr": "Lisez la fiche du certificat de 10 ans.",
+            "en": "Read the page for the 10-year certificate."
+          },
+          "link": {
+            "title": {
+              "fr": "Lire la fiche (10 ans)",
+              "en": "Read the page (10 years)"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2257"
+          }
+        }
+      ],
+      "contacts": [
+        "prefecture_directory",
+        "france_services"
+      ],
+      "letters": [],
+      "sources": [
+        "sp_f15898",
+        "sp_f302",
+        "sp_f2215",
+        "sp_f2257"
+      ]
+    },
+    {
+      "id": "other_permit",
+      "kind": "redirect",
+      "condition": {
+        "question": "permit_type",
+        "equals": "other"
+      },
+      "title": {
+        "fr": "Votre titre n'est pas encore couvert ici",
+        "en": "Your permit is not covered here yet"
+      },
+      "body": {
+        "fr": "Les règles de renouvellement (délais, lieu de dépôt, pièces) dépendent de chaque titre. Service-public publie une fiche par titre de séjour.",
+        "en": "Renewal rules (deadlines, where to apply, documents) depend on each permit. Service-public publishes one page per residence permit."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Trouver la fiche de votre titre",
+            "en": "Find the page for your permit"
+          },
+          "body": {
+            "fr": "Choisissez votre titre dans l'index et lisez la partie sur le renouvellement.",
+            "en": "Choose your permit in the index and read the renewal section."
+          },
+          "link": {
+            "title": {
+              "fr": "Voir les titres de séjour",
+              "en": "See residence permits"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/N110"
+          }
+        }
+      ],
+      "contacts": [
+        "france_services",
+        "prefecture_directory"
+      ],
+      "letters": [],
+      "sources": [
+        "sp_n110"
+      ]
+    },
+    {
+      "id": "other_vpf_reason",
+      "kind": "redirect",
+      "condition": {
+        "all": [
+          {
+            "question": "permit_type",
+            "equals": "private_family_life"
+          },
+          {
+            "question": "vpf_reason",
+            "in": [
+              "other_vpf"
+            ]
+          }
+        ]
+      },
+      "title": {
+        "fr": "Ce motif n'est pas encore couvert ici",
+        "en": "These grounds are not covered here yet"
+      },
+      "body": {
+        "fr": "La fiche service-public \"vie privée et familiale\" décrit le renouvellement motif par motif (jeune majeur, rente d'accident du travail, victime d'infraction, activité solidaire...). Le lieu de dépôt et les pièces changent selon le motif.",
+        "en": "The service-public \"private and family life\" page describes renewal ground by ground (young adult, work accident pension, victim of a crime, solidarity work...). Where to apply and the documents change with the grounds."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Lire la rubrique Renouvellement",
+            "en": "Read the Renewal section"
+          },
+          "body": {
+            "fr": "Ouvrez la fiche, choisissez l'onglet \"Renouvellement\" puis votre motif.",
+            "en": "Open the page, choose the \"Renouvellement\" tab, then your grounds."
+          },
+          "link": {
+            "title": {
+              "fr": "Ouvrir la fiche",
+              "en": "Open the page"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2209"
+          }
+        }
+      ],
+      "contacts": [
+        "france_services",
+        "prefecture_directory"
+      ],
+      "letters": [],
+      "sources": [
+        "sp_f2209"
+      ]
+    },
+    {
+      "id": "student_not_continuing",
+      "kind": "redirect",
+      "condition": {
+        "all": [
+          {
+            "question": "permit_type",
+            "equals": "student"
+          },
+          {
+            "question": "student_continue",
+            "equals": "no"
+          }
+        ]
+      },
+      "title": {
+        "fr": "Une autre démarche correspond peut-être à votre projet",
+        "en": "Another procedure may fit your plans"
+      },
+      "body": {
+        "fr": "D'après service-public, le renouvellement du titre \"étudiant\" concerne les personnes inscrites ou préinscrites dans un établissement d'enseignement supérieur ou de formation. Après les études, d'autres titres existent : recherche d'emploi ou création d'entreprise, ou salarié.",
+        "en": "According to service-public, renewing a \"student\" permit is for people enrolled or pre-enrolled in a higher education or training institution. After studies, other permits exist: job search or business creation, or employee."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Recherche d'emploi ou création d'entreprise",
+            "en": "Job search or business creation"
+          },
+          "body": {
+            "fr": "La fiche indique cette carte pour les diplômés en France (licence professionnelle, master ou équivalent obtenu dans les 12 derniers mois). La demande se dépose en préfecture dans les 2 mois précédant la fin de votre carte étudiant. Elle ne concerne pas les étudiants algériens.",
+            "en": "The page lists this card for graduates in France (professional bachelor's, master's or equivalent obtained in the last 12 months). You apply at the prefecture within the 2 months before your student card expires. It does not apply to Algerian students."
+          },
+          "link": {
+            "title": {
+              "fr": "Lire la fiche",
+              "en": "Read the page"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F17319"
+          }
+        },
+        {
+          "title": {
+            "fr": "Changement de statut vers salarié",
+            "en": "Change of status to employee"
+          },
+          "body": {
+            "fr": "Si vous avez un emploi, votre employeur demande une autorisation de travail en ligne et vous déposez la demande de carte en préfecture.",
+            "en": "If you have a job, your employer applies online for a work authorisation and you file the card application at the prefecture."
+          },
+          "link": {
+            "title": {
+              "fr": "Lire la fiche",
+              "en": "Read the page"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F15898"
+          }
+        }
+      ],
+      "contacts": [
+        "prefecture_directory",
+        "france_services"
+      ],
+      "letters": [
+        "appointment_request"
+      ],
+      "sources": [
+        "sp_f2231",
+        "sp_f17319",
+        "sp_f15898"
+      ]
+    },
+    {
+      "id": "too_early",
+      "kind": "warning",
+      "condition": {
+        "all": [
+          {
+            "question": "permit_status",
+            "equals": "more_than_4_months"
+          },
+          {
+            "any": [
+              {
+                "question": "permit_type",
+                "in": [
+                  "student",
+                  "talent",
+                  "visitor",
+                  "resident_card"
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "question": "permit_type",
+                    "equals": "private_family_life"
+                  },
+                  {
+                    "question": "vpf_reason",
+                    "in": [
+                      "spouse_of_french",
+                      "parent_of_french_child"
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "title": {
+        "fr": "Il est peut-être trop tôt pour déposer",
+        "en": "It may be too early to apply"
+      },
+      "body": {
+        "fr": "Pour votre titre, les fiches indiquent de déposer la demande en ligne au plus tôt 4 mois avant la fin de validité. Vous pouvez déjà préparer vos pièces.",
+        "en": "For your permit, the pages say to apply online no earlier than 4 months before expiry. You can already prepare your documents."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Ce que vous pouvez faire",
+            "en": "What you can do"
+          },
+          "body": {
+            "fr": "Notez la date d'ouverture de la période de dépôt dans le calendrier de l'app et rassemblez les pièces de la liste.",
+            "en": "Note the date the filing period opens in the app's calendar and gather the documents on the list."
+          }
+        }
+      ],
+      "contacts": [],
+      "letters": [],
+      "sources": [
+        "lf_r431_5",
+        "sp_f2231",
+        "sp_f2209",
+        "sp_f302",
+        "sp_f17359"
+      ]
+    },
+    {
+      "id": "late_filing",
+      "kind": "warning",
+      "condition": {
+        "question": "permit_status",
+        "equals": "less_than_2_months"
+      },
+      "title": {
+        "fr": "Le délai indiqué par les fiches est peut-être dépassé",
+        "en": "The deadline in the pages may have passed"
+      },
+      "body": {
+        "fr": "Les fiches indiquent de déposer au plus tard 2 mois avant la fin du titre. En cas de dépôt hors délai, elles signalent qu'un droit de visa de régularisation peut s'ajouter au coût de la carte, sauf force majeure ou visa valide. Sur l'ANEF, l'attestation de prolongation d'instruction est délivrée pour un dossier complet déposé dans le délai.",
+        "en": "The pages say to apply no later than 2 months before the permit expires. If you apply late, they say a regularisation visa fee may be added to the cost of the card, except in cases of force majeure or with a valid visa. On ANEF, the extension-of-processing certificate is issued for a complete file filed on time."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Ce que vous pouvez faire",
+            "en": "What you can do"
+          },
+          "body": {
+            "fr": "Déposez votre demande sans attendre et gardez une preuve de la date de dépôt. Pour une question sur votre situation, vous pouvez vous faire aider gratuitement.",
+            "en": "Apply without waiting and keep proof of the filing date. For questions about your situation, you can get free help."
+          }
+        }
+      ],
+      "contacts": [
+        "anef_contact",
+        "prefecture_directory",
+        "france_services",
+        "point_justice"
+      ],
+      "letters": [],
+      "sources": [
+        "sp_f2231",
+        "sp_f15898",
+        "sp_f302",
+        "sp_f17359",
+        "sp_f36206"
+      ]
+    },
+    {
+      "id": "permit_expired",
+      "kind": "warning",
+      "condition": {
+        "question": "permit_status",
+        "equals": "expired"
+      },
+      "title": {
+        "fr": "Votre titre a déjà expiré",
+        "en": "Your permit has already expired"
+      },
+      "body": {
+        "fr": "D'après service-public, il faut un visa de long séjour ou un titre de séjour pour rester en France plus de 3 mois. Une demande déposée après la fin du titre est hors délai : les fiches signalent un droit de visa de régularisation, sauf force majeure ou visa valide. La préfecture peut traiter votre situation différemment d'un renouvellement.",
+        "en": "According to service-public, you need a long-stay visa or a residence permit to stay in France for more than 3 months. An application filed after the permit has expired is late: the pages mention a regularisation visa fee, except in cases of force majeure or with a valid visa. The prefecture may handle your situation differently from a renewal."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Se faire conseiller",
+            "en": "Get advice"
+          },
+          "body": {
+            "fr": "Avant de déposer, faites le point gratuitement avec un point-justice ou France services, et renseignez-vous auprès de votre préfecture.",
+            "en": "Before applying, get free advice from a point-justice or France services, and ask your prefecture."
+          }
+        },
+        {
+          "title": {
+            "fr": "Si la préfecture refuse d'enregistrer votre dossier",
+            "en": "If the prefecture refuses to register your file"
+          },
+          "body": {
+            "fr": "Service-public indique qu'un recours gracieux auprès du préfet est possible, puis la saisine du Défenseur des droits.",
+            "en": "Service-public says you can send an informal appeal to the prefect, and then contact the Defender of Rights."
+          },
+          "link": {
+            "title": {
+              "fr": "Lire la fiche",
+              "en": "Read the page"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F31969"
+          }
+        }
+      ],
+      "contacts": [
+        "point_justice",
+        "france_services",
+        "prefecture_directory",
+        "defenseur_des_droits"
+      ],
+      "letters": [
+        "appointment_request"
+      ],
+      "sources": [
+        "sp_f39",
+        "sp_f2231",
+        "sp_f15898",
+        "sp_f302",
+        "sp_f31969"
+      ]
+    },
+    {
+      "id": "resident_long_absence",
+      "kind": "warning",
+      "condition": {
+        "all": [
+          {
+            "question": "permit_type",
+            "equals": "resident_card"
+          },
+          {
+            "question": "resident_absence",
+            "equals": "yes"
+          }
+        ]
+      },
+      "title": {
+        "fr": "Votre absence peut compter pour la validité de la carte",
+        "en": "Your absence may affect the card's validity"
+      },
+      "body": {
+        "fr": "D'après service-public, la carte de résident n'est plus valable si vous quittez la France pendant plus de 3 ans consécutifs. Pour la carte de résident de longue durée-UE, elle est périmée après plus de 3 ans consécutifs hors de l'Union européenne ou 6 ans hors de France.",
+        "en": "According to service-public, the resident card is no longer valid if you leave France for more than 3 years in a row. The EU long-term resident card lapses after more than 3 years in a row outside the EU or 6 years outside France."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Ce que vous pouvez faire",
+            "en": "What you can do"
+          },
+          "body": {
+            "fr": "Renseignez-vous auprès de votre préfecture avant de déposer, et faites-vous conseiller gratuitement si besoin.",
+            "en": "Ask your prefecture before applying, and get free advice if needed."
+          },
+          "link": {
+            "title": {
+              "fr": "Lire la fiche carte de résident",
+              "en": "Read the resident card page"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2208"
+          }
+        }
+      ],
+      "contacts": [
+        "prefecture_directory",
+        "point_justice"
+      ],
+      "letters": [],
+      "sources": [
+        "sp_f2208",
+        "sp_f17359"
+      ]
+    },
+    {
+      "id": "vpf_three_renewals",
+      "kind": "warning",
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "permit_type",
+                "equals": "private_family_life"
+              },
+              {
+                "question": "vpf_reason",
+                "in": [
+                  "spouse_of_french",
+                  "family_ties",
+                  "humanitarian"
+                ]
+              }
+            ]
+          },
+          {
+            "question": "card_kind",
+            "equals": "temporary"
+          }
+        ]
+      },
+      "title": {
+        "fr": "Limite de renouvellements de la carte d'un an",
+        "en": "Limit on renewing the 1-year card"
+      },
+      "body": {
+        "fr": "D'après service-public, la carte de séjour temporaire \"vie privée et familiale\" ne peut pas être renouvelée plus de 3 fois consécutives avec le même motif.",
+        "en": "According to service-public, the temporary \"private and family life\" card cannot be renewed more than 3 times in a row on the same grounds."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Ce que vous pouvez faire",
+            "en": "What you can do"
+          },
+          "body": {
+            "fr": "La fiche décrit le passage à une carte pluriannuelle. Vérifiez les conditions d'intégration (français A2, examen civique).",
+            "en": "The page describes moving to a multi-year card. Check the integration conditions (French A2, civic exam)."
+          },
+          "link": {
+            "title": {
+              "fr": "Lire la fiche",
+              "en": "Read the page"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2209"
+          }
+        }
+      ],
+      "contacts": [],
+      "letters": [],
+      "sources": [
+        "sp_f2209"
+      ]
+    },
+    {
+      "id": "spouse_resident_card",
+      "kind": "warning",
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "permit_type",
+                "equals": "private_family_life"
+              },
+              {
+                "question": "vpf_reason",
+                "in": [
+                  "spouse_of_french"
+                ]
+              }
+            ]
+          },
+          {
+            "question": "card_kind",
+            "equals": "multi_year"
+          }
+        ]
+      },
+      "title": {
+        "fr": "Une carte de résident est peut-être possible",
+        "en": "A resident card may be possible"
+      },
+      "body": {
+        "fr": "D'après service-public, si vous avez une carte pluriannuelle et êtes marié(e) depuis au moins 3 ans avec un(e) Français(e), vous pouvez demander une carte de résident 2 mois avant la fin de votre titre. La communauté de vie ne doit pas avoir cessé, sauf décès ou violences conjugales. Les pièces sont alors différentes.",
+        "en": "According to service-public, if you hold a multi-year card and have been married to a French citizen for at least 3 years, you can apply for a resident card 2 months before your permit expires. You must still live together, except in case of death or domestic violence. The documents are then different."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Lire la fiche carte de résident",
+            "en": "Read the resident card page"
+          },
+          "body": {
+            "fr": "La fiche décrit les conditions (dont le niveau de français B1 et l'examen civique) et les pièces.",
+            "en": "The page describes the conditions (including French level B1 and the civic exam) and the documents."
+          },
+          "link": {
+            "title": {
+              "fr": "Ouvrir la fiche",
+              "en": "Open the page"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2208"
+          }
+        }
+      ],
+      "contacts": [],
+      "letters": [],
+      "sources": [
+        "sp_f2209",
+        "sp_f2208"
+      ]
+    },
+    {
+      "id": "parent_resident_card",
+      "kind": "warning",
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "permit_type",
+                "equals": "private_family_life"
+              },
+              {
+                "question": "vpf_reason",
+                "in": [
+                  "parent_of_french_child"
+                ]
+              }
+            ]
+          },
+          {
+            "question": "card_kind",
+            "equals": "multi_year"
+          }
+        ]
+      },
+      "title": {
+        "fr": "Une carte de résident est peut-être possible",
+        "en": "A resident card may be possible"
+      },
+      "body": {
+        "fr": "D'après service-public, après 3 ans de séjour régulier comme parent d'enfant français, vous pouvez demander une carte de résident, 2 mois avant la fin de validité de votre carte de séjour.",
+        "en": "According to service-public, after 3 years of legal stay as the parent of a French child, you can apply for a resident card 2 months before your residence card expires."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Lire la fiche carte de résident",
+            "en": "Read the resident card page"
+          },
+          "body": {
+            "fr": "La fiche décrit les conditions et les pièces de la carte de résident.",
+            "en": "The page describes the conditions and documents for the resident card."
+          },
+          "link": {
+            "title": {
+              "fr": "Ouvrir la fiche",
+              "en": "Open the page"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2208"
+          }
+        }
+      ],
+      "contacts": [],
+      "letters": [],
+      "sources": [
+        "sp_f2209",
+        "sp_f2208"
+      ]
+    },
+    {
+      "id": "temp_worker_no_job",
+      "kind": "warning",
+      "condition": {
+        "all": [
+          {
+            "question": "permit_type",
+            "equals": "temp_worker"
+          },
+          {
+            "question": "employment_status",
+            "equals": "no_job"
+          }
+        ]
+      },
+      "title": {
+        "fr": "Pièces non publiées pour votre cas",
+        "en": "Documents not published for your case"
+      },
+      "body": {
+        "fr": "La fiche service-public du titre \"travailleur temporaire\" publie des listes de pièces si vous gardez votre contrat ou changez de contrat, mais pas si vous n'avez plus d'emploi. La liste affichée ici est donc incomplète.",
+        "en": "The service-public page for the \"temporary worker\" permit publishes document lists if you keep or change your contract, but not if you no longer have a job. The list shown here is therefore incomplete."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Ce que vous pouvez faire",
+            "en": "What you can do"
+          },
+          "body": {
+            "fr": "Demandez à votre préfecture la liste des pièces pour votre situation.",
+            "en": "Ask your prefecture for the list of documents for your situation."
+          },
+          "link": {
+            "title": {
+              "fr": "Lire la fiche",
+              "en": "Read the page"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F15898"
+          }
+        }
+      ],
+      "contacts": [
+        "prefecture_directory",
+        "france_services"
+      ],
+      "letters": [
+        "appointment_request"
+      ],
+      "sources": [
+        "sp_f15898"
+      ]
+    }
+  ],
+  "reviewNotes": [
+    "Délais de dépôt : R431-5 (Légifrance, lu par fragments et résumé, pas en texte intégral) prévoit une fenêtre « entre le cent-vingtième jour et le soixantième jour » avant expiration pour les titres de la liste R431-2 (ANEF), et un dépôt « dans le courant des deux mois précédant l'expiration » pour les autres. Service-public écrit pour les titres en préfecture « au plus tard 2 mois avant » (F15898) ou « 2 mois avant » (F2209). Ces formulations se contredisent pour les titres déposés en préfecture : l'échéance prefecture_filing (J-60) reprend service-public, à faire valider. Les « 4 mois » et « 2 mois » ont été convertis en 120 et 60 jours d'après R431-5.",
+    "Décret n° 2026-1001 du 26 octobre 2026 (JORF du 29/10/2026, en vigueur le 30/10/2026, https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055023061, lu via un résumé Légifrance) : le délai de décision passe de 4 mois à 90 jours (prolongeable de 30 jours), avec rejet implicite au bout de 90 jours ; il modifie aussi R421-4 (travailleur temporaire privé d'emploi). Les fiches service-public (F15898, F2209, F302, F17359, F16922) indiquent encore « 4 mois » et sont « en cours de mise à jour » ; F2231 (01/08/2026) indique déjà 90 jours pour les étudiants. Les délais de réponse et de refus implicite n'ont donc pas été mis dans le fichier. Le décret ne modifie pas R431-5.",
+    "Taxes au 1er mai 2026 (loi de finances 2026, art. 128 ; actualité service-public A18881 mise à jour le 12/05/2026) : renouvellement 250 € (taxe 200 € + timbre 50 €), tarif minoré 100 €. Les montants des fiches (250 €, 100 €) concordent. Pour la carte étudiant pluriannuelle, F2231 indique 150 € (100 € + 50 €), ce qui ressemble au tarif minoré de 1re délivrance : à confirmer.",
+    "Droit de visa de régularisation en cas de dépôt hors délai : les fiches F2231 (01/08/2026), F15898, F302, F17359 et F11201 indiquent 180 €, alors que l'actualité A18881 indique que le droit de visa de régularisation est de 300 € (dont 100 € non remboursables) depuis le 1er mai 2026, « applicable aux étrangers ... non munis d'un titre de séjour dans les délais réglementaires ». L'article 128 modifie L436-4 (200 € vers 300 €) ; l'article fixant 180 € n'a pas été identifié. Montant non repris dans le fichier.",
+    "Carte talent : la fiche F16922 ne contient pas de liste de pièces propre au renouvellement ; les pièces et le coût (350 €) sont ceux de la demande de carte. Une seule pièce générique « parcours talent » renvoie vers la fiche. Le parcours « professions médicales et de la pharmacie » se dépose en préfecture (pas sur l'ANEF) : il est traité par une étape dédiée, sans échéance ni condition spécifique.",
+    "Étudiant : la liste de renouvellement F2231 ne cite pas le passeport (seulement le visa ou le titre de séjour). La pièce « passport » est donc exclue pour les étudiants ; à vérifier sur le parcours ANEF. La liste pour le titre pluriannuel étudiant ne cite ni justificatif de domicile ni contrat d'engagement, contrairement à la liste de renouvellement : la liste de renouvellement a été retenue.",
+    "Visiteur : la liste de renouvellement F302 ne cite ni e-photo ni contrat d'engagement (la liste de 1re demande les cite). La e-photo est exclue pour les visiteurs ; le contrat d'engagement est gardé d'après F38329 (obligatoire pour tout renouvellement).",
+    "Vie privée et familiale : les listes de renouvellement F2209 ne citent pas le titre de séjour actuel ; la pièce « current_permit » n'est donc pas affichée pour ces motifs. Les preuves A2 et examen civique sont reliées à la carte d'un an (passage à une 1re carte pluriannuelle) pour les motifs époux de Français, parent d'enfant français et humanitaire, selon F2209 et F39530 (« Les demandes de renouvellement ne le sont pas ») ; la section « liens personnels et familiaux » de F2209 n'en parle pas. Le titulaire d'une carte pluriannuelle époux de Français peut demander une carte de résident (F2209) : ce parcours n'est pas détaillé ici.",
+    "Motifs « vie privée et familiale » non couverts (jeune majeur, étranger malade, victime d'infraction, rente d'accident du travail, activité solidaire) et titres non couverts (entrepreneur, saisonnier, retraité, certificats de résidence algériens, ICT, etc.) : renvoi vers la fiche. Les Algériens relèvent de règles propres (certificats de résidence) non traitées.",
+    "Carte de résident : F2208 ne publie pas de liste de pièces pour le simple renouvellement d'une carte de résident de 10 ans ; il renvoie vers la carte longue durée-UE ou permanente. Les pièces retenues sont celles de F17359 (rubrique renouvellement longue durée-UE) et F11201. Pour un titulaire d'une carte de 10 ans qui demande la longue durée-UE, F17359 décrit aussi des conditions de 5 ans de séjour et de ressources qui ne sont pas reprises : à vérifier. Gratuité pour réfugiés, protégés subsidiaires et apatrides (F2208) non reprise.",
+    "Travailleur temporaire sans emploi : F15898 ne publie pas de liste de pièces pour ce cas ; le décret 2026-1001 modifie R421-4 sur ce point (non intégré).",
+    "Pages anciennes utilisées faute de version plus récente : F36206 (attestations ANEF, vérifiée le 15/12/2023), F15763 (récépissé, 17/11/2023), F33071 (timbre, 19/04/2024), F33052 (domicile, 05/08/2025). Aucune réforme lue ne les contredit, mais elles sont à revérifier.",
+    "Le contenu du parcours ANEF (pièces réellement demandées en ligne) n'est pas lisible sans compte. Les modalités locales (rendez-vous, voie postale, demarche.numerique.gouv.fr) varient selon la préfecture et ne sont pas reprises. Le lien vers l'annuaire (lannuaire.service-public.gouv.fr) pointe vers la page d'accueil.",
+    "La date de vérification de l'index N110 n'est pas affichée sur la page.",
+    "Questionnaire en entonnoir : la question permit_status (temps restant avant la fin du titre) double la date de fin, car les conditions ne savent pas comparer des dates ; elle sert uniquement aux avertissements too_early, late_filing et permit_expired. À remplacer si le moteur calcule un jour l'écart à partir de permit_expiry_date.",
+    "Titre déjà expiré : aucune source consultée ne dit à partir de quand un renouvellement devient une 1re demande ou une régularisation. L'outcome permit_expired est donc un warning (pas un redirect), sans montant du droit de visa de régularisation (180 € dans les fiches, 300 € dans l'actualité A18881 du 12/05/2026).",
+    "Outcomes : les identifiants de contacts (france_services, point_justice, anef_contact, prefecture_directory, defenseur_des_droits) et de courriers (appointment_request, cannot_use_online, receipt_request, file_followup) doivent exister dans help.json. Le recours puis la saisine du Défenseur des droits viennent de F31969 (vérifiée le 03/07/2024, ancienne).",
+    "Européens : redirection d'après F39 (vérifiée le 08/07/2026). Algériens : redirection vers F2215 (01/08/2026) et F2257 (01/10/2024, ancienne, antérieure aux taxes du 1er mai 2026)."
+  ]
+}

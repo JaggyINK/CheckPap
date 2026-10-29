@@ -1,0 +1,1761 @@
+{
+  "id": "duplicate",
+  "reviewStatus": "draft",
+  "lastVerified": "2026-10-29",
+  "title": {
+    "fr": "Remplacer un titre de séjour perdu, volé ou abîmé",
+    "en": "Replace a lost, stolen or damaged residence permit"
+  },
+  "summary": {
+    "fr": "Cette démarche sert à demander un duplicata de votre carte de séjour si elle a été perdue, volée ou détériorée. La demande se fait en ligne sur le site de l'ANEF. Le duplicata garde les mêmes dates de validité que la carte remplacée.",
+    "en": "Use this to request a duplicate of your residence permit if it was lost, stolen or damaged. You apply online on the ANEF website. The duplicate keeps the same validity dates as the card it replaces."
+  },
+  "sources": [
+    {
+      "id": "sp_perte",
+      "publisher": "service-public.gouv.fr",
+      "title": "Que doit faire un étranger en cas de perte de sa carte de séjour ? (Vérifié le 01 juillet 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F21032",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_vol",
+      "publisher": "service-public.gouv.fr",
+      "title": "Que doit faire un étranger en cas de vol de sa carte de séjour ? (Vérifié le 01 juillet 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F22312",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_plainte",
+      "publisher": "service-public.gouv.fr",
+      "title": "Porter plainte (Vérifié le 08 juillet 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1435",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_plainte_en_ligne",
+      "publisher": "service-public.gouv.fr",
+      "title": "Plainte en ligne (Vérifié le 23 octobre 2024)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R19620",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_timbre",
+      "publisher": "service-public.gouv.fr",
+      "title": "Étranger en France : comment acheter un timbre fiscal ? (Vérifié le 19 avril 2024)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33071",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_adresse",
+      "publisher": "service-public.gouv.fr",
+      "title": "Changement d'adresse d'un étranger titulaire d'une carte de séjour (Vérifié le 01 mai 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F35807",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_etat_civil",
+      "publisher": "service-public.gouv.fr",
+      "title": "Changement d'état civil d'un étranger titulaire d'une carte de séjour (Vérifié le 27 septembre 2021)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F35808",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "pref_rhone_faq",
+      "publisher": "rhone.gouv.fr",
+      "title": "FAQ SEJOUR, L'Administration Numérique pour les Etrangers en France (ANEF) (PDF, aucune date affichée)",
+      "url": "https://www.rhone.gouv.fr/contenu/telechargement/49803/275054/file/FAQ%20SEJOUR%20FINAL.pdf",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "pref_haute_vienne",
+      "publisher": "haute-vienne.gouv.fr",
+      "title": "Signalement d'une perte, d'un vol ou d'une déterioration (aucune date affichée)",
+      "url": "https://www.haute-vienne.gouv.fr/Demarches/Accueil-des-etrangers-vos-demarches-en-Haute-Vienne/Demander-un-titre-de-sejour/Demarches-sans-rendez-vous-ANEF/Signalement-d-une-perte-d-un-vol-ou-d-une-deterioration",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "pref_correze",
+      "publisher": "correze.gouv.fr",
+      "title": "Déclarer un changement d’adresse, modification ou perte de mon titre (aucune date affichée)",
+      "url": "https://www.correze.gouv.fr/Demarches/Etrangers-vos-demarches/Je-demande-un-titre-de-sejour/Declarer-un-changement-d-adresse-modification-ou-perte-de-mon-titre",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "pref_loire_atlantique",
+      "publisher": "loire-atlantique.gouv.fr",
+      "title": "Duplicata de titre de séjour en cas de perte, vol ou destruction (aucune date affichée ; modèle de déclaration en PDF du 02/10/2024)",
+      "url": "https://www.loire-atlantique.gouv.fr/Demarches/Demarches-etrangers/Titres-de-sejour-et-documents-de-voyage/Changement-d-adresse-modification-et-duplicata/Duplicata-de-titre-de-sejour-en-cas-de-perte-vol-ou-destruction",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "pref_seine_maritime",
+      "publisher": "seine-maritime.gouv.fr",
+      "title": "Je souhaite faire une demande de duplicata (titre perdu ou volé) (aucune date affichée)",
+      "url": "https://www.seine-maritime.gouv.fr/Demarches/Etrangers-en-Seine-Maritime/Je-demande-un-titre-de-sejour-ou-un-document-de-voyage-en-Seine-Maritime/Je-souhaite-demander-un-titre-de-sejour/Je-souhaite-faire-une-demande-de-duplicata-titre-perdu-ou-vole",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "pref_cotes_darmor",
+      "publisher": "cotes-darmor.gouv.fr",
+      "title": "Duplicata en cas de perte ou de vol (aucune date affichée)",
+      "url": "https://www.cotes-darmor.gouv.fr/Demarches/Accueil-etrangers/Demarches-Etrangers-dans-les-Cotes-d-Armor/Administration-Numerique-des-Etrangers-en-France-ANEF/Demarches-en-ligne-ANEF/Duplicata-en-cas-de-perte-ou-de-vol",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "pref_val_doise",
+      "publisher": "val-doise.gouv.fr",
+      "title": "Duplicata, sous-préfecture de Sarcelles (aucune date affichée)",
+      "url": "https://www.val-doise.gouv.fr/Services-de-l-Etat/Prefecture-et-sous-prefectures/Sous-prefecture-de-Sarcelles/Demarches-Ressortissants-Etrangers/ANEF-Demarches-dematerialisees/Duplicata",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "pref_bdr_pieces",
+      "publisher": "bouches-du-rhone.gouv.fr",
+      "title": "LISTE DE PIÈCES A FOURNIR – DUPLICATA DE TITRE DE SEJOUR (PDF, aucune date affichée)",
+      "url": "https://www.bouches-du-rhone.gouv.fr/content/download/36261/206032/file/Liste%20de%20pi%C3%A8ces%20duplicata.pdf",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "pref_maine_et_loire_dcem",
+      "publisher": "maine-et-loire.gouv.fr",
+      "title": "Documents de circulation pour étranger mineur (DCEM) et titres de voyage pour étranger (TVE) (aucune date affichée)",
+      "url": "https://www.maine-et-loire.gouv.fr/Demarches/Demarches-etrangers/Demarches-a-realiser-en-ligne-sur-ANEF-administration-numerique-etrangers-en-France/Documents-de-circulation-pour-etranger-mineur-DCEM-et-titres-de-voyage-pour-etranger-TVE",
+      "consulted": "2026-10-29"
+    }
+  ],
+  "questions": [
+    {
+      "id": "what_happened",
+      "kind": "single",
+      "title": {
+        "fr": "Que s'est-il passé avec votre document ?",
+        "en": "What happened to your document?"
+      },
+      "help": {
+        "fr": "Les démarches et les pièces ne sont pas les mêmes en cas de perte, de vol ou de détérioration.",
+        "en": "The steps and documents are not the same for a loss, a theft or damage."
+      },
+      "options": [
+        {
+          "id": "lost",
+          "label": {
+            "fr": "Je l'ai perdu",
+            "en": "I lost it"
+          }
+        },
+        {
+          "id": "stolen",
+          "label": {
+            "fr": "On me l'a volé",
+            "en": "It was stolen"
+          }
+        },
+        {
+          "id": "damaged",
+          "label": {
+            "fr": "Il est abîmé ou détruit",
+            "en": "It is damaged or destroyed"
+          },
+          "help": {
+            "fr": "Exemple : la carte est cassée, la puce ou la photo n'est plus lisible.",
+            "en": "Example: the card is broken, or the chip or photo can no longer be read."
+          }
+        }
+      ],
+      "condition": null,
+      "sources": [
+        "sp_perte",
+        "sp_vol",
+        "pref_rhone_faq"
+      ]
+    },
+    {
+      "id": "where_happened",
+      "kind": "single",
+      "title": {
+        "fr": "Où étiez-vous au moment de la perte ou du vol ?",
+        "en": "Where were you when it was lost or stolen?"
+      },
+      "help": {
+        "fr": "Si cela s'est passé hors de France, vous devez faire des démarches dans le pays où vous êtes avant de pouvoir rentrer.",
+        "en": "If it happened outside France, you must take some steps in the country where you are before you can come back."
+      },
+      "options": [
+        {
+          "id": "france",
+          "label": {
+            "fr": "En France",
+            "en": "In France"
+          }
+        },
+        {
+          "id": "abroad",
+          "label": {
+            "fr": "À l'étranger",
+            "en": "Abroad"
+          }
+        }
+      ],
+      "condition": {
+        "question": "what_happened",
+        "in": [
+          "lost",
+          "stolen"
+        ]
+      },
+      "sources": [
+        "sp_perte",
+        "sp_vol"
+      ]
+    },
+    {
+      "id": "document_type",
+      "kind": "single",
+      "title": {
+        "fr": "Quel document faut-il remplacer ?",
+        "en": "Which document do you need to replace?"
+      },
+      "help": {
+        "fr": "Le prix du duplicata dépend du type de carte et de sa mention. Si vous avez gardé une photo ou une copie de la carte, la durée et la mention y sont écrites.",
+        "en": "The price of the duplicate depends on the type of card and what it says on it. If you kept a photo or a copy of the card, the length and the purpose are written on it."
+      },
+      "example": {
+        "fr": "Exemple : une carte valable 1 an avec la mention \"étudiant\" est une carte de séjour d'1 an.",
+        "en": "Example: a card valid for 1 year marked \"étudiant\" (student) is a 1-year residence card."
+      },
+      "options": [
+        {
+          "id": "card_1y",
+          "label": {
+            "fr": "Carte de séjour d'1 an",
+            "en": "1-year residence card"
+          },
+          "help": {
+            "fr": "Y compris le certificat de résidence pour Algérien d'1 an.",
+            "en": "This includes the 1-year residence certificate for Algerians."
+          }
+        },
+        {
+          "id": "card_multi",
+          "label": {
+            "fr": "Carte de séjour pluriannuelle (plus d'1 an)",
+            "en": "Multi-year residence card (more than 1 year)"
+          }
+        },
+        {
+          "id": "resident_10y",
+          "label": {
+            "fr": "Carte de résident de 10 ans",
+            "en": "10-year resident card"
+          },
+          "help": {
+            "fr": "Y compris le certificat de résidence de 10 ans pour Algérien.",
+            "en": "This includes the 10-year residence certificate for Algerians."
+          }
+        },
+        {
+          "id": "retired_10y",
+          "label": {
+            "fr": "Carte retraité ou conjoint de retraité de 10 ans",
+            "en": "10-year retired person or spouse of retired person card"
+          }
+        },
+        {
+          "id": "dcem",
+          "label": {
+            "fr": "Document de circulation pour mon enfant mineur (DCEM)",
+            "en": "Travel document for my minor child (DCEM)"
+          }
+        }
+      ],
+      "condition": null,
+      "sources": [
+        "sp_perte",
+        "sp_vol",
+        "pref_maine_et_loire_dcem"
+      ]
+    },
+    {
+      "id": "expires_soon",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Votre carte expire-t-elle dans moins de 3 mois ?",
+        "en": "Does your card expire in less than 3 months?"
+      },
+      "help": {
+        "fr": "Le duplicata garde les mêmes dates que l'ancienne carte. Les préfectures des Bouches-du-Rhône, de Corrèze et de Loire-Atlantique parlent de 3 mois ; la préfecture du Rhône parle de 90 jours. En dessous, elles orientent vers un renouvellement.",
+        "en": "The duplicate keeps the same dates as the old card. The Bouches-du-Rhône, Corrèze and Loire-Atlantique prefectures mention 3 months; the Rhône prefecture mentions 90 days. Below that, they point you to a renewal."
+      },
+      "example": {
+        "fr": "Exemple : nous sommes le 29 octobre et votre carte expirait le 15 janvier : répondez oui.",
+        "en": "Example: today is 29 October and your card expired on 15 January: answer yes."
+      },
+      "condition": {
+        "not": {
+          "question": "document_type",
+          "equals": "dcem"
+        }
+      },
+      "sources": [
+        "sp_perte",
+        "pref_rhone_faq",
+        "pref_bdr_pieces",
+        "pref_correze",
+        "pref_loire_atlantique"
+      ]
+    },
+    {
+      "id": "permit_expiry_date",
+      "kind": "date",
+      "title": {
+        "fr": "Quelle était la date de fin de validité de votre carte ?",
+        "en": "What was the expiry date of your card?"
+      },
+      "help": {
+        "fr": "Cette date sert à vous montrer à partir de quand un renouvellement remplacerait le duplicata.",
+        "en": "This date is used to show you from when a renewal would replace the duplicate."
+      },
+      "example": {
+        "fr": "Exemple : vous trouvez cette date sur une copie de la carte, ou dans votre espace ANEF si vous l'avez demandée en ligne.",
+        "en": "Example: you can find this date on a copy of the card, or in your ANEF account if you applied online."
+      },
+      "condition": {
+        "question": "expires_soon",
+        "equals": "no"
+      },
+      "sources": [
+        "sp_perte",
+        "pref_rhone_faq"
+      ]
+    },
+    {
+      "id": "theft_reported",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Avez-vous déjà déclaré le vol à la police ou à la gendarmerie ?",
+        "en": "Have you already reported the theft to the police or gendarmerie?"
+      },
+      "help": {
+        "fr": "Service-public demande de déclarer le vol avant de demander le duplicata. Le récépissé de plainte fait partie des pièces.",
+        "en": "Service-public asks you to report the theft before requesting the duplicate. The complaint receipt is one of the documents."
+      },
+      "example": {
+        "fr": "Exemple : vous avez un récépissé remis au commissariat, ou reçu après une plainte en ligne.",
+        "en": "Example: you have a receipt from the police station, or one you received after an online complaint."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "what_happened",
+            "equals": "stolen"
+          },
+          {
+            "question": "where_happened",
+            "equals": "france"
+          }
+        ]
+      },
+      "sources": [
+        "sp_vol",
+        "sp_plainte"
+      ]
+    },
+    {
+      "id": "has_copy",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Avez-vous gardé une photocopie de la carte ?",
+        "en": "Did you keep a photocopy of the card?"
+      },
+      "help": {
+        "fr": "La copie est demandée seulement si vous en avez une.",
+        "en": "A copy is only requested if you have one."
+      },
+      "example": {
+        "fr": "Exemple : un scan ou une photo du recto et du verso, envoyé par courriel ou gardé sur votre téléphone.",
+        "en": "Example: a scan or a photo of the front and back, sent by email or saved on your phone."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "what_happened",
+            "in": [
+              "lost",
+              "stolen"
+            ]
+          },
+          {
+            "not": {
+              "question": "document_type",
+              "equals": "dcem"
+            }
+          }
+        ]
+      },
+      "sources": [
+        "sp_perte",
+        "sp_vol"
+      ]
+    },
+    {
+      "id": "passport_also_lost",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Votre passeport a-t-il aussi été perdu ou volé ?",
+        "en": "Was your passport also lost or stolen?"
+      },
+      "help": {
+        "fr": "Le passeport fait partie des pièces demandées. S'il a disparu, la préfecture des Bouches-du-Rhône demande des documents du consulat de votre pays.",
+        "en": "Your passport is one of the documents requested. If it is gone, the Bouches-du-Rhône prefecture asks for documents from your country's consulate."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "what_happened",
+            "in": [
+              "lost",
+              "stolen"
+            ]
+          },
+          {
+            "not": {
+              "question": "document_type",
+              "equals": "dcem"
+            }
+          }
+        ]
+      },
+      "sources": [
+        "sp_perte",
+        "sp_vol",
+        "pref_bdr_pieces"
+      ]
+    },
+    {
+      "id": "is_hosted",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Êtes-vous hébergé chez quelqu'un ?",
+        "en": "Are you staying at someone else's home?"
+      },
+      "help": {
+        "fr": "Si le logement n'est pas à votre nom, il faut des pièces de la personne qui vous héberge.",
+        "en": "If the home is not in your name, you need documents from the person you live with."
+      },
+      "example": {
+        "fr": "Exemple : vous vivez chez un parent ou un ami, et les factures sont à son nom.",
+        "en": "Example: you live with a relative or a friend, and the bills are in their name."
+      },
+      "condition": {
+        "not": {
+          "question": "document_type",
+          "equals": "dcem"
+        }
+      },
+      "sources": [
+        "pref_bdr_pieces"
+      ]
+    },
+    {
+      "id": "address_changed",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Avez-vous déménagé depuis la délivrance de la carte, sans le déclarer ?",
+        "en": "Have you moved since the card was issued, without reporting it?"
+      },
+      "help": {
+        "fr": "La demande de duplicata est envoyée à la préfecture de l'adresse écrite sur la carte perdue ou volée. Les préfectures disent dans quel ordre faire le changement d'adresse.",
+        "en": "The duplicate request goes to the prefecture of the address written on the lost or stolen card. Prefectures explain in which order to report your change of address."
+      },
+      "condition": {
+        "not": {
+          "question": "document_type",
+          "equals": "dcem"
+        }
+      },
+      "sources": [
+        "pref_seine_maritime",
+        "pref_correze",
+        "pref_loire_atlantique",
+        "sp_adresse"
+      ]
+    },
+    {
+      "id": "civil_status_changed",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Votre nom, votre prénom ou votre situation familiale ont-ils changé depuis ?",
+        "en": "Has your name, first name or family situation changed since then?"
+      },
+      "help": {
+        "fr": "Un changement d'état civil se déclare avec une autre démarche sur l'ANEF.",
+        "en": "A change of civil status is reported through a separate process on ANEF."
+      },
+      "example": {
+        "fr": "Exemple : mariage, divorce, ajout ou retrait du nom d'époux.",
+        "en": "Example: marriage, divorce, adding or removing your spouse's name."
+      },
+      "condition": {
+        "not": {
+          "question": "document_type",
+          "equals": "dcem"
+        }
+      },
+      "sources": [
+        "sp_etat_civil"
+      ]
+    }
+  ],
+  "documents": [
+    {
+      "id": "loss_statement_france",
+      "category": "other",
+      "title": {
+        "fr": "Déclaration sur l'honneur de perte",
+        "en": "Sworn statement of loss"
+      },
+      "details": {
+        "fr": "Service-public demande une déclaration sur l'honneur de la perte de votre titre de séjour.",
+        "en": "Service-public asks for a sworn statement that you lost your residence permit."
+      },
+      "example": {
+        "fr": "Exemple : la préfecture de Loire-Atlantique propose un modèle à télécharger sur son site.",
+        "en": "Example: the Loire-Atlantique prefecture offers a template to download on its website."
+      },
+      "tip": {
+        "fr": "La préfecture de la Haute-Vienne indique que la déclaration de perte se fait au moment du dépôt de la demande en ligne.",
+        "en": "The Haute-Vienne prefecture says the loss statement is made when you submit the online request."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "what_happened",
+            "equals": "lost"
+          },
+          {
+            "question": "where_happened",
+            "equals": "france"
+          },
+          {
+            "not": {
+              "question": "document_type",
+              "equals": "dcem"
+            }
+          }
+        ]
+      },
+      "sources": [
+        "sp_perte",
+        "pref_loire_atlantique",
+        "pref_haute_vienne"
+      ]
+    },
+    {
+      "id": "loss_statement_abroad",
+      "category": "other",
+      "title": {
+        "fr": "Déclaration de perte faite à l'étranger",
+        "en": "Loss report made abroad"
+      },
+      "details": {
+        "fr": "Service-public demande une déclaration sur l'honneur de la perte de votre titre de séjour aux autorités locales et à l'ambassade de France.",
+        "en": "Service-public asks for a sworn statement of the loss of your residence permit to the local authorities and to the French embassy."
+      },
+      "tip": {
+        "fr": "Gardez tous les papiers remis par la police locale et par l'ambassade ou le consulat.",
+        "en": "Keep every paper given to you by the local police and by the embassy or consulate."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "what_happened",
+            "equals": "lost"
+          },
+          {
+            "question": "where_happened",
+            "equals": "abroad"
+          },
+          {
+            "not": {
+              "question": "document_type",
+              "equals": "dcem"
+            }
+          }
+        ]
+      },
+      "sources": [
+        "sp_perte"
+      ]
+    },
+    {
+      "id": "theft_receipt_france",
+      "category": "other",
+      "title": {
+        "fr": "Récépissé de dépôt de plainte pour vol",
+        "en": "Receipt for your theft complaint"
+      },
+      "details": {
+        "fr": "Le récépissé de dépôt de plainte pour le vol de votre carte de séjour. Il est remis par le commissariat ou la gendarmerie.",
+        "en": "The receipt for the complaint about the theft of your residence card. The police station or gendarmerie gives it to you."
+      },
+      "example": {
+        "fr": "Exemple : service-public décrit le récépissé comme la preuve du dépôt de plainte. Vous le recevez aussi après une plainte en ligne.",
+        "en": "Example: service-public describes the receipt as proof that you filed a complaint. You also get one after an online complaint."
+      },
+      "tip": {
+        "fr": "Vous pouvez aussi demander une copie de votre plainte au moment de votre audition.",
+        "en": "You can also ask for a copy of your complaint when you make your statement."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "what_happened",
+            "equals": "stolen"
+          },
+          {
+            "question": "where_happened",
+            "equals": "france"
+          },
+          {
+            "not": {
+              "question": "document_type",
+              "equals": "dcem"
+            }
+          }
+        ]
+      },
+      "sources": [
+        "sp_vol",
+        "sp_plainte"
+      ]
+    },
+    {
+      "id": "theft_report_abroad",
+      "category": "other",
+      "title": {
+        "fr": "Documents de la déclaration de vol à l'étranger",
+        "en": "Documents from the theft report made abroad"
+      },
+      "details": {
+        "fr": "Service-public demande les documents concernant la déclaration de vol faite à l'étranger.",
+        "en": "Service-public asks for the documents about the theft report you made abroad."
+      },
+      "tip": {
+        "fr": "Gardez les papiers remis par la police locale et par l'ambassade ou le consulat de France.",
+        "en": "Keep the papers given to you by the local police and by the French embassy or consulate."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "what_happened",
+            "equals": "stolen"
+          },
+          {
+            "question": "where_happened",
+            "equals": "abroad"
+          },
+          {
+            "not": {
+              "question": "document_type",
+              "equals": "dcem"
+            }
+          }
+        ]
+      },
+      "sources": [
+        "sp_vol"
+      ]
+    },
+    {
+      "id": "damaged_card",
+      "category": "residence",
+      "title": {
+        "fr": "La carte abîmée",
+        "en": "The damaged card"
+      },
+      "details": {
+        "fr": "La liste de pièces de la préfecture des Bouches-du-Rhône demande, en cas de destruction, le titre de séjour original. Il est conservé par la préfecture.",
+        "en": "The Bouches-du-Rhône prefecture's list asks, if the card is destroyed, for the original residence permit. The prefecture keeps it."
+      },
+      "tip": {
+        "fr": "Ne jetez pas la carte abîmée avant d'avoir lu ce que demande votre préfecture.",
+        "en": "Do not throw away the damaged card before you check what your prefecture asks for."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "what_happened",
+            "equals": "damaged"
+          },
+          {
+            "not": {
+              "question": "document_type",
+              "equals": "dcem"
+            }
+          }
+        ]
+      },
+      "sources": [
+        "pref_bdr_pieces"
+      ]
+    },
+    {
+      "id": "card_copy",
+      "category": "residence",
+      "title": {
+        "fr": "Photocopie de la carte perdue ou volée",
+        "en": "Photocopy of the lost or stolen card"
+      },
+      "details": {
+        "fr": "Une photocopie du titre de séjour perdu ou volé, si vous en avez gardé une.",
+        "en": "A photocopy of the lost or stolen residence permit, if you kept one."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "has_copy",
+            "equals": "yes"
+          },
+          {
+            "not": {
+              "question": "document_type",
+              "equals": "dcem"
+            }
+          }
+        ]
+      },
+      "sources": [
+        "sp_perte",
+        "sp_vol"
+      ]
+    },
+    {
+      "id": "passport",
+      "category": "identity",
+      "title": {
+        "fr": "Passeport",
+        "en": "Passport"
+      },
+      "details": {
+        "fr": "Les pages sur l'état civil, les dates de validité et les cachets d'entrée.",
+        "en": "The pages with your personal details, the validity dates and the entry stamps."
+      },
+      "example": {
+        "fr": "Exemple : la page avec votre photo, et chaque page qui porte un tampon d'entrée en France.",
+        "en": "Example: the page with your photo, and every page with an entry stamp into France."
+      },
+      "condition": {
+        "not": {
+          "question": "document_type",
+          "equals": "dcem"
+        }
+      },
+      "sources": [
+        "sp_perte",
+        "sp_vol"
+      ]
+    },
+    {
+      "id": "passport_loss_documents",
+      "category": "identity",
+      "title": {
+        "fr": "Déclaration de perte ou de vol du passeport",
+        "en": "Loss or theft report for your passport"
+      },
+      "details": {
+        "fr": "La préfecture des Bouches-du-Rhône demande la déclaration de vol ou de perte du passeport faite auprès du consulat de votre pays, et l'attestation de demande de renouvellement du passeport.",
+        "en": "The Bouches-du-Rhône prefecture asks for the passport loss or theft report made at your country's consulate, and the certificate showing you applied to renew your passport."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "passport_also_lost",
+            "equals": "yes"
+          },
+          {
+            "not": {
+              "question": "document_type",
+              "equals": "dcem"
+            }
+          }
+        ]
+      },
+      "sources": [
+        "pref_bdr_pieces"
+      ]
+    },
+    {
+      "id": "proof_of_address_3m",
+      "category": "address",
+      "title": {
+        "fr": "Justificatif de domicile",
+        "en": "Proof of address"
+      },
+      "details": {
+        "fr": "Un justificatif de domicile datant de moins de 3 mois.",
+        "en": "A proof of address less than 3 months old."
+      },
+      "example": {
+        "fr": "Exemple donné par la préfecture des Bouches-du-Rhône : facture d'électricité, de gaz, d'Internet, ou quittance de loyer non manuscrite.",
+        "en": "Example from the Bouches-du-Rhône prefecture: an electricity, gas or internet bill, or a rent receipt that is not handwritten."
+      },
+      "condition": {
+        "all": [
+          {
+            "not": {
+              "question": "document_type",
+              "equals": "dcem"
+            }
+          },
+          {
+            "not": {
+              "all": [
+                {
+                  "question": "what_happened",
+                  "equals": "stolen"
+                },
+                {
+                  "question": "where_happened",
+                  "equals": "abroad"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "sources": [
+        "sp_perte",
+        "sp_vol",
+        "pref_bdr_pieces"
+      ]
+    },
+    {
+      "id": "proof_of_address_6m",
+      "category": "address",
+      "title": {
+        "fr": "Justificatif de domicile",
+        "en": "Proof of address"
+      },
+      "details": {
+        "fr": "Pour un vol à l'étranger, service-public demande un justificatif de domicile datant de moins de 6 mois.",
+        "en": "For a theft abroad, service-public asks for a proof of address less than 6 months old."
+      },
+      "example": {
+        "fr": "Exemple : facture d'électricité, de gaz, d'Internet, ou quittance de loyer non manuscrite.",
+        "en": "Example: an electricity, gas or internet bill, or a rent receipt that is not handwritten."
+      },
+      "tip": {
+        "fr": "Pour une perte, la même fiche demande moins de 3 mois. Un document de moins de 3 mois convient dans les deux cas.",
+        "en": "For a loss, the same website asks for less than 3 months. A document less than 3 months old works in both cases."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "what_happened",
+            "equals": "stolen"
+          },
+          {
+            "question": "where_happened",
+            "equals": "abroad"
+          },
+          {
+            "not": {
+              "question": "document_type",
+              "equals": "dcem"
+            }
+          }
+        ]
+      },
+      "sources": [
+        "sp_vol",
+        "sp_perte"
+      ]
+    },
+    {
+      "id": "hosting_documents",
+      "category": "address",
+      "title": {
+        "fr": "Pièces de la personne qui vous héberge",
+        "en": "Documents from the person you live with"
+      },
+      "details": {
+        "fr": "La préfecture des Bouches-du-Rhône demande : une attestation d'hébergement, un justificatif de domicile de moins de 3 mois de la personne qui vous héberge, et une copie recto verso de sa carte d'identité ou de sa carte de séjour.",
+        "en": "The Bouches-du-Rhône prefecture asks for: a hosting certificate, a proof of address less than 3 months old from the person you live with, and a copy of both sides of their ID card or residence card."
+      },
+      "tip": {
+        "fr": "La même préfecture précise que la carte de séjour de la personne qui vous héberge doit indiquer la même adresse.",
+        "en": "The same prefecture says the residence card of the person you live with must show the same address."
+      },
+      "condition": {
+        "question": "is_hosted",
+        "equals": "yes"
+      },
+      "sources": [
+        "pref_bdr_pieces"
+      ]
+    },
+    {
+      "id": "ephoto",
+      "category": "photo",
+      "title": {
+        "fr": "Code e-photo",
+        "en": "E-photo code"
+      },
+      "details": {
+        "fr": "Le code de la e-photo, écrit sur la planche photo remise par le photographe ou la cabine agréée.",
+        "en": "The e-photo code, written on the photo sheet from the approved photographer or photo booth."
+      },
+      "example": {
+        "fr": "Exemple : vous faites vos photos dans une cabine qui affiche le service \"photo et signature numériques\", puis vous recopiez le code dans votre demande.",
+        "en": "Example: you take your photos in a booth that offers digital photo and signature, then you copy the code into your request."
+      },
+      "tip": {
+        "fr": "Service-public indique qu'on peut localiser un service photo et signature numériques.",
+        "en": "Service-public says you can look up a digital photo and signature service near you."
+      },
+      "condition": {
+        "not": {
+          "question": "document_type",
+          "equals": "dcem"
+        }
+      },
+      "sources": [
+        "sp_perte",
+        "sp_vol"
+      ]
+    },
+    {
+      "id": "stamp_card_1y",
+      "category": "tax",
+      "title": {
+        "fr": "Timbres fiscaux (carte d'1 an)",
+        "en": "Tax stamps (1-year card)"
+      },
+      "details": {
+        "fr": "Le justificatif de paiement est demandé lors de la remise de la carte. Montants indiqués par service-public : 350 € pour une carte de séjour temporaire ou un certificat de résidence pour Algérien d'1 an vie privée et familiale. 150 € pour les cartes étudiant, rente accident du travail ou maladie professionnelle, stagiaire, recherche d'emploi ou création d'entreprise, jeune au pair, regroupement familial, travailleur saisonnier, et le certificat de résidence pour Algérien étudiant ou stagiaire. 50 € pour les certificats de résidence pour Algérien visiteur, salarié, travailleur temporaire, commerçant, artisan, scientifique, artiste. Gratuit pour une carte victime de violences conjugales, ou motif humanitaire victime de traite des êtres humains ou de proxénétisme.",
+        "en": "Proof of payment is requested when you collect the card. Amounts given by service-public: €350 for a temporary residence card or a 1-year Algerian residence certificate for private and family life. €150 for student, work accident or occupational illness pension, intern, job search or business creation, au pair, family reunification and seasonal worker cards, and the Algerian certificate for student or intern. €50 for Algerian certificates for visitor, employee, temporary worker, trader, craftsman, scientist, artist. Free for a card as a victim of domestic violence, or on humanitarian grounds as a victim of human trafficking or pimping."
+      },
+      "tip": {
+        "fr": "Le timbre fiscal s'achète sur internet ou dans un bureau de tabac équipé.",
+        "en": "You can buy the tax stamp online or at an equipped tobacco shop."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "what_happened",
+            "in": [
+              "lost",
+              "stolen"
+            ]
+          },
+          {
+            "question": "document_type",
+            "equals": "card_1y"
+          }
+        ]
+      },
+      "sources": [
+        "sp_perte",
+        "sp_vol",
+        "sp_timbre"
+      ]
+    },
+    {
+      "id": "stamp_card_multi",
+      "category": "tax",
+      "title": {
+        "fr": "Timbres fiscaux (carte pluriannuelle)",
+        "en": "Tax stamps (multi-year card)"
+      },
+      "details": {
+        "fr": "Le justificatif de paiement est demandé lors de la remise de la carte. Montants indiqués par service-public : 350 €. 150 € pour les cartes pluriannuelles étudiant, regroupement familial, rente accident maladie professionnelle, travailleur saisonnier. 50 € pour une carte famille de protégé subsidiaire ou famille d'apatride. Gratuit pour une carte protégé subsidiaire ou apatride.",
+        "en": "Proof of payment is requested when you collect the card. Amounts given by service-public: €350. €150 for multi-year student, family reunification, work accident or occupational illness pension, and seasonal worker cards. €50 for a family of subsidiary protection beneficiary or family of stateless person card. Free for a subsidiary protection or stateless person card."
+      },
+      "tip": {
+        "fr": "Le timbre fiscal s'achète sur internet ou dans un bureau de tabac équipé.",
+        "en": "You can buy the tax stamp online or at an equipped tobacco shop."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "what_happened",
+            "in": [
+              "lost",
+              "stolen"
+            ]
+          },
+          {
+            "question": "document_type",
+            "equals": "card_multi"
+          }
+        ]
+      },
+      "sources": [
+        "sp_perte",
+        "sp_vol",
+        "sp_timbre"
+      ]
+    },
+    {
+      "id": "stamp_resident_10y",
+      "category": "tax",
+      "title": {
+        "fr": "Timbres fiscaux (carte de résident)",
+        "en": "Tax stamps (resident card)"
+      },
+      "details": {
+        "fr": "Le justificatif de paiement est demandé lors de la remise de la carte. Montants indiqués par service-public : 350 €. 150 € pour une carte rente accident du travail ou maladie professionnelle. 50 € pour un certificat de résidence de 10 ans pour Algérien ou une carte famille de réfugié. Gratuit pour une carte réfugié, protégé subsidiaire, apatride, victime de violences conjugales, de traite des êtres humains ou de proxénétisme.",
+        "en": "Proof of payment is requested when you collect the card. Amounts given by service-public: €350. €150 for a work accident or occupational illness pension card. €50 for a 10-year Algerian residence certificate or a refugee family card. Free for a refugee, subsidiary protection, stateless person, domestic violence victim, human trafficking or pimping victim card."
+      },
+      "tip": {
+        "fr": "Le timbre fiscal s'achète sur internet ou dans un bureau de tabac équipé.",
+        "en": "You can buy the tax stamp online or at an equipped tobacco shop."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "what_happened",
+            "in": [
+              "lost",
+              "stolen"
+            ]
+          },
+          {
+            "question": "document_type",
+            "equals": "resident_10y"
+          }
+        ]
+      },
+      "sources": [
+        "sp_perte",
+        "sp_vol",
+        "sp_timbre"
+      ]
+    },
+    {
+      "id": "stamp_retired_10y",
+      "category": "tax",
+      "title": {
+        "fr": "Timbres fiscaux (carte retraité)",
+        "en": "Tax stamps (retired person card)"
+      },
+      "details": {
+        "fr": "Le justificatif de paiement est demandé lors de la remise de la carte. Service-public indique 50 € pour la carte retraité ou conjoint de retraité de 10 ans.",
+        "en": "Proof of payment is requested when you collect the card. Service-public gives €50 for the 10-year retired person or spouse of retired person card."
+      },
+      "tip": {
+        "fr": "Le timbre fiscal s'achète sur internet ou dans un bureau de tabac équipé.",
+        "en": "You can buy the tax stamp online or at an equipped tobacco shop."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "what_happened",
+            "in": [
+              "lost",
+              "stolen"
+            ]
+          },
+          {
+            "question": "document_type",
+            "equals": "retired_10y"
+          }
+        ]
+      },
+      "sources": [
+        "sp_perte",
+        "sp_vol",
+        "sp_timbre"
+      ]
+    },
+    {
+      "id": "dcem_child_identity",
+      "category": "identity",
+      "title": {
+        "fr": "Pièce d'identité de l'enfant",
+        "en": "Your child's ID document"
+      },
+      "details": {
+        "fr": "La préfecture de Maine-et-Loire demande, avant la démarche en ligne, une pièce d'identité et de nationalité de l'enfant en cours de validité : passeport, titre de voyage, carte nationale d'identité ou carte consulaire.",
+        "en": "The Maine-et-Loire prefecture asks, before the online request, for a valid ID and nationality document for the child: passport, travel document, national ID card or consular card."
+      },
+      "condition": {
+        "question": "document_type",
+        "equals": "dcem"
+      },
+      "sources": [
+        "pref_maine_et_loire_dcem"
+      ]
+    },
+    {
+      "id": "dcem_presence_proof",
+      "category": "family",
+      "title": {
+        "fr": "Preuves de présence de l'enfant en France",
+        "en": "Proof that your child lives in France"
+      },
+      "details": {
+        "fr": "La préfecture de Maine-et-Loire demande des justificatifs de présence de l'enfant en France sur au moins une année à la date de la demande.",
+        "en": "The Maine-et-Loire prefecture asks for proof that the child has been in France for at least one year on the date of the request."
+      },
+      "example": {
+        "fr": "Exemples donnés par cette préfecture : certificats de scolarité, pages d'identité du carnet de santé et des visites chez le médecin, attestation de crèche.",
+        "en": "Examples given by this prefecture: school certificates, the identity pages of the health booklet and doctor visit pages, a nursery certificate."
+      },
+      "condition": {
+        "question": "document_type",
+        "equals": "dcem"
+      },
+      "sources": [
+        "pref_maine_et_loire_dcem"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "check_lost_and_found",
+      "phase": "before",
+      "title": {
+        "fr": "Vérifier que la carte n'a pas été retrouvée",
+        "en": "Check that the card has not been found"
+      },
+      "body": {
+        "fr": "La préfecture de Loire-Atlantique conseille de vérifier les services des objets trouvés avant de demander un duplicata. Une fois la demande faite, l'ancienne carte n'est plus valable, de façon définitive.",
+        "en": "The Loire-Atlantique prefecture suggests checking lost and found offices before asking for a duplicate. Once you apply, the old card is no longer valid, and this cannot be undone."
+      },
+      "condition": {
+        "question": "what_happened",
+        "equals": "lost"
+      },
+      "sources": [
+        "pref_loire_atlantique",
+        "sp_perte"
+      ]
+    },
+    {
+      "id": "report_theft_france",
+      "phase": "before",
+      "title": {
+        "fr": "Déclarer le vol à la police ou à la gendarmerie",
+        "en": "Report the theft to the police or gendarmerie"
+      },
+      "body": {
+        "fr": "Faites d'abord une déclaration de vol au commissariat ou à la gendarmerie. Un récépissé vous est remis. Si vous ne connaissez pas l'auteur du vol, service-public indique que la plainte peut aussi se faire en ligne. Un policier ou un gendarme peut ensuite vous demander de venir compléter votre déclaration.",
+        "en": "First report the theft at a police station or gendarmerie. You will get a receipt. If you do not know who stole it, service-public says you can also file the complaint online. A police officer may then ask you to come in to complete your statement."
+      },
+      "link": {
+        "title": {
+          "fr": "Porter plainte en ligne",
+          "en": "File a complaint online"
+        },
+        "url": "https://www.masecurite.interieur.gouv.fr/fr/demarches-en-ligne/plainte-en-ligne"
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "what_happened",
+            "equals": "stolen"
+          },
+          {
+            "question": "where_happened",
+            "equals": "france"
+          }
+        ]
+      },
+      "sources": [
+        "sp_vol",
+        "sp_plainte",
+        "sp_plainte_en_ligne"
+      ]
+    },
+    {
+      "id": "declare_loss_france",
+      "phase": "before",
+      "title": {
+        "fr": "Préparer la déclaration de perte",
+        "en": "Prepare the loss statement"
+      },
+      "body": {
+        "fr": "Pour une perte en France, service-public demande une déclaration sur l'honneur. La préfecture de la Haute-Vienne indique qu'elle se fait au moment de la demande en ligne.",
+        "en": "For a loss in France, service-public asks for a sworn statement. The Haute-Vienne prefecture says you make it when you submit the online request."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "what_happened",
+            "equals": "lost"
+          },
+          {
+            "question": "where_happened",
+            "equals": "france"
+          }
+        ]
+      },
+      "sources": [
+        "sp_perte",
+        "pref_haute_vienne"
+      ]
+    },
+    {
+      "id": "report_abroad",
+      "phase": "before",
+      "title": {
+        "fr": "Déclarer la perte ou le vol dans le pays où vous êtes",
+        "en": "Report the loss or theft in the country where you are"
+      },
+      "body": {
+        "fr": "Déclarez d'abord la perte ou le vol à la police locale, puis à l'ambassade ou au consulat de France dans ce pays.",
+        "en": "First report the loss or theft to the local police, then to the French embassy or consulate in that country."
+      },
+      "condition": {
+        "question": "where_happened",
+        "equals": "abroad"
+      },
+      "sources": [
+        "sp_perte",
+        "sp_vol"
+      ]
+    },
+    {
+      "id": "return_visa",
+      "phase": "before",
+      "title": {
+        "fr": "Demander un visa de retour",
+        "en": "Apply for a return visa"
+      },
+      "body": {
+        "fr": "Pour rentrer en France, demandez un visa de retour à l'ambassade ou au consulat de France. Avant de le délivrer, l'ambassade ou le consulat fait une enquête auprès de la préfecture qui a délivré votre titre. Dès votre retour en France, demandez le duplicata en ligne.",
+        "en": "To come back to France, apply for a return visa at the French embassy or consulate. Before issuing it, they check with the prefecture that issued your permit. As soon as you are back in France, request the duplicate online."
+      },
+      "condition": {
+        "question": "where_happened",
+        "equals": "abroad"
+      },
+      "sources": [
+        "sp_perte",
+        "sp_vol"
+      ]
+    },
+    {
+      "id": "check_expiry",
+      "phase": "before",
+      "title": {
+        "fr": "Garder en tête la date de fin de validité",
+        "en": "Keep the expiry date in mind"
+      },
+      "body": {
+        "fr": "Le duplicata garde les mêmes dates que l'ancienne carte et ne la renouvelle pas. Selon la préfecture du Rhône, si votre carte expire dans moins de 90 jours, l'ANEF vous oriente vers le renouvellement. Les préfectures des Bouches-du-Rhône, de Corrèze et de Loire-Atlantique parlent d'un délai de 3 mois. La déclaration de perte ou de vol est alors jointe au dossier de renouvellement.",
+        "en": "The duplicate keeps the same dates as the old card and does not renew it. According to the Rhône prefecture, if your card expires in less than 90 days, ANEF sends you to the renewal process. The Bouches-du-Rhône, Corrèze and Loire-Atlantique prefectures mention 3 months. The loss or theft report is then added to your renewal file."
+      },
+      "condition": {
+        "question": "expires_soon",
+        "equals": "no"
+      },
+      "sources": [
+        "sp_perte",
+        "pref_rhone_faq",
+        "pref_haute_vienne",
+        "pref_bdr_pieces",
+        "pref_correze",
+        "pref_loire_atlantique"
+      ]
+    },
+    {
+      "id": "passport_consulate",
+      "phase": "before",
+      "title": {
+        "fr": "Faire le nécessaire pour votre passeport",
+        "en": "Take care of your passport"
+      },
+      "body": {
+        "fr": "Si votre passeport a aussi disparu, la préfecture des Bouches-du-Rhône demande la déclaration de perte ou de vol faite au consulat de votre pays et l'attestation de demande de renouvellement du passeport.",
+        "en": "If your passport is also missing, the Bouches-du-Rhône prefecture asks for the loss or theft report made at your country's consulate and the certificate showing you applied for a new passport."
+      },
+      "condition": {
+        "question": "passport_also_lost",
+        "equals": "yes"
+      },
+      "sources": [
+        "pref_bdr_pieces"
+      ]
+    },
+    {
+      "id": "address_order",
+      "phase": "before",
+      "title": {
+        "fr": "Voir quand déclarer votre nouvelle adresse",
+        "en": "Check when to report your new address"
+      },
+      "body": {
+        "fr": "Les préfectures de Corrèze et de Loire-Atlantique demandent de déclarer d'abord le changement d'adresse sans demander de nouvelle carte, puis de demander le duplicata. La Seine-Maritime indique de faire le changement d'adresse après avoir récupéré le duplicata. Vérifiez la consigne sur le site de votre préfecture.",
+        "en": "The Corrèze and Loire-Atlantique prefectures ask you to report the change of address first, without asking for a new card, and then request the duplicate. Seine-Maritime says to report the change of address after you collect the duplicate. Check what your prefecture's website says."
+      },
+      "link": {
+        "title": {
+          "fr": "Lire la fiche changement d'adresse",
+          "en": "Read the change of address page"
+        },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F35807"
+      },
+      "condition": {
+        "question": "address_changed",
+        "equals": "yes"
+      },
+      "sources": [
+        "pref_correze",
+        "pref_loire_atlantique",
+        "pref_seine_maritime",
+        "sp_adresse"
+      ]
+    },
+    {
+      "id": "get_ephoto",
+      "phase": "before",
+      "title": {
+        "fr": "Faire une e-photo",
+        "en": "Get an e-photo"
+      },
+      "body": {
+        "fr": "Faites vos photos chez un photographe ou dans une cabine agréée qui fournit un code e-photo. Gardez la planche : le code est écrit dessus.",
+        "en": "Get your photos taken by a photographer or in an approved booth that gives an e-photo code. Keep the photo sheet: the code is written on it."
+      },
+      "condition": {
+        "not": {
+          "question": "document_type",
+          "equals": "dcem"
+        }
+      },
+      "sources": [
+        "sp_perte",
+        "sp_vol"
+      ]
+    },
+    {
+      "id": "submit_anef",
+      "phase": "submit",
+      "title": {
+        "fr": "Demander le duplicata en ligne",
+        "en": "Request the duplicate online"
+      },
+      "body": {
+        "fr": "Connectez-vous à l'ANEF. Choisissez « Je déclare un changement de situation », puis « Je signale la perte, le vol ou la détérioration de mon titre de séjour ». Plusieurs préfectures indiquent que la demande n'est pas acceptée au guichet ni par courrier. Attention : la demande rend l'ancienne carte invalide, de façon définitive.",
+        "en": "Log in to ANEF. Choose \"Je déclare un changement de situation\" (I report a change of situation), then \"Je signale la perte, le vol ou la détérioration de mon titre de séjour\" (I report the loss, theft or damage of my residence permit). Several prefectures say the request is not accepted at the counter or by post. Note: the request makes the old card invalid, and this cannot be undone."
+      },
+      "link": {
+        "title": {
+          "fr": "Ouvrir le site de l'ANEF",
+          "en": "Open the ANEF website"
+        },
+        "url": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/"
+      },
+      "condition": {
+        "not": {
+          "question": "document_type",
+          "equals": "dcem"
+        }
+      },
+      "sources": [
+        "sp_perte",
+        "sp_vol",
+        "pref_rhone_faq",
+        "pref_seine_maritime",
+        "pref_val_doise",
+        "pref_haute_vienne"
+      ],
+      "letters": [
+        "cannot_use_online"
+      ]
+    },
+    {
+      "id": "submit_dcem",
+      "phase": "submit",
+      "title": {
+        "fr": "Demander le duplicata du DCEM en ligne",
+        "en": "Request the DCEM duplicate online"
+      },
+      "body": {
+        "fr": "La préfecture de Maine-et-Loire indique que le duplicata d'un DCEM après perte ou vol se demande en ligne sur l'ANEF. Elle annonce un délai d'instruction de 2 à 3 mois minimum.",
+        "en": "The Maine-et-Loire prefecture says a DCEM duplicate after loss or theft is requested online on ANEF. It gives a processing time of at least 2 to 3 months."
+      },
+      "link": {
+        "title": {
+          "fr": "Ouvrir le site de l'ANEF",
+          "en": "Open the ANEF website"
+        },
+        "url": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/"
+      },
+      "condition": {
+        "question": "document_type",
+        "equals": "dcem"
+      },
+      "sources": [
+        "pref_maine_et_loire_dcem"
+      ],
+      "letters": [
+        "cannot_use_online"
+      ]
+    },
+    {
+      "id": "get_help",
+      "phase": "submit",
+      "title": {
+        "fr": "En cas de difficulté sur le site",
+        "en": "If you have trouble with the website"
+      },
+      "body": {
+        "fr": "Le centre de contact citoyen répond au 0 806 001 620. Vous pouvez aussi utiliser le formulaire « Contact » du site de l'ANEF.",
+        "en": "The citizen contact center answers at 0 806 001 620. You can also use the \"Contact\" form on the ANEF website."
+      },
+      "condition": null,
+      "sources": [
+        "pref_cotes_darmor",
+        "pref_val_doise",
+        "pref_loire_atlantique"
+      ],
+      "letters": [
+        "cannot_use_online"
+      ]
+    },
+    {
+      "id": "follow_up",
+      "phase": "after",
+      "title": {
+        "fr": "Suivre votre dossier",
+        "en": "Track your application"
+      },
+      "body": {
+        "fr": "Suivez l'avancement dans votre compte ANEF. La préfecture des Côtes-d'Armor précise que l'attestation de dépôt prouve votre demande, mais ne permet pas de franchir les frontières de l'espace Schengen.",
+        "en": "Track progress in your ANEF account. The Côtes-d'Armor prefecture says the filing certificate proves your request, but does not let you cross the borders of the Schengen area."
+      },
+      "condition": null,
+      "sources": [
+        "pref_cotes_darmor"
+      ],
+      "letters": [
+        "receipt_request",
+        "file_followup"
+      ]
+    },
+    {
+      "id": "buy_stamp",
+      "phase": "after",
+      "title": {
+        "fr": "Acheter le timbre fiscal",
+        "en": "Buy the tax stamp"
+      },
+      "body": {
+        "fr": "Le justificatif de paiement est demandé lors de la remise de la carte. Le timbre fiscal est électronique. Il s'achète sur internet ou dans un bureau de tabac équipé.",
+        "en": "Proof of payment is requested when you collect the card. The tax stamp is electronic. You can buy it online or at an equipped tobacco shop."
+      },
+      "link": {
+        "title": {
+          "fr": "Comment acheter un timbre fiscal",
+          "en": "How to buy a tax stamp"
+        },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33071"
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "what_happened",
+            "in": [
+              "lost",
+              "stolen"
+            ]
+          },
+          {
+            "not": {
+              "question": "document_type",
+              "equals": "dcem"
+            }
+          }
+        ]
+      },
+      "sources": [
+        "sp_perte",
+        "sp_vol",
+        "sp_timbre"
+      ]
+    },
+    {
+      "id": "collect_card",
+      "phase": "after",
+      "title": {
+        "fr": "Récupérer la nouvelle carte",
+        "en": "Collect the new card"
+      },
+      "body": {
+        "fr": "Allez retirer la nouvelle carte quand la préfecture vous prévient. Si vous retrouvez l'ancienne carte après la demande, vous devez quand même venir retirer la nouvelle. Les préfectures de Corrèze et de Loire-Atlantique indiquent qu'une carte déclarée perdue, volée ou dégradée ne doit plus être gardée ni utilisée.",
+        "en": "Collect the new card when the prefecture tells you it is ready. If you find the old card after applying, you must still come and collect the new one. The Corrèze and Loire-Atlantique prefectures say a card reported lost, stolen or damaged must not be kept or used."
+      },
+      "condition": {
+        "not": {
+          "question": "document_type",
+          "equals": "dcem"
+        }
+      },
+      "sources": [
+        "sp_perte",
+        "sp_vol",
+        "pref_correze",
+        "pref_loire_atlantique"
+      ]
+    },
+    {
+      "id": "civil_status_update",
+      "phase": "after",
+      "title": {
+        "fr": "Déclarer votre changement d'état civil",
+        "en": "Report your change of civil status"
+      },
+      "body": {
+        "fr": "En cas de mariage, divorce ou changement de nom ou de prénom, service-public indique que vous pouvez demander un duplicata de votre carte avec vos nouvelles informations. Cette demande se fait en ligne, avec ses propres pièces.",
+        "en": "After a marriage, divorce or change of name or first name, service-public says you can request a duplicate of your card with your new details. This request is made online, with its own documents."
+      },
+      "link": {
+        "title": {
+          "fr": "Lire la fiche changement d'état civil",
+          "en": "Read the change of civil status page"
+        },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F35808"
+      },
+      "condition": {
+        "question": "civil_status_changed",
+        "equals": "yes"
+      },
+      "sources": [
+        "sp_etat_civil"
+      ]
+    }
+  ],
+  "outcomes": [
+    {
+      "id": "renewal_more_suitable",
+      "kind": "redirect",
+      "condition": {
+        "question": "expires_soon",
+        "equals": "yes"
+      },
+      "title": {
+        "fr": "Un renouvellement semble plus adapté qu'un duplicata",
+        "en": "A renewal seems to fit better than a duplicate"
+      },
+      "body": {
+        "fr": "Le duplicata garde les mêmes dates que l'ancienne carte et ne la renouvelle pas. D'après la préfecture du Rhône, si la carte expire dans moins de 90 jours, l'ANEF oriente automatiquement vers le renouvellement après la déclaration de perte, de vol ou de détérioration. Les préfectures des Bouches-du-Rhône, de Corrèze et de Loire-Atlantique donnent la même consigne pour moins de 3 mois.",
+        "en": "A duplicate keeps the same dates as the old card and does not renew it. According to the Rhône prefecture, if the card expires in less than 90 days, ANEF automatically sends you to the renewal process after you report the loss, theft or damage. The Bouches-du-Rhône, Corrèze and Loire-Atlantique prefectures say the same for less than 3 months."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Déclarer quand même la perte, le vol ou la détérioration",
+            "en": "Still report the loss, theft or damage"
+          },
+          "body": {
+            "fr": "Sur l'ANEF, choisissez « Je déclare un changement de situation », puis « Je signale la perte, le vol ou la détérioration de mon titre de séjour ». La préfecture de Corrèze indique que le signalement est enregistré.",
+            "en": "On ANEF, choose \"Je déclare un changement de situation\" (I report a change of situation), then \"Je signale la perte, le vol ou la détérioration de mon titre de séjour\" (I report the loss, theft or damage of my residence permit). The Corrèze prefecture says your report is recorded."
+          },
+          "link": {
+            "title": {
+              "fr": "Ouvrir le site de l'ANEF",
+              "en": "Open the ANEF website"
+            },
+            "url": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/"
+          }
+        },
+        {
+          "title": {
+            "fr": "Demander le renouvellement",
+            "en": "Apply for a renewal"
+          },
+          "body": {
+            "fr": "La préfecture des Bouches-du-Rhône demande de joindre la déclaration de perte ou de vol au dossier de renouvellement.",
+            "en": "The Bouches-du-Rhône prefecture asks you to add the loss or theft report to your renewal file."
+          },
+          "link": {
+            "title": {
+              "fr": "Ouvrir le site de l'ANEF",
+              "en": "Open the ANEF website"
+            },
+            "url": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/"
+          }
+        }
+      ],
+      "contacts": [
+        "anef_contact",
+        "prefecture_directory",
+        "france_services"
+      ],
+      "letters": [
+        "cannot_use_online"
+      ],
+      "sources": [
+        "sp_perte",
+        "pref_rhone_faq",
+        "pref_bdr_pieces",
+        "pref_correze",
+        "pref_loire_atlantique"
+      ]
+    },
+    {
+      "id": "abroad_first",
+      "kind": "warning",
+      "condition": {
+        "question": "where_happened",
+        "equals": "abroad"
+      },
+      "title": {
+        "fr": "Hors de France : des démarches avant de rentrer",
+        "en": "Outside France: steps before you come back"
+      },
+      "body": {
+        "fr": "D'après service-public, la perte ou le vol à l'étranger se déclare d'abord à la police locale, puis à l'ambassade ou au consulat de France. Pour rentrer, il faut demander un visa de retour à l'ambassade ou au consulat, qui vérifie auprès de la préfecture qui a délivré votre titre. Le duplicata se demande en ligne dès le retour en France.",
+        "en": "According to service-public, a loss or theft abroad must first be reported to the local police, then to the French embassy or consulate. To come back, you must apply for a return visa at the embassy or consulate, which checks with the prefecture that issued your permit. You request the duplicate online as soon as you are back in France."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Contacter l'ambassade ou le consulat de France",
+            "en": "Contact the French embassy or consulate"
+          },
+          "body": {
+            "fr": "Adressez-vous au service des visas de l'ambassade ou du consulat de France du pays où vous êtes.",
+            "en": "Go to the visa service of the French embassy or consulate in the country where you are."
+          },
+          "link": {
+            "title": {
+              "fr": "Lire la fiche perte à l'étranger",
+              "en": "Read the loss abroad page"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F21032"
+          }
+        },
+        {
+          "title": {
+            "fr": "En cas de vol",
+            "en": "If it was stolen"
+          },
+          "body": {
+            "fr": "La fiche vol à l'étranger décrit les mêmes démarches.",
+            "en": "The theft abroad page describes the same steps."
+          },
+          "link": {
+            "title": {
+              "fr": "Lire la fiche vol",
+              "en": "Read the theft page"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F22312"
+          }
+        }
+      ],
+      "contacts": [
+        "prefecture_directory"
+      ],
+      "letters": [],
+      "sources": [
+        "sp_perte",
+        "sp_vol"
+      ]
+    },
+    {
+      "id": "report_theft_first",
+      "kind": "warning",
+      "condition": {
+        "question": "theft_reported",
+        "equals": "no"
+      },
+      "title": {
+        "fr": "Déclarez d'abord le vol",
+        "en": "Report the theft first"
+      },
+      "body": {
+        "fr": "D'après service-public, il faut d'abord faire une déclaration de vol au commissariat ou à la gendarmerie. Le récépissé remis est demandé avec la demande de duplicata. Si vous ne connaissez pas l'auteur du vol, la plainte peut se faire en ligne.",
+        "en": "According to service-public, you must first report the theft at a police station or gendarmerie. The receipt you get is requested with the duplicate request. If you do not know who stole it, you can file the complaint online."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Porter plainte en ligne",
+            "en": "File a complaint online"
+          },
+          "body": {
+            "fr": "Possible pour une atteinte aux biens, comme un vol, quand l'auteur est inconnu. Un policier ou un gendarme peut vous demander de venir compléter votre déclaration.",
+            "en": "Possible for a property offence, such as theft, when the offender is unknown. A police officer may ask you to come in to complete your statement."
+          },
+          "link": {
+            "title": {
+              "fr": "Ouvrir le service de plainte en ligne",
+              "en": "Open the online complaint service"
+            },
+            "url": "https://www.masecurite.interieur.gouv.fr/fr/demarches-en-ligne/plainte-en-ligne"
+          }
+        },
+        {
+          "title": {
+            "fr": "Porter plainte sur place",
+            "en": "File a complaint in person"
+          },
+          "body": {
+            "fr": "Dans le commissariat ou la gendarmerie de votre choix.",
+            "en": "At the police station or gendarmerie of your choice."
+          },
+          "link": {
+            "title": {
+              "fr": "Lire la fiche Porter plainte",
+              "en": "Read the Filing a complaint page"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1435"
+          }
+        }
+      ],
+      "contacts": [
+        "france_services"
+      ],
+      "letters": [],
+      "sources": [
+        "sp_vol",
+        "sp_plainte",
+        "sp_plainte_en_ligne"
+      ]
+    }
+  ],
+  "deadlines": [
+    {
+      "id": "renewal_instead",
+      "relativeTo": "permit_expiry_date",
+      "offsetDays": -90,
+      "title": {
+        "fr": "À partir de cette date, l'ANEF oriente vers un renouvellement plutôt qu'un duplicata (selon la préfecture du Rhône)",
+        "en": "From this date, ANEF sends you to a renewal instead of a duplicate (according to the Rhône prefecture)"
+      },
+      "condition": {
+        "not": {
+          "question": "document_type",
+          "equals": "dcem"
+        }
+      },
+      "sources": [
+        "pref_rhone_faq"
+      ]
+    }
+  ],
+  "reviewNotes": [
+    "Droit en vigueur : les montants viennent de F21032 et F22312, « Vérifié le 01 juillet 2026 », donc après la hausse des taxes du 1er mai 2026. Ces fiches ne mentionnent ni la loi du 26 janvier 2024 ni le décret n°2026-1001 du 26 octobre 2026 (effets au 30/10/2026). Aucune source consultée n'indique que ces textes modifient le duplicata ; texte du décret non lu (Légifrance). À revérifier après le 30/10/2026.",
+    "F21032 (perte à l'étranger) précise que le coût « correspond au montant applicable lors du renouvellement du titre pour le même motif ». Pourtant, la grille affichée (350 € pour une carte d'1 an vie privée et familiale) ne correspond pas aux montants de renouvellement de l'inventaire (250 € pour un renouvellement époux de Français, F2209). Contradiction non expliquée ; montants repris tels qu'ils figurent dans F21032 et F22312.",
+    "Justificatif de domicile : F22312 demande « moins de 6 mois » pour un vol à l'étranger, mais « moins de 3 mois » pour un vol en France et pour une perte (F21032). Repris tel quel ; possible coquille de la source.",
+    "Détérioration : service-public ne publie pas de fiche ni de liste de pièces pour une carte détériorée. Seules la FAQ ANEF du Rhône (option « Je signale la perte, le vol ou la détérioration de mon titre de séjour »), la sous-préfecture de Sarcelles (Val-d'Oise) et la liste PDF des Bouches-du-Rhône (« En cas de destruction : titre de séjour original ») en parlent. Pièces communes (passeport, domicile, e-photo) appliquées par analogie avec perte/vol ; coût du duplicata pour une carte détériorée non trouvé, donc pas de pièce timbre pour ce cas.",
+    "Liste PDF des Bouches-du-Rhône : non datée. Elle demande un « Formulaire de demande de titre de séjour » et « 3 photographies d'identité », ce qui semble correspondre à un dépôt papier, alors que service-public et les autres préfectures décrivent un dépôt en ligne avec e-photo. Formulaire et 3 photos non repris. Pièces d'hébergement, passeport perdu et carte détruite reprises en citant la préfecture.",
+    "Règle du renouvellement : la FAQ du Rhône (PDF non daté) parle de « moins de 90 jours » ; Bouches-du-Rhône, Corrèze et Loire-Atlantique parlent de « 3 mois ». Échéance codée à -90 jours. Aucune page service-public ne mentionne cette règle.",
+    "Ordre changement d'adresse / duplicata : Corrèze et Loire-Atlantique disent de faire d'abord le changement d'adresse ; Seine-Maritime dit de le faire après le duplicata. Contradiction présentée telle quelle dans l'étape address_order.",
+    "DCEM : aucune page service-public ne traite le duplicata du DCEM. F2718 (Vérifié le 30 juillet 2024, antérieure au 1er mai 2026) indique une taxe de 50 € pour le DCEM, sans parler du duplicata : non reprise. Seule source utilisée : préfecture de Maine-et-Loire (non datée). Pièces exactes d'un duplicata de DCEM (déclaration de perte ou de vol, photo, timbre) non vérifiées.",
+    "Changement d'état civil : F35808 date de 2021 (« Vérifié le 27 septembre 2021 »), antérieure à la hausse des taxes ; montant non repris.",
+    "Sources préfectorales (Haute-Vienne, Corrèze, Loire-Atlantique, Seine-Maritime, Côtes-d'Armor, Val-d'Oise, Maine-et-Loire, Rhône, Bouches-du-Rhône) : aucune date de mise à jour visible. Elles décrivent des pratiques locales qui peuvent ne pas s'appliquer partout.",
+    "Pages inaccessibles : préfecture de la Moselle (page duplicata renvoie une erreur « kernel (1) ») ; préfecture de la Vienne (erreur « kernel (20) ») ; FAQ de la préfecture de police (contenu JavaScript non lisible). Le site ANEF n'est pas lisible sans compte : libellés des rubriques repris de la FAQ du Rhône.",
+    "Visa de retour : service-public renvoie vers l'annuaire « Service en charge des visas (ambassade/consulat français à l'étranger) » ; lien exact non relevé, pas de lien dans l'étape return_visa. Délai et coût du visa de retour non trouvés.",
+    "Plainte en ligne : R19620 « Vérifié le 23 octobre 2024 » ; F1435 « Vérifié le 08 juillet 2026 » confirme le service (atteinte aux biens, auteur inconnu). Le lien masecurite.interieur.gouv.fr est celui donné par service-public.",
+    "Européens et membres de leur famille : démarche différente selon F21032 (renvoi vers F847, non relu ici). Non couvert par ce fichier.",
+    "Délai de fabrication du duplicata (cartes de séjour) : non trouvé dans les sources consultées.",
+    "Seuil du renouvellement : les conditions ne comparent pas les dates. Une question oui/non « moins de 3 mois » (expires_soon) déclenche l'orientation ; la date n'est demandée que si la réponse est non, pour l'échéance -90 jours.",
+    "Identifiants contacts et letters (anef_contact, prefecture_directory, france_services, cannot_use_online, receipt_request, file_followup) : définis dans help.json par une autre personne, non relus ici. point_justice et defenseur_des_droits non utilisés : aucune source consultée ne les relie à cette démarche."
+  ]
+}

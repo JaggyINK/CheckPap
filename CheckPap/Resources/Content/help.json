@@ -1,0 +1,456 @@
+{
+  "sources": [
+    {
+      "id": "fs_accueil",
+      "publisher": "france-services.gouv.fr",
+      "title": "Accueil | France services (date de mise à jour non affichée)",
+      "url": "https://www.france-services.gouv.fr/",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "fs_demarches",
+      "publisher": "france-services.gouv.fr",
+      "title": "Démarches et services | France services (date de mise à jour non affichée)",
+      "url": "https://www.france-services.gouv.fr/demarches-et-services",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f20706",
+      "publisher": "service-public.gouv.fr",
+      "title": "Comment consulter gratuitement un avocat ? (Vérifié le 22 juillet 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F20706",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "lannuaire_point_justice",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Point-justice - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/point_justice",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "anef_faq",
+      "publisher": "administration-etrangers-en-france.interieur.gouv.fr",
+      "title": "Administration numérique pour les étrangers en France : textes de l'aide en ligne (fichier de textes du site, rubrique \"Besoin d'aide ?\")",
+      "url": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/assets/i18n/fr.xml",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "pref_vendee_ccc",
+      "publisher": "vendee.gouv.fr",
+      "title": "Centre de contact citoyen pour les démarches ANEF - Les services de l'État en Vendée (Mis à jour le 15/01/2026)",
+      "url": "https://www.vendee.gouv.fr/Demarches/Etrangers/Centre-de-contact-citoyen-pour-les-demarches-ANEF",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "pref_bdr_anef",
+      "publisher": "bouches-du-rhone.gouv.fr",
+      "title": "Procédure ANEF - Droit au séjour - Les services de l'État dans les Bouches-du-Rhône (date de mise à jour non affichée)",
+      "url": "https://www.bouches-du-rhone.gouv.fr/Demarches/Accueil-des-etrangers/Droit-au-sejour/Procedure-ANEF",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "pref_bdr_sejour",
+      "publisher": "bouches-du-rhone.gouv.fr",
+      "title": "Droit au séjour - Accueil des étrangers - Les services de l'État dans les Bouches-du-Rhône (date de mise à jour non affichée)",
+      "url": "https://www.bouches-du-rhone.gouv.fr/Demarches/Accueil-des-etrangers/Droit-au-sejour",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "lannuaire_prefecture",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Préfecture - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/prefecture",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "lannuaire_sous_prefecture",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-préfecture - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/sous_pref",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "datagouv_annuaire",
+      "publisher": "data.gouv.fr",
+      "title": "Service-public.gouv.fr - Annuaire de l'administration - Base de données locales",
+      "url": "https://www.data.gouv.fr/datasets/service-public-gouv-fr-annuaire-de-ladministration-base-de-donnees-locales",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "lannuaire_pan",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Point d'accueil numérique (Préfecture et Sous-préfecture) - Annuaire | Service Public",
+      "url": "https://lannuaire.service-public.gouv.fr/navigation/point_accueil_numerique",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "dgef_parcours",
+      "publisher": "val-de-marne.gouv.fr",
+      "title": "Vos démarches pour séjourner en France, ministère de l'Intérieur (DGEF), janvier 2025 (PDF)",
+      "url": "https://www.val-de-marne.gouv.fr/contenu/telechargement/25691/197342/file/ParcoursUsager.pdf",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f13158",
+      "publisher": "service-public.gouv.fr",
+      "title": "Litige avec l'administration : saisir le Défenseur des droits (Vérifié le 29 avril 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F13158",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "ddd_contact",
+      "publisher": "defenseurdesdroits.fr",
+      "title": "Nous contacter | Défenseur des droits (page du 04 août 2023)",
+      "url": "https://www.defenseurdesdroits.fr/nous-contacter-355",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "ddd_anef",
+      "publisher": "defenseurdesdroits.fr",
+      "title": "Dématérialisation des demandes de titres de séjour via l'ANEF : des ruptures de droits graves et massives | Défenseur des droits (11 décembre 2024)",
+      "url": "https://www.defenseurdesdroits.fr/dematerialisation-des-demandes-de-titres-de-sejour-lanef-des-ruptures-de-droits-graves-et-massives",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "ddd_ce_502860",
+      "publisher": "defenseurdesdroits.fr",
+      "title": "Arrêt relatif à la plateforme en ligne de l'Administration numérique pour les étrangers en France (Anef), Conseil d'État, 05/05/2026, n° 502860 (notice du catalogue juridique du Défenseur des droits)",
+      "url": "https://juridique.defenseurdesdroits.fr/index.php?lvl=notice_display&id=59337&opac_view=-1",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f31969",
+      "publisher": "service-public.gouv.fr",
+      "title": "Que faire en cas de difficulté lors d'une demande de titre de séjour ? (Vérifié le 03 juillet 2024)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F31969",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f2209",
+      "publisher": "service-public.gouv.fr",
+      "title": "Carte de séjour \"vie privée et familiale\" d'un étranger en France (Vérifié le 01 mai 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2209",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f15763",
+      "publisher": "service-public.gouv.fr",
+      "title": "Qu'est-ce qu'un récépissé de demande de titre de séjour ? (Vérifié le 17 novembre 2023)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F15763",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f36206",
+      "publisher": "service-public.gouv.fr",
+      "title": "Qu'est-ce qu'une attestation de demande de carte de séjour ? (Vérifié le 15 décembre 2023)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F36206",
+      "consulted": "2026-10-29"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "france_services",
+      "symbol": "person.2",
+      "title": {
+        "fr": "France services",
+        "en": "France services"
+      },
+      "body": {
+        "fr": "Les conseillers France services vous accompagnent gratuitement et sans rendez-vous dans vos démarches administratives, y compris les démarches en ligne. Ils peuvent aussi vous prêter un ordinateur et vous aider à imprimer ou scanner les pièces de votre dossier, ou à créer une adresse e-mail. Vous pouvez aller dans n'importe quelle maison France services, même si elle n'est pas dans votre commune.",
+        "en": "France services advisers help you free of charge, without an appointment, with administrative procedures, including online ones. They can also give you access to a computer and help you print or scan the documents for your file, or create an email address. You can go to any France services office, even outside your town."
+      },
+      "link": {
+        "title": {
+          "fr": "Trouver une France services près de chez vous",
+          "en": "Find a France services office near you"
+        },
+        "url": "https://www.france-services.gouv.fr/le-reseau"
+      },
+      "sources": [
+        "fs_accueil",
+        "fs_demarches"
+      ]
+    },
+    {
+      "id": "point_justice",
+      "symbol": "building.columns",
+      "title": {
+        "fr": "Point-justice (accès au droit)",
+        "en": "Point-justice (free legal information)"
+      },
+      "body": {
+        "fr": "Les points-justice (points d'accès au droit, maisons de la justice et du droit, etc.) organisent des permanences juridiques gratuites. Des professionnels du droit vous informent sur vos droits et vos devoirs, notamment en droit des étrangers, et peuvent vous aider dans vos démarches juridiques. La consultation gratuite avec un avocat est possible quelle que soit votre nationalité. Seule la première consultation est gratuite. Certaines permanences sont réservées à certains publics. Le 30 39 est le numéro unique de l'accès au droit.",
+        "en": "Points-justice (legal access points, justice and law centres, etc.) hold free legal sessions. Legal professionals tell you about your rights and duties, including immigration law, and can help with legal steps. A free consultation with a lawyer is open to everyone, whatever their nationality. Only the first consultation is free. Some sessions are reserved for specific groups. 30 39 is the single phone number for access to legal information."
+      },
+      "phone": "3039",
+      "link": {
+        "title": {
+          "fr": "Trouver un point-justice près de chez vous",
+          "en": "Find a point-justice near you"
+        },
+        "url": "https://lannuaire.service-public.gouv.fr/navigation/point_justice"
+      },
+      "sources": [
+        "sp_f20706",
+        "lannuaire_point_justice",
+        "fs_demarches"
+      ]
+    },
+    {
+      "id": "anef_contact",
+      "symbol": "phone.bubble",
+      "title": {
+        "fr": "Centre de contact citoyen de l'ANEF",
+        "en": "ANEF citizen contact centre"
+      },
+      "body": {
+        "fr": "Le centre de contact citoyen (CCC) répond aux questions sur les demandes de titre de séjour, de titre de voyage et de DCEM faites sur le site de l'ANEF. En cas de problème technique, il dispose d'informations qui peuvent débloquer votre situation. Vous pouvez l'appeler ou lui écrire avec le formulaire de contact du site de l'ANEF. Joignez des copies d'écran où l'on voit l'adresse de la page, la date, l'heure et le message d'erreur. La préfecture de la Vendée indique un accueil téléphonique du lundi au vendredi de 9h à 17h, au prix d'un appel local, non surtaxé. D'autres préfectures affichent des horaires différents.",
+        "en": "The citizen contact centre (CCC) answers questions about residence permit, travel document and DCEM applications made on the ANEF website. If you have a technical problem, it has information that may unblock your situation. You can call it or write to it using the contact form on the ANEF website. Attach screenshots showing the page address, the date, the time and the error message. The Vendée prefecture lists phone hours of Monday to Friday, 9am to 5pm, at the price of a local call with no extra charge. Other prefectures list different hours."
+      },
+      "phone": "0806001620",
+      "link": {
+        "title": {
+          "fr": "Ouvrir le formulaire de contact de l'ANEF",
+          "en": "Open the ANEF contact form"
+        },
+        "url": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/contact"
+      },
+      "sources": [
+        "anef_faq",
+        "pref_vendee_ccc",
+        "pref_bdr_anef"
+      ]
+    },
+    {
+      "id": "prefecture_directory",
+      "symbol": "building.2",
+      "title": {
+        "fr": "Trouver ma préfecture ou sous-préfecture",
+        "en": "Find my prefecture or sub-prefecture"
+      },
+      "body": {
+        "fr": "L'annuaire de l'administration de Service Public donne les coordonnées des préfectures et sous-préfectures : adresse, téléphone, site internet et horaires d'ouverture. Pour savoir comment déposer votre dossier ou prendre rendez-vous, service-public vous invite à consulter le site internet de votre préfecture.",
+        "en": "The Service Public administration directory gives the contact details of prefectures and sub-prefectures: address, phone, website and opening hours. To find out how to file your application or book an appointment, service-public tells you to check your prefecture's website."
+      },
+      "link": {
+        "title": {
+          "fr": "Chercher ma préfecture",
+          "en": "Search for my prefecture"
+        },
+        "url": "https://lannuaire.service-public.gouv.fr/navigation/prefecture"
+      },
+      "sources": [
+        "lannuaire_prefecture",
+        "lannuaire_sous_prefecture",
+        "datagouv_annuaire",
+        "sp_f2209"
+      ]
+    },
+    {
+      "id": "point_accueil_numerique",
+      "symbol": "desktopcomputer",
+      "title": {
+        "fr": "Point d'accueil numérique de la préfecture",
+        "en": "Prefecture digital help desk"
+      },
+      "body": {
+        "fr": "Le point d'accueil numérique (PAN) de votre préfecture propose un accueil sur place pour vous accompagner dans votre démarche sur le site de l'ANEF. Si le centre de contact citoyen n'a pas pu résoudre votre problème, le site de l'ANEF vous invite à demander à votre préfecture comment y être accueilli. L'annuaire de l'administration liste les points d'accueil numérique des préfectures et sous-préfectures.",
+        "en": "Your prefecture's digital help desk (PAN) offers in-person help with your procedure on the ANEF website. If the citizen contact centre could not solve your problem, the ANEF website tells you to ask your prefecture how to be received there. The administration directory lists the digital help desks of prefectures and sub-prefectures."
+      },
+      "link": {
+        "title": {
+          "fr": "Trouver un point d'accueil numérique",
+          "en": "Find a digital help desk"
+        },
+        "url": "https://lannuaire.service-public.gouv.fr/navigation/point_accueil_numerique"
+      },
+      "sources": [
+        "anef_faq",
+        "lannuaire_pan",
+        "dgef_parcours"
+      ]
+    },
+    {
+      "id": "defenseur_des_droits",
+      "symbol": "scale.3d",
+      "title": {
+        "fr": "Défenseur des droits",
+        "en": "Defender of Rights"
+      },
+      "body": {
+        "fr": "Le Défenseur des droits peut vous aider si vous avez un litige avec un service public, par exemple une préfecture. Il indique recevoir de très nombreuses réclamations de personnes qui ne parviennent pas à faire leur démarche de titre de séjour sur l'ANEF. Ses services sont gratuits. Avant de le saisir, vous devez d'abord essayer de régler le problème avec le service concerné, par exemple par une réclamation ou un recours auprès de la préfecture. Vous pouvez le saisir en ligne, par courrier gratuit sans timbre (Défenseur des droits, Libre réponse 71120, 75342 Paris CEDEX 07) ou en rencontrant un délégué près de chez vous. Téléphone : du lundi au vendredi de 8h30 à 19h30, coût d'un appel local. Attention : le saisir ne suspend pas les délais pour aller devant le juge.",
+        "en": "The Defender of Rights can help if you have a dispute with a public service, for example a prefecture. It reports receiving a very large number of complaints from people who cannot complete their residence permit procedure on ANEF. Its services are free. Before contacting it, you must first try to settle the problem with the service concerned, for example through a complaint or an appeal to the prefecture. You can contact it online, by free post with no stamp (Défenseur des droits, Libre réponse 71120, 75342 Paris CEDEX 07) or by meeting a local delegate. Phone: Monday to Friday, 8:30am to 7:30pm, local call rate. Note: contacting it does not stop the time limits for going to court."
+      },
+      "phone": "0969390000",
+      "link": {
+        "title": {
+          "fr": "Trouver un délégué près de chez vous",
+          "en": "Find a delegate near you"
+        },
+        "url": "https://www.defenseurdesdroits.fr/carte-des-delegues"
+      },
+      "sources": [
+        "sp_f13158",
+        "ddd_contact",
+        "ddd_anef",
+        "sp_f31969"
+      ]
+    }
+  ],
+  "letters": [
+    {
+      "id": "appointment_request",
+      "channel": "email",
+      "title": {
+        "fr": "Demander un rendez-vous à la préfecture",
+        "en": "Ask the prefecture for an appointment"
+      },
+      "purpose": {
+        "fr": "Quand votre préfecture demande de prendre rendez-vous et qu'aucun créneau n'est disponible en ligne.",
+        "en": "When your prefecture asks you to book an appointment and no slot is available online."
+      },
+      "subject": "Demande de rendez-vous : {{procedure}}",
+      "body": "Madame, Monsieur,\n\nJe soussigné(e) {{full_name}}, né(e) le {{birth_date}} à {{birth_place}}, de nationalité {{nationality}}, numéro étranger {{foreigner_number}}, demeurant {{address}}, souhaite obtenir un rendez-vous auprès de vos services pour la démarche suivante : {{procedure}}.\n\nJ'ai consulté plusieurs fois le site de prise de rendez-vous de la préfecture, mais aucun créneau n'était disponible.\n\nJe vous remercie de bien vouloir m'indiquer une date de rendez-vous, ou une autre façon de déposer ma demande.\n\nVous pouvez me joindre au {{phone}} ou à l'adresse {{email}}.\n\nJe vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées.\n\n{{city}}, le {{today}}\n{{full_name}}",
+      "summary": {
+        "fr": "Vous écrivez à la préfecture que vous devez faire une démarche, que vous n'avez pas trouvé de rendez-vous disponible en ligne, et vous demandez une date de rendez-vous ou une autre façon de déposer votre demande.",
+        "en": "You tell the prefecture that you need to complete a procedure, that you could not find any appointment online, and you ask for an appointment date or another way to file your application."
+      },
+      "fields": [
+        "full_name",
+        "birth_date",
+        "birth_place",
+        "nationality",
+        "foreigner_number",
+        "address",
+        "phone",
+        "email"
+      ],
+      "attachments": {
+        "fr": "Les sources consultées ne listent pas de pièce à joindre à cette demande. Si le site de votre préfecture en demande, suivez ses indications.",
+        "en": "The sources consulted do not list any document to attach to this request. If your prefecture's website asks for some, follow its instructions."
+      },
+      "sources": [
+        "sp_f2209",
+        "lannuaire_prefecture"
+      ]
+    },
+    {
+      "id": "cannot_use_online",
+      "channel": "registered_mail",
+      "title": {
+        "fr": "Signaler que je ne peux pas faire la démarche en ligne",
+        "en": "Report that I cannot complete the procedure online"
+      },
+      "purpose": {
+        "fr": "Quand vous n'arrivez pas à faire votre démarche sur le site de l'ANEF, même après avoir contacté le centre de contact citoyen. Vous demandez à la préfecture une autre façon de déposer votre demande.",
+        "en": "When you cannot complete your procedure on the ANEF website, even after contacting the citizen contact centre. You ask the prefecture for another way to file your application."
+      },
+      "subject": "Impossibilité de réaliser ma démarche en ligne : {{procedure}}",
+      "body": "{{full_name}}\n{{address}}\n{{phone}}\n{{email}}\n\n{{prefecture}}\nService des étrangers\n\nLettre recommandée avec avis de réception\n\nMadame, Monsieur,\n\nJe soussigné(e) {{full_name}}, né(e) le {{birth_date}} à {{birth_place}}, de nationalité {{nationality}}, numéro étranger {{foreigner_number}}, demeurant {{address}}, dois réaliser la démarche suivante : {{procedure}}.\n\nCette démarche se fait sur le site de l'ANEF. Malgré plusieurs essais, je ne parviens pas à la terminer en ligne. J'ai contacté le centre de contact citoyen de l'ANEF, qui n'a pas pu résoudre mon problème.\n\nD'après la décision du Conseil d'État du 5 mai 2026 (n° 502860), l'administration doit prévoir un accompagnement ainsi qu'une solution de substitution lorsque le recours au téléservice est impossible (article R. 431-2 du code de l'entrée et du séjour des étrangers et du droit d'asile).\n\nJe vous remercie de bien vouloir m'indiquer comment déposer ma demande par un autre moyen.\n\nVous trouverez ci-joint les copies d'écran des messages d'erreur et la trace de mes échanges avec le centre de contact citoyen.\n\nJe vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées.\n\n{{city}}, le {{today}}\n{{full_name}}",
+      "summary": {
+        "fr": "Vous expliquez à la préfecture que vous ne pouvez pas terminer votre démarche sur l'ANEF, que le centre de contact citoyen n'a pas pu vous aider, et vous demandez une autre façon de déposer votre demande. La lettre rappelle une décision du Conseil d'État de 2026 qui demande à l'administration de prévoir une solution de substitution quand le téléservice est impossible à utiliser.",
+        "en": "You explain to the prefecture that you cannot complete your procedure on ANEF, that the citizen contact centre could not help, and you ask for another way to file your application. The letter mentions a 2026 Council of State decision saying the administration must provide an alternative when the online service cannot be used."
+      },
+      "fields": [
+        "full_name",
+        "birth_date",
+        "birth_place",
+        "nationality",
+        "foreigner_number",
+        "address",
+        "phone",
+        "email"
+      ],
+      "attachments": {
+        "fr": "Copies d'écran où l'on voit l'adresse de la page, la date, l'heure et le message d'erreur, comme le demande le site de l'ANEF. Trace de vos échanges avec le centre de contact citoyen (courriels, numéro de demande). Certaines préfectures indiquent n'instruire que les dossiers qui présentent les preuves du blocage technique. Gardez une copie de tout ce que vous envoyez.",
+        "en": "Screenshots showing the page address, the date, the time and the error message, as the ANEF website asks. A record of your exchanges with the citizen contact centre (emails, request number). Some prefectures say they only process files that include proof of the technical block. Keep a copy of everything you send."
+      },
+      "sources": [
+        "ddd_ce_502860",
+        "anef_faq",
+        "pref_bdr_sejour",
+        "ddd_anef",
+        "sp_f31969"
+      ]
+    },
+    {
+      "id": "receipt_request",
+      "channel": "email",
+      "title": {
+        "fr": "Demander un récépissé ou une attestation",
+        "en": "Ask for a receipt or a certificate"
+      },
+      "purpose": {
+        "fr": "Quand votre demande de titre de séjour est en cours d'examen et que vous n'avez pas reçu de document provisoire de séjour (récépissé, ou attestation si la demande a été faite sur l'ANEF).",
+        "en": "When your residence permit application is being examined and you have not received a temporary residence document (a receipt, or a certificate if you applied on ANEF)."
+      },
+      "subject": "Demande de récépissé ou d'attestation : {{procedure}}",
+      "body": "Madame, Monsieur,\n\nJe soussigné(e) {{full_name}}, né(e) le {{birth_date}} à {{birth_place}}, de nationalité {{nationality}}, numéro étranger {{foreigner_number}}, demeurant {{address}}, ai déposé auprès de vos services une demande de titre de séjour ({{procedure}}) le {{deposit_date}}. Mon dossier porte le numéro {{file_number}}.\n\nMa demande est en cours d'examen. À ce jour, je n'ai pas reçu de document provisoire de séjour (récépissé, ou attestation de prolongation de l'instruction pour une demande faite sur le site de l'ANEF).\n\nJe vous remercie de bien vouloir me délivrer ce document, ou de m'indiquer comment l'obtenir.\n\nVous pouvez me joindre au {{phone}} ou à l'adresse {{email}}.\n\nJe vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées.\n\n{{city}}, le {{today}}\n{{full_name}}",
+      "summary": {
+        "fr": "Vous rappelez à la préfecture que vous avez déposé une demande de titre de séjour, et vous demandez le document provisoire qui prouve que votre séjour est régulier pendant l'examen du dossier, ou la façon de l'obtenir.",
+        "en": "You remind the prefecture that you have filed a residence permit application, and you ask for the temporary document that proves your stay is lawful while your file is examined, or how to get it."
+      },
+      "fields": [
+        "full_name",
+        "birth_date",
+        "birth_place",
+        "nationality",
+        "foreigner_number",
+        "address",
+        "phone",
+        "email",
+        "deposit_date",
+        "file_number"
+      ],
+      "attachments": {
+        "fr": "Les sources ne listent pas de pièce pour cette demande. Vous pouvez joindre la preuve du dépôt de votre demande (par exemple l'attestation de dépôt en ligne de l'ANEF) et une copie de votre titre de séjour actuel. Avant d'envoyer, remplacez les mentions entre crochets par la date de dépôt et le numéro de dossier.",
+        "en": "The sources do not list any document for this request. You can attach proof that you filed your application (for example the ANEF online filing certificate) and a copy of your current residence permit. Before sending, replace the text in square brackets with the filing date and the file number."
+      },
+      "sources": [
+        "sp_f15763",
+        "sp_f36206"
+      ]
+    },
+    {
+      "id": "file_followup",
+      "channel": "registered_mail",
+      "title": {
+        "fr": "Relancer un dossier sans réponse",
+        "en": "Follow up on an application with no answer"
+      },
+      "purpose": {
+        "fr": "Quand vous avez déposé un dossier et que vous n'avez reçu aucune réponse. Ce courrier demande des nouvelles du dossier ; il ne remplace pas un recours.",
+        "en": "When you filed an application and have received no answer. This letter asks for news about your file; it does not replace an appeal."
+      },
+      "subject": "Relance de ma demande : {{procedure}}",
+      "body": "{{full_name}}\n{{address}}\n{{phone}}\n{{email}}\n\n{{prefecture}}\nService des étrangers\n\nLettre recommandée avec avis de réception\n\nMadame, Monsieur,\n\nJe soussigné(e) {{full_name}}, né(e) le {{birth_date}} à {{birth_place}}, de nationalité {{nationality}}, numéro étranger {{foreigner_number}}, demeurant {{address}}, ai déposé le {{deposit_date}} une demande pour la démarche suivante : {{procedure}}. Ma demande est enregistrée sous le numéro {{file_number}}.\n\nÀ ce jour, je n'ai reçu aucune réponse de vos services.\n\nJe vous remercie de bien vouloir m'informer de l'état d'avancement de mon dossier et, s'il manque des pièces, de me les indiquer.\n\nVous trouverez ci-joint une copie de la preuve de dépôt de ma demande.\n\nJe vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées.\n\n{{city}}, le {{today}}\n{{full_name}}",
+      "summary": {
+        "fr": "Vous rappelez à la préfecture la date de dépôt et le numéro de votre dossier, vous indiquez que vous n'avez pas eu de réponse, et vous demandez où en est le dossier et s'il manque des pièces.",
+        "en": "You remind the prefecture of the filing date and your file number, say you have had no answer, and ask about the status of your file and whether any documents are missing."
+      },
+      "fields": [
+        "full_name",
+        "birth_date",
+        "birth_place",
+        "nationality",
+        "foreigner_number",
+        "address",
+        "phone",
+        "email",
+        "deposit_date",
+        "file_number"
+      ],
+      "attachments": {
+        "fr": "Copie de la preuve de dépôt de votre demande (attestation de dépôt, récépissé ou attestation reçue). Service-public conseille l'envoi en recommandé avec avis de réception pour garder une preuve de l'envoi. Avant d'envoyer, remplacez les mentions entre crochets par la date de dépôt et le numéro de dossier.",
+        "en": "A copy of the proof that you filed your application (filing certificate, receipt or certificate received). Service-public recommends registered mail with acknowledgement of receipt so you keep proof of sending. Before sending, replace the text in square brackets with the filing date and the file number."
+      },
+      "sources": [
+        "sp_f31969",
+        "sp_f15763",
+        "sp_f36206",
+        "lannuaire_prefecture"
+      ]
+    }
+  ]
+}

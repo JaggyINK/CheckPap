@@ -55,6 +55,14 @@ Dernière mise à jour du plan : 29/10/2026.
 - Inventaire des sources officielles en cours : `docs/sources/inventaire-demarches.md`.
 - **Changement de périmètre : l'app couvre toute la France**, plus seulement le Val-de-Marne. Plan, README et recherche de sources adaptés.
 - À faire : installer un simulateur iOS 17 (tâche 0.4), et choisir la Team dans Xcode (tâche 0.7).
+- Logo vectoriel (deux feuilles et une coche) et icône générés depuis le code : `scripts/render_app_icon.sh`.
+- 4 démarches complètes en JSON, sourcées et à jour au 29/10/2026 : renouvellement, changement de statut, naturalisation, duplicata. Questions en entonnoir, pièces avec exemples et astuces, étapes guidées, dates calculées.
+- Orientation quand la situation ne correspond pas (`outcomes`) : explication sans verdict, pistes, contacts, courriers.
+- `help.json` : 6 contacts d'aide et 4 modèles de courriers (e-mail ou recommandé), remplis avec les informations de la personne, gardées sur le téléphone.
+- Code découpé en petits fichiers par fonctionnalité (`Features/...`, `Shared/Components`, `Shared/Animations`).
+- 22 tests verts : moteur de règles, courriers, conformité du contenu (sources, domaines, traductions, garde-fous). Contrôle rapide hors simulateur : `./scripts/check_content.sh`.
+- **Contenu au statut `draft`** : relecture humaine indispensable avant publication (voir `reviewNotes` de chaque fichier). Le décret n°2026-1001 change des délais au 30/10/2026 : à revérifier.
+- Reste à faire : traduire en anglais les nouveaux textes de l'interface (String Catalog), écran de choix de la langue et du département.
 
 ---
 

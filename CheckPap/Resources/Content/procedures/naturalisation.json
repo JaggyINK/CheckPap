@@ -1,0 +1,2507 @@
+{
+  "id": "naturalisation",
+  "reviewStatus": "draft",
+  "lastVerified": "2026-10-29",
+  "title": {
+    "fr": "Demander la naturalisation française",
+    "en": "Apply for French citizenship by naturalisation"
+  },
+  "summary": {
+    "fr": "La naturalisation par décret permet à une personne étrangère qui vit en France de demander la nationalité française. La demande se fait en ligne sur le site de l'ANEF. Cette liste vous aide à préparer les pièces et les étapes ; c'est l'administration qui décide.",
+    "en": "Naturalisation by decree lets a foreign national who lives in France apply for French citizenship. You apply online on the ANEF website. This list helps you prepare your documents and steps; the decision is made by the administration."
+  },
+  "sources": [
+    {
+      "id": "sp_f2213",
+      "publisher": "service-public.gouv.fr",
+      "title": "Naturalisation française par décret (Vérifié le 16 juillet 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2213",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_simulateur",
+      "publisher": "service-public.gouv.fr",
+      "title": "Simulateur - Quels sont les documents nécessaires à mon dossier de naturalisation ? (Vérifié le 21 août 2026)",
+      "url": "https://www.service-public.gouv.fr/simulateur/calcul/Naturalisation",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_r64540",
+      "publisher": "service-public.gouv.fr",
+      "title": "Quels sont les documents nécessaires à mon dossier de naturalisation ? (Vérifié le 12 janvier 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R64540",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_r60835",
+      "publisher": "service-public.gouv.fr",
+      "title": "Demande en ligne de naturalisation française ou de réintégration dans la nationalité française (Vérifié le 12 mai 2025)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R60835",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f34741",
+      "publisher": "service-public.gouv.fr",
+      "title": "Naturalisation française : quels justificatifs d'état civil et de nationalité ? (Vérifié le 01 janvier 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34741",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f34745",
+      "publisher": "service-public.gouv.fr",
+      "title": "Naturalisation française : quels justificatifs de domicile fournir ? (Vérifié le 01 janvier 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34745",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f34746",
+      "publisher": "service-public.gouv.fr",
+      "title": "Naturalisation française : quels justificatifs de revenus et d'impôts ? (Vérifié le 01 janvier 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34746",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f34758",
+      "publisher": "service-public.gouv.fr",
+      "title": "Naturalisation française : quels justificatifs si l'on vit en couple ? (Vérifié le 01 janvier 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34758",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f34777",
+      "publisher": "service-public.gouv.fr",
+      "title": "Naturalisation française : quels justificatifs si l'on est divorcé ou veuf ? (Vérifié le 01 janvier 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34777",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f34764",
+      "publisher": "service-public.gouv.fr",
+      "title": "Naturalisation française : quels justificatifs pour les enfants mineurs ? (Vérifié le 01 janvier 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34764",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f11926",
+      "publisher": "service-public.gouv.fr",
+      "title": "Nationalité française : comment justifier de son niveau en français ? (Vérifié le 01 janvier 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F11926",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f39426",
+      "publisher": "service-public.gouv.fr",
+      "title": "Naturalisation française : comment passer l'examen civique ? (Vérifié le 16 juillet 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F39426",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f32952",
+      "publisher": "service-public.gouv.fr",
+      "title": "Comment acheter un timbre fiscal pour une demande de nationalité française ? (Vérifié le 01 mai 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F32952",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f12956",
+      "publisher": "service-public.gouv.fr",
+      "title": "Traduction d'un document : comment trouver un traducteur agréé ? (Vérifié le 26 janvier 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F12956",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f1402",
+      "publisher": "service-public.gouv.fr",
+      "title": "Légalisation d'un acte public établi par une autorité étrangère (Vérifié le 30 octobre 2025)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1402",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f15868",
+      "publisher": "service-public.gouv.fr",
+      "title": "Qu'est-ce que la cérémonie d'accueil dans la citoyenneté française ? (Vérifié le 09 juillet 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F15868",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f33626",
+      "publisher": "service-public.gouv.fr",
+      "title": "Comment trouver son décret de naturalisation publié au Journal officiel ? (Vérifié le 23 octobre 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33626",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f2726",
+      "publisher": "service-public.gouv.fr",
+      "title": "Déclaration de nationalité française par mariage (Vérifié le 01 mai 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2726",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "pref_rhone_nationalite",
+      "publisher": "rhone.gouv.fr",
+      "title": "Nationalité française - Préfecture du Rhône (pas de date « Vérifié le » sur la page ; listes de pièces jointes datées du 30/04/2026)",
+      "url": "https://www.rhone.gouv.fr/Demarches/Nationalite-francaise",
+      "consulted": "2026-10-29"
+    }
+  ],
+  "questions": [
+    {
+      "id": "residence_length",
+      "kind": "single",
+      "title": {
+        "fr": "Depuis combien de temps vivez-vous en France ?",
+        "en": "How long have you lived in France?"
+      },
+      "help": {
+        "fr": "La règle générale demande 5 ans de résidence en France, avec des exceptions. Si vous vivez en France depuis moins de 10 ans, un extrait de casier judiciaire étranger est demandé. Le délai de réponse de l'administration dépend aussi de cette durée.",
+        "en": "The general rule is 5 years of residence in France, with some exceptions. If you have lived in France for less than 10 years, a foreign criminal record is required. The time the administration takes to answer also depends on this."
+      },
+      "example": {
+        "fr": "Exemple : vous êtes arrivé en France en septembre 2019. Vous choisissez « Entre 5 et 10 ans ».",
+        "en": "Example: you arrived in France in September 2019. Choose \"Between 5 and 10 years\"."
+      },
+      "options": [
+        {
+          "id": "under_2",
+          "label": {
+            "fr": "Moins de 2 ans",
+            "en": "Less than 2 years"
+          }
+        },
+        {
+          "id": "2_to_5",
+          "label": {
+            "fr": "Entre 2 et 5 ans",
+            "en": "Between 2 and 5 years"
+          }
+        },
+        {
+          "id": "5_to_10",
+          "label": {
+            "fr": "Entre 5 et 10 ans",
+            "en": "Between 5 and 10 years"
+          }
+        },
+        {
+          "id": "10_to_15",
+          "label": {
+            "fr": "Entre 10 et 15 ans",
+            "en": "Between 10 and 15 years"
+          }
+        },
+        {
+          "id": "15_plus",
+          "label": {
+            "fr": "15 ans ou plus",
+            "en": "15 years or more"
+          }
+        }
+      ],
+      "condition": null,
+      "sources": [
+        "sp_f2213",
+        "sp_simulateur"
+      ]
+    },
+    {
+      "id": "protection_status",
+      "kind": "single",
+      "title": {
+        "fr": "Êtes-vous réfugié ou apatride ?",
+        "en": "Are you a refugee or a stateless person?"
+      },
+      "help": {
+        "fr": "Ce statut change certaines règles : durée de résidence (aucune durée minimale pour un réfugié), casier judiciaire du pays d'origine et, dans certains cas, justificatif de langue.",
+        "en": "This status changes some rules: residence period (no minimum for a refugee), criminal record from your country of origin and, in some cases, proof of French level."
+      },
+      "example": {
+        "fr": "Exemple : l'Ofpra vous a reconnu le statut de réfugié. Vous choisissez « Réfugié ».",
+        "en": "Example: OFPRA granted you refugee status. Choose \"Refugee\"."
+      },
+      "options": [
+        {
+          "id": "refugee",
+          "label": {
+            "fr": "Réfugié",
+            "en": "Refugee"
+          }
+        },
+        {
+          "id": "stateless",
+          "label": {
+            "fr": "Apatride protégé par l'Ofpra",
+            "en": "Stateless person protected by OFPRA"
+          }
+        },
+        {
+          "id": "none",
+          "label": {
+            "fr": "Ni l'un ni l'autre",
+            "en": "Neither"
+          }
+        }
+      ],
+      "condition": null,
+      "sources": [
+        "sp_f2213",
+        "sp_f11926",
+        "sp_simulateur"
+      ]
+    },
+    {
+      "id": "residence_reduction",
+      "kind": "single",
+      "title": {
+        "fr": "Êtes-vous dans l'une de ces situations ?",
+        "en": "Does one of these situations apply to you?"
+      },
+      "help": {
+        "fr": "Service-public.fr liste des cas où la durée de 5 ans est réduite à 2 ans, ou n'est pas exigée.",
+        "en": "Service-public.fr lists cases where the 5-year period is reduced to 2 years, or is not required."
+      },
+      "example": {
+        "fr": "Exemple : vous avez obtenu un master dans une université française après 2 ans d'études. Vous choisissez la première réponse.",
+        "en": "Example: you earned a master's degree at a French university after 2 years of study. Choose the first answer."
+      },
+      "options": [
+        {
+          "id": "higher_education_france",
+          "label": {
+            "fr": "Diplôme du supérieur en France après 2 ans d'études",
+            "en": "French higher education degree after 2 years of study"
+          },
+          "help": {
+            "fr": "Diplôme d'un établissement d'enseignement supérieur français obtenu après 2 ans d'études : 2 ans de résidence demandés.",
+            "en": "Degree from a French higher education institution after 2 years of study: 2 years of residence required."
+          }
+        },
+        {
+          "id": "francophone",
+          "label": {
+            "fr": "Pays francophone et français langue maternelle ou 5 ans d'école en français",
+            "en": "French-speaking country and French as mother tongue or 5 years of schooling in French"
+          },
+          "help": {
+            "fr": "Pays cités par service-public.fr : Belgique, Bénin, Burkina Faso, Burundi, Cameroun, Canada, Centrafrique, Comores, Congo, RD Congo, Côte d'Ivoire, Djibouti, Gabon, Guinée, Guinée équatoriale, Haïti, Luxembourg, Madagascar, Mali, Monaco, Niger, Rwanda, Sénégal, Seychelles, Suisse, Tchad, Togo, Vanuatu.",
+            "en": "Countries listed by service-public.fr: Belgium, Benin, Burkina Faso, Burundi, Cameroon, Canada, Central African Republic, Comoros, Congo, DR Congo, Ivory Coast, Djibouti, Gabon, Guinea, Equatorial Guinea, Haiti, Luxembourg, Madagascar, Mali, Monaco, Niger, Rwanda, Senegal, Seychelles, Switzerland, Chad, Togo, Vanuatu."
+          }
+        },
+        {
+          "id": "military",
+          "label": {
+            "fr": "Service militaire ou engagement dans l'armée française",
+            "en": "Military service or enlistment in the French army"
+          },
+          "help": {
+            "fr": "Service militaire dans l'armée française, ou engagement dans l'armée française ou une armée alliée en temps de guerre.",
+            "en": "Military service in the French army, or enlistment in the French or an allied army in wartime."
+          }
+        },
+        {
+          "id": "exceptional",
+          "label": {
+            "fr": "Services importants rendus à la France ou parcours d'intégration exceptionnel",
+            "en": "Important services to France or an exceptional integration path"
+          }
+        },
+        {
+          "id": "none",
+          "label": {
+            "fr": "Aucune de ces situations",
+            "en": "None of these"
+          }
+        }
+      ],
+      "condition": {
+        "all": [
+          {
+            "question": "residence_length",
+            "in": [
+              "under_2",
+              "2_to_5"
+            ]
+          },
+          {
+            "not": {
+              "question": "protection_status",
+              "equals": "refugee"
+            }
+          }
+        ]
+      },
+      "sources": [
+        "sp_f2213"
+      ]
+    },
+    {
+      "id": "eu_national",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Avez-vous la nationalité d'un pays de l'Union européenne, de l'Espace économique européen ou de la Suisse ?",
+        "en": "Are you a national of a European Union or European Economic Area country, or of Switzerland?"
+      },
+      "help": {
+        "fr": "Dans ce cas, le titre de séjour n'est pas demandé.",
+        "en": "If so, a residence permit is not required."
+      },
+      "example": {
+        "fr": "Exemple : vous êtes italien. Vous répondez « Oui ».",
+        "en": "Example: you are Italian. Answer \"Yes\"."
+      },
+      "condition": null,
+      "sources": [
+        "sp_f2213"
+      ]
+    },
+    {
+      "id": "language_proof",
+      "kind": "single",
+      "title": {
+        "fr": "Comment pouvez-vous prouver votre niveau de français ?",
+        "en": "How can you prove your level of French?"
+      },
+      "help": {
+        "fr": "Depuis le 1er janvier 2026, le niveau demandé est B2 à l'oral et à l'écrit. Certaines pages anciennes de préfecture indiquent encore B1 : ce n'est plus la règle.",
+        "en": "Since 1 January 2026, the required level is B2, spoken and written. Some older prefecture pages still say B1: this is no longer the rule."
+      },
+      "example": {
+        "fr": "Exemple : vous avez obtenu un CAP en France. Vous choisissez « Diplôme français ».",
+        "en": "Example: you earned a CAP in France. Choose \"French diploma\"."
+      },
+      "options": [
+        {
+          "id": "french_diploma",
+          "label": {
+            "fr": "Diplôme français (brevet, CAP, BEP ou plus)",
+            "en": "French diploma (brevet, CAP, BEP or higher)"
+          },
+          "help": {
+            "fr": "Diplôme national du brevet, ou diplôme ou certification professionnelle de niveau 3 au moins.",
+            "en": "Diplôme national du brevet, or a diploma or professional certification at level 3 or higher."
+          }
+        },
+        {
+          "id": "b2_diploma",
+          "label": {
+            "fr": "Diplôme de langue française de niveau B2 ou plus",
+            "en": "French language diploma at B2 level or higher"
+          },
+          "help": {
+            "fr": "Exemple : DELF B2.",
+            "en": "Example: DELF B2."
+          }
+        },
+        {
+          "id": "language_test",
+          "label": {
+            "fr": "Test TCF ou TEF réussi il y a moins de 2 ans",
+            "en": "TCF or TEF test passed less than 2 years ago"
+          }
+        },
+        {
+          "id": "not_yet",
+          "label": {
+            "fr": "Je n'ai pas encore de justificatif",
+            "en": "I don't have proof yet"
+          }
+        },
+        {
+          "id": "exemption",
+          "label": {
+            "fr": "Je pense être dispensé(e)",
+            "en": "I think I am exempt"
+          },
+          "help": {
+            "fr": "Dispense possible si votre santé ou un handicap rend l'évaluation impossible, ou si vous êtes réfugié ou apatride, avez plus de 70 ans et résidez en France depuis au moins 15 ans avec un titre valide.",
+            "en": "Possible exemption if your health or a disability makes testing impossible, or if you are a refugee or stateless, over 70, and have lived in France for at least 15 years with a valid permit."
+          }
+        }
+      ],
+      "condition": null,
+      "sources": [
+        "sp_f11926",
+        "sp_simulateur"
+      ]
+    },
+    {
+      "id": "civic_exam",
+      "kind": "single",
+      "title": {
+        "fr": "Avez-vous réussi l'examen civique ?",
+        "en": "Have you passed the civic exam?"
+      },
+      "help": {
+        "fr": "L'attestation de réussite à l'examen civique fait partie du dossier. Il faut la mention naturalisation.",
+        "en": "The civic exam pass certificate is part of the application. It must be for naturalisation."
+      },
+      "options": [
+        {
+          "id": "passed",
+          "label": {
+            "fr": "Oui, j'ai l'attestation",
+            "en": "Yes, I have the certificate"
+          }
+        },
+        {
+          "id": "not_yet",
+          "label": {
+            "fr": "Pas encore",
+            "en": "Not yet"
+          }
+        },
+        {
+          "id": "health_exemption",
+          "label": {
+            "fr": "Ma santé ou un handicap rend l'examen impossible",
+            "en": "My health or a disability makes the exam impossible"
+          }
+        }
+      ],
+      "condition": null,
+      "sources": [
+        "sp_f39426",
+        "sp_f2213"
+      ]
+    },
+    {
+      "id": "activity",
+      "kind": "single",
+      "title": {
+        "fr": "Quelle est votre situation professionnelle principale ?",
+        "en": "What is your main work situation?"
+      },
+      "help": {
+        "fr": "Des revenus stables et suffisants font partie des conditions. Les justificatifs de ressources changent selon votre activité.",
+        "en": "Stable and sufficient income is one of the conditions. The proof of income depends on your activity."
+      },
+      "options": [
+        {
+          "id": "employee",
+          "label": {
+            "fr": "Salarié(e)",
+            "en": "Employee"
+          }
+        },
+        {
+          "id": "self_employed",
+          "label": {
+            "fr": "Artisan, commerçant, agriculteur, gérant ou micro-entrepreneur",
+            "en": "Craftsperson, shopkeeper, farmer, company manager or micro-entrepreneur"
+          }
+        },
+        {
+          "id": "liberal",
+          "label": {
+            "fr": "Profession libérale",
+            "en": "Liberal profession"
+          },
+          "help": {
+            "fr": "Exemple : avocat, médecin, architecte inscrit à un ordre.",
+            "en": "Example: lawyer, doctor, architect registered with a professional body."
+          }
+        },
+        {
+          "id": "job_seeker",
+          "label": {
+            "fr": "Demandeur d'emploi",
+            "en": "Job seeker"
+          }
+        },
+        {
+          "id": "trainee",
+          "label": {
+            "fr": "Stagiaire de la formation professionnelle",
+            "en": "Vocational training trainee"
+          }
+        },
+        {
+          "id": "student",
+          "label": {
+            "fr": "Lycéen(ne) ou étudiant(e)",
+            "en": "High school or university student"
+          }
+        },
+        {
+          "id": "retired",
+          "label": {
+            "fr": "Retraité(e)",
+            "en": "Retired"
+          }
+        },
+        {
+          "id": "supported",
+          "label": {
+            "fr": "Sans activité, pris(e) en charge par un proche",
+            "en": "Not working, supported by a relative"
+          }
+        }
+      ],
+      "condition": null,
+      "sources": [
+        "sp_f34746",
+        "sp_simulateur"
+      ]
+    },
+    {
+      "id": "other_resources",
+      "kind": "single",
+      "title": {
+        "fr": "Recevez-vous aussi des prestations sociales ou une pension liée à un handicap ?",
+        "en": "Do you also receive social benefits or a disability pension?"
+      },
+      "help": {
+        "fr": "Ces revenus demandent des justificatifs en plus.",
+        "en": "These payments require extra documents."
+      },
+      "example": {
+        "fr": "Exemple : vous recevez des allocations familiales de la CAF. Vous choisissez « Prestations sociales ».",
+        "en": "Example: you receive family allowance from the CAF. Choose \"Social benefits\"."
+      },
+      "options": [
+        {
+          "id": "none",
+          "label": {
+            "fr": "Non",
+            "en": "No"
+          }
+        },
+        {
+          "id": "social_benefits",
+          "label": {
+            "fr": "Prestations sociales (allocations familiales, aide au logement, RSA...)",
+            "en": "Social benefits (family allowance, housing aid, RSA...)"
+          }
+        },
+        {
+          "id": "disability",
+          "label": {
+            "fr": "Pension ou allocation liée à un handicap ou une invalidité",
+            "en": "Pension or allowance for a disability"
+          }
+        },
+        {
+          "id": "both",
+          "label": {
+            "fr": "Les deux",
+            "en": "Both"
+          }
+        }
+      ],
+      "condition": null,
+      "sources": [
+        "sp_f34746"
+      ]
+    },
+    {
+      "id": "family_status",
+      "kind": "single",
+      "title": {
+        "fr": "Quelle est votre situation de couple aujourd'hui ?",
+        "en": "What is your relationship status today?"
+      },
+      "help": {
+        "fr": "Les pièces demandées changent selon que vous êtes marié, pacsé, en union libre, divorcé ou veuf.",
+        "en": "The documents required change depending on whether you are married, in a civil partnership (PACS), living together, divorced or widowed."
+      },
+      "options": [
+        {
+          "id": "single",
+          "label": {
+            "fr": "Célibataire",
+            "en": "Single"
+          }
+        },
+        {
+          "id": "married",
+          "label": {
+            "fr": "Marié(e)",
+            "en": "Married"
+          }
+        },
+        {
+          "id": "pacs",
+          "label": {
+            "fr": "Pacsé(e)",
+            "en": "In a PACS (civil partnership)"
+          }
+        },
+        {
+          "id": "cohabiting",
+          "label": {
+            "fr": "En union libre (concubinage)",
+            "en": "Living together, not married"
+          }
+        },
+        {
+          "id": "separated",
+          "label": {
+            "fr": "Séparé(e) ou en cours de divorce",
+            "en": "Separated or getting divorced"
+          }
+        },
+        {
+          "id": "divorced",
+          "label": {
+            "fr": "Divorcé(e)",
+            "en": "Divorced"
+          }
+        },
+        {
+          "id": "widowed",
+          "label": {
+            "fr": "Veuf ou veuve",
+            "en": "Widowed"
+          }
+        }
+      ],
+      "condition": null,
+      "sources": [
+        "sp_f34758",
+        "sp_f34777",
+        "sp_simulateur"
+      ]
+    },
+    {
+      "id": "previous_union",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Avez-vous déjà été marié(e) ou pacsé(e) avant votre union actuelle ?",
+        "en": "Were you married or in a PACS before your current relationship?"
+      },
+      "help": {
+        "fr": "Si oui, les pièces sur chaque mariage précédent et sa fin sont demandées.",
+        "en": "If so, documents about each previous marriage and how it ended are required."
+      },
+      "example": {
+        "fr": "Exemple : vous avez divorcé en 2015, puis vous vous êtes remarié en 2020. Vous répondez « Oui ».",
+        "en": "Example: you divorced in 2015, then remarried in 2020. Answer \"Yes\"."
+      },
+      "condition": {
+        "question": "family_status",
+        "in": [
+          "married",
+          "pacs",
+          "cohabiting",
+          "separated"
+        ]
+      },
+      "sources": [
+        "sp_f34777",
+        "sp_simulateur"
+      ]
+    },
+    {
+      "id": "has_minor_children",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Avez-vous des enfants mineurs ?",
+        "en": "Do you have children under 18?"
+      },
+      "help": {
+        "fr": "Vos enfants mineurs non mariés qui vivent habituellement avec vous peuvent devenir français en même temps que vous, si leur nom figure dans le décret. Des pièces sont demandées pour chaque enfant, y compris s'il est né à l'étranger.",
+        "en": "Your unmarried children under 18 who usually live with you can become French at the same time as you, if their name is in the decree. Documents are required for each child, including children born abroad."
+      },
+      "condition": null,
+      "sources": [
+        "sp_f2213",
+        "sp_f34764"
+      ]
+    },
+    {
+      "id": "housing",
+      "kind": "single",
+      "title": {
+        "fr": "Quelle est votre situation de logement ?",
+        "en": "What is your housing situation?"
+      },
+      "help": {
+        "fr": "Les justificatifs de domicile dépendent de votre situation.",
+        "en": "The proof of address depends on your situation."
+      },
+      "example": {
+        "fr": "Exemple : vous vivez chez un ami sans payer de loyer. Vous choisissez « Hébergé ».",
+        "en": "Example: you live with a friend without paying rent. Choose \"Hosted\"."
+      },
+      "options": [
+        {
+          "id": "tenant",
+          "label": {
+            "fr": "Locataire",
+            "en": "Tenant"
+          }
+        },
+        {
+          "id": "owner",
+          "label": {
+            "fr": "Propriétaire",
+            "en": "Owner"
+          }
+        },
+        {
+          "id": "hosted",
+          "label": {
+            "fr": "Hébergé(e) chez quelqu'un",
+            "en": "Hosted by someone"
+          }
+        }
+      ],
+      "condition": null,
+      "sources": [
+        "sp_f34745"
+      ]
+    }
+  ],
+  "documents": [
+    {
+      "id": "fiscal_stamp",
+      "category": "tax",
+      "title": {
+        "fr": "Timbre fiscal électronique de 255 €",
+        "en": "255 € electronic tax stamp"
+      },
+      "details": {
+        "fr": "Timbre « Accès à la nationalité française » de 255 € (127,50 € en Guyane). Vous pouvez le payer pendant la demande en ligne, ou l'acheter en ligne ou dans un bureau de tabac équipé. La préfecture du Rhône indique que ce montant s'applique aux dossiers déposés sur l'ANEF à partir du 1er mai 2026.",
+        "en": "\"Accès à la nationalité française\" stamp of 255 € (127.50 € in French Guiana). You can pay it during the online application, or buy it online or in an equipped tobacco shop. The Rhône prefecture says this amount applies to applications filed on ANEF from 1 May 2026."
+      },
+      "tip": {
+        "fr": "Le timbre électronique est valable 1 an après l'achat. S'il n'est pas utilisé, vous pouvez demander son remboursement dans les 18 mois. En dehors du timbre, la démarche est gratuite.",
+        "en": "The electronic stamp is valid for 1 year after purchase. If unused, you can ask for a refund within 18 months. Apart from the stamp, the procedure is free."
+      },
+      "condition": null,
+      "sources": [
+        "sp_f2213",
+        "sp_f32952",
+        "sp_simulateur",
+        "pref_rhone_nationalite"
+      ]
+    },
+    {
+      "id": "identity_document",
+      "category": "identity",
+      "title": {
+        "fr": "Pièce d'identité (passeport ou titre de séjour)",
+        "en": "Identity document (passport or residence permit)"
+      },
+      "details": {
+        "fr": "Copie de votre pièce d'identité, par exemple votre passeport. L'original sera demandé à l'entretien.",
+        "en": "Copy of your identity document, for example your passport. The original will be asked for at the interview."
+      },
+      "condition": null,
+      "sources": [
+        "sp_f2213",
+        "sp_simulateur"
+      ]
+    },
+    {
+      "id": "residence_permit",
+      "category": "residence",
+      "title": {
+        "fr": "Titre de séjour en cours de validité",
+        "en": "Valid residence permit"
+      },
+      "details": {
+        "fr": "Copie recto-verso de votre titre de séjour valide au moment du dépôt. L'original sera demandé à l'entretien.",
+        "en": "Front and back copy of your residence permit, valid on the day you apply. The original will be asked for at the interview."
+      },
+      "condition": {
+        "question": "eu_national",
+        "equals": "no"
+      },
+      "sources": [
+        "sp_f2213",
+        "sp_simulateur"
+      ]
+    },
+    {
+      "id": "schengen_travel_passport",
+      "category": "identity",
+      "title": {
+        "fr": "Passeport ou visa pour vos courts séjours dans l'espace Schengen",
+        "en": "Passport or visa for your short stays in the Schengen area"
+      },
+      "details": {
+        "fr": "Demandé si, au cours des 5 années avant votre demande, vous êtes entré dans l'espace Schengen depuis un pays hors Schengen pour moins de 3 mois. Fournissez votre passeport ou un document équivalent (par exemple un visa Schengen), et ceux de vos enfants mineurs qui pourraient devenir français à leur majorité.",
+        "en": "Required if, in the 5 years before applying, you entered the Schengen area from a non-Schengen country for less than 3 months. Provide your passport or an equivalent document (for example a Schengen visa), and those of your minor children who could become French when they turn 18."
+      },
+      "condition": {
+        "question": "eu_national",
+        "equals": "no"
+      },
+      "sources": [
+        "sp_f2213"
+      ]
+    },
+    {
+      "id": "birth_certificate",
+      "category": "civil_status",
+      "title": {
+        "fr": "Votre acte de naissance (copie intégrale)",
+        "en": "Your birth certificate (full copy)"
+      },
+      "details": {
+        "fr": "Copie intégrale en original, dans la langue du pays d'origine, délivrée par l'officier d'état civil du lieu où l'acte est conservé. Elle doit indiquer les nom, prénom, date et lieu de naissance de votre père et de votre mère. Un acte français doit dater de moins de 3 mois. Un acte en langue étrangère doit être accompagné de l'original de sa traduction en français par un traducteur agréé. Selon le pays, une légalisation ou une apostille peut être nécessaire.",
+        "en": "Original full copy, in the language of the country of origin, issued by the civil registrar where the record is kept. It must show the surname, first name, date and place of birth of your father and mother. A French certificate must be less than 3 months old. A certificate in a foreign language must come with the original of its French translation by a certified translator. Depending on the country, legalisation or an apostille may be needed."
+      },
+      "example": {
+        "fr": "Exemple : un acte de naissance marocain en arabe, avec sa traduction en français faite par un traducteur inscrit auprès d'une cour d'appel.",
+        "en": "Example: a Moroccan birth certificate in Arabic, with its French translation by a translator registered with a court of appeal."
+      },
+      "tip": {
+        "fr": "Si un renseignement sur vos parents manque, le service peut demander les actes de naissance de vos parents. Un extrait plurilingue entraîne la demande d'autres documents.",
+        "en": "If information about your parents is missing, the office may ask for your parents' birth certificates. A multilingual extract leads to a request for other documents."
+      },
+      "condition": null,
+      "sources": [
+        "sp_f34741",
+        "sp_simulateur"
+      ]
+    },
+    {
+      "id": "parents_civil_status",
+      "category": "civil_status",
+      "title": {
+        "fr": "Justificatif de la naissance de vos parents et de leur mariage",
+        "en": "Proof of your parents' birth and marriage"
+      },
+      "details": {
+        "fr": "Document qui prouve la date et le lieu de naissance de votre père et de votre mère, et de leur mariage s'ils sont mariés. À fournir en original, avec traduction si le document est en langue étrangère.",
+        "en": "Document showing the date and place of birth of your father and mother, and of their marriage if they are married. Provide the original, with a translation if it is in a foreign language."
+      },
+      "condition": null,
+      "sources": [
+        "sp_f34741",
+        "sp_simulateur"
+      ]
+    },
+    {
+      "id": "nationality_proof",
+      "category": "civil_status",
+      "title": {
+        "fr": "Justificatif de votre nationalité actuelle",
+        "en": "Proof of your current nationality"
+      },
+      "details": {
+        "fr": "Document qui prouve votre nationalité dans votre pays d'origine, par exemple une copie de votre passeport.",
+        "en": "Document proving your nationality in your country of origin, for example a copy of your passport."
+      },
+      "condition": null,
+      "sources": [
+        "sp_f34741"
+      ]
+    },
+    {
+      "id": "name_change_proof",
+      "category": "civil_status",
+      "title": {
+        "fr": "Seulement si votre nom a changé : justificatif du changement",
+        "en": "Only if your name has changed: proof of the change"
+      },
+      "details": {
+        "fr": "Tout document qui prouve une modification de votre nom. Le simulateur de service-public.fr demande l'original de la décision de changement de nom.",
+        "en": "Any document proving a change of your name. The service-public.fr simulator asks for the original name change decision."
+      },
+      "condition": null,
+      "sources": [
+        "sp_f34741",
+        "sp_simulateur"
+      ]
+    },
+    {
+      "id": "foreign_criminal_record",
+      "category": "other",
+      "title": {
+        "fr": "Extrait de casier judiciaire étranger",
+        "en": "Foreign criminal record extract"
+      },
+      "details": {
+        "fr": "Extrait original de casier judiciaire, ou document équivalent, délivré par chaque pays où vous avez vécu au cours des 10 dernières années. À défaut, celui du pays dont vous avez la nationalité. Avec traduction si besoin.",
+        "en": "Original criminal record extract, or equivalent document, issued by each country where you lived in the last 10 years. If not possible, the one from your country of nationality. With a translation if needed."
+      },
+      "tip": {
+        "fr": "Si vous êtes réfugié ou apatride protégé par l'Ofpra, ce document n'est pas demandé pour votre pays d'origine.",
+        "en": "If you are a refugee or a stateless person protected by OFPRA, this document is not required for your country of origin."
+      },
+      "condition": {
+        "question": "residence_length",
+        "in": [
+          "under_2",
+          "2_to_5",
+          "5_to_10"
+        ]
+      },
+      "sources": [
+        "sp_f2213",
+        "sp_simulateur"
+      ]
+    },
+    {
+      "id": "marriage_certificate",
+      "category": "family",
+      "title": {
+        "fr": "Acte de mariage (copie intégrale)",
+        "en": "Marriage certificate (full copy)"
+      },
+      "details": {
+        "fr": "Copie intégrale en original de votre acte de mariage actuel. Un acte français doit dater de moins de 3 mois. Un acte étranger doit être traduit par un traducteur agréé, et parfois légalisé ou apostillé.",
+        "en": "Original full copy of your current marriage certificate. A French certificate must be less than 3 months old. A foreign certificate must be translated by a certified translator, and sometimes legalised or apostilled."
+      },
+      "condition": {
+        "question": "family_status",
+        "in": [
+          "married",
+          "separated"
+        ]
+      },
+      "sources": [
+        "sp_f34758",
+        "sp_simulateur"
+      ]
+    },
+    {
+      "id": "spouse_identity",
+      "category": "family",
+      "title": {
+        "fr": "Titre de séjour ou carte d'identité de votre époux ou épouse",
+        "en": "Your spouse's residence permit or ID card"
+      },
+      "details": {
+        "fr": "Copie recto-verso du titre de séjour ou de la carte nationale d'identité de votre époux ou épouse.",
+        "en": "Front and back copy of your spouse's residence permit or national ID card."
+      },
+      "condition": {
+        "question": "family_status",
+        "in": [
+          "married",
+          "separated"
+        ]
+      },
+      "sources": [
+        "sp_f34758",
+        "sp_simulateur"
+      ]
+    },
+    {
+      "id": "spouse_entry_authorisation",
+      "category": "family",
+      "title": {
+        "fr": "Autorisation d'entrée en France de votre époux ou épouse",
+        "en": "Your spouse's authorisation to enter France"
+      },
+      "details": {
+        "fr": "Copie de l'autorisation d'entrée en France de votre mari ou de votre femme. Cette pièce apparaît dans la liste du simulateur de service-public.fr pour une personne mariée.",
+        "en": "Copy of your husband's or wife's authorisation to enter France. This document appears in the service-public.fr simulator list for a married person."
+      },
+      "condition": {
+        "question": "family_status",
+        "equals": "married"
+      },
+      "sources": [
+        "sp_simulateur"
+      ]
+    },
+    {
+      "id": "separation_decision",
+      "category": "family",
+      "title": {
+        "fr": "Décision de séparation ou ordonnance de non-conciliation",
+        "en": "Separation decision or non-conciliation order"
+      },
+      "details": {
+        "fr": "Si vous êtes séparé de votre époux ou épouse, ou en cours de divorce : copie de la décision de séparation de corps ou de l'ordonnance de non-conciliation.",
+        "en": "If you are separated from your spouse or getting divorced: copy of the legal separation decision or the non-conciliation order."
+      },
+      "condition": {
+        "question": "family_status",
+        "equals": "separated"
+      },
+      "sources": [
+        "sp_f34758"
+      ]
+    },
+    {
+      "id": "pacs_receipt",
+      "category": "family",
+      "title": {
+        "fr": "Récépissé d'enregistrement du Pacs",
+        "en": "PACS registration receipt"
+      },
+      "details": {
+        "fr": "Récépissé d'enregistrement du Pacs, et copie recto-verso du titre de séjour ou de la carte nationale d'identité de votre partenaire.",
+        "en": "PACS registration receipt, and a front and back copy of your partner's residence permit or national ID card."
+      },
+      "condition": {
+        "question": "family_status",
+        "equals": "pacs"
+      },
+      "sources": [
+        "sp_f34758"
+      ]
+    },
+    {
+      "id": "partner_identity",
+      "category": "family",
+      "title": {
+        "fr": "Titre de séjour ou carte d'identité de la personne avec qui vous vivez",
+        "en": "Residence permit or ID card of the person you live with"
+      },
+      "details": {
+        "fr": "Copie recto-verso du titre de séjour ou de la carte nationale d'identité de la personne avec laquelle vous vivez en couple.",
+        "en": "Front and back copy of the residence permit or national ID card of your partner."
+      },
+      "condition": {
+        "question": "family_status",
+        "equals": "cohabiting"
+      },
+      "sources": [
+        "sp_f34758"
+      ]
+    },
+    {
+      "id": "previous_unions_proof",
+      "category": "family",
+      "title": {
+        "fr": "Actes des mariages précédents et preuve de leur fin",
+        "en": "Previous marriage certificates and proof they ended"
+      },
+      "details": {
+        "fr": "Décision de divorce ou acte de répudiation, avec la preuve qu'il est définitif (originaux). Actes de tous vos mariages et preuve de leur dissolution. Si vous avez rompu un Pacs : justificatif de dissolution du Pacs.",
+        "en": "Divorce decision or repudiation record, with proof that it is final (originals). Certificates of all your marriages and proof they were dissolved. If you ended a PACS: proof the PACS was dissolved."
+      },
+      "condition": {
+        "any": [
+          {
+            "question": "family_status",
+            "equals": "divorced"
+          },
+          {
+            "question": "previous_union",
+            "equals": "yes"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f34777",
+        "sp_simulateur"
+      ]
+    },
+    {
+      "id": "spouse_death_certificate",
+      "category": "family",
+      "title": {
+        "fr": "Acte de décès de votre époux ou épouse",
+        "en": "Your spouse's death certificate"
+      },
+      "details": {
+        "fr": "Acte de décès de votre époux ou épouse, avec traduction si l'acte est en langue étrangère.",
+        "en": "Your spouse's death certificate, with a translation if it is in a foreign language."
+      },
+      "condition": {
+        "question": "family_status",
+        "equals": "widowed"
+      },
+      "sources": [
+        "sp_f34777"
+      ]
+    },
+    {
+      "id": "children_birth_certificates",
+      "category": "family",
+      "title": {
+        "fr": "Acte de naissance de chaque enfant mineur",
+        "en": "Birth certificate of each minor child"
+      },
+      "details": {
+        "fr": "Copie intégrale de l'acte de naissance de chaque enfant. Pour un enfant adopté, le jugement d'adoption. Si l'enfant est né à l'étranger, l'acte doit être traduit par un traducteur agréé, et parfois légalisé ou apostillé.",
+        "en": "Full copy of each child's birth certificate. For an adopted child, the adoption judgment. If the child was born abroad, the certificate must be translated by a certified translator, and sometimes legalised or apostilled."
+      },
+      "tip": {
+        "fr": "Si vous voulez faire une déclaration conjointe de choix de nom pour vos enfants mineurs étrangers, joignez le formulaire cerfa n°15286 rempli et signé.",
+        "en": "If you want to make a joint name choice declaration for your foreign minor children, add form cerfa no. 15286, filled in and signed."
+      },
+      "condition": {
+        "question": "has_minor_children",
+        "equals": "yes"
+      },
+      "sources": [
+        "sp_f34764",
+        "sp_simulateur"
+      ]
+    },
+    {
+      "id": "children_residence_proof",
+      "category": "family",
+      "title": {
+        "fr": "Preuve que vos enfants vivent avec vous",
+        "en": "Proof that your children live with you"
+      },
+      "details": {
+        "fr": "Enfants scolarisés : copies des certificats de scolarité de l'année en cours. Enfants non scolarisés : copie de tout document qui prouve qu'ils vivent chez vous.",
+        "en": "Children in school: copies of this year's school certificates. Children not in school: a copy of any document proving they live with you."
+      },
+      "example": {
+        "fr": "Exemple pour un enfant non scolarisé : pages remplies du carnet de santé, contrat de garde à domicile.",
+        "en": "Example for a child not in school: completed pages of the health record book, a home childcare contract."
+      },
+      "condition": {
+        "question": "has_minor_children",
+        "equals": "yes"
+      },
+      "sources": [
+        "sp_f34764"
+      ]
+    },
+    {
+      "id": "children_french_nationality",
+      "category": "family",
+      "title": {
+        "fr": "Seulement pour un enfant déjà français : certificat de nationalité française",
+        "en": "Only for a child who is already French: certificate of French nationality"
+      },
+      "details": {
+        "fr": "Si la mention de la nationalité française ne figure pas sur l'acte de naissance de l'enfant français, fournissez son certificat de nationalité française.",
+        "en": "If French nationality is not mentioned on the French child's birth certificate, provide the child's certificate of French nationality."
+      },
+      "condition": {
+        "question": "has_minor_children",
+        "equals": "yes"
+      },
+      "sources": [
+        "sp_f34764"
+      ]
+    },
+    {
+      "id": "children_family_reunification",
+      "category": "family",
+      "title": {
+        "fr": "Seulement si un enfant est venu par regroupement familial : décision d'entrée",
+        "en": "Only if a child came through family reunification: entry decision"
+      },
+      "details": {
+        "fr": "Pour les enfants qui vous ont rejoint en France par regroupement familial : copie de la décision autorisant leur entrée en France.",
+        "en": "For children who joined you in France through family reunification: copy of the decision allowing them to enter France."
+      },
+      "condition": {
+        "question": "has_minor_children",
+        "equals": "yes"
+      },
+      "sources": [
+        "sp_f34764"
+      ]
+    },
+    {
+      "id": "address_tenant",
+      "category": "address",
+      "title": {
+        "fr": "Bail, 3 dernières quittances et dernière facture",
+        "en": "Lease, last 3 rent receipts and latest bill"
+      },
+      "details": {
+        "fr": "Contrat de location, 3 dernières quittances de loyer et dernière facture de téléphone, d'accès internet ou d'énergie (électricité, gaz).",
+        "en": "Rental contract, last 3 rent receipts and the latest phone, internet or energy (electricity, gas) bill."
+      },
+      "condition": {
+        "question": "housing",
+        "equals": "tenant"
+      },
+      "sources": [
+        "sp_f34745",
+        "sp_simulateur"
+      ]
+    },
+    {
+      "id": "address_owner",
+      "category": "address",
+      "title": {
+        "fr": "Attestation de propriété délivrée par un notaire",
+        "en": "Proof of ownership from a notary"
+      },
+      "details": {
+        "fr": "Attestation (ou acte) de propriété de votre domicile délivrée par un notaire.",
+        "en": "Certificate (or deed) of ownership of your home issued by a notary."
+      },
+      "condition": {
+        "question": "housing",
+        "equals": "owner"
+      },
+      "sources": [
+        "sp_f34745",
+        "sp_simulateur"
+      ]
+    },
+    {
+      "id": "address_hosted",
+      "category": "address",
+      "title": {
+        "fr": "Attestation d'hébergement et pièce d'identité de l'hébergeant",
+        "en": "Hosting letter and host's ID"
+      },
+      "details": {
+        "fr": "Attestation d'hébergement et copie d'une pièce d'identité de la personne qui vous héberge (carte d'identité, passeport...).",
+        "en": "Hosting certificate and a copy of the ID of the person who hosts you (ID card, passport...)."
+      },
+      "condition": {
+        "question": "housing",
+        "equals": "hosted"
+      },
+      "sources": [
+        "sp_f34745",
+        "sp_simulateur"
+      ]
+    },
+    {
+      "id": "tax_notices",
+      "category": "tax",
+      "title": {
+        "fr": "Avis d'imposition des 3 dernières années",
+        "en": "Tax notices for the last 3 years"
+      },
+      "details": {
+        "fr": "Avis d'imposition, ou avis de situation déclarative à l'impôt sur le revenu (Asdir, qui remplace l'avis de non-imposition), des 3 dernières années.",
+        "en": "Tax notices, or income tax declaration statements (ASDIR, which replace the non-taxation notice), for the last 3 years."
+      },
+      "condition": null,
+      "sources": [
+        "sp_f34746",
+        "sp_simulateur"
+      ]
+    },
+    {
+      "id": "tax_situation_p237",
+      "category": "tax",
+      "title": {
+        "fr": "Bordereau de situation fiscale P237",
+        "en": "Tax status statement (form P237)"
+      },
+      "details": {
+        "fr": "Bordereau de situation fiscale modèle P237 portant sur les 3 dernières années. Il doit dater de moins de 3 mois à la date de dépôt du dossier.",
+        "en": "Tax status statement, form P237, covering the last 3 years. It must be less than 3 months old on the day you apply."
+      },
+      "tip": {
+        "fr": "Demandez-le peu de temps avant le dépôt pour qu'il ait moins de 3 mois.",
+        "en": "Ask for it shortly before you apply so that it is less than 3 months old."
+      },
+      "condition": null,
+      "sources": [
+        "sp_f34746",
+        "sp_simulateur"
+      ]
+    },
+    {
+      "id": "employee_contracts",
+      "category": "work",
+      "title": {
+        "fr": "Contrat de travail et certificats de travail",
+        "en": "Employment contract and work certificates"
+      },
+      "details": {
+        "fr": "Contrat de travail en cours indiquant le salaire, la date d'entrée et l'emploi occupé. Certificats de travail, si possible des 3 dernières années, ou relevé de carrière.",
+        "en": "Current employment contract showing salary, start date and job. Work certificates, if possible for the last 3 years, or a career statement."
+      },
+      "condition": {
+        "question": "activity",
+        "equals": "employee"
+      },
+      "sources": [
+        "sp_f34746",
+        "sp_simulateur"
+      ]
+    },
+    {
+      "id": "employee_payslips",
+      "category": "resources",
+      "title": {
+        "fr": "Bulletins de salaire",
+        "en": "Payslips"
+      },
+      "details": {
+        "fr": "Vos 3 derniers bulletins de salaire, et les bulletins de novembre et décembre des 3 dernières années.",
+        "en": "Your last 3 payslips, and the November and December payslips for the last 3 years."
+      },
+      "example": {
+        "fr": "Exemple pour un dépôt en 2026 : les 3 derniers mois, plus novembre et décembre 2023, 2024 et 2025.",
+        "en": "Example for an application in 2026: the last 3 months, plus November and December 2023, 2024 and 2025."
+      },
+      "condition": {
+        "question": "activity",
+        "equals": "employee"
+      },
+      "sources": [
+        "sp_f34746",
+        "sp_simulateur"
+      ]
+    },
+    {
+      "id": "self_employed_proof",
+      "category": "work",
+      "title": {
+        "fr": "Justificatifs d'activité indépendante",
+        "en": "Proof of self-employment"
+      },
+      "details": {
+        "fr": "Extrait d'immatriculation au registre du commerce ou des métiers. Artisan, commerçant, exploitant agricole ou gérant : attestation comptable des revenus de votre activité et bordereau de situation fiscale de la société dont vous êtes actionnaire ou gérant. Micro-entrepreneur : justificatif des ressources des 3 dernières années ou relevé de carrière, et copie des déclarations Urssaf des 12 derniers mois.",
+        "en": "Extract of registration in the trade or crafts register. Craftsperson, shopkeeper, farmer or manager: accountant's certificate of your business income and tax status statement of the company you own shares in or manage. Micro-entrepreneur: proof of income for the last 3 years or a career statement, and copies of your Urssaf declarations for the last 12 months."
+      },
+      "condition": {
+        "question": "activity",
+        "equals": "self_employed"
+      },
+      "sources": [
+        "sp_f34746"
+      ]
+    },
+    {
+      "id": "liberal_proof",
+      "category": "work",
+      "title": {
+        "fr": "Inscription à l'ordre et justificatifs de ressources",
+        "en": "Professional body registration and proof of income"
+      },
+      "details": {
+        "fr": "Inscription à l'ordre professionnel, et justificatif des ressources des 3 dernières années ou relevé de carrière.",
+        "en": "Registration with your professional body, and proof of income for the last 3 years or a career statement."
+      },
+      "condition": {
+        "question": "activity",
+        "equals": "liberal"
+      },
+      "sources": [
+        "sp_f34746"
+      ]
+    },
+    {
+      "id": "job_seeker_proof",
+      "category": "resources",
+      "title": {
+        "fr": "Justificatifs de demandeur d'emploi",
+        "en": "Job seeker documents"
+      },
+      "details": {
+        "fr": "Justificatifs d'inscription à France Travail, 3 derniers bordereaux de versement des indemnités, et tous justificatifs de votre activité professionnelle, si possible des 3 dernières années, ou relevé de carrière.",
+        "en": "Proof of registration with France Travail, last 3 benefit payment statements, and any proof of your work, if possible for the last 3 years, or a career statement."
+      },
+      "condition": {
+        "question": "activity",
+        "equals": "job_seeker"
+      },
+      "sources": [
+        "sp_f34746"
+      ]
+    },
+    {
+      "id": "trainee_proof",
+      "category": "studies",
+      "title": {
+        "fr": "Attestation de formation et dernier bulletin",
+        "en": "Training certificate and latest pay statement"
+      },
+      "details": {
+        "fr": "Attestation de l'organisme de formation avec les dates de début et de fin de stage, dernier bulletin de rémunération et, si nécessaire, justificatifs de votre activité professionnelle des 3 dernières années ou relevé de carrière.",
+        "en": "Certificate from the training body with the start and end dates, latest pay statement and, if needed, proof of your work for the last 3 years or a career statement."
+      },
+      "condition": {
+        "question": "activity",
+        "equals": "trainee"
+      },
+      "sources": [
+        "sp_f34746"
+      ]
+    },
+    {
+      "id": "student_proof",
+      "category": "studies",
+      "title": {
+        "fr": "Certificat de scolarité et diplômes obtenus en France",
+        "en": "Enrolment certificate and degrees earned in France"
+      },
+      "details": {
+        "fr": "Certificat de scolarité ou carte d'étudiant de l'année en cours, et justificatifs des diplômes de l'enseignement supérieur obtenus en France. Si vous êtes boursier : attestation du montant de la bourse.",
+        "en": "Enrolment certificate or student card for this year, and proof of higher education degrees earned in France. If you have a grant: certificate showing the grant amount."
+      },
+      "condition": {
+        "question": "activity",
+        "equals": "student"
+      },
+      "sources": [
+        "sp_f34746",
+        "sp_simulateur"
+      ]
+    },
+    {
+      "id": "student_parents_support",
+      "category": "resources",
+      "title": {
+        "fr": "Si vos parents vous prennent en charge : leurs justificatifs",
+        "en": "If your parents support you: their documents"
+      },
+      "details": {
+        "fr": "Copie recto-verso du titre de séjour ou de la carte d'identité de vos parents, copie recto-verso de leur dernier avis d'imposition et, s'ils vivent à l'étranger, justificatif des versements qu'ils vous font.",
+        "en": "Front and back copy of your parents' residence permit or ID card, front and back copy of their latest tax notice and, if they live abroad, proof of the payments they send you."
+      },
+      "condition": {
+        "question": "activity",
+        "equals": "student"
+      },
+      "sources": [
+        "sp_f34746",
+        "sp_simulateur"
+      ]
+    },
+    {
+      "id": "retirement_proof",
+      "category": "resources",
+      "title": {
+        "fr": "Titre de pension et dernier versement",
+        "en": "Pension certificate and latest payment"
+      },
+      "details": {
+        "fr": "Titre de pension et dernier bordereau de versement de la pension.",
+        "en": "Pension certificate and latest pension payment statement."
+      },
+      "condition": {
+        "question": "activity",
+        "equals": "retired"
+      },
+      "sources": [
+        "sp_f34746",
+        "sp_simulateur"
+      ]
+    },
+    {
+      "id": "supported_by_relative",
+      "category": "resources",
+      "title": {
+        "fr": "Ressources de la personne qui vous prend en charge",
+        "en": "Income of the person who supports you"
+      },
+      "details": {
+        "fr": "Justificatif des ressources de la personne qui vous prend en charge (parent, conjoint). S'il s'agit de vos parents, copie recto-verso de leur titre de séjour ou de leur carte d'identité.",
+        "en": "Proof of income of the person who supports you (parent, spouse). If it is your parents, a front and back copy of their residence permit or ID card."
+      },
+      "condition": {
+        "question": "activity",
+        "equals": "supported"
+      },
+      "sources": [
+        "sp_f34746"
+      ]
+    },
+    {
+      "id": "social_benefits_proof",
+      "category": "resources",
+      "title": {
+        "fr": "Dernier versement des prestations sociales",
+        "en": "Latest social benefit payment"
+      },
+      "details": {
+        "fr": "Dernier bordereau de versement des prestations perçues (allocations familiales, allocation logement, RSA...).",
+        "en": "Latest payment statement for the benefits you receive (family allowance, housing allowance, RSA...)."
+      },
+      "condition": {
+        "question": "other_resources",
+        "in": [
+          "social_benefits",
+          "both"
+        ]
+      },
+      "sources": [
+        "sp_f34746",
+        "sp_simulateur"
+      ]
+    },
+    {
+      "id": "disability_proof",
+      "category": "resources",
+      "title": {
+        "fr": "Justificatifs de pension ou d'allocation d'invalidité",
+        "en": "Disability pension or allowance documents"
+      },
+      "details": {
+        "fr": "Carte mobilité inclusion (CMI), bordereau de versement de la pension ou de l'allocation, notification de la décision de la CDAPH en cours de validité avec le taux d'invalidité et, si vous y travaillez, attestation de travail en structure protégée.",
+        "en": "Mobility inclusion card (CMI), pension or allowance payment statement, valid CDAPH decision showing your disability rate and, if you work there, a certificate of work in a sheltered workplace."
+      },
+      "condition": {
+        "question": "other_resources",
+        "in": [
+          "disability",
+          "both"
+        ]
+      },
+      "sources": [
+        "sp_f34746",
+        "sp_simulateur"
+      ]
+    },
+    {
+      "id": "language_diploma",
+      "category": "integration",
+      "title": {
+        "fr": "Diplôme justifiant de votre niveau de français",
+        "en": "Diploma proving your French level"
+      },
+      "details": {
+        "fr": "Copie d'un de ces documents : diplôme national du brevet, diplôme d'État ou certification professionnelle de niveau 3 au moins (par exemple CAP ou BEP), ou diplôme attestant un niveau de français B2 au moins.",
+        "en": "Copy of one of these: diplôme national du brevet, state diploma or professional certification at level 3 or higher (for example CAP or BEP), or a diploma showing French at B2 level or higher."
+      },
+      "tip": {
+        "fr": "La préfecture du Rhône indique que les attestations de comparabilité Enic-Naric sont refusées.",
+        "en": "The Rhône prefecture says Enic-Naric comparability certificates are not accepted."
+      },
+      "condition": {
+        "question": "language_proof",
+        "in": [
+          "french_diploma",
+          "b2_diploma"
+        ]
+      },
+      "sources": [
+        "sp_f11926",
+        "sp_simulateur",
+        "pref_rhone_nationalite"
+      ]
+    },
+    {
+      "id": "language_test_certificate",
+      "category": "integration",
+      "title": {
+        "fr": "Attestation de réussite au TCF ou au TEF",
+        "en": "TCF or TEF pass certificate"
+      },
+      "details": {
+        "fr": "Attestation de réussite du TCF (France Éducation International) ou du TEF (chambre de commerce et d'industrie de Paris), de niveau B2 à l'oral et à l'écrit, délivrée depuis moins de 2 ans.",
+        "en": "Pass certificate for the TCF (France Éducation International) or the TEF (Paris Chamber of Commerce and Industry), at B2 level spoken and written, issued less than 2 years ago."
+      },
+      "condition": {
+        "question": "language_proof",
+        "in": [
+          "language_test",
+          "not_yet"
+        ]
+      },
+      "sources": [
+        "sp_f11926",
+        "sp_simulateur"
+      ]
+    },
+    {
+      "id": "language_medical_certificate",
+      "category": "integration",
+      "title": {
+        "fr": "Si votre santé l'empêche : certificat médical pour la langue",
+        "en": "If your health prevents it: medical certificate for language"
+      },
+      "details": {
+        "fr": "Certificat médical qui atteste que votre handicap ou votre état de santé rend impossible toute évaluation linguistique. Si vous êtes dispensé parce que vous êtes réfugié ou apatride, avez plus de 70 ans et résidez en France depuis au moins 15 ans avec un titre valide, aucun justificatif de langue n'est demandé.",
+        "en": "Medical certificate stating that your disability or health makes any language assessment impossible. If you are exempt because you are a refugee or stateless, over 70 and have lived in France for at least 15 years with a valid permit, no language proof is required."
+      },
+      "tip": {
+        "fr": "Le service instructeur peut demander une nouvelle expertise médicale.",
+        "en": "The office handling your file may ask for a new medical assessment."
+      },
+      "condition": {
+        "question": "language_proof",
+        "equals": "exemption"
+      },
+      "sources": [
+        "sp_f11926",
+        "sp_simulateur"
+      ]
+    },
+    {
+      "id": "civic_exam_certificate",
+      "category": "integration",
+      "title": {
+        "fr": "Attestation de réussite à l'examen civique",
+        "en": "Civic exam pass certificate"
+      },
+      "details": {
+        "fr": "Attestation de réussite à l'examen civique mention naturalisation, délivrée par un centre agréé.",
+        "en": "Pass certificate for the civic exam (naturalisation version), issued by an approved centre."
+      },
+      "condition": {
+        "question": "civic_exam",
+        "in": [
+          "passed",
+          "not_yet"
+        ]
+      },
+      "sources": [
+        "sp_f2213",
+        "sp_f39426",
+        "sp_simulateur"
+      ]
+    },
+    {
+      "id": "civic_exam_medical_certificate",
+      "category": "integration",
+      "title": {
+        "fr": "Certificat médical de dispense d'examen civique",
+        "en": "Medical certificate for civic exam exemption"
+      },
+      "details": {
+        "fr": "Certificat médical qui atteste que votre état de santé rend impossible l'évaluation de vos connaissances par l'examen civique.",
+        "en": "Medical certificate stating that your health makes it impossible to assess your knowledge through the civic exam."
+      },
+      "tip": {
+        "fr": "Le service instructeur peut demander une nouvelle expertise médicale.",
+        "en": "The office handling your file may ask for a new medical assessment."
+      },
+      "condition": {
+        "question": "civic_exam",
+        "equals": "health_exemption"
+      },
+      "sources": [
+        "sp_f39426"
+      ]
+    },
+    {
+      "id": "military_service_record",
+      "category": "other",
+      "title": {
+        "fr": "Seulement si vous êtes ancien combattant ou légionnaire : état des services",
+        "en": "Only if you are a veteran or a legionnaire: service record"
+      },
+      "details": {
+        "fr": "Si vous êtes ancien combattant ou légionnaire : état des services, décorations et citations obtenues.",
+        "en": "If you are a veteran or a legionnaire: service record, decorations and citations received."
+      },
+      "condition": null,
+      "sources": [
+        "sp_f2213",
+        "sp_simulateur"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "check_conditions",
+      "phase": "before",
+      "title": {
+        "fr": "Lire les conditions de base",
+        "en": "Read the basic conditions"
+      },
+      "body": {
+        "fr": "Service-public.fr liste ces conditions : avoir 18 ans (dépôt possible dès 17 ans) ; résider en France au moment du décret ; 5 ans de résidence en France en règle générale ; un titre de séjour valide au dépôt (sauf UE, EEE, Suisse) ; pas d'arrêté d'expulsion ni d'interdiction du territoire en vigueur ; réussir l'examen civique et l'entretien en préfecture ; un niveau de français B2 ; des revenus stables et suffisants ; ne pas avoir certaines condamnations. Cette app ne dit pas si vous remplissez ces conditions : c'est l'administration qui décide.",
+        "en": "Service-public.fr lists these conditions: be 18 (you can apply from 17); live in France when the decree is signed; 5 years of residence in France as a general rule; a valid residence permit when you apply (except EU, EEA, Switzerland); no expulsion order or ban from France in force; pass the civic exam and the prefecture interview; B2 level in French; stable and sufficient income; no disqualifying convictions. This app does not say whether you meet these conditions: the administration decides."
+      },
+      "link": {
+        "title": {
+          "fr": "Lire la fiche sur service-public.fr",
+          "en": "Read the page on service-public.fr"
+        },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2213"
+      },
+      "condition": null,
+      "sources": [
+        "sp_f2213",
+        "sp_f11926"
+      ]
+    },
+    {
+      "id": "residence_reduction_info",
+      "phase": "before",
+      "title": {
+        "fr": "Vérifier si la durée de résidence est réduite pour vous",
+        "en": "Check whether the residence period is shorter for you"
+      },
+      "body": {
+        "fr": "Aucune durée minimale n'est demandée si vous êtes réfugié, si vous venez d'un pays francophone et que le français est votre langue maternelle ou que vous avez été scolarisé 5 ans ou plus en français, si vous avez fait votre service militaire dans l'armée française, si vous vous êtes engagé dans l'armée française ou une armée alliée en temps de guerre, ou si vous avez rendu des services exceptionnels à la France. La durée est de 2 ans si vous avez un diplôme d'un établissement supérieur français après 2 ans d'études, si vous pouvez rendre des services importants à la France, ou si vous avez un parcours exceptionnel d'intégration.",
+        "en": "No minimum period is required if you are a refugee, if you come from a French-speaking country and French is your mother tongue or you went to school in French for 5 years or more, if you did military service in the French army, if you enlisted in the French or an allied army in wartime, or if you rendered exceptional services to France. The period is 2 years if you have a degree from a French higher education institution after 2 years of study, if you can render important services to France, or if you have an exceptional integration path."
+      },
+      "link": {
+        "title": {
+          "fr": "Voir les exceptions sur service-public.fr",
+          "en": "See the exceptions on service-public.fr"
+        },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2213"
+      },
+      "condition": {
+        "question": "residence_length",
+        "in": [
+          "under_2",
+          "2_to_5"
+        ]
+      },
+      "sources": [
+        "sp_f2213"
+      ]
+    },
+    {
+      "id": "spouse_of_french_info",
+      "phase": "before",
+      "title": {
+        "fr": "Marié(e) à un(e) Français(e) ? Il existe une autre démarche",
+        "en": "Married to a French citizen? There is another procedure"
+      },
+      "body": {
+        "fr": "Si votre époux ou épouse est français, service-public.fr présente une autre procédure : la déclaration de nationalité par mariage. Elle demande notamment au moins 4 ans de mariage à la date de la déclaration (5 ans dans certains cas) et une communauté de vie continue depuis le mariage. Elle ne se fait pas sur l'ANEF : le dossier va à la plateforme de naturalisation de votre domicile. Cette app ne choisit pas la démarche pour vous.",
+        "en": "If your spouse is French, service-public.fr describes another procedure: the declaration of nationality by marriage. It requires in particular at least 4 years of marriage on the date of the declaration (5 years in some cases) and continuous life together since the marriage. It is not done on ANEF: the file goes to the naturalisation platform for your home. This app does not choose the procedure for you."
+      },
+      "link": {
+        "title": {
+          "fr": "Lire la fiche « nationalité par mariage »",
+          "en": "Read the \"nationality by marriage\" page"
+        },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2726"
+      },
+      "condition": {
+        "question": "family_status",
+        "in": [
+          "married",
+          "separated"
+        ]
+      },
+      "sources": [
+        "sp_f2726",
+        "sp_f2213"
+      ]
+    },
+    {
+      "id": "prepare_language",
+      "phase": "before",
+      "title": {
+        "fr": "Obtenir un justificatif de français niveau B2",
+        "en": "Get proof of B2 level French"
+      },
+      "body": {
+        "fr": "Depuis le 1er janvier 2026, le niveau B2 à l'oral et à l'écrit est demandé. Vous pouvez fournir un diplôme français (brevet, CAP, BEP ou plus), un diplôme de français de niveau B2 au moins, ou une attestation TCF ou TEF de moins de 2 ans. Des aménagements d'épreuve sont possibles avec un certificat médical. Une page de préfecture ancienne peut encore indiquer B1 : la règle en vigueur est B2.",
+        "en": "Since 1 January 2026, B2 level spoken and written is required. You can provide a French diploma (brevet, CAP, BEP or higher), a French language diploma at B2 or higher, or a TCF or TEF certificate less than 2 years old. Test adjustments are possible with a medical certificate. An old prefecture page may still say B1: the rule in force is B2."
+      },
+      "link": {
+        "title": {
+          "fr": "Justifier son niveau en français",
+          "en": "Proving your French level"
+        },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F11926"
+      },
+      "condition": {
+        "question": "language_proof",
+        "in": [
+          "not_yet",
+          "language_test"
+        ]
+      },
+      "sources": [
+        "sp_f11926",
+        "pref_rhone_nationalite"
+      ]
+    },
+    {
+      "id": "language_exemption_info",
+      "phase": "before",
+      "title": {
+        "fr": "Vérifier les cas de dispense de justificatif de langue",
+        "en": "Check when language proof is not required"
+      },
+      "body": {
+        "fr": "Service-public.fr cite deux cas : un handicap ou un état de santé qui rend l'évaluation impossible (certificat médical demandé), ou la réunion de 3 conditions : être réfugié ou apatride, avoir plus de 70 ans, et résider en France depuis au moins 15 ans avec un titre de séjour valide.",
+        "en": "Service-public.fr lists two cases: a disability or health condition that makes assessment impossible (medical certificate required), or meeting all 3 conditions: being a refugee or stateless, being over 70, and having lived in France for at least 15 years with a valid residence permit."
+      },
+      "link": {
+        "title": {
+          "fr": "Voir les dispenses",
+          "en": "See the exemptions"
+        },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F11926"
+      },
+      "condition": {
+        "any": [
+          {
+            "question": "language_proof",
+            "equals": "exemption"
+          },
+          {
+            "question": "protection_status",
+            "in": [
+              "refugee",
+              "stateless"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_f11926"
+      ]
+    },
+    {
+      "id": "prepare_civic_exam",
+      "phase": "before",
+      "title": {
+        "fr": "Passer l'examen civique",
+        "en": "Take the civic exam"
+      },
+      "body": {
+        "fr": "L'examen civique est un questionnaire de 40 questions à choix multiples, en français, sur support numérique, en 45 minutes au maximum. Il faut 32 bonnes réponses. Il porte sur l'histoire de France, les principes, symboles et institutions de la République, les droits et devoirs du citoyen, et la place de la France en Europe et dans le monde. Inscrivez-vous dans un centre agréé par la CCI Paris Île-de-France ou par France Éducation International. Pour réviser : le livret du citoyen, le référentiel et la liste des questions de connaissance.",
+        "en": "The civic exam is a 40-question multiple choice test, in French, on a computer, lasting 45 minutes at most. You need 32 correct answers. It covers French history, the principles, symbols and institutions of the Republic, citizens' rights and duties, and France's place in Europe and the world. Register in a centre approved by the Paris Île-de-France Chamber of Commerce or by France Éducation International. To prepare: the citizen's booklet, the exam framework and the list of knowledge questions."
+      },
+      "link": {
+        "title": {
+          "fr": "S'informer sur l'examen civique",
+          "en": "Learn about the civic exam"
+        },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F39426"
+      },
+      "condition": {
+        "question": "civic_exam",
+        "equals": "not_yet"
+      },
+      "sources": [
+        "sp_f39426"
+      ]
+    },
+    {
+      "id": "translations_legalisation",
+      "phase": "before",
+      "title": {
+        "fr": "Faire traduire et, si besoin, légaliser vos documents étrangers",
+        "en": "Get your foreign documents translated and, if needed, legalised"
+      },
+      "body": {
+        "fr": "Chaque document en langue étrangère doit être accompagné de l'original de sa traduction en français par un traducteur agréé (expert inscrit auprès d'une cour d'appel ou de la Cour de cassation). Un extrait plurilingue d'acte de naissance ou de mariage qui contient le français n'a pas besoin d'être traduit pour un adulte. Selon le pays qui a délivré l'acte, une légalisation ou une apostille peut être nécessaire : renseignez-vous auprès de l'ambassade ou du consulat de France dans ce pays (légalisation) ou du consulat du pays en France (apostille). La traduction se fait avant la légalisation.",
+        "en": "Each document in a foreign language must come with the original of its French translation by a certified translator (an expert registered with a court of appeal or the Court of Cassation). A multilingual birth or marriage extract that includes French does not need translating for an adult. Depending on the issuing country, legalisation or an apostille may be needed: ask the French embassy or consulate in that country (legalisation) or that country's consulate in France (apostille). Translation comes before legalisation."
+      },
+      "link": {
+        "title": {
+          "fr": "Trouver un traducteur agréé",
+          "en": "Find a certified translator"
+        },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F12956"
+      },
+      "condition": null,
+      "sources": [
+        "sp_f2213",
+        "sp_f12956",
+        "sp_f1402"
+      ]
+    },
+    {
+      "id": "use_simulator",
+      "phase": "before",
+      "title": {
+        "fr": "Comparer avec le simulateur de service-public.fr",
+        "en": "Compare with the service-public.fr simulator"
+      },
+      "body": {
+        "fr": "Service-public.fr propose un simulateur qui établit une liste personnalisée des pièces. Le service instructeur peut demander d'autres documents selon votre situation.",
+        "en": "Service-public.fr offers a simulator that builds a personalised document list. The office handling your file may ask for other documents depending on your situation."
+      },
+      "link": {
+        "title": {
+          "fr": "Ouvrir le simulateur",
+          "en": "Open the simulator"
+        },
+        "url": "https://www.service-public.gouv.fr/simulateur/calcul/Naturalisation"
+      },
+      "condition": null,
+      "sources": [
+        "sp_r64540",
+        "sp_simulateur"
+      ]
+    },
+    {
+      "id": "submit_on_anef",
+      "phase": "submit",
+      "title": {
+        "fr": "Déposer la demande en ligne sur l'ANEF",
+        "en": "Apply online on ANEF"
+      },
+      "body": {
+        "fr": "Connectez-vous avec FranceConnect, votre numéro de visa, votre numéro de titre de séjour, ou les identifiants de votre demande de titre de séjour en ligne. Numérisez vos documents avec un scanner ou en les photographiant avec un smartphone. Vous pouvez payer le timbre fiscal pendant la démarche. Si vous avez déjà un dossier papier avec un numéro, ne déposez pas de nouvelle demande. Si vous êtes en couple et que les deux veulent être naturalisés, chacun fait son propre dossier. Gardez les originaux : ils seront demandés à l'entretien.",
+        "en": "Log in with FranceConnect, your visa number, your residence permit number, or the login of your online residence permit application. Scan your documents with a scanner or by taking photos with a smartphone. You can pay the tax stamp during the process. If you already have a paper file with a number, do not apply again. If both partners in a couple want to be naturalised, each one makes a separate application. Keep the originals: they will be asked for at the interview."
+      },
+      "link": {
+        "title": {
+          "fr": "Ouvrir le site de l'ANEF",
+          "en": "Open the ANEF website"
+        },
+        "url": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/espace-personnel/connexion-inscription"
+      },
+      "condition": null,
+      "sources": [
+        "sp_r60835",
+        "sp_f2213",
+        "sp_f32952"
+      ]
+    },
+    {
+      "id": "get_help",
+      "phase": "submit",
+      "title": {
+        "fr": "Se faire aider pour le dépôt en ligne",
+        "en": "Get help with the online application"
+      },
+      "body": {
+        "fr": "Le centre de contact citoyens de l'ANTS répond au 0806 001 620 (numéro non surtaxé), du lundi au vendredi de 9h à 17h. Vous pouvez aussi aller au point d'accueil numérique de votre préfecture ou sous-préfecture ; renseignez-vous auprès d'elle pour prendre rendez-vous. Des sites privés proposent des services payants : en dehors du timbre, la démarche est gratuite.",
+        "en": "The ANTS citizen contact centre answers on 0806 001 620 (standard rate), Monday to Friday, 9 am to 5 pm. You can also go to the digital help point at your prefecture or sub-prefecture; ask them how to book an appointment. Private websites offer paid services: apart from the stamp, the procedure is free."
+      },
+      "link": {
+        "title": {
+          "fr": "Voir les contacts sur service-public.fr",
+          "en": "See contacts on service-public.fr"
+        },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R60835"
+      },
+      "condition": null,
+      "sources": [
+        "sp_r60835",
+        "sp_f2213"
+      ]
+    },
+    {
+      "id": "paper_application_cases",
+      "phase": "submit",
+      "title": {
+        "fr": "Si vous ne pouvez pas utiliser le site en ligne",
+        "en": "If you cannot use the online service"
+      },
+      "body": {
+        "fr": "Si le dépôt en ligne est impossible, vous pouvez envoyer le dossier par courrier à la plateforme de naturalisation de votre domicile, avec un mail du centre de contact de l'ANTS ou un document de la préfecture qui atteste l'impossibilité. Il faut alors le formulaire cerfa n°12753 en 2 exemplaires, 2 photos d'identité 35 x 45 mm, une enveloppe timbrée à votre adresse et une lettre suivie 500 g vierge. En Guyane, le dossier se dépose à la préfecture. À Saint-Barthélemy, Saint-Martin, Saint-Pierre-et-Miquelon, Wallis-et-Futuna, en Polynésie française et en Nouvelle-Calédonie, le site en ligne n'est pas utilisable.",
+        "en": "If you cannot apply online, you can send the file by post to the naturalisation platform for your home, with an email from the ANTS contact centre or a prefecture document confirming it was impossible. You then need form cerfa no. 12753 in 2 copies, 2 ID photos 35 x 45 mm, a stamped envelope with your address and a blank 500 g tracked letter. In French Guiana, you file at the prefecture. In Saint-Barthélemy, Saint-Martin, Saint-Pierre-et-Miquelon, Wallis and Futuna, French Polynesia and New Caledonia, the online service cannot be used."
+      },
+      "link": {
+        "title": {
+          "fr": "Lire la fiche sur service-public.fr",
+          "en": "Read the page on service-public.fr"
+        },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2213"
+      },
+      "condition": null,
+      "sources": [
+        "sp_f2213",
+        "sp_r60835"
+      ],
+      "letters": [
+        "cannot_use_online"
+      ]
+    },
+    {
+      "id": "receipt_and_follow_up",
+      "phase": "after",
+      "title": {
+        "fr": "Recevoir le récépissé et suivre le dossier",
+        "en": "Get the receipt and follow your file"
+      },
+      "body": {
+        "fr": "Un récépissé est délivré quand toutes les pièces demandées sont fournies. Vous suivez l'avancement dans votre espace personnel et recevez un mail à chaque étape. Répondez aux demandes de pièces dans le délai fixé : sinon le dossier peut être classé sans suite. Si votre situation change (naissance, mariage, déménagement, nouveau contrat de travail), signalez-le dans votre espace personnel avec les justificatifs.",
+        "en": "A receipt is issued once all requested documents are provided. You follow progress in your personal account and get an email at each step. Answer document requests within the deadline given, or the file may be closed. If your situation changes (birth, marriage, move, new job contract), report it in your personal account with proof."
+      },
+      "condition": null,
+      "sources": [
+        "sp_f2213",
+        "sp_r60835"
+      ],
+      "letters": [
+        "file_followup"
+      ]
+    },
+    {
+      "id": "assimilation_interview",
+      "phase": "after",
+      "title": {
+        "fr": "Passer l'entretien en préfecture",
+        "en": "Attend the prefecture interview"
+      },
+      "body": {
+        "fr": "Si votre demande est recevable, vous êtes convoqué à un entretien. Il vérifie votre assimilation à la communauté française, notamment votre adhésion aux principes et valeurs de la République. Apportez les originaux indiqués sur la convocation. Pour vous préparer, vous pouvez lire le livret du citoyen. À la fin, vous signez la charte des droits et devoirs du citoyen français. Sans raison légitime, une absence peut entraîner le classement sans suite.",
+        "en": "If your application is admissible, you are called to an interview. It checks your integration into French society, including your support for the principles and values of the Republic. Bring the originals listed in the invitation. To prepare, you can read the citizen's booklet. At the end, you sign the charter of rights and duties of the French citizen. Missing it without a valid reason can lead to the file being closed."
+      },
+      "link": {
+        "title": {
+          "fr": "En savoir plus sur l'entretien",
+          "en": "Learn more about the interview"
+        },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2213"
+      },
+      "condition": null,
+      "sources": [
+        "sp_f2213"
+      ]
+    },
+    {
+      "id": "processing_time",
+      "phase": "after",
+      "title": {
+        "fr": "Attendre la décision",
+        "en": "Wait for the decision"
+      },
+      "body": {
+        "fr": "Une enquête porte sur votre comportement civique (par exemple le paiement des impôts) et votre passé judiciaire en France et à l'étranger. L'administration a 18 mois au maximum à partir du récépissé pour répondre, ou 12 mois si vous résidez en France depuis au moins 10 ans à la date du récépissé. Ce délai peut être prolongé une fois de 3 mois, avec une explication.",
+        "en": "An inquiry looks at your civic behaviour (for example paying taxes) and your criminal record in France and abroad. The administration has at most 18 months from the receipt to answer, or 12 months if you have lived in France for at least 10 years on the receipt date. This can be extended once by 3 months, with a reason given."
+      },
+      "condition": null,
+      "sources": [
+        "sp_f2213"
+      ],
+      "letters": [
+        "file_followup"
+      ]
+    },
+    {
+      "id": "decree_publication",
+      "phase": "after",
+      "title": {
+        "fr": "Si la demande est acceptée : récupérer le décret",
+        "en": "If accepted: get your decree"
+      },
+      "body": {
+        "fr": "Vous êtes informé par mail quand votre nom figure dans un décret publié au JORF. La date de publication est dans votre espace ANEF. Le décret se télécharge sur Légifrance ; il prend effet à la date de sa signature. Vos enfants mineurs non mariés qui vivent avec vous deviennent français si leur nom est dans le décret. En cas d'erreur dans le décret, une rectification peut être demandée en ligne.",
+        "en": "You get an email when your name appears in a decree published in the JORF. The publication date is in your ANEF account. You download the decree on Légifrance; it takes effect on the date it is signed. Your unmarried minor children who live with you become French if their name is in the decree. If the decree has a mistake, you can ask for a correction online."
+      },
+      "link": {
+        "title": {
+          "fr": "Trouver son décret",
+          "en": "Find your decree"
+        },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33626"
+      },
+      "condition": null,
+      "sources": [
+        "sp_f2213",
+        "sp_f33626"
+      ]
+    },
+    {
+      "id": "citizenship_ceremony",
+      "phase": "after",
+      "title": {
+        "fr": "Être invité à la cérémonie d'accueil",
+        "en": "Be invited to the welcome ceremony"
+      },
+      "body": {
+        "fr": "Le préfet (à Paris, le préfet de police) organise une cérémonie d'accueil dans la citoyenneté française, en principe dans les 6 mois après la publication du décret. Si vous êtes salarié, vous et votre époux ou épouse avez droit à un congé d'au moins une demi-journée : montrez l'invitation à votre employeur. Vous recevez un dossier d'accueil ; selon les préfectures, des actes d'état civil peuvent aussi être remis.",
+        "en": "The prefect (in Paris, the police prefect) holds a welcome ceremony into French citizenship, normally within 6 months after the decree is published. If you are an employee, you and your spouse are entitled to at least half a day off: show the invitation to your employer. You receive a welcome pack; in some prefectures, civil status records may also be handed over."
+      },
+      "link": {
+        "title": {
+          "fr": "En savoir plus sur la cérémonie",
+          "en": "Learn more about the ceremony"
+        },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F15868"
+      },
+      "condition": null,
+      "sources": [
+        "sp_f15868"
+      ]
+    },
+    {
+      "id": "after_becoming_french",
+      "phase": "after",
+      "title": {
+        "fr": "Une fois français : les démarches suivantes",
+        "en": "Once French: next steps"
+      },
+      "body": {
+        "fr": "Vous pouvez demander une carte nationale d'identité et un passeport, et en demander aussi pour vos enfants devenus français avec vous. Un jeune devenu français entre 16 et 25 ans doit se faire recenser dans le mois qui suit.",
+        "en": "You can apply for a national ID card and a passport, and also for your children who became French with you. A young person who became French between 16 and 25 must register for the census within the following month."
+      },
+      "condition": null,
+      "sources": [
+        "sp_f2213"
+      ]
+    },
+    {
+      "id": "if_refused",
+      "phase": "after",
+      "title": {
+        "fr": "En cas de refus ou d'ajournement",
+        "en": "If refused or postponed"
+      },
+      "body": {
+        "fr": "La décision défavorable est motivée et notifiée dans votre espace personnel. Pour un dossier déposé en ligne, un recours administratif auprès du ministre est obligatoire avant tout recours au tribunal : il se fait dans les 2 mois, avec le formulaire de votre espace personnel. Ensuite, en cas de refus ou sans réponse en 4 mois, vous avez 2 mois pour saisir le tribunal administratif de Nantes. Après un ajournement, une nouvelle demande est possible à la fin du délai fixé.",
+        "en": "An unfavourable decision states its reasons and is sent to your personal account. For an online application, an administrative appeal to the minister is required before going to court: you have 2 months, using the form in your personal account. Then, if refused or with no answer within 4 months, you have 2 months to go to the Nantes administrative court. After a postponement, you can apply again once the set period has ended."
+      },
+      "link": {
+        "title": {
+          "fr": "Lire les recours possibles",
+          "en": "Read about appeals"
+        },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2213"
+      },
+      "condition": null,
+      "sources": [
+        "sp_f2213"
+      ]
+    }
+  ],
+  "reviewNotes": [
+    "Droit en vigueur au 29/10/2026 : niveau B2 oral et écrit et examen civique exigés pour les demandes à partir du 01/01/2026 (F11926 vérifié le 01/01/2026, F39426 vérifié le 16/07/2026, décret n°2025-648 du 15/07/2025 cité par ces fiches, préfecture du Rhône). La page naturalisation du Val-de-Marne (textes de 2020) indique encore B1 : écartée car antérieure à la réforme.",
+    "Timbre : 255 € (127,50 € en Guyane) selon F2213 (vérifié le 16/07/2026) et F32952 (vérifié le 01/05/2026). La préfecture du Rhône parle d'une « augmentation du droit de timbre à compter du 1er mai 2026 » et applique 255 € aux dossiers déposés sur l'ANEF à partir de cette date. L'ancien montant n'a été lu dans aucune source consultée.",
+    "Décret n°2026-1001 du 26/10/2026 (effets au 30/10/2026) : d'après l'inventaire, il modifie le CESEDA (titres de séjour). Aucune des fiches naturalisation consultées ne le cite. Texte non lu : vérifier après le 30/10/2026 qu'il ne touche pas la naturalisation.",
+    "Loi du 26 janvier 2024 : ses effets sur la naturalisation ont été pris via les fiches service-public à jour (examen civique, charte, B2). Le texte de la loi et les décrets d'application n'ont pas été lus sur Légifrance (accès 403 au téléchargement direct). Arrêtés du 22/12/2025 et du 30/12/2025 (langue, dispenses) cités par F11926, non lus.",
+    "Pages inaccessibles : immigration.interieur.gouv.fr (page « procédures d'accès à la nationalité française », blocage Cloudflare / HTTP 403) et interieur.gouv.fr (communiqué sur l'examen civique au 01/01/2026, HTTP 403). Site ANEF : application JavaScript, non lisible sans compte. Liste des centres d'examen civique (CCIP, FEI) et sites TCF/TEF : hors domaines autorisés, non consultés.",
+    "Simulateur service-public (vérifié le 21/08/2026) : utilisé en mode sans JavaScript avec 3 profils fictifs (PDF générés le 29/10/2026). Les cases à cocher multiples (enfants français, scolarisés) ne semblent pas avoir été prises en compte : les pièces enfants viennent de F34764. Le simulateur demande pour un hébergé seulement la pièce d'identité de l'hébergeant, alors que F34745 demande aussi l'attestation d'hébergement : la fiche F34745 a été retenue.",
+    "Pièce « autorisation d'entrée en France de votre époux ou épouse » : présente uniquement dans le résultat du simulateur pour une personne mariée, absente de F34758. À confirmer.",
+    "Réfugiés et apatrides : aucune source consultée ne cite de pièce d'état civil spécifique (par exemple documents établis par l'Ofpra). Seules différences sourcées : pas de durée de résidence minimale pour les réfugiés, casier du pays d'origine non demandé, dispense de langue si plus de 70 ans et 15 ans de résidence. Le justificatif de nationalité (F34741) est affiché à tous, y compris aux apatrides : à vérifier.",
+    "Pays de naissance : les sources ne changent pas la liste des actes selon le pays, seulement la traduction (langue étrangère), la légalisation ou l'apostille (selon le pays, tableau du ministère des affaires étrangères non consulté, hors domaines autorisés) et l'exception « pays francophone » pour la durée de résidence. Pas de question dédiée.",
+    "DELF B2 : cité par la préfecture du Rhône ; service-public parle de « tout diplôme attestant un niveau ... au moins équivalent au niveau B2 ». Le refus des attestations Enic-Naric n'est écrit que par la préfecture du Rhône (règle locale ou nationale : à vérifier).",
+    "Le mot « officiel » figure dans le titre exact de la source F33626 (« Journal officiel ») ; il a été évité dans tous les autres textes affichés (JORF utilisé).",
+    "Délai de classement sans suite : la préfecture du Rhône indique 2 mois pour répondre à une demande de pièces ; service-public dit seulement « délai fixé ». Non repris comme échéance. Aucune échéance (deadlines) car aucune source ne donne de délai de dépôt pour la naturalisation.",
+    "Fiche R60835 (service en ligne) vérifiée le 12/05/2025 : la plus ancienne des sources retenues ; son contenu ne contredit pas F2213 (16/07/2026).",
+    "Pièce « état des services » (ancien combattant ou légionnaire) : désormais affichée à tous avec un titre « Seulement si... », car la source ne la lie pas à la durée de résidence et aucune question dédiée n'a été ajoutée (pour rester à 12 questions).",
+    "Outcomes : les identifiants de contacts (france_services, point_justice, anef_contact, prefecture_directory, defenseur_des_droits) et de courriers (cannot_use_online, file_followup) viennent de help.json, rédigé par une autre personne et non relu ici. L'outcome « online_help » est un warning toujours affiché (condition sur eu_national répondu), car aucune question ne demande si le dépôt en ligne est possible. L'outcome « spouse_of_french » s'affiche aux personnes mariées ou séparées sans savoir si le conjoint est français (pas de question dédiée).",
+    "residence_too_short : le cas « service militaire » et le statut de réfugié ne déclenchent pas la redirection (aucune durée exigée d'après F2213). Le cas « pays francophone » non plus. Un dossier « 2 à 5 ans » avec réduction à 2 ans n'est pas redirigé ; « moins de 2 ans » l'est sauf réfugié, armée ou pays francophone."
+  ],
+  "outcomes": [
+    {
+      "id": "residence_too_short",
+      "kind": "redirect",
+      "condition": {
+        "any": [
+          {
+            "all": [
+              {
+                "question": "residence_length",
+                "equals": "2_to_5"
+              },
+              {
+                "question": "residence_reduction",
+                "equals": "none"
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "question": "residence_length",
+                "equals": "under_2"
+              },
+              {
+                "question": "residence_reduction",
+                "in": [
+                  "none",
+                  "higher_education_france",
+                  "exceptional"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "title": {
+        "fr": "Cette démarche ne semble pas encore correspondre à votre situation",
+        "en": "This procedure does not seem to match your situation yet"
+      },
+      "body": {
+        "fr": "D'après service-public.fr, la naturalisation demande en règle générale 5 ans de résidence en France. Cette durée est de 2 ans dans certains cas (diplôme du supérieur en France après 2 ans d'études, services importants rendus à la France, parcours exceptionnel d'intégration). Elle n'est pas exigée pour les réfugiés et dans d'autres cas précis. D'après vos réponses, votre durée de résidence est plus courte que celle prévue pour votre cas. C'est l'administration qui examine chaque dossier.",
+        "en": "According to service-public.fr, naturalisation generally requires 5 years of residence in France. This is 2 years in some cases (higher education degree in France after 2 years of study, important services to France, exceptional integration path). It is not required for refugees and in some other specific cases. Based on your answers, your residence period is shorter than the one set for your case. The administration examines each application."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Attendre d'avoir la durée demandée",
+            "en": "Wait until you reach the required period"
+          },
+          "body": {
+            "fr": "Vous pourrez préparer le dossier quand la durée sera atteinte. En attendant, vous pouvez préparer le niveau B2 de français et l'examen civique.",
+            "en": "You can prepare your application once you reach the required period. Meanwhile, you can prepare for B2 French and the civic exam."
+          },
+          "link": {
+            "title": {
+              "fr": "Revoir les conditions et les exceptions",
+              "en": "Review the conditions and exceptions"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2213"
+          }
+        },
+        {
+          "title": {
+            "fr": "Vérifier une autre façon de devenir français",
+            "en": "Check another way to become French"
+          },
+          "body": {
+            "fr": "Service-public.fr invite à vérifier si une autre procédure correspond à votre situation, par exemple la déclaration par mariage avec un(e) Français(e).",
+            "en": "Service-public.fr suggests checking whether another procedure fits your situation, for example the declaration by marriage to a French citizen."
+          },
+          "link": {
+            "title": {
+              "fr": "Voir la déclaration par mariage",
+              "en": "See the declaration by marriage"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2726"
+          }
+        }
+      ],
+      "contacts": [
+        "france_services",
+        "point_justice"
+      ],
+      "letters": [],
+      "sources": [
+        "sp_f2213",
+        "sp_f2726"
+      ]
+    },
+    {
+      "id": "spouse_of_french",
+      "kind": "warning",
+      "condition": {
+        "question": "family_status",
+        "in": [
+          "married",
+          "separated"
+        ]
+      },
+      "title": {
+        "fr": "Marié(e) à un(e) Français(e) ? Une autre démarche existe",
+        "en": "Married to a French citizen? Another procedure exists"
+      },
+      "body": {
+        "fr": "D'après service-public.fr, une personne mariée à un(e) Français(e) peut faire une déclaration de nationalité par mariage : au moins 4 ans de mariage à la date de la déclaration (5 ans dans certains cas), époux français depuis le mariage, communauté de vie continue. Cette démarche ne se fait pas sur l'ANEF, mais auprès de la plateforme de naturalisation de votre domicile. Si votre époux ou épouse n'est pas français, ce message ne vous concerne pas.",
+        "en": "According to service-public.fr, a person married to a French citizen can make a declaration of nationality by marriage: at least 4 years of marriage on the date of the declaration (5 years in some cases), spouse French since the marriage, continuous life together. This is not done on ANEF, but with the naturalisation platform for your home. If your spouse is not French, this message does not apply to you."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Comparer les deux démarches",
+            "en": "Compare the two procedures"
+          },
+          "body": {
+            "fr": "Lisez la fiche sur la déclaration par mariage avant de choisir. Cette app ne choisit pas pour vous.",
+            "en": "Read the page on the declaration by marriage before choosing. This app does not choose for you."
+          },
+          "link": {
+            "title": {
+              "fr": "Voir la déclaration par mariage",
+              "en": "See the declaration by marriage"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2726"
+          }
+        }
+      ],
+      "contacts": [
+        "point_justice",
+        "france_services"
+      ],
+      "letters": [],
+      "sources": [
+        "sp_f2726",
+        "sp_f2213"
+      ]
+    },
+    {
+      "id": "language_proof_missing",
+      "kind": "warning",
+      "condition": {
+        "question": "language_proof",
+        "equals": "not_yet"
+      },
+      "title": {
+        "fr": "Justificatif de français B2 à obtenir avant le dépôt",
+        "en": "B2 French proof needed before you apply"
+      },
+      "body": {
+        "fr": "D'après service-public.fr, depuis le 1er janvier 2026, le dossier doit contenir un diplôme français (brevet, niveau 3 ou plus) ou un justificatif de niveau B2 à l'oral et à l'écrit. Un test TCF ou TEF doit avoir moins de 2 ans. Le diplôme ou l'attestation fait partie des pièces à fournir.",
+        "en": "According to service-public.fr, since 1 January 2026 the application must include a French diploma (brevet, level 3 or higher) or proof of B2 level, spoken and written. A TCF or TEF test must be less than 2 years old. The diploma or certificate is one of the required documents."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Préparer et passer un test",
+            "en": "Prepare and take a test"
+          },
+          "body": {
+            "fr": "Inscrivez-vous au TCF ou au TEF. Des aménagements sont possibles avec un certificat médical si votre santé le nécessite.",
+            "en": "Register for the TCF or the TEF. Adjustments are possible with a medical certificate if your health requires it."
+          },
+          "link": {
+            "title": {
+              "fr": "Justifier son niveau en français",
+              "en": "Proving your French level"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F11926"
+          }
+        }
+      ],
+      "contacts": [
+        "france_services"
+      ],
+      "letters": [],
+      "sources": [
+        "sp_f11926",
+        "sp_f2213"
+      ]
+    },
+    {
+      "id": "language_exemption_check",
+      "kind": "warning",
+      "condition": {
+        "question": "language_proof",
+        "equals": "exemption"
+      },
+      "title": {
+        "fr": "Dispense de justificatif de français : vérifiez votre cas",
+        "en": "Exemption from French proof: check your case"
+      },
+      "body": {
+        "fr": "D'après service-public.fr, la dispense concerne deux cas : un handicap ou un état de santé qui rend l'évaluation impossible (certificat médical à fournir), ou une personne réfugiée ou apatride, de plus de 70 ans, qui réside en France depuis au moins 15 ans avec un titre valide. Le service instructeur peut demander une nouvelle expertise médicale.",
+        "en": "According to service-public.fr, the exemption covers two cases: a disability or health condition that makes testing impossible (medical certificate required), or a refugee or stateless person over 70 who has lived in France for at least 15 years with a valid permit. The office may ask for a new medical assessment."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Lire les conditions de dispense",
+            "en": "Read the exemption conditions"
+          },
+          "body": {
+            "fr": "Si vous n'êtes dans aucun de ces cas, un diplôme ou un test de niveau B2 est demandé.",
+            "en": "If neither case applies, a diploma or a B2 test is required."
+          },
+          "link": {
+            "title": {
+              "fr": "Voir les dispenses",
+              "en": "See the exemptions"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F11926"
+          }
+        }
+      ],
+      "contacts": [
+        "france_services"
+      ],
+      "letters": [],
+      "sources": [
+        "sp_f11926"
+      ]
+    },
+    {
+      "id": "civic_exam_missing",
+      "kind": "warning",
+      "condition": {
+        "question": "civic_exam",
+        "equals": "not_yet"
+      },
+      "title": {
+        "fr": "Examen civique à passer avant le dépôt",
+        "en": "Civic exam to pass before you apply"
+      },
+      "body": {
+        "fr": "D'après service-public.fr, l'attestation de réussite à l'examen civique fait partie des pièces du dossier. L'examen compte 40 questions ; il faut 32 bonnes réponses.",
+        "en": "According to service-public.fr, the civic exam pass certificate is one of the required documents. The exam has 40 questions; you need 32 correct answers."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "S'inscrire dans un centre agréé",
+            "en": "Register at an approved centre"
+          },
+          "body": {
+            "fr": "Inscrivez-vous auprès d'un centre agréé par la CCI Paris Île-de-France ou par France Éducation International, et révisez avec le livret du citoyen.",
+            "en": "Register with a centre approved by the Paris Île-de-France Chamber of Commerce or by France Éducation International, and study with the citizen's booklet."
+          },
+          "link": {
+            "title": {
+              "fr": "S'informer sur l'examen civique",
+              "en": "Learn about the civic exam"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F39426"
+          }
+        }
+      ],
+      "contacts": [
+        "france_services"
+      ],
+      "letters": [],
+      "sources": [
+        "sp_f39426",
+        "sp_f2213"
+      ]
+    },
+    {
+      "id": "income_attention",
+      "kind": "warning",
+      "condition": {
+        "question": "activity",
+        "in": [
+          "job_seeker",
+          "supported"
+        ]
+      },
+      "title": {
+        "fr": "Point d'attention : les ressources",
+        "en": "Point to note: income"
+      },
+      "body": {
+        "fr": "D'après service-public.fr, l'insertion professionnelle est une condition essentielle : des revenus stables et suffisants pour vous et votre foyer fiscal. Une demande peut être reportée (ajournée), par exemple pour permettre d'améliorer l'insertion professionnelle. C'est l'administration qui apprécie chaque situation.",
+        "en": "According to service-public.fr, professional integration is an essential condition: stable and sufficient income for you and your tax household. An application can be postponed, for example to allow time to improve professional integration. The administration assesses each situation."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Lire la condition sur les ressources",
+            "en": "Read the income condition"
+          },
+          "body": {
+            "fr": "Vous pouvez demander conseil avant de déposer.",
+            "en": "You can ask for advice before applying."
+          },
+          "link": {
+            "title": {
+              "fr": "Voir les conditions",
+              "en": "See the conditions"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2213"
+          }
+        }
+      ],
+      "contacts": [
+        "france_services",
+        "point_justice"
+      ],
+      "letters": [],
+      "sources": [
+        "sp_f2213"
+      ]
+    },
+    {
+      "id": "online_help",
+      "kind": "warning",
+      "condition": {
+        "question": "eu_national",
+        "in": [
+          "yes",
+          "no"
+        ]
+      },
+      "title": {
+        "fr": "Besoin d'aide pour le dépôt en ligne ?",
+        "en": "Need help applying online?"
+      },
+      "body": {
+        "fr": "D'après service-public.fr, le centre de contact citoyens de l'ANTS (0806 001 620) et les points d'accueil numérique des préfectures aident au dépôt en ligne. Si le dépôt en ligne est impossible, un envoi par courrier à la plateforme de naturalisation est possible avec une preuve de cette impossibilité.",
+        "en": "According to service-public.fr, the ANTS citizen contact centre (0806 001 620) and prefecture digital help points help with online applications. If applying online is impossible, you can send the file by post to the naturalisation platform with proof that it was impossible."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Demander une autre solution",
+            "en": "Ask for another solution"
+          },
+          "body": {
+            "fr": "Gardez une trace écrite de la réponse du centre de contact ou de la préfecture.",
+            "en": "Keep a written record of the answer from the contact centre or the prefecture."
+          },
+          "link": {
+            "title": {
+              "fr": "Voir les solutions",
+              "en": "See the options"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2213"
+          }
+        }
+      ],
+      "contacts": [
+        "anef_contact",
+        "prefecture_directory",
+        "france_services",
+        "defenseur_des_droits"
+      ],
+      "letters": [
+        "cannot_use_online"
+      ],
+      "sources": [
+        "sp_f2213",
+        "sp_r60835"
+      ]
+    }
+  ]
+}

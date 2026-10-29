@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "2026-10-29.1",
+  "procedures": [
+    {
+      "id": "renewal",
+      "symbol": "arrow.triangle.2.circlepath",
+      "title": { "fr": "Renouveler mon titre de séjour", "en": "Renew my residence permit" },
+      "subtitle": { "fr": "Mon titre arrive bientôt à expiration", "en": "My permit expires soon" }
+    },
+    {
+      "id": "status_change",
+      "symbol": "arrow.left.arrow.right",
+      "title": { "fr": "Changer de statut", "en": "Change my status" },
+      "subtitle": { "fr": "Par exemple d'étudiant à salarié", "en": "For example, from student to employee" }
+    },
+    {
+      "id": "naturalisation",
+      "symbol": "person.crop.circle.badge.checkmark",
+      "title": { "fr": "Demander la nationalité française", "en": "Apply for French citizenship" },
+      "subtitle": { "fr": "Naturalisation par décret", "en": "Naturalisation by decree" }
+    },
+    {
+      "id": "duplicate",
+      "symbol": "doc.on.doc",
+      "title": { "fr": "Remplacer un titre perdu ou volé", "en": "Replace a lost or stolen permit" },
+      "subtitle": { "fr": "Demande de duplicata", "en": "Duplicate request" }
+    }
+  ]
+}
