@@ -17,7 +17,8 @@ struct DocumentsSection: View {
                     Label(DocumentCategory.title(group.category), systemImage: DocumentCategory.symbol(group.category))
                         .font(.headline)
                     ForEach(group.documents) { document in
-                        DocumentRow(procedure: procedure, document: document, isChecked: record.isChecked(document.id)) {
+                        DocumentRow(procedure: procedure, document: document, answers: record.answers,
+                                    isChecked: record.isChecked(document.id)) {
                             withAnimation(.spring(duration: 0.35)) { record.toggle(document.id) }
                         }
                     }

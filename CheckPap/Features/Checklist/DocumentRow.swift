@@ -4,6 +4,7 @@ import SwiftUI
 struct DocumentRow: View {
     let procedure: Procedure
     let document: RequiredDocument
+    let answers: [String: String]
     let isChecked: Bool
     let toggle: () -> Void
 
@@ -63,6 +64,7 @@ struct DocumentRow: View {
             if let tip = document.tip {
                 Callout(.tip, tip)
             }
+            DocumentReason(reasons: RulesEngine.reasons(for: document.condition, in: procedure, answers: answers))
             SourcesList(sources: procedure.sources(for: document.sources))
         }
     }

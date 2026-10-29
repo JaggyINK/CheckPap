@@ -79,4 +79,17 @@ struct RulesEngineTests {
         let question = try #require(procedure.questions.first { $0.id == "has_job" })
         #expect(question.choices.map(\.id) == ["yes", "no"])
     }
+
+    @Test func reasonsExplainWhyADocumentIsRequested() throws {
+        let contract = try #require(procedure.documents.first { $0.id == "contract" })
+        let reasons = RulesEngine.reasons(for: contract.condition, in: procedure,
+                                          answers: ["status": "student", "has_job": "yes"])
+        #expect(reasons.map(\.question.id) == ["status", "has_job"])
+        #expect(reasons.map(\.answer.id) == ["student", "yes"])
+    }
+
+    @Test func documentWithoutConditionHasNoReason() throws {
+        let passport = try #require(procedure.documents.first { $0.id == "passport" })
+        #expect(RulesEngine.reasons(for: passport.condition, in: procedure, answers: [:]).isEmpty)
+    }
 }

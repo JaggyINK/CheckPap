@@ -750,6 +750,140 @@
       "sources": [
         "sp_f34745"
       ]
+    },
+    {
+      "id": "parents_married",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Vos parents sont-ils (ou ont-ils été) mariés ensemble ?",
+        "en": "Are (or were) your parents married to each other?"
+      },
+      "help": {
+        "fr": "Service-public.fr demande la preuve du mariage de vos parents s'ils sont mariés, en plus de la preuve de leur naissance.",
+        "en": "Service-public.fr asks for proof of your parents' marriage if they are married, in addition to proof of their birth."
+      },
+      "example": {
+        "fr": "Exemple : vos parents se sont mariés en 1985 en Algérie. Vous répondez « Oui ».",
+        "en": "Example: your parents married in 1985 in Algeria. Answer \"Yes\"."
+      },
+      "condition": null,
+      "sources": [
+        "sp_f34741",
+        "sp_simulateur"
+      ]
+    },
+    {
+      "id": "name_changed",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Votre nom a-t-il changé depuis votre naissance ?",
+        "en": "Has your name changed since birth?"
+      },
+      "help": {
+        "fr": "Si votre nom a été modifié, un document qui le prouve est demandé.",
+        "en": "If your name was changed, a document proving it is required."
+      },
+      "example": {
+        "fr": "Exemple : un jugement de votre pays d'origine a modifié votre nom de famille. Vous répondez « Oui ». Un nom d'usage après mariage n'est pas cité par les sources.",
+        "en": "Example: a court in your home country changed your surname. Answer \"Yes\". A married name used day to day is not mentioned by the sources."
+      },
+      "condition": null,
+      "sources": [
+        "sp_f34741",
+        "sp_simulateur"
+      ]
+    },
+    {
+      "id": "veteran",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Êtes-vous ancien combattant ou légionnaire ?",
+        "en": "Are you a veteran or a legionnaire?"
+      },
+      "help": {
+        "fr": "Dans ce cas, l'état de vos services, décorations et citations est demandé.",
+        "en": "If so, your service record, decorations and citations are required."
+      },
+      "example": {
+        "fr": "Exemple : vous avez servi dans la Légion étrangère. Vous répondez « Oui ».",
+        "en": "Example: you served in the French Foreign Legion. Answer \"Yes\"."
+      },
+      "condition": null,
+      "sources": [
+        "sp_f2213",
+        "sp_simulateur"
+      ]
+    },
+    {
+      "id": "child_is_french",
+      "kind": "yesNo",
+      "title": {
+        "fr": "L'un de vos enfants mineurs est-il déjà français ?",
+        "en": "Is one of your minor children already French?"
+      },
+      "help": {
+        "fr": "Si la nationalité française n'apparaît pas sur son acte de naissance, son certificat de nationalité française est demandé.",
+        "en": "If French nationality is not shown on the child's birth certificate, the child's certificate of French nationality is required."
+      },
+      "example": {
+        "fr": "Exemple : votre enfant est né en France d'un parent français. Vous répondez « Oui ».",
+        "en": "Example: your child was born in France to a French parent. Answer \"Yes\"."
+      },
+      "condition": {
+        "question": "has_minor_children",
+        "equals": "yes"
+      },
+      "sources": [
+        "sp_f34764",
+        "sp_simulateur"
+      ]
+    },
+    {
+      "id": "child_family_reunification",
+      "kind": "yesNo",
+      "title": {
+        "fr": "L'un de vos enfants vous a-t-il rejoint en France par regroupement familial ?",
+        "en": "Did one of your children join you in France through family reunification?"
+      },
+      "help": {
+        "fr": "Dans ce cas, la décision qui a autorisé son entrée en France est demandée.",
+        "en": "If so, the decision that allowed the child to enter France is required."
+      },
+      "example": {
+        "fr": "Exemple : votre fille est arrivée en 2022 après une demande de regroupement familial à l'Ofii. Vous répondez « Oui ».",
+        "en": "Example: your daughter arrived in 2022 after a family reunification request to OFII. Answer \"Yes\"."
+      },
+      "condition": {
+        "question": "has_minor_children",
+        "equals": "yes"
+      },
+      "sources": [
+        "sp_f34764"
+      ]
+    },
+    {
+      "id": "supported_by_parents",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Êtes-vous à la charge de vos parents ?",
+        "en": "Are you financially supported by your parents?"
+      },
+      "help": {
+        "fr": "Pour un étudiant pris en charge par ses parents, des pièces sur les parents sont demandées.",
+        "en": "For a student supported by their parents, documents about the parents are required."
+      },
+      "example": {
+        "fr": "Exemple : vos parents paient votre loyer et vos frais d'études. Vous répondez « Oui ».",
+        "en": "Example: your parents pay your rent and study costs. Answer \"Yes\"."
+      },
+      "condition": {
+        "question": "activity",
+        "equals": "student"
+      },
+      "sources": [
+        "sp_f34746",
+        "sp_simulateur"
+      ]
     }
   ],
   "documents": [
@@ -861,14 +995,34 @@
       "id": "parents_civil_status",
       "category": "civil_status",
       "title": {
-        "fr": "Justificatif de la naissance de vos parents et de leur mariage",
-        "en": "Proof of your parents' birth and marriage"
+        "fr": "Justificatif de la date et du lieu de naissance de vos parents",
+        "en": "Proof of your parents' date and place of birth"
       },
       "details": {
-        "fr": "Document qui prouve la date et le lieu de naissance de votre père et de votre mère, et de leur mariage s'ils sont mariés. À fournir en original, avec traduction si le document est en langue étrangère.",
-        "en": "Document showing the date and place of birth of your father and mother, and of their marriage if they are married. Provide the original, with a translation if it is in a foreign language."
+        "fr": "Document qui prouve la date et le lieu de naissance de votre père et de votre mère. À fournir en original, avec traduction si le document est en langue étrangère.",
+        "en": "Document showing the date and place of birth of your father and mother. Provide the original, with a translation if it is in a foreign language."
       },
       "condition": null,
+      "sources": [
+        "sp_f34741",
+        "sp_simulateur"
+      ]
+    },
+    {
+      "id": "parents_marriage",
+      "category": "civil_status",
+      "title": {
+        "fr": "Justificatif du mariage de vos parents",
+        "en": "Proof of your parents' marriage"
+      },
+      "details": {
+        "fr": "Document qui prouve le mariage de votre père et de votre mère. À fournir en original, avec traduction si le document est en langue étrangère.",
+        "en": "Document proving your father and mother's marriage. Provide the original, with a translation if it is in a foreign language."
+      },
+      "condition": {
+        "question": "parents_married",
+        "equals": "yes"
+      },
       "sources": [
         "sp_f34741",
         "sp_simulateur"
@@ -885,7 +1039,12 @@
         "fr": "Document qui prouve votre nationalité dans votre pays d'origine, par exemple une copie de votre passeport.",
         "en": "Document proving your nationality in your country of origin, for example a copy of your passport."
       },
-      "condition": null,
+      "condition": {
+        "not": {
+          "question": "protection_status",
+          "equals": "stateless"
+        }
+      },
       "sources": [
         "sp_f34741"
       ]
@@ -894,14 +1053,17 @@
       "id": "name_change_proof",
       "category": "civil_status",
       "title": {
-        "fr": "Seulement si votre nom a changé : justificatif du changement",
-        "en": "Only if your name has changed: proof of the change"
+        "fr": "Justificatif du changement de nom",
+        "en": "Proof of name change"
       },
       "details": {
         "fr": "Tout document qui prouve une modification de votre nom. Le simulateur de service-public.fr demande l'original de la décision de changement de nom.",
         "en": "Any document proving a change of your name. The service-public.fr simulator asks for the original name change decision."
       },
-      "condition": null,
+      "condition": {
+        "question": "name_changed",
+        "equals": "yes"
+      },
       "sources": [
         "sp_f34741",
         "sp_simulateur"
@@ -1155,15 +1317,15 @@
       "id": "children_french_nationality",
       "category": "family",
       "title": {
-        "fr": "Seulement pour un enfant déjà français : certificat de nationalité française",
-        "en": "Only for a child who is already French: certificate of French nationality"
+        "fr": "Certificat de nationalité française de l'enfant français",
+        "en": "Certificate of French nationality for the French child"
       },
       "details": {
         "fr": "Si la mention de la nationalité française ne figure pas sur l'acte de naissance de l'enfant français, fournissez son certificat de nationalité française.",
         "en": "If French nationality is not mentioned on the French child's birth certificate, provide the child's certificate of French nationality."
       },
       "condition": {
-        "question": "has_minor_children",
+        "question": "child_is_french",
         "equals": "yes"
       },
       "sources": [
@@ -1174,15 +1336,15 @@
       "id": "children_family_reunification",
       "category": "family",
       "title": {
-        "fr": "Seulement si un enfant est venu par regroupement familial : décision d'entrée",
-        "en": "Only if a child came through family reunification: entry decision"
+        "fr": "Décision autorisant l'entrée de l'enfant en France",
+        "en": "Decision allowing the child to enter France"
       },
       "details": {
         "fr": "Pour les enfants qui vous ont rejoint en France par regroupement familial : copie de la décision autorisant leur entrée en France.",
         "en": "For children who joined you in France through family reunification: copy of the decision allowing them to enter France."
       },
       "condition": {
-        "question": "has_minor_children",
+        "question": "child_family_reunification",
         "equals": "yes"
       },
       "sources": [
@@ -1431,16 +1593,16 @@
       "id": "student_parents_support",
       "category": "resources",
       "title": {
-        "fr": "Si vos parents vous prennent en charge : leurs justificatifs",
-        "en": "If your parents support you: their documents"
+        "fr": "Justificatifs de vos parents qui vous prennent en charge",
+        "en": "Documents from the parents who support you"
       },
       "details": {
         "fr": "Copie recto-verso du titre de séjour ou de la carte d'identité de vos parents, copie recto-verso de leur dernier avis d'imposition et, s'ils vivent à l'étranger, justificatif des versements qu'ils vous font.",
         "en": "Front and back copy of your parents' residence permit or ID card, front and back copy of their latest tax notice and, if they live abroad, proof of the payments they send you."
       },
       "condition": {
-        "question": "activity",
-        "equals": "student"
+        "question": "supported_by_parents",
+        "equals": "yes"
       },
       "sources": [
         "sp_f34746",
@@ -1587,8 +1749,8 @@
       "id": "language_medical_certificate",
       "category": "integration",
       "title": {
-        "fr": "Si votre santé l'empêche : certificat médical pour la langue",
-        "en": "If your health prevents it: medical certificate for language"
+        "fr": "Certificat médical de dispense pour la langue",
+        "en": "Medical certificate for language exemption"
       },
       "details": {
         "fr": "Certificat médical qui atteste que votre handicap ou votre état de santé rend impossible toute évaluation linguistique. Si vous êtes dispensé parce que vous êtes réfugié ou apatride, avez plus de 70 ans et résidez en France depuis au moins 15 ans avec un titre valide, aucun justificatif de langue n'est demandé.",
@@ -1658,14 +1820,17 @@
       "id": "military_service_record",
       "category": "other",
       "title": {
-        "fr": "Seulement si vous êtes ancien combattant ou légionnaire : état des services",
-        "en": "Only if you are a veteran or a legionnaire: service record"
+        "fr": "État des services, décorations et citations",
+        "en": "Service record, decorations and citations"
       },
       "details": {
-        "fr": "Si vous êtes ancien combattant ou légionnaire : état des services, décorations et citations obtenues.",
-        "en": "If you are a veteran or a legionnaire: service record, decorations and citations received."
+        "fr": "État des services, décorations et citations obtenues.",
+        "en": "Service record, decorations and citations received."
       },
-      "condition": null,
+      "condition": {
+        "question": "veteran",
+        "equals": "yes"
+      },
       "sources": [
         "sp_f2213",
         "sp_simulateur"
@@ -2137,9 +2302,12 @@
     "Le mot « officiel » figure dans le titre exact de la source F33626 (« Journal officiel ») ; il a été évité dans tous les autres textes affichés (JORF utilisé).",
     "Délai de classement sans suite : la préfecture du Rhône indique 2 mois pour répondre à une demande de pièces ; service-public dit seulement « délai fixé ». Non repris comme échéance. Aucune échéance (deadlines) car aucune source ne donne de délai de dépôt pour la naturalisation.",
     "Fiche R60835 (service en ligne) vérifiée le 12/05/2025 : la plus ancienne des sources retenues ; son contenu ne contredit pas F2213 (16/07/2026).",
-    "Pièce « état des services » (ancien combattant ou légionnaire) : désormais affichée à tous avec un titre « Seulement si... », car la source ne la lie pas à la durée de résidence et aucune question dédiée n'a été ajoutée (pour rester à 12 questions).",
     "Outcomes : les identifiants de contacts (france_services, point_justice, anef_contact, prefecture_directory, defenseur_des_droits) et de courriers (cannot_use_online, file_followup) viennent de help.json, rédigé par une autre personne et non relu ici. L'outcome « online_help » est un warning toujours affiché (condition sur eu_national répondu), car aucune question ne demande si le dépôt en ligne est possible. L'outcome « spouse_of_french » s'affiche aux personnes mariées ou séparées sans savoir si le conjoint est français (pas de question dédiée).",
-    "residence_too_short : le cas « service militaire » et le statut de réfugié ne déclenchent pas la redirection (aucune durée exigée d'après F2213). Le cas « pays francophone » non plus. Un dossier « 2 à 5 ans » avec réduction à 2 ans n'est pas redirigé ; « moins de 2 ans » l'est sauf réfugié, armée ou pays francophone."
+    "residence_too_short : le cas « service militaire » et le statut de réfugié ne déclenchent pas la redirection (aucune durée exigée d'après F2213). Le cas « pays francophone » non plus. Un dossier « 2 à 5 ans » avec réduction à 2 ans n'est pas redirigé ; « moins de 2 ans » l'est sauf réfugié, armée ou pays francophone.",
+    "Pièces sans condition, gardées car demandées à toutes les personnes d'après F2213 (liste « Envoi en ligne ») et le simulateur : timbre fiscal, pièce d'identité, acte de naissance, justificatif de naissance des parents, avis d'imposition, bordereau P237. Exception constatée : la rubrique « micro-entrepreneur » de F34746 ne liste ni avis d'imposition ni P237, alors que le simulateur les affiche toujours ; gardés sans condition, à vérifier.",
+    "Justificatif de nationalité : masqué pour les apatrides (déduction : F34741 parle de la nationalité « concernant votre pays d'origine » ; aucune source ne traite le cas apatride). Le simulateur ne l'a affiché dans aucun des 3 profils testés, alors que F34741 le liste : à vérifier.",
+    "Parents : les sources ne distinguent pas une naissance des parents en France ou à l'étranger ; seule la preuve du mariage dépend de leur situation (« s'ils sont mariés »). Nouvelle question parents_married.",
+    "Impôts : aucune source ne prévoit de pièce différente pour une personne non imposable (l'avis « de non-imposition » ou Asdir est accepté) ; pour l'étudiant à la charge de ses parents, F34746 demande le dernier avis d'imposition des parents (question supported_by_parents)."
   ],
   "outcomes": [
     {

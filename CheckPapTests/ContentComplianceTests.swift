@@ -213,4 +213,17 @@ struct ContentComplianceTests {
             #expect(!value.lowercased().contains("officiel"), "help : mot interdit dans « \(value) »")
         }
     }
+
+    /// Une pièce affichée à tout le monde ne doit pas annoncer "seulement si..." : c'est le rôle d'une condition.
+    @Test func unconditionalDocumentsAreReallyForEveryone() throws {
+        for id in try Self.procedureIds() {
+            let procedure = try Self.procedure(id)
+            for document in procedure.documents where document.condition == nil {
+                let title = (document.title.values["fr"] ?? "").lowercased()
+                for marker in ["seulement", "uniquement", "le cas échéant", "si vous", "si votre"] {
+                    #expect(!title.contains(marker), "\(id) / \(document.id) : « \(marker) » dans le titre mais aucune condition")
+                }
+            }
+        }
+    }
 }

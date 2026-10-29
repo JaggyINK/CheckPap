@@ -67,6 +67,25 @@ enum RulesEngine {
         outcomes(in: procedure, answers: answers, kind: .redirect).first
     }
 
+    /// Réponses qui expliquent pourquoi un élément s'affiche ("parce que vous avez répondu ...").
+    /// Liste vide : l'élément est demandé à tout le monde pour cette démarche.
+    static func reasons(for condition: Condition?, in procedure: Procedure, answers: Answers) -> [(question: Question, answer: AnswerOption)] {
+        guard let condition else { return [] }
+        let effective = effectiveAnswers(in: procedure, answers: answers)
+        var seen: Set<String> = []
+        var answered: [(question: Question, answer: AnswerOption, matches: Bool)] = []
+        for reference in condition.references where seen.insert(reference.question).inserted {
+            guard let question = procedure.questions.first(where: { $0.id == reference.question }),
+                  let value = effective[question.id],
+                  let option = question.choices.first(where: { $0.id == value })
+            else { continue }
+            answered.append((question, option, reference.values.contains(value)))
+        }
+        // On montre d'abord les réponses qui correspondent directement à la condition.
+        let matching = answered.filter(\.matches)
+        return (matching.isEmpty ? answered : matching).map { ($0.question, $0.answer) }
+    }
+
     private static func walk(_ procedure: Procedure, _ answers: Answers) -> (visible: [Question], effective: Answers) {
         var visible: [Question] = []
         var effective: Answers = [:]

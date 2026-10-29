@@ -739,6 +739,84 @@
         "sp_rece",
         "sp_entrepreneur"
       ]
+    },
+    {
+      "id": "is_moroccan_or_tunisian",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Êtes-vous de nationalité marocaine ou tunisienne ?",
+        "en": "Are you a Moroccan or Tunisian national?"
+      },
+      "help": {
+        "fr": "Service-public indique que, pour un titre salarié, la signature du contrat d'engagement à respecter les principes de la République est facultative pour les Marocains et les Tunisiens.",
+        "en": "Service-public says that for an employee permit, signing the contract of commitment to respect the principles of the Republic is optional for Moroccans and Tunisians."
+      },
+      "example": {
+        "fr": "Exemple : votre passeport est marocain.",
+        "en": "Example: you hold a Moroccan passport."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "target_status",
+            "equals": "salarie"
+          },
+          {
+            "question": "is_algerian",
+            "equals": "no"
+          }
+        ]
+      },
+      "sources": [
+        "sp_engagement_republique"
+      ]
+    },
+    {
+      "id": "housing_situation",
+      "kind": "single",
+      "title": {
+        "fr": "Où habitez-vous en ce moment ?",
+        "en": "Where do you live at the moment?"
+      },
+      "help": {
+        "fr": "La préfecture demande un justificatif de domicile de moins de 6 mois. Les documents à fournir changent selon votre logement.",
+        "en": "The prefecture asks for proof of address less than 6 months old. The documents depend on where you live."
+      },
+      "example": {
+        "fr": "Exemple : vous vivez chez un ami qui n'est pas locataire avec vous : choisissez \"Hébergé(e) chez quelqu'un\".",
+        "en": "Example: you live at a friend's home and are not on the lease: choose \"Staying with someone\"."
+      },
+      "options": [
+        {
+          "id": "tenant_owner",
+          "label": {
+            "fr": "Locataire ou propriétaire",
+            "en": "Tenant or owner"
+          }
+        },
+        {
+          "id": "hotel",
+          "label": {
+            "fr": "À l'hôtel",
+            "en": "In a hotel"
+          }
+        },
+        {
+          "id": "hosted",
+          "label": {
+            "fr": "Hébergé(e) chez quelqu'un",
+            "en": "Staying with someone"
+          },
+          "help": {
+            "fr": "Famille, ami ou autre particulier qui vous loge.",
+            "en": "Family, a friend or another person who houses you."
+          }
+        }
+      ],
+      "condition": null,
+      "sources": [
+        "sp_justificatif_domicile"
+      ]
     }
   ],
   "documents": [
@@ -792,8 +870,8 @@
         "en": "Proof of address less than 6 months old"
       },
       "details": {
-        "fr": "Locataire ou propriétaire : facture d'électricité, de gaz, d'eau, de téléphone fixe ou d'internet, bail ou quittance de loyer. À l'hôtel : attestation de l'hôtelier et facture du dernier mois. Hébergé chez un particulier : attestation de l'hébergeant datée et signée, copie de sa carte d'identité ou de sa carte de séjour, et justificatif de domicile à son nom si l'adresse de sa carte n'est plus à jour.",
-        "en": "Tenant or owner: electricity, gas, water, landline or internet bill, lease or rent receipt. Hotel: certificate from the hotel and last month's bill. Staying with someone: dated and signed certificate from your host, a copy of their identity card or residence card, and proof of address in their name if the address on their card is out of date."
+        "fr": "Un de ces documents : facture d'électricité, de gaz, d'eau, de téléphone fixe ou d'accès à internet, bail de location ou quittance de loyer.",
+        "en": "One of these documents: electricity, gas, water, landline or internet bill, lease or rent receipt."
       },
       "example": {
         "fr": "Exemple : une facture d'électricité à votre nom datée du mois dernier.",
@@ -803,13 +881,96 @@
         "fr": "Service-public indique qu'un justificatif de domicile sécurisé, avec un code-barres 2D-Doc, ne peut pas être refusé.",
         "en": "Service-public says a secure proof of address with a 2D-Doc barcode cannot be refused."
       },
-      "condition": null,
+      "condition": {
+        "question": "housing_situation",
+        "equals": "tenant_owner"
+      },
       "sources": [
         "sp_justificatif_domicile",
         "sp_salarie",
         "sp_rece",
         "sp_entrepreneur",
         "sp_talent"
+      ]
+    },
+    {
+      "id": "proof_of_address_hotel",
+      "category": "address",
+      "title": {
+        "fr": "Attestation de l'hôtelier et facture du dernier mois",
+        "en": "Certificate from the hotel and last month's bill"
+      },
+      "details": {
+        "fr": "Les 2 documents sont demandés.",
+        "en": "Both documents are required."
+      },
+      "condition": {
+        "question": "housing_situation",
+        "equals": "hotel"
+      },
+      "sources": [
+        "sp_justificatif_domicile",
+        "sp_salarie",
+        "sp_rece",
+        "sp_entrepreneur",
+        "sp_talent"
+      ]
+    },
+    {
+      "id": "host_certificate",
+      "category": "address",
+      "title": {
+        "fr": "Attestation d'hébergement datée et signée",
+        "en": "Dated and signed certificate from your host"
+      },
+      "details": {
+        "fr": "Attestation de la personne qui vous héberge. Un modèle d'attestation est proposé par service-public.",
+        "en": "Certificate from the person who houses you. Service-public offers a template."
+      },
+      "condition": {
+        "question": "housing_situation",
+        "equals": "hosted"
+      },
+      "sources": [
+        "sp_justificatif_domicile"
+      ]
+    },
+    {
+      "id": "host_identity",
+      "category": "address",
+      "title": {
+        "fr": "Copie de la carte d'identité ou de la carte de séjour de l'hébergeant",
+        "en": "Copy of your host's identity card or residence card"
+      },
+      "condition": {
+        "question": "housing_situation",
+        "equals": "hosted"
+      },
+      "sources": [
+        "sp_justificatif_domicile"
+      ]
+    },
+    {
+      "id": "host_proof_of_address",
+      "category": "address",
+      "title": {
+        "fr": "Justificatif de domicile au nom de l'hébergeant",
+        "en": "Proof of address in your host's name"
+      },
+      "details": {
+        "fr": "Demandé quand l'adresse sur la carte d'identité ou la carte de séjour de l'hébergeant n'est plus à jour : acte de propriété, relevé de taxe d'habitation, bail, ou facture d'électricité, de gaz, d'eau, de téléphone fixe ou d'accès à internet.",
+        "en": "Required when the address on your host's identity card or residence card is out of date: title deed, housing tax statement, lease, or electricity, gas, water, landline or internet bill."
+      },
+      "tip": {
+        "fr": "Service-public indique qu'un justificatif de domicile sécurisé, avec un code-barres 2D-Doc, ne peut pas être refusé.",
+        "en": "Service-public says a secure proof of address with a 2D-Doc barcode cannot be refused."
+      },
+      "condition": {
+        "question": "housing_situation",
+        "equals": "hosted"
+      },
+      "sources": [
+        "sp_justificatif_domicile"
       ]
     },
     {
@@ -878,10 +1039,23 @@
         "en": "A signed copy, included in your file when you apply. On the ANEF website, you sign it online."
       },
       "tip": {
-        "fr": "La version signée et jointe au dossier doit être la version en français. Sans ce contrat, la préfecture considère le dossier comme incomplet. Service-public indique que la signature est facultative dans certains cas, par exemple pour les Algériens, et pour les Marocains et les Tunisiens qui demandent un titre salarié.",
-        "en": "The signed copy in your file must be the French version. Without this contract, the prefecture treats the file as incomplete. Service-public says signing is optional in some cases, for example for Algerians, and for Moroccans and Tunisians applying for an employee permit."
+        "fr": "La version signée et jointe au dossier doit être la version en français. Sans ce contrat, la préfecture considère le dossier comme incomplet.",
+        "en": "The signed copy in your file must be the French version. Without this contract, the prefecture treats the file as incomplete."
       },
-      "condition": null,
+      "condition": {
+        "not": {
+          "any": [
+            {
+              "question": "is_algerian",
+              "equals": "yes"
+            },
+            {
+              "question": "is_moroccan_or_tunisian",
+              "equals": "yes"
+            }
+          ]
+        }
+      },
       "sources": [
         "sp_engagement_republique",
         "sp_salarie",
@@ -2307,7 +2481,8 @@
     "Accords bilatéraux : F2229 liste des métiers ouverts pour certaines nationalités (Bénin, Burkina Faso, Cap-Vert, Congo, Gabon, Géorgie, Maurice, Sénégal, Tunisie) ; non repris en détail (listes longues). L'APS « première expérience professionnelle » est citée par F17319 sans liste de pièces.",
     "Autres changements de statut non traités faute de pièces spécifiques lues : étudiant vers vie privée et familiale (conjoint de Français, etc.), talent-chercheur vers salarié, talent - projet économique innovant et investissement, talent - profession artistique ou médicale (seuils cités par F17319 : 1 306,91 € et 41 386,48 €).",
     "Arrêté du 4 mai 2022 (liste nationale des pièces) et annexe 10 du CESEDA (points 26 à 28) non lus. Légifrance n'est lisible que par fragments.",
-    "Ce qui dépend de la préfecture : mode de dépôt (guichet, courrier, plateforme en ligne, rendez-vous), sous-préfectures compétentes, renouvellement du récépissé, convocation pour la remise du titre, pièces locales complémentaires (formulaires, copies)."
+    "Ce qui dépend de la préfecture : mode de dépôt (guichet, courrier, plateforme en ligne, rendez-vous), sous-préfectures compétentes, renouvellement du récépissé, convocation pour la remise du titre, pièces locales complémentaires (formulaires, copies).",
+    "Pièces sans condition conservées : identity_document et current_permit figurent dans toutes les listes de pièces des fiches F15898 (changement de statut), F17319, F35795 et F16922 pour toutes les combinaisons traitées. Contrat d'engagement : F38329 le rend facultatif pour les Algériens (tous titres) et pour les Marocains et Tunisiens demandant un titre salarié ; la formulation « salarié » n'a pas été étendue au titre travailleur temporaire faute de source. Les autres dérogations de F38329 (Tunisiens dans d'autres cas, citoyens UE/EEE, Monégasques, accord de retrait du Royaume-Uni) ne concernent pas les titres traités ici."
   ],
   "outcomes": [
     {
