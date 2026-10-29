@@ -1,0 +1,2704 @@
+{
+  "id": "family_reunification",
+  "reviewStatus": "draft",
+  "lastVerified": "2026-10-29",
+  "title": {
+    "fr": "Faire venir ma famille (regroupement familial)",
+    "en": "Bring my family to France (family reunification)"
+  },
+  "summary": {
+    "fr": "Le regroupement familial permet à une personne étrangère non européenne qui vit en France avec un titre de séjour de faire venir son époux ou épouse et ses enfants mineurs. La demande se fait auprès de l'Ofii, en ligne ou par courrier ; le préfet décide. Cette liste vous aide à préparer le dossier.",
+    "en": "Family reunification lets a non-European foreign national living in France with a residence permit bring their spouse and minor children. The application goes to OFII, online or by post; the prefect decides. This list helps you prepare the file."
+  },
+  "sources": [
+    {
+      "id": "sp_f11166",
+      "publisher": "service-public.gouv.fr",
+      "title": "Regroupement familial (Vérifié le 01 juin 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F11166",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_r1251",
+      "publisher": "service-public.gouv.fr",
+      "title": "Demande de regroupement familial, cerfa 11436*05 (Vérifié le 28 avril 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1251",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_r68987",
+      "publisher": "service-public.gouv.fr",
+      "title": "Demande de regroupement familial, démarche en ligne (Vérifié le 28 avril 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R68987",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_r17771",
+      "publisher": "service-public.gouv.fr",
+      "title": "Attestation de mise à disposition d'un logement dans le cadre d'un regroupement familial, cerfa 11437*04 (Vérifié le 28 avril 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R17771",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_r59236",
+      "publisher": "service-public.gouv.fr",
+      "title": "Vérifier si vous pouvez bénéficier du regroupement familial (Vérifié le 28 avril 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R59236",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_r59969",
+      "publisher": "service-public.gouv.fr",
+      "title": "Connaître la liste des documents pour un dossier de regroupement familial (Vérifié le 28 avril 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R59969",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_r46110",
+      "publisher": "service-public.gouv.fr",
+      "title": "Connaître la zone de sa commune : A, Abis, B1, B2 ou C (Vérifié le 04 février 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R46110",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f11168",
+      "publisher": "service-public.gouv.fr",
+      "title": "Le regroupement familial concerne-t-il toutes les familles étrangères ? (Vérifié le 21 mai 2024)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F11168",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f11167",
+      "publisher": "service-public.gouv.fr",
+      "title": "Une famille déjà en France peut-elle bénéficier d'un regroupement familial ? (Vérifié le 12 janvier 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F11167",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f35158",
+      "publisher": "service-public.gouv.fr",
+      "title": "Réunification familiale (Vérifié le 22 avril 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F35158",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f16162",
+      "publisher": "service-public.gouv.fr",
+      "title": "Visa de long séjour (Vérifié le 09 octobre 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F16162",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f2209",
+      "publisher": "service-public.gouv.fr",
+      "title": "Carte de séjour vie privée et familiale (Vérifié le 01 mai 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2209",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f2653",
+      "publisher": "service-public.gouv.fr",
+      "title": "Séjour en France de la famille d'un citoyen européen (Vérifié le 08 avril 2024)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2653",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f302",
+      "publisher": "service-public.gouv.fr",
+      "title": "Carte de séjour temporaire \"visiteur\" d'un étranger en France (Vérifié le 01 juin 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F302",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f2474",
+      "publisher": "service-public.gouv.fr",
+      "title": "Recours gracieux, recours hiérarchique et recours administratif préalable obligatoire (Rapo) (Vérifié le 11 mai 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2474",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f2478",
+      "publisher": "service-public.gouv.fr",
+      "title": "Dans quelles conditions peut-on saisir le juge administratif ? (Vérifié le 19 juin 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2478",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f12956",
+      "publisher": "service-public.gouv.fr",
+      "title": "Traduction d'un document : comment trouver un traducteur agréé ? (Vérifié le 26 janvier 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F12956",
+      "consulted": "2026-10-29"
+    }
+  ],
+  "questions": [
+    {
+      "id": "sponsor_status",
+      "kind": "single",
+      "title": {
+        "fr": "Quelle est la situation de la personne qui vit en France et veut faire venir sa famille ?",
+        "en": "What is the situation of the person living in France who wants to bring their family?"
+      },
+      "help": {
+        "fr": "Le regroupement familial concerne une personne étrangère non européenne qui vit en France avec un titre de séjour. D'autres procédures existent pour la famille d'un Français, d'un Européen ou d'un réfugié.",
+        "en": "Family reunification is for a non-European foreign national living in France with a residence permit. Other procedures exist for the family of a French citizen, a European or a refugee."
+      },
+      "example": {
+        "fr": "Exemple : vous êtes sénégalais, vous avez une carte de séjour salarié et votre épouse vit à Dakar. Vous choisissez la première réponse.",
+        "en": "Example: you are Senegalese, you have an employee residence permit and your wife lives in Dakar. Choose the first answer."
+      },
+      "options": [
+        {
+          "id": "foreign_permit",
+          "label": {
+            "fr": "Étranger (hors Europe) avec un titre de séjour",
+            "en": "Foreign national (non-European) with a residence permit"
+          }
+        },
+        {
+          "id": "protected",
+          "label": {
+            "fr": "Réfugié, protection subsidiaire ou apatride",
+            "en": "Refugee, subsidiary protection or stateless"
+          }
+        },
+        {
+          "id": "french",
+          "label": {
+            "fr": "Français(e)",
+            "en": "French citizen"
+          }
+        },
+        {
+          "id": "european",
+          "label": {
+            "fr": "Citoyen de l'UE, de l'EEE ou de la Suisse",
+            "en": "EU, EEA or Swiss citizen"
+          }
+        }
+      ],
+      "condition": null,
+      "sources": [
+        "sp_f11166",
+        "sp_f11168"
+      ]
+    },
+    {
+      "id": "ties_before_protection",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Le mariage (ou la naissance des enfants) date-t-il d'avant votre demande de protection ?",
+        "en": "Did the marriage (or the children's birth) happen before your protection application?"
+      },
+      "help": {
+        "fr": "Si les liens familiaux datent d'avant la demande d'asile ou d'apatridie, et que la famille a été déclarée à l'Ofpra, la procédure est la réunification familiale. S'ils datent d'après, c'est le regroupement familial.",
+        "en": "If the family ties existed before the asylum or statelessness application, and the family was declared to OFPRA, the procedure is family reunion (réunification familiale). If they came after, it is family reunification (regroupement familial)."
+      },
+      "example": {
+        "fr": "Exemple : vous vous êtes marié en 2018 et avez demandé l'asile en 2021. Vous répondez « Oui ».",
+        "en": "Example: you married in 2018 and applied for asylum in 2021. Answer \"Yes\"."
+      },
+      "condition": {
+        "question": "sponsor_status",
+        "equals": "protected"
+      },
+      "sources": [
+        "sp_f35158"
+      ]
+    },
+    {
+      "id": "nationality_group",
+      "kind": "single",
+      "title": {
+        "fr": "Quelle est votre nationalité ?",
+        "en": "What is your nationality?"
+      },
+      "help": {
+        "fr": "Les Algériens suivent des règles propres (accord franco-algérien). Pour le Maroc, la Tunisie et 12 pays d'Afrique liés par des accords, le titre de séjour de la famille à l'arrivée est différent.",
+        "en": "Algerians follow specific rules (Franco-Algerian agreement). For Morocco, Tunisia and 12 African countries with agreements, the family's residence permit on arrival is different."
+      },
+      "example": {
+        "fr": "Exemple : vous êtes ivoirien. Vous choisissez « Bénin, Burkina Faso, Cameroun... ».",
+        "en": "Example: you are Ivorian. Choose \"Benin, Burkina Faso, Cameroon...\"."
+      },
+      "options": [
+        {
+          "id": "algerian",
+          "label": {
+            "fr": "Algérienne",
+            "en": "Algerian"
+          }
+        },
+        {
+          "id": "morocco_tunisia",
+          "label": {
+            "fr": "Marocaine ou tunisienne",
+            "en": "Moroccan or Tunisian"
+          }
+        },
+        {
+          "id": "africa_agreement",
+          "label": {
+            "fr": "Bénin, Burkina Faso, Cameroun, Centrafrique, Congo-Brazzaville, Côte d'Ivoire, Gabon, Mali, Mauritanie, Niger, Sénégal ou Togo",
+            "en": "Benin, Burkina Faso, Cameroon, Central African Republic, Congo-Brazzaville, Ivory Coast, Gabon, Mali, Mauritania, Niger, Senegal or Togo"
+          }
+        },
+        {
+          "id": "other",
+          "label": {
+            "fr": "Une autre nationalité",
+            "en": "Another nationality"
+          }
+        }
+      ],
+      "condition": {
+        "any": [
+          {
+            "question": "sponsor_status",
+            "equals": "foreign_permit"
+          },
+          {
+            "question": "ties_before_protection",
+            "equals": "no"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f11166"
+      ]
+    },
+    {
+      "id": "residence_start",
+      "kind": "date",
+      "title": {
+        "fr": "Depuis quelle date vivez-vous en France de façon régulière ?",
+        "en": "Since what date have you lived legally in France?"
+      },
+      "help": {
+        "fr": "Il faut résider en France depuis au moins 18 mois (1 an pour les Algériens). Pour les 18 mois, de nombreux documents comptent : visa long séjour, cartes de séjour, autorisation provisoire, récépissé, attestation de demande d'asile.",
+        "en": "You must have lived in France for at least 18 months (1 year for Algerians). For the 18 months, many documents count: long-stay visa, residence permits, temporary permit, receipt, asylum application certificate."
+      },
+      "example": {
+        "fr": "Exemple : vous êtes arrivé avec un visa de long séjour étudiant le 1er septembre 2023. Vous indiquez cette date.",
+        "en": "Example: you arrived with a student long-stay visa on 1 September 2023. Enter that date."
+      },
+      "condition": {
+        "question": "nationality_group",
+        "in": [
+          "algerian",
+          "morocco_tunisia",
+          "africa_agreement",
+          "other"
+        ]
+      },
+      "sources": [
+        "sp_f11166"
+      ]
+    },
+    {
+      "id": "permit_type",
+      "kind": "single",
+      "title": {
+        "fr": "Quel document de séjour avez-vous aujourd'hui ?",
+        "en": "Which residence document do you have today?"
+      },
+      "help": {
+        "fr": "Au dépôt de la demande, il faut avoir l'un des documents acceptés. Pour les Algériens : un certificat de résidence d'au moins 1 an.",
+        "en": "When you apply, you must hold one of the accepted documents. For Algerians: a residence certificate of at least 1 year."
+      },
+      "example": {
+        "fr": "Exemple : votre carte indique « carte de séjour pluriannuelle ». Vous choisissez la première réponse.",
+        "en": "Example: your card says \"multi-year residence permit\". Choose the first answer."
+      },
+      "options": [
+        {
+          "id": "one_year_plus",
+          "label": {
+            "fr": "Carte de séjour d'au moins 1 an, ou carte pluriannuelle (ou certificat de résidence algérien d'au moins 1 an)",
+            "en": "Residence permit of at least 1 year, or multi-year permit (or Algerian residence certificate of at least 1 year)"
+          }
+        },
+        {
+          "id": "resident_10y",
+          "label": {
+            "fr": "Carte de résident ou résident de longue durée-UE de 10 ans (délivrée par la France)",
+            "en": "10-year resident card or EU long-term resident card (issued by France)"
+          }
+        },
+        {
+          "id": "renewal_receipt",
+          "label": {
+            "fr": "Récépissé de demande de renouvellement de l'un de ces titres",
+            "en": "Receipt for renewal of one of these permits"
+          }
+        },
+        {
+          "id": "other_document",
+          "label": {
+            "fr": "Autre document (titre de moins d'1 an, autorisation provisoire, récépissé de 1re demande, attestation de demande d'asile)",
+            "en": "Other document (permit under 1 year, temporary permit, first-application receipt, asylum application certificate)"
+          }
+        }
+      ],
+      "condition": {
+        "question": "nationality_group",
+        "in": [
+          "algerian",
+          "morocco_tunisia",
+          "africa_agreement",
+          "other"
+        ]
+      },
+      "sources": [
+        "sp_f11166"
+      ]
+    },
+    {
+      "id": "who_to_bring",
+      "kind": "single",
+      "title": {
+        "fr": "Qui voulez-vous faire venir ?",
+        "en": "Who do you want to bring?"
+      },
+      "help": {
+        "fr": "Le regroupement familial concerne l'époux ou l'épouse majeur(e) légalement marié(e) et les enfants mineurs. En règle générale, toute la famille doit venir ensemble ; une demande partielle est possible exceptionnellement, dans l'intérêt des enfants.",
+        "en": "Family reunification covers the legally married spouse aged 18 or over and minor children. As a rule, the whole family must come together; a partial request is exceptionally possible, in the children's interest."
+      },
+      "example": {
+        "fr": "Exemple : vous voulez faire venir votre épouse et vos deux enfants de 5 et 9 ans. Vous choisissez la première réponse.",
+        "en": "Example: you want to bring your wife and your two children aged 5 and 9. Choose the first answer."
+      },
+      "options": [
+        {
+          "id": "spouse_and_children",
+          "label": {
+            "fr": "Mon époux ou épouse et tous nos enfants mineurs",
+            "en": "My spouse and all our minor children"
+          }
+        },
+        {
+          "id": "spouse_only",
+          "label": {
+            "fr": "Mon époux ou épouse (pas d'enfant mineur)",
+            "en": "My spouse (no minor child)"
+          }
+        },
+        {
+          "id": "children_only",
+          "label": {
+            "fr": "Mes enfants mineurs seulement (je n'ai pas d'époux ou d'épouse à faire venir)",
+            "en": "Only my minor children (no spouse to bring)"
+          }
+        },
+        {
+          "id": "part_of_family",
+          "label": {
+            "fr": "Une partie seulement de la famille",
+            "en": "Only part of the family"
+          }
+        },
+        {
+          "id": "partner_not_married",
+          "label": {
+            "fr": "Mon ou ma partenaire de Pacs ou concubin(e)",
+            "en": "My civil partner (Pacs) or unmarried partner"
+          }
+        },
+        {
+          "id": "parents",
+          "label": {
+            "fr": "Mes parents ou grands-parents",
+            "en": "My parents or grandparents"
+          }
+        }
+      ],
+      "condition": {
+        "question": "nationality_group",
+        "in": [
+          "algerian",
+          "morocco_tunisia",
+          "africa_agreement",
+          "other"
+        ]
+      },
+      "sources": [
+        "sp_f11166"
+      ]
+    },
+    {
+      "id": "spouse_adult",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Votre époux ou épouse a-t-il ou elle au moins 18 ans ?",
+        "en": "Is your spouse at least 18 years old?"
+      },
+      "help": {
+        "fr": "L'âge de l'époux ou de l'épouse et des enfants est apprécié à la date du dépôt de la demande.",
+        "en": "The age of the spouse and children is assessed on the date the application is filed."
+      },
+      "example": {
+        "fr": "Exemple : votre épouse est née en 2000. Vous répondez « Oui ».",
+        "en": "Example: your wife was born in 2000. Answer \"Yes\"."
+      },
+      "condition": {
+        "question": "who_to_bring",
+        "in": [
+          "spouse_and_children",
+          "spouse_only",
+          "part_of_family"
+        ]
+      },
+      "sources": [
+        "sp_f11166"
+      ]
+    },
+    {
+      "id": "family_location",
+      "kind": "single",
+      "title": {
+        "fr": "Où vit aujourd'hui la famille que vous voulez faire venir ?",
+        "en": "Where does the family you want to bring live today?"
+      },
+      "help": {
+        "fr": "La famille doit en principe résider à l'étranger. Une famille déjà en France peut exceptionnellement bénéficier d'un regroupement familial « sur place ».",
+        "en": "In principle the family must live abroad. A family already in France may exceptionally get family reunification \"on the spot\" (sur place)."
+      },
+      "example": {
+        "fr": "Exemple : votre épouse est tunisienne mais vit en Italie avec un titre de séjour italien. Vous choisissez la deuxième réponse.",
+        "en": "Example: your wife is Tunisian but lives in Italy with an Italian residence permit. Choose the second answer."
+      },
+      "options": [
+        {
+          "id": "home_country",
+          "label": {
+            "fr": "Dans son pays d'origine",
+            "en": "In their country of origin"
+          }
+        },
+        {
+          "id": "other_country",
+          "label": {
+            "fr": "Dans un autre pays que son pays d'origine",
+            "en": "In a country other than their country of origin"
+          }
+        },
+        {
+          "id": "in_france",
+          "label": {
+            "fr": "Déjà en France",
+            "en": "Already in France"
+          }
+        }
+      ],
+      "condition": {
+        "question": "who_to_bring",
+        "in": [
+          "spouse_and_children",
+          "spouse_only",
+          "children_only",
+          "part_of_family"
+        ]
+      },
+      "sources": [
+        "sp_f11166",
+        "sp_f11167"
+      ]
+    },
+    {
+      "id": "children_other_union",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Un des enfants est-il né d'une autre union (la vôtre ou celle de votre époux ou épouse) ?",
+        "en": "Was one of the children born from another relationship (yours or your spouse's)?"
+      },
+      "help": {
+        "fr": "Un enfant d'une précédente union peut venir si l'autre parent est décédé ou privé de ses droits parentaux, ou si l'autorité parentale a été confiée par une décision de justice étrangère. Des jugements et autorisations sont alors demandés.",
+        "en": "A child from a previous relationship can come if the other parent has died or lost parental rights, or if parental authority was granted by a foreign court decision. Judgments and authorisations are then requested."
+      },
+      "example": {
+        "fr": "Exemple : votre fils est né de votre premier mariage et un jugement de divorce vous a confié sa garde. Vous répondez « Oui ».",
+        "en": "Example: your son was born from your first marriage and a divorce judgment gave you custody. Answer \"Yes\"."
+      },
+      "condition": {
+        "question": "who_to_bring",
+        "in": [
+          "spouse_and_children",
+          "children_only",
+          "part_of_family"
+        ]
+      },
+      "sources": [
+        "sp_f11166"
+      ]
+    },
+    {
+      "id": "polygamy_country",
+      "kind": "yesNo",
+      "title": {
+        "fr": "La loi de votre pays autorise-t-elle la polygamie ?",
+        "en": "Does the law of your country allow polygamy?"
+      },
+      "help": {
+        "fr": "Dans ce cas, le dossier demande les jugements de divorce et une déclaration sur l'honneur. Le regroupement familial n'est pas possible pour une 2e épouse si une 1re épouse vit en France.",
+        "en": "In that case, the file asks for divorce judgments and a sworn statement. Family reunification is not possible for a 2nd wife if a 1st wife lives in France."
+      },
+      "example": {
+        "fr": "Exemple : vous êtes malien et la loi malienne autorise la polygamie. Vous répondez « Oui ».",
+        "en": "Example: you are Malian and Malian law allows polygamy. Answer \"Yes\"."
+      },
+      "condition": {
+        "question": "who_to_bring",
+        "in": [
+          "spouse_and_children",
+          "spouse_only",
+          "part_of_family"
+        ]
+      },
+      "sources": [
+        "sp_f11166"
+      ]
+    },
+    {
+      "id": "income_source",
+      "kind": "single",
+      "title": {
+        "fr": "D'où viennent principalement vos revenus ?",
+        "en": "Where does your income mainly come from?"
+      },
+      "help": {
+        "fr": "Les justificatifs de ressources des 12 derniers mois dépendent de votre situation. Les prestations familiales, le RSA et certaines allocations ne comptent pas.",
+        "en": "Proof of income for the last 12 months depends on your situation. Family benefits, RSA and some allowances do not count."
+      },
+      "example": {
+        "fr": "Exemple : vous êtes en CDI dans une entreprise de nettoyage. Vous choisissez « Salarié ».",
+        "en": "Example: you have a permanent contract with a cleaning company. Choose \"Employee\"."
+      },
+      "options": [
+        {
+          "id": "employee",
+          "label": {
+            "fr": "Salarié (y compris intérim)",
+            "en": "Employee (including temp work)"
+          }
+        },
+        {
+          "id": "business",
+          "label": {
+            "fr": "Commerçant, artisan ou profession libérale",
+            "en": "Trader, craftsperson or self-employed professional"
+          }
+        },
+        {
+          "id": "micro_entrepreneur",
+          "label": {
+            "fr": "Auto-entrepreneur",
+            "en": "Micro-entrepreneur"
+          }
+        },
+        {
+          "id": "job_seeker",
+          "label": {
+            "fr": "Demandeur d'emploi indemnisé",
+            "en": "Job seeker receiving benefits"
+          }
+        },
+        {
+          "id": "retired_invalid",
+          "label": {
+            "fr": "Retraité ou pension d'invalidité",
+            "en": "Retired or disability pension"
+          }
+        },
+        {
+          "id": "aah_asi",
+          "label": {
+            "fr": "Allocation aux adultes handicapés (AAH) ou allocation supplémentaire d'invalidité (Asi)",
+            "en": "Disabled adult allowance (AAH) or supplementary disability allowance (ASI)"
+          }
+        },
+        {
+          "id": "other",
+          "label": {
+            "fr": "Autre (patrimoine, pension alimentaire...)",
+            "en": "Other (assets, maintenance...)"
+          }
+        }
+      ],
+      "condition": {
+        "question": "who_to_bring",
+        "in": [
+          "spouse_and_children",
+          "spouse_only",
+          "children_only",
+          "part_of_family"
+        ]
+      },
+      "sources": [
+        "sp_f11166"
+      ]
+    },
+    {
+      "id": "family_size",
+      "kind": "single",
+      "title": {
+        "fr": "Combien de personnes compterez-vous en tout, vous compris, après l'arrivée de la famille ?",
+        "en": "How many people will there be in total, including you, once the family arrives?"
+      },
+      "help": {
+        "fr": "Le montant de ressources demandé et la surface du logement dépendent de la taille de la famille.",
+        "en": "The required income and the housing size depend on the size of the family."
+      },
+      "example": {
+        "fr": "Exemple : vous, votre épouse et 2 enfants : 4 personnes.",
+        "en": "Example: you, your wife and 2 children: 4 people."
+      },
+      "options": [
+        {
+          "id": "2_3",
+          "label": {
+            "fr": "2 ou 3 personnes",
+            "en": "2 or 3 people"
+          }
+        },
+        {
+          "id": "4_5",
+          "label": {
+            "fr": "4 ou 5 personnes",
+            "en": "4 or 5 people"
+          }
+        },
+        {
+          "id": "6_plus",
+          "label": {
+            "fr": "6 personnes ou plus",
+            "en": "6 people or more"
+          }
+        }
+      ],
+      "condition": {
+        "question": "who_to_bring",
+        "in": [
+          "spouse_and_children",
+          "spouse_only",
+          "children_only",
+          "part_of_family"
+        ]
+      },
+      "sources": [
+        "sp_f11166"
+      ]
+    },
+    {
+      "id": "housing_status",
+      "kind": "single",
+      "title": {
+        "fr": "Quelle est votre situation de logement ?",
+        "en": "What is your housing situation?"
+      },
+      "help": {
+        "fr": "Les justificatifs de logement dépendent de votre statut. Si vous n'avez pas encore le logement prévu pour la famille, un formulaire d'attestation de mise à disposition est demandé.",
+        "en": "Housing documents depend on your status. If you do not yet have the home planned for the family, a housing availability form is requested."
+      },
+      "example": {
+        "fr": "Exemple : vous louez un appartement avec un bail à votre nom. Vous choisissez « Locataire ».",
+        "en": "Example: you rent a flat with a lease in your name. Choose \"Tenant\"."
+      },
+      "options": [
+        {
+          "id": "tenant",
+          "label": {
+            "fr": "Locataire",
+            "en": "Tenant"
+          }
+        },
+        {
+          "id": "subtenant",
+          "label": {
+            "fr": "Sous-locataire",
+            "en": "Subtenant"
+          }
+        },
+        {
+          "id": "owner",
+          "label": {
+            "fr": "Propriétaire",
+            "en": "Owner"
+          }
+        },
+        {
+          "id": "hosted",
+          "label": {
+            "fr": "Hébergé gratuitement (par un proche ou l'employeur)",
+            "en": "Housed for free (by a relative or employer)"
+          }
+        },
+        {
+          "id": "future_housing",
+          "label": {
+            "fr": "Logement prévu mais pas encore disponible",
+            "en": "Home planned but not yet available"
+          }
+        }
+      ],
+      "condition": {
+        "question": "who_to_bring",
+        "in": [
+          "spouse_and_children",
+          "spouse_only",
+          "children_only",
+          "part_of_family"
+        ]
+      },
+      "sources": [
+        "sp_f11166"
+      ]
+    }
+  ],
+  "documents": [
+    {
+      "id": "cerfa_11436",
+      "category": "other",
+      "title": {
+        "fr": "Formulaire de demande de regroupement familial (cerfa n°11436)",
+        "en": "Family reunification application form (cerfa no. 11436)"
+      },
+      "details": {
+        "fr": "Formulaire rempli, avec la copie des justificatifs qui correspondent à votre situation. En ligne, les informations du formulaire sont demandées directement sur le site.",
+        "en": "Form filled in, with copies of the supporting documents for your situation. Online, the form's information is asked directly on the website."
+      },
+      "condition": null,
+      "sources": [
+        "sp_f11166",
+        "sp_r1251",
+        "sp_r68987"
+      ]
+    },
+    {
+      "id": "residence_permit",
+      "category": "residence",
+      "title": {
+        "fr": "Copie recto verso de votre titre de séjour",
+        "en": "Front and back copy of your residence permit"
+      },
+      "details": {
+        "fr": "Titre en cours de validité : carte de résident, carte de résident longue durée-UE délivrée en France, carte pluriannuelle ou carte de séjour temporaire d'au moins 1 an.",
+        "en": "Valid permit: resident card, EU long-term resident card issued in France, multi-year permit or temporary permit of at least 1 year."
+      },
+      "condition": {
+        "all": [
+          {
+            "not": {
+              "question": "nationality_group",
+              "equals": "algerian"
+            }
+          },
+          {
+            "question": "permit_type",
+            "in": [
+              "one_year_plus",
+              "resident_10y",
+              "renewal_receipt"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_f11166"
+      ]
+    },
+    {
+      "id": "residence_certificate_dz",
+      "category": "residence",
+      "title": {
+        "fr": "Copie recto verso de votre certificat de résidence algérien",
+        "en": "Front and back copy of your Algerian residence certificate"
+      },
+      "details": {
+        "fr": "Certificat de résidence d'1 an ou de 10 ans en cours de validité.",
+        "en": "Valid 1-year or 10-year residence certificate."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "nationality_group",
+            "equals": "algerian"
+          },
+          {
+            "question": "permit_type",
+            "in": [
+              "one_year_plus",
+              "resident_10y",
+              "renewal_receipt"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_f11166"
+      ]
+    },
+    {
+      "id": "renewal_certificate",
+      "category": "residence",
+      "title": {
+        "fr": "Attestation de demande de renouvellement de titre de séjour",
+        "en": "Residence permit renewal application certificate"
+      },
+      "details": {
+        "fr": "Si votre titre est en cours de renouvellement : l'attestation ou le récépissé de demande de renouvellement.",
+        "en": "If your permit is being renewed: the renewal certificate or receipt."
+      },
+      "condition": {
+        "question": "permit_type",
+        "equals": "renewal_receipt"
+      },
+      "sources": [
+        "sp_f11166"
+      ]
+    },
+    {
+      "id": "spouse_permit_france",
+      "category": "residence",
+      "title": {
+        "fr": "Titre de séjour de votre époux ou épouse en France",
+        "en": "Your spouse's French residence permit"
+      },
+      "details": {
+        "fr": "Si votre époux ou épouse réside déjà en France : son titre de séjour.",
+        "en": "If your spouse already lives in France: their residence permit."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "who_to_bring",
+            "in": [
+              "spouse_and_children",
+              "spouse_only",
+              "part_of_family"
+            ]
+          },
+          {
+            "question": "family_location",
+            "equals": "in_france"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f11166"
+      ]
+    },
+    {
+      "id": "spouse_permit_other_country",
+      "category": "residence",
+      "title": {
+        "fr": "Titre de séjour de votre époux ou épouse dans son pays de résidence",
+        "en": "Your spouse's residence permit in their country of residence"
+      },
+      "details": {
+        "fr": "Si votre époux ou épouse vit dans un pays différent de son pays d'origine : son titre de séjour délivré par ce pays.",
+        "en": "If your spouse lives in a country other than their country of origin: the residence permit issued by that country."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "who_to_bring",
+            "in": [
+              "spouse_and_children",
+              "spouse_only",
+              "part_of_family"
+            ]
+          },
+          {
+            "question": "family_location",
+            "equals": "other_country"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f11166"
+      ]
+    },
+    {
+      "id": "marriage_certificate",
+      "category": "civil_status",
+      "title": {
+        "fr": "Copie intégrale de l'acte de mariage",
+        "en": "Full copy of the marriage certificate"
+      },
+      "details": {
+        "fr": "Avec les mentions marginales, et le jugement supplétif s'il est mentionné dans l'acte.",
+        "en": "With marginal notes, and the substitute judgment if the record mentions one."
+      },
+      "condition": {
+        "question": "who_to_bring",
+        "in": [
+          "spouse_and_children",
+          "spouse_only",
+          "part_of_family"
+        ]
+      },
+      "sources": [
+        "sp_f11166"
+      ],
+      "guides": [
+        "sworn_translation",
+        "legalisation_apostille"
+      ]
+    },
+    {
+      "id": "own_birth_certificate",
+      "category": "civil_status",
+      "title": {
+        "fr": "Copie intégrale de votre acte de naissance",
+        "en": "Full copy of your birth certificate"
+      },
+      "details": {
+        "fr": "Avec les mentions marginales, et le jugement supplétif s'il est mentionné dans l'acte.",
+        "en": "With marginal notes, and the substitute judgment if the record mentions one."
+      },
+      "condition": null,
+      "sources": [
+        "sp_f11166"
+      ],
+      "guides": [
+        "sworn_translation",
+        "legalisation_apostille"
+      ]
+    },
+    {
+      "id": "spouse_birth_certificate",
+      "category": "civil_status",
+      "title": {
+        "fr": "Copie intégrale de l'acte de naissance de votre époux ou épouse",
+        "en": "Full copy of your spouse's birth certificate"
+      },
+      "details": {
+        "fr": "Avec les mentions marginales, et le jugement supplétif s'il est mentionné dans l'acte.",
+        "en": "With marginal notes, and the substitute judgment if the record mentions one."
+      },
+      "condition": {
+        "question": "who_to_bring",
+        "in": [
+          "spouse_and_children",
+          "spouse_only",
+          "part_of_family"
+        ]
+      },
+      "sources": [
+        "sp_f11166"
+      ],
+      "guides": [
+        "sworn_translation",
+        "legalisation_apostille"
+      ]
+    },
+    {
+      "id": "children_birth_certificates",
+      "category": "family",
+      "title": {
+        "fr": "Copie intégrale de l'acte de naissance de chaque enfant",
+        "en": "Full copy of each child's birth certificate"
+      },
+      "details": {
+        "fr": "Pour chacun de vos enfants et de ceux de votre époux ou épouse, avec les mentions marginales (et le jugement supplétif s'il est mentionné). Cela concerne aussi les enfants qui vivent déjà dans le logement en France.",
+        "en": "For each of your children and your spouse's children, with marginal notes (and the substitute judgment if mentioned). This also covers children already living in the home in France."
+      },
+      "condition": {
+        "question": "who_to_bring",
+        "in": [
+          "spouse_and_children",
+          "children_only",
+          "part_of_family"
+        ]
+      },
+      "sources": [
+        "sp_f11166"
+      ],
+      "guides": [
+        "sworn_translation",
+        "legalisation_apostille"
+      ]
+    },
+    {
+      "id": "polygamy_documents",
+      "category": "family",
+      "title": {
+        "fr": "Jugements de divorce et déclaration sur l'honneur de non-polygamie",
+        "en": "Divorce judgments and sworn statement of non-polygamy"
+      },
+      "details": {
+        "fr": "Si la loi de votre pays autorise la polygamie : jugements de divorce vous concernant ou concernant votre époux ou épouse (irrévocables ou définitifs si le divorce a eu lieu à l'étranger), et déclaration sur l'honneur que le regroupement ne créera pas de situation de polygamie en France.",
+        "en": "If your country's law allows polygamy: divorce judgments concerning you or your spouse (final if the divorce took place abroad), and a sworn statement that the reunification will not create a polygamous situation in France."
+      },
+      "condition": {
+        "question": "polygamy_country",
+        "equals": "yes"
+      },
+      "sources": [
+        "sp_f11166"
+      ],
+      "guides": [
+        "sworn_translation"
+      ]
+    },
+    {
+      "id": "children_other_union_documents",
+      "category": "family",
+      "title": {
+        "fr": "Documents pour un enfant d'une autre union",
+        "en": "Documents for a child from another relationship"
+      },
+      "details": {
+        "fr": "Selon votre situation : jugements de divorce ; jugement qui attribue l'autorité parentale ou le droit de garde (sauf si le jugement de divorce le précise) ; lettre de l'autre parent qui autorise la venue de l'enfant en France, avec signature authentifiée ; acte de décès de l'autre parent ; décision de retrait de l'autorité parentale ; déclaration d'abandon, de disparition ou d'absence de l'autre parent ; attestation de votre époux ou épouse qui autorise l'enfant à résider au domicile.",
+        "en": "Depending on your situation: divorce judgments; judgment granting parental authority or custody (unless the divorce judgment states it); letter from the other parent authorising the child to come to France, with authenticated signature; the other parent's death certificate; decision withdrawing parental authority; declaration of abandonment, disappearance or absence of the other parent; certificate from your spouse authorising the child to live in the home."
+      },
+      "condition": {
+        "question": "children_other_union",
+        "equals": "yes"
+      },
+      "sources": [
+        "sp_f11166"
+      ],
+      "guides": [
+        "sworn_translation",
+        "legalisation_apostille"
+      ]
+    },
+    {
+      "id": "adoption_family_book",
+      "category": "family",
+      "title": {
+        "fr": "Jugement d'adoption ou livret de famille (selon votre situation)",
+        "en": "Adoption judgment or family record book (depending on your situation)"
+      },
+      "details": {
+        "fr": "La fiche cite aussi, selon la situation : le jugement d'adoption pour un enfant adopté, et le livret de famille.",
+        "en": "The page also lists, depending on the situation: the adoption judgment for an adopted child, and the family record book."
+      },
+      "condition": {
+        "question": "who_to_bring",
+        "in": [
+          "spouse_and_children",
+          "children_only",
+          "part_of_family"
+        ]
+      },
+      "sources": [
+        "sp_f11166"
+      ]
+    },
+    {
+      "id": "kafala",
+      "category": "family",
+      "title": {
+        "fr": "Kafala judiciaire algérienne (si un enfant est recueilli)",
+        "en": "Algerian judicial kafala (if a child is taken in)"
+      },
+      "details": {
+        "fr": "Un enfant recueilli par kafala judiciaire en Algérie peut bénéficier du regroupement familial, dans son intérêt supérieur. La décision de kafala est alors demandée.",
+        "en": "A child taken in under judicial kafala in Algeria can benefit from family reunification, in the child's best interest. The kafala decision is then requested."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "nationality_group",
+            "equals": "algerian"
+          },
+          {
+            "question": "who_to_bring",
+            "in": [
+              "spouse_and_children",
+              "children_only",
+              "part_of_family"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_f11166"
+      ]
+    },
+    {
+      "id": "children_in_france_documents",
+      "category": "family",
+      "title": {
+        "fr": "DCEM ou certificat de scolarité des enfants présents en France",
+        "en": "Minor's travel document (DCEM) or school certificate for children in France"
+      },
+      "details": {
+        "fr": "Pour les enfants déjà présents en France : document de circulation pour étranger mineur (DCEM) et/ou certificat de scolarité.",
+        "en": "For children already in France: travel document for foreign minors (DCEM) and/or school certificate."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "who_to_bring",
+            "in": [
+              "spouse_and_children",
+              "children_only",
+              "part_of_family"
+            ]
+          },
+          {
+            "question": "family_location",
+            "equals": "in_france"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f11166"
+      ]
+    },
+    {
+      "id": "translations",
+      "category": "other",
+      "title": {
+        "fr": "Traductions en français",
+        "en": "French translations"
+      },
+      "details": {
+        "fr": "Les documents doivent être accompagnés de leur traduction en français, faite par un traducteur agréé ou certifiée conforme par une autorité consulaire ou diplomatique française.",
+        "en": "Documents must come with a French translation, made by an approved translator or certified by a French consular or diplomatic authority."
+      },
+      "condition": null,
+      "sources": [
+        "sp_f11166",
+        "sp_f12956"
+      ],
+      "guides": [
+        "sworn_translation",
+        "legalisation_apostille"
+      ]
+    },
+    {
+      "id": "explanation_letter",
+      "category": "family",
+      "title": {
+        "fr": "Lettre motivée pour un regroupement partiel",
+        "en": "Reasoned letter for a partial reunification"
+      },
+      "details": {
+        "fr": "Si la demande ne concerne pas toute la famille : une lettre qui justifie la demande au regard de l'intérêt des enfants, déposée avec le dossier. Les motifs cités : scolarité de l'enfant, santé, logement trop petit pour toute la famille.",
+        "en": "If the request does not cover the whole family: a letter explaining the request in the children's interest, filed with the application. Reasons mentioned: the child's schooling, health, housing too small for the whole family."
+      },
+      "condition": {
+        "question": "who_to_bring",
+        "equals": "part_of_family"
+      },
+      "sources": [
+        "sp_f11166"
+      ]
+    },
+    {
+      "id": "tax_notice",
+      "category": "tax",
+      "title": {
+        "fr": "Dernier avis d'imposition",
+        "en": "Latest tax notice"
+      },
+      "details": {
+        "fr": "Dernier avis d'imposition (ou de non-imposition), sinon celui de l'année précédente ou la dernière déclaration de revenus visée par les services fiscaux.",
+        "en": "Latest tax notice (or non-taxation notice), otherwise the previous year's, or the latest income declaration stamped by the tax office."
+      },
+      "condition": {
+        "question": "income_source",
+        "in": [
+          "employee",
+          "business",
+          "micro_entrepreneur",
+          "job_seeker",
+          "retired_invalid",
+          "aah_asi",
+          "other"
+        ]
+      },
+      "sources": [
+        "sp_f11166"
+      ],
+      "guides": [
+        "tax_documents"
+      ]
+    },
+    {
+      "id": "employee_contract",
+      "category": "resources",
+      "title": {
+        "fr": "Contrat de travail ou attestation de l'employeur de moins de 3 mois",
+        "en": "Employment contract or employer certificate less than 3 months old"
+      },
+      "details": {
+        "fr": "Contrat de travail, ou attestation de travail de l'employeur de moins de 3 mois, signée et avec le cachet de l'entreprise. Pour l'intérim, seulement l'attestation de l'employeur.",
+        "en": "Employment contract, or employer certificate less than 3 months old, signed and stamped by the company. For temp work, only the employer certificate."
+      },
+      "condition": {
+        "question": "income_source",
+        "equals": "employee"
+      },
+      "sources": [
+        "sp_f11166"
+      ]
+    },
+    {
+      "id": "employee_payslips",
+      "category": "resources",
+      "title": {
+        "fr": "Bulletins de salaire et certificats de travail des 12 derniers mois",
+        "en": "Payslips and work certificates for the last 12 months"
+      },
+      "details": {
+        "fr": "Bulletins de salaire (pour l'intérim, seulement l'attestation de l'employeur) et certificat de travail de chaque employeur. Si vous êtes dans le BTP : justificatifs des congés payés versés par la caisse du BTP. En cas d'arrêt maladie, de congé maternité ou parental ou d'accident du travail : justificatifs des indemnités journalières.",
+        "en": "Payslips (for temp work, only the employer certificate) and a work certificate from each employer. In construction (BTP): proof of paid leave from the BTP fund. For sick leave, maternity or parental leave or a work accident: proof of daily allowances."
+      },
+      "condition": {
+        "question": "income_source",
+        "equals": "employee"
+      },
+      "sources": [
+        "sp_f11166"
+      ]
+    },
+    {
+      "id": "business_documents",
+      "category": "resources",
+      "title": {
+        "fr": "Extrait RNE et bilan comptable",
+        "en": "Business register (RNE) extract and accounts"
+      },
+      "details": {
+        "fr": "Extrait de moins de 3 mois d'inscription au registre national des entreprises (RNE), et dernier bilan comptable et compte de résultat, ou attestation de revenus du service des impôts.",
+        "en": "Extract less than 3 months old from the national business register (RNE), and the latest balance sheet and income statement, or an income certificate from the tax office."
+      },
+      "condition": {
+        "question": "income_source",
+        "equals": "business"
+      },
+      "sources": [
+        "sp_f11166"
+      ]
+    },
+    {
+      "id": "micro_entrepreneur_documents",
+      "category": "resources",
+      "title": {
+        "fr": "Extrait RNE, livre des recettes et registre des achats",
+        "en": "RNE extract, receipts book and purchase register"
+      },
+      "details": {
+        "fr": "Extrait de moins de 3 mois d'inscription au RNE, livre des recettes, registre des achats et attestation de revenus du service des impôts.",
+        "en": "RNE extract less than 3 months old, receipts book, purchase register and income certificate from the tax office."
+      },
+      "condition": {
+        "question": "income_source",
+        "equals": "micro_entrepreneur"
+      },
+      "sources": [
+        "sp_f11166"
+      ]
+    },
+    {
+      "id": "job_seeker_documents",
+      "category": "resources",
+      "title": {
+        "fr": "Relevé de situation France Travail",
+        "en": "France Travail statement"
+      },
+      "details": {
+        "fr": "Relevé de situation qui récapitule vos droits et les indemnités versées par France Travail.",
+        "en": "Statement summarising your rights and the benefits paid by France Travail."
+      },
+      "condition": {
+        "question": "income_source",
+        "equals": "job_seeker"
+      },
+      "sources": [
+        "sp_f11166"
+      ]
+    },
+    {
+      "id": "pension_documents",
+      "category": "resources",
+      "title": {
+        "fr": "Décision d'attribution et avis de versement de la pension",
+        "en": "Pension award decision and payment notice"
+      },
+      "details": {
+        "fr": "Décision d'attribution de la pension de vieillesse ou d'invalidité (et des retraites complémentaires), et avis de versement ou attestation de paiement qui précise chaque pension.",
+        "en": "Decision awarding the old-age or disability pension (and supplementary pensions), and payment notice or certificate naming each pension."
+      },
+      "condition": {
+        "question": "income_source",
+        "equals": "retired_invalid"
+      },
+      "sources": [
+        "sp_f11166"
+      ]
+    },
+    {
+      "id": "aah_documents",
+      "category": "resources",
+      "title": {
+        "fr": "Décision d'attribution de l'AAH ou de l'Asi et dernière attestation de paiement",
+        "en": "AAH or ASI award decision and latest payment certificate"
+      },
+      "details": {
+        "fr": "Aucune condition de ressources n'est demandée si vous touchez l'AAH ou l'Asi, mais la décision d'attribution et la dernière attestation de paiement sont à fournir.",
+        "en": "No income condition applies if you receive AAH or ASI, but the award decision and the latest payment certificate must be provided."
+      },
+      "condition": {
+        "question": "income_source",
+        "equals": "aah_asi"
+      },
+      "sources": [
+        "sp_f11166"
+      ]
+    },
+    {
+      "id": "other_income_documents",
+      "category": "resources",
+      "title": {
+        "fr": "Attestation bancaire et relevés de compte",
+        "en": "Bank certificate and statements"
+      },
+      "details": {
+        "fr": "Attestation bancaire et relevés de compte qui montrent l'origine et la régularité des revenus. Pension alimentaire versée ou reçue en vertu d'une décision de justice, le cas échéant.",
+        "en": "Bank certificate and statements showing where the income comes from and how regularly. Maintenance paid or received under a court decision, if any."
+      },
+      "condition": {
+        "question": "income_source",
+        "equals": "other"
+      },
+      "sources": [
+        "sp_f11166"
+      ]
+    },
+    {
+      "id": "spouse_income",
+      "category": "resources",
+      "title": {
+        "fr": "Justificatifs de ressources de votre époux ou épouse",
+        "en": "Proof of your spouse's income"
+      },
+      "details": {
+        "fr": "La fiche demande les justificatifs de ressources de l'époux ou de l'épouse si vous vivez en couple. Ses revenus comptent s'ils continueront à lui être versés quand il ou elle quittera son pays.",
+        "en": "The page asks for your spouse's proof of income if you live as a couple. Their income counts if it will continue to be paid when they leave their country."
+      },
+      "condition": {
+        "question": "who_to_bring",
+        "in": [
+          "spouse_and_children",
+          "spouse_only",
+          "part_of_family"
+        ]
+      },
+      "sources": [
+        "sp_f11166"
+      ]
+    },
+    {
+      "id": "housing_proof_of_address",
+      "category": "address",
+      "title": {
+        "fr": "Justificatif de domicile de moins de 3 mois",
+        "en": "Proof of address less than 3 months old"
+      },
+      "details": {
+        "fr": "Justificatif de domicile de moins de 3 mois (dernière facture d'électricité, de gaz, d'eau ou de téléphone fixe), ou attestation d'assurance habitation si vous venez d'entrer dans le logement.",
+        "en": "Proof of address less than 3 months old (latest electricity, gas, water or landline bill), or home insurance certificate if you have just moved in."
+      },
+      "condition": {
+        "question": "housing_status",
+        "in": [
+          "tenant",
+          "subtenant",
+          "owner",
+          "hosted",
+          "future_housing"
+        ]
+      },
+      "sources": [
+        "sp_f11166"
+      ],
+      "guides": [
+        "proof_of_address"
+      ]
+    },
+    {
+      "id": "lease",
+      "category": "address",
+      "title": {
+        "fr": "Bail et dernière quittance de loyer",
+        "en": "Lease and latest rent receipt"
+      },
+      "details": {
+        "fr": "Votre bail de location et la dernière quittance de loyer.",
+        "en": "Your rental lease and the latest rent receipt."
+      },
+      "condition": {
+        "question": "housing_status",
+        "equals": "tenant"
+      },
+      "sources": [
+        "sp_f11166"
+      ]
+    },
+    {
+      "id": "sublease",
+      "category": "address",
+      "title": {
+        "fr": "Engagement de sous-location et preuve qu'elle est autorisée",
+        "en": "Sublease agreement and proof it is authorised"
+      },
+      "details": {
+        "fr": "Engagement de sous-location, et justificatif que cette sous-location est autorisée par un bail pour vous et votre famille.",
+        "en": "Sublease agreement, and proof that the sublease is authorised by a lease for you and your family."
+      },
+      "condition": {
+        "question": "housing_status",
+        "equals": "subtenant"
+      },
+      "sources": [
+        "sp_f11166"
+      ]
+    },
+    {
+      "id": "property_deed",
+      "category": "address",
+      "title": {
+        "fr": "Acte de propriété ou attestation notariale",
+        "en": "Property deed or notary certificate"
+      },
+      "details": {
+        "fr": "Acte de propriété ou attestation du notaire.",
+        "en": "Property deed or a certificate from the notary."
+      },
+      "condition": {
+        "question": "housing_status",
+        "equals": "owner"
+      },
+      "sources": [
+        "sp_f11166"
+      ]
+    },
+    {
+      "id": "host_documents",
+      "category": "address",
+      "title": {
+        "fr": "Documents de l'hébergeant",
+        "en": "Host's documents"
+      },
+      "details": {
+        "fr": "Bail ou dernière quittance de loyer du locataire, ou titre de propriété au nom de l'hébergeant (pour les Algériens, la fiche cite seulement le titre de propriété) ; attestation de l'hébergeant qui vous accorde l'hébergement, à vous et à votre famille à venir, avec la durée ; si le logement vient de l'entreprise, attestation de l'employeur ; copie recto verso du titre de séjour ou de la carte d'identité française de l'hébergeant.",
+        "en": "Lease or latest rent receipt of the tenant, or property deed in the host's name (for Algerians, the page only mentions the property deed); host's certificate granting housing to you and your future family, stating the duration; if the employer provides the home, the employer's certificate; front and back copy of the host's residence permit or French ID card."
+      },
+      "condition": {
+        "question": "housing_status",
+        "equals": "hosted"
+      },
+      "sources": [
+        "sp_f11166"
+      ]
+    },
+    {
+      "id": "future_housing_documents",
+      "category": "address",
+      "title": {
+        "fr": "Promesse de location ou d'achat et cerfa n°11437",
+        "en": "Rental or purchase promise and cerfa no. 11437"
+      },
+      "details": {
+        "fr": "Promesse de location ou justificatif d'achat futur du logement, et attestation de mise à disposition d'un logement (cerfa n°11437) remplie par vous et le propriétaire ou le vendeur : date de disponibilité, surface et caractéristiques du logement.",
+        "en": "Rental promise or proof of future purchase of the home, and the housing availability certificate (cerfa no. 11437) filled in by you and the owner or seller: availability date, size and features of the home."
+      },
+      "condition": {
+        "question": "housing_status",
+        "equals": "future_housing"
+      },
+      "sources": [
+        "sp_f11166",
+        "sp_r17771"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "check_eligibility",
+      "phase": "before",
+      "title": {
+        "fr": "Vérifier les conditions avec le simulateur",
+        "en": "Check the conditions with the simulator"
+      },
+      "body": {
+        "fr": "Service-public.fr propose un simulateur pour savoir si vous pouvez demander le regroupement familial. Conditions principales : un titre de séjour accepté, 18 mois de résidence en France (1 an et un certificat de résidence d'au moins 1 an pour les Algériens), des ressources stables et suffisantes, un logement adapté, le respect des principes de la vie familiale en France. C'est l'administration qui décide.",
+        "en": "Service-public.fr offers a simulator to see whether you can apply for family reunification. Main conditions: an accepted residence permit, 18 months of residence in France (1 year and a residence certificate of at least 1 year for Algerians), stable and sufficient income, suitable housing, respect for the principles of family life in France. The administration decides."
+      },
+      "link": {
+        "title": {
+          "fr": "Ouvrir le simulateur",
+          "en": "Open the simulator"
+        },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R59236"
+      },
+      "condition": null,
+      "sources": [
+        "sp_f11166",
+        "sp_r59236"
+      ]
+    },
+    {
+      "id": "resources_2_3",
+      "phase": "before",
+      "title": {
+        "fr": "Vérifier le montant de ressources demandé",
+        "en": "Check the required income"
+      },
+      "body": {
+        "fr": "Pour 2 ou 3 personnes : en moyenne 1 867,02 € par mois sur les 12 derniers mois avant la demande (moyenne du Smic brut mensuel). Comptent : salaires, revenus non salariés, patrimoine, retraites, et les revenus de votre époux ou épouse qui continueront après son départ. Ne comptent pas : prestations familiales, RSA, Aspa, Ata, ASS, AER. Aucune condition de ressources si vous avez plus de 65 ans, résidez régulièrement en France depuis 25 ans, êtes marié depuis 10 ans et la demande concerne votre époux ou épouse.",
+        "en": "For 2 or 3 people: on average 1,867.02 € per month over the 12 months before the application (average gross monthly minimum wage). Counted: wages, self-employed income, assets, pensions, and your spouse's income that will continue after they leave. Not counted: family benefits, RSA, ASPA, ATA, ASS, AER. No income condition if you are over 65, have lived legally in France for 25 years, have been married for 10 years and the request is for your spouse."
+      },
+      "link": {
+        "title": {
+          "fr": "Lire la fiche regroupement familial",
+          "en": "Read the family reunification page"
+        },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F11166"
+      },
+      "condition": {
+        "all": [
+          {
+            "not": {
+              "question": "nationality_group",
+              "equals": "algerian"
+            }
+          },
+          {
+            "not": {
+              "question": "income_source",
+              "equals": "aah_asi"
+            }
+          },
+          {
+            "question": "family_size",
+            "equals": "2_3"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f11166"
+      ]
+    },
+    {
+      "id": "resources_4_5",
+      "phase": "before",
+      "title": {
+        "fr": "Vérifier le montant de ressources demandé",
+        "en": "Check the required income"
+      },
+      "body": {
+        "fr": "Pour 4 ou 5 personnes : en moyenne 2 053,72 € par mois sur les 12 derniers mois avant la demande. Comptent : salaires, revenus non salariés, patrimoine, retraites, et les revenus de votre époux ou épouse qui continueront après son départ. Ne comptent pas : prestations familiales, RSA, Aspa, Ata, ASS, AER. Aucune condition de ressources si vous avez plus de 65 ans, résidez régulièrement en France depuis 25 ans, êtes marié depuis 10 ans et la demande concerne votre époux ou épouse.",
+        "en": "For 4 or 5 people: on average 2,053.72 € per month over the 12 months before the application. Counted: wages, self-employed income, assets, pensions, and your spouse's income that will continue after they leave. Not counted: family benefits, RSA, ASPA, ATA, ASS, AER. No income condition if you are over 65, have lived legally in France for 25 years, have been married for 10 years and the request is for your spouse."
+      },
+      "link": {
+        "title": {
+          "fr": "Lire la fiche regroupement familial",
+          "en": "Read the family reunification page"
+        },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F11166"
+      },
+      "condition": {
+        "all": [
+          {
+            "not": {
+              "question": "nationality_group",
+              "equals": "algerian"
+            }
+          },
+          {
+            "not": {
+              "question": "income_source",
+              "equals": "aah_asi"
+            }
+          },
+          {
+            "question": "family_size",
+            "equals": "4_5"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f11166"
+      ]
+    },
+    {
+      "id": "resources_6_plus",
+      "phase": "before",
+      "title": {
+        "fr": "Vérifier le montant de ressources demandé",
+        "en": "Check the required income"
+      },
+      "body": {
+        "fr": "Pour 6 personnes ou plus : en moyenne 2 240,42 € par mois sur les 12 derniers mois avant la demande. Comptent : salaires, revenus non salariés, patrimoine, retraites, et les revenus de votre époux ou épouse qui continueront après son départ. Ne comptent pas : prestations familiales, RSA, Aspa, Ata, ASS, AER. Aucune condition de ressources si vous avez plus de 65 ans, résidez régulièrement en France depuis 25 ans, êtes marié depuis 10 ans et la demande concerne votre époux ou épouse.",
+        "en": "For 6 people or more: on average 2,240.42 € per month over the 12 months before the application. Counted: wages, self-employed income, assets, pensions, and your spouse's income that will continue after they leave. Not counted: family benefits, RSA, ASPA, ATA, ASS, AER. No income condition if you are over 65, have lived legally in France for 25 years, have been married for 10 years and the request is for your spouse."
+      },
+      "link": {
+        "title": {
+          "fr": "Lire la fiche regroupement familial",
+          "en": "Read the family reunification page"
+        },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F11166"
+      },
+      "condition": {
+        "all": [
+          {
+            "not": {
+              "question": "nationality_group",
+              "equals": "algerian"
+            }
+          },
+          {
+            "not": {
+              "question": "income_source",
+              "equals": "aah_asi"
+            }
+          },
+          {
+            "question": "family_size",
+            "equals": "6_plus"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f11166"
+      ]
+    },
+    {
+      "id": "resources_algerian",
+      "phase": "before",
+      "title": {
+        "fr": "Vérifier le montant de ressources demandé",
+        "en": "Check the required income"
+      },
+      "body": {
+        "fr": "Pour les Algériens, la fiche demande des ressources stables et suffisantes, égales ou supérieures au Smic, quelle que soit la taille de la famille. Les revenus de votre époux ou épouse comptent s'ils continueront après son départ. Les prestations familiales ne comptent pas (allocations familiales ou de logement, complément familial, allocation de rentrée scolaire par exemple).",
+        "en": "For Algerians, the page requires stable and sufficient income, equal to or above the minimum wage (Smic), whatever the family size. Your spouse's income counts if it will continue after they leave. Family benefits do not count (family or housing allowances, family supplement, back-to-school allowance for example)."
+      },
+      "link": {
+        "title": {
+          "fr": "Lire la fiche regroupement familial",
+          "en": "Read the family reunification page"
+        },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F11166"
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "nationality_group",
+            "equals": "algerian"
+          },
+          {
+            "question": "income_source",
+            "in": [
+              "employee",
+              "business",
+              "micro_entrepreneur",
+              "job_seeker",
+              "retired_invalid",
+              "aah_asi",
+              "other"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_f11166"
+      ]
+    },
+    {
+      "id": "check_housing",
+      "phase": "before",
+      "title": {
+        "fr": "Vérifier la surface du logement",
+        "en": "Check the size of the home"
+      },
+      "body": {
+        "fr": "Le logement doit être normal pour une famille comparable de la même région, salubre et équipé. Surface habitable minimale pour 2 personnes : 22 m² en zones A bis et A, 24 m² en zones B1 et B2, 28 m² en zone C. Ajoutez 10 m² par personne en plus jusqu'à 8 personnes, puis 5 m² par personne au-delà. Exemple pour 4 personnes en zone A : 22 + 10 + 10 = 42 m².",
+        "en": "The home must be normal for a comparable family in the same region, healthy and equipped. Minimum living area for 2 people: 22 m² in zones A bis and A, 24 m² in zones B1 and B2, 28 m² in zone C. Add 10 m² per extra person up to 8 people, then 5 m² per person beyond. Example for 4 people in zone A: 22 + 10 + 10 = 42 m²."
+      },
+      "link": {
+        "title": {
+          "fr": "Connaître la zone de votre commune",
+          "en": "Find your town's zone"
+        },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R46110"
+      },
+      "condition": null,
+      "sources": [
+        "sp_f11166",
+        "sp_r46110"
+      ]
+    },
+    {
+      "id": "list_documents",
+      "phase": "before",
+      "title": {
+        "fr": "Faire la liste des pièces avec le simulateur",
+        "en": "Make the list of documents with the simulator"
+      },
+      "body": {
+        "fr": "Un second simulateur de service-public.fr donne la liste des documents pour votre dossier. Joignez des copies, avec leur traduction en français par un traducteur agréé.",
+        "en": "A second service-public.fr simulator gives the list of documents for your file. Attach copies, with a French translation by an approved translator."
+      },
+      "link": {
+        "title": {
+          "fr": "Ouvrir le simulateur des pièces",
+          "en": "Open the documents simulator"
+        },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R59969"
+      },
+      "condition": null,
+      "sources": [
+        "sp_r59969",
+        "sp_f11166"
+      ],
+      "guides": [
+        "sworn_translation",
+        "legalisation_apostille"
+      ]
+    },
+    {
+      "id": "partial_letter",
+      "phase": "before",
+      "title": {
+        "fr": "Écrire la lettre pour un regroupement partiel",
+        "en": "Write the letter for a partial reunification"
+      },
+      "body": {
+        "fr": "En règle générale, toute la famille vient ensemble. Pour faire venir une partie seulement, joignez au dossier une lettre motivée dans l'intérêt des enfants (scolarité, santé, logement trop petit). C'est exceptionnel.",
+        "en": "As a rule, the whole family comes together. To bring only part of it, add a reasoned letter in the children's interest (schooling, health, home too small). It is exceptional."
+      },
+      "condition": {
+        "question": "who_to_bring",
+        "equals": "part_of_family"
+      },
+      "sources": [
+        "sp_f11166"
+      ]
+    },
+    {
+      "id": "submit_online",
+      "phase": "submit",
+      "title": {
+        "fr": "Envoyer la demande à l'Ofii sur internet",
+        "en": "Send the application to OFII online"
+      },
+      "body": {
+        "fr": "Vous pouvez créer votre compte avec votre numéro étranger, remplir le dossier en ligne avec des bulles d'aide, puis cliquer sur « Envoyer ma demande ». Vous suivez ensuite la demande depuis votre tableau de bord. Choisissez un seul mode d'envoi : pas en ligne et par courrier à la fois.",
+        "en": "You can create your account with your foreign national number, fill in the file online with help bubbles, then click \"Envoyer ma demande\" (send my application). You then follow it from your dashboard. Choose one sending method only: not both online and by post."
+      },
+      "link": {
+        "title": {
+          "fr": "Faire la demande en ligne",
+          "en": "Apply online"
+        },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R68987"
+      },
+      "condition": null,
+      "sources": [
+        "sp_r68987",
+        "sp_f11166"
+      ],
+      "guides": [
+        "anef_account"
+      ]
+    },
+    {
+      "id": "submit_by_mail",
+      "phase": "submit",
+      "title": {
+        "fr": "Ou envoyer le dossier papier à l'Ofii",
+        "en": "Or send the paper file to OFII"
+      },
+      "body": {
+        "fr": "Si le numérique est difficile pour vous, envoyez le dossier complet (formulaire cerfa n°11436 et pièces) en recommandé avec accusé de réception à la direction territoriale de l'Ofii. Les adresses sont dans une annexe du formulaire, sur la page service-public.fr du cerfa. Gardez une copie du dossier.",
+        "en": "If digital tools are difficult for you, send the complete file (form cerfa no. 11436 and documents) by registered post with acknowledgement of receipt to the OFII regional office. The addresses are in an annex to the form, on the service-public.fr page for the cerfa. Keep a copy of the file."
+      },
+      "link": {
+        "title": {
+          "fr": "Formulaire et adresses de l'Ofii",
+          "en": "Form and OFII addresses"
+        },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1251"
+      },
+      "condition": null,
+      "sources": [
+        "sp_f11166",
+        "sp_r1251"
+      ]
+    },
+    {
+      "id": "deposit_certificate",
+      "phase": "after",
+      "title": {
+        "fr": "Recevoir l'attestation de dépôt",
+        "en": "Receive the filing certificate"
+      },
+      "body": {
+        "fr": "L'Ofii vérifie le dossier. S'il est complet, vous recevez une attestation de dépôt avec la date de dépôt et le préfet est informé. S'il est incomplet, l'Ofii vous le renvoie pour le compléter.",
+        "en": "OFII checks the file. If complete, you receive a filing certificate with the filing date and the prefect is informed. If incomplete, OFII returns it to you to complete."
+      },
+      "condition": null,
+      "sources": [
+        "sp_f11166"
+      ]
+    },
+    {
+      "id": "mayor_checks",
+      "phase": "after",
+      "title": {
+        "fr": "Enquêtes sur le logement et les ressources",
+        "en": "Checks on housing and income"
+      },
+      "body": {
+        "fr": "Le maire de votre commune (ou de celle où vous allez vous installer) vérifie les ressources et le logement. Des agents habilités peuvent visiter le logement. Le maire donne son avis dans les 2 mois ; sans réponse, l'avis est considéré comme favorable. L'Ofii complète si besoin puis envoie le dossier au préfet.",
+        "en": "The mayor of your town (or the one where you will settle) checks your income and housing. Authorised officers may visit the home. The mayor gives an opinion within 2 months; without a reply, the opinion is treated as favourable. OFII completes the file if needed, then sends it to the prefect."
+      },
+      "condition": null,
+      "sources": [
+        "sp_f11166"
+      ]
+    },
+    {
+      "id": "prefect_decision",
+      "phase": "after",
+      "title": {
+        "fr": "Attendre la décision du préfet",
+        "en": "Wait for the prefect's decision"
+      },
+      "body": {
+        "fr": "Le préfet de votre département (à Paris, le préfet de police) accepte ou refuse la demande. La décision doit vous être notifiée dans les 6 mois après le dépôt du dossier complet à l'Ofii. Sans réponse dans ce délai, la demande est refusée (refus implicite). Un refus doit être motivé.",
+        "en": "The prefect of your department (in Paris, the police prefect) accepts or refuses the application. The decision must be notified to you within 6 months after the complete file was filed with OFII. Without an answer in that time, the application is refused (implicit refusal). A refusal must give reasons."
+      },
+      "condition": null,
+      "sources": [
+        "sp_f11166"
+      ],
+      "letters": [
+        "file_followup"
+      ]
+    },
+    {
+      "id": "appeal",
+      "phase": "after",
+      "title": {
+        "fr": "En cas de refus, faire un recours",
+        "en": "If refused, appeal"
+      },
+      "body": {
+        "fr": "Vous pouvez former un recours administratif devant le préfet et/ou le ministre de l'intérieur, et un recours devant le tribunal administratif, dans certains délais.",
+        "en": "You can file an administrative appeal with the prefect and/or the interior minister, and an appeal before the administrative court, within certain time limits."
+      },
+      "link": {
+        "title": {
+          "fr": "Les recours administratifs",
+          "en": "Administrative appeals"
+        },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2474"
+      },
+      "condition": null,
+      "sources": [
+        "sp_f11166",
+        "sp_f2474",
+        "sp_f2478"
+      ]
+    },
+    {
+      "id": "family_visa",
+      "phase": "after",
+      "title": {
+        "fr": "Envoyer les papiers à la famille pour le visa",
+        "en": "Send the papers to your family for the visa"
+      },
+      "body": {
+        "fr": "Dès la délivrance de l'attestation de dépôt, transmettez-la à votre famille avec les pièces d'état civil. Votre époux ou épouse demande alors sans délai un visa de long séjour au consulat de France. La famille doit entrer en France dans les 3 mois suivant la délivrance des visas ; le voyage est à sa charge.",
+        "en": "As soon as you receive the filing certificate, send it to your family with the civil status documents. Your spouse then applies without delay for a long-stay visa at the French consulate. The family must enter France within 3 months after the visas are issued; travel costs are theirs."
+      },
+      "link": {
+        "title": {
+          "fr": "Le visa de long séjour",
+          "en": "The long-stay visa"
+        },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F16162"
+      },
+      "condition": {
+        "not": {
+          "question": "family_location",
+          "equals": "in_france"
+        }
+      },
+      "sources": [
+        "sp_f11166",
+        "sp_f16162"
+      ]
+    },
+    {
+      "id": "medical_visit",
+      "phase": "after",
+      "title": {
+        "fr": "Visite médicale de l'Ofii",
+        "en": "OFII medical visit"
+      },
+      "body": {
+        "fr": "La famille passe une visite médicale une fois en France (parfois sur place à l'étranger, si l'Ofii y est présent : l'Ofii vous le dira). Le certificat médical remis par l'Ofii est indispensable pour obtenir le titre de séjour.",
+        "en": "The family has a medical visit once in France (sometimes abroad, if OFII has an office there: OFII will tell you). The medical certificate given by OFII is required to get the residence permit."
+      },
+      "condition": null,
+      "sources": [
+        "sp_f11166"
+      ]
+    },
+    {
+      "id": "permit_other",
+      "phase": "after",
+      "title": {
+        "fr": "Valider le visa, puis demander le titre de séjour",
+        "en": "Validate the visa, then apply for the residence permit"
+      },
+      "body": {
+        "fr": "Votre époux ou épouse reçoit un visa de long séjour valant titre de séjour (VLS-TS), à valider sur internet dans les 3 mois après l'arrivée, avec le paiement de la taxe. Après 1 an, il ou elle demande une carte de séjour vie privée et familiale. Les enfants mineurs entrent avec un visa « regroupement familial » ; devenus majeurs (ou dès 16 ans pour travailler), ils demandent la même carte.",
+        "en": "Your spouse receives a long-stay visa equivalent to a residence permit (VLS-TS), to be validated online within 3 months of arrival, paying the tax. After 1 year, they apply for a private and family life residence permit. Minor children enter with a \"family reunification\" visa; once adults (or from 16 to work), they apply for the same permit."
+      },
+      "link": {
+        "title": {
+          "fr": "Ouvrir le site de l'ANEF",
+          "en": "Open the ANEF website"
+        },
+        "url": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/"
+      },
+      "condition": {
+        "question": "nationality_group",
+        "equals": "other"
+      },
+      "sources": [
+        "sp_f11166"
+      ],
+      "guides": [
+        "anef_account"
+      ]
+    },
+    {
+      "id": "permit_same_as_sponsor",
+      "phase": "after",
+      "title": {
+        "fr": "Valider le visa, puis demander le même titre que vous",
+        "en": "Validate the visa, then apply for the same permit as you"
+      },
+      "body": {
+        "fr": "Votre époux ou épouse reçoit un VLS-TS, à valider sur internet dans les 3 mois après l'arrivée. Les membres de la famille peuvent obtenir le même titre que vous : carte vie privée et familiale d'1 an si vous avez une carte d'1 an, carte de résident de 10 ans si vous avez une carte de résident. Pour le Maroc et la Tunisie, la fiche précise que la carte de l'époux ou de l'épouse se demande dans les 2 mois après l'arrivée, et avant 19 ans pour un enfant devenu majeur. Les démarches se font sur internet.",
+        "en": "Your spouse receives a VLS-TS, to be validated online within 3 months of arrival. Family members can get the same permit as you: 1-year private and family life permit if you have a 1-year permit, 10-year resident card if you have a resident card. For Morocco and Tunisia, the page says the spouse's card must be requested within 2 months of arrival, and before age 19 for a child who has become an adult. These steps are done online."
+      },
+      "link": {
+        "title": {
+          "fr": "Ouvrir le site de l'ANEF",
+          "en": "Open the ANEF website"
+        },
+        "url": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/"
+      },
+      "condition": {
+        "question": "nationality_group",
+        "in": [
+          "morocco_tunisia",
+          "africa_agreement"
+        ]
+      },
+      "sources": [
+        "sp_f11166"
+      ],
+      "guides": [
+        "anef_account"
+      ]
+    },
+    {
+      "id": "permit_algerian",
+      "phase": "after",
+      "title": {
+        "fr": "Demander le certificat de résidence de la famille",
+        "en": "Apply for the family's residence certificate"
+      },
+      "body": {
+        "fr": "Les membres de la famille reçoivent un certificat de résidence de la même durée que le vôtre, mention « vie privée et familiale ». La demande se fait obligatoirement sur internet. La 1re délivrance d'un certificat d'1 an ou de 10 ans est gratuite (300 € de droit de visa de régularisation en plus en cas d'entrée sans visa de long séjour).",
+        "en": "Family members receive a residence certificate with the same validity as yours, marked \"private and family life\". The application must be made online. The first issue of a 1-year or 10-year certificate is free (plus 300 € regularisation visa fee if entering without a long-stay visa)."
+      },
+      "link": {
+        "title": {
+          "fr": "Ouvrir le site de l'ANEF",
+          "en": "Open the ANEF website"
+        },
+        "url": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/"
+      },
+      "condition": {
+        "question": "nationality_group",
+        "equals": "algerian"
+      },
+      "sources": [
+        "sp_f11166"
+      ],
+      "guides": [
+        "anef_account",
+        "fiscal_stamp"
+      ]
+    },
+    {
+      "id": "permit_cost",
+      "phase": "after",
+      "title": {
+        "fr": "Prévoir le coût du titre de séjour",
+        "en": "Plan the cost of the residence permit"
+      },
+      "body": {
+        "fr": "Pour sa demande de titre de séjour, votre famille paie 150 €. En cas d'entrée sans visa de long séjour, 300 € de droit de visa de régularisation s'ajoutent (dont 100 € payés au dépôt et non remboursables en cas de refus). Le paiement se fait par timbre fiscal, en ligne ou dans un bureau de tabac équipé ; n'achetez pas un timbre amende.",
+        "en": "For the residence permit application, your family pays 150 €. If they entered without a long-stay visa, 300 € regularisation visa fee is added (100 € paid when applying, not refunded if refused). Payment is by tax stamp, online or in an equipped tobacco shop; do not buy a fine stamp by mistake."
+      },
+      "condition": {
+        "not": {
+          "question": "nationality_group",
+          "equals": "algerian"
+        }
+      },
+      "sources": [
+        "sp_f11166"
+      ],
+      "guides": [
+        "fiscal_stamp"
+      ]
+    },
+    {
+      "id": "integration_contract",
+      "phase": "after",
+      "title": {
+        "fr": "Signer le contrat d'intégration républicaine",
+        "en": "Sign the republican integration contract"
+      },
+      "body": {
+        "fr": "Votre époux ou épouse et vos enfants de plus de 16 ans venus par regroupement familial doivent signer un contrat d'intégration républicaine (CIR).",
+        "en": "Your spouse and your children over 16 who came through family reunification must sign a republican integration contract (CIR)."
+      },
+      "link": {
+        "title": {
+          "fr": "Qu'est-ce que le CIR ?",
+          "en": "What is the CIR?"
+        },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F17048"
+      },
+      "condition": null,
+      "sources": [
+        "sp_f11166"
+      ]
+    }
+  ],
+  "deadlines": [
+    {
+      "id": "eighteen_months_reached",
+      "relativeTo": "residence_start",
+      "offsetDays": 548,
+      "title": {
+        "fr": "Environ 18 mois de résidence en France",
+        "en": "About 18 months of residence in France"
+      },
+      "condition": {
+        "not": {
+          "question": "nationality_group",
+          "equals": "algerian"
+        }
+      },
+      "sources": [
+        "sp_f11166"
+      ]
+    },
+    {
+      "id": "one_year_reached_dz",
+      "relativeTo": "residence_start",
+      "offsetDays": 365,
+      "title": {
+        "fr": "1 an de résidence en France (Algériens)",
+        "en": "1 year of residence in France (Algerians)"
+      },
+      "condition": {
+        "question": "nationality_group",
+        "equals": "algerian"
+      },
+      "sources": [
+        "sp_f11166"
+      ]
+    }
+  ],
+  "outcomes": [
+    {
+      "id": "spouse_of_french",
+      "kind": "redirect",
+      "condition": {
+        "question": "sponsor_status",
+        "equals": "french"
+      },
+      "title": {
+        "fr": "Pour la famille d'un Français, c'est une autre procédure",
+        "en": "For the family of a French citizen, it is another procedure"
+      },
+      "body": {
+        "fr": "D'après service-public.fr, le regroupement familial concerne l'étranger non européen. La famille d'un Français (par exemple l'époux ou l'épouse) passe par un visa de long séjour. Le VLS-TS « époux de Français » est délivré sans condition, sauf mariage frauduleux ou annulé, ou menace à l'ordre public.",
+        "en": "According to service-public.fr, family reunification is for non-European foreign nationals. The family of a French citizen (for example the spouse) goes through a long-stay visa. The \"spouse of a French citizen\" VLS-TS is issued without conditions, except for a fraudulent or annulled marriage, or a threat to public order."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Demander un visa de long séjour de conjoint de Français",
+            "en": "Apply for a long-stay visa as spouse of a French citizen"
+          },
+          "body": {
+            "fr": "La demande se fait au consulat de France du pays de résidence. Si le mariage a eu lieu à l'étranger, il doit être transcrit sur les registres français pour être reconnu.",
+            "en": "The application is made at the French consulate in the country of residence. If the marriage took place abroad, it must be transcribed in the French registers to be recognised."
+          },
+          "link": {
+            "title": {
+              "fr": "Lire la fiche visa de long séjour",
+              "en": "Read the long-stay visa page"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F16162"
+          }
+        },
+        {
+          "title": {
+            "fr": "Voir les autres procédures familiales",
+            "en": "See other family procedures"
+          },
+          "body": {
+            "fr": "Service-public.fr liste les procédures pour la famille d'un Français, d'un Européen ou d'un réfugié.",
+            "en": "Service-public.fr lists the procedures for the family of a French citizen, a European or a refugee."
+          },
+          "link": {
+            "title": {
+              "fr": "Qui est concerné par le regroupement ?",
+              "en": "Who does reunification concern?"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F11168"
+          }
+        }
+      ],
+      "contacts": [
+        "france_services",
+        "point_justice"
+      ],
+      "letters": [],
+      "sources": [
+        "sp_f11168",
+        "sp_f16162",
+        "sp_f2209"
+      ]
+    },
+    {
+      "id": "european_citizen",
+      "kind": "redirect",
+      "condition": {
+        "question": "sponsor_status",
+        "equals": "european"
+      },
+      "title": {
+        "fr": "Pour la famille d'un Européen, c'est une autre procédure",
+        "en": "For the family of a European citizen, it is another procedure"
+      },
+      "body": {
+        "fr": "D'après service-public.fr, le regroupement familial concerne l'étranger non européen. Un citoyen de l'EEE ou de la Suisse qui a un droit au séjour en France peut être rejoint par son époux, ses enfants et certains ascendants, quelle que soit leur nationalité.",
+        "en": "According to service-public.fr, family reunification is for non-European foreign nationals. An EEA or Swiss citizen with a right to reside in France can be joined by their spouse, children and some relatives in the ascending line, whatever their nationality."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Lire la fiche « famille d'un citoyen européen »",
+            "en": "Read the \"family of a European citizen\" page"
+          },
+          "body": {
+            "fr": "Les démarches dépendent de la nationalité des membres de la famille.",
+            "en": "The steps depend on the family members' nationality."
+          },
+          "link": {
+            "title": {
+              "fr": "Ouvrir la fiche",
+              "en": "Open the page"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2653"
+          }
+        }
+      ],
+      "contacts": [
+        "france_services",
+        "point_justice"
+      ],
+      "letters": [],
+      "sources": [
+        "sp_f11168",
+        "sp_f2653"
+      ]
+    },
+    {
+      "id": "refugee_reunification",
+      "kind": "redirect",
+      "condition": {
+        "question": "ties_before_protection",
+        "equals": "yes"
+      },
+      "title": {
+        "fr": "Pour vous, c'est la réunification familiale",
+        "en": "For you, it is family reunion (réunification familiale)"
+      },
+      "body": {
+        "fr": "D'après service-public.fr, si vous êtes réfugié, protégé subsidiaire ou apatride, et que les liens familiaux datent d'avant votre demande de protection (famille déclarée à l'Ofpra), la procédure est la réunification familiale. Elle peut être engagée dès l'obtention de la protection. Elle peut concerner l'époux, le partenaire de Pacs ou le concubin d'au moins 18 ans, et les enfants non mariés de 19 ans au plus.",
+        "en": "According to service-public.fr, if you are a refugee, subsidiary protection holder or stateless person, and the family ties existed before your protection application (family declared to OFPRA), the procedure is family reunion. It can start as soon as protection is granted. It can cover the spouse, civil partner or unmarried partner aged 18 or over, and unmarried children aged 19 or under."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Faire demander les visas par la famille",
+            "en": "Have the family apply for visas"
+          },
+          "body": {
+            "fr": "Les membres de la famille demandent un visa de long séjour au consulat de France du pays où ils vivent, avec les actes d'état civil ou, à défaut, les documents de l'Ofpra. La liste des pièces est sur France-Visas.",
+            "en": "Family members apply for a long-stay visa at the French consulate in the country where they live, with civil status records or, failing that, OFPRA documents. The list of documents is on France-Visas."
+          },
+          "link": {
+            "title": {
+              "fr": "Lire la fiche réunification familiale",
+              "en": "Read the family reunion page"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F35158"
+          }
+        }
+      ],
+      "contacts": [
+        "france_services",
+        "point_justice"
+      ],
+      "letters": [],
+      "sources": [
+        "sp_f35158"
+      ]
+    },
+    {
+      "id": "refugee_ties_after",
+      "kind": "warning",
+      "condition": {
+        "question": "ties_before_protection",
+        "equals": "no"
+      },
+      "title": {
+        "fr": "Mariage ou enfants après la demande de protection",
+        "en": "Marriage or children after the protection application"
+      },
+      "body": {
+        "fr": "D'après service-public.fr, si vous vous êtes marié ou que vos enfants sont nés après la demande de protection, vous devez faire une demande de regroupement familial. Les conditions de cette démarche s'appliquent.",
+        "en": "According to service-public.fr, if you married or your children were born after the protection application, you must apply for family reunification. The conditions of this procedure apply."
+      },
+      "actions": [],
+      "contacts": [],
+      "letters": [],
+      "sources": [
+        "sp_f35158"
+      ]
+    },
+    {
+      "id": "algerian_rules",
+      "kind": "warning",
+      "condition": {
+        "question": "nationality_group",
+        "equals": "algerian"
+      },
+      "title": {
+        "fr": "Règles particulières pour les Algériens",
+        "en": "Specific rules for Algerians"
+      },
+      "body": {
+        "fr": "D'après service-public.fr, pour une famille algérienne : il faut un certificat de résidence d'au moins 1 an et 1 an de résidence en France (au lieu de 18 mois) ; les ressources doivent atteindre au moins le Smic, sans barème selon la taille de la famille ; la famille reçoit un certificat de résidence de la même durée que le vôtre, gratuit à la 1re délivrance. Avec un certificat de résidence d'1 an « scientifique », la famille peut venir sans passer par le regroupement familial si vous êtes entré avec un visa.",
+        "en": "According to service-public.fr, for an Algerian family: you need a residence certificate of at least 1 year and 1 year of residence in France (instead of 18 months); income must be at least the minimum wage (Smic), with no scale by family size; the family receives a residence certificate with the same validity as yours, free at first issue. With a 1-year \"scientist\" residence certificate, the family can come without family reunification if you entered with a visa."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Lire la rubrique « Famille algérienne »",
+            "en": "Read the \"Algerian family\" section"
+          },
+          "body": {
+            "fr": "Sur la fiche, choisissez l'onglet « Famille algérienne ».",
+            "en": "On the page, choose the \"Famille algérienne\" tab."
+          },
+          "link": {
+            "title": {
+              "fr": "Ouvrir la fiche",
+              "en": "Open the page"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F11166"
+          }
+        }
+      ],
+      "contacts": [],
+      "letters": [],
+      "sources": [
+        "sp_f11166"
+      ]
+    },
+    {
+      "id": "residence_too_short",
+      "kind": "redirect",
+      "condition": {
+        "all": [
+          {
+            "not": {
+              "question": "nationality_group",
+              "equals": "algerian"
+            }
+          },
+          {
+            "question": "residence_start",
+            "daysFromToday": {
+              "min": -547
+            }
+          }
+        ]
+      },
+      "title": {
+        "fr": "Vous semblez résider en France depuis moins de 18 mois",
+        "en": "You seem to have lived in France for less than 18 months"
+      },
+      "body": {
+        "fr": "D'après service-public.fr, il faut résider en France depuis au moins 18 mois, avec l'un des documents de séjour acceptés, au moment du dépôt. D'après la date indiquée, cette durée n'est pas encore atteinte. La date des 18 mois s'affiche dans vos échéances.",
+        "en": "According to service-public.fr, you must have lived in France for at least 18 months, with one of the accepted residence documents, when you apply. Based on the date you entered, this period is not reached yet. The 18-month date is shown in your deadlines."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Préparer le dossier en attendant",
+            "en": "Prepare the file while waiting"
+          },
+          "body": {
+            "fr": "Vous pouvez rassembler les justificatifs de ressources des 12 derniers mois et vérifier la surface du logement. Si la date est fausse, modifiez votre réponse.",
+            "en": "You can gather proof of income for the last 12 months and check the size of the home. If the date is wrong, change your answer."
+          },
+          "link": {
+            "title": {
+              "fr": "Revoir les conditions",
+              "en": "Review the conditions"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F11166"
+          }
+        }
+      ],
+      "contacts": [
+        "france_services",
+        "point_justice"
+      ],
+      "letters": [],
+      "sources": [
+        "sp_f11166"
+      ]
+    },
+    {
+      "id": "residence_too_short_dz",
+      "kind": "redirect",
+      "condition": {
+        "all": [
+          {
+            "question": "nationality_group",
+            "equals": "algerian"
+          },
+          {
+            "question": "residence_start",
+            "daysFromToday": {
+              "min": -364
+            }
+          }
+        ]
+      },
+      "title": {
+        "fr": "Vous semblez résider en France depuis moins d'1 an",
+        "en": "You seem to have lived in France for less than 1 year"
+      },
+      "body": {
+        "fr": "D'après service-public.fr, pour une famille algérienne, il faut résider en France depuis au moins 1 an et avoir un certificat de résidence d'au moins 1 an. D'après la date indiquée, cette durée n'est pas encore atteinte.",
+        "en": "According to service-public.fr, for an Algerian family, you must have lived in France for at least 1 year and hold a residence certificate of at least 1 year. Based on the date you entered, this period is not reached yet."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Attendre la durée demandée",
+            "en": "Wait for the required period"
+          },
+          "body": {
+            "fr": "La date d'1 an s'affiche dans vos échéances. Si la date est fausse, modifiez votre réponse.",
+            "en": "The 1-year date is shown in your deadlines. If the date is wrong, change your answer."
+          },
+          "link": {
+            "title": {
+              "fr": "Revoir les conditions",
+              "en": "Review the conditions"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F11166"
+          }
+        }
+      ],
+      "contacts": [
+        "france_services",
+        "point_justice"
+      ],
+      "letters": [],
+      "sources": [
+        "sp_f11166"
+      ]
+    },
+    {
+      "id": "permit_not_accepted",
+      "kind": "redirect",
+      "condition": {
+        "question": "permit_type",
+        "equals": "other_document"
+      },
+      "title": {
+        "fr": "Ce document de séjour ne permet pas encore de déposer la demande",
+        "en": "This residence document does not yet allow you to apply"
+      },
+      "body": {
+        "fr": "D'après service-public.fr, au dépôt, il faut une carte de séjour d'au moins 1 an ou pluriannuelle, une carte de résident (ou résident longue durée-UE délivrée par la France), ou le récépissé de renouvellement de l'un de ces titres (pour les Algériens : un certificat de résidence d'au moins 1 an). Les autres documents comptent seulement pour la durée de 18 mois.",
+        "en": "According to service-public.fr, when applying you need a residence permit of at least 1 year or a multi-year permit, a resident card (or EU long-term resident card issued by France), or the renewal receipt for one of these (for Algerians: a residence certificate of at least 1 year). Other documents only count towards the 18-month period."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Attendre d'avoir un titre accepté",
+            "en": "Wait until you hold an accepted permit"
+          },
+          "body": {
+            "fr": "Vous pourrez déposer la demande quand vous aurez l'un de ces titres. Si votre réponse est fausse, modifiez-la.",
+            "en": "You can apply once you hold one of these permits. If your answer is wrong, change it."
+          },
+          "link": {
+            "title": {
+              "fr": "Revoir les conditions",
+              "en": "Review the conditions"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F11166"
+          }
+        }
+      ],
+      "contacts": [
+        "prefecture_directory",
+        "france_services",
+        "point_justice"
+      ],
+      "letters": [],
+      "sources": [
+        "sp_f11166"
+      ]
+    },
+    {
+      "id": "parents_not_covered",
+      "kind": "redirect",
+      "condition": {
+        "question": "who_to_bring",
+        "equals": "parents"
+      },
+      "title": {
+        "fr": "Le regroupement familial ne concerne pas les ascendants",
+        "en": "Family reunification does not cover parents or grandparents"
+      },
+      "body": {
+        "fr": "D'après service-public.fr, la procédure de regroupement familial ne s'applique pas à vos ascendants. Ils peuvent éventuellement venir vivre en France avec le statut de visiteur s'ils ont des ressources suffisantes.",
+        "en": "According to service-public.fr, family reunification does not apply to your parents or grandparents. They may possibly come to live in France as visitors if they have sufficient income."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Voir la carte de séjour visiteur",
+            "en": "See the visitor residence permit"
+          },
+          "body": {
+            "fr": "Cette carte a ses propres conditions, notamment de ressources.",
+            "en": "This permit has its own conditions, including income."
+          },
+          "link": {
+            "title": {
+              "fr": "Lire la fiche visiteur",
+              "en": "Read the visitor page"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F302"
+          }
+        }
+      ],
+      "contacts": [
+        "france_services",
+        "point_justice"
+      ],
+      "letters": [],
+      "sources": [
+        "sp_f11166",
+        "sp_f302"
+      ]
+    },
+    {
+      "id": "partner_not_married",
+      "kind": "redirect",
+      "condition": {
+        "question": "who_to_bring",
+        "equals": "partner_not_married"
+      },
+      "title": {
+        "fr": "Le regroupement familial concerne l'époux ou l'épouse marié(e)",
+        "en": "Family reunification covers a married spouse"
+      },
+      "body": {
+        "fr": "D'après service-public.fr, la procédure concerne l'époux ou l'épouse majeur(e) légalement marié(e) avec vous, et les enfants mineurs. Le Pacs et le concubinage ne sont pas cités pour cette procédure.",
+        "en": "According to service-public.fr, the procedure covers the spouse aged 18 or over who is legally married to you, and minor children. Civil partnerships (Pacs) and cohabitation are not mentioned for this procedure."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Voir les autres procédures familiales",
+            "en": "See other family procedures"
+          },
+          "body": {
+            "fr": "Service-public.fr liste d'autres procédures (famille d'un Français, d'un Européen, d'un réfugié, carte talent).",
+            "en": "Service-public.fr lists other procedures (family of a French citizen, a European, a refugee, talent permit)."
+          },
+          "link": {
+            "title": {
+              "fr": "Ouvrir la fiche",
+              "en": "Open the page"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F11168"
+          }
+        }
+      ],
+      "contacts": [
+        "france_services",
+        "point_justice"
+      ],
+      "letters": [],
+      "sources": [
+        "sp_f11166",
+        "sp_f11168"
+      ]
+    },
+    {
+      "id": "spouse_minor",
+      "kind": "redirect",
+      "condition": {
+        "question": "spouse_adult",
+        "equals": "no"
+      },
+      "title": {
+        "fr": "L'époux ou l'épouse doit avoir au moins 18 ans",
+        "en": "The spouse must be at least 18"
+      },
+      "body": {
+        "fr": "D'après service-public.fr, le regroupement familial concerne l'époux ou l'épouse majeur(e), âgé(e) d'au moins 18 ans. L'âge est apprécié à la date du dépôt de la demande.",
+        "en": "According to service-public.fr, family reunification covers a spouse aged at least 18. Age is assessed on the date the application is filed."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Revoir la date de dépôt",
+            "en": "Review the filing date"
+          },
+          "body": {
+            "fr": "La demande peut être déposée quand votre époux ou épouse aura 18 ans. Si votre réponse est fausse, modifiez-la.",
+            "en": "The application can be filed once your spouse is 18. If your answer is wrong, change it."
+          },
+          "link": {
+            "title": {
+              "fr": "Revoir les conditions",
+              "en": "Review the conditions"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F11166"
+          }
+        }
+      ],
+      "contacts": [
+        "france_services",
+        "point_justice"
+      ],
+      "letters": [],
+      "sources": [
+        "sp_f11166"
+      ]
+    },
+    {
+      "id": "family_already_in_france",
+      "kind": "warning",
+      "condition": {
+        "question": "family_location",
+        "equals": "in_france"
+      },
+      "title": {
+        "fr": "Famille déjà en France : regroupement « sur place »",
+        "en": "Family already in France: reunification \"on the spot\""
+      },
+      "body": {
+        "fr": "D'après service-public.fr, la famille doit en principe résider à l'étranger, mais une famille déjà en France peut exceptionnellement bénéficier d'un regroupement sur place. L'époux ou l'épouse doit y vivre en situation régulière avec une carte d'au moins 1 an. La famille n'a pas à justifier d'un VLS-TS. Pour les ressortissants du Maghreb et de 12 pays d'Afrique, le mariage doit avoir été célébré en France.",
+        "en": "According to service-public.fr, the family should in principle live abroad, but a family already in France can exceptionally get reunification on the spot. The spouse must live there legally with a permit of at least 1 year. The family does not need a VLS-TS. For nationals of the Maghreb and 12 African countries, the marriage must have taken place in France."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Lire la fiche regroupement sur place",
+            "en": "Read the on-the-spot reunification page"
+          },
+          "body": {
+            "fr": "Les autres conditions sont les mêmes que pour la procédure normale.",
+            "en": "The other conditions are the same as for the normal procedure."
+          },
+          "link": {
+            "title": {
+              "fr": "Ouvrir la fiche",
+              "en": "Open the page"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F11167"
+          }
+        }
+      ],
+      "contacts": [],
+      "letters": [],
+      "sources": [
+        "sp_f11166",
+        "sp_f11167"
+      ]
+    },
+    {
+      "id": "partial_reunification",
+      "kind": "warning",
+      "condition": {
+        "question": "who_to_bring",
+        "equals": "part_of_family"
+      },
+      "title": {
+        "fr": "Un regroupement partiel est exceptionnel",
+        "en": "Partial reunification is exceptional"
+      },
+      "body": {
+        "fr": "D'après service-public.fr, en règle générale tous les membres de la famille doivent arriver ensemble. Une demande partielle peut être autorisée exceptionnellement, dans l'intérêt des enfants, avec une lettre motivée jointe au dossier.",
+        "en": "According to service-public.fr, as a rule all family members must arrive together. A partial request may exceptionally be allowed, in the children's interest, with a reasoned letter attached to the file."
+      },
+      "actions": [],
+      "contacts": [],
+      "letters": [],
+      "sources": [
+        "sp_f11166"
+      ]
+    }
+  ],
+  "reviewNotes": [
+    "Source principale : F11166 (vérifiée le 01/06/2026). Montants de ressources repris tels quels (1 867,02 € ; 2 053,72 € ; 2 240,42 €, moyennes sur 12 mois) ; la fiche ne dit pas à quelle date de Smic ils correspondent. À revérifier si le Smic change.",
+    "Loi du 26 janvier 2024 : F11166 (01/06/2026) indique toujours 18 mois de résidence et ne cite aucune condition de langue ou d'assurance maladie pour la famille. Le texte de la loi et ses décrets n'ont pas été lus sur Légifrance (403). À vérifier : que les conditions du regroupement n'ont pas changé. Le décret n°2026-1001 du 26/10/2026 (délais de notification des préfets, effets au 30/10/2026) peut toucher le délai de 6 mois : non lu.",
+    "Site de l'Ofii (ofii.fr) : HTTP 503 au 29/10/2026 ; aucune page Ofii n'a été lue. Le lien du service en ligne (etrangers-en-france.interieur.gouv.fr/les-procedures/regroupement-familial, donné par R68987) renvoie une erreur 404 : l'étape pointe vers R68987. Coût éventuel du dépôt à l'Ofii : non trouvé.",
+    "Titres de séjour de la famille : distinction faite par F11166 entre « Autre pays », « Maroc et Tunisie », 12 pays d'Afrique (même titre que le demandeur) et Algérie. Pour les 12 pays d'Afrique, la fiche ne précise pas de délai de 2 mois : il n'est cité que pour le Maroc et la Tunisie.",
+    "Coût 150 € et droit de visa de régularisation : cités par F11166 dans la rubrique cas général. La taxe de validation du VLS-TS est mentionnée sans montant. Aucune autre source sur les montants n'a été consultée.",
+    "Durées : 18 mois approximés à 547 jours (redirection) et 548 jours (échéance) ; 1 an à 364/365 jours. Le calcul part de la date saisie, alors que la fiche exige 18 mois avec certains titres précis : approximation.",
+    "Ressources de l'époux : F11166 demande ses justificatifs « si vous vivez en couple » ; affichés dès que l'époux est concerné. Pièce « livret de famille / jugement d'adoption » affichée à tous ceux qui font venir des enfants, alors que la fiche dit « selon votre situation ».",
+    "Polygamie : question posée seulement si l'époux est concerné ; formulation reprise de la fiche. Mayotte (3 ans, titre de 5 ans) et regroupement « famille accompagnante » (carte talent, F35308 non lue) : non traités.",
+    "Réfugiés : la redirection vers la réunification familiale repose sur F35158 (22/04/2026). F11168 (21/05/2024) renvoie à un dépliant Ofpra (ofpra.gouv.fr, domaine hors liste, non consulté).",
+    "Conjoint de Français : F16162 (09/10/2026) et F11168. Pas de page France-Visas consultée pour ce visa. Contacts et courriers repris de help.json (non relu) ; file_followup rattaché à l'attente de la décision du préfet."
+  ]
+}

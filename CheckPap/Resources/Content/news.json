@@ -1,0 +1,395 @@
+{
+  "lastUpdated": "2026-10-29",
+  "items": [
+    {
+      "id": "decree_2026_1001_work_permits",
+      "date": "2026-10-30",
+      "category": "residence",
+      "title": {
+        "fr": "Cartes de séjour : réponse de la préfecture en 90 jours",
+        "en": "Residence cards: prefecture decision within 90 days"
+      },
+      "summary": {
+        "fr": "Le décret n° 2026-1001 du 26 octobre 2026 s'applique à partir du 30 octobre 2026. Pour une demande de carte de séjour, la préfecture doit notifier sa décision au plus tard 90 jours après le dépôt d'un dossier complet, au lieu de 4 mois ; ce délai peut être prolongé de 30 jours pour un dossier complexe. Sauf exceptions, l'absence de réponse après 90 jours vaut refus. Le décret réduit aussi de 12 à 6 mois la période pendant laquelle un travailleur étranger ne peut pas changer librement d'employeur, et modifie la durée de la carte « talent - carte bleue européenne ».",
+        "en": "Decree no. 2026-1001 of 26 October 2026 applies from 30 October 2026. For a residence card application, the prefecture must notify its decision no later than 90 days after a complete file is submitted, instead of 4 months; this can be extended by 30 days for a complex file. With some exceptions, no answer after 90 days counts as a refusal. The decree also cuts from 12 to 6 months the period during which a foreign worker cannot freely change employer, and changes the length of the \"talent - EU Blue Card\" permit."
+      },
+      "link": {
+        "title": { "fr": "Lire le décret sur legifrance.gouv.fr", "en": "Read the decree on legifrance.gouv.fr" },
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000055023061"
+      },
+      "procedures": ["renewal", "status_change"]
+    },
+    {
+      "id": "student_resources_aug_2026",
+      "date": "2026-08-01",
+      "category": "residence",
+      "title": {
+        "fr": "Étudiants : nouveau calcul des ressources demandées",
+        "en": "Students: new rule for required resources"
+      },
+      "summary": {
+        "fr": "Depuis le 1er août 2026 (décret n° 2026-526 du 22 juin 2026), l'étudiant étranger doit justifier de ressources mensuelles au moins égales à 47 % du SMIC brut mensuel en vigueur le jour du dépôt de sa demande. Ce montant de référence est actualisé au moins une fois par an. La règle concerne le visa et le titre de séjour pour études.",
+        "en": "Since 1 August 2026 (decree no. 2026-526 of 22 June 2026), a foreign student must show monthly resources of at least 47% of the gross monthly minimum wage (SMIC) in force on the day the application is filed. This reference amount is updated at least once a year. The rule applies to the visa and the residence permit for studies."
+      },
+      "link": {
+        "title": { "fr": "Lire le décret sur legifrance.gouv.fr", "en": "Read the decree on legifrance.gouv.fr" },
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054300340"
+      },
+      "procedures": ["visa_to_france", "renewal", "status_change"]
+    },
+    {
+      "id": "apl_non_eu_students_jul_2026",
+      "date": "2026-07-01",
+      "category": "rights",
+      "title": {
+        "fr": "APL : fin de l'aide pour certains étudiants non européens",
+        "en": "Housing aid (APL): ends for some non-EU students"
+      },
+      "summary": {
+        "fr": "Depuis le 1er juillet 2026 (décret n° 2026-552 du 27 juin 2026), les étudiants de pays hors Union européenne, hors EEE et hors Suisse ne peuvent plus recevoir l'APL s'ils n'ont pas de bourse sur critères sociaux. Les étudiants qui travaillent, en apprentissage ou en contrat de professionnalisation peuvent rester éligibles. Les étudiants réfugiés, apatrides et les conjoints d'étudiants non européens continuent d'en bénéficier.",
+        "en": "Since 1 July 2026 (decree no. 2026-552 of 27 June 2026), students from outside the EU, EEA and Switzerland can no longer receive APL if they do not have a needs-based grant. Students who work, are apprentices or have a work-study contract may still be eligible. Refugee and stateless students, and spouses of non-EU students, keep receiving it."
+      },
+      "link": {
+        "title": { "fr": "Lire sur service-public.gouv.fr", "en": "Read on service-public.gouv.fr" },
+        "url": "https://www.service-public.gouv.fr/particuliers/actualites/A18981"
+      }
+    },
+    {
+      "id": "eu_pact_asylum_jun_2026",
+      "date": "2026-06-12",
+      "category": "residence",
+      "title": {
+        "fr": "Asile : le Pacte européen s'applique en France",
+        "en": "Asylum: the EU Pact now applies in France"
+      },
+      "summary": {
+        "fr": "Depuis le 12 juin 2026, le Pacte européen sur la migration et l'asile s'applique, et le décret n° 2026-454 du 6 juin 2026 adapte le code des étrangers. La demande d'asile peut être présentée à l'OFII ou à un organisme qu'il désigne ; les empreintes sont relevées dès 6 ans ; une attestation de demande d'asile est remise après l'enregistrement. D'autres décrets de juin 2026 changent certains délais de recours.",
+        "en": "Since 12 June 2026, the EU Pact on Migration and Asylum applies, and decree no. 2026-454 of 6 June 2026 adapts the immigration code. An asylum claim can be made to OFII or to a body it designates; fingerprints are taken from age 6; an asylum application certificate is given after registration. Other June 2026 decrees change some appeal deadlines."
+      },
+      "link": {
+        "title": { "fr": "Lire le décret sur legifrance.gouv.fr", "en": "Read the decree on legifrance.gouv.fr" },
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054209737"
+      }
+    },
+    {
+      "id": "asylum_allowance_jun_2026",
+      "date": "2026-06-12",
+      "category": "rights",
+      "title": {
+        "fr": "Allocation pour demandeur d'asile : nouvelles règles",
+        "en": "Asylum seeker allowance: new rules"
+      },
+      "summary": {
+        "fr": "Le décret n° 2026-463 du 9 juin 2026 réécrit les règles de l'allocation pour demandeur d'asile (ADA) pour les demandes présentées à partir du 12 juin 2026. En métropole, une personne seule reçoit 6,80 € par jour ; un montant s'ajoute pour l'adulte qui n'a pas d'hébergement. L'OFII peut retirer ou limiter l'allocation par une décision écrite et motivée, après avoir laissé 15 jours à la personne pour présenter ses observations.",
+        "en": "Decree no. 2026-463 of 9 June 2026 rewrites the rules of the asylum seeker allowance (ADA) for claims made from 12 June 2026. In mainland France, a single person receives €6.80 a day; an extra amount is added for an adult without accommodation. OFII can withdraw or limit the allowance by a written, reasoned decision, after giving the person 15 days to send their observations."
+      },
+      "link": {
+        "title": { "fr": "Lire le décret sur legifrance.gouv.fr", "en": "Read the decree on legifrance.gouv.fr" },
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054223454"
+      }
+    },
+    {
+      "id": "tax_correction_2026",
+      "date": "2026-06-03",
+      "category": "daily_life",
+      "title": {
+        "fr": "Impôts : corriger sa déclaration en ligne jusqu'à fin novembre",
+        "en": "Taxes: correct your return online until the end of November"
+      },
+      "summary": {
+        "fr": "L'avis d'impôt 2026 était disponible dans l'espace Particulier entre le 24 et le 31 juillet 2026. Si vous voyez une erreur, le service de correction en ligne est ouvert du 29 juillet à fin novembre 2026 dans votre espace sur impots.gouv.fr. Après cette date, il faut faire une réclamation.",
+        "en": "The 2026 tax notice was available in the personal online space between 24 and 31 July 2026. If you see a mistake, the online correction service is open from 29 July to the end of November 2026 in your space on impots.gouv.fr. After that date, you must file a claim."
+      },
+      "link": {
+        "title": { "fr": "Lire sur service-public.gouv.fr", "en": "Read on service-public.gouv.fr" },
+        "url": "https://www.service-public.gouv.fr/particuliers/actualites/A17433"
+      },
+      "procedures": ["first_tax_return"]
+    },
+    {
+      "id": "tuition_fees_non_eu_2026",
+      "date": "2026-05-21",
+      "category": "daily_life",
+      "title": {
+        "fr": "Université : moins d'exonérations pour les étudiants non européens",
+        "en": "University: fewer fee waivers for non-EU students"
+      },
+      "summary": {
+        "fr": "Le décret n° 2026-385 du 19 mai 2026, en vigueur le 21 mai 2026, limite la part d'étudiants étrangers non européens qu'une université peut exonérer des droits différenciés : 30 % en 2026-2027, puis 25 % en 2027-2028. Pour 2026-2027, ces droits sont de 2 902 € par an en licence et 3 950 € en master. Les étudiants déjà exonérés en 2025-2026 gardent l'exonération jusqu'à la fin de leur cycle dans le même établissement.",
+        "en": "Decree no. 2026-385 of 19 May 2026, in force on 21 May 2026, limits the share of non-EU foreign students a university can exempt from the higher fees: 30% in 2026-2027, then 25% in 2027-2028. For 2026-2027, these fees are €2,902 a year for a bachelor's and €3,950 for a master's. Students already exempted in 2025-2026 keep the exemption until the end of their cycle in the same institution."
+      },
+      "link": {
+        "title": { "fr": "Lire sur service-public.gouv.fr", "en": "Read on service-public.gouv.fr" },
+        "url": "https://www.service-public.gouv.fr/particuliers/actualites/A18927"
+      }
+    },
+    {
+      "id": "licence_exchange_fee_may_2026",
+      "date": "2026-05-12",
+      "category": "daily_life",
+      "title": {
+        "fr": "Échange de permis de conduire : 40 € à payer",
+        "en": "Driving licence exchange: €40 fee"
+      },
+      "summary": {
+        "fr": "Depuis le 12 mai 2026, échanger un permis européen ou étranger contre un permis français coûte 40 € (20 € en Guyane), payés en ligne. Avec un permis non européen, vous pouvez conduire 1 an après votre installation en France ; ensuite, l'échange est obligatoire, et il n'est possible que si votre pays a un accord avec la France.",
+        "en": "Since 12 May 2026, exchanging a European or foreign licence for a French one costs €40 (€20 in French Guiana), paid online. With a non-European licence, you can drive for 1 year after settling in France; after that, the exchange is required, and it is only possible if your country has an agreement with France."
+      },
+      "link": {
+        "title": { "fr": "Lire sur service-public.gouv.fr", "en": "Read on service-public.gouv.fr" },
+        "url": "https://www.service-public.gouv.fr/particuliers/actualites/A18887"
+      },
+      "procedures": ["driving_licence_exchange"]
+    },
+    {
+      "id": "council_of_state_anef_may_2026",
+      "date": "2026-05-05",
+      "category": "residence",
+      "title": {
+        "fr": "ANEF : le Conseil d'État demande des corrections",
+        "en": "ANEF: the Council of State orders fixes"
+      },
+      "summary": {
+        "fr": "Dans sa décision n° 502860 du 5 mai 2026, le Conseil d'État demande à l'État, dans les 6 mois suivant la notification, de permettre sur l'ANEF de changer d'adresse et de modifier ou compléter ses pièces pendant l'instruction, et de délivrer à temps l'attestation de prolongation d'instruction. Il demande aussi d'inscrire ces attestations dans la liste des documents acceptés pour les prestations familiales. Dans les 12 mois, l'ANEF doit permettre de déposer des demandes de titres de catégories différentes. Le Conseil d'État rappelle qu'une solution de substitution doit exister quand le téléservice ne peut pas être utilisé.",
+        "en": "In decision no. 502860 of 5 May 2026, the Council of State asks the State, within 6 months of notification, to let people change their address and modify or add documents on ANEF while their file is being processed, and to issue the extension-of-processing certificate on time. It also asks for these certificates to be added to the list of documents accepted for family benefits. Within 12 months, ANEF must allow applications for permits of different categories. The Council of State recalls that an alternative must exist when the online service cannot be used."
+      },
+      "link": {
+        "title": { "fr": "Lire la décision sur legifrance.gouv.fr", "en": "Read the decision on legifrance.gouv.fr" },
+        "url": "https://www.legifrance.gouv.fr/ceta/id/CETATEXT000054041107"
+      },
+      "procedures": ["renewal", "status_change", "change_of_details", "duplicate"]
+    },
+    {
+      "id": "taxes_may_2026",
+      "date": "2026-05-01",
+      "category": "residence",
+      "title": {
+        "fr": "Titres de séjour et naturalisation : les taxes augmentent",
+        "en": "Residence permits and naturalisation: fees go up"
+      },
+      "summary": {
+        "fr": "Depuis le 1er mai 2026 (loi de finances pour 2026), la première délivrance d'un titre de séjour coûte 350 € (150 € au tarif réduit), le renouvellement 250 € (100 € au tarif réduit) et le duplicata 350 €. Le timbre de naturalisation ou de déclaration de nationalité passe à 255 €. Le visa de long séjour valant titre de séjour coûte 300 €, et une nouvelle taxe de 100 € s'applique à l'autorisation provisoire de séjour.",
+        "en": "Since 1 May 2026 (2026 finance law), a first residence permit costs €350 (€150 at the reduced rate), a renewal €250 (€100 at the reduced rate) and a duplicate €350. The stamp for naturalisation or a nationality declaration rises to €255. The long-stay visa equivalent to a residence permit costs €300, and a new €100 fee applies to the temporary residence authorisation."
+      },
+      "link": {
+        "title": { "fr": "Lire sur service-public.gouv.fr", "en": "Read on service-public.gouv.fr" },
+        "url": "https://www.service-public.gouv.fr/particuliers/actualites/A18881"
+      },
+      "procedures": ["renewal", "status_change", "duplicate", "naturalisation", "nationality_by_marriage", "family_reunification", "visa_to_france"]
+    },
+    {
+      "id": "ees_full_operation_apr_2026",
+      "date": "2026-04-10",
+      "category": "identity_travel",
+      "title": {
+        "fr": "Frontières Schengen : fin du tampon sur le passeport",
+        "en": "Schengen borders: no more passport stamps"
+      },
+      "summary": {
+        "fr": "Le système européen d'entrée et de sortie (EES) a commencé le 12 octobre 2025. Il enregistre les entrées et sorties des ressortissants non européens qui viennent pour un court séjour (90 jours maximum sur 180 jours), avec ou sans visa. Depuis le 10 avril 2026, le tampon manuel sur le passeport n'est plus utilisé.",
+        "en": "The European Entry/Exit System (EES) started on 12 October 2025. It records the entries and exits of non-EU nationals coming for a short stay (90 days maximum in any 180 days), with or without a visa. Since 10 April 2026, passports are no longer stamped by hand."
+      },
+      "link": {
+        "title": { "fr": "Lire sur service-public.gouv.fr", "en": "Read on service-public.gouv.fr" },
+        "url": "https://www.service-public.gouv.fr/particuliers/actualites/A18470"
+      },
+      "procedures": ["visa_to_france", "travel_abroad"]
+    },
+    {
+      "id": "tax_return_2026",
+      "date": "2026-04-08",
+      "category": "daily_life",
+      "title": {
+        "fr": "Déclaration de revenus 2026 : les dates",
+        "en": "2026 income tax return: the dates"
+      },
+      "summary": {
+        "fr": "La déclaration des revenus de 2025 était ouverte à partir du 9 avril 2026. Les dates limites en ligne étaient le 21 mai (départements 01 à 19 et non-résidents), le 28 mai (20 à 54) et le 4 juin (55 à 974 et 976) ; sur papier, le 19 mai. Si vous habitez en France, vous devez déclarer vos revenus, même la première année.",
+        "en": "The return for 2025 income opened on 9 April 2026. Online deadlines were 21 May (departments 01 to 19 and non-residents), 28 May (20 to 54) and 4 June (55 to 974 and 976); on paper, 19 May. If you live in France, you must declare your income, even in your first year."
+      },
+      "link": {
+        "title": { "fr": "Lire sur service-public.gouv.fr", "en": "Read on service-public.gouv.fr" },
+        "url": "https://www.service-public.gouv.fr/particuliers/actualites/A15597"
+      },
+      "procedures": ["first_tax_return"]
+    },
+    {
+      "id": "ame_documents_apr_2026",
+      "date": "2026-04-01",
+      "category": "rights",
+      "title": {
+        "fr": "AME : nouvelle liste de pièces à fournir",
+        "en": "AME state medical aid: new list of documents"
+      },
+      "summary": {
+        "fr": "Depuis le 1er avril 2026 (décret n° 2026-67 du 6 février 2026), la liste des pièces pour demander l'aide médicale de l'État (AME) change. Le justificatif de domicile doit dater de moins de 12 mois ; si vous êtes hébergé, l'hébergeur fait une déclaration sur l'honneur ; un adulte doit fournir un document d'identité avec photo. Ameli indique qu'une première demande se dépose en personne, sauf exceptions.",
+        "en": "Since 1 April 2026 (decree no. 2026-67 of 6 February 2026), the list of documents to apply for state medical aid (AME) has changed. Proof of address must be less than 12 months old; if someone hosts you, they make a sworn statement; an adult must provide an identity document with a photo. Ameli says a first application must be made in person, with some exceptions."
+      },
+      "link": {
+        "title": { "fr": "Lire le décret sur legifrance.gouv.fr", "en": "Read the decree on legifrance.gouv.fr" },
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000053449019"
+      }
+    },
+    {
+      "id": "c2s_ceilings_apr_2026",
+      "date": "2026-04-01",
+      "category": "rights",
+      "title": {
+        "fr": "Complémentaire santé solidaire : plafonds relevés",
+        "en": "Complémentaire santé solidaire: higher income limits"
+      },
+      "summary": {
+        "fr": "Depuis le 1er avril 2026, en métropole, une personne seule peut avoir la Complémentaire santé solidaire gratuite avec des ressources annuelles jusqu'à 10 421 €, et avec participation jusqu'à 14 069 €. Les plafonds sont plus élevés en outre-mer. Les mêmes plafonds servent pour l'AME.",
+        "en": "Since 1 April 2026, in mainland France, a single person can get free Complémentaire santé solidaire with yearly resources up to €10,421, and with a contribution up to €14,069. Limits are higher overseas. The same limits are used for AME."
+      },
+      "link": {
+        "title": { "fr": "Lire sur service-public.gouv.fr", "en": "Read on service-public.gouv.fr" },
+        "url": "https://www.service-public.gouv.fr/particuliers/actualites/A17326"
+      }
+    },
+    {
+      "id": "activity_bonus_apr_2026",
+      "date": "2026-04-01",
+      "category": "rights",
+      "title": {
+        "fr": "Prime d'activité revalorisée",
+        "en": "Activity bonus increased"
+      },
+      "summary": {
+        "fr": "Depuis le 1er avril 2026, le montant forfaitaire de la prime d'activité est de 638,28 € pour une personne seule sans enfant (633,21 € avant). Service-public rappelle qu'il faut résider en France de façon stable et effective ; une personne étrangère hors Union européenne doit avoir un titre de séjour valide de longue durée.",
+        "en": "Since 1 April 2026, the base amount of the activity bonus (prime d'activité) is €638.28 for a single person without children (€633.21 before). Service-public recalls that you must live in France in a stable and effective way; a non-EU foreign national must have a valid long-term residence permit."
+      },
+      "link": {
+        "title": { "fr": "Lire sur service-public.gouv.fr", "en": "Read on service-public.gouv.fr" },
+        "url": "https://www.service-public.gouv.fr/particuliers/actualites/A18815"
+      }
+    },
+    {
+      "id": "social_housing_certificates_mar_2026",
+      "date": "2026-03-13",
+      "category": "daily_life",
+      "title": {
+        "fr": "Logement social : les attestations ANEF acceptées",
+        "en": "Social housing: ANEF certificates accepted"
+      },
+      "summary": {
+        "fr": "Un arrêté du 21 janvier 2026, publié le 13 mars 2026, complète la liste des documents de séjour acceptés pour demander un logement social. Elle inclut l'attestation de décision favorable en attendant la remise du titre, et les attestations de prolongation d'instruction ou de décision favorable de renouvellement délivrées sur l'ANEF, y compris pour les réfugiés et les bénéficiaires de la protection subsidiaire.",
+        "en": "An order of 21 January 2026, published on 13 March 2026, adds to the list of residence documents accepted to apply for social housing. It includes the favourable decision certificate while waiting for the permit, and the extension-of-processing or favourable renewal certificates issued on ANEF, including for refugees and beneficiaries of subsidiary protection."
+      },
+      "link": {
+        "title": { "fr": "Lire l'arrêté sur legifrance.gouv.fr", "en": "Read the order on legifrance.gouv.fr" },
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000053659295"
+      },
+      "procedures": ["renewal"]
+    },
+    {
+      "id": "civic_exam_jan_2026",
+      "date": "2026-01-01",
+      "category": "residence",
+      "title": {
+        "fr": "Examen civique obligatoire",
+        "en": "Civic exam now required"
+      },
+      "summary": {
+        "fr": "Depuis le 1er janvier 2026, il faut réussir un examen civique avant de demander une première carte de séjour pluriannuelle, une carte de résident ou la naturalisation. C'est un questionnaire de 40 questions sur écran, en 45 minutes maximum ; il faut au moins 32 bonnes réponses. L'examen n'est pas demandé pour un renouvellement de ces cartes ni pour les bénéficiaires d'une protection internationale.",
+        "en": "Since 1 January 2026, you must pass a civic exam before applying for a first multi-year residence card, a resident card or naturalisation. It is a 40-question test on screen, 45 minutes maximum; you need at least 32 correct answers. The exam is not required to renew these cards or for people with international protection."
+      },
+      "link": {
+        "title": { "fr": "Lire sur service-public.gouv.fr", "en": "Read on service-public.gouv.fr" },
+        "url": "https://www.service-public.gouv.fr/particuliers/actualites/A18713"
+      },
+      "procedures": ["renewal", "status_change", "naturalisation"]
+    },
+    {
+      "id": "language_levels_permits_jan_2026",
+      "date": "2026-01-01",
+      "category": "residence",
+      "title": {
+        "fr": "Niveau de français : A2 et B1 pour les cartes longues",
+        "en": "French level: A2 and B1 for longer permits"
+      },
+      "summary": {
+        "fr": "Depuis le 1er janvier 2026 (décret n° 2025-647 du 15 juillet 2025), une première carte de séjour pluriannuelle demande le niveau A2 en français, et une carte de résident le niveau B1. Les personnes de plus de 65 ans sont dispensées. Une personne handicapée ou malade peut obtenir des aménagements ou une dispense.",
+        "en": "Since 1 January 2026 (decree no. 2025-647 of 15 July 2025), a first multi-year residence card requires French at level A2, and a resident card level B1. People over 65 are exempt. A person with a disability or illness can get adjustments or an exemption."
+      },
+      "link": {
+        "title": { "fr": "Lire le décret sur legifrance.gouv.fr", "en": "Read the decree on legifrance.gouv.fr" },
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051900489"
+      },
+      "procedures": ["renewal", "status_change"]
+    },
+    {
+      "id": "naturalisation_b2_jan_2026",
+      "date": "2026-01-01",
+      "category": "nationality",
+      "title": {
+        "fr": "Nationalité : niveau B2 en français",
+        "en": "Nationality: French level B2"
+      },
+      "summary": {
+        "fr": "Pour les demandes de naturalisation et les déclarations par mariage déposées depuis le 1er janvier 2026 (décret n° 2025-648 du 15 juillet 2025), il faut le niveau B2 en français, à l'oral et à l'écrit, au lieu de B1. Les connaissances sur l'histoire et la société sont vérifiées par l'examen civique. Une dispense est possible en cas de handicap ou de maladie chronique.",
+        "en": "For naturalisation applications and declarations by marriage filed since 1 January 2026 (decree no. 2025-648 of 15 July 2025), you need French level B2, spoken and written, instead of B1. Knowledge of history and society is checked by the civic exam. An exemption is possible for a disability or chronic illness."
+      },
+      "link": {
+        "title": { "fr": "Lire le décret sur legifrance.gouv.fr", "en": "Read the decree on legifrance.gouv.fr" },
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051900519"
+      },
+      "procedures": ["naturalisation", "nationality_by_marriage"]
+    },
+    {
+      "id": "mayotte_nationality_may_2025",
+      "date": "2025-05-07",
+      "category": "nationality",
+      "title": {
+        "fr": "Mayotte : conditions plus strictes pour la nationalité",
+        "en": "Mayotte: stricter conditions for nationality"
+      },
+      "summary": {
+        "fr": "Le 7 mai 2025, le Conseil constitutionnel a validé la loi qui renforce les conditions d'accès à la nationalité à Mayotte (décision n° 2025-881 DC). Pour un enfant né à Mayotte de parents étrangers, les deux parents doivent résider en France de façon régulière et continue depuis au moins 1 an à la naissance, sauf si la filiation n'est établie qu'avec un seul parent. Un passeport biométrique ne peut pas être exigé des ressortissants de pays qui n'en délivrent pas.",
+        "en": "On 7 May 2025, the Constitutional Council approved the law that tightens access to nationality in Mayotte (decision no. 2025-881 DC). For a child born in Mayotte to foreign parents, both parents must have lived in France legally and continuously for at least 1 year at the birth, unless parentage is established with only one parent. A biometric passport cannot be required from nationals of countries that do not issue one."
+      },
+      "link": {
+        "title": { "fr": "Lire la décision sur legifrance.gouv.fr", "en": "Read the decision on legifrance.gouv.fr" },
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051582193"
+      }
+    },
+    {
+      "id": "naturalisation_circular_may_2025",
+      "date": "2025-05-05",
+      "category": "nationality",
+      "title": {
+        "fr": "Naturalisation : des critères plus stricts pour les préfectures",
+        "en": "Naturalisation: stricter criteria for prefectures"
+      },
+      "summary": {
+        "fr": "Une circulaire du ministre de l'Intérieur du 2 mai 2025, applicable depuis le 5 mai 2025, donne aux préfets les attentes pour la naturalisation par décret : bonne maîtrise du français, adhésion aux valeurs de la République, comportement exemplaire y compris pour le respect des règles de séjour, séjour régulier, insertion professionnelle et ressources stables et suffisantes.",
+        "en": "A circular from the Minister of the Interior dated 2 May 2025, applicable since 5 May 2025, sets out for prefects what is expected for naturalisation by decree: good French, adherence to the values of the Republic, exemplary conduct including respect of residence rules, legal residence, professional integration and stable, sufficient resources."
+      },
+      "link": {
+        "title": { "fr": "Lire la circulaire sur legifrance.gouv.fr", "en": "Read the circular on legifrance.gouv.fr" },
+        "url": "https://www.legifrance.gouv.fr/circulaire/id/45604"
+      },
+      "procedures": ["naturalisation"]
+    }
+  ],
+  "reviewNotes": [
+    "Domaines : toutes les actualités pointent vers service-public.gouv.fr ou legifrance.gouv.fr (domaines déjà autorisés). Les décisions du Conseil constitutionnel et du Conseil d'État sont liées sur Légifrance ; conseil-constitutionnel.fr et conseil-etat.fr n'ont pas été ajoutés. Si vous préférez ces liens, il faut d'abord ajouter ces deux domaines au schéma.",
+    "Décret n° 2026-1001 : la date d'entrée en vigueur (30 octobre 2026) est déduite de la notice (« lendemain de sa publication », publié le 29 octobre 2026). Le texte ne contient pas de disposition transitoire : on ne sait pas si le délai de 90 jours vaut pour les demandes déjà déposées. Les règles sur le chômage involontaire (maintien du droit au séjour) et la liste exacte des titres exclus du refus implicite n'ont pas été reprises ; à vérifier avant de les ajouter. Aucune actualité service-public sur ce décret n'a été trouvée au 29/10/2026.",
+    "Conseil d'État n° 502860 : la décision n'ordonne PAS d'accompagnement ni de solution de substitution à l'échelle nationale. Le point 9 rappelle que le pouvoir réglementaire doit garantir une solution de substitution, mais le point 46 juge qu'aucune méconnaissance caractérisée n'est établie au niveau national (des défaillances locales restent possibles). La lettre type de help.json qui cite cette décision devrait être relue avec cette nuance. Les délais (6 et 12 mois) courent à partir de la notification, dont la date n'est pas connue : vérifier si les corrections ont été faites sur l'ANEF.",
+    "Conseil d'État n° 502860 : le ministère aurait annoncé un renouvellement automatique des attestations de prolongation d'instruction dans la limite de 12 mois ; aucune source de mise en œuvre trouvée, donc non publié.",
+    "Ressources des étudiants : france-visas.gouv.fr annoncerait 877,50 € par mois pour les demandes déposées depuis le 1er août 2026 (page inaccessible, erreur 403). Seule la règle des 47 % du SMIC brut, lue sur Légifrance, est publiée.",
+    "Allocation pour demandeur d'asile : deux lectures différentes du montant additionnel pour l'hébergement (7,40 € ou 4,70 € par jour en métropole). Montant non publié en attendant vérification de l'annexe 8 du CESEDA. Décrets liés à vérifier : n° 2026-817 du 24 août 2026 (refus et limitation) et n° 2026-925 du 5 octobre 2026 (demandes enregistrées avant le 12 juin 2026).",
+    "Pacte asile : la loi d'habilitation et les ordonnances annoncées (projet présenté le 8 avril 2026) n'ont pas été vérifiées. La circulaire INTV2615721C du 10 juin 2026 est sur immigration.interieur.gouv.fr et Légifrance (circulaire 45668), non reprise.",
+    "EES : la page service-public A18470 est marquée comme ancienne et ne dit pas si les titulaires d'un titre de séjour ou d'un visa long séjour sont exclus. ETIAS : interieur.gouv.fr annoncerait une mise en service au dernier trimestre 2026 ; date non confirmée, actualité non publiée.",
+    "Prime d'activité : la phrase sur le « titre de séjour valide de longue durée » reprend service-public (A18815). D'autres fiches parlent de 5 ans de titre autorisant à travailler (avec exceptions, par exemple réfugiés ou cartes de résident). À harmoniser avec rights_health_money.json.",
+    "Allocations familiales : écart entre service-public (plus de 9 mois de présence dans l'année) et un document CAF (plus de 6 mois) sur la condition de résidence. Non publié.",
+    "Rumeur « les étrangers perdent leurs droits CAF au 1er janvier 2026 » : la CAF l'a démentie sur caf.fr, mais la page est inaccessible (erreur 403) et sa date de publication n'a pas pu être lue. Non publié.",
+    "Amendement au PLFSS 2026 sur les ressortissants algériens (RSA, prime d'activité, ASPA) : aucune preuve d'adoption trouvée. Non publié.",
+    "Aucune décision du Conseil constitutionnel de 2025 ou 2026 sur les conditions de résidence pour les prestations sociales n'a été trouvée. La décision n° 2024-6 RIP du 11 avril 2024 date de plus de 24 mois ; non reprise.",
+    "Arrêté logement social du 21 janvier 2026 : la date du 13 mars 2026 est la date de publication lue sur Légifrance ; le texte ne donne pas de date d'entrée en vigueur.",
+    "Mayotte : le numéro et la date de la loi promulguée (mai 2025) n'ont pas été lus ; seule la décision du Conseil constitutionnel est citée.",
+    "Circulaire naturalisation du 2 mai 2025 : plus de 12 mois, gardée car elle s'applique toujours aux dossiers en cours. À retirer si la page doit rester sur 12 mois.",
+    "immigration.interieur.gouv.fr (rubrique Actualités) et france-visas.gouv.fr renvoient une erreur 403 aux outils de lecture : leurs actualités récentes n'ont pas pu être relues. À parcourir à la main.",
+    "Aucune actualité trouvée pour 2026 sur : passeport ou carte d'identité pour les étrangers, Visale, regroupement familial, DCEM, nouveaux délais d'instruction de la naturalisation."
+  ]
+}

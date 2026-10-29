@@ -6,6 +6,9 @@ protocol ContentRepository {
     func loadCatalog() async throws -> Catalog
     func loadProcedure(id: String) async throws -> Procedure
     func loadHelp() async throws -> HelpContent
+    func loadNews() async throws -> NewsFeed
+    func loadRights() async throws -> RightsContent
+    func loadCountries() async throws -> CountriesContent
 }
 
 enum ContentError: LocalizedError {
@@ -32,6 +35,28 @@ struct BundleContentRepository: ContentRepository {
 
     func loadHelp() async throws -> HelpContent {
         try decode(HelpContent.self, file: "help")
+    }
+
+    func loadNews() async throws -> NewsFeed {
+        try decode(NewsFeed.self, file: "news")
+    }
+
+    /// La liste de tous les pays, complétée par les fiches détaillées si elles existent.
+    func loadCountries() async throws -> CountriesContent {
+        let list = try decode(CountryList.self, file: "countries")
+        let details = try? decode(CountryDetailsFile.self, file: "countries_details")
+        return CountriesContent(list: list, details: details)
+    }
+
+    /// Le profil, puis chaque fichier de droits qu'il annonce. Un fichier absent est ignoré.
+    func loadRights() async throws -> RightsContent {
+        let profile = try decode(RightsProfile.self, file: "rights")
+        let parts = profile.parts.compactMap { try? decode(RightsPart.self, file: $0) }
+        return RightsContent(
+            profile: profile,
+            rights: parts.flatMap(\.rights),
+            sources: parts.flatMap(\.sources)
+        )
     }
 
     private func decode<T: Decodable>(_ type: T.Type, file: String) throws -> T {

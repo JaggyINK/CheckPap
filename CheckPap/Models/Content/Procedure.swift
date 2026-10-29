@@ -1,9 +1,10 @@
 import Foundation
 
-/// Liste des démarches disponibles (`catalog.json`).
+/// Liste des démarches disponibles et leur rangement (`catalog.json`).
 struct Catalog: Decodable {
     let schemaVersion: Int
     let contentVersion: String
+    let categories: [ProcedureCategory]?
     let procedures: [CatalogEntry]
 }
 
@@ -12,6 +13,24 @@ struct CatalogEntry: Decodable, Identifiable, Hashable {
     let symbol: String
     let title: LocalizedText
     let subtitle: LocalizedText
+    let category: String?
+    let subcategory: String?
+}
+
+/// Grande famille de démarches (Séjour, Nationalité...), découpée en sous-catégories.
+struct ProcedureCategory: Decodable, Identifiable, Hashable {
+    let id: String
+    let symbol: String
+    let title: LocalizedText
+    let subtitle: LocalizedText
+    let subcategories: [Subcategory]
+    /// `true` pour "S'expatrier" : l'écran propose aussi le choix d'un pays.
+    let showsCountries: Bool?
+}
+
+struct Subcategory: Decodable, Identifiable, Hashable {
+    let id: String
+    let title: LocalizedText
 }
 
 /// Une démarche complète (`procedures/<id>.json`).

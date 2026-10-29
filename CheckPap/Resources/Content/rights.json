@@ -1,0 +1,85 @@
+{
+  "lastVerified": "2026-10-29",
+  "parts": ["rights_health_money", "rights_life"],
+  "questions": [
+    {
+      "id": "residence_status",
+      "kind": "single",
+      "title": { "fr": "Quelle est votre situation en France ?", "en": "What is your situation in France?" },
+      "help": { "fr": "Beaucoup de droits dépendent du document qui vous autorise à rester en France.", "en": "Many rights depend on the document that allows you to stay in France." },
+      "options": [
+        { "id": "french", "label": { "fr": "Je suis Français(e)", "en": "I am French" } },
+        { "id": "eu", "label": { "fr": "Citoyen(ne) européen(ne) (UE, EEE, Suisse)", "en": "European citizen (EU, EEA, Switzerland)" } },
+        { "id": "permit", "label": { "fr": "J'ai un titre de séjour", "en": "I have a residence permit" } },
+        { "id": "receipt", "label": { "fr": "J'ai un récépissé ou une attestation", "en": "I have a receipt or a certificate" } },
+        { "id": "refugee", "label": { "fr": "Réfugié(e) ou protection subsidiaire", "en": "Refugee or subsidiary protection" } },
+        { "id": "asylum_seeker", "label": { "fr": "Demandeur(se) d'asile", "en": "Asylum seeker" } },
+        { "id": "undocumented", "label": { "fr": "Je n'ai pas de titre de séjour", "en": "I have no residence permit" } }
+      ],
+      "sources": []
+    },
+    {
+      "id": "time_in_france",
+      "kind": "single",
+      "title": { "fr": "Depuis combien de temps vivez-vous en France ?", "en": "How long have you lived in France?" },
+      "options": [
+        { "id": "under_3_months", "label": { "fr": "Moins de 3 mois", "en": "Less than 3 months" } },
+        { "id": "3_months_to_5_years", "label": { "fr": "Entre 3 mois et 5 ans", "en": "Between 3 months and 5 years" } },
+        { "id": "over_5_years", "label": { "fr": "Plus de 5 ans", "en": "More than 5 years" } }
+      ],
+      "sources": []
+    },
+    {
+      "id": "age_group",
+      "kind": "single",
+      "title": { "fr": "Quel âge avez-vous ?", "en": "How old are you?" },
+      "options": [
+        { "id": "under_18", "label": { "fr": "Moins de 18 ans", "en": "Under 18" } },
+        { "id": "18_25", "label": { "fr": "18 à 25 ans", "en": "18 to 25" } },
+        { "id": "26_64", "label": { "fr": "26 à 64 ans", "en": "26 to 64" } },
+        { "id": "65_plus", "label": { "fr": "65 ans ou plus", "en": "65 or older" } }
+      ],
+      "sources": []
+    },
+    {
+      "id": "activity",
+      "kind": "single",
+      "title": { "fr": "Quelle est votre activité ?", "en": "What is your main activity?" },
+      "options": [
+        { "id": "employee", "label": { "fr": "Salarié(e)", "en": "Employee" } },
+        { "id": "self_employed", "label": { "fr": "Indépendant(e)", "en": "Self-employed" } },
+        { "id": "student", "label": { "fr": "Étudiant(e)", "en": "Student" } },
+        { "id": "job_seeker", "label": { "fr": "Je cherche un emploi", "en": "Looking for work" } },
+        { "id": "retired", "label": { "fr": "Retraité(e)", "en": "Retired" } },
+        { "id": "none", "label": { "fr": "Sans activité", "en": "No activity" } }
+      ],
+      "sources": []
+    },
+    {
+      "id": "has_children",
+      "kind": "yesNo",
+      "title": { "fr": "Avez-vous des enfants à charge ?", "en": "Do you have dependent children?" },
+      "sources": []
+    },
+    {
+      "id": "housing",
+      "kind": "single",
+      "title": { "fr": "Comment êtes-vous logé(e) ?", "en": "What is your housing situation?" },
+      "options": [
+        { "id": "tenant", "label": { "fr": "Locataire", "en": "Tenant" } },
+        { "id": "looking", "label": { "fr": "Je cherche un logement", "en": "Looking for housing" } },
+        { "id": "hosted", "label": { "fr": "Hébergé(e) chez quelqu'un", "en": "Staying with someone" } },
+        { "id": "no_housing", "label": { "fr": "Sans logement", "en": "No housing" } },
+        { "id": "owner", "label": { "fr": "Propriétaire", "en": "Owner" } }
+      ],
+      "sources": []
+    },
+    {
+      "id": "low_income",
+      "kind": "yesNo",
+      "title": { "fr": "Vos ressources sont-elles faibles ou irrégulières ?", "en": "Are your resources low or irregular?" },
+      "help": { "fr": "Pas besoin d'être précis : cela sert seulement à vous montrer les aides qui peuvent vous concerner. Les simulateurs vous donneront la réponse exacte.", "en": "No need to be precise: this only helps show the aid that may concern you. The simulators will give you the exact answer." },
+      "sources": []
+    }
+  ]
+}

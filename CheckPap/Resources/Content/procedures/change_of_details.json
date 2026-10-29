@@ -1,0 +1,1952 @@
+{
+  "id": "change_of_details",
+  "reviewStatus": "draft",
+  "lastVerified": "2026-10-29",
+  "title": {
+    "fr": "Déclarer un changement d'adresse ou d'état civil",
+    "en": "Report a change of address or civil status"
+  },
+  "summary": {
+    "fr": "Cette démarche sert à déclarer un déménagement, un mariage, un divorce ou un changement de nom sur votre titre de séjour. Elle se fait en ligne sur le site de l'ANEF. Pour un déménagement avec une carte de plus d'1 an, la déclaration est obligatoire dans les 3 mois.",
+    "en": "Use this to report a move, a marriage, a divorce or a change of name on your residence permit. You do it online on the ANEF website. For a move with a card of more than 1 year, you must report it within 3 months."
+  },
+  "sources": [
+    {
+      "id": "sp_adresse",
+      "publisher": "service-public.gouv.fr",
+      "title": "Que doit faire un étranger en cas de changement d'adresse ? (Vérifié le 01 mai 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F35807",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_etat_civil",
+      "publisher": "service-public.gouv.fr",
+      "title": "Que doit faire un étranger en cas de changement d'état civil ? (Vérifié le 27 septembre 2021)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F35808",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_anef",
+      "publisher": "service-public.gouv.fr",
+      "title": "Faire une demande sur internet pour un titre de séjour, un changement de situation, un titre de voyage, une demande de naturalisation - ANEF (Vérifié le 13 août 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R59398",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_justif_domicile",
+      "publisher": "service-public.gouv.fr",
+      "title": "Demande de carte de séjour : quel justificatif de domicile ? (Vérifié le 05 août 2025)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33052",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_timbre",
+      "publisher": "service-public.gouv.fr",
+      "title": "Étranger en France : comment acheter un timbre fiscal ? (Vérifié le 19 avril 2024)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33071",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_taxes_2026",
+      "publisher": "service-public.gouv.fr",
+      "title": "Titres de séjour : augmentation du montant des taxes demandées aux étrangers à compter du 1er mai (Publié le 22 avril 2026, mis à jour le 12 mai 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/actualites/A18881",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_dcem",
+      "publisher": "service-public.gouv.fr",
+      "title": "Document de circulation pour étranger mineur (DCEM) (Vérifié le 30 juillet 2024)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2718",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "pref_rhone_faq",
+      "publisher": "rhone.gouv.fr",
+      "title": "FAQ SEJOUR, L'Administration Numérique pour les Etrangers en France (ANEF) (PDF, aucune date affichée)",
+      "url": "https://www.rhone.gouv.fr/contenu/telechargement/49803/275054/file/FAQ%20SEJOUR%20FINAL.pdf",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "pref_correze",
+      "publisher": "correze.gouv.fr",
+      "title": "Déclarer un changement d'adresse, modification ou perte de mon titre (aucune date affichée)",
+      "url": "https://www.correze.gouv.fr/Demarches/Etrangers-vos-demarches/Je-demande-un-titre-de-sejour/Declarer-un-changement-d-adresse-modification-ou-perte-de-mon-titre",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "pref_police",
+      "publisher": "prefecturedepolice.interieur.gouv.fr",
+      "title": "Titres de séjour - Nous contacter (Dernière mise à jour le 02/10/2026)",
+      "url": "https://www.prefecturedepolice.interieur.gouv.fr/demarches/titres-de-sejour-nous-contacter",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "pref_bdr",
+      "publisher": "bouches-du-rhone.gouv.fr",
+      "title": "Droit au séjour (aucune date de mise à jour affichée ; bandeau sur les taxes au 1er mai 2026)",
+      "url": "https://www.bouches-du-rhone.gouv.fr/Demarches/Accueil-des-etrangers/Droit-au-sejour",
+      "consulted": "2026-10-29"
+    }
+  ],
+  "questions": [
+    {
+      "id": "change_type",
+      "kind": "single",
+      "title": {
+        "fr": "Qu'est-ce qui a changé dans votre situation ?",
+        "en": "What has changed in your situation?"
+      },
+      "help": {
+        "fr": "Les pièces et les règles ne sont pas les mêmes pour un déménagement et pour un changement d'état civil. Si plusieurs choses ont changé, refaites le questionnaire pour chacune.",
+        "en": "The documents and rules are not the same for a move and for a change of civil status. If several things changed, go through the questions again for each one."
+      },
+      "example": {
+        "fr": "Exemple : vous vous êtes marié(e) et vous voulez ajouter le nom de votre époux ou épouse sur votre carte.",
+        "en": "Example: you got married and want to add your spouse's name to your card."
+      },
+      "options": [
+        {
+          "id": "address",
+          "label": {
+            "fr": "J'ai déménagé",
+            "en": "I moved"
+          },
+          "help": {
+            "fr": "Dans la même commune ou dans une autre.",
+            "en": "Within the same town or to another one."
+          }
+        },
+        {
+          "id": "marriage",
+          "label": {
+            "fr": "Je me suis marié(e)",
+            "en": "I got married"
+          }
+        },
+        {
+          "id": "divorce",
+          "label": {
+            "fr": "J'ai divorcé",
+            "en": "I got divorced"
+          }
+        },
+        {
+          "id": "name_change",
+          "label": {
+            "fr": "Mon nom ou mon prénom a changé",
+            "en": "My last name or first name changed"
+          },
+          "help": {
+            "fr": "Pour une autre raison qu'un mariage ou un divorce.",
+            "en": "For a reason other than a marriage or a divorce."
+          }
+        },
+        {
+          "id": "birth",
+          "label": {
+            "fr": "J'ai eu un enfant",
+            "en": "I had a child"
+          }
+        },
+        {
+          "id": "new_passport",
+          "label": {
+            "fr": "J'ai un nouveau passeport",
+            "en": "I have a new passport"
+          }
+        }
+      ],
+      "condition": null,
+      "sources": [
+        "sp_adresse",
+        "sp_etat_civil",
+        "pref_rhone_faq"
+      ]
+    },
+    {
+      "id": "permit_kind",
+      "kind": "single",
+      "title": {
+        "fr": "Quel document de séjour avez-vous ?",
+        "en": "What residence document do you have?"
+      },
+      "help": {
+        "fr": "Pour un déménagement, la déclaration est obligatoire si votre carte dure plus d'1 an. Le prix d'une nouvelle carte dépend aussi de votre nationalité.",
+        "en": "For a move, reporting it is required if your card lasts more than 1 year. The price of a new card also depends on your nationality."
+      },
+      "example": {
+        "fr": "Exemple : une carte valable du 1er mars 2025 au 28 février 2029 est une carte de plus d'1 an.",
+        "en": "Example: a card valid from 1 March 2025 to 28 February 2029 is a card of more than 1 year."
+      },
+      "options": [
+        {
+          "id": "one_year_or_less",
+          "label": {
+            "fr": "Une carte ou un document valable 1 an ou moins",
+            "en": "A card or document valid for 1 year or less"
+          },
+          "help": {
+            "fr": "Par exemple une carte de séjour temporaire d'1 an.",
+            "en": "For example a 1-year temporary residence card."
+          }
+        },
+        {
+          "id": "more_than_one_year",
+          "label": {
+            "fr": "Une carte valable plus d'1 an",
+            "en": "A card valid for more than 1 year"
+          },
+          "help": {
+            "fr": "Carte pluriannuelle, carte de résident de 10 ans, etc.",
+            "en": "Multi-year card, 10-year resident card, etc."
+          }
+        },
+        {
+          "id": "eu_family",
+          "label": {
+            "fr": "Une carte de citoyen UE, EEE, suisse, de membre de famille ou « accord de retrait »",
+            "en": "An EU, EEA or Swiss citizen card, a family member card, or a \"withdrawal agreement\" card"
+          },
+          "help": {
+            "fr": "Pour ces cartes, service-public indique que la nouvelle carte est gratuite.",
+            "en": "For these cards, service-public says the new card is free."
+          }
+        }
+      ],
+      "condition": {
+        "question": "change_type",
+        "in": [
+          "address",
+          "marriage",
+          "divorce",
+          "name_change"
+        ]
+      },
+      "sources": [
+        "sp_adresse",
+        "sp_etat_civil",
+        "pref_rhone_faq"
+      ]
+    },
+    {
+      "id": "permit_expiry_date",
+      "kind": "date",
+      "title": {
+        "fr": "Quelle est la date de fin de validité de votre carte ?",
+        "en": "What is the expiry date of your card?"
+      },
+      "help": {
+        "fr": "Si votre carte expire bientôt, la préfecture de Corrèze demande de faire directement un renouvellement.",
+        "en": "If your card expires soon, the Corrèze prefecture asks you to apply for a renewal instead."
+      },
+      "example": {
+        "fr": "Exemple : la date écrite après « Valable jusqu'au » sur votre carte.",
+        "en": "Example: the date written after \"Valable jusqu'au\" (valid until) on your card."
+      },
+      "condition": {
+        "question": "change_type",
+        "in": [
+          "address",
+          "marriage",
+          "divorce",
+          "name_change"
+        ]
+      },
+      "sources": [
+        "pref_correze"
+      ]
+    },
+    {
+      "id": "move_date",
+      "kind": "date",
+      "title": {
+        "fr": "À quelle date avez-vous déménagé ?",
+        "en": "On what date did you move?"
+      },
+      "help": {
+        "fr": "Service-public donne 3 mois après le déménagement pour déclarer la nouvelle adresse. L'app calcule la date limite.",
+        "en": "Service-public gives 3 months after the move to report the new address. The app works out the deadline."
+      },
+      "example": {
+        "fr": "Exemple : la date d'entrée indiquée sur votre nouveau bail.",
+        "en": "Example: the start date on your new lease."
+      },
+      "condition": {
+        "question": "change_type",
+        "equals": "address"
+      },
+      "sources": [
+        "sp_adresse"
+      ]
+    },
+    {
+      "id": "new_department",
+      "kind": "single",
+      "title": {
+        "fr": "Où se trouve votre nouveau domicile ?",
+        "en": "Where is your new home?"
+      },
+      "help": {
+        "fr": "Votre dossier est suivi par la préfecture de votre adresse déclarée. Certaines préfectures ont leurs propres consignes.",
+        "en": "Your file is handled by the prefecture of your declared address. Some prefectures have their own instructions."
+      },
+      "example": {
+        "fr": "Exemple : vous quittez Lyon (Rhône) pour Marseille (Bouches-du-Rhône) : c'est un autre département.",
+        "en": "Example: you leave Lyon (Rhône) for Marseille (Bouches-du-Rhône): that is another département."
+      },
+      "options": [
+        {
+          "id": "same",
+          "label": {
+            "fr": "Dans le même département",
+            "en": "In the same département"
+          }
+        },
+        {
+          "id": "other",
+          "label": {
+            "fr": "Dans un autre département (hors Paris)",
+            "en": "In another département (not Paris)"
+          }
+        },
+        {
+          "id": "to_paris",
+          "label": {
+            "fr": "À Paris, en venant d'un autre département",
+            "en": "In Paris, coming from another département"
+          }
+        }
+      ],
+      "condition": {
+        "question": "change_type",
+        "equals": "address"
+      },
+      "sources": [
+        "sp_adresse",
+        "pref_rhone_faq",
+        "pref_police"
+      ]
+    },
+    {
+      "id": "housing_situation",
+      "kind": "single",
+      "title": {
+        "fr": "Comment êtes-vous logé(e) à la nouvelle adresse ?",
+        "en": "How are you housed at the new address?"
+      },
+      "help": {
+        "fr": "Le justificatif de domicile demandé dépend de votre situation.",
+        "en": "The proof of address asked for depends on your situation."
+      },
+      "example": {
+        "fr": "Exemple : vous vivez chez un ami qui a le bail à son nom : vous êtes hébergé(e).",
+        "en": "Example: you live at a friend's home and the lease is in their name: you are hosted."
+      },
+      "options": [
+        {
+          "id": "tenant_owner",
+          "label": {
+            "fr": "Je suis locataire ou propriétaire",
+            "en": "I rent or own the home"
+          }
+        },
+        {
+          "id": "hotel",
+          "label": {
+            "fr": "Je vis à l'hôtel",
+            "en": "I live in a hotel"
+          }
+        },
+        {
+          "id": "hosted",
+          "label": {
+            "fr": "Je suis hébergé(e) chez quelqu'un",
+            "en": "I am hosted by someone"
+          },
+          "help": {
+            "fr": "Famille, ami, etc.",
+            "en": "Family, friend, etc."
+          }
+        }
+      ],
+      "condition": {
+        "any": [
+          {
+            "question": "change_type",
+            "equals": "address"
+          },
+          {
+            "question": "change_type",
+            "in": [
+              "marriage",
+              "divorce",
+              "name_change"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_justif_domicile",
+        "sp_adresse",
+        "sp_etat_civil"
+      ]
+    },
+    {
+      "id": "new_card_wanted",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Voulez-vous une nouvelle carte avec votre nouvelle adresse ?",
+        "en": "Do you want a new card showing your new address?"
+      },
+      "help": {
+        "fr": "Ce n'est pas obligatoire. Sans nouvelle carte, la déclaration est gratuite et vous recevez une attestation. Avec une nouvelle carte, service-public indique 50 € en timbres fiscaux, sauf pour les cartes UE, EEE, Suisse ou « accord de retrait ».",
+        "en": "It is not required. Without a new card, reporting is free and you get a certificate. With a new card, service-public says 50 € in tax stamps, except for EU, EEA, Swiss or \"withdrawal agreement\" cards."
+      },
+      "example": {
+        "fr": "Exemple : votre carte indique encore l'ancienne adresse ; avec l'attestation, vous pouvez justifier la nouvelle.",
+        "en": "Example: your card still shows the old address; the certificate lets you prove the new one."
+      },
+      "condition": {
+        "question": "change_type",
+        "equals": "address"
+      },
+      "sources": [
+        "sp_adresse",
+        "pref_rhone_faq"
+      ]
+    },
+    {
+      "id": "want_card_updated",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Voulez-vous que votre carte de séjour soit modifiée ?",
+        "en": "Do you want your residence card to be changed?"
+      },
+      "help": {
+        "fr": "Pour un changement d'état civil, service-public indique que la démarche n'est pas obligatoire. Elle sert à ajouter ou retirer le nom d'époux ou d'épouse, ou à modifier le nom et les prénoms sur la carte.",
+        "en": "For a change of civil status, service-public says this step is not required. It is used to add or remove a spouse's name, or to change the name and first names on the card."
+      },
+      "example": {
+        "fr": "Exemple : après un divorce, vous voulez retirer le nom de votre ex-époux de votre carte.",
+        "en": "Example: after a divorce, you want to remove your former spouse's name from your card."
+      },
+      "condition": {
+        "question": "change_type",
+        "in": [
+          "marriage",
+          "divorce",
+          "name_change"
+        ]
+      },
+      "sources": [
+        "sp_etat_civil"
+      ]
+    }
+  ],
+  "documents": [
+    {
+      "id": "residence_permit",
+      "category": "residence",
+      "title": {
+        "fr": "Titre de séjour",
+        "en": "Residence permit"
+      },
+      "details": {
+        "fr": "Une copie numérique lisible de votre carte de séjour actuelle (recto et verso).",
+        "en": "A readable digital copy of your current residence card (front and back)."
+      },
+      "tip": {
+        "fr": "Scannez ou photographiez les deux faces avant de commencer : tout se dépose en ligne.",
+        "en": "Scan or photograph both sides before you start: everything is uploaded online."
+      },
+      "condition": {
+        "any": [
+          {
+            "question": "change_type",
+            "equals": "address"
+          },
+          {
+            "all": [
+              {
+                "question": "change_type",
+                "in": [
+                  "marriage",
+                  "divorce",
+                  "name_change"
+                ]
+              },
+              {
+                "question": "want_card_updated",
+                "equals": "yes"
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_adresse",
+        "sp_etat_civil"
+      ]
+    },
+    {
+      "id": "passport",
+      "category": "identity",
+      "title": {
+        "fr": "Passeport",
+        "en": "Passport"
+      },
+      "details": {
+        "fr": "Les pages avec votre état civil, les dates de validité et les cachets d'entrée.",
+        "en": "The pages with your personal details, the validity dates and the entry stamps."
+      },
+      "condition": {
+        "any": [
+          {
+            "question": "change_type",
+            "equals": "address"
+          },
+          {
+            "all": [
+              {
+                "question": "change_type",
+                "in": [
+                  "marriage",
+                  "divorce",
+                  "name_change"
+                ]
+              },
+              {
+                "question": "want_card_updated",
+                "equals": "yes"
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_adresse",
+        "sp_etat_civil"
+      ]
+    },
+    {
+      "id": "address_tenant",
+      "category": "address",
+      "title": {
+        "fr": "Justificatif de domicile de moins de 3 mois",
+        "en": "Proof of address less than 3 months old"
+      },
+      "details": {
+        "fr": "Un de ces documents à votre nom : facture d'électricité, de gaz, d'eau, de téléphone fixe ou d'accès à internet, bail de location ou quittance de loyer.",
+        "en": "One of these documents in your name: electricity, gas, water, landline or internet bill, rental lease or rent receipt."
+      },
+      "example": {
+        "fr": "Exemple : la dernière facture d'électricité à votre nouvelle adresse.",
+        "en": "Example: the latest electricity bill at your new address."
+      },
+      "tip": {
+        "fr": "Service-public indique qu'un justificatif avec un code-barres 2D-Doc ne peut pas être refusé.",
+        "en": "Service-public says a proof of address with a 2D-Doc barcode cannot be refused."
+      },
+      "condition": {
+        "all": [
+          {
+            "any": [
+              {
+                "question": "change_type",
+                "equals": "address"
+              },
+              {
+                "all": [
+                  {
+                    "question": "change_type",
+                    "in": [
+                      "marriage",
+                      "divorce",
+                      "name_change"
+                    ]
+                  },
+                  {
+                    "question": "want_card_updated",
+                    "equals": "yes"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "question": "housing_situation",
+            "equals": "tenant_owner"
+          }
+        ]
+      },
+      "sources": [
+        "sp_adresse",
+        "sp_etat_civil",
+        "sp_justif_domicile"
+      ],
+      "guides": [
+        "proof_of_address"
+      ]
+    },
+    {
+      "id": "address_hotel",
+      "category": "address",
+      "title": {
+        "fr": "Justificatifs d'hébergement à l'hôtel",
+        "en": "Proof of living in a hotel"
+      },
+      "details": {
+        "fr": "Une attestation de votre hôtelier et la facture du dernier mois.",
+        "en": "A certificate from the hotel and the bill for the last month."
+      },
+      "condition": {
+        "all": [
+          {
+            "any": [
+              {
+                "question": "change_type",
+                "equals": "address"
+              },
+              {
+                "all": [
+                  {
+                    "question": "change_type",
+                    "in": [
+                      "marriage",
+                      "divorce",
+                      "name_change"
+                    ]
+                  },
+                  {
+                    "question": "want_card_updated",
+                    "equals": "yes"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "question": "housing_situation",
+            "equals": "hotel"
+          }
+        ]
+      },
+      "sources": [
+        "sp_justif_domicile",
+        "sp_adresse"
+      ],
+      "guides": [
+        "proof_of_address"
+      ]
+    },
+    {
+      "id": "address_hosted",
+      "category": "address",
+      "title": {
+        "fr": "Justificatifs d'hébergement chez un particulier",
+        "en": "Proof of being hosted by someone"
+      },
+      "details": {
+        "fr": "Trois documents : une attestation datée et signée par la personne qui vous héberge, une copie de sa carte d'identité ou de sa carte de séjour, et un justificatif de domicile à son nom si l'adresse de sa carte n'est plus à jour.",
+        "en": "Three documents: a dated and signed certificate from the person hosting you, a copy of their ID card or residence card, and a proof of address in their name if the address on their card is out of date."
+      },
+      "tip": {
+        "fr": "Service-public propose un modèle d'attestation d'hébergement.",
+        "en": "Service-public offers a template for the hosting certificate."
+      },
+      "condition": {
+        "all": [
+          {
+            "any": [
+              {
+                "question": "change_type",
+                "equals": "address"
+              },
+              {
+                "all": [
+                  {
+                    "question": "change_type",
+                    "in": [
+                      "marriage",
+                      "divorce",
+                      "name_change"
+                    ]
+                  },
+                  {
+                    "question": "want_card_updated",
+                    "equals": "yes"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "question": "housing_situation",
+            "equals": "hosted"
+          }
+        ]
+      },
+      "sources": [
+        "sp_justif_domicile",
+        "sp_adresse"
+      ],
+      "guides": [
+        "proof_of_address"
+      ]
+    },
+    {
+      "id": "ephoto",
+      "category": "photo",
+      "title": {
+        "fr": "Code e-photo",
+        "en": "E-photo code"
+      },
+      "details": {
+        "fr": "Seulement si vous demandez une nouvelle carte. Vous indiquez le code écrit sur la planche photo, donné par un photographe ou une cabine agréés.",
+        "en": "Only if you ask for a new card. You enter the code printed on the photo sheet, given by an approved photographer or photo booth."
+      },
+      "tip": {
+        "fr": "La préfecture du Rhône indique qu'un code e-photo ne sert qu'à une seule démarche et reste valable 6 mois.",
+        "en": "The Rhône prefecture says an e-photo code can be used for one application only and is valid for 6 months."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "change_type",
+            "equals": "address"
+          },
+          {
+            "question": "new_card_wanted",
+            "equals": "yes"
+          }
+        ]
+      },
+      "sources": [
+        "sp_adresse",
+        "pref_rhone_faq"
+      ],
+      "guides": [
+        "ephoto"
+      ]
+    },
+    {
+      "id": "birth_certificate",
+      "category": "civil_status",
+      "title": {
+        "fr": "Acte de naissance",
+        "en": "Birth certificate"
+      },
+      "details": {
+        "fr": "Une copie intégrale ou un extrait avec filiation (noms des parents).",
+        "en": "A full copy or an extract showing parentage (parents' names)."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "change_type",
+            "in": [
+              "marriage",
+              "divorce",
+              "name_change"
+            ]
+          },
+          {
+            "question": "want_card_updated",
+            "equals": "yes"
+          }
+        ]
+      },
+      "sources": [
+        "sp_etat_civil"
+      ]
+    },
+    {
+      "id": "marriage_certificate",
+      "category": "civil_status",
+      "title": {
+        "fr": "Acte de mariage",
+        "en": "Marriage certificate"
+      },
+      "details": {
+        "fr": "Demandé si vous vous êtes marié(e).",
+        "en": "Asked for if you got married."
+      },
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "change_type",
+                "in": [
+                  "marriage",
+                  "divorce",
+                  "name_change"
+                ]
+              },
+              {
+                "question": "want_card_updated",
+                "equals": "yes"
+              }
+            ]
+          },
+          {
+            "question": "change_type",
+            "equals": "marriage"
+          }
+        ]
+      },
+      "sources": [
+        "sp_etat_civil"
+      ],
+      "guides": [
+        "civil_status_france"
+      ]
+    },
+    {
+      "id": "divorce_judgment",
+      "category": "civil_status",
+      "title": {
+        "fr": "Jugement de divorce",
+        "en": "Divorce judgment"
+      },
+      "details": {
+        "fr": "Demandé si vous avez divorcé.",
+        "en": "Asked for if you got divorced."
+      },
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "change_type",
+                "in": [
+                  "marriage",
+                  "divorce",
+                  "name_change"
+                ]
+              },
+              {
+                "question": "want_card_updated",
+                "equals": "yes"
+              }
+            ]
+          },
+          {
+            "question": "change_type",
+            "equals": "divorce"
+          }
+        ]
+      },
+      "sources": [
+        "sp_etat_civil"
+      ]
+    },
+    {
+      "id": "name_change_proof",
+      "category": "civil_status",
+      "title": {
+        "fr": "Document qui prouve le changement de nom ou de prénom",
+        "en": "Document proving the change of last name or first name"
+      },
+      "details": {
+        "fr": "Service-public demande un document attestant du changement, sans préciser lequel.",
+        "en": "Service-public asks for a document proving the change, without saying which one."
+      },
+      "example": {
+        "fr": "Exemple : la décision qui a accordé le changement de nom ou de prénom.",
+        "en": "Example: the decision that granted the change of name or first name."
+      },
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "change_type",
+                "in": [
+                  "marriage",
+                  "divorce",
+                  "name_change"
+                ]
+              },
+              {
+                "question": "want_card_updated",
+                "equals": "yes"
+              }
+            ]
+          },
+          {
+            "question": "change_type",
+            "equals": "name_change"
+          }
+        ]
+      },
+      "sources": [
+        "sp_etat_civil"
+      ]
+    },
+    {
+      "id": "photos_civil",
+      "category": "photo",
+      "title": {
+        "fr": "Photos d'identité",
+        "en": "ID photos"
+      },
+      "details": {
+        "fr": "La fiche de service-public sur le changement d'état civil demande 3 photos. Cette fiche date de 2021 : le site de l'ANEF peut demander une e-photo à la place.",
+        "en": "The service-public page on a change of civil status asks for 3 photos. This page dates from 2021: the ANEF website may ask for an e-photo instead."
+      },
+      "tip": {
+        "fr": "Suivez la liste affichée par l'ANEF au début de la démarche : la préfecture du Rhône indique que la liste des pièces y est donnée.",
+        "en": "Follow the list shown by ANEF at the start of the process: the Rhône prefecture says the list of documents is given there."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "change_type",
+            "in": [
+              "marriage",
+              "divorce",
+              "name_change"
+            ]
+          },
+          {
+            "question": "want_card_updated",
+            "equals": "yes"
+          }
+        ]
+      },
+      "sources": [
+        "sp_etat_civil",
+        "pref_rhone_faq"
+      ],
+      "guides": [
+        "ephoto"
+      ]
+    },
+    {
+      "id": "stamp_address",
+      "category": "tax",
+      "title": {
+        "fr": "Timbres fiscaux de 50 €",
+        "en": "Tax stamps worth 50 €"
+      },
+      "details": {
+        "fr": "Seulement si vous demandez une nouvelle carte après un déménagement. Service-public indique 50 € en timbres fiscaux.",
+        "en": "Only if you ask for a new card after a move. Service-public says 50 € in tax stamps."
+      },
+      "tip": {
+        "fr": "La préfecture du Rhône indique que le timbre se paie au moment de la remise de la carte et qu'il doit être électronique (numéro à 16 chiffres).",
+        "en": "The Rhône prefecture says the stamp is paid when you collect the card and must be electronic (16-digit number)."
+      },
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "change_type",
+                "equals": "address"
+              },
+              {
+                "question": "new_card_wanted",
+                "equals": "yes"
+              }
+            ]
+          },
+          {
+            "not": {
+              "question": "permit_kind",
+              "equals": "eu_family"
+            }
+          }
+        ]
+      },
+      "sources": [
+        "sp_adresse",
+        "sp_timbre",
+        "pref_rhone_faq"
+      ],
+      "guides": [
+        "fiscal_stamp"
+      ]
+    },
+    {
+      "id": "stamp_civil",
+      "category": "tax",
+      "title": {
+        "fr": "Justificatif de paiement en timbres fiscaux",
+        "en": "Proof of payment in tax stamps"
+      },
+      "details": {
+        "fr": "Demandé lors de la remise de la carte. La fiche de service-public de 2021 indique 50 €. Une actualité de service-public de 2026 indique que le duplicata d'un titre coûte désormais 350 € (150 € au tarif réduit), sans dire si cela vise le changement d'état civil. Vérifiez le montant affiché sur l'ANEF avant d'acheter.",
+        "en": "Asked for when you collect the card. The 2021 service-public page says 50 €. A 2026 service-public news item says a duplicate permit now costs 350 € (150 € at the reduced rate), without saying whether this covers a change of civil status. Check the amount shown on ANEF before buying."
+      },
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "change_type",
+                "in": [
+                  "marriage",
+                  "divorce",
+                  "name_change"
+                ]
+              },
+              {
+                "question": "want_card_updated",
+                "equals": "yes"
+              }
+            ]
+          },
+          {
+            "not": {
+              "question": "permit_kind",
+              "equals": "eu_family"
+            }
+          }
+        ]
+      },
+      "sources": [
+        "sp_etat_civil",
+        "sp_taxes_2026",
+        "sp_timbre"
+      ],
+      "guides": [
+        "fiscal_stamp"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "check_prefecture_site",
+      "phase": "before",
+      "title": {
+        "fr": "Regarder les consignes de votre préfecture",
+        "en": "Check your prefecture's instructions"
+      },
+      "body": {
+        "fr": "La démarche se fait en ligne sur l'ANEF. Certaines préfectures ajoutent leurs propres consignes. Par exemple, dans les Bouches-du-Rhône, le service compétent pour une modification d'adresse ou d'état civil dépend de la commune.",
+        "en": "The process is done online on ANEF. Some prefectures add their own instructions. For example, in Bouches-du-Rhône, the office in charge of a change of address or civil status depends on your town."
+      },
+      "link": {
+        "title": {
+          "fr": "Trouver votre préfecture",
+          "en": "Find your prefecture"
+        },
+        "url": "https://lannuaire.service-public.gouv.fr/navigation/prefecture"
+      },
+      "condition": {
+        "any": [
+          {
+            "question": "change_type",
+            "equals": "address"
+          },
+          {
+            "all": [
+              {
+                "question": "change_type",
+                "in": [
+                  "marriage",
+                  "divorce",
+                  "name_change"
+                ]
+              },
+              {
+                "question": "want_card_updated",
+                "equals": "yes"
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "pref_bdr",
+        "sp_anef"
+      ]
+    },
+    {
+      "id": "address_before_duplicate",
+      "phase": "before",
+      "title": {
+        "fr": "Si vous devez aussi demander un duplicata",
+        "en": "If you also need a duplicate"
+      },
+      "body": {
+        "fr": "La préfecture de Corrèze indique : faites d'abord le changement d'adresse sans demander de nouvelle carte, puis la demande de duplicata.",
+        "en": "The Corrèze prefecture says: first report the change of address without asking for a new card, then apply for the duplicate."
+      },
+      "condition": {
+        "question": "change_type",
+        "equals": "address"
+      },
+      "sources": [
+        "pref_correze"
+      ]
+    },
+    {
+      "id": "get_ephoto",
+      "phase": "before",
+      "title": {
+        "fr": "Faire une e-photo",
+        "en": "Get an e-photo"
+      },
+      "body": {
+        "fr": "Allez chez un photographe ou dans une cabine agréés « Service en ligne ». Gardez la planche avec le code.",
+        "en": "Go to an approved photographer or photo booth (\"Service en ligne\"). Keep the sheet with the code."
+      },
+      "link": {
+        "title": {
+          "fr": "Trouver un photographe ou une cabine",
+          "en": "Find a photographer or photo booth"
+        },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R62705"
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "change_type",
+            "equals": "address"
+          },
+          {
+            "question": "new_card_wanted",
+            "equals": "yes"
+          }
+        ]
+      },
+      "sources": [
+        "sp_adresse",
+        "pref_rhone_faq"
+      ],
+      "guides": [
+        "ephoto"
+      ]
+    },
+    {
+      "id": "anef_account",
+      "phase": "before",
+      "title": {
+        "fr": "Se connecter à son compte ANEF",
+        "en": "Log in to your ANEF account"
+      },
+      "body": {
+        "fr": "Si vous n'avez pas encore de compte, la préfecture du Rhône indique qu'il se crée avec votre numéro étranger et les dates de début et de fin de votre titre, puis une adresse e-mail et un mot de passe.",
+        "en": "If you do not have an account yet, the Rhône prefecture says you create it with your foreigner number and the start and end dates of your permit, then an e-mail address and a password."
+      },
+      "link": {
+        "title": {
+          "fr": "Ouvrir le site de l'ANEF",
+          "en": "Open the ANEF website"
+        },
+        "url": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/"
+      },
+      "condition": {
+        "any": [
+          {
+            "question": "change_type",
+            "equals": "address"
+          },
+          {
+            "all": [
+              {
+                "question": "change_type",
+                "in": [
+                  "marriage",
+                  "divorce",
+                  "name_change"
+                ]
+              },
+              {
+                "question": "want_card_updated",
+                "equals": "yes"
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "pref_rhone_faq",
+        "sp_anef"
+      ],
+      "guides": [
+        "anef_account"
+      ]
+    },
+    {
+      "id": "submit_address",
+      "phase": "submit",
+      "title": {
+        "fr": "Déclarer la nouvelle adresse en ligne",
+        "en": "Report the new address online"
+      },
+      "body": {
+        "fr": "Sur l'ANEF, choisissez « Je déclare un changement de situation », puis « Je déclare un changement de situation (Domicile) ». Ajoutez les pièces. Pendant la démarche, vous choisissez de demander ou non une nouvelle carte.",
+        "en": "On ANEF, choose \"Je déclare un changement de situation\" (I report a change of situation), then \"Je déclare un changement de situation (Domicile)\" (home). Upload the documents. During the process, you choose whether or not to ask for a new card."
+      },
+      "link": {
+        "title": {
+          "fr": "Ouvrir le site de l'ANEF",
+          "en": "Open the ANEF website"
+        },
+        "url": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/"
+      },
+      "condition": {
+        "question": "change_type",
+        "equals": "address"
+      },
+      "sources": [
+        "sp_adresse",
+        "pref_rhone_faq",
+        "pref_correze"
+      ]
+    },
+    {
+      "id": "paris_appointment",
+      "phase": "submit",
+      "title": {
+        "fr": "Paris : regarder la page de la préfecture de police",
+        "en": "Paris: check the police prefecture page"
+      },
+      "body": {
+        "fr": "La préfecture de police propose une prise de rendez-vous pour « Un changement d'adresse (d'un département vers Paris - 75) ». Elle demande de télécharger la convocation et la liste des pièces, car rien n'est envoyé par courrier.",
+        "en": "The police prefecture offers appointments for \"Un changement d'adresse (d'un département vers Paris - 75)\" (change of address from another département to Paris). It asks you to download the appointment letter and the list of documents, as nothing is sent by post."
+      },
+      "link": {
+        "title": {
+          "fr": "Ouvrir la page de la préfecture de police",
+          "en": "Open the police prefecture page"
+        },
+        "url": "https://www.prefecturedepolice.interieur.gouv.fr/demarches/titres-de-sejour-nous-contacter"
+      },
+      "condition": {
+        "question": "new_department",
+        "equals": "to_paris"
+      },
+      "sources": [
+        "pref_police"
+      ],
+      "guides": [
+        "prefecture_appointment"
+      ]
+    },
+    {
+      "id": "submit_civil",
+      "phase": "submit",
+      "title": {
+        "fr": "Demander la modification en ligne",
+        "en": "Apply for the change online"
+      },
+      "body": {
+        "fr": "Service-public indique que la demande se fait en ligne sur l'ANEF. La préfecture de Corrèze indique que c'est la même rubrique que pour l'adresse : « Je déclare un changement de situation ». Ajoutez les pièces demandées.",
+        "en": "Service-public says you apply online on ANEF. The Corrèze prefecture says it is the same section as for an address: \"Je déclare un changement de situation\" (I report a change of situation). Upload the documents asked for."
+      },
+      "link": {
+        "title": {
+          "fr": "Ouvrir le site de l'ANEF",
+          "en": "Open the ANEF website"
+        },
+        "url": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/"
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "change_type",
+            "in": [
+              "marriage",
+              "divorce",
+              "name_change"
+            ]
+          },
+          {
+            "question": "want_card_updated",
+            "equals": "yes"
+          }
+        ]
+      },
+      "sources": [
+        "sp_etat_civil",
+        "pref_correze",
+        "sp_anef"
+      ]
+    },
+    {
+      "id": "keep_certificate",
+      "phase": "after",
+      "title": {
+        "fr": "Garder l'attestation de changement d'adresse",
+        "en": "Keep the change of address certificate"
+      },
+      "body": {
+        "fr": "Service-public indique que la déclaration est enregistrée gratuitement et que vous recevez une attestation à conserver. La préfecture du Rhône précise qu'elle est mise à disposition sur votre compte après instruction.",
+        "en": "Service-public says the report is recorded free of charge and you receive a certificate to keep. The Rhône prefecture adds that it is made available in your account after processing."
+      },
+      "condition": {
+        "question": "change_type",
+        "equals": "address"
+      },
+      "sources": [
+        "sp_adresse",
+        "pref_rhone_faq"
+      ]
+    },
+    {
+      "id": "follow_up",
+      "phase": "after",
+      "title": {
+        "fr": "Suivre la demande sur votre compte",
+        "en": "Track your application in your account"
+      },
+      "body": {
+        "fr": "La préfecture de Corrèze indique que vous suivez l'avancée du dossier sur votre espace personnel et qu'un SMS vous prévient quand la carte est disponible en préfecture.",
+        "en": "The Corrèze prefecture says you track your file in your personal space and a text message tells you when the card is ready at the prefecture."
+      },
+      "link": {
+        "title": {
+          "fr": "Ouvrir le site de l'ANEF",
+          "en": "Open the ANEF website"
+        },
+        "url": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/"
+      },
+      "condition": {
+        "any": [
+          {
+            "question": "change_type",
+            "equals": "address"
+          },
+          {
+            "all": [
+              {
+                "question": "change_type",
+                "in": [
+                  "marriage",
+                  "divorce",
+                  "name_change"
+                ]
+              },
+              {
+                "question": "want_card_updated",
+                "equals": "yes"
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "pref_correze",
+        "pref_rhone_faq"
+      ],
+      "letters": [
+        "file_followup"
+      ]
+    },
+    {
+      "id": "collect_card",
+      "phase": "after",
+      "title": {
+        "fr": "Acheter le timbre et retirer la nouvelle carte",
+        "en": "Buy the stamp and collect the new card"
+      },
+      "body": {
+        "fr": "Le paiement est demandé à la remise de la carte. Vous pouvez acheter le timbre fiscal sur internet ou dans un bureau de tabac. Ne prenez pas un timbre amende par erreur.",
+        "en": "Payment is asked for when you collect the card. You can buy the tax stamp online or at a tobacconist. Do not buy a fine stamp by mistake."
+      },
+      "link": {
+        "title": {
+          "fr": "Acheter un timbre fiscal en ligne",
+          "en": "Buy a tax stamp online"
+        },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R49486"
+      },
+      "condition": {
+        "all": [
+          {
+            "any": [
+              {
+                "all": [
+                  {
+                    "question": "change_type",
+                    "equals": "address"
+                  },
+                  {
+                    "question": "new_card_wanted",
+                    "equals": "yes"
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "question": "change_type",
+                    "in": [
+                      "marriage",
+                      "divorce",
+                      "name_change"
+                    ]
+                  },
+                  {
+                    "question": "want_card_updated",
+                    "equals": "yes"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "not": {
+              "question": "permit_kind",
+              "equals": "eu_family"
+            }
+          }
+        ]
+      },
+      "sources": [
+        "sp_timbre",
+        "sp_adresse",
+        "sp_etat_civil",
+        "pref_rhone_faq"
+      ],
+      "guides": [
+        "fiscal_stamp"
+      ]
+    }
+  ],
+  "outcomes": [
+    {
+      "id": "birth_not_covered",
+      "kind": "redirect",
+      "condition": {
+        "question": "change_type",
+        "equals": "birth"
+      },
+      "title": {
+        "fr": "Les sources consultées ne décrivent pas cette démarche",
+        "en": "The sources we checked do not describe this process"
+      },
+      "body": {
+        "fr": "Les fiches de service-public sur le changement de situation parlent de l'adresse, du mariage, du divorce et du changement de nom ou de prénom. Elles ne décrivent pas de déclaration de naissance à faire sur votre propre titre. Pour votre enfant mineur, service-public décrit le document de circulation pour étranger mineur (DCEM), qui lui permet de revenir en France après un voyage.",
+        "en": "The service-public pages on a change of situation cover address, marriage, divorce and change of name or first name. They do not describe any birth report to make on your own permit. For your minor child, service-public describes the travel document for foreign minors (DCEM), which lets the child come back to France after a trip."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Voir la démarche DCEM",
+            "en": "See the DCEM process"
+          },
+          "body": {
+            "fr": "Le DCEM est demandé en ligne par un parent qui a un titre de séjour valide.",
+            "en": "The DCEM is requested online by a parent who has a valid residence permit."
+          },
+          "link": {
+            "title": {
+              "fr": "Lire la fiche DCEM",
+              "en": "Read the DCEM page"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2718"
+          }
+        },
+        {
+          "title": {
+            "fr": "Poser la question au support de l'ANEF",
+            "en": "Ask the ANEF support"
+          },
+          "body": {
+            "fr": "Le support répond au 0 806 001 620, du lundi au vendredi de 9 h à 17 h.",
+            "en": "The support answers at 0 806 001 620, Monday to Friday, 9 am to 5 pm."
+          },
+          "link": {
+            "title": {
+              "fr": "Ouvrir le site de l'ANEF",
+              "en": "Open the ANEF website"
+            },
+            "url": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/"
+          }
+        }
+      ],
+      "contacts": [
+        "anef_contact",
+        "prefecture_directory",
+        "france_services"
+      ],
+      "letters": [],
+      "sources": [
+        "sp_adresse",
+        "sp_etat_civil",
+        "sp_dcem",
+        "pref_rhone_faq"
+      ]
+    },
+    {
+      "id": "passport_not_covered",
+      "kind": "redirect",
+      "condition": {
+        "question": "change_type",
+        "equals": "new_passport"
+      },
+      "title": {
+        "fr": "Les sources consultées ne décrivent pas cette démarche",
+        "en": "The sources we checked do not describe this process"
+      },
+      "body": {
+        "fr": "Aucune des pages consultées (service-public et préfectures) ne dit qu'il faut déclarer un nouveau passeport sur son titre de séjour. Nous ne pouvons donc pas vous dire s'il y a une démarche à faire.",
+        "en": "None of the pages we checked (service-public and prefectures) say you must report a new passport on your residence permit. So we cannot tell you whether there is anything to do."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Poser la question au support de l'ANEF ou à la préfecture",
+            "en": "Ask the ANEF support or the prefecture"
+          },
+          "body": {
+            "fr": "Le support de l'ANEF répond au 0 806 001 620. Le site de votre préfecture peut aussi donner des consignes.",
+            "en": "The ANEF support answers at 0 806 001 620. Your prefecture's website may also give instructions."
+          },
+          "link": {
+            "title": {
+              "fr": "Trouver votre préfecture",
+              "en": "Find your prefecture"
+            },
+            "url": "https://lannuaire.service-public.gouv.fr/navigation/prefecture"
+          }
+        }
+      ],
+      "contacts": [
+        "anef_contact",
+        "prefecture_directory",
+        "france_services"
+      ],
+      "letters": [],
+      "sources": [
+        "sp_adresse",
+        "sp_etat_civil",
+        "pref_rhone_faq"
+      ]
+    },
+    {
+      "id": "renewal_instead",
+      "kind": "redirect",
+      "condition": {
+        "all": [
+          {
+            "question": "change_type",
+            "in": [
+              "address",
+              "marriage",
+              "divorce",
+              "name_change"
+            ]
+          },
+          {
+            "question": "permit_expiry_date",
+            "daysFromToday": {
+              "min": 0,
+              "max": 89
+            }
+          }
+        ]
+      },
+      "title": {
+        "fr": "Un renouvellement semble plus adapté",
+        "en": "A renewal seems to fit better"
+      },
+      "body": {
+        "fr": "D'après la préfecture de Corrèze, si votre titre expire dans moins de 3 mois, vous devez demander directement le renouvellement. Elle indique que la même règle vaut pour un changement d'état civil.",
+        "en": "According to the Corrèze prefecture, if your permit expires in less than 3 months, you must apply for a renewal directly. It says the same rule applies to a change of civil status."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Demander le renouvellement",
+            "en": "Apply for a renewal"
+          },
+          "body": {
+            "fr": "Utilisez votre nouvelle adresse et votre nouvel état civil dans le dossier de renouvellement.",
+            "en": "Use your new address and new civil status in the renewal file."
+          },
+          "link": {
+            "title": {
+              "fr": "Ouvrir le site de l'ANEF",
+              "en": "Open the ANEF website"
+            },
+            "url": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/"
+          }
+        }
+      ],
+      "contacts": [
+        "anef_contact",
+        "prefecture_directory",
+        "france_services"
+      ],
+      "letters": [
+        "cannot_use_online"
+      ],
+      "sources": [
+        "pref_correze"
+      ]
+    },
+    {
+      "id": "permit_expired",
+      "kind": "warning",
+      "condition": {
+        "all": [
+          {
+            "question": "change_type",
+            "in": [
+              "address",
+              "marriage",
+              "divorce",
+              "name_change"
+            ]
+          },
+          {
+            "question": "permit_expiry_date",
+            "daysFromToday": {
+              "max": -1
+            }
+          }
+        ]
+      },
+      "title": {
+        "fr": "Votre carte est déjà expirée",
+        "en": "Your card has already expired"
+      },
+      "body": {
+        "fr": "Les sources consultées ne décrivent pas le changement d'adresse ou d'état civil avec une carte expirée. La préfecture de Corrèze oriente vers le renouvellement quand la carte expire dans moins de 3 mois.",
+        "en": "The sources we checked do not describe a change of address or civil status with an expired card. The Corrèze prefecture points to a renewal when the card expires in less than 3 months."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Demander quelle démarche faire",
+            "en": "Ask which process to follow"
+          },
+          "body": {
+            "fr": "Avant de déposer, posez la question à votre préfecture ou au support de l'ANEF (0 806 001 620).",
+            "en": "Before applying, ask your prefecture or the ANEF support (0 806 001 620)."
+          },
+          "link": {
+            "title": {
+              "fr": "Ouvrir le site de l'ANEF",
+              "en": "Open the ANEF website"
+            },
+            "url": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/"
+          }
+        }
+      ],
+      "contacts": [
+        "anef_contact",
+        "prefecture_directory",
+        "france_services"
+      ],
+      "letters": [],
+      "sources": [
+        "pref_correze"
+      ]
+    },
+    {
+      "id": "short_permit_optional",
+      "kind": "warning",
+      "condition": {
+        "all": [
+          {
+            "question": "change_type",
+            "equals": "address"
+          },
+          {
+            "question": "permit_kind",
+            "equals": "one_year_or_less"
+          }
+        ]
+      },
+      "title": {
+        "fr": "Pour votre carte, la déclaration n'est pas obligatoire",
+        "en": "For your card, reporting is not required"
+      },
+      "body": {
+        "fr": "Service-public parle d'obligation pour les cartes de plus d'1 an. La préfecture du Rhône indique que la déclaration n'est pas obligatoire pour les titres de moins d'1 an, mais que tout titulaire peut la faire sur l'ANEF.",
+        "en": "Service-public describes a requirement for cards of more than 1 year. The Rhône prefecture says reporting is not required for permits of less than 1 year, but any holder can do it on ANEF."
+      },
+      "actions": [],
+      "contacts": [],
+      "letters": [],
+      "sources": [
+        "sp_adresse",
+        "pref_rhone_faq"
+      ]
+    },
+    {
+      "id": "late_report",
+      "kind": "warning",
+      "condition": {
+        "all": [
+          {
+            "question": "change_type",
+            "equals": "address"
+          },
+          {
+            "question": "move_date",
+            "daysFromToday": {
+              "max": -91
+            }
+          }
+        ]
+      },
+      "title": {
+        "fr": "Le délai de 3 mois semble dépassé",
+        "en": "The 3-month deadline seems to have passed"
+      },
+      "body": {
+        "fr": "Service-public demande de déclarer la nouvelle adresse dans les 3 mois qui suivent le déménagement, pour une carte de plus d'1 an. Les sources consultées ne disent pas ce qui se passe si la déclaration est faite plus tard.",
+        "en": "Service-public asks you to report the new address within 3 months of moving, for a card of more than 1 year. The sources we checked do not say what happens if it is reported later."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Faire la déclaration en ligne",
+            "en": "Report it online"
+          },
+          "body": {
+            "fr": "La démarche reste la même sur l'ANEF. En cas de doute, posez la question à votre préfecture.",
+            "en": "The process stays the same on ANEF. If in doubt, ask your prefecture."
+          },
+          "link": {
+            "title": {
+              "fr": "Ouvrir le site de l'ANEF",
+              "en": "Open the ANEF website"
+            },
+            "url": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/"
+          }
+        }
+      ],
+      "contacts": [
+        "anef_contact",
+        "prefecture_directory",
+        "france_services"
+      ],
+      "letters": [],
+      "sources": [
+        "sp_adresse"
+      ]
+    },
+    {
+      "id": "other_department",
+      "kind": "warning",
+      "condition": {
+        "all": [
+          {
+            "question": "change_type",
+            "equals": "address"
+          },
+          {
+            "question": "new_department",
+            "in": [
+              "other",
+              "to_paris"
+            ]
+          }
+        ]
+      },
+      "title": {
+        "fr": "Vous changez de département",
+        "en": "You are moving to another département"
+      },
+      "body": {
+        "fr": "La déclaration se fait toujours sur l'ANEF. La préfecture de Corrèze indique qu'elle se fait auprès de la préfecture de votre lieu de résidence, et la préfecture du Rhône que les demandes sont suivies par la préfecture de l'adresse déclarée. Les sources consultées ne décrivent pas d'autre différence avec un déménagement dans le même département. Regardez le site de votre nouvelle préfecture.",
+        "en": "You still report it on ANEF. The Corrèze prefecture says it is handled by the prefecture where you live, and the Rhône prefecture says applications are handled by the prefecture of the declared address. The sources we checked do not describe any other difference from a move within the same département. Check your new prefecture's website."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Trouver votre nouvelle préfecture",
+            "en": "Find your new prefecture"
+          },
+          "body": {
+            "fr": "L'annuaire de service-public donne les coordonnées de chaque préfecture.",
+            "en": "The service-public directory gives the contact details of each prefecture."
+          },
+          "link": {
+            "title": {
+              "fr": "Ouvrir l'annuaire",
+              "en": "Open the directory"
+            },
+            "url": "https://lannuaire.service-public.gouv.fr/navigation/prefecture"
+          }
+        }
+      ],
+      "contacts": [
+        "prefecture_directory",
+        "anef_contact"
+      ],
+      "letters": [],
+      "sources": [
+        "pref_correze",
+        "pref_rhone_faq",
+        "pref_police"
+      ]
+    },
+    {
+      "id": "civil_optional",
+      "kind": "redirect",
+      "condition": {
+        "all": [
+          {
+            "question": "change_type",
+            "in": [
+              "marriage",
+              "divorce",
+              "name_change"
+            ]
+          },
+          {
+            "question": "want_card_updated",
+            "equals": "no"
+          }
+        ]
+      },
+      "title": {
+        "fr": "Aucune démarche n'est obligatoire",
+        "en": "No step is required"
+      },
+      "body": {
+        "fr": "D'après service-public, demander une carte qui tient compte d'un mariage, d'un divorce ou d'un changement de nom n'est pas obligatoire. La fiche date de 2021.",
+        "en": "According to service-public, asking for a card that reflects a marriage, a divorce or a change of name is not required. The page dates from 2021."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Si vous changez d'avis",
+            "en": "If you change your mind"
+          },
+          "body": {
+            "fr": "Vous pourrez faire la demande plus tard sur l'ANEF. Revenez au questionnaire et répondez « Oui ».",
+            "en": "You can apply later on ANEF. Come back to the questions and answer \"Yes\"."
+          },
+          "link": {
+            "title": {
+              "fr": "Ouvrir le site de l'ANEF",
+              "en": "Open the ANEF website"
+            },
+            "url": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/"
+          }
+        }
+      ],
+      "contacts": [],
+      "letters": [],
+      "sources": [
+        "sp_etat_civil"
+      ]
+    },
+    {
+      "id": "civil_fee_unclear",
+      "kind": "warning",
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "change_type",
+                "in": [
+                  "marriage",
+                  "divorce",
+                  "name_change"
+                ]
+              },
+              {
+                "question": "want_card_updated",
+                "equals": "yes"
+              }
+            ]
+          },
+          {
+            "not": {
+              "question": "permit_kind",
+              "equals": "eu_family"
+            }
+          }
+        ]
+      },
+      "title": {
+        "fr": "Le montant à payer n'est pas certain",
+        "en": "The amount to pay is not certain"
+      },
+      "body": {
+        "fr": "La fiche de service-public sur le changement d'état civil (2021) indique 50 € et parle de « duplicata ». Depuis le 1er mai 2026, service-public indique que le duplicata d'un titre coûte 350 € (150 € au tarif réduit). Les sources ne disent pas lequel s'applique ici. Le montant est demandé à la remise de la carte : vérifiez-le sur votre compte ANEF avant d'acheter le timbre.",
+        "en": "The service-public page on a change of civil status (2021) says 50 € and calls it a \"duplicate\". Since 1 May 2026, service-public says a duplicate permit costs 350 € (150 € at the reduced rate). The sources do not say which applies here. The amount is asked for when you collect the card: check it in your ANEF account before buying the stamp."
+      },
+      "actions": [],
+      "contacts": [
+        "anef_contact"
+      ],
+      "letters": [],
+      "sources": [
+        "sp_etat_civil",
+        "sp_taxes_2026"
+      ]
+    }
+  ],
+  "deadlines": [
+    {
+      "id": "address_report_deadline",
+      "relativeTo": "move_date",
+      "offsetDays": 90,
+      "title": {
+        "fr": "Date limite pour déclarer la nouvelle adresse (3 mois après le déménagement, environ 90 jours)",
+        "en": "Deadline to report the new address (3 months after the move, about 90 days)"
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "change_type",
+            "equals": "address"
+          },
+          {
+            "question": "permit_kind",
+            "in": [
+              "more_than_one_year",
+              "eu_family"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_adresse"
+      ]
+    },
+    {
+      "id": "renewal_window",
+      "relativeTo": "permit_expiry_date",
+      "offsetDays": -90,
+      "title": {
+        "fr": "À partir de cette date, la préfecture de Corrèze demande un renouvellement plutôt qu'un changement (moins de 3 mois avant la fin)",
+        "en": "From this date, the Corrèze prefecture asks for a renewal instead of a change (less than 3 months before expiry)"
+      },
+      "condition": {
+        "question": "change_type",
+        "in": [
+          "address",
+          "marriage",
+          "divorce",
+          "name_change"
+        ]
+      },
+      "sources": [
+        "pref_correze"
+      ]
+    }
+  ],
+  "reviewNotes": [
+    "F35808 (état civil) est « Vérifié le 27 septembre 2021 », avant la hausse des taxes du 1er mai 2026. Elle indique 50 € et parle de « duplicata ». L'actualité A18881 (mise à jour le 12 mai 2026) fixe le duplicata à 350 € (150 € réduit) sans dire si le changement d'état civil est concerné. Montant présenté comme incertain (pièce stamp_civil, avertissement civil_fee_unclear). À vérifier sur l'ANEF ou auprès du ministère.",
+    "F35808 demande « 3 photos » alors que la démarche est en ligne (F35807 demande une e-photo pour une nouvelle carte). Probablement obsolète ; repris avec une mise en garde (pièce photos_civil).",
+    "Justificatif de domicile : F35807 et F35808 demandent « moins de 3 mois » ; F33052 (générale, carte de séjour) dit « moins de 6 mois ». La règle spécifique (3 mois) a été retenue ; les types de justificatifs (locataire, hôtel, hébergé) viennent de F33052.",
+    "Même département ou non : aucune page service-public ne distingue les deux cas. Seules sources : Corrèze (« auprès de la préfecture de votre lieu de résidence »), FAQ du Rhône (instruction par la préfecture de l'adresse déclarée, PDF non daté) et préfecture de police (rubrique de rendez-vous « Un changement d'adresse (d'un département vers Paris - 75) », cible du lien non lue). On ne sait pas si à Paris le rendez-vous remplace ou complète la déclaration ANEF.",
+    "Préfecture de police : la page cite aussi une prise de rendez-vous pour « Une modification d'état civil sur votre titre de séjour ». Non intégré pour l'état civil car l'app ne demande pas si la personne habite Paris.",
+    "Naissance d'un enfant et nouveau passeport : aucune source consultée ne décrit de démarche sur le titre du parent. Écrans redirect honnêtes (birth_not_covered, passport_not_covered). Le libellé ANEF « changement d'état civil et de situation familiale » (PDF DGEF de janvier 2025, voir inventaire) laisse penser qu'une rubrique « situation familiale » existe, mais son contenu n'a pas pu être lu (ANEF non lisible sans compte).",
+    "Délai pour l'état civil : aucune source ne donne de délai (F35808 : « Cette démarche n'est pas obligatoire »). Délai de 3 mois uniquement pour l'adresse (F35807, CESEDA R431-23 cité mais non lu).",
+    "Échéance address_report_deadline : 3 mois codés en 90 jours. Affichée pour les cartes de plus d'1 an et les cartes UE/EEE/Suisse ; pour ces dernières, F35807 ne précise pas leur durée, l'obligation pourrait ne pas s'appliquer à toutes.",
+    "Règle des 3 mois avant expiration (renouvellement plutôt que changement) : seule la préfecture de Corrèze (page non datée) la donne, et seulement en propres termes pour l'adresse (« La même procédure s'applique » pour l'état civil). Aucune page service-public ne la mentionne.",
+    "Libellé exact de la sous-rubrique ANEF pour l'état civil : non trouvé. Seul le libellé « Je déclare un changement de situation (Domicile) » (FAQ du Rhône) est cité.",
+    "Traduction des actes étrangers : F35808 n'en parle pas ; rien n'a été ajouté (pas de guide sworn_translation).",
+    "Délai de traitement et délai de fabrication de la nouvelle carte : non trouvés.",
+    "Européens : F35807 et F35808 mentionnent la gratuité pour les ressortissants UE/EEE/Suisse et leur famille ; la démarche propre aux citoyens UE (carte facultative) n'a pas été relue.",
+    "Contacts et courriers : identifiants de help.json (non relus ici). point_justice et defenseur_des_droits non utilisés : aucune source consultée ne les relie à cette démarche."
+  ]
+}

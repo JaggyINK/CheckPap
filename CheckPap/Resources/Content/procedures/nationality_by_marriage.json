@@ -1,0 +1,2177 @@
+{
+  "id": "nationality_by_marriage",
+  "reviewStatus": "draft",
+  "lastVerified": "2026-10-29",
+  "title": {
+    "fr": "Devenir français par mariage",
+    "en": "Become French through marriage"
+  },
+  "summary": {
+    "fr": "La déclaration de nationalité française par mariage concerne la personne étrangère mariée à un(e) Français(e) depuis au moins 4 ans, avec une vie commune continue. Le dossier papier va à la plateforme de naturalisation de votre domicile. Cette liste vous aide à le préparer ; c'est l'administration qui décide.",
+    "en": "The declaration of French nationality by marriage is for a foreign national married to a French citizen for at least 4 years, with continuous life together. The paper file goes to the naturalisation platform for your home. This list helps you prepare it; the administration decides."
+  },
+  "sources": [
+    {
+      "id": "sp_f2726",
+      "publisher": "service-public.gouv.fr",
+      "title": "Déclaration de nationalité française par mariage (Vérifié le 01 mai 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2726",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f11926",
+      "publisher": "service-public.gouv.fr",
+      "title": "Nationalité française : comment justifier de son niveau en français ? (Vérifié le 01 janvier 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F11926",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_r39936",
+      "publisher": "service-public.gouv.fr",
+      "title": "Déclaration de nationalité française - Mariage avec un français, cerfa 15277*04 (Vérifié le 24 juin 2022)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R39936",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_r64661",
+      "publisher": "service-public.gouv.fr",
+      "title": "Quels sont les documents nécessaires à mon dossier de nationalité par mariage ? (Vérifié le 01 janvier 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R64661",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f21614",
+      "publisher": "service-public.gouv.fr",
+      "title": "Mariage d'un Français à l'étranger (Vérifié le 18 juin 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F21614",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f32952",
+      "publisher": "service-public.gouv.fr",
+      "title": "Comment acheter un timbre fiscal pour une demande de nationalité française ? (Vérifié le 01 mai 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F32952",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f12956",
+      "publisher": "service-public.gouv.fr",
+      "title": "Traduction d'un document : comment trouver un traducteur agréé ? (Vérifié le 26 janvier 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F12956",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f1402",
+      "publisher": "service-public.gouv.fr",
+      "title": "Légalisation d'un acte public établi par une autorité étrangère (Vérifié le 30 octobre 2025)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1402",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f34717",
+      "publisher": "service-public.gouv.fr",
+      "title": "Comment obtenir la nationalité française ? (Vérifié le 24 avril 2025)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34717",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f2213",
+      "publisher": "service-public.gouv.fr",
+      "title": "Naturalisation française par décret (Vérifié le 16 juillet 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2213",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "pref_bdr_mariage",
+      "publisher": "bouches-du-rhone.gouv.fr",
+      "title": "Acquisition de la nationalité au titre du mariage avec un(e) français(e), préfecture des Bouches-du-Rhône (pas de date « Vérifié le » sur la page)",
+      "url": "https://www.bouches-du-rhone.gouv.fr/Demarches/Accueil-des-etrangers/Je-demande-la-nationalite-francaise/Acquisition-de-la-nationalite-au-titre-du-mariage-avec-un-e-francais-e",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "pref_vdm_naturalisation",
+      "publisher": "val-de-marne.gouv.fr",
+      "title": "Naturalisation, préfecture du Val-de-Marne (pas de date « Vérifié le » sur la page)",
+      "url": "https://www.val-de-marne.gouv.fr/Vos-demarches/Naturalisation",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "lf_cc_21_2",
+      "publisher": "legifrance.gouv.fr",
+      "title": "Code civil, article 21-2 (en vigueur depuis le 18 juin 2011, lu par fragments, pas de date « Vérifié le »)",
+      "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000024197103",
+      "consulted": "2026-10-29"
+    }
+  ],
+  "questions": [
+    {
+      "id": "spouse_nationality",
+      "kind": "single",
+      "title": {
+        "fr": "Votre époux ou épouse est-il ou elle français(e) ?",
+        "en": "Is your husband or wife a French citizen?"
+      },
+      "help": {
+        "fr": "Service-public.fr indique que votre époux ou épouse doit être français(e) le jour du mariage et l'être resté(e) depuis. La démarche concerne les personnes mariées : le Pacs et l'union libre ne sont pas cités.",
+        "en": "Service-public.fr says your husband or wife must have been French on the day of the marriage and must have kept French nationality since then. The procedure is for married people: civil partnerships (Pacs) and living together are not mentioned."
+      },
+      "example": {
+        "fr": "Exemple : votre épouse est née française et l'est toujours. Vous choisissez la première réponse.",
+        "en": "Example: your wife was born French and still is. Choose the first answer."
+      },
+      "options": [
+        {
+          "id": "french_since_marriage",
+          "label": {
+            "fr": "Oui, français(e) le jour du mariage et toujours aujourd'hui",
+            "en": "Yes, French on the wedding day and still today"
+          }
+        },
+        {
+          "id": "became_french_later",
+          "label": {
+            "fr": "Oui, mais devenu(e) français(e) après le mariage",
+            "en": "Yes, but became French after the wedding"
+          }
+        },
+        {
+          "id": "lost_french",
+          "label": {
+            "fr": "Il ou elle a perdu la nationalité française depuis",
+            "en": "He or she has since lost French nationality"
+          }
+        },
+        {
+          "id": "not_married_to_french",
+          "label": {
+            "fr": "Non, ou nous ne sommes pas mariés (Pacs, union libre)",
+            "en": "No, or we are not married (Pacs, living together)"
+          }
+        }
+      ],
+      "condition": null,
+      "sources": [
+        "sp_f2726"
+      ]
+    },
+    {
+      "id": "living_country",
+      "kind": "single",
+      "title": {
+        "fr": "Où vivez-vous aujourd'hui ?",
+        "en": "Where do you live today?"
+      },
+      "help": {
+        "fr": "La démarche change selon le lieu de vie : en France, le dossier va à la plateforme de naturalisation de votre domicile ; à l'étranger, il se dépose au consulat de France.",
+        "en": "The procedure depends on where you live: in France, the file goes to the naturalisation platform for your home; abroad, it is filed at the French consulate."
+      },
+      "example": {
+        "fr": "Exemple : vous habitez à Lyon. Vous choisissez « En France ».",
+        "en": "Example: you live in Lyon. Choose \"In France\"."
+      },
+      "options": [
+        {
+          "id": "france",
+          "label": {
+            "fr": "En France",
+            "en": "In France"
+          }
+        },
+        {
+          "id": "abroad",
+          "label": {
+            "fr": "À l'étranger",
+            "en": "Abroad"
+          }
+        }
+      ],
+      "condition": {
+        "question": "spouse_nationality",
+        "equals": "french_since_marriage"
+      },
+      "sources": [
+        "sp_f2726"
+      ]
+    },
+    {
+      "id": "marriage_date",
+      "kind": "date",
+      "title": {
+        "fr": "Quelle est la date de votre mariage ?",
+        "en": "What is the date of your marriage?"
+      },
+      "help": {
+        "fr": "La durée de mariage se compte à la date de votre déclaration : 4 ans au minimum, ou 5 ans dans certains cas. L'app calcule la durée à partir de cette date.",
+        "en": "The length of marriage is counted on the date of your declaration: at least 4 years, or 5 years in some cases. The app calculates it from this date."
+      },
+      "example": {
+        "fr": "Exemple : la date écrite sur votre acte de mariage, par exemple le 14 juin 2021.",
+        "en": "Example: the date written on your marriage certificate, for example 14 June 2021."
+      },
+      "condition": {
+        "question": "living_country",
+        "equals": "france"
+      },
+      "sources": [
+        "sp_f2726"
+      ]
+    },
+    {
+      "id": "residence_since_marriage",
+      "kind": "single",
+      "title": {
+        "fr": "Depuis votre mariage, avez-vous vécu en France sans interruption ?",
+        "en": "Since your marriage, have you lived in France without interruption?"
+      },
+      "help": {
+        "fr": "Service-public.fr demande 4 ans de mariage si vous vivez en France sans interruption depuis le mariage, ou si vous y avez vécu plus de 3 ans de manière continue depuis le mariage. Sinon, la durée dépend de l'inscription de votre époux ou épouse au consulat.",
+        "en": "Service-public.fr requires 4 years of marriage if you have lived in France without interruption since the marriage, or for more than 3 continuous years since the marriage. Otherwise, the period depends on whether your spouse was registered at the consulate."
+      },
+      "example": {
+        "fr": "Exemple : mariés en 2020 au Maroc, vous vivez en France depuis 2022 sans être repartis. Vous choisissez « Plus de 3 ans de manière continue ».",
+        "en": "Example: married in 2020 in Morocco, you have lived in France since 2022 without leaving. Choose \"More than 3 continuous years\"."
+      },
+      "options": [
+        {
+          "id": "always_france",
+          "label": {
+            "fr": "Oui, en France sans interruption depuis le mariage",
+            "en": "Yes, in France without interruption since the marriage"
+          }
+        },
+        {
+          "id": "more_than_3",
+          "label": {
+            "fr": "Plus de 3 ans de manière continue en France depuis le mariage",
+            "en": "More than 3 continuous years in France since the marriage"
+          }
+        },
+        {
+          "id": "less_than_3",
+          "label": {
+            "fr": "Moins de 3 ans de manière continue en France depuis le mariage",
+            "en": "Less than 3 continuous years in France since the marriage"
+          }
+        }
+      ],
+      "condition": {
+        "question": "living_country",
+        "equals": "france"
+      },
+      "sources": [
+        "sp_f2726",
+        "lf_cc_21_2"
+      ]
+    },
+    {
+      "id": "spouse_consular_registration",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Pendant votre séjour à l'étranger, votre époux ou épouse était-il ou elle inscrit(e) au registre des Français établis hors de France ?",
+        "en": "While you lived abroad, was your spouse registered with the French consulate (registre des Français établis hors de France)?"
+      },
+      "help": {
+        "fr": "Si oui, la durée demandée reste de 4 ans de mariage. Si non, elle est de 5 ans. Un certificat d'inscription est alors demandé dans le dossier.",
+        "en": "If yes, the required period stays at 4 years of marriage. If not, it is 5 years. A registration certificate is then requested in the file."
+      },
+      "example": {
+        "fr": "Exemple : votre mari s'était inscrit au consulat de France à Dakar quand vous viviez au Sénégal. Vous répondez « Oui ».",
+        "en": "Example: your husband registered with the French consulate in Dakar while you lived in Senegal. Answer \"Yes\"."
+      },
+      "condition": {
+        "question": "residence_since_marriage",
+        "equals": "less_than_3"
+      },
+      "sources": [
+        "sp_f2726"
+      ]
+    },
+    {
+      "id": "marriage_place",
+      "kind": "single",
+      "title": {
+        "fr": "Où votre mariage a-t-il été célébré ?",
+        "en": "Where was your marriage celebrated?"
+      },
+      "help": {
+        "fr": "Un mariage célébré à l'étranger doit avoir été transcrit sur les registres de l'état civil français (consulat ou Service central d'état civil). Le dossier demande la copie de cette transcription.",
+        "en": "A marriage celebrated abroad must have been transcribed in the French civil registers (consulate or Central civil registry). The file asks for a copy of this transcription."
+      },
+      "example": {
+        "fr": "Exemple : mariés à Alger, le consulat de France vous a remis un acte de mariage français. Vous choisissez « À l'étranger, transcrit ».",
+        "en": "Example: married in Algiers, the French consulate gave you a French marriage certificate. Choose \"Abroad, transcribed\"."
+      },
+      "options": [
+        {
+          "id": "france",
+          "label": {
+            "fr": "En France (à la mairie)",
+            "en": "In France (at the town hall)"
+          }
+        },
+        {
+          "id": "abroad_transcribed",
+          "label": {
+            "fr": "À l'étranger, et le mariage est transcrit en France",
+            "en": "Abroad, and the marriage is transcribed in France"
+          }
+        },
+        {
+          "id": "abroad_not_transcribed",
+          "label": {
+            "fr": "À l'étranger, sans transcription (ou je ne sais pas)",
+            "en": "Abroad, not transcribed (or I don't know)"
+          }
+        }
+      ],
+      "condition": {
+        "question": "living_country",
+        "equals": "france"
+      },
+      "sources": [
+        "sp_f2726",
+        "sp_f21614"
+      ]
+    },
+    {
+      "id": "life_together",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Vivez-vous ensemble sans interruption depuis le mariage ?",
+        "en": "Have you lived together without interruption since the marriage?"
+      },
+      "help": {
+        "fr": "Service-public.fr demande une communauté de vie continue depuis le mariage : vivre ensemble, matériellement et affectivement. À l'entretien, vous signez une attestation sur l'honneur à ce sujet.",
+        "en": "Service-public.fr requires continuous life together since the marriage: living together, materially and emotionally. At the interview, you sign a sworn statement about it."
+      },
+      "example": {
+        "fr": "Exemple : vous habitez le même logement depuis le mariage et vous déclarez vos impôts ensemble. Vous répondez « Oui ».",
+        "en": "Example: you have lived in the same home since the marriage and file your taxes together. Answer \"Yes\"."
+      },
+      "condition": {
+        "question": "living_country",
+        "equals": "france"
+      },
+      "sources": [
+        "sp_f2726"
+      ]
+    },
+    {
+      "id": "eu_national",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Avez-vous la nationalité d'un pays de l'Espace économique européen ou de la Suisse ?",
+        "en": "Are you a national of a European Economic Area country or Switzerland?"
+      },
+      "help": {
+        "fr": "Un titre de séjour valide est demandé au dépôt, sauf pour les ressortissants de l'EEE et de la Suisse.",
+        "en": "A valid residence permit is required when you file, except for EEA and Swiss nationals."
+      },
+      "example": {
+        "fr": "Exemple : vous êtes portugais. Vous répondez « Oui ». Vous êtes tunisien : vous répondez « Non ».",
+        "en": "Example: you are Portuguese. Answer \"Yes\". You are Tunisian: answer \"No\"."
+      },
+      "condition": {
+        "question": "living_country",
+        "equals": "france"
+      },
+      "sources": [
+        "sp_f2726"
+      ]
+    },
+    {
+      "id": "residence_permit_expiry",
+      "kind": "date",
+      "title": {
+        "fr": "Quelle est la date de fin de validité de votre titre de séjour ?",
+        "en": "When does your residence permit expire?"
+      },
+      "help": {
+        "fr": "Le titre doit être en cours de validité au moment du dépôt du dossier. La date est écrite sur votre carte.",
+        "en": "The permit must be valid when you file. The date is written on your card."
+      },
+      "example": {
+        "fr": "Exemple : il est écrit « Date d'expiration : 02 05 2028 » sur votre carte.",
+        "en": "Example: your card says \"Expiry date: 02 05 2028\"."
+      },
+      "condition": {
+        "question": "eu_national",
+        "equals": "no"
+      },
+      "sources": [
+        "sp_f2726"
+      ]
+    },
+    {
+      "id": "language_proof",
+      "kind": "single",
+      "title": {
+        "fr": "Quel justificatif de français pouvez-vous fournir ?",
+        "en": "Which proof of French can you provide?"
+      },
+      "help": {
+        "fr": "Le niveau demandé est B2 à l'oral et à l'écrit. Service-public.fr liste les diplômes et tests acceptés. Une dispense est possible si votre handicap ou votre état de santé rend l'évaluation impossible.",
+        "en": "The required level is B2, spoken and written. Service-public.fr lists the accepted diplomas and tests. An exemption is possible if a disability or health condition makes the assessment impossible."
+      },
+      "example": {
+        "fr": "Exemple : vous avez passé le TCF il y a 6 mois avec un niveau B2. Vous choisissez « Une attestation TCF ou TEF ».",
+        "en": "Example: you took the TCF 6 months ago and got B2. Choose \"A TCF or TEF certificate\"."
+      },
+      "options": [
+        {
+          "id": "french_diploma",
+          "label": {
+            "fr": "Un diplôme français (brevet, ou diplôme de niveau 3 ou plus)",
+            "en": "A French diploma (brevet, or level 3 or higher)"
+          }
+        },
+        {
+          "id": "b2_diploma",
+          "label": {
+            "fr": "Un diplôme de français de niveau B2 ou plus",
+            "en": "A French language diploma at B2 or higher"
+          }
+        },
+        {
+          "id": "language_test",
+          "label": {
+            "fr": "Une attestation TCF ou TEF",
+            "en": "A TCF or TEF certificate"
+          }
+        },
+        {
+          "id": "health_exemption",
+          "label": {
+            "fr": "Mon handicap ou mon état de santé rend l'évaluation impossible",
+            "en": "My disability or health makes the assessment impossible"
+          }
+        },
+        {
+          "id": "not_yet",
+          "label": {
+            "fr": "Je n'ai pas encore de justificatif",
+            "en": "I don't have proof yet"
+          }
+        }
+      ],
+      "condition": {
+        "question": "living_country",
+        "equals": "france"
+      },
+      "sources": [
+        "sp_f11926",
+        "sp_f2726"
+      ]
+    },
+    {
+      "id": "language_test_date",
+      "kind": "date",
+      "title": {
+        "fr": "Quelle est la date de votre attestation TCF ou TEF ?",
+        "en": "What is the date of your TCF or TEF certificate?"
+      },
+      "help": {
+        "fr": "L'attestation doit avoir été délivrée depuis moins de 2 ans.",
+        "en": "The certificate must have been issued less than 2 years ago."
+      },
+      "example": {
+        "fr": "Exemple : la date de délivrance écrite sur l'attestation, par exemple le 3 mars 2026.",
+        "en": "Example: the issue date on the certificate, for example 3 March 2026."
+      },
+      "condition": {
+        "question": "language_proof",
+        "equals": "language_test"
+      },
+      "sources": [
+        "sp_f11926"
+      ]
+    },
+    {
+      "id": "previous_marriages",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Vous ou votre époux ou épouse avez-vous été marié(e) avant ?",
+        "en": "Were you or your spouse married before?"
+      },
+      "help": {
+        "fr": "En cas de mariages antérieurs, le dossier demande les actes de ces mariages et la preuve de leur fin (divorce, décès).",
+        "en": "If there were earlier marriages, the file asks for those marriage certificates and proof that they ended (divorce, death)."
+      },
+      "example": {
+        "fr": "Exemple : vous avez divorcé en 2015 avant d'épouser votre conjoint actuel. Vous répondez « Oui ».",
+        "en": "Example: you divorced in 2015 before marrying your current spouse. Answer \"Yes\"."
+      },
+      "condition": {
+        "question": "living_country",
+        "equals": "france"
+      },
+      "sources": [
+        "sp_f2726"
+      ]
+    },
+    {
+      "id": "children",
+      "kind": "single",
+      "title": {
+        "fr": "Avez-vous des enfants ?",
+        "en": "Do you have children?"
+      },
+      "help": {
+        "fr": "Les actes de naissance de tous vos enfants sont demandés, mineurs ou majeurs, nés avant ou après le mariage. Pour un enfant mineur étranger qui peut devenir français en même temps que vous, d'autres pièces sont demandées.",
+        "en": "Birth certificates of all your children are requested, minor or adult, born before or after the marriage. For a foreign minor child who can become French at the same time as you, other documents are requested."
+      },
+      "example": {
+        "fr": "Exemple : vous avez un fils de 12 ans de nationalité algérienne qui vit avec vous. Vous choisissez la dernière réponse.",
+        "en": "Example: you have a 12-year-old son of Algerian nationality who lives with you. Choose the last answer."
+      },
+      "options": [
+        {
+          "id": "none",
+          "label": {
+            "fr": "Non",
+            "en": "No"
+          }
+        },
+        {
+          "id": "no_foreign_minor",
+          "label": {
+            "fr": "Oui, mais aucun enfant mineur de nationalité étrangère",
+            "en": "Yes, but no minor child of foreign nationality"
+          }
+        },
+        {
+          "id": "foreign_minor",
+          "label": {
+            "fr": "Oui, dont au moins un enfant mineur de nationalité étrangère",
+            "en": "Yes, including at least one minor child of foreign nationality"
+          }
+        }
+      ],
+      "condition": {
+        "question": "living_country",
+        "equals": "france"
+      },
+      "sources": [
+        "sp_f2726"
+      ]
+    },
+    {
+      "id": "foreign_residence",
+      "kind": "single",
+      "title": {
+        "fr": "Au cours des 10 dernières années, avez-vous vécu plus de 6 mois dans un autre pays ?",
+        "en": "In the last 10 years, have you lived for more than 6 months in another country?"
+      },
+      "help": {
+        "fr": "Un extrait de casier judiciaire est demandé pour chaque pays où vous avez vécu plus de 6 mois pendant ces 10 ans. Celui du pays d'origine n'est pas demandé aux réfugiés et aux apatrides protégés par l'Ofpra.",
+        "en": "A criminal record extract is requested for each country where you lived more than 6 months during those 10 years. The one from your country of origin is not requested from refugees and stateless persons protected by OFPRA."
+      },
+      "example": {
+        "fr": "Exemple : vous avez vécu au Cameroun jusqu'en 2019, puis en France. Vous choisissez « Oui ».",
+        "en": "Example: you lived in Cameroon until 2019, then in France. Choose \"Yes\"."
+      },
+      "options": [
+        {
+          "id": "no",
+          "label": {
+            "fr": "Non, seulement en France",
+            "en": "No, only in France"
+          }
+        },
+        {
+          "id": "yes",
+          "label": {
+            "fr": "Oui",
+            "en": "Yes"
+          }
+        },
+        {
+          "id": "yes_refugee",
+          "label": {
+            "fr": "Oui, et je suis réfugié(e) ou apatride protégé(e) par l'Ofpra",
+            "en": "Yes, and I am a refugee or a stateless person protected by OFPRA"
+          }
+        }
+      ],
+      "condition": {
+        "question": "living_country",
+        "equals": "france"
+      },
+      "sources": [
+        "sp_f2726"
+      ]
+    }
+  ],
+  "documents": [
+    {
+      "id": "cerfa_15277",
+      "category": "other",
+      "title": {
+        "fr": "Formulaire cerfa n°15277 en 2 exemplaires",
+        "en": "Form cerfa no. 15277 in 2 copies"
+      },
+      "details": {
+        "fr": "Le formulaire de déclaration de nationalité par mariage, rempli, daté et signé en 2 exemplaires. Votre époux ou épouse doit aussi le signer.",
+        "en": "The declaration of nationality by marriage form, filled in, dated and signed in 2 copies. Your spouse must also sign it."
+      },
+      "condition": null,
+      "sources": [
+        "sp_f2726",
+        "sp_r39936"
+      ]
+    },
+    {
+      "id": "photos",
+      "category": "photo",
+      "title": {
+        "fr": "2 photos d'identité récentes",
+        "en": "2 recent ID photos"
+      },
+      "details": {
+        "fr": "Collez une photo sur chacun des 2 exemplaires du formulaire.",
+        "en": "Stick one photo on each of the 2 copies of the form."
+      },
+      "condition": null,
+      "sources": [
+        "sp_f2726"
+      ]
+    },
+    {
+      "id": "fiscal_stamp",
+      "category": "tax",
+      "title": {
+        "fr": "Timbre fiscal électronique de 255 €",
+        "en": "255 € electronic tax stamp"
+      },
+      "details": {
+        "fr": "La démarche coûte 255 € (127,50 € en Guyane), payés avec un timbre fiscal électronique. En dehors du timbre, la démarche est gratuite.",
+        "en": "The procedure costs 255 € (127.50 € in French Guiana), paid with an electronic tax stamp. Apart from the stamp, the procedure is free."
+      },
+      "tip": {
+        "fr": "Le timbre électronique est valable 1 an à partir de son achat. S'il n'est pas utilisé, vous pouvez demander son remboursement en ligne dans les 18 mois. Des sites privés proposent des services payants : la démarche elle-même est gratuite.",
+        "en": "The electronic stamp is valid for 1 year from purchase. If unused, you can ask for a refund online within 18 months. Private websites sell paid services: the procedure itself is free."
+      },
+      "condition": null,
+      "sources": [
+        "sp_f2726",
+        "sp_f32952"
+      ],
+      "guides": [
+        "fiscal_stamp"
+      ]
+    },
+    {
+      "id": "identity_document",
+      "category": "identity",
+      "title": {
+        "fr": "Copie d'une pièce d'identité",
+        "en": "Copy of an identity document"
+      },
+      "details": {
+        "fr": "Copie de votre passeport ou de votre titre de séjour. Les originaux de vos pièces d'identité seront demandés à l'entretien.",
+        "en": "Copy of your passport or residence permit. The originals of your identity documents will be asked for at the interview."
+      },
+      "condition": null,
+      "sources": [
+        "sp_f2726"
+      ]
+    },
+    {
+      "id": "passport_schengen",
+      "category": "identity",
+      "title": {
+        "fr": "Passeport ou visas (séjours courts dans l'espace Schengen)",
+        "en": "Passport or visas (short stays in the Schengen area)"
+      },
+      "details": {
+        "fr": "Si vous êtes venu dans l'espace Schengen depuis un pays hors de cet espace pour moins de 3 mois au cours des 5 dernières années : votre passeport ou un document équivalent (par exemple un visa Schengen), et ceux de vos enfants mineurs qui pourraient devenir français à leur majorité.",
+        "en": "If you came to the Schengen area from a country outside it for less than 3 months during the last 5 years: your passport or an equivalent document (for example a Schengen visa), and those of your minor children who could become French when they turn 18."
+      },
+      "condition": {
+        "question": "eu_national",
+        "equals": "no"
+      },
+      "sources": [
+        "sp_f2726"
+      ]
+    },
+    {
+      "id": "proof_of_address",
+      "category": "address",
+      "title": {
+        "fr": "Justificatif de domicile récent",
+        "en": "Recent proof of address"
+      },
+      "details": {
+        "fr": "Copie d'un justificatif récent à votre nom, prénom et adresse complète.",
+        "en": "Copy of a recent document with your surname, first name and full address."
+      },
+      "condition": null,
+      "sources": [
+        "sp_f2726"
+      ],
+      "guides": [
+        "proof_of_address"
+      ]
+    },
+    {
+      "id": "birth_certificate",
+      "category": "civil_status",
+      "title": {
+        "fr": "Votre acte de naissance original",
+        "en": "Your original birth certificate"
+      },
+      "details": {
+        "fr": "Copie intégrale en original, délivrée par l'officier d'état civil du lieu où l'acte est conservé, dans la langue du pays d'origine. Elle doit indiquer les nom, prénom, date et lieu de naissance de vos parents ; sinon, les actes de naissance de vos parents peuvent être demandés. Avec un extrait plurilingue, ou si vous ne pouvez pas fournir l'acte, d'autres documents seront demandés.",
+        "en": "Full copy, original, issued by the civil registrar where the record is kept, in the language of the country of origin. It must show your parents' surnames, first names, dates and places of birth; otherwise your parents' birth certificates may be requested. With a multilingual extract, or if you cannot provide the certificate, other documents will be requested."
+      },
+      "tip": {
+        "fr": "Si l'acte a été rectifié ou modifié, joignez la copie de la décision correspondante.",
+        "en": "If the record was corrected or changed, attach a copy of the related decision."
+      },
+      "condition": null,
+      "sources": [
+        "sp_f2726"
+      ],
+      "guides": [
+        "sworn_translation",
+        "legalisation_apostille"
+      ]
+    },
+    {
+      "id": "marriage_certificate_france",
+      "category": "civil_status",
+      "title": {
+        "fr": "Acte de mariage original de moins de 3 mois",
+        "en": "Original marriage certificate less than 3 months old"
+      },
+      "details": {
+        "fr": "Copie intégrale de votre acte de mariage français, délivrée depuis moins de 3 mois.",
+        "en": "Full copy of your French marriage certificate, issued less than 3 months ago."
+      },
+      "condition": {
+        "question": "marriage_place",
+        "equals": "france"
+      },
+      "sources": [
+        "sp_f2726"
+      ],
+      "guides": [
+        "civil_status_france"
+      ]
+    },
+    {
+      "id": "marriage_transcription",
+      "category": "civil_status",
+      "title": {
+        "fr": "Copie de la transcription du mariage, de moins de 3 mois",
+        "en": "Copy of the marriage transcription, less than 3 months old"
+      },
+      "details": {
+        "fr": "Copie de la transcription de votre mariage sur les registres consulaires français, délivrée depuis moins de 3 mois, qui justifie d'un mariage contracté depuis 4 ans ou plus.",
+        "en": "Copy of the transcription of your marriage in the French consular registers, issued less than 3 months ago, showing a marriage of 4 years or more."
+      },
+      "tip": {
+        "fr": "Pour un mariage à l'étranger, la copie se demande au Service central d'état civil (Nantes), qui n'accueille pas de public : par courrier ou par téléservice.",
+        "en": "For a marriage abroad, the copy is requested from the Central civil registry (Nantes), which has no public desk: by post or online."
+      },
+      "condition": {
+        "question": "marriage_place",
+        "equals": "abroad_transcribed"
+      },
+      "sources": [
+        "sp_f2726",
+        "sp_f21614"
+      ],
+      "guides": [
+        "civil_status_france"
+      ]
+    },
+    {
+      "id": "previous_marriages_documents",
+      "category": "civil_status",
+      "title": {
+        "fr": "Actes des mariages précédents et preuves de leur fin",
+        "en": "Earlier marriage certificates and proof they ended"
+      },
+      "details": {
+        "fr": "Actes de mariage précédents et tout document qui prouve leur dissolution, par exemple la copie du jugement de divorce ou l'acte de décès.",
+        "en": "Earlier marriage certificates and any document proving they ended, for example a copy of the divorce judgment or a death certificate."
+      },
+      "condition": {
+        "question": "previous_marriages",
+        "equals": "yes"
+      },
+      "sources": [
+        "sp_f2726"
+      ],
+      "guides": [
+        "sworn_translation",
+        "legalisation_apostille"
+      ]
+    },
+    {
+      "id": "children_birth_certificates",
+      "category": "family",
+      "title": {
+        "fr": "Actes de naissance de vos enfants",
+        "en": "Your children's birth certificates"
+      },
+      "details": {
+        "fr": "Actes de naissance de tous vos enfants, majeurs ou mineurs, nés avant ou après le mariage. Un acte délivré en France doit avoir moins de 3 mois.",
+        "en": "Birth certificates of all your children, adult or minor, born before or after the marriage. A certificate issued in France must be less than 3 months old."
+      },
+      "condition": {
+        "question": "children",
+        "in": [
+          "no_foreign_minor",
+          "foreign_minor"
+        ]
+      },
+      "sources": [
+        "sp_f2726"
+      ],
+      "guides": [
+        "sworn_translation",
+        "legalisation_apostille"
+      ]
+    },
+    {
+      "id": "minor_children_filiation",
+      "category": "family",
+      "title": {
+        "fr": "Preuves du lien de filiation de vos enfants mineurs étrangers",
+        "en": "Proof of parentage of your foreign minor children"
+      },
+      "details": {
+        "fr": "Pour vos enfants mineurs étrangers qui peuvent devenir français en même temps que vous : actes d'état civil ou décisions de justice qui établissent le lien entre eux et vous.",
+        "en": "For your foreign minor children who can become French at the same time as you: civil status records or court decisions establishing the parent-child link with you."
+      },
+      "condition": {
+        "question": "children",
+        "equals": "foreign_minor"
+      },
+      "sources": [
+        "sp_f2726"
+      ],
+      "guides": [
+        "sworn_translation",
+        "legalisation_apostille"
+      ]
+    },
+    {
+      "id": "minor_children_residence",
+      "category": "family",
+      "title": {
+        "fr": "Preuves que vos enfants mineurs vivent avec vous",
+        "en": "Proof that your minor children live with you"
+      },
+      "details": {
+        "fr": "Documents qui prouvent leur résidence habituelle avec vous, ou leur résidence alternée en cas de séparation ou de divorce.",
+        "en": "Documents proving they usually live with you, or alternate residence in case of separation or divorce."
+      },
+      "example": {
+        "fr": "Exemple : attestation de présence en crèche, certificat de scolarité de l'année en cours.",
+        "en": "Example: nursery attendance certificate, school certificate for the current year."
+      },
+      "condition": {
+        "question": "children",
+        "equals": "foreign_minor"
+      },
+      "sources": [
+        "sp_f2726"
+      ]
+    },
+    {
+      "id": "cerfa_15286",
+      "category": "family",
+      "title": {
+        "fr": "Formulaire cerfa n°15286 (facultatif)",
+        "en": "Form cerfa no. 15286 (optional)"
+      },
+      "details": {
+        "fr": "Seulement si vous souhaitez faire une déclaration conjointe de choix de nom pour vos enfants mineurs : formulaire rempli et signé.",
+        "en": "Only if you wish to make a joint declaration choosing the surname of your minor children: form filled in and signed."
+      },
+      "condition": {
+        "question": "children",
+        "equals": "foreign_minor"
+      },
+      "sources": [
+        "sp_f2726"
+      ]
+    },
+    {
+      "id": "spouse_nationality_proof",
+      "category": "family",
+      "title": {
+        "fr": "Preuve de la nationalité française de votre époux ou épouse",
+        "en": "Proof of your spouse's French nationality"
+      },
+      "details": {
+        "fr": "L'un de ces documents : acte de naissance original s'il ou elle est né(e) en France de 2 parents nés en France ; copie de son acte de naissance qui mentionne la nationalité française ; décision de justice qui lui reconnaît la qualité de Français ; document des autorités françaises qui indique l'acquisition de la nationalité ; certificat de nationalité française.",
+        "en": "One of these documents: original birth certificate if he or she was born in France to 2 parents born in France; copy of the birth certificate mentioning French nationality; court decision recognising French nationality; document from the French authorities showing acquisition of nationality; certificate of French nationality."
+      },
+      "condition": null,
+      "sources": [
+        "sp_f2726"
+      ]
+    },
+    {
+      "id": "residence_permit",
+      "category": "residence",
+      "title": {
+        "fr": "Copie de votre titre de séjour",
+        "en": "Copy of your residence permit"
+      },
+      "details": {
+        "fr": "Copie de votre titre de séjour en cours de validité au moment du dépôt.",
+        "en": "Copy of your residence permit, valid on the day you file."
+      },
+      "condition": {
+        "question": "eu_national",
+        "equals": "no"
+      },
+      "sources": [
+        "sp_f2726"
+      ]
+    },
+    {
+      "id": "eu_passport",
+      "category": "identity",
+      "title": {
+        "fr": "Copie de votre passeport en cours de validité",
+        "en": "Copy of your valid passport"
+      },
+      "details": {
+        "fr": "Pour un Européen non soumis à l'obligation d'avoir un titre de séjour : copie du passeport en cours de validité.",
+        "en": "For a European not required to hold a residence permit: copy of a valid passport."
+      },
+      "condition": {
+        "question": "eu_national",
+        "equals": "yes"
+      },
+      "sources": [
+        "sp_f2726"
+      ]
+    },
+    {
+      "id": "life_together_proof",
+      "category": "family",
+      "title": {
+        "fr": "Preuves de la communauté de vie depuis le mariage",
+        "en": "Proof of life together since the marriage"
+      },
+      "details": {
+        "fr": "Tout document qui prouve que la communauté de vie, affective et matérielle, n'a pas cessé depuis le mariage.",
+        "en": "Any document proving that your life together, emotional and material, has not stopped since the marriage."
+      },
+      "example": {
+        "fr": "Exemple : avis d'impôt commun aux deux époux, actes de naissance de vos enfants communs.",
+        "en": "Example: joint tax notice for both spouses, birth certificates of your children together."
+      },
+      "condition": null,
+      "sources": [
+        "sp_f2726"
+      ],
+      "guides": [
+        "tax_documents"
+      ]
+    },
+    {
+      "id": "joint_address_proof",
+      "category": "address",
+      "title": {
+        "fr": "Document récent aux 2 noms avec votre adresse actuelle",
+        "en": "Recent document in both names with your current address"
+      },
+      "details": {
+        "fr": "Un document récent aux noms des 2 époux, avec votre adresse actuelle.",
+        "en": "A recent document in the names of both spouses, with your current address."
+      },
+      "example": {
+        "fr": "Exemple : facture récente d'électricité, d'eau ou de téléphone fixe ; attestation bancaire récente d'un compte joint actif.",
+        "en": "Example: recent electricity, water or landline bill; recent bank statement for an active joint account."
+      },
+      "condition": null,
+      "sources": [
+        "sp_f2726"
+      ],
+      "guides": [
+        "proof_of_address"
+      ]
+    },
+    {
+      "id": "three_years_residence_proof",
+      "category": "residence",
+      "title": {
+        "fr": "Preuves de 3 ans de résidence régulière en France depuis le mariage",
+        "en": "Proof of 3 years of legal residence in France since the marriage"
+      },
+      "details": {
+        "fr": "Si vous êtes marié(e) depuis moins de 5 ans : justificatifs d'une résidence régulière et ininterrompue en France pendant au moins 3 ans depuis le mariage.",
+        "en": "If you have been married for less than 5 years: proof of legal and uninterrupted residence in France for at least 3 years since the marriage."
+      },
+      "example": {
+        "fr": "Exemple : titres de séjour, récépissés, autorisation provisoire de séjour, contrats de travail, attestations France Travail, factures d'électricité, bulletins de salaire.",
+        "en": "Example: residence permits, receipts, temporary residence permit, employment contracts, France Travail certificates, electricity bills, payslips."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "marriage_date",
+            "daysFromToday": {
+              "min": -1825
+            }
+          },
+          {
+            "question": "residence_since_marriage",
+            "in": [
+              "always_france",
+              "more_than_3"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_f2726"
+      ]
+    },
+    {
+      "id": "consular_registration_certificate",
+      "category": "residence",
+      "title": {
+        "fr": "Certificat d'inscription au registre des Français établis hors de France",
+        "en": "Certificate of registration with the French consulate"
+      },
+      "details": {
+        "fr": "Si vous avez vécu à l'étranger : certificat d'inscription de votre époux ou épouse au registre des Français établis hors de France pendant votre vie commune à l'étranger.",
+        "en": "If you lived abroad: certificate showing your spouse was registered with the French consulate (registre des Français établis hors de France) while you lived together abroad."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "marriage_date",
+            "daysFromToday": {
+              "min": -1825
+            }
+          },
+          {
+            "question": "spouse_consular_registration",
+            "equals": "yes"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f2726"
+      ]
+    },
+    {
+      "id": "language_diploma",
+      "category": "integration",
+      "title": {
+        "fr": "Diplôme justifiant votre niveau de français",
+        "en": "Diploma proving your French level"
+      },
+      "details": {
+        "fr": "Diplôme national du brevet, diplôme d'État de niveau 3 ou plus du cadre national des certifications professionnelles, certification professionnelle de niveau 3 ou plus enregistrée au répertoire national, ou diplôme qui atteste au moins le niveau B2 en français.",
+        "en": "National brevet diploma, state diploma at level 3 or higher of the national professional certification framework, professional certification at level 3 or higher registered in the national directory, or a diploma showing at least B2 French."
+      },
+      "condition": {
+        "question": "language_proof",
+        "in": [
+          "french_diploma",
+          "b2_diploma"
+        ]
+      },
+      "sources": [
+        "sp_f11926"
+      ],
+      "guides": [
+        "language_certificate"
+      ]
+    },
+    {
+      "id": "language_test_certificate",
+      "category": "integration",
+      "title": {
+        "fr": "Attestation TCF ou TEF de moins de 2 ans",
+        "en": "TCF or TEF certificate less than 2 years old"
+      },
+      "details": {
+        "fr": "Attestation de réussite au TCF (France Éducation International) ou au TEF (chambre de commerce et d'industrie de Paris), délivrée depuis moins de 2 ans, au niveau B2 à l'oral et à l'écrit.",
+        "en": "Pass certificate for the TCF (France Éducation International) or the TEF (Paris chamber of commerce and industry), issued less than 2 years ago, at B2 level spoken and written."
+      },
+      "condition": {
+        "question": "language_proof",
+        "equals": "language_test"
+      },
+      "sources": [
+        "sp_f11926"
+      ],
+      "guides": [
+        "language_certificate"
+      ]
+    },
+    {
+      "id": "medical_certificate_language",
+      "category": "integration",
+      "title": {
+        "fr": "Certificat médical de dispense de l'évaluation de français",
+        "en": "Medical certificate for exemption from the French assessment"
+      },
+      "details": {
+        "fr": "Certificat médical qui atteste que votre état de santé rend impossible toute évaluation linguistique. Le service peut demander une nouvelle expertise médicale.",
+        "en": "Medical certificate stating that your health makes any language assessment impossible. The service may ask for a new medical assessment."
+      },
+      "condition": {
+        "question": "language_proof",
+        "equals": "health_exemption"
+      },
+      "sources": [
+        "sp_f11926"
+      ]
+    },
+    {
+      "id": "foreign_criminal_record",
+      "category": "other",
+      "title": {
+        "fr": "Extrait de casier judiciaire étranger",
+        "en": "Foreign criminal record extract"
+      },
+      "details": {
+        "fr": "Extrait de casier judiciaire, ou document équivalent, délivré après votre arrivée en France par une autorité du pays, pour chaque pays où vous avez vécu plus de 6 mois au cours des 10 dernières années.",
+        "en": "Criminal record extract, or equivalent document, issued after your arrival in France by an authority of the country, for each country where you lived more than 6 months during the last 10 years."
+      },
+      "condition": {
+        "question": "foreign_residence",
+        "equals": "yes"
+      },
+      "sources": [
+        "sp_f2726"
+      ],
+      "guides": [
+        "criminal_record",
+        "sworn_translation"
+      ]
+    },
+    {
+      "id": "foreign_criminal_record_refugee",
+      "category": "other",
+      "title": {
+        "fr": "Extrait de casier judiciaire des autres pays (pas du pays d'origine)",
+        "en": "Criminal record extract from other countries (not your country of origin)"
+      },
+      "details": {
+        "fr": "Le casier du pays d'origine n'est pas demandé aux réfugiés et apatrides protégés par l'Ofpra. Pour les autres pays où vous avez vécu plus de 6 mois au cours des 10 dernières années, l'extrait reste demandé.",
+        "en": "The criminal record from your country of origin is not requested from refugees and stateless persons protected by OFPRA. For other countries where you lived more than 6 months in the last 10 years, the extract is still requested."
+      },
+      "condition": {
+        "question": "foreign_residence",
+        "equals": "yes_refugee"
+      },
+      "sources": [
+        "sp_f2726"
+      ],
+      "guides": [
+        "criminal_record"
+      ]
+    },
+    {
+      "id": "translations",
+      "category": "other",
+      "title": {
+        "fr": "Traductions en français des documents en langue étrangère",
+        "en": "French translations of foreign-language documents"
+      },
+      "details": {
+        "fr": "Une traduction originale en français pour chaque document en langue étrangère, faite par un traducteur agréé (ou habilité dans un autre pays européen). L'extrait plurilingue d'acte de naissance ou de mariage qui contient le français n'a pas besoin d'être traduit pour une personne majeure.",
+        "en": "An original French translation of each foreign-language document, made by an approved translator (or one authorised in another European country). A multilingual birth or marriage extract that includes French does not need translating for an adult."
+      },
+      "tip": {
+        "fr": "Certains documents étrangers doivent aussi être légalisés ou apostillés : renseignez-vous auprès de l'ambassade ou du consulat concerné.",
+        "en": "Some foreign documents must also be legalised or apostilled: ask the embassy or consulate concerned."
+      },
+      "condition": null,
+      "sources": [
+        "sp_f2726",
+        "sp_f12956",
+        "sp_f1402"
+      ],
+      "guides": [
+        "sworn_translation",
+        "legalisation_apostille"
+      ]
+    },
+    {
+      "id": "mail_envelopes",
+      "category": "other",
+      "title": {
+        "fr": "Enveloppe timbrée et lettre suivie 500 g (envoi par courrier)",
+        "en": "Stamped envelope and 500 g tracked letter (postal filing)"
+      },
+      "details": {
+        "fr": "Si votre plateforme demande l'envoi par courrier : une enveloppe timbrée à votre adresse et une lettre « suivie » 500 grammes vierge, à joindre au dossier.",
+        "en": "If your platform asks for filing by post: a stamped envelope addressed to you and a blank 500-gram \"suivie\" (tracked) letter, to add to the file."
+      },
+      "condition": {
+        "question": "living_country",
+        "equals": "france"
+      },
+      "sources": [
+        "sp_f2726"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "check_conditions",
+      "phase": "before",
+      "title": {
+        "fr": "Lire les conditions de la déclaration",
+        "en": "Read the conditions of the declaration"
+      },
+      "body": {
+        "fr": "Service-public.fr liste ces conditions : être marié(e) à un(e) Français(e) qui l'était le jour du mariage et l'est resté(e) ; 4 ans de mariage à la date de la déclaration (5 ans dans certains cas) ; mariage transcrit s'il a eu lieu à l'étranger ; communauté de vie continue depuis le mariage ; titre de séjour valide au dépôt (sauf EEE et Suisse) ; pas d'arrêté d'expulsion ni d'interdiction du territoire en vigueur ; français niveau B2 ; pas de condamnation à 6 mois de prison ferme ou plus en France, ni pour atteinte aux intérêts fondamentaux de la Nation ou terrorisme (sauf réhabilitation ou exclusion du bulletin n°2). C'est l'administration qui vérifie.",
+        "en": "Service-public.fr lists these conditions: be married to a French citizen who was French on the wedding day and still is; 4 years of marriage on the date of the declaration (5 years in some cases); marriage transcribed if it took place abroad; continuous life together since the marriage; valid residence permit when filing (except EEA and Switzerland); no expulsion order or ban from France in force; B2 level French; no sentence in France of 6 months or more in prison without suspension, nor for harming the fundamental interests of the Nation or terrorism (unless rehabilitated or removed from bulletin no. 2). The administration checks this."
+      },
+      "link": {
+        "title": {
+          "fr": "Lire la fiche sur service-public.fr",
+          "en": "Read the page on service-public.fr"
+        },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2726"
+      },
+      "condition": null,
+      "sources": [
+        "sp_f2726",
+        "sp_f11926"
+      ]
+    },
+    {
+      "id": "check_marriage_length",
+      "phase": "before",
+      "title": {
+        "fr": "Vérifier la durée de mariage demandée",
+        "en": "Check the required length of marriage"
+      },
+      "body": {
+        "fr": "4 ans de mariage si vous vivez en France sans interruption depuis le mariage, ou si vous y avez vécu plus de 3 ans de manière continue depuis. Si vous avez vécu moins de 3 ans en France depuis le mariage : 4 ans si votre époux ou épouse était inscrit(e) au registre des Français établis hors de France pendant votre séjour à l'étranger, 5 ans sinon. La durée se compte à la date de la déclaration.",
+        "en": "4 years of marriage if you have lived in France without interruption since the marriage, or for more than 3 continuous years since. If you have lived less than 3 years in France since the marriage: 4 years if your spouse was registered with the French consulate during your stay abroad, otherwise 5 years. The period is counted on the date of the declaration."
+      },
+      "condition": {
+        "question": "living_country",
+        "equals": "france"
+      },
+      "sources": [
+        "sp_f2726",
+        "lf_cc_21_2"
+      ]
+    },
+    {
+      "id": "prepare_language",
+      "phase": "before",
+      "title": {
+        "fr": "Obtenir un justificatif de français niveau B2",
+        "en": "Get proof of B2 level French"
+      },
+      "body": {
+        "fr": "Le niveau B2 à l'oral et à l'écrit est demandé. Vous pouvez fournir le brevet, un diplôme ou une certification de niveau 3 ou plus, un diplôme de français de niveau B2 au moins, ou une attestation TCF ou TEF de moins de 2 ans. Des aménagements d'épreuve sont possibles avec un certificat médical. Pour la déclaration par mariage, service-public.fr ne cite pas d'examen civique.",
+        "en": "B2 level spoken and written is required. You can provide the brevet, a diploma or certification at level 3 or higher, a French language diploma at B2 or higher, or a TCF or TEF certificate less than 2 years old. Test adjustments are possible with a medical certificate. For the declaration by marriage, service-public.fr does not mention a civic exam."
+      },
+      "link": {
+        "title": {
+          "fr": "Justifier son niveau en français",
+          "en": "Proving your French level"
+        },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F11926"
+      },
+      "condition": {
+        "question": "language_proof",
+        "in": [
+          "not_yet",
+          "language_test"
+        ]
+      },
+      "sources": [
+        "sp_f11926"
+      ],
+      "guides": [
+        "language_certificate"
+      ]
+    },
+    {
+      "id": "use_simulator",
+      "phase": "before",
+      "title": {
+        "fr": "Faire la liste personnalisée des pièces",
+        "en": "Make your personalised list of documents"
+      },
+      "body": {
+        "fr": "Service-public.fr propose un simulateur qui établit la liste des documents pour la nationalité par mariage. Le service qui instruit le dossier peut demander d'autres documents.",
+        "en": "Service-public.fr offers a simulator that lists the documents for nationality by marriage. The service handling your file may ask for other documents."
+      },
+      "link": {
+        "title": {
+          "fr": "Ouvrir le simulateur",
+          "en": "Open the simulator"
+        },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R64661"
+      },
+      "condition": {
+        "question": "living_country",
+        "equals": "france"
+      },
+      "sources": [
+        "sp_r64661"
+      ]
+    },
+    {
+      "id": "fill_form",
+      "phase": "before",
+      "title": {
+        "fr": "Remplir le formulaire cerfa n°15277",
+        "en": "Fill in form cerfa no. 15277"
+      },
+      "body": {
+        "fr": "Remplissez, datez et signez le formulaire en 2 exemplaires. Votre époux ou épouse signe aussi. Collez une photo sur chaque exemplaire. Vous pouvez y demander la francisation de vos nom ou prénoms et de ceux de vos enfants.",
+        "en": "Fill in, date and sign the form in 2 copies. Your spouse also signs. Stick a photo on each copy. You can ask in it for your surname or first names, and your children's first names, to be made French."
+      },
+      "link": {
+        "title": {
+          "fr": "Ouvrir le formulaire",
+          "en": "Open the form"
+        },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R39936"
+      },
+      "condition": {
+        "question": "living_country",
+        "equals": "france"
+      },
+      "sources": [
+        "sp_f2726",
+        "sp_r39936"
+      ]
+    },
+    {
+      "id": "civil_status_rules",
+      "phase": "before",
+      "title": {
+        "fr": "Préparer les actes d'état civil et les traductions",
+        "en": "Prepare civil status records and translations"
+      },
+      "body": {
+        "fr": "Les actes d'état civil sont fournis en copie intégrale et en original, dans la langue du pays d'origine. Un acte français doit avoir moins de 3 mois. Les autres documents peuvent être des copies, mais gardez les originaux. Chaque document en langue étrangère est traduit par un traducteur agréé. Certains documents étrangers doivent être légalisés ou apostillés.",
+        "en": "Civil status records are provided as full copies and originals, in the language of the country of origin. A French record must be less than 3 months old. Other documents can be copies, but keep the originals. Each foreign-language document is translated by an approved translator. Some foreign documents must be legalised or apostilled."
+      },
+      "link": {
+        "title": {
+          "fr": "Trouver un traducteur agréé",
+          "en": "Find an approved translator"
+        },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F12956"
+      },
+      "condition": {
+        "question": "living_country",
+        "equals": "france"
+      },
+      "sources": [
+        "sp_f2726",
+        "sp_f12956",
+        "sp_f1402"
+      ],
+      "guides": [
+        "sworn_translation",
+        "legalisation_apostille"
+      ]
+    },
+    {
+      "id": "find_platform",
+      "phase": "before",
+      "title": {
+        "fr": "Trouver la plateforme de naturalisation de votre domicile",
+        "en": "Find the naturalisation platform for your home"
+      },
+      "body": {
+        "fr": "Le dossier va à la plateforme d'accès à la nationalité française dont dépend votre domicile. Selon la plateforme, il se dépose au guichet ou s'envoie en recommandé avec avis de réception. La fiche service-public.fr renvoie à une carte interactive des plateformes, dans la rubrique « Envoyer le dossier ». Exemples : dans les Bouches-du-Rhône, les Alpes-de-Haute-Provence, les Hautes-Alpes et le Vaucluse, le dossier s'envoie uniquement par courrier avec accusé de réception au service de Marseille ; dans le Val-de-Marne, la préfecture demande de prendre rendez-vous par courriel.",
+        "en": "The file goes to the French nationality platform for your home. Depending on the platform, you file it at the desk or send it by registered post with acknowledgement of receipt. The service-public.fr page links to an interactive map of the platforms, in the \"Send the file\" section. Examples: in Bouches-du-Rhône, Alpes-de-Haute-Provence, Hautes-Alpes and Vaucluse, the file is sent only by post with acknowledgement of receipt to the Marseille service; in Val-de-Marne, the prefecture asks you to book an appointment by email."
+      },
+      "link": {
+        "title": {
+          "fr": "Voir où envoyer le dossier",
+          "en": "See where to send the file"
+        },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2726"
+      },
+      "condition": {
+        "question": "living_country",
+        "equals": "france"
+      },
+      "sources": [
+        "sp_f2726",
+        "pref_bdr_mariage",
+        "pref_vdm_naturalisation"
+      ],
+      "guides": [
+        "prefecture_appointment"
+      ],
+      "letters": [
+        "appointment_request"
+      ]
+    },
+    {
+      "id": "buy_stamp",
+      "phase": "before",
+      "title": {
+        "fr": "Acheter le timbre fiscal de 255 €",
+        "en": "Buy the 255 € tax stamp"
+      },
+      "body": {
+        "fr": "Achetez un timbre fiscal électronique « nationalité française » de 255 € (127,50 € en Guyane), en ligne ou dans un bureau de tabac équipé. Il est valable 1 an.",
+        "en": "Buy a 255 € \"French nationality\" electronic tax stamp (127.50 € in French Guiana), online or in an equipped tobacco shop. It is valid for 1 year."
+      },
+      "link": {
+        "title": {
+          "fr": "Comment acheter le timbre",
+          "en": "How to buy the stamp"
+        },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F32952"
+      },
+      "condition": {
+        "question": "living_country",
+        "equals": "france"
+      },
+      "sources": [
+        "sp_f2726",
+        "sp_f32952"
+      ],
+      "guides": [
+        "fiscal_stamp"
+      ]
+    },
+    {
+      "id": "submit_file",
+      "phase": "submit",
+      "title": {
+        "fr": "Déposer ou envoyer le dossier complet",
+        "en": "File or send the complete file"
+      },
+      "body": {
+        "fr": "Déposez le dossier au guichet ou envoyez-le en recommandé avec avis de réception, selon ce que demande votre plateforme. Par courrier, ajoutez une enveloppe timbrée à votre adresse et une lettre « suivie » 500 g vierge. Gardez une copie de tout le dossier et la preuve d'envoi. La préfecture des Bouches-du-Rhône indique qu'un dossier incomplet y est classé sans suite.",
+        "en": "File it at the desk or send it by registered post with acknowledgement of receipt, as your platform asks. By post, add a stamped envelope addressed to you and a blank 500 g \"suivie\" (tracked) letter. Keep a copy of the whole file and the proof of sending. The Bouches-du-Rhône prefecture says an incomplete file is closed without examination there."
+      },
+      "condition": {
+        "question": "living_country",
+        "equals": "france"
+      },
+      "sources": [
+        "sp_f2726",
+        "pref_bdr_mariage"
+      ]
+    },
+    {
+      "id": "report_changes",
+      "phase": "after",
+      "title": {
+        "fr": "Signaler tout changement de situation",
+        "en": "Report any change in your situation"
+      },
+      "body": {
+        "fr": "Après le dépôt, vous devez signaler à votre préfecture tout changement de situation, par exemple un changement d'adresse ou un divorce.",
+        "en": "After filing, you must report any change in your situation to your prefecture, for example a change of address or a divorce."
+      },
+      "condition": {
+        "question": "living_country",
+        "equals": "france"
+      },
+      "sources": [
+        "sp_f2726"
+      ]
+    },
+    {
+      "id": "missing_documents",
+      "phase": "after",
+      "title": {
+        "fr": "Répondre vite à une demande de pièces",
+        "en": "Reply quickly to a request for documents"
+      },
+      "body": {
+        "fr": "Si le dossier est incomplet, le service peut vous mettre en demeure de fournir les pièces manquantes dans un délai fixé. Sans réponse dans ce délai, le dossier peut être classé sans suite, c'est-à-dire non étudié. Un recours est possible dans les 6 mois devant le tribunal judiciaire, et une nouvelle déclaration reste possible.",
+        "en": "If the file is incomplete, the service can formally ask you to provide the missing documents within a set time. Without a reply in that time, the file can be closed without being examined. An appeal is possible within 6 months before the judicial court, and you can still make a new declaration."
+      },
+      "condition": {
+        "question": "living_country",
+        "equals": "france"
+      },
+      "sources": [
+        "sp_f2726"
+      ]
+    },
+    {
+      "id": "interview",
+      "phase": "after",
+      "title": {
+        "fr": "Passer l'entretien avec votre époux ou épouse",
+        "en": "Attend the interview with your spouse"
+      },
+      "body": {
+        "fr": "Vous êtes convoqués tous les deux à un entretien. L'agent vérifie la réalité de votre communauté de vie et votre assimilation à la société française. Apportez les originaux de vos pièces d'identité. Vous signez une attestation sur l'honneur sur votre communauté de vie depuis le mariage. Un récépissé vous est remis à la fin : gardez-le.",
+        "en": "You are both called to an interview. The officer checks that you really live together and your assimilation into French society. Bring the originals of your identity documents. You sign a sworn statement about your life together since the marriage. A receipt is given to you at the end: keep it."
+      },
+      "condition": {
+        "question": "living_country",
+        "equals": "france"
+      },
+      "sources": [
+        "sp_f2726",
+        "pref_vdm_naturalisation"
+      ]
+    },
+    {
+      "id": "follow_up",
+      "phase": "after",
+      "title": {
+        "fr": "Suivre l'instruction du dossier",
+        "en": "Follow the processing of your file"
+      },
+      "body": {
+        "fr": "La plateforme étudie la déclaration. Elle est enregistrée si toutes les conditions sont remplies ; sinon, le dossier part au ministère avec un avis motivé dans les 6 mois après la souscription. Le ministère a 1 an pour refuser l'enregistrement, ou 2 ans en cas de procédure d'opposition, à compter du récépissé remis à l'entretien. Pour l'avancement ou pour envoyer des pièces, écrivez à sdanf-accueil@interieur.gouv.fr.",
+        "en": "The platform examines the declaration. It is registered if all conditions are met; otherwise the file goes to the ministry with a reasoned opinion within 6 months after filing. The ministry has 1 year to refuse registration, or 2 years if an opposition procedure is started, counted from the receipt given at the interview. For progress or to send documents, write to sdanf-accueil@interieur.gouv.fr."
+      },
+      "condition": {
+        "question": "living_country",
+        "equals": "france"
+      },
+      "sources": [
+        "sp_f2726"
+      ],
+      "letters": [
+        "file_followup"
+      ]
+    },
+    {
+      "id": "registered",
+      "phase": "after",
+      "title": {
+        "fr": "Si la déclaration est enregistrée",
+        "en": "If the declaration is registered"
+      },
+      "body": {
+        "fr": "La préfecture vous remet un exemplaire de la déclaration avec la mention de son enregistrement. Vous êtes français(e) à partir de la date de souscription de la déclaration. Gardez ce document : il prouve votre nationalité. Vous pouvez ensuite demander une carte d'identité ou un passeport. Une personne devenue française entre 16 et 25 ans doit se faire recenser dans le mois. En cas d'erreur sur la déclaration, écrivez au ministère de l'intérieur (Rezé) ; sur un acte d'état civil, au ministère des affaires étrangères.",
+        "en": "The prefecture gives you a copy of the declaration marked as registered. You are French from the date the declaration was filed. Keep this document: it proves your nationality. You can then apply for an ID card or a passport. A person who becomes French between 16 and 25 must register for national service census within a month. If there is an error on the declaration, write to the interior ministry (Rezé); on a civil status record, to the foreign affairs ministry."
+      },
+      "condition": {
+        "question": "living_country",
+        "equals": "france"
+      },
+      "sources": [
+        "sp_f2726"
+      ]
+    },
+    {
+      "id": "refusal_appeal",
+      "phase": "after",
+      "title": {
+        "fr": "En cas de refus ou d'opposition",
+        "en": "If refused or opposed"
+      },
+      "body": {
+        "fr": "Refus d'enregistrement (une condition légale manque) : le ministère vous notifie une décision motivée ; vous avez 6 mois pour la contester devant le tribunal judiciaire de votre lieu de résidence. Opposition du ministre (indignité ou défaut d'assimilation autre que linguistique) : vous avez 2 mois pour saisir le Conseil d'État. Dans les deux cas, l'avocat est obligatoire.",
+        "en": "Refusal to register (a legal condition is missing): the ministry notifies you of a reasoned decision; you have 6 months to challenge it before the judicial court where you live. Opposition by the minister (unworthiness or lack of assimilation other than language): you have 2 months to go to the Council of State. In both cases a lawyer is required."
+      },
+      "link": {
+        "title": {
+          "fr": "Lire la rubrique recours",
+          "en": "Read the appeals section"
+        },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2726"
+      },
+      "condition": {
+        "question": "living_country",
+        "equals": "france"
+      },
+      "sources": [
+        "sp_f2726"
+      ]
+    }
+  ],
+  "deadlines": [
+    {
+      "id": "four_years_reached",
+      "relativeTo": "marriage_date",
+      "offsetDays": 1461,
+      "title": {
+        "fr": "Date à partir de laquelle vous aurez 4 ans de mariage",
+        "en": "Date from which you will have 4 years of marriage"
+      },
+      "condition": {
+        "any": [
+          {
+            "question": "residence_since_marriage",
+            "in": [
+              "always_france",
+              "more_than_3"
+            ]
+          },
+          {
+            "all": [
+              {
+                "question": "residence_since_marriage",
+                "equals": "less_than_3"
+              },
+              {
+                "question": "spouse_consular_registration",
+                "equals": "yes"
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_f2726"
+      ]
+    },
+    {
+      "id": "five_years_reached",
+      "relativeTo": "marriage_date",
+      "offsetDays": 1826,
+      "title": {
+        "fr": "Date à partir de laquelle vous aurez 5 ans de mariage",
+        "en": "Date from which you will have 5 years of marriage"
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "residence_since_marriage",
+            "equals": "less_than_3"
+          },
+          {
+            "question": "spouse_consular_registration",
+            "equals": "no"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f2726"
+      ]
+    }
+  ],
+  "outcomes": [
+    {
+      "id": "not_married_to_french",
+      "kind": "redirect",
+      "condition": {
+        "question": "spouse_nationality",
+        "equals": "not_married_to_french"
+      },
+      "title": {
+        "fr": "Cette démarche ne semble pas correspondre à votre situation",
+        "en": "This procedure does not seem to match your situation"
+      },
+      "body": {
+        "fr": "D'après service-public.fr, la déclaration par mariage concerne les personnes mariées à un(e) Français(e). La fiche ne cite ni le Pacs ni l'union libre.",
+        "en": "According to service-public.fr, the declaration by marriage is for people married to a French citizen. The page does not mention civil partnerships (Pacs) or living together."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Vérifier une autre façon de devenir français",
+            "en": "Check another way to become French"
+          },
+          "body": {
+            "fr": "Service-public.fr présente les autres procédures, par exemple la naturalisation par décret.",
+            "en": "Service-public.fr describes other procedures, for example naturalisation by decree."
+          },
+          "link": {
+            "title": {
+              "fr": "Comment obtenir la nationalité française ?",
+              "en": "How to get French nationality?"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34717"
+          }
+        },
+        {
+          "title": {
+            "fr": "Voir la naturalisation par décret",
+            "en": "See naturalisation by decree"
+          },
+          "body": {
+            "fr": "C'est une autre démarche, avec d'autres conditions (durée de résidence, examen civique).",
+            "en": "It is another procedure, with other conditions (residence period, civic exam)."
+          },
+          "link": {
+            "title": {
+              "fr": "Lire la fiche naturalisation",
+              "en": "Read the naturalisation page"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2213"
+          }
+        }
+      ],
+      "contacts": [
+        "france_services",
+        "point_justice"
+      ],
+      "letters": [],
+      "sources": [
+        "sp_f2726",
+        "sp_f34717",
+        "sp_f2213"
+      ]
+    },
+    {
+      "id": "spouse_not_french_at_marriage",
+      "kind": "redirect",
+      "condition": {
+        "question": "spouse_nationality",
+        "in": [
+          "became_french_later",
+          "lost_french"
+        ]
+      },
+      "title": {
+        "fr": "Une condition sur la nationalité de votre époux ou épouse n'est pas remplie",
+        "en": "A condition on your spouse's nationality is not met"
+      },
+      "body": {
+        "fr": "D'après service-public.fr, votre époux ou épouse doit être français(e) le jour du mariage et avoir conservé la nationalité française depuis. D'après votre réponse, ce n'est pas le cas. C'est l'administration qui examine chaque situation.",
+        "en": "According to service-public.fr, your spouse must have been French on the wedding day and must have kept French nationality since. Based on your answer, this is not the case. The administration examines each situation."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Vérifier une autre procédure",
+            "en": "Check another procedure"
+          },
+          "body": {
+            "fr": "Service-public.fr invite à vérifier si une autre procédure correspond à votre situation.",
+            "en": "Service-public.fr suggests checking whether another procedure fits your situation."
+          },
+          "link": {
+            "title": {
+              "fr": "Comment obtenir la nationalité française ?",
+              "en": "How to get French nationality?"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34717"
+          }
+        }
+      ],
+      "contacts": [
+        "france_services",
+        "point_justice"
+      ],
+      "letters": [],
+      "sources": [
+        "sp_f2726",
+        "sp_f34717"
+      ]
+    },
+    {
+      "id": "living_abroad",
+      "kind": "redirect",
+      "condition": {
+        "question": "living_country",
+        "equals": "abroad"
+      },
+      "title": {
+        "fr": "À l'étranger, le dossier se dépose au consulat",
+        "en": "Abroad, the file is filed at the consulate"
+      },
+      "body": {
+        "fr": "D'après service-public.fr, si vous vivez à l'étranger, le dossier se dépose auprès d'un consulat français et les 255 € se paient au consulat. Cette app décrit le dépôt en France.",
+        "en": "According to service-public.fr, if you live abroad, the file is filed at a French consulate and the 255 € is paid there. This app describes filing in France."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Lire la démarche « Vous vivez à l'étranger »",
+            "en": "Read the \"You live abroad\" procedure"
+          },
+          "body": {
+            "fr": "Sur la fiche, choisissez « Vous vivez à l'étranger ». Le site de votre consulat indique les moyens de paiement acceptés.",
+            "en": "On the page, choose \"You live abroad\". Your consulate's website shows accepted payment methods."
+          },
+          "link": {
+            "title": {
+              "fr": "Ouvrir la fiche service-public.fr",
+              "en": "Open the service-public.fr page"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2726"
+          }
+        }
+      ],
+      "contacts": [],
+      "letters": [],
+      "sources": [
+        "sp_f2726"
+      ]
+    },
+    {
+      "id": "marriage_too_recent_4",
+      "kind": "redirect",
+      "condition": {
+        "all": [
+          {
+            "any": [
+              {
+                "question": "residence_since_marriage",
+                "in": [
+                  "always_france",
+                  "more_than_3"
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "question": "residence_since_marriage",
+                    "equals": "less_than_3"
+                  },
+                  {
+                    "question": "spouse_consular_registration",
+                    "equals": "yes"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "question": "marriage_date",
+            "daysFromToday": {
+              "min": -1460
+            }
+          }
+        ]
+      },
+      "title": {
+        "fr": "Votre mariage semble avoir moins de 4 ans",
+        "en": "Your marriage seems to be less than 4 years old"
+      },
+      "body": {
+        "fr": "D'après service-public.fr, dans votre situation, vous devez être marié(e) depuis 4 ans au minimum à la date de votre déclaration. D'après la date indiquée, cette durée n'est pas encore atteinte. La date à partir de laquelle vous aurez 4 ans de mariage s'affiche dans vos échéances.",
+        "en": "According to service-public.fr, in your situation you must have been married for at least 4 years on the date of your declaration. Based on the date you entered, this period is not reached yet. The date when you will reach 4 years of marriage is shown in your deadlines."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Préparer le dossier en attendant",
+            "en": "Prepare the file while waiting"
+          },
+          "body": {
+            "fr": "Vous pouvez préparer le niveau B2 de français, la transcription du mariage s'il a eu lieu à l'étranger, et rassembler les preuves de vie commune. Si la date est fausse, modifiez votre réponse.",
+            "en": "You can prepare for B2 French, the transcription of the marriage if it took place abroad, and gather proof of life together. If the date is wrong, change your answer."
+          },
+          "link": {
+            "title": {
+              "fr": "Revoir les conditions",
+              "en": "Review the conditions"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2726"
+          }
+        }
+      ],
+      "contacts": [
+        "france_services",
+        "point_justice"
+      ],
+      "letters": [],
+      "sources": [
+        "sp_f2726"
+      ]
+    },
+    {
+      "id": "marriage_too_recent_5",
+      "kind": "redirect",
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "residence_since_marriage",
+                "equals": "less_than_3"
+              },
+              {
+                "question": "spouse_consular_registration",
+                "equals": "no"
+              }
+            ]
+          },
+          {
+            "question": "marriage_date",
+            "daysFromToday": {
+              "min": -1825
+            }
+          }
+        ]
+      },
+      "title": {
+        "fr": "Votre mariage semble avoir moins de 5 ans",
+        "en": "Your marriage seems to be less than 5 years old"
+      },
+      "body": {
+        "fr": "D'après service-public.fr, si vous avez vécu moins de 3 ans en France depuis le mariage et que votre époux ou épouse n'était pas inscrit(e) au registre des Français établis hors de France, la durée demandée est de 5 ans de mariage. D'après la date indiquée, elle n'est pas encore atteinte.",
+        "en": "According to service-public.fr, if you have lived less than 3 years in France since the marriage and your spouse was not registered with the French consulate, the required period is 5 years of marriage. Based on the date you entered, it is not reached yet."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Attendre la durée demandée ou revoir votre situation",
+            "en": "Wait for the required period or review your situation"
+          },
+          "body": {
+            "fr": "La durée passe à 4 ans quand vous aurez vécu plus de 3 ans de manière continue en France depuis le mariage. La date des 5 ans s'affiche dans vos échéances.",
+            "en": "The period becomes 4 years once you have lived more than 3 continuous years in France since the marriage. The 5-year date is shown in your deadlines."
+          },
+          "link": {
+            "title": {
+              "fr": "Revoir les conditions",
+              "en": "Review the conditions"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2726"
+          }
+        }
+      ],
+      "contacts": [
+        "france_services",
+        "point_justice"
+      ],
+      "letters": [],
+      "sources": [
+        "sp_f2726",
+        "lf_cc_21_2"
+      ]
+    },
+    {
+      "id": "marriage_not_transcribed",
+      "kind": "redirect",
+      "condition": {
+        "question": "marriage_place",
+        "equals": "abroad_not_transcribed"
+      },
+      "title": {
+        "fr": "Le mariage célébré à l'étranger doit d'abord être transcrit",
+        "en": "A marriage celebrated abroad must first be transcribed"
+      },
+      "body": {
+        "fr": "D'après service-public.fr, un mariage célébré à l'étranger doit avoir été transcrit sur les registres de l'état civil français. Le dossier demande la copie de cette transcription. La demande de transcription est faite par vous ou votre époux ou épouse, sans délai imposé.",
+        "en": "According to service-public.fr, a marriage celebrated abroad must have been transcribed in the French civil registers. The file asks for a copy of the transcription. You or your spouse request the transcription; there is no time limit."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Demander la transcription",
+            "en": "Request the transcription"
+          },
+          "body": {
+            "fr": "Selon le pays du mariage, la demande va au consulat de France compétent ou, pour certains pays (par exemple Algérie, Maroc, Tunisie), au Service central d'état civil à Nantes, par courrier. Il faut une copie de l'acte de mariage et un justificatif de nationalité française de votre époux ou épouse.",
+            "en": "Depending on the country of the marriage, the request goes to the competent French consulate or, for some countries (for example Algeria, Morocco, Tunisia), to the Central civil registry in Nantes, by post. You need a copy of the marriage certificate and proof of your spouse's French nationality."
+          },
+          "link": {
+            "title": {
+              "fr": "Lire la fiche « Mariage d'un Français à l'étranger »",
+              "en": "Read the \"Marriage of a French citizen abroad\" page"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F21614"
+          }
+        }
+      ],
+      "contacts": [
+        "france_services",
+        "point_justice"
+      ],
+      "letters": [],
+      "sources": [
+        "sp_f2726",
+        "sp_f21614"
+      ]
+    },
+    {
+      "id": "no_life_together",
+      "kind": "redirect",
+      "condition": {
+        "question": "life_together",
+        "equals": "no"
+      },
+      "title": {
+        "fr": "Une communauté de vie continue est demandée",
+        "en": "Continuous life together is required"
+      },
+      "body": {
+        "fr": "D'après service-public.fr, la communauté de vie avec votre époux ou épouse doit être continue depuis le mariage : vivre ensemble, matériellement et affectivement. Chacun peut avoir sa résidence, avec une adresse commune pour les documents administratifs. Elle est vérifiée à l'entretien.",
+        "en": "According to service-public.fr, your life together must have been continuous since the marriage: living together, materially and emotionally. Each spouse can have their own residence, with a shared address for administrative documents. It is checked at the interview."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Vérifier une autre procédure",
+            "en": "Check another procedure"
+          },
+          "body": {
+            "fr": "Si votre situation ne correspond pas, service-public.fr invite à vérifier les autres façons de devenir français. Si vous avez mal compris la question, modifiez votre réponse.",
+            "en": "If your situation does not match, service-public.fr suggests checking other ways to become French. If you misunderstood the question, change your answer."
+          },
+          "link": {
+            "title": {
+              "fr": "Comment obtenir la nationalité française ?",
+              "en": "How to get French nationality?"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34717"
+          }
+        }
+      ],
+      "contacts": [
+        "france_services",
+        "point_justice",
+        "defenseur_des_droits"
+      ],
+      "letters": [],
+      "sources": [
+        "sp_f2726",
+        "sp_f34717"
+      ]
+    },
+    {
+      "id": "permit_expired",
+      "kind": "redirect",
+      "condition": {
+        "question": "residence_permit_expiry",
+        "daysFromToday": {
+          "max": -1
+        }
+      },
+      "title": {
+        "fr": "Un titre de séjour valide est demandé au dépôt",
+        "en": "A valid residence permit is required when you file"
+      },
+      "body": {
+        "fr": "D'après service-public.fr, vous devez avoir un titre de séjour en cours de validité au moment du dépôt (sauf EEE et Suisse). D'après la date indiquée, votre titre est expiré.",
+        "en": "According to service-public.fr, you must have a valid residence permit when you file (except EEA and Switzerland). Based on the date you entered, your permit has expired."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Régulariser d'abord votre titre de séjour",
+            "en": "Sort out your residence permit first"
+          },
+          "body": {
+            "fr": "Renseignez-vous sur le renouvellement de votre titre, puis revenez à cette démarche. Si la date est fausse, modifiez votre réponse.",
+            "en": "Find out about renewing your permit, then come back to this procedure. If the date is wrong, change your answer."
+          },
+          "link": {
+            "title": {
+              "fr": "Revoir les conditions",
+              "en": "Review the conditions"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2726"
+          }
+        }
+      ],
+      "contacts": [
+        "prefecture_directory",
+        "france_services",
+        "point_justice"
+      ],
+      "letters": [],
+      "sources": [
+        "sp_f2726"
+      ]
+    },
+    {
+      "id": "language_test_too_old",
+      "kind": "warning",
+      "condition": {
+        "question": "language_test_date",
+        "daysFromToday": {
+          "max": -731
+        }
+      },
+      "title": {
+        "fr": "Votre attestation TCF ou TEF a plus de 2 ans",
+        "en": "Your TCF or TEF certificate is more than 2 years old"
+      },
+      "body": {
+        "fr": "D'après service-public.fr, l'attestation TCF ou TEF doit avoir été délivrée depuis moins de 2 ans. Avec la date indiquée, elle a plus de 2 ans.",
+        "en": "According to service-public.fr, the TCF or TEF certificate must have been issued less than 2 years ago. With the date you entered, it is more than 2 years old."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Repasser un test ou fournir un diplôme",
+            "en": "Retake a test or provide a diploma"
+          },
+          "body": {
+            "fr": "Un nouveau test de niveau B2, ou un diplôme accepté, peut servir de justificatif.",
+            "en": "A new B2 test, or an accepted diploma, can be used as proof."
+          },
+          "link": {
+            "title": {
+              "fr": "Justifier son niveau en français",
+              "en": "Proving your French level"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F11926"
+          }
+        }
+      ],
+      "contacts": [
+        "france_services"
+      ],
+      "letters": [],
+      "sources": [
+        "sp_f11926"
+      ]
+    },
+    {
+      "id": "language_not_yet",
+      "kind": "warning",
+      "condition": {
+        "question": "language_proof",
+        "equals": "not_yet"
+      },
+      "title": {
+        "fr": "Un justificatif de français niveau B2 est demandé",
+        "en": "Proof of B2 level French is required"
+      },
+      "body": {
+        "fr": "D'après service-public.fr, vous devez fournir un diplôme ou une attestation de niveau B2 à l'oral et à l'écrit, sauf dispense pour raison de santé ou de handicap.",
+        "en": "According to service-public.fr, you must provide a diploma or certificate showing B2 level spoken and written, unless exempted for health or disability reasons."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Passer un test TCF ou TEF",
+            "en": "Take a TCF or TEF test"
+          },
+          "body": {
+            "fr": "Service-public.fr donne les liens pour trouver un centre TCF ou TEF.",
+            "en": "Service-public.fr gives links to find a TCF or TEF centre."
+          },
+          "link": {
+            "title": {
+              "fr": "Justifier son niveau en français",
+              "en": "Proving your French level"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F11926"
+          }
+        }
+      ],
+      "contacts": [
+        "france_services"
+      ],
+      "letters": [],
+      "sources": [
+        "sp_f11926"
+      ]
+    }
+  ],
+  "reviewNotes": [
+    "Sources principales : F2726 (vérifiée le 01/05/2026), F11926 (01/01/2026), F21614 (18/06/2026), F32952 (01/05/2026). La fiche R39936 (cerfa 15277*04) est vérifiée le 24/06/2022 : la plus ancienne, à revérifier.",
+    "Langue : B2 oral et écrit pour la déclaration par mariage (F11926, rubrique mariage). Seule dispense citée : handicap ou état de santé rendant l'évaluation impossible ; la dispense « réfugié de plus de 70 ans » ne vaut que pour le décret. Aucun examen civique n'est cité par F2726 ni F11926 pour le mariage : non ajouté. Arrêtés des 22/12/2025 et 30/12/2025 cités par F11926 : non lus.",
+    "Loi du 26 janvier 2024 et décrets : effets pris via les fiches service-public à jour. Décret n°2025-648 cité par F2726. Code civil art. 21-2 lu seulement par fragments (Légifrance 403, d'après l'inventaire) ; le décret n°2026-1001 du 26/10/2026 (CESEDA) ne semble pas concerner cette démarche : non vérifié.",
+    "Durées : l'app compare la date de mariage à aujourd'hui (1460 jours pour 4 ans, 1825 pour 5 ans, échéances à +1461 et +1826 jours). Approximation de 1 à 2 jours selon les années bissextiles ; c'est la date de souscription qui compte pour l'administration. Les 4 ans sont aussi rappelés pour la transcription (« justifiant d'un mariage contracté depuis 4 ans ou plus »).",
+    "Pièce « 3 ans de résidence régulière depuis le mariage » : F2726 la demande « si vous êtes marié depuis moins de 5 ans ». Affichée seulement si le mariage a moins de 5 ans et que la personne a vécu plus de 3 ans en France (ou toujours). Le certificat d'inscription consulaire est affiché si le mariage a moins de 5 ans et que l'époux était inscrit. Interprétation à valider.",
+    "Dépôt : F2726 renvoie à une carte interactive (macarte.ign.fr, domaine hors liste) : pas de lien direct, le lien pointe vers F2726. Exemples locaux : Bouches-du-Rhône (courrier avec AR uniquement, dossier incomplet classé sans suite, pas d'accueil pour l'aide) et Val-de-Marne (rendez-vous par courriel, présence du couple à l'entretien). Ces pages n'ont pas de date de mise à jour visible.",
+    "Timbre : F32952 dit « valable 1 an à partir de sa date d'achat » ; la préfecture des Bouches-du-Rhône écrit « la durée de validité des timbres électroniques est très courte » et conseille d'acheter juste avant l'envoi. Contradiction non résolue : l'app affiche la règle de F32952.",
+    "Contacts et courriers : identifiants repris de help.json (non relu). Courrier appointment_request (prévu pour les rendez-vous préfecture) rattaché à l'étape de dépôt, utile quand la plateforme demande un rendez-vous ; file_followup rattaché au suivi, alors que F2726 indique le suivi par courriel à sdanf-accueil@interieur.gouv.fr. À valider.",
+    "Non traité : enfants mineurs qui deviennent français en même temps (effet collectif) au-delà des pièces listées ; francisation (F10528 non lue) ; cas des réfugiés pour l'acte de naissance (actes Ofpra non cités par F2726) ; conditions de casier judiciaire français (pas de question, rappel dans les conditions).",
+    "Le simulateur R64661 n'a pas été exécuté : la liste des pièces vient de F2726 seulement."
+  ]
+}

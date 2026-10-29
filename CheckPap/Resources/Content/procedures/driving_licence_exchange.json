@@ -1,0 +1,2968 @@
+{
+  "id": "driving_licence_exchange",
+  "reviewStatus": "draft",
+  "lastVerified": "2026-10-29",
+  "title": {
+    "fr": "Échanger mon permis de conduire étranger",
+    "en": "Exchange my foreign driving licence"
+  },
+  "summary": {
+    "fr": "Cette démarche explique comment échanger un permis de conduire obtenu à l'étranger contre un permis français, quand vous vous installez en France. Les règles changent selon le pays qui a délivré le permis, votre nationalité et votre titre de séjour. La demande se fait en ligne sur le site de France Titres (ANTS).",
+    "en": "This explains how to exchange a driving licence obtained abroad for a French licence when you settle in France. The rules depend on the country that issued the licence, your nationality and your residence permit. The application is made online on the France Titres (ANTS) website."
+  },
+  "sources": [
+    {
+      "id": "sp_f1460",
+      "publisher": "service-public.gouv.fr",
+      "title": "Échange de permis de conduire obtenu hors Europe (UE/EEE) - installation en France (Vérifié le 01 juin 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1460",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f1758",
+      "publisher": "service-public.gouv.fr",
+      "title": "Échange d'un permis de conduire obtenu en Europe (UE/EEE) (Vérifié le 12 mai 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1758",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f1459",
+      "publisher": "service-public.gouv.fr",
+      "title": "Conduire en France avec un permis étranger pendant un court séjour ou la durée des études (Vérifié le 01 juin 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1459",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_simulateur",
+      "publisher": "service-public.gouv.fr",
+      "title": "Vérifier si un permis de conduire non européen (UE/EEE) est échangeable contre un permis français (date de vérification non affichée)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R64185",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "ants_echange",
+      "publisher": "permisdeconduire.ants.gouv.fr",
+      "title": "Echanger un permis étranger ou obtenu dans une COM pour un permis français (aucune date affichée)",
+      "url": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne/echanger-un-permis-etranger",
+      "consulted": "2026-10-29"
+    }
+  ],
+  "questions": [
+    {
+      "id": "licence_country",
+      "kind": "single",
+      "title": {
+        "fr": "Quel pays a délivré votre permis de conduire ?",
+        "en": "Which country issued your driving licence?"
+      },
+      "help": {
+        "fr": "Les règles ne sont pas les mêmes pour un permis européen (Union européenne ou Espace économique européen) et pour un permis d'un autre pays. Pour le Royaume-Uni, tout dépend de l'année de délivrance.",
+        "en": "The rules are not the same for a European licence (European Union or European Economic Area) and for a licence from another country. For the United Kingdom, it depends on the year of issue."
+      },
+      "example": {
+        "fr": "Exemple : le nom du pays est écrit en haut de votre permis.",
+        "en": "Example: the country's name is written at the top of your licence."
+      },
+      "options": [
+        {
+          "id": "non_eu",
+          "label": {
+            "fr": "Un pays hors Union européenne et hors EEE",
+            "en": "A country outside the EU and the EEA"
+          },
+          "help": {
+            "fr": "Par exemple le Maroc, le Brésil ou les États-Unis.",
+            "en": "For example Morocco, Brazil or the United States."
+          }
+        },
+        {
+          "id": "eu_eea",
+          "label": {
+            "fr": "Un pays de l'Union européenne ou de l'EEE",
+            "en": "A country in the EU or the EEA"
+          },
+          "help": {
+            "fr": "L'EEE regroupe l'Union européenne, l'Islande, le Liechtenstein et la Norvège.",
+            "en": "The EEA is the European Union plus Iceland, Liechtenstein and Norway."
+          }
+        },
+        {
+          "id": "uk_before_2021",
+          "label": {
+            "fr": "Le Royaume-Uni, permis délivré avant 2021",
+            "en": "The United Kingdom, licence issued before 2021"
+          }
+        },
+        {
+          "id": "uk_2021_after",
+          "label": {
+            "fr": "Le Royaume-Uni, permis délivré en 2021 ou après",
+            "en": "The United Kingdom, licence issued in 2021 or later"
+          },
+          "help": {
+            "fr": "Service-public indique que ce permis suit les règles des permis non européens.",
+            "en": "Service-public says this licence follows the rules for non-European licences."
+          }
+        }
+      ],
+      "condition": null,
+      "sources": [
+        "sp_f1460",
+        "sp_f1758"
+      ]
+    },
+    {
+      "id": "nationality",
+      "kind": "single",
+      "title": {
+        "fr": "Quelle est votre nationalité ?",
+        "en": "What is your nationality?"
+      },
+      "help": {
+        "fr": "Les délais et les pièces demandées changent selon votre nationalité.",
+        "en": "The deadlines and the documents requested depend on your nationality."
+      },
+      "example": {
+        "fr": "Exemple : vous êtes tunisien avec un permis tunisien : choisissez « Une autre nationalité ».",
+        "en": "Example: you are Tunisian with a Tunisian licence: choose \"Another nationality\"."
+      },
+      "options": [
+        {
+          "id": "non_eu",
+          "label": {
+            "fr": "Une autre nationalité (hors Europe)",
+            "en": "Another nationality (outside Europe)"
+          },
+          "help": {
+            "fr": "Vous avez un titre de séjour ou un visa long séjour en France.",
+            "en": "You have a residence permit or a long-stay visa in France."
+          }
+        },
+        {
+          "id": "european",
+          "label": {
+            "fr": "Européenne (UE, EEE, Andorre, Monaco, Suisse)",
+            "en": "European (EU, EEA, Andorra, Monaco, Switzerland)"
+          }
+        },
+        {
+          "id": "french",
+          "label": {
+            "fr": "Française",
+            "en": "French"
+          },
+          "help": {
+            "fr": "Par exemple si vous êtes devenu français.",
+            "en": "For example if you became French."
+          }
+        }
+      ],
+      "condition": null,
+      "sources": [
+        "sp_f1460",
+        "sp_f1758",
+        "ants_echange"
+      ]
+    },
+    {
+      "id": "stay_situation",
+      "kind": "single",
+      "title": {
+        "fr": "Quelle est votre situation de séjour en France ?",
+        "en": "What is your residence situation in France?"
+      },
+      "help": {
+        "fr": "Pour un permis non européen, le délai d'1 an pour demander l'échange se compte à partir de votre premier titre de séjour. Les étudiants ont des règles à part.",
+        "en": "For a non-European licence, the 1-year deadline to request the exchange starts from your first residence permit. Students have separate rules."
+      },
+      "example": {
+        "fr": "Exemple : vous êtes arrivé avec un visa long séjour « salarié » validé en ligne : choisissez « Visa long séjour valant titre de séjour ».",
+        "en": "Example: you arrived with a long-stay \"employee\" visa validated online: choose \"Long-stay visa equivalent to a residence permit\"."
+      },
+      "options": [
+        {
+          "id": "first_permit",
+          "label": {
+            "fr": "J'ai mon premier titre de séjour",
+            "en": "I have my first residence permit"
+          },
+          "help": {
+            "fr": "Une carte de séjour, qui n'est pas une carte étudiant.",
+            "en": "A residence card that is not a student card."
+          }
+        },
+        {
+          "id": "vls_ts",
+          "label": {
+            "fr": "Visa long séjour valant titre de séjour (VLS-TS)",
+            "en": "Long-stay visa equivalent to a residence permit (VLS-TS)"
+          }
+        },
+        {
+          "id": "protection",
+          "label": {
+            "fr": "Réfugié, protection subsidiaire ou apatride",
+            "en": "Refugee, subsidiary protection or stateless"
+          },
+          "help": {
+            "fr": "Vous avez reçu un récépissé qui reconnaît la protection (Ofpra).",
+            "en": "You received a receipt recognising the protection (Ofpra)."
+          }
+        },
+        {
+          "id": "student_rece",
+          "label": {
+            "fr": "Titre étudiant ou carte « recherche d'emploi / création d'entreprise »",
+            "en": "Student permit or \"job search / business creation\" card"
+          }
+        },
+        {
+          "id": "former_student",
+          "label": {
+            "fr": "J'étais étudiant et j'ai maintenant un autre titre",
+            "en": "I was a student and now have another permit"
+          },
+          "help": {
+            "fr": "Par exemple un titre « salarié » après vos études.",
+            "en": "For example an \"employee\" permit after your studies."
+          }
+        },
+        {
+          "id": "later_permit",
+          "label": {
+            "fr": "J'ai déjà renouvelé ou changé de titre",
+            "en": "I have already renewed or changed my permit"
+          },
+          "help": {
+            "fr": "Ce n'est plus votre premier titre de séjour.",
+            "en": "This is no longer your first residence permit."
+          }
+        },
+        {
+          "id": "short_stay",
+          "label": {
+            "fr": "Je suis en France pour un court séjour (moins de 6 mois)",
+            "en": "I am in France for a short stay (less than 6 months)"
+          },
+          "help": {
+            "fr": "Par exemple pour des vacances.",
+            "en": "For example on holiday."
+          }
+        }
+      ],
+      "condition": {
+        "all": [
+          {
+            "question": "licence_country",
+            "in": [
+              "non_eu",
+              "uk_2021_after"
+            ]
+          },
+          {
+            "question": "nationality",
+            "equals": "non_eu"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f1460",
+        "sp_f1459"
+      ]
+    },
+    {
+      "id": "first_title_date",
+      "kind": "date",
+      "title": {
+        "fr": "À quelle date avez-vous reçu ce titre ?",
+        "en": "On what date did you receive this permit?"
+      },
+      "help": {
+        "fr": "Premier titre : la date où la carte vous a été remise. VLS-TS : la date de validation en ligne du visa, ou la date de la vignette OFII. Réfugié ou protégé : la date de remise du récépissé. Ancien étudiant : la date de remise de votre nouveau titre. Titre déjà renouvelé : la date de remise de votre tout premier titre.",
+        "en": "First permit: the date the card was handed to you. VLS-TS: the date the visa was validated online, or the date of the OFII sticker. Refugee or protected person: the date the receipt was handed to you. Former student: the date your new permit was handed to you. Permit already renewed: the date your very first permit was handed to you."
+      },
+      "example": {
+        "fr": "Exemple : vous avez récupéré votre carte en préfecture le 15 mars 2026 : indiquez cette date.",
+        "en": "Example: you collected your card at the prefecture on 15 March 2026: enter that date."
+      },
+      "condition": {
+        "question": "stay_situation",
+        "in": [
+          "first_permit",
+          "vls_ts",
+          "protection",
+          "former_student",
+          "later_permit"
+        ]
+      },
+      "sources": [
+        "sp_f1460",
+        "sp_f1459"
+      ]
+    },
+    {
+      "id": "eu_reason",
+      "kind": "single",
+      "title": {
+        "fr": "Pourquoi voulez-vous échanger votre permis ?",
+        "en": "Why do you want to exchange your licence?"
+      },
+      "help": {
+        "fr": "Service-public indique qu'avec un permis européen (ou britannique délivré avant 2021) en cours de validité, vous pouvez conduire en France. L'échange est obligatoire seulement dans certains cas.",
+        "en": "Service-public says that with a valid European licence (or a UK licence issued before 2021), you can drive in France. The exchange is only compulsory in some cases."
+      },
+      "example": {
+        "fr": "Exemple : votre permis espagnol arrive bientôt à la fin de sa validité.",
+        "en": "Example: your Spanish licence will soon reach the end of its validity."
+      },
+      "options": [
+        {
+          "id": "expiring",
+          "label": {
+            "fr": "Mon permis arrive à la fin de sa validité",
+            "en": "My licence is reaching the end of its validity"
+          }
+        },
+        {
+          "id": "new_category",
+          "label": {
+            "fr": "Je demande une nouvelle catégorie de permis",
+            "en": "I am applying for a new licence category"
+          }
+        },
+        {
+          "id": "offence",
+          "label": {
+            "fr": "J'ai commis une infraction en France (perte de points, suspension...)",
+            "en": "I committed an offence in France (points lost, suspension...)"
+          }
+        },
+        {
+          "id": "lost",
+          "label": {
+            "fr": "J'ai perdu mon permis",
+            "en": "I lost my licence"
+          }
+        },
+        {
+          "id": "stolen",
+          "label": {
+            "fr": "On m'a volé mon permis",
+            "en": "My licence was stolen"
+          }
+        },
+        {
+          "id": "damaged",
+          "label": {
+            "fr": "Mon permis est abîmé",
+            "en": "My licence is damaged"
+          }
+        },
+        {
+          "id": "none",
+          "label": {
+            "fr": "Aucun de ces cas",
+            "en": "None of these"
+          }
+        }
+      ],
+      "condition": {
+        "question": "licence_country",
+        "in": [
+          "eu_eea",
+          "uk_before_2021"
+        ]
+      },
+      "sources": [
+        "sp_f1758"
+      ]
+    },
+    {
+      "id": "reciprocity_check",
+      "kind": "single",
+      "title": {
+        "fr": "Votre permis peut-il être échangé contre un permis français ?",
+        "en": "Can your licence be exchanged for a French licence?"
+      },
+      "help": {
+        "fr": "L'échange est possible seulement si le pays qui a délivré le permis pratique l'échange avec la France pour cette catégorie. Service-public propose un simulateur qui vous donne la réponse selon le pays.",
+        "en": "The exchange is only possible if the country that issued the licence exchanges licences with France for that category. Service-public offers a simulator that gives you the answer by country."
+      },
+      "example": {
+        "fr": "Exemple : vous choisissez votre pays et la catégorie B dans le simulateur, puis vous lisez le résultat.",
+        "en": "Example: you choose your country and category B in the simulator, then read the result."
+      },
+      "options": [
+        {
+          "id": "exchangeable",
+          "label": {
+            "fr": "Oui, le simulateur dit qu'il est échangeable",
+            "en": "Yes, the simulator says it can be exchanged"
+          }
+        },
+        {
+          "id": "not_exchangeable",
+          "label": {
+            "fr": "Non, le simulateur dit qu'il n'est pas échangeable",
+            "en": "No, the simulator says it cannot be exchanged"
+          }
+        },
+        {
+          "id": "not_checked",
+          "label": {
+            "fr": "Je n'ai pas encore vérifié",
+            "en": "I have not checked yet"
+          }
+        }
+      ],
+      "condition": {
+        "all": [
+          {
+            "question": "licence_country",
+            "in": [
+              "non_eu",
+              "uk_2021_after"
+            ]
+          },
+          {
+            "not": {
+              "question": "stay_situation",
+              "in": [
+                "student_rece",
+                "short_stay"
+              ]
+            }
+          }
+        ]
+      },
+      "sources": [
+        "sp_f1460",
+        "sp_simulateur"
+      ]
+    },
+    {
+      "id": "licence_valid",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Votre permis est-il encore valide ?",
+        "en": "Is your licence still valid?"
+      },
+      "help": {
+        "fr": "Pour un permis non européen, service-public demande un permis en cours de validité.",
+        "en": "For a non-European licence, service-public requires a licence that is still valid."
+      },
+      "example": {
+        "fr": "Exemple : regardez la date de fin de validité écrite sur le permis.",
+        "en": "Example: look at the expiry date written on the licence."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "licence_country",
+            "in": [
+              "non_eu",
+              "uk_2021_after"
+            ]
+          },
+          {
+            "not": {
+              "question": "stay_situation",
+              "in": [
+                "student_rece",
+                "short_stay"
+              ]
+            }
+          }
+        ]
+      },
+      "sources": [
+        "sp_f1460"
+      ]
+    },
+    {
+      "id": "obtained_while_resident",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Viviez-vous dans le pays qui a délivré le permis quand vous l'avez obtenu ?",
+        "en": "Were you living in the country that issued the licence when you obtained it?"
+      },
+      "help": {
+        "fr": "Service-public demande que le permis ait été délivré par le pays où vous aviez votre résidence normale avant de vous installer en France, et que vous y ayez réussi l'examen.",
+        "en": "Service-public requires the licence to have been issued by the country where you normally lived before settling in France, and that you passed the test there."
+      },
+      "example": {
+        "fr": "Exemple : vous avez passé votre permis au Sénégal quand vous habitiez à Dakar : répondez oui.",
+        "en": "Example: you passed your test in Senegal when you lived in Dakar: answer yes."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "licence_country",
+            "in": [
+              "non_eu",
+              "uk_2021_after"
+            ]
+          },
+          {
+            "not": {
+              "question": "stay_situation",
+              "in": [
+                "student_rece",
+                "short_stay"
+              ]
+            }
+          }
+        ]
+      },
+      "sources": [
+        "sp_f1460"
+      ]
+    },
+    {
+      "id": "same_nationality",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Avez-vous la nationalité du pays qui a délivré le permis ?",
+        "en": "Do you have the nationality of the country that issued the licence?"
+      },
+      "help": {
+        "fr": "Si ce n'est pas le cas, une preuve que vous viviez dans ce pays quand le permis a été délivré est demandée.",
+        "en": "If not, proof that you lived in that country when the licence was issued is requested."
+      },
+      "example": {
+        "fr": "Exemple : vous êtes marocain et votre permis est algérien : répondez non.",
+        "en": "Example: you are Moroccan and your licence is Algerian: answer no."
+      },
+      "condition": {
+        "any": [
+          {
+            "all": [
+              {
+                "question": "licence_country",
+                "in": [
+                  "non_eu",
+                  "uk_2021_after"
+                ]
+              },
+              {
+                "not": {
+                  "question": "stay_situation",
+                  "in": [
+                    "student_rece",
+                    "short_stay"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "question": "licence_country",
+            "equals": "uk_before_2021"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f1460",
+        "sp_f1758",
+        "ants_echange"
+      ]
+    },
+    {
+      "id": "licence_in_french",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Votre permis est-il écrit en français ?",
+        "en": "Is your licence written in French?"
+      },
+      "help": {
+        "fr": "Sinon, une traduction est demandée.",
+        "en": "If not, a translation is requested."
+      },
+      "example": {
+        "fr": "Exemple : un permis écrit seulement en arabe ou en anglais : répondez non.",
+        "en": "Example: a licence written only in Arabic or English: answer no."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "licence_country",
+            "in": [
+              "non_eu",
+              "uk_2021_after"
+            ]
+          },
+          {
+            "not": {
+              "question": "stay_situation",
+              "in": [
+                "student_rece",
+                "short_stay"
+              ]
+            }
+          }
+        ]
+      },
+      "sources": [
+        "sp_f1460"
+      ]
+    },
+    {
+      "id": "heavy_categories",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Votre permis comporte-t-il des catégories « lourdes » (camion, bus) ?",
+        "en": "Does your licence include \"heavy\" categories (lorry, bus)?"
+      },
+      "help": {
+        "fr": "Pour ces catégories, un avis médical ou une déclaration de renonciation est demandé.",
+        "en": "For these categories, a medical opinion or a waiver declaration is requested."
+      },
+      "example": {
+        "fr": "Exemple : catégories C ou D sur votre permis.",
+        "en": "Example: categories C or D on your licence."
+      },
+      "condition": {
+        "any": [
+          {
+            "all": [
+              {
+                "question": "licence_country",
+                "in": [
+                  "non_eu",
+                  "uk_2021_after"
+                ]
+              },
+              {
+                "not": {
+                  "question": "stay_situation",
+                  "in": [
+                    "student_rece",
+                    "short_stay"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "question": "licence_country",
+            "in": [
+              "eu_eea",
+              "uk_before_2021"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_f1460",
+        "sp_f1758"
+      ]
+    },
+    {
+      "id": "suspended",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Votre permis a-t-il été annulé ou suspendu ?",
+        "en": "Has your licence been cancelled or suspended?"
+      },
+      "help": {
+        "fr": "Dans ce cas, la décision, le courrier de la préfecture sur l'obligation d'échange et un avis médical sont demandés.",
+        "en": "In that case, the decision, the prefecture's letter about the obligation to exchange and a medical opinion are requested."
+      },
+      "example": {
+        "fr": "Exemple : vous avez reçu une décision de suspension après une infraction.",
+        "en": "Example: you received a suspension decision after an offence."
+      },
+      "condition": {
+        "any": [
+          {
+            "all": [
+              {
+                "question": "licence_country",
+                "in": [
+                  "non_eu",
+                  "uk_2021_after"
+                ]
+              },
+              {
+                "not": {
+                  "question": "stay_situation",
+                  "in": [
+                    "student_rece",
+                    "short_stay"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "question": "licence_country",
+            "in": [
+              "eu_eea",
+              "uk_before_2021"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_f1460",
+        "sp_f1758"
+      ]
+    },
+    {
+      "id": "has_ephoto",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Avez-vous déjà un code e-photo (photo et signature numériques) ?",
+        "en": "Do you already have an e-photo code (digital photo and signature)?"
+      },
+      "help": {
+        "fr": "Le site de l'ANTS demande un code e-photo obtenu chez un photographe habilité. Sans ce code, un formulaire photo-signature à envoyer par courrier vous est proposé.",
+        "en": "The ANTS website asks for an e-photo code from an approved photographer. Without this code, you are offered a photo-signature form to send by post."
+      },
+      "example": {
+        "fr": "Exemple : le photographe habilité vous a remis un code e-photo avec vos photos.",
+        "en": "Example: the approved photographer gave you an e-photo code with your photos."
+      },
+      "condition": {
+        "any": [
+          {
+            "all": [
+              {
+                "question": "licence_country",
+                "in": [
+                  "non_eu",
+                  "uk_2021_after"
+                ]
+              },
+              {
+                "not": {
+                  "question": "stay_situation",
+                  "in": [
+                    "student_rece",
+                    "short_stay"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "question": "licence_country",
+            "in": [
+              "eu_eea",
+              "uk_before_2021"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "ants_echange",
+        "sp_f1460",
+        "sp_f1758"
+      ]
+    }
+  ],
+  "documents": [
+    {
+      "id": "licence_scan",
+      "category": "identity",
+      "title": {
+        "fr": "Votre permis de conduire (recto et verso)",
+        "en": "Your driving licence (front and back)"
+      },
+      "details": {
+        "fr": "Une image en couleur du recto et du verso du permis original, photographiée ou numérisée. Le service peut demander l'original si nécessaire.",
+        "en": "A colour image of the front and back of the original licence, photographed or scanned. The service may ask for the original if needed."
+      },
+      "tip": {
+        "fr": "Gardez l'original : à la fin de l'instruction, il vous est demandé par courrier recommandé.",
+        "en": "Keep the original: at the end of the review, you will be asked to send it by registered post."
+      },
+      "condition": {
+        "any": [
+          {
+            "all": [
+              {
+                "question": "licence_country",
+                "in": [
+                  "non_eu",
+                  "uk_2021_after"
+                ]
+              },
+              {
+                "not": {
+                  "question": "stay_situation",
+                  "in": [
+                    "student_rece",
+                    "short_stay"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "question": "licence_country",
+                "in": [
+                  "eu_eea",
+                  "uk_before_2021"
+                ]
+              },
+              {
+                "not": {
+                  "question": "eu_reason",
+                  "equals": "none"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_f1460",
+        "sp_f1758",
+        "ants_echange"
+      ]
+    },
+    {
+      "id": "licence_translation",
+      "category": "identity",
+      "title": {
+        "fr": "Traduction du permis",
+        "en": "Translation of the licence"
+      },
+      "details": {
+        "fr": "Si la traduction est faite à l'étranger, elle doit être légalisée ou apostillée. Si elle est faite en France, elle doit l'être par un traducteur habilité ou par l'ambassade en France du pays qui a délivré le permis.",
+        "en": "If the translation is made abroad, it must be legalised or apostilled. If made in France, it must be done by an approved translator or by the embassy in France of the country that issued the licence."
+      },
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "licence_country",
+                "in": [
+                  "non_eu",
+                  "uk_2021_after"
+                ]
+              },
+              {
+                "not": {
+                  "question": "stay_situation",
+                  "in": [
+                    "student_rece",
+                    "short_stay"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "question": "licence_in_french",
+            "equals": "no"
+          }
+        ]
+      },
+      "guides": [
+        "sworn_translation",
+        "legalisation_apostille"
+      ],
+      "sources": [
+        "sp_f1460"
+      ]
+    },
+    {
+      "id": "identity_proof",
+      "category": "identity",
+      "title": {
+        "fr": "Justificatif d'identité",
+        "en": "Proof of identity"
+      },
+      "details": {
+        "fr": "Par exemple votre passeport ou votre carte d'identité.",
+        "en": "For example your passport or your identity card."
+      },
+      "condition": {
+        "any": [
+          {
+            "all": [
+              {
+                "question": "licence_country",
+                "in": [
+                  "non_eu",
+                  "uk_2021_after"
+                ]
+              },
+              {
+                "not": {
+                  "question": "stay_situation",
+                  "in": [
+                    "student_rece",
+                    "short_stay"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "question": "licence_country",
+                "in": [
+                  "eu_eea",
+                  "uk_before_2021"
+                ]
+              },
+              {
+                "not": {
+                  "question": "eu_reason",
+                  "equals": "none"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_f1460",
+        "sp_f1758",
+        "ants_echange"
+      ]
+    },
+    {
+      "id": "address_proof",
+      "category": "address",
+      "title": {
+        "fr": "Justificatif de domicile de moins de 6 mois",
+        "en": "Proof of address less than 6 months old"
+      },
+      "details": {
+        "fr": "Service-public a une page qui liste les justificatifs de domicile acceptés pour le permis de conduire.",
+        "en": "Service-public has a page listing the proofs of address accepted for a driving licence."
+      },
+      "condition": {
+        "any": [
+          {
+            "all": [
+              {
+                "question": "licence_country",
+                "in": [
+                  "non_eu",
+                  "uk_2021_after"
+                ]
+              },
+              {
+                "not": {
+                  "question": "stay_situation",
+                  "in": [
+                    "student_rece",
+                    "short_stay"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "question": "licence_country",
+                "in": [
+                  "eu_eea",
+                  "uk_before_2021"
+                ]
+              },
+              {
+                "not": {
+                  "question": "eu_reason",
+                  "equals": "none"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_f1460",
+        "sp_f1758",
+        "ants_echange"
+      ]
+    },
+    {
+      "id": "residence_permit",
+      "category": "residence",
+      "title": {
+        "fr": "Titre de séjour ou vignette OFII",
+        "en": "Residence permit or OFII sticker"
+      },
+      "details": {
+        "fr": "Une preuve que votre séjour en France est régulier : titre de séjour en cours de validité, ou vignette OFII collée sur votre passeport.",
+        "en": "Proof that you are legally staying in France: a valid residence permit, or the OFII sticker on your passport."
+      },
+      "condition": {
+        "all": [
+          {
+            "any": [
+              {
+                "all": [
+                  {
+                    "question": "licence_country",
+                    "in": [
+                      "non_eu",
+                      "uk_2021_after"
+                    ]
+                  },
+                  {
+                    "not": {
+                      "question": "stay_situation",
+                      "in": [
+                        "student_rece",
+                        "short_stay"
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "question": "licence_country",
+                    "in": [
+                      "eu_eea",
+                      "uk_before_2021"
+                    ]
+                  },
+                  {
+                    "not": {
+                      "question": "eu_reason",
+                      "equals": "none"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "question": "nationality",
+            "equals": "non_eu"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f1460",
+        "sp_f1758",
+        "ants_echange"
+      ]
+    },
+    {
+      "id": "ephoto_code",
+      "category": "photo",
+      "title": {
+        "fr": "Code e-photo (photo et signature numériques)",
+        "en": "E-photo code (digital photo and signature)"
+      },
+      "details": {
+        "fr": "Le code est obtenu chez un photographe ou dans une cabine habilités. Si vous n'avez pas accès à ce service, un formulaire photo-signature (FPS) à envoyer par courrier vous est proposé pendant la démarche en ligne.",
+        "en": "The code is obtained from an approved photographer or photo booth. If you cannot use this service, a photo-signature form (FPS) to send by post is offered during the online application."
+      },
+      "tip": {
+        "fr": "L'ANTS parle d'une photo de moins de 6 mois.",
+        "en": "ANTS mentions a photo less than 6 months old."
+      },
+      "condition": {
+        "any": [
+          {
+            "all": [
+              {
+                "question": "licence_country",
+                "in": [
+                  "non_eu",
+                  "uk_2021_after"
+                ]
+              },
+              {
+                "not": {
+                  "question": "stay_situation",
+                  "in": [
+                    "student_rece",
+                    "short_stay"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "question": "licence_country",
+                "in": [
+                  "eu_eea",
+                  "uk_before_2021"
+                ]
+              },
+              {
+                "not": {
+                  "question": "eu_reason",
+                  "equals": "none"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "guides": [
+        "ephoto"
+      ],
+      "sources": [
+        "sp_f1460",
+        "sp_f1758",
+        "ants_echange"
+      ]
+    },
+    {
+      "id": "driving_rights_certificate",
+      "category": "other",
+      "title": {
+        "fr": "Attestation des droits à conduire de moins de 6 mois",
+        "en": "Certificate of driving entitlement less than 6 months old"
+      },
+      "details": {
+        "fr": "Elle est délivrée par les autorités du pays qui a délivré le permis. Elle montre que votre permis n'a pas été suspendu, retiré ou annulé. Elle doit avoir moins de 6 mois à la date de la demande.",
+        "en": "It is issued by the authorities of the country that issued the licence. It shows that your licence has not been suspended, withdrawn or cancelled. It must be less than 6 months old on the date of the application."
+      },
+      "tip": {
+        "fr": "Service-public ne la demande pas aux réfugiés, protégés subsidiaires et apatrides.",
+        "en": "Service-public does not ask refugees, people with subsidiary protection and stateless people for it."
+      },
+      "condition": {
+        "any": [
+          {
+            "all": [
+              {
+                "all": [
+                  {
+                    "question": "licence_country",
+                    "in": [
+                      "non_eu",
+                      "uk_2021_after"
+                    ]
+                  },
+                  {
+                    "not": {
+                      "question": "stay_situation",
+                      "in": [
+                        "student_rece",
+                        "short_stay"
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "not": {
+                  "question": "stay_situation",
+                  "equals": "protection"
+                }
+              }
+            ]
+          },
+          {
+            "question": "licence_country",
+            "equals": "uk_before_2021"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f1460",
+        "sp_f1758",
+        "ants_echange"
+      ]
+    },
+    {
+      "id": "certificate_translation",
+      "category": "other",
+      "title": {
+        "fr": "Traduction de l'attestation des droits à conduire",
+        "en": "Translation of the certificate of driving entitlement"
+      },
+      "details": {
+        "fr": "Seulement si l'attestation n'est pas écrite en français. Elle doit être traduite par un traducteur habilité en France.",
+        "en": "Only if the certificate is not written in French. It must be translated by an approved translator in France."
+      },
+      "condition": {
+        "any": [
+          {
+            "all": [
+              {
+                "all": [
+                  {
+                    "question": "licence_country",
+                    "in": [
+                      "non_eu",
+                      "uk_2021_after"
+                    ]
+                  },
+                  {
+                    "not": {
+                      "question": "stay_situation",
+                      "in": [
+                        "student_rece",
+                        "short_stay"
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "not": {
+                  "question": "stay_situation",
+                  "equals": "protection"
+                }
+              }
+            ]
+          },
+          {
+            "question": "licence_country",
+            "equals": "uk_before_2021"
+          }
+        ]
+      },
+      "guides": [
+        "sworn_translation"
+      ],
+      "sources": [
+        "sp_f1460",
+        "sp_f1758",
+        "ants_echange"
+      ]
+    },
+    {
+      "id": "foreign_residence_proof",
+      "category": "other",
+      "title": {
+        "fr": "Preuve que vous viviez dans le pays qui a délivré le permis",
+        "en": "Proof that you lived in the country that issued the licence"
+      },
+      "details": {
+        "fr": "Une preuve de votre résidence normale dans ce pays au moment où le permis a été délivré.",
+        "en": "Proof that you normally lived in that country when the licence was issued."
+      },
+      "example": {
+        "fr": "Exemple : attestation d'inscription et de radiation des registres consulaires, contrat de travail, fiches de paie, attestations de travail.",
+        "en": "Example: certificate of registration and removal from the consular register, employment contract, payslips, work certificates."
+      },
+      "condition": {
+        "all": [
+          {
+            "any": [
+              {
+                "all": [
+                  {
+                    "question": "licence_country",
+                    "in": [
+                      "non_eu",
+                      "uk_2021_after"
+                    ]
+                  },
+                  {
+                    "not": {
+                      "question": "stay_situation",
+                      "in": [
+                        "student_rece",
+                        "short_stay"
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "question": "licence_country",
+                "equals": "uk_before_2021"
+              }
+            ]
+          },
+          {
+            "question": "same_nationality",
+            "equals": "no"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f1460",
+        "sp_f1758",
+        "ants_echange"
+      ]
+    },
+    {
+      "id": "france_residence_proof",
+      "category": "address",
+      "title": {
+        "fr": "Preuve de votre résidence normale en France",
+        "en": "Proof that you normally live in France"
+      },
+      "details": {
+        "fr": "Un document qui montre que vous vivez en France à la date de la demande.",
+        "en": "A document showing that you live in France on the date of the application."
+      },
+      "example": {
+        "fr": "Exemple : avis d'imposition ou de non-imposition, contrat de travail, attestation de sécurité sociale.",
+        "en": "Example: tax or non-tax notice, employment contract, social security certificate."
+      },
+      "condition": {
+        "all": [
+          {
+            "any": [
+              {
+                "all": [
+                  {
+                    "question": "licence_country",
+                    "in": [
+                      "non_eu",
+                      "uk_2021_after"
+                    ]
+                  },
+                  {
+                    "not": {
+                      "question": "stay_situation",
+                      "in": [
+                        "student_rece",
+                        "short_stay"
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "question": "licence_country",
+                    "in": [
+                      "eu_eea",
+                      "uk_before_2021"
+                    ]
+                  },
+                  {
+                    "not": {
+                      "question": "eu_reason",
+                      "equals": "none"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "question": "nationality",
+            "equals": "european"
+          }
+        ]
+      },
+      "guides": [
+        "tax_documents"
+      ],
+      "sources": [
+        "sp_f1460",
+        "sp_f1758"
+      ]
+    },
+    {
+      "id": "arrival_date_proof",
+      "category": "other",
+      "title": {
+        "fr": "Preuve de votre date d'arrivée en France",
+        "en": "Proof of your arrival date in France"
+      },
+      "example": {
+        "fr": "Exemple : carte d'embarquement, affiliation à la sécurité sociale.",
+        "en": "Example: boarding pass, social security registration."
+      },
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "licence_country",
+                "in": [
+                  "non_eu",
+                  "uk_2021_after"
+                ]
+              },
+              {
+                "not": {
+                  "question": "stay_situation",
+                  "in": [
+                    "student_rece",
+                    "short_stay"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "question": "nationality",
+            "equals": "european"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f1460"
+      ]
+    },
+    {
+      "id": "return_date_proof",
+      "category": "other",
+      "title": {
+        "fr": "Preuve de votre date de retour en France",
+        "en": "Proof of your return date to France"
+      },
+      "example": {
+        "fr": "Exemple : attestation de radiation des registres consulaires, inscription à France Travail, contrat de travail, attestation de sécurité sociale.",
+        "en": "Example: certificate of removal from the consular register, France Travail registration, employment contract, social security certificate."
+      },
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "licence_country",
+                "in": [
+                  "non_eu",
+                  "uk_2021_after"
+                ]
+              },
+              {
+                "not": {
+                  "question": "stay_situation",
+                  "in": [
+                    "student_rece",
+                    "short_stay"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "question": "nationality",
+            "equals": "french"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f1460"
+      ]
+    },
+    {
+      "id": "naturalisation_decree",
+      "category": "civil_status",
+      "title": {
+        "fr": "Décret de naturalisation ou déclaration de nationalité",
+        "en": "Naturalisation decree or nationality declaration"
+      },
+      "details": {
+        "fr": "Le site de l'ANTS le demande si vous avez acquis la nationalité française.",
+        "en": "The ANTS website asks for it if you acquired French nationality."
+      },
+      "condition": {
+        "all": [
+          {
+            "any": [
+              {
+                "all": [
+                  {
+                    "question": "licence_country",
+                    "in": [
+                      "non_eu",
+                      "uk_2021_after"
+                    ]
+                  },
+                  {
+                    "not": {
+                      "question": "stay_situation",
+                      "in": [
+                        "student_rece",
+                        "short_stay"
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "question": "licence_country",
+                    "in": [
+                      "eu_eea",
+                      "uk_before_2021"
+                    ]
+                  },
+                  {
+                    "not": {
+                      "question": "eu_reason",
+                      "equals": "none"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "question": "nationality",
+            "equals": "french"
+          }
+        ]
+      },
+      "sources": [
+        "ants_echange"
+      ]
+    },
+    {
+      "id": "jdc_certificate",
+      "category": "other",
+      "title": {
+        "fr": "Document sur la journée défense et citoyenneté (JDC)",
+        "en": "Defence and citizenship day (JDC) document"
+      },
+      "details": {
+        "fr": "Seulement si vous êtes français et avez entre 17 ans et 25 ans (avant vos 25 ans) : certificat de participation à la JDC, attestation d'exemption, ou attestation de situation vis-à-vis du service national.",
+        "en": "Only if you are French and aged 17 to 25 (before your 25th birthday): JDC participation certificate, exemption certificate, or certificate of status regarding national service."
+      },
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "licence_country",
+                "in": [
+                  "non_eu",
+                  "uk_2021_after"
+                ]
+              },
+              {
+                "not": {
+                  "question": "stay_situation",
+                  "in": [
+                    "student_rece",
+                    "short_stay"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "question": "nationality",
+            "equals": "french"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f1460"
+      ]
+    },
+    {
+      "id": "heavy_medical",
+      "category": "other",
+      "title": {
+        "fr": "Avis médical pour les catégories lourdes",
+        "en": "Medical opinion for heavy categories"
+      },
+      "details": {
+        "fr": "Un avis médical d'aptitude à la conduite des catégories lourdes, ou une déclaration de renonciation à ces catégories.",
+        "en": "A medical fitness opinion for heavy categories, or a declaration giving up these categories."
+      },
+      "condition": {
+        "all": [
+          {
+            "any": [
+              {
+                "all": [
+                  {
+                    "question": "licence_country",
+                    "in": [
+                      "non_eu",
+                      "uk_2021_after"
+                    ]
+                  },
+                  {
+                    "not": {
+                      "question": "stay_situation",
+                      "in": [
+                        "student_rece",
+                        "short_stay"
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "question": "licence_country",
+                    "in": [
+                      "eu_eea",
+                      "uk_before_2021"
+                    ]
+                  },
+                  {
+                    "not": {
+                      "question": "eu_reason",
+                      "equals": "none"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "question": "heavy_categories",
+            "equals": "yes"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f1460",
+        "sp_f1758",
+        "ants_echange"
+      ]
+    },
+    {
+      "id": "suspension_documents",
+      "category": "other",
+      "title": {
+        "fr": "Documents sur l'annulation ou la suspension",
+        "en": "Documents on the cancellation or suspension"
+      },
+      "details": {
+        "fr": "La décision d'annulation ou de suspension, le courrier de la préfecture qui vous informe de l'obligation d'échange, et un avis médical.",
+        "en": "The cancellation or suspension decision, the prefecture's letter informing you of the obligation to exchange, and a medical opinion."
+      },
+      "condition": {
+        "all": [
+          {
+            "any": [
+              {
+                "all": [
+                  {
+                    "question": "licence_country",
+                    "in": [
+                      "non_eu",
+                      "uk_2021_after"
+                    ]
+                  },
+                  {
+                    "not": {
+                      "question": "stay_situation",
+                      "in": [
+                        "student_rece",
+                        "short_stay"
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "question": "licence_country",
+                    "in": [
+                      "eu_eea",
+                      "uk_before_2021"
+                    ]
+                  },
+                  {
+                    "not": {
+                      "question": "eu_reason",
+                      "equals": "none"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "question": "suspended",
+            "equals": "yes"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f1460",
+        "sp_f1758",
+        "ants_echange"
+      ]
+    },
+    {
+      "id": "loss_declaration",
+      "category": "other",
+      "title": {
+        "fr": "Déclaration de perte",
+        "en": "Loss declaration"
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "licence_country",
+            "in": [
+              "eu_eea",
+              "uk_before_2021"
+            ]
+          },
+          {
+            "question": "eu_reason",
+            "equals": "lost"
+          }
+        ]
+      },
+      "guides": [
+        "loss_theft_report"
+      ],
+      "sources": [
+        "sp_f1758",
+        "ants_echange"
+      ]
+    },
+    {
+      "id": "theft_declaration",
+      "category": "other",
+      "title": {
+        "fr": "Déclaration de vol",
+        "en": "Theft report"
+      },
+      "details": {
+        "fr": "La déclaration de vol faite à la gendarmerie ou au commissariat.",
+        "en": "The theft report made at the gendarmerie or police station."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "licence_country",
+            "in": [
+              "eu_eea",
+              "uk_before_2021"
+            ]
+          },
+          {
+            "question": "eu_reason",
+            "equals": "stolen"
+          }
+        ]
+      },
+      "guides": [
+        "loss_theft_report"
+      ],
+      "sources": [
+        "sp_f1758",
+        "ants_echange"
+      ]
+    },
+    {
+      "id": "fiscal_stamp",
+      "category": "tax",
+      "title": {
+        "fr": "Timbre fiscal électronique de 40 €",
+        "en": "40 euro electronic tax stamp"
+      },
+      "details": {
+        "fr": "40 € (20 € en Guyane). Le paiement se fait à la fin de la démarche en ligne. Vous pouvez aussi acheter le timbre avant, sur le site des impôts ou dans un bureau de tabac agréé, et saisir son numéro.",
+        "en": "40 euros (20 euros in French Guiana). Payment is made at the end of the online application. You can also buy the stamp beforehand, on the tax website or at an approved tobacconist, and enter its number."
+      },
+      "tip": {
+        "fr": "L'ANTS indique que l'échange est payant depuis le 12 mai 2026.",
+        "en": "ANTS says the exchange has been charged since 12 May 2026."
+      },
+      "condition": {
+        "any": [
+          {
+            "all": [
+              {
+                "question": "licence_country",
+                "in": [
+                  "non_eu",
+                  "uk_2021_after"
+                ]
+              },
+              {
+                "not": {
+                  "question": "stay_situation",
+                  "in": [
+                    "student_rece",
+                    "short_stay"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "question": "licence_country",
+                "in": [
+                  "eu_eea",
+                  "uk_before_2021"
+                ]
+              },
+              {
+                "not": {
+                  "question": "eu_reason",
+                  "equals": "none"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "guides": [
+        "fiscal_stamp"
+      ],
+      "sources": [
+        "sp_f1460",
+        "sp_f1758",
+        "ants_echange"
+      ]
+    },
+    {
+      "id": "foreign_documents_translation",
+      "category": "other",
+      "title": {
+        "fr": "Traduction des autres documents en langue étrangère",
+        "en": "Translation of other documents in a foreign language"
+      },
+      "details": {
+        "fr": "Service-public indique que tous les documents écrits en langue étrangère doivent être accompagnés de leur traduction par un traducteur habilité.",
+        "en": "Service-public says that all documents written in a foreign language must come with a translation by an approved translator."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "licence_country",
+            "in": [
+              "non_eu",
+              "uk_2021_after"
+            ]
+          },
+          {
+            "not": {
+              "question": "stay_situation",
+              "in": [
+                "student_rece",
+                "short_stay"
+              ]
+            }
+          }
+        ]
+      },
+      "guides": [
+        "sworn_translation"
+      ],
+      "sources": [
+        "sp_f1460"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "check_exchangeable",
+      "phase": "before",
+      "title": {
+        "fr": "Vérifier que votre permis peut être échangé",
+        "en": "Check that your licence can be exchanged"
+      },
+      "body": {
+        "fr": "Utilisez le simulateur de service-public : choisissez le pays et la catégorie de votre permis. Si le permis ne peut pas être échangé, il faut passer l'examen du permis en France. À savoir : un permis moto A ne s'obtient pas par échange ; un permis A2 est délivré.",
+        "en": "Use the service-public simulator: choose the country and category of your licence. If the licence cannot be exchanged, you must take the driving test in France. Note: a motorcycle A licence cannot be obtained by exchange; an A2 licence is issued instead."
+      },
+      "link": {
+        "title": {
+          "fr": "Ouvrir le simulateur",
+          "en": "Open the simulator"
+        },
+        "url": "https://www.service-public.gouv.fr/simulateur/calcul/PermisEtrangerPermisFrancais"
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "licence_country",
+            "in": [
+              "non_eu",
+              "uk_2021_after"
+            ]
+          },
+          {
+            "not": {
+              "question": "stay_situation",
+              "in": [
+                "student_rece",
+                "short_stay"
+              ]
+            }
+          }
+        ]
+      },
+      "sources": [
+        "sp_f1460",
+        "sp_simulateur"
+      ]
+    },
+    {
+      "id": "get_driving_rights_certificate",
+      "phase": "before",
+      "title": {
+        "fr": "Demander l'attestation des droits à conduire",
+        "en": "Request the certificate of driving entitlement"
+      },
+      "body": {
+        "fr": "Demandez ce document aux autorités du pays qui a délivré votre permis. Il doit avoir moins de 6 mois le jour de votre demande. S'il n'est pas en français, faites-le traduire par un traducteur habilité en France.",
+        "en": "Request this document from the authorities of the country that issued your licence. It must be less than 6 months old on the day you apply. If it is not in French, have it translated by an approved translator in France."
+      },
+      "guides": [
+        "sworn_translation"
+      ],
+      "condition": {
+        "any": [
+          {
+            "all": [
+              {
+                "all": [
+                  {
+                    "question": "licence_country",
+                    "in": [
+                      "non_eu",
+                      "uk_2021_after"
+                    ]
+                  },
+                  {
+                    "not": {
+                      "question": "stay_situation",
+                      "in": [
+                        "student_rece",
+                        "short_stay"
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "not": {
+                  "question": "stay_situation",
+                  "equals": "protection"
+                }
+              }
+            ]
+          },
+          {
+            "question": "licence_country",
+            "equals": "uk_before_2021"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f1460",
+        "sp_f1758",
+        "ants_echange"
+      ]
+    },
+    {
+      "id": "translate_licence",
+      "phase": "before",
+      "title": {
+        "fr": "Faire traduire votre permis",
+        "en": "Have your licence translated"
+      },
+      "body": {
+        "fr": "En France, la traduction se fait par un traducteur habilité ou par l'ambassade en France du pays qui a délivré le permis. Une traduction faite à l'étranger doit être légalisée ou apostillée.",
+        "en": "In France, the translation is made by an approved translator or by the embassy in France of the country that issued the licence. A translation made abroad must be legalised or apostilled."
+      },
+      "guides": [
+        "sworn_translation",
+        "legalisation_apostille"
+      ],
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "licence_country",
+                "in": [
+                  "non_eu",
+                  "uk_2021_after"
+                ]
+              },
+              {
+                "not": {
+                  "question": "stay_situation",
+                  "in": [
+                    "student_rece",
+                    "short_stay"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "question": "licence_in_french",
+            "equals": "no"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f1460"
+      ]
+    },
+    {
+      "id": "get_ephoto",
+      "phase": "before",
+      "title": {
+        "fr": "Faire votre e-photo",
+        "en": "Get your e-photo"
+      },
+      "body": {
+        "fr": "Allez chez un photographe ou dans une cabine habilités à la e-photo. Vous recevez un code que vous saisirez dans la démarche en ligne. Sans code, vous pourrez imprimer un formulaire photo-signature à la fin de la démarche et l'envoyer par courrier.",
+        "en": "Go to a photographer or photo booth approved for e-photos. You will get a code to enter in the online application. Without a code, you can print a photo-signature form at the end of the application and send it by post."
+      },
+      "link": {
+        "title": {
+          "fr": "Trouver un photographe habilité",
+          "en": "Find an approved photographer"
+        },
+        "url": "https://permisdeconduire.ants.gouv.fr/services/geolocaliser-les-photographes-habilites"
+      },
+      "guides": [
+        "ephoto"
+      ],
+      "condition": {
+        "all": [
+          {
+            "any": [
+              {
+                "all": [
+                  {
+                    "question": "licence_country",
+                    "in": [
+                      "non_eu",
+                      "uk_2021_after"
+                    ]
+                  },
+                  {
+                    "not": {
+                      "question": "stay_situation",
+                      "in": [
+                        "student_rece",
+                        "short_stay"
+                      ]
+                    }
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "question": "licence_country",
+                    "in": [
+                      "eu_eea",
+                      "uk_before_2021"
+                    ]
+                  },
+                  {
+                    "not": {
+                      "question": "eu_reason",
+                      "equals": "none"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "question": "has_ephoto",
+            "equals": "no"
+          }
+        ]
+      },
+      "sources": [
+        "ants_echange",
+        "sp_f1460"
+      ]
+    },
+    {
+      "id": "create_ants_account",
+      "phase": "submit",
+      "title": {
+        "fr": "Créer votre compte ANTS ou vous connecter",
+        "en": "Create your ANTS account or log in"
+      },
+      "body": {
+        "fr": "Une fois connecté, dans « Commencer une nouvelle démarche en ligne », choisissez « Permis de conduire ».",
+        "en": "Once logged in, under \"Start a new online application\", choose \"Driving licence\"."
+      },
+      "link": {
+        "title": {
+          "fr": "Créer un compte ANTS",
+          "en": "Create an ANTS account"
+        },
+        "url": "https://moncompte.ants.gouv.fr/creation?lang=fr"
+      },
+      "condition": {
+        "any": [
+          {
+            "all": [
+              {
+                "question": "licence_country",
+                "in": [
+                  "non_eu",
+                  "uk_2021_after"
+                ]
+              },
+              {
+                "not": {
+                  "question": "stay_situation",
+                  "in": [
+                    "student_rece",
+                    "short_stay"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "question": "licence_country",
+                "in": [
+                  "eu_eea",
+                  "uk_before_2021"
+                ]
+              },
+              {
+                "not": {
+                  "question": "eu_reason",
+                  "equals": "none"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "ants_echange"
+      ]
+    },
+    {
+      "id": "submit_online",
+      "phase": "submit",
+      "title": {
+        "fr": "Faire la demande d'échange en ligne",
+        "en": "Apply for the exchange online"
+      },
+      "body": {
+        "fr": "1. Choisissez le motif « Je demande l'échange de mon permis de conduire obtenu à l'étranger ». 2. Indiquez votre situation (majeur, mineur émancipé ou mineur) et le pays de délivrance, puis cliquez sur « Valider définitivement ma situation ». 3. Remplissez votre état civil, votre adresse et vos contacts. 4. Ajoutez votre code e-photo. 5. Ajoutez vos pièces. 6. Validez le récapitulatif. 7. Payez ou saisissez le numéro du timbre fiscal.",
+        "en": "1. Choose the reason \"Je demande l'échange de mon permis de conduire obtenu à l'étranger\". 2. Enter your situation (adult, emancipated minor or minor) and the issuing country, then click \"Valider définitivement ma situation\". 3. Fill in your civil status, address and contact details. 4. Add your e-photo code. 5. Add your documents. 6. Confirm the summary. 7. Pay or enter the tax stamp number."
+      },
+      "link": {
+        "title": {
+          "fr": "Ouvrir la démarche sur le site de l'ANTS",
+          "en": "Open the application on the ANTS website"
+        },
+        "url": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne/echanger-un-permis-etranger"
+      },
+      "condition": {
+        "any": [
+          {
+            "all": [
+              {
+                "question": "licence_country",
+                "in": [
+                  "non_eu",
+                  "uk_2021_after"
+                ]
+              },
+              {
+                "not": {
+                  "question": "stay_situation",
+                  "in": [
+                    "student_rece",
+                    "short_stay"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "question": "licence_country",
+                "in": [
+                  "eu_eea",
+                  "uk_before_2021"
+                ]
+              },
+              {
+                "not": {
+                  "question": "eu_reason",
+                  "equals": "none"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "ants_echange",
+        "sp_f1460",
+        "sp_f1758"
+      ]
+    },
+    {
+      "id": "drive_during_review",
+      "phase": "after",
+      "title": {
+        "fr": "Conduire pendant l'instruction",
+        "en": "Driving during the review"
+      },
+      "body": {
+        "fr": "Pendant l'instruction, vous gardez votre permis et vous pouvez conduire. Selon votre dossier, l'instruction peut durer plusieurs mois. Vous pouvez suivre l'avancée depuis votre compte ANTS.",
+        "en": "During the review, you keep your licence and can drive. Depending on your file, the review can take several months. You can follow progress from your ANTS account."
+      },
+      "link": {
+        "title": {
+          "fr": "Suivre ma démarche",
+          "en": "Track my application"
+        },
+        "url": "https://moncompte.ants.gouv.fr/?lang=fr"
+      },
+      "condition": {
+        "any": [
+          {
+            "all": [
+              {
+                "question": "licence_country",
+                "in": [
+                  "non_eu",
+                  "uk_2021_after"
+                ]
+              },
+              {
+                "not": {
+                  "question": "stay_situation",
+                  "in": [
+                    "student_rece",
+                    "short_stay"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "question": "licence_country",
+                "in": [
+                  "eu_eea",
+                  "uk_before_2021"
+                ]
+              },
+              {
+                "not": {
+                  "question": "eu_reason",
+                  "equals": "none"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_f1460",
+        "sp_f1758",
+        "ants_echange"
+      ]
+    },
+    {
+      "id": "send_original",
+      "phase": "after",
+      "title": {
+        "fr": "Envoyer le permis original quand on vous le demande",
+        "en": "Send the original licence when asked"
+      },
+      "body": {
+        "fr": "À la fin de l'instruction, on vous demande le permis original pour vérifier qu'il est authentique (sauf en cas de suspension ou d'annulation). Vous êtes contacté par SMS et par e-mail. L'e-mail explique comment l'envoyer en courrier recommandé.",
+        "en": "At the end of the review, you are asked for the original licence to check it is genuine (except in case of suspension or cancellation). You are contacted by text message and email. The email explains how to send it by registered post."
+      },
+      "condition": {
+        "any": [
+          {
+            "all": [
+              {
+                "question": "licence_country",
+                "in": [
+                  "non_eu",
+                  "uk_2021_after"
+                ]
+              },
+              {
+                "not": {
+                  "question": "stay_situation",
+                  "in": [
+                    "student_rece",
+                    "short_stay"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "question": "licence_country",
+                "in": [
+                  "eu_eea",
+                  "uk_before_2021"
+                ]
+              },
+              {
+                "not": {
+                  "question": "eu_reason",
+                  "equals": "none"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_f1460",
+        "sp_f1758"
+      ]
+    },
+    {
+      "id": "download_ads",
+      "phase": "after",
+      "title": {
+        "fr": "Télécharger l'attestation de dépôt sécurisée (ADS)",
+        "en": "Download the secure filing certificate (ADS)"
+      },
+      "body": {
+        "fr": "Quand le service reçoit votre permis original, vous pouvez télécharger une ADS sur le site de l'ANTS. Elle est valable 4 mois. Elle vous permet de conduire en France en attendant votre permis français, dans la limite de la durée de reconnaissance de votre permis étranger.",
+        "en": "When the service receives your original licence, you can download an ADS on the ANTS website. It is valid for 4 months. It lets you drive in France while waiting for your French licence, within the period your foreign licence is recognised."
+      },
+      "link": {
+        "title": {
+          "fr": "Accéder à mon compte ANTS",
+          "en": "Go to my ANTS account"
+        },
+        "url": "https://moncompte.ants.gouv.fr/?lang=fr"
+      },
+      "condition": {
+        "any": [
+          {
+            "all": [
+              {
+                "question": "licence_country",
+                "in": [
+                  "non_eu",
+                  "uk_2021_after"
+                ]
+              },
+              {
+                "not": {
+                  "question": "stay_situation",
+                  "in": [
+                    "student_rece",
+                    "short_stay"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "question": "licence_country",
+                "in": [
+                  "eu_eea",
+                  "uk_before_2021"
+                ]
+              },
+              {
+                "not": {
+                  "question": "eu_reason",
+                  "equals": "none"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_f1460",
+        "sp_f1758"
+      ]
+    },
+    {
+      "id": "receive_licence",
+      "phase": "after",
+      "title": {
+        "fr": "Recevoir votre permis français",
+        "en": "Receive your French licence"
+      },
+      "body": {
+        "fr": "Après le SMS qui confirme la validation de votre demande, comptez environ 15 jours. Le permis est envoyé en Lettre suivie ; un e-mail vous donne le lien de suivi. Votre nom et prénom doivent être sur la boîte aux lettres. Le permis est valable 15 ans (moins pour les catégories lourdes ou une restriction médicale). Si votre permis d'origine était probatoire, le permis français l'est aussi. Si vous ne le recevez pas alors que le suivi indique une distribution, contactez l'ANTS (34 00, du lundi au vendredi de 9 h à 17 h).",
+        "en": "After the text message confirming your application is validated, allow about 15 days. The licence is sent by tracked letter; an email gives you the tracking link. Your name must be on the letterbox. The licence is valid for 15 years (less for heavy categories or a medical restriction). If your original licence was probationary, the French licence is too. If you do not receive it while tracking shows it was delivered, contact ANTS (34 00, Monday to Friday 9am to 5pm)."
+      },
+      "link": {
+        "title": {
+          "fr": "Contacter l'ANTS",
+          "en": "Contact ANTS"
+        },
+        "url": "https://permisdeconduire.ants.gouv.fr/aide-et-contact"
+      },
+      "condition": {
+        "any": [
+          {
+            "all": [
+              {
+                "question": "licence_country",
+                "in": [
+                  "non_eu",
+                  "uk_2021_after"
+                ]
+              },
+              {
+                "not": {
+                  "question": "stay_situation",
+                  "in": [
+                    "student_rece",
+                    "short_stay"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "question": "licence_country",
+                "in": [
+                  "eu_eea",
+                  "uk_before_2021"
+                ]
+              },
+              {
+                "not": {
+                  "question": "eu_reason",
+                  "equals": "none"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_f1460",
+        "sp_f1758"
+      ]
+    }
+  ],
+  "deadlines": [
+    {
+      "id": "exchange_deadline",
+      "relativeTo": "first_title_date",
+      "offsetDays": 365,
+      "title": {
+        "fr": "Fin du délai d'1 an pour demander l'échange",
+        "en": "End of the 1-year period to request the exchange"
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "licence_country",
+            "in": [
+              "non_eu",
+              "uk_2021_after"
+            ]
+          },
+          {
+            "question": "nationality",
+            "equals": "non_eu"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f1460",
+        "sp_f1459"
+      ]
+    }
+  ],
+  "outcomes": [
+    {
+      "id": "student_no_exchange",
+      "kind": "redirect",
+      "condition": {
+        "question": "stay_situation",
+        "equals": "student_rece"
+      },
+      "title": {
+        "fr": "Vous n'avez pas besoin d'échanger votre permis pour l'instant",
+        "en": "You do not need to exchange your licence for now"
+      },
+      "body": {
+        "fr": "D'après service-public, l'étudiant étranger qui a un titre de séjour étudiant ou une carte « recherche d'emploi / création d'entreprise » n'a pas besoin de demander l'échange. Il peut conduire avec son permis non européen pendant ses études, sous conditions : âge minimum, permis valide, obtenu dans le pays où il vivait, traduit s'il n'est pas en français, non suspendu.",
+        "en": "According to service-public, a foreign student with a student residence permit or a \"job search / business creation\" card does not need to request the exchange. They can drive with their non-European licence during their studies, under conditions: minimum age, valid licence, obtained in the country where they lived, translated if not in French, not suspended."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Lire les conditions pour les étudiants",
+            "en": "Read the conditions for students"
+          },
+          "body": {
+            "fr": "Service-public détaille les conditions et le cas du permis obtenu pendant les études.",
+            "en": "Service-public details the conditions and the case of a licence obtained during your studies."
+          },
+          "link": {
+            "title": {
+              "fr": "Voir la fiche service-public",
+              "en": "See the service-public page"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1459"
+          }
+        },
+        {
+          "title": {
+            "fr": "Après vos études",
+            "en": "After your studies"
+          },
+          "body": {
+            "fr": "Si vous obtenez un titre de séjour autre qu'étudiant, vous devrez demander l'échange au plus tard dans l'année qui suit la remise de ce nouveau titre. Revenez alors à cette démarche et choisissez « J'étais étudiant et j'ai maintenant un autre titre ».",
+            "en": "If you get a residence permit other than a student one, you will have to request the exchange at the latest within one year of receiving that new permit. Come back to this procedure then and choose \"I was a student and now have another permit\"."
+          }
+        }
+      ],
+      "contacts": [
+        "france_services"
+      ],
+      "letters": [],
+      "sources": [
+        "sp_f1460",
+        "sp_f1459"
+      ]
+    },
+    {
+      "id": "short_stay",
+      "kind": "redirect",
+      "condition": {
+        "question": "stay_situation",
+        "equals": "short_stay"
+      },
+      "title": {
+        "fr": "L'échange concerne les personnes qui s'installent en France",
+        "en": "The exchange is for people settling in France"
+      },
+      "body": {
+        "fr": "D'après service-public, pendant un court séjour, vous pouvez conduire avec votre permis non européen s'il est valide, si vous respectez les prescriptions médicales notées dessus, et s'il est en français ou accompagné d'un permis international ou d'une traduction.",
+        "en": "According to service-public, during a short stay you can drive with your non-European licence if it is valid, if you follow the medical requirements written on it, and if it is in French or comes with an international driving permit or a translation."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Lire les règles du court séjour",
+            "en": "Read the short-stay rules"
+          },
+          "body": {
+            "fr": "La fiche service-public explique les conditions.",
+            "en": "The service-public page explains the conditions."
+          },
+          "link": {
+            "title": {
+              "fr": "Voir la fiche service-public",
+              "en": "See the service-public page"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1459"
+          }
+        }
+      ],
+      "contacts": [],
+      "letters": [],
+      "sources": [
+        "sp_f1459"
+      ]
+    },
+    {
+      "id": "later_permit_warning",
+      "kind": "warning",
+      "condition": {
+        "question": "stay_situation",
+        "equals": "later_permit"
+      },
+      "title": {
+        "fr": "Le délai ne repart pas avec un nouveau titre",
+        "en": "The deadline does not restart with a new permit"
+      },
+      "body": {
+        "fr": "D'après service-public, le délai d'1 an ne court pas à partir du renouvellement d'un titre de séjour ou d'un changement de statut. Par exemple, une carte de résident qui suit un premier titre ne permet pas de faire une nouvelle demande d'échange. Le délai se compte depuis votre premier titre.",
+        "en": "According to service-public, the 1-year period does not start from a residence permit renewal or a change of status. For example, a resident card following a first permit does not allow a new exchange request. The period counts from your first permit."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Ce que vous pouvez faire",
+            "en": "What you can do"
+          },
+          "body": {
+            "fr": "Indiquez la date de remise de votre premier titre pour voir la fin du délai. Si le délai est dépassé, renseignez-vous auprès de France Titres (ANTS).",
+            "en": "Enter the date you received your first permit to see when the period ends. If the period has passed, ask France Titres (ANTS)."
+          },
+          "link": {
+            "title": {
+              "fr": "Contacter l'ANTS",
+              "en": "Contact ANTS"
+            },
+            "url": "https://permisdeconduire.ants.gouv.fr/aide-et-contact"
+          }
+        }
+      ],
+      "contacts": [
+        "france_services"
+      ],
+      "letters": [],
+      "sources": [
+        "sp_f1460"
+      ]
+    },
+    {
+      "id": "deadline_passed",
+      "kind": "warning",
+      "condition": {
+        "all": [
+          {
+            "question": "licence_country",
+            "in": [
+              "non_eu",
+              "uk_2021_after"
+            ]
+          },
+          {
+            "question": "nationality",
+            "equals": "non_eu"
+          },
+          {
+            "question": "first_title_date",
+            "daysFromToday": {
+              "max": -366
+            }
+          }
+        ]
+      },
+      "title": {
+        "fr": "Le délai d'1 an semble dépassé",
+        "en": "The 1-year period seems to have passed"
+      },
+      "body": {
+        "fr": "D'après service-public, la demande d'échange doit être faite moins d'1 an après la date que vous avez indiquée. Cette date remonte à plus d'1 an. Service-public indique aussi qu'un permis non européen n'est valable en France que pendant 1 an après votre installation.",
+        "en": "According to service-public, the exchange request must be made less than 1 year after the date you entered. That date is more than 1 year ago. Service-public also says that a non-European licence is only valid in France for 1 year after you settle."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Vérifier votre situation",
+            "en": "Check your situation"
+          },
+          "body": {
+            "fr": "Vérifiez la date indiquée. En cas de doute, contactez France Titres (ANTS) au 34 00. Pour continuer à conduire sans permis échangé, service-public renvoie vers l'examen du permis en France.",
+            "en": "Check the date you entered. If in doubt, contact France Titres (ANTS) on 34 00. To keep driving without an exchanged licence, service-public points to the driving test in France."
+          },
+          "link": {
+            "title": {
+              "fr": "Passer le permis en France",
+              "en": "Take the driving test in France"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/N530"
+          }
+        }
+      ],
+      "contacts": [
+        "france_services"
+      ],
+      "letters": [],
+      "sources": [
+        "sp_f1460"
+      ]
+    },
+    {
+      "id": "not_exchangeable",
+      "kind": "redirect",
+      "condition": {
+        "question": "reciprocity_check",
+        "equals": "not_exchangeable"
+      },
+      "title": {
+        "fr": "Votre permis ne semble pas pouvoir être échangé",
+        "en": "Your licence does not seem exchangeable"
+      },
+      "body": {
+        "fr": "D'après service-public, l'échange est possible seulement pour les permis délivrés par un pays qui pratique l'échange avec la France pour cette catégorie. Sinon, il faut passer l'examen du permis de conduire en France.",
+        "en": "According to service-public, the exchange is only possible for licences issued by a country that exchanges licences with France for that category. Otherwise, you must take the driving test in France."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Passer le permis en France",
+            "en": "Take the driving test in France"
+          },
+          "body": {
+            "fr": "Service-public explique les étapes pour passer le permis.",
+            "en": "Service-public explains the steps to take the driving test."
+          },
+          "link": {
+            "title": {
+              "fr": "Voir la fiche service-public",
+              "en": "See the service-public page"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/N530"
+          }
+        }
+      ],
+      "contacts": [],
+      "letters": [],
+      "sources": [
+        "sp_f1460",
+        "sp_simulateur"
+      ]
+    },
+    {
+      "id": "check_reciprocity_first",
+      "kind": "warning",
+      "condition": {
+        "question": "reciprocity_check",
+        "equals": "not_checked"
+      },
+      "title": {
+        "fr": "Vérifiez d'abord que votre permis est échangeable",
+        "en": "First check that your licence can be exchanged"
+      },
+      "body": {
+        "fr": "La liste des pays qui pratiquent l'échange avec la France change. Le simulateur de service-public vous dit si votre permis est échangeable, selon le pays et la catégorie.",
+        "en": "The list of countries that exchange licences with France changes. The service-public simulator tells you if your licence can be exchanged, by country and category."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Faire le test",
+            "en": "Take the test"
+          },
+          "body": {
+            "fr": "Cela prend quelques minutes.",
+            "en": "It takes a few minutes."
+          },
+          "link": {
+            "title": {
+              "fr": "Ouvrir le simulateur",
+              "en": "Open the simulator"
+            },
+            "url": "https://www.service-public.gouv.fr/simulateur/calcul/PermisEtrangerPermisFrancais"
+          }
+        }
+      ],
+      "contacts": [],
+      "letters": [],
+      "sources": [
+        "sp_f1460",
+        "sp_simulateur"
+      ]
+    },
+    {
+      "id": "licence_expired",
+      "kind": "redirect",
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "licence_country",
+                "in": [
+                  "non_eu",
+                  "uk_2021_after"
+                ]
+              },
+              {
+                "not": {
+                  "question": "stay_situation",
+                  "in": [
+                    "student_rece",
+                    "short_stay"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "question": "licence_valid",
+            "equals": "no"
+          }
+        ]
+      },
+      "title": {
+        "fr": "Un permis expiré ne peut pas être échangé",
+        "en": "An expired licence cannot be exchanged"
+      },
+      "body": {
+        "fr": "D'après service-public, pour être échangé, un permis non européen doit être en cours de validité. Si cette condition n'est pas remplie, il faut passer l'examen du permis de conduire en France.",
+        "en": "According to service-public, a non-European licence must be valid to be exchanged. If this condition is not met, you must take the driving test in France."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Ce que vous pouvez faire",
+            "en": "What you can do"
+          },
+          "body": {
+            "fr": "Vérifiez auprès des autorités de votre pays si le permis peut être renouvelé. Sinon, service-public renvoie vers l'examen du permis en France.",
+            "en": "Check with your country's authorities whether the licence can be renewed. Otherwise, service-public points to the driving test in France."
+          },
+          "link": {
+            "title": {
+              "fr": "Passer le permis en France",
+              "en": "Take the driving test in France"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/N530"
+          }
+        }
+      ],
+      "contacts": [],
+      "letters": [],
+      "sources": [
+        "sp_f1460"
+      ]
+    },
+    {
+      "id": "not_resident_when_issued",
+      "kind": "redirect",
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "licence_country",
+                "in": [
+                  "non_eu",
+                  "uk_2021_after"
+                ]
+              },
+              {
+                "not": {
+                  "question": "stay_situation",
+                  "in": [
+                    "student_rece",
+                    "short_stay"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "question": "obtained_while_resident",
+            "equals": "no"
+          }
+        ]
+      },
+      "title": {
+        "fr": "Cette démarche ne semble pas correspondre à votre permis",
+        "en": "This procedure does not seem to fit your licence"
+      },
+      "body": {
+        "fr": "D'après service-public, le permis doit avoir été délivré par le pays où vous aviez votre résidence normale avant de vous installer en France, et vous devez y avoir réussi l'examen. Si ces conditions ne sont pas remplies, il faut passer l'examen du permis en France.",
+        "en": "According to service-public, the licence must have been issued by the country where you normally lived before settling in France, and you must have passed the test there. If these conditions are not met, you must take the driving test in France."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Ce que vous pouvez faire",
+            "en": "What you can do"
+          },
+          "body": {
+            "fr": "En cas de doute sur votre situation, contactez France Titres (ANTS) au 34 00.",
+            "en": "If unsure about your situation, contact France Titres (ANTS) on 34 00."
+          },
+          "link": {
+            "title": {
+              "fr": "Passer le permis en France",
+              "en": "Take the driving test in France"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/N530"
+          }
+        }
+      ],
+      "contacts": [
+        "france_services"
+      ],
+      "letters": [],
+      "sources": [
+        "sp_f1460"
+      ]
+    },
+    {
+      "id": "eu_no_exchange_needed",
+      "kind": "redirect",
+      "condition": {
+        "all": [
+          {
+            "question": "licence_country",
+            "in": [
+              "eu_eea",
+              "uk_before_2021"
+            ]
+          },
+          {
+            "question": "eu_reason",
+            "equals": "none"
+          }
+        ]
+      },
+      "title": {
+        "fr": "L'échange n'est pas obligatoire dans votre cas",
+        "en": "The exchange is not compulsory in your case"
+      },
+      "body": {
+        "fr": "D'après service-public, vous pouvez conduire en France avec un permis européen, ou un permis britannique délivré avant 2021, tant qu'il est valide. L'échange est obligatoire seulement si le permis arrive à la fin de sa validité, si vous demandez une nouvelle catégorie, après certaines infractions en France, ou si le permis est perdu, volé ou abîmé.",
+        "en": "According to service-public, you can drive in France with a European licence, or a UK licence issued before 2021, as long as it is valid. The exchange is only compulsory if the licence reaches the end of its validity, if you apply for a new category, after some offences in France, or if the licence is lost, stolen or damaged."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Lire la fiche",
+            "en": "Read the page"
+          },
+          "body": {
+            "fr": "La fiche explique aussi le cas d'un permis européen obtenu par échange d'un permis d'un autre pays.",
+            "en": "The page also explains the case of a European licence obtained by exchanging a licence from another country."
+          },
+          "link": {
+            "title": {
+              "fr": "Voir la fiche service-public",
+              "en": "See the service-public page"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1758"
+          }
+        }
+      ],
+      "contacts": [],
+      "letters": [],
+      "sources": [
+        "sp_f1758"
+      ]
+    }
+  ],
+  "reviewNotes": [
+    "Point de départ du délai : la demande parlait de la « date de début de validité du premier titre de séjour ». Service-public (F1460, « Vérifié le 01 juin 2026 ») parle de la date de remise du titre (et, pour le VLS-TS, de la date de validation en ligne ou de la vignette OFII ; pour les protégés, de la date de remise du récépissé). La question first_title_date reprend la formulation de la source (date de remise). F1460 cite l'arrêt du Conseil d'État n°402041 du 4 décembre 2017 sur ce point.",
+    "Délai codé à 365 jours après first_title_date (« moins d'1 an après ») ; l'alerte deadline_passed se déclenche à partir de 366 jours. Années bissextiles non gérées au jour près.",
+    "Conséquence d'un délai dépassé : F1460 ne dit pas explicitement que l'échange est refusé ; elle dit que le permis non européen n'est valable qu'1 an après l'acquisition de la résidence normale. L'écran deadline_passed est donc un avertissement (warning), pas une redirection.",
+    "Ressortissants européens avec un permis non européen : délai « à partir du 6e mois de séjour et avant le 18e mois » (F1460). Pas de question date ni d'échéance calculée pour ce cas (formulation ambiguë en jours). Français : « moins d'1 an après votre établissement en France » ; non calculé non plus.",
+    "Liste des pays pratiquant l'échange : PDF sur securite-routiere.gouv.fr (« liste_reciprocite_hors_ue_et_eee_au_1er_mai_2026.pdf »), domaine non autorisé. On renvoie au simulateur service-public (https://www.service-public.gouv.fr/simulateur/calcul/PermisEtrangerPermisFrancais, page R64185), lien relevé dans F1460, non testé (outil JavaScript).",
+    "Réfugiés, protégés subsidiaires, apatrides : la liste de F1460 pour ce cas ne contient pas l'attestation des droits à conduire ni sa traduction ; repris tel quel. La page ANTS ne fait pas cette distinction et liste l'attestation pour tous.",
+    "Timbre de 40 € (20 € en Guyane) : F1460 et F1758 ; l'ANTS précise « à compter du 12 mai 2026 » (loi de finances pour 2026). La fiche fiscal_stamp de help.json parle des taxes du titre de séjour (ANEF) : vérifier qu'elle convient aussi au permis.",
+    "La fiche ephoto de help.json est écrite pour l'ANEF ; le code e-photo de l'ANTS (photographe habilité) semble être le même principe mais à vérifier.",
+    "La fiche tax_documents est liée à la pièce france_residence_proof (avis d'imposition cité en exemple par F1758) ; contenu de la fiche non relu ici.",
+    "Pages ANTS (permisdeconduire.ants.gouv.fr) : aucune date de mise à jour visible ; lues via redirection JavaScript. Elles mentionnent le décret de naturalisation pour les personnes devenues françaises (non cité par service-public) et « une photo d'identité datant de moins de 6 mois ».",
+    "F1460 cite dans ses références le décret n°2014-1294 : refus implicite si le préfet garde le silence plus de 2 mois sur la demande d'échange. Non repris dans les textes affichés (contradiction apparente avec « l'instruction peut durer plusieurs mois ») ; à faire valider.",
+    "Permis obtenu en Nouvelle-Calédonie ou dans une COM, permis britannique délivré avant 2021 en détail, rétablissement d'un permis français (F32776), permis ukrainien (F36341) : non couverts. Le cas Royaume-Uni avant 2021 est traité comme un permis européen (F1758).",
+    "Pas de courrier type : les modèles de help.json visent la préfecture / l'ANEF, pas l'ANTS. Contact ANTS (34 00, 09 70 83 07 07 depuis l'étranger) donné dans le texte des étapes, absent de help.json.",
+    "La démarche n'est pas encore dans catalog.json (non modifié, comme demandé)."
+  ]
+}

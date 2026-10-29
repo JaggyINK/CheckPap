@@ -262,3 +262,167 @@ Tableau dans `help.json`. Une fiche explique concrètement comment obtenir une p
 Identifiants de fiches prévus : `ephoto`, `fiscal_stamp`, `sworn_translation`, `legalisation_apostille`, `proof_of_address`, `anef_account`, `prefecture_appointment`, `civil_status_france`, `tax_documents`, `criminal_record`, `language_certificate`, `civic_exam`, `loss_theft_report`, `health_insurance`.
 
 Domaines autorisés supplémentaires pour les fiches : `ants.gouv.fr`, `impots.gouv.fr`, `timbres.impots.gouv.fr`, `ameli.fr`, `france-education-international.fr`, `diplomatie.gouv.fr`, `justice.fr`, `cours-appel.justice.fr`, `casier-judiciaire.justice.gouv.fr`, `courdecassation.fr` (liste des traducteurs agréés), `cci-paris-idf.fr` (inscription au TEF), ces deux derniers parce que service-public y renvoie.
+
+## Catégories du catalogue
+
+`catalog.json` contient un tableau `categories` ; chaque démarche a `category` et `subcategory`.
+
+```json
+"categories": [
+  {
+    "id": "residence",
+    "symbol": "person.text.rectangle",
+    "title": { "fr": "Séjour", "en": "Residence" },
+    "subtitle": { "fr": "Titres de séjour et famille", "en": "..." },
+    "subcategories": [ { "id": "permits", "title": { "fr": "Titres de séjour", "en": "Residence permits" } } ]
+  }
+]
+```
+
+## `news.json` : actualités
+
+```json
+{
+  "lastUpdated": "2026-10-29",
+  "items": [
+    {
+      "id": "taxes_may_2026",
+      "date": "2026-05-01",
+      "category": "residence",
+      "title": { "fr": "Titre court", "en": "..." },
+      "summary": { "fr": "Deux ou trois phrases : ce qui change, pour qui, à partir de quand.", "en": "..." },
+      "link": { "title": { "fr": "Lire sur service-public.gouv.fr", "en": "..." }, "url": "https://..." },
+      "procedures": ["renewal", "naturalisation"]
+    }
+  ]
+}
+```
+
+- `date` : date de publication ou d'entrée en vigueur indiquée par la source.
+- `category` : un identifiant de `catalog.json` > `categories`, ou `rights`.
+- `procedures` : démarches liées (facultatif), pour le bouton "Voir la démarche".
+- Le lien doit être sur un domaine autorisé. Pas d'article de presse : seulement des actualités publiées par l'administration.
+
+## Droits : "1 étranger 1 solution"
+
+`rights.json` contient les questions de profil (communes) et la liste des fichiers de droits :
+
+```json
+{
+  "lastVerified": "2026-10-29",
+  "questions": [ ... mêmes champs que les questions des démarches, `sources` peut être vide ... ],
+  "parts": ["rights_health_money", "rights_life"]
+}
+```
+
+Chaque fichier `rights_<partie>.json` :
+
+```json
+{
+  "sources": [ ... ],
+  "rights": [
+    {
+      "id": "apl",
+      "category": "housing",
+      "title": { "fr": "Aide personnalisée au logement (APL)", "en": "..." },
+      "summary": { "fr": "Une phrase : ce que c'est.", "en": "..." },
+      "who": { "fr": "À qui ça s'adresse, d'après la source.", "en": "..." },
+      "conditions": [ { "fr": "Condition principale, citée ou reformulée fidèlement.", "en": "..." } ],
+      "howTo": [ { "fr": "Étape concrète pour faire la demande.", "en": "..." } ],
+      "links": [ { "title": { "fr": "Faire une simulation", "en": "..." }, "url": "https://..." } ],
+      "contacts": ["france_services"],
+      "guides": ["proof_of_address"],
+      "condition": { "question": "residence_status", "in": ["permit", "refugee"] },
+      "sources": ["..."]
+    }
+  ]
+}
+```
+
+- `category` : `health`, `housing`, `work`, `money`, `bank`, `family`, `justice`.
+- `condition` porte sur les questions de profil de `rights.json` ; elle sert à n'afficher que les droits qui **peuvent** concerner la personne. On n'affirme jamais "vous y avez droit" : on écrit "Vous pourriez y avoir droit" et on renvoie vers le simulateur ou l'organisme.
+- Domaines autorisés supplémentaires : `caf.fr`, `msa.fr`, `ameli.fr`, `francetravail.fr`, `banque-france.fr`, `education.gouv.fr`, `visale.fr`, `actionlogement.fr`, `mesdroitssociaux.gouv.fr`, `1jeune1solution.gouv.fr`.
+
+## S'expatrier : fiches pays
+
+Catégorie `expatriation` dans `catalog.json`, avec `"showsCountries": true` : son écran propose, en plus de ses démarches, le choix d'un pays.
+
+`countries.json` (tous les pays, liens vérifiés) :
+
+```json
+{
+  "lastVerified": "2026-10-29",
+  "sources": [ ... ],
+  "countries": [
+    {
+      "id": "CA",
+      "flag": "🇨🇦",
+      "region": "americas",
+      "name": { "fr": "Canada", "en": "Canada" },
+      "links": [
+        { "title": { "fr": "Conseils aux voyageurs : Canada", "en": "..." }, "url": "https://www.diplomatie.gouv.fr/..." },
+        { "title": { "fr": "Ambassade et consulats de France au Canada", "en": "..." }, "url": "https://..." },
+        { "title": { "fr": "Protection sociale au Canada (Cleiss)", "en": "..." }, "url": "https://www.cleiss.fr/..." }
+      ]
+    }
+  ]
+}
+```
+
+- `region` : `europe`, `africa`, `americas`, `asia`, `middle_east`, `oceania`.
+- `countries_details.json` : informations détaillées pour les pays les plus fréquents, par identifiant de pays :
+
+```json
+{
+  "lastVerified": "2026-10-29",
+  "sources": [ ... ],
+  "details": [
+    {
+      "country": "CA",
+      "highlights": [
+        { "title": { "fr": "Entrée et séjour", "en": "..." }, "body": { "fr": "...", "en": "..." }, "sources": ["..."] }
+      ]
+    }
+  ]
+}
+```
+
+Thèmes de `highlights`, seulement si une source les traite : entrée et visas pour un Français, travail, protection sociale (convention ou non, d'après le Cleiss), impôts (convention fiscale, d'après impots.gouv.fr), santé, scolarité (lycées français, AEFE), sécurité, nombre de Français inscrits (registre), contacts utiles.
+
+Domaines autorisés supplémentaires : `cleiss.fr`, `cfe.fr`, `aefe.fr`, `civiweb.com`, `businessfrance.fr`, `info-retraite.fr`, `assemblee-afe.fr`.
+
+### Motifs de départ (fiches détaillées)
+
+Dans `countries_details.json`, chaque pays détaillé peut avoir un tableau `motives` :
+
+```json
+"motives": [
+  {
+    "id": "study",
+    "conditions": [ { "fr": "Condition, d'après la source.", "en": "..." } ],
+    "age": { "fr": "Règle d'âge s'il y en a une (ex. 18 à 35 ans).", "en": "..." },
+    "forms": [ { "title": { "fr": "Formulaire de demande de visa étudiant", "en": "..." }, "url": "https://..." } ],
+    "costs": [ { "fr": "Frais de visa : 150 CAD (page consultée le ...)", "en": "..." } ],
+    "sources": ["..."]
+  }
+]
+```
+
+`id` : `tourism`, `study`, `work`, `invest`, `retire`, `working_holiday` (programme vacances-travail).
+
+### `countries_budget.json` : budget repère et conversion
+
+```json
+{
+  "lastVerified": "2026-10-29",
+  "sources": [ ... ],
+  "rates": { "date": "2026-10-01", "source": "id_source", "perEuro": { "BDT": 130.25, "USD": 1.08 } },
+  "perDiem": [ { "country": "BD", "amount": 150, "currency": "EUR", "source": "id_source" } ],
+  "workingHoliday": [ { "country": "CA", "minAge": 18, "maxAge": 35, "source": "id_source" } ]
+}
+```
+
+- `perDiem` : montant journalier du barème de l'État pour les frais de mission à l'étranger (hébergement et repas), par pays, dans la devise du barème. L'app s'en sert comme **repère** : budget = montant journalier x nombre de jours, affiché en euros et dans la monnaie du pays, avec la date du taux. Jamais présenté comme un prix exact.
+- `rates.perEuro` : nombre d'unités de chaque devise pour 1 euro, d'une source publique datée (taux de chancellerie de la DGFiP ou taux de référence de la Banque de France / BCE).
+- `currencyOf` facultatif : `{ "BD": "BDT" }`, devise locale de chaque pays, si la source la donne.
+- `workingHoliday` : pays ayant un accord de programme vacances-travail avec la France et limites d'âge, d'après diplomatie.gouv.fr.

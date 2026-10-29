@@ -15,6 +15,9 @@ final class ContentStore {
     private(set) var procedures: [String: Procedure] = [:]
     /// Contacts et courriers ; `nil` si `help.json` est absent ou invalide.
     private(set) var help: HelpContent?
+    private(set) var news: NewsFeed?
+    private(set) var rights: RightsContent?
+    private(set) var countries: CountriesContent?
 
     private let repository: ContentRepository
 
@@ -31,6 +34,33 @@ final class ContentStore {
         catalog?.contentVersion ?? ""
     }
 
+    /// Démarches d'une catégorie et d'une sous-catégorie, dans l'ordre du catalogue.
+    func entries(category: String, subcategory: String) -> [CatalogEntry] {
+        availableEntries.filter { $0.category == category && $0.subcategory == subcategory }
+    }
+
+    /// Catégories qui contiennent au moins une démarche disponible.
+    var availableCategories: [ProcedureCategory] {
+        (catalog?.categories ?? []).filter { category in
+            availableEntries.contains { $0.category == category.id }
+                || (category.showsCountries == true && countries != nil)
+        }
+    }
+
+    func entry(id: String) -> CatalogEntry? {
+        availableEntries.first { $0.id == id }
+    }
+
+    /// Les contenus secondaires (actualités, droits...) ne bloquent jamais l'app s'ils manquent.
+    private func loadOptional<T>(_ name: String, _ load: () async throws -> T) async -> T? {
+        do {
+            return try await load()
+        } catch {
+            print("Contenu indisponible (\(name)) : \(error)")
+            return nil
+        }
+    }
+
     func load() async {
         do {
             let catalog = try await repository.loadCatalog()
@@ -45,11 +75,10 @@ final class ContentStore {
             }
             self.catalog = catalog
             self.procedures = loaded
-            do {
-                help = try await repository.loadHelp()
-            } catch {
-                print("Contacts et courriers indisponibles : \(error)")
-            }
+            help = await loadOptional("contacts et courriers") { try await repository.loadHelp() }
+            news = await loadOptional("actualités") { try await repository.loadNews() }
+            rights = await loadOptional("droits") { try await repository.loadRights() }
+            countries = await loadOptional("pays") { try await repository.loadCountries() }
             state = .loaded
         } catch {
             state = .failed(error.localizedDescription)

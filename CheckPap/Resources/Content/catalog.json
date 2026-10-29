@@ -1,6 +1,149 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "2026-10-29.3",
+  "contentVersion": "2026-10-29.12",
+  "categories": [
+    {
+      "id": "expatriation",
+      "symbol": "globe.europe.africa",
+      "showsCountries": true,
+      "title": {
+        "fr": "S'expatrier",
+        "en": "Moving abroad"
+      },
+      "subtitle": {
+        "fr": "Partir vivre à l'étranger, fiches pays",
+        "en": "Living abroad, country guides"
+      },
+      "subcategories": [
+        {
+          "id": "departure",
+          "title": {
+            "fr": "Préparer son départ",
+            "en": "Preparing to leave"
+          }
+        }
+      ]
+    },
+    {
+      "id": "residence",
+      "symbol": "person.text.rectangle",
+      "title": {
+        "fr": "Séjour",
+        "en": "Residence"
+      },
+      "subtitle": {
+        "fr": "Titres de séjour et famille",
+        "en": "Residence permits and family"
+      },
+      "subcategories": [
+        {
+          "id": "permits",
+          "title": {
+            "fr": "Titres de séjour",
+            "en": "Residence permits"
+          }
+        },
+        {
+          "id": "family",
+          "title": {
+            "fr": "Famille",
+            "en": "Family"
+          }
+        }
+      ]
+    },
+    {
+      "id": "nationality",
+      "symbol": "person.crop.circle.badge.checkmark",
+      "title": {
+        "fr": "Nationalité",
+        "en": "Citizenship"
+      },
+      "subtitle": {
+        "fr": "Devenir français",
+        "en": "Becoming French"
+      },
+      "subcategories": [
+        {
+          "id": "naturalisation",
+          "title": {
+            "fr": "Naturalisation",
+            "en": "Naturalisation"
+          }
+        },
+        {
+          "id": "declaration",
+          "title": {
+            "fr": "Déclaration",
+            "en": "Declaration"
+          }
+        }
+      ]
+    },
+    {
+      "id": "identity_travel",
+      "symbol": "airplane",
+      "title": {
+        "fr": "Identité et voyages",
+        "en": "ID and travel"
+      },
+      "subtitle": {
+        "fr": "Passeport, carte d'identité, visas",
+        "en": "Passport, ID card, visas"
+      },
+      "subcategories": [
+        {
+          "id": "identity",
+          "title": {
+            "fr": "Papiers d'identité",
+            "en": "Identity documents"
+          }
+        },
+        {
+          "id": "travel",
+          "title": {
+            "fr": "Voyages et visas",
+            "en": "Travel and visas"
+          }
+        }
+      ]
+    },
+    {
+      "id": "daily_life",
+      "symbol": "house",
+      "title": {
+        "fr": "Vie en France",
+        "en": "Life in France"
+      },
+      "subtitle": {
+        "fr": "Impôts, logement, permis",
+        "en": "Taxes, housing, driving"
+      },
+      "subcategories": [
+        {
+          "id": "taxes",
+          "title": {
+            "fr": "Impôts",
+            "en": "Taxes"
+          }
+        },
+        {
+          "id": "housing",
+          "title": {
+            "fr": "Logement",
+            "en": "Housing"
+          }
+        },
+        {
+          "id": "driving",
+          "title": {
+            "fr": "Conduire",
+            "en": "Driving"
+          }
+        }
+      ]
+    }
+  ],
   "procedures": [
     {
       "id": "renewal",
@@ -12,7 +155,9 @@
       "subtitle": {
         "fr": "Mon titre arrive bientôt à expiration",
         "en": "My permit expires soon"
-      }
+      },
+      "category": "residence",
+      "subcategory": "permits"
     },
     {
       "id": "status_change",
@@ -24,7 +169,9 @@
       "subtitle": {
         "fr": "Par exemple d'étudiant à salarié",
         "en": "For example, from student to employee"
-      }
+      },
+      "category": "residence",
+      "subcategory": "permits"
     },
     {
       "id": "naturalisation",
@@ -36,7 +183,9 @@
       "subtitle": {
         "fr": "Naturalisation par décret",
         "en": "Naturalisation by decree"
-      }
+      },
+      "category": "nationality",
+      "subcategory": "naturalisation"
     },
     {
       "id": "duplicate",
@@ -48,7 +197,9 @@
       "subtitle": {
         "fr": "Demande de duplicata",
         "en": "Duplicate request"
-      }
+      },
+      "category": "residence",
+      "subcategory": "permits"
     },
     {
       "id": "passport",
@@ -60,7 +211,9 @@
       "subtitle": {
         "fr": "Passeport français ou de votre pays",
         "en": "French passport or from your country"
-      }
+      },
+      "category": "identity_travel",
+      "subcategory": "identity"
     },
     {
       "id": "visa_to_france",
@@ -72,7 +225,9 @@
       "subtitle": {
         "fr": "Court ou long séjour, pour vous ou un proche",
         "en": "Short or long stay, for you or a relative"
-      }
+      },
+      "category": "identity_travel",
+      "subcategory": "travel"
     },
     {
       "id": "travel_abroad",
@@ -84,7 +239,121 @@
       "subtitle": {
         "fr": "Partir et revenir avec les bons documents",
         "en": "Leave and come back with the right documents"
-      }
+      },
+      "category": "identity_travel",
+      "subcategory": "travel"
+    },
+    {
+      "id": "change_of_details",
+      "symbol": "mappin.and.ellipse",
+      "title": {
+        "fr": "Déclarer un changement d'adresse ou de situation",
+        "en": "Report a change of address or situation"
+      },
+      "subtitle": {
+        "fr": "Déménagement, mariage, nom",
+        "en": "Moving, marriage, name"
+      },
+      "category": "residence",
+      "subcategory": "permits"
+    },
+    {
+      "id": "dcem",
+      "symbol": "figure.and.child.holdinghands",
+      "title": {
+        "fr": "Document de circulation pour un mineur",
+        "en": "Travel document for a minor"
+      },
+      "subtitle": {
+        "fr": "DCEM pour votre enfant étranger",
+        "en": "DCEM for your foreign child"
+      },
+      "category": "residence",
+      "subcategory": "family"
+    },
+    {
+      "id": "nationality_by_marriage",
+      "symbol": "heart.circle",
+      "title": {
+        "fr": "Nationalité par mariage",
+        "en": "Citizenship through marriage"
+      },
+      "subtitle": {
+        "fr": "Déclaration pour les conjoints de Français",
+        "en": "Declaration for spouses of French citizens"
+      },
+      "category": "nationality",
+      "subcategory": "declaration"
+    },
+    {
+      "id": "family_reunification",
+      "symbol": "person.3",
+      "title": {
+        "fr": "Regroupement familial",
+        "en": "Family reunification"
+      },
+      "subtitle": {
+        "fr": "Faire venir votre conjoint et vos enfants",
+        "en": "Bring your spouse and children"
+      },
+      "category": "residence",
+      "subcategory": "family"
+    },
+    {
+      "id": "first_tax_return",
+      "symbol": "doc.text.magnifyingglass",
+      "title": {
+        "fr": "Première déclaration d'impôts",
+        "en": "First tax return"
+      },
+      "subtitle": {
+        "fr": "Déclarer vos revenus en France",
+        "en": "Declare your income in France"
+      },
+      "category": "daily_life",
+      "subcategory": "taxes"
+    },
+    {
+      "id": "identity_card",
+      "symbol": "person.text.rectangle",
+      "title": {
+        "fr": "Carte d'identité",
+        "en": "Identity card"
+      },
+      "subtitle": {
+        "fr": "Pour les personnes françaises",
+        "en": "For French citizens"
+      },
+      "category": "identity_travel",
+      "subcategory": "identity"
+    },
+    {
+      "id": "visale",
+      "symbol": "key",
+      "title": {
+        "fr": "Garantie Visale",
+        "en": "Visale guarantee"
+      },
+      "subtitle": {
+        "fr": "Une caution gratuite pour louer",
+        "en": "A free guarantor to rent"
+      },
+      "category": "daily_life",
+      "subcategory": "housing"
+    },
+    {
+      "id": "driving_licence_exchange",
+      "symbol": "car",
+      "title": {
+        "fr": "Échanger mon permis de conduire",
+        "en": "Exchange my driving licence"
+      },
+      "subtitle": {
+        "fr": "Permis étranger contre permis français",
+        "en": "Foreign licence for a French one"
+      },
+      "category": "daily_life",
+      "subcategory": "driving"
     }
   ]
 }

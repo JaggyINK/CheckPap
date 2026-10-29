@@ -96,10 +96,23 @@ enum RulesEngine {
         return (matching.isEmpty ? answered : matching).map { ($0.question, $0.answer) }
     }
 
+    /// Questions visibles d'une liste quelconque (utilisé aussi par le profil de "Mes droits").
+    static func visibleQuestions(_ questions: [Question], answers: Answers) -> [Question] {
+        walk(questions, answers).visible
+    }
+
+    static func effectiveAnswers(_ questions: [Question], answers: Answers) -> Answers {
+        walk(questions, answers).effective
+    }
+
     private static func walk(_ procedure: Procedure, _ answers: Answers) -> (visible: [Question], effective: Answers) {
+        walk(procedure.questions, answers)
+    }
+
+    private static func walk(_ questions: [Question], _ answers: Answers) -> (visible: [Question], effective: Answers) {
         var visible: [Question] = []
         var effective: Answers = [:]
-        for question in procedure.questions where isSatisfied(question.condition, answers: effective) {
+        for question in questions where isSatisfied(question.condition, answers: effective) {
             visible.append(question)
             if let answer = answers[question.id] {
                 effective[question.id] = answer

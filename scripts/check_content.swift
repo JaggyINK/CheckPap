@@ -21,3 +21,13 @@ for entry in catalog.procedures {
     }
 }
 check(HelpContent.self, "help.json") { "\($0.contacts.count) contacts, \($0.letters.count) courriers, \($0.guides?.count ?? 0) fiches pratiques" }
+
+if FileManager.default.fileExists(atPath: directory.appendingPathComponent("news.json").path) {
+    check(NewsFeed.self, "news.json") { "\($0.items.count) actualités" }
+}
+check(RightsProfile.self, "rights.json") { "\($0.questions.count) questions de profil" }
+let profileData = try Data(contentsOf: directory.appendingPathComponent("rights.json"))
+for part in try JSONDecoder().decode(RightsProfile.self, from: profileData).parts
+    where FileManager.default.fileExists(atPath: directory.appendingPathComponent("\(part).json").path) {
+    check(RightsPart.self, "\(part).json") { "\($0.rights.count) droits" }
+}

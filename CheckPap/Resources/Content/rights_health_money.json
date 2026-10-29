@@ -1,0 +1,1347 @@
+{
+  "reviewNotes": [
+    "caf.fr bloque la lecture automatique (page de contrôle anti-robot) : aucune page caf.fr n'a pu être lue. Les liens caf.fr (simulateur de prime d'activité, demande de RSA en ligne) viennent des pages service-public qui y renvoient ; la liste des titres de séjour acceptés par la Caf n'a pas été vérifiée sur caf.fr.",
+    "ofii.fr n'a pas répondu (erreur 503). La fiche Ada s'appuie uniquement sur service-public F33314 (vérifiée le 1er avril 2026, signalée « en cours de mise à jour »). Pacte européen asile et migration : F33314 indique que le droit national devait être adapté pour le 12 juin 2026 et liste des décrets parus du 7 juin au 6 octobre 2026 (procédure, conditions matérielles d'accueil, délais de recours), mais elle n'a pas encore réécrit les conditions de l'Ada. Les nouvelles règles ne sont donc PAS intégrées : la condition des 21 jours, le point de départ du versement et le cas Dublin sont à revérifier. La circulaire INTV2615721C du 11-12 juin 2026 (immigration.interieur.gouv.fr) n'a pas pu être lue (403 sur les pages, PDF illisible) ; un résumé de recherche lui attribue un versement de l'Ada à partir de la présentation de la demande et la suppression de l'accès au travail en procédure Dublin, non vérifié donc non repris. Un avertissement a été ajouté en tête des conditions de l'entrée ada. À vérifier aussi sur ofii.fr : montants, contact des directions territoriales.",
+    "RSA : la fiche F19778 donne le montant forfaitaire de 651,69 € (personne seule) « à titre indicatif » en citant le décret n° 2025-293 du 29 mars 2025, sans date d'application. Vérifier qu'il s'agit bien du montant en vigueur au 29/10/2026 avant d'afficher le chiffre.",
+    "Prime d'activité : les montants forfaitaires (638,28 € pour une personne seule) citent le décret n° 2026-222 du 30 mars 2026 mais la page ne dit pas à partir de quand ils s'appliquent ; ils n'ont pas été mis dans le fichier. La page contient aussi des espaces réservés non remplis (« titleContent »).",
+    "Prime d'activité, condition de séjour des étrangers hors UE : la fiche F2882 (vérifiée le 1er juin 2026, la fiche détaillée la plus récente) dit « avoir depuis au moins 5 ans un titre de séjour permettant de travailler en France » (plus les exceptions). L'actualité A18815 (mise à jour le 22 juillet 2026) dit seulement « titulaires d'un titre de séjour valide de longue durée », sans parler de 5 ans ni annoncer de changement. Écart non résolu : le texte suit F2882 et cite la formule de l'actualité. Aucun texte modifiant cette condition en 2026 n'a été trouvé. A18815 mentionne aussi un plafond de 2 000 € nets mensuels pour une personne seule et les étudiants ou apprentis sous conditions ; ces points ne sont pas repris faute de détail sur F2882.",
+    "Puma : la loi de financement de la Sécurité sociale pour 2026 prévoit une participation financière pour certains assurés sans activité ; le décret n'était pas publié selon service-public (F34308, vérifiée le 13 mai 2026). À suivre.",
+    "Demandeurs d'asile : la page ameli « Vous êtes demandeur d'asile » date de 2021 et cite le formulaire 1106a ; la page service-public F32454 est vérifiée le 25 juin 2024 et signalée « en cours de mise à jour ». Le maintien des droits 6 mois après la fin de l'attestation vient de la page ameli de 2021 uniquement.",
+    "PASS (permanences d'accès aux soins de santé) : aucune page dédiée trouvée sur les domaines autorisés. La fiche se limite à ce que disent F32454 et la page ameli sur l'AME (transmission du dossier AME sous 8 jours). Pas de liste des PASS.",
+    "Complémentaire santé solidaire : la participation mensuelle par âge n'est détaillée que pour Mayotte sur service-public ; ameli indique seulement « de 8 à 30 euros par mois et par personne ». Les plafonds annuels de service-public n'ont pas de date ; ameli donne des plafonds mensuels applicables au 1er avril 2026, repris ici.",
+    "AME : service-public indique le formulaire cerfa n° 17620 ; la page ameli ne donne pas de numéro de cerfa. Ameli parle d'une résidence « sans interruption depuis plus de 3 mois », service-public de « plus de 3 mois ». La liste des justificatifs de résidence sur ameli est ambiguë (« moins de 12 mois » / « plus de 3 mois »).",
+    "Chèque énergie : la fiche F33667 est vérifiée le 17 octobre 2025 ; les informations 2026 (envoi à partir du 1er avril 2026, demande possible jusqu'au 31 décembre 2026) viennent de l'actualité A17885. Le site chequeenergie.gouv.fr n'est pas dans les domaines autorisés et n'est pas lié.",
+    "Allocations familiales : les montants dépendent des revenus et du nombre d'enfants ; ils ne sont pas repris dans le fichier, la fiche renvoie au simulateur. Le certificat médical de l'Ofii comme preuve d'entrée régulière des enfants apparaît dans des documents Caf mais pas sur service-public F2787 ; il n'est pas mentionné.",
+    "Prestations familiales, durée de présence : service-public F13213 (vérifiée le 1er juin 2026) demande une résidence habituelle en France ou un séjour de plus de 9 mois dans l'année pour l'allocataire, et suspend les allocations si l'enfant quitte la France plus de 3 mois. Le chiffre de 6 mois cité par un document Caf n'apparaît pas sur service-public ; ce document n'a pas été lu (caf.fr bloqué). La version service-public est retenue.",
+    "Soins urgents : aucune fiche service-public dédiée ; la fiche s'appuie sur ameli (mise à jour du 24 mars 2025) et sur F748 (vérifiée le 9 septembre 2026)."
+  ],
+  "sources": [
+    {
+      "id": "sp_puma",
+      "publisher": "service-public.gouv.fr",
+      "title": "Qu'est-ce que la protection universelle maladie (Puma) ? (Vérifié le 13 mai 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34308",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "ameli_puma",
+      "publisher": "ameli.fr",
+      "title": "La protection universelle maladie (mis à jour le 12 janvier 2026)",
+      "url": "https://www.ameli.fr/assure/droits-demarches/principes/protection-universelle-maladie",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "ameli_numero_ne_etranger",
+      "publisher": "ameli.fr",
+      "title": "Vous êtes né à l'étranger et vous demandez votre numéro de sécurité sociale (mis à jour le 2 octobre 2026)",
+      "url": "https://www.ameli.fr/assure/droits-demarches/europe-international/protection-sociale-france/ne-etranger-demander-numero-securite-sociale",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "ameli_carte_vitale",
+      "publisher": "ameli.fr",
+      "title": "Demander sa carte Vitale : conditions et démarches (mis à jour le 14 octobre 2026)",
+      "url": "https://www.ameli.fr/assure/remboursements/etre-bien-rembourse/carte-vitale/carte-vitale-application/demander-sa-carte-vitale-conditions-et-demarches",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_c2s",
+      "publisher": "service-public.gouv.fr",
+      "title": "Complémentaire santé solidaire (ex-CMU-C) (Vérifié le 01 juillet 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10027",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "ameli_c2s",
+      "publisher": "ameli.fr",
+      "title": "La Complémentaire santé solidaire : l'essentiel (mis à jour le 18 septembre 2026)",
+      "url": "https://www.ameli.fr/assure/droits-demarches/difficultes-acces-droits-soins/complementaire-sante/complementaire-sante-solidaire",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_ame",
+      "publisher": "service-public.gouv.fr",
+      "title": "Qu'est-ce que l'aide médicale de l'État (AME) ? (Vérifié le 01 avril 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F3079",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "ameli_ame",
+      "publisher": "ameli.fr",
+      "title": "Aide médicale de l'État (AME) : vos démarches (mis à jour le 31 mars 2026)",
+      "url": "https://www.ameli.fr/assure/droits-demarches/situations-particulieres/situation-irreguliere-ame",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "ameli_soins_urgents",
+      "publisher": "ameli.fr",
+      "title": "Aide médicale de l'État et soins urgents (mis à jour le 24 mars 2025)",
+      "url": "https://www.ameli.fr/assure/remboursements/aide-medicale-etat-soins-urgents",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_hospitalisation",
+      "publisher": "service-public.gouv.fr",
+      "title": "Hospitalisation : quels sont les droits du patient ? (Vérifié le 09 septembre 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F748",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_droits_demandeur_asile",
+      "publisher": "service-public.gouv.fr",
+      "title": "Droits du demandeur d'asile : soins, logement, aide financière... (Vérifié le 25 juin 2024)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F32454",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "ameli_demandeur_asile",
+      "publisher": "ameli.fr",
+      "title": "Vous êtes demandeur d'asile (page datée du 18 août 2021)",
+      "url": "https://www.ameli.fr/assure/droits-demarches/europe-international/protection-sociale-france/demandeur-d-asile",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_rsa",
+      "publisher": "service-public.gouv.fr",
+      "title": "RSA : demandeur de 25 ans et plus (Vérifié le 01 avril 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F19778",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_rsa_demande_caf",
+      "publisher": "service-public.gouv.fr",
+      "title": "Demande de RSA (Caf)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R50282",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_prime_activite",
+      "publisher": "service-public.gouv.fr",
+      "title": "Prime d'activité : salarié ou fonctionnaire (Vérifié le 01 juin 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2882",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_prestations_etranger",
+      "publisher": "service-public.gouv.fr",
+      "title": "Un étranger peut-il percevoir des prestations familiales en France ? (Vérifié le 16 octobre 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2787",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_allocations_familiales",
+      "publisher": "service-public.gouv.fr",
+      "title": "Allocations familiales (famille de 2 enfants ou plus) (Vérifié le 01 juin 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F13213",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_ada",
+      "publisher": "service-public.gouv.fr",
+      "title": "En quoi consiste l'allocation pour demandeur d'asile (Ada) ? (Vérifié le 01 avril 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33314",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_aspa",
+      "publisher": "service-public.gouv.fr",
+      "title": "Allocation de solidarité aux personnes âgées (Aspa) (Vérifié le 23 juin 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F16871",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_cheque_energie",
+      "publisher": "service-public.gouv.fr",
+      "title": "Chèque énergie (Vérifié le 17 octobre 2025)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33667",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_cheque_energie_2026",
+      "publisher": "service-public.gouv.fr",
+      "title": "Comment bénéficier du chèque énergie en 2026 ? (Publié le 23 mars 2026, mis à jour le 1er avril 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/actualites/A17885",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_prime_activite_2026",
+      "publisher": "service-public.gouv.fr",
+      "title": "La prime d'activité revalorisée en 2026 (Publié le 05 mars 2026, mis à jour le 22 juillet 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/actualites/A18815",
+      "consulted": "2026-10-29"
+    }
+  ],
+  "rights": [
+    {
+      "id": "puma",
+      "category": "health",
+      "title": {
+        "fr": "Assurance maladie (Puma) et numéro de sécurité sociale",
+        "en": "Health insurance (Puma) and social security number"
+      },
+      "summary": {
+        "fr": "La protection universelle maladie (Puma) prend en charge vos frais de santé. Vous pourriez y avoir droit si vous vivez ou travaillez en France de manière stable et régulière.",
+        "en": "Universal health protection (Puma) covers your healthcare costs. You could be entitled to it if you live or work in France on a stable and regular basis."
+      },
+      "who": {
+        "fr": "D'après ameli, toute personne qui travaille ou réside en France de manière stable et régulière. Pour les étrangers hors Espace économique européen et Suisse, service-public indique qu'il faut avoir un titre ou un document de séjour.",
+        "en": "According to ameli, anyone who works or lives in France on a stable and regular basis. For foreigners from outside the European Economic Area and Switzerland, service-public says you must have a residence permit or residence document."
+      },
+      "conditions": [
+        {
+          "fr": "Sans activité professionnelle, service-public indique qu'il faut attendre 3 mois en France avant l'ouverture des droits. Si vous travaillez, l'affiliation intervient dès l'acceptation de la demande.",
+          "en": "Without a job, service-public says you must wait 3 months in France before your rights open. If you work, you are covered as soon as your application is accepted."
+        },
+        {
+          "fr": "Certaines personnes n'ont pas ce délai de 3 mois, par exemple les réfugiés (d'après service-public).",
+          "en": "Some people do not have this 3-month wait, for example refugees (according to service-public)."
+        },
+        {
+          "fr": "Ressortissants de l'EEE et de la Suisse : une pièce d'identité ou un passeport. Autres nationalités : un titre ou document de séjour (liste fixée par l'arrêté du 10 mai 2017, cité par service-public).",
+          "en": "EEA and Swiss nationals: an ID card or passport. Other nationalities: a residence permit or residence document (list set by the decree of 10 May 2017, cited by service-public)."
+        },
+        {
+          "fr": "Pour garder vos droits, il faut vivre en France au moins 6 mois par an. Lors des contrôles, ameli indique qu'il faut justifier de 6 mois de résidence sur les 12 derniers mois.",
+          "en": "To keep your rights, you must live in France at least 6 months a year. During checks, ameli says you must prove 6 months of residence over the last 12 months."
+        },
+        {
+          "fr": "Si vous êtes né à l'étranger, vous recevez d'abord un numéro provisoire (NIA), utilisable 9 mois. Il ne permet pas d'avoir la carte Vitale ni un compte ameli. Le numéro définitif demande environ 9 mois de traitement.",
+          "en": "If you were born abroad, you first get a temporary number (NIA), usable for 9 months. It does not give you a carte Vitale or an ameli account. The permanent number takes about 9 months to process."
+        }
+      ],
+      "howTo": [
+        {
+          "fr": "Remplissez le formulaire S1106 « Demande d'ouverture des droits à l'assurance maladie ».",
+          "en": "Fill in form S1106, \"Application to open health insurance rights\"."
+        },
+        {
+          "fr": "Joignez une pièce d'identité ou votre titre de séjour, et un document d'état civil (extrait d'acte de naissance avec filiation, copie intégrale ou document du consulat). Ameli précise que certains documents étrangers doivent être légalisés ou apostillés, et multilingues ou accompagnés d'une traduction certifiée.",
+          "en": "Attach an ID or your residence permit, and a civil status document (birth certificate extract with parents' names, full copy, or a document from your consulate). Ameli says some foreign documents must be legalised or apostilled, and multilingual or with a certified translation."
+        },
+        {
+          "fr": "Envoyez le dossier à la caisse d'assurance maladie (CPAM) de votre lieu de résidence. Régime agricole : la MSA. Mayotte : la CSSM.",
+          "en": "Send the file to the health insurance office (CPAM) where you live. Agricultural scheme: the MSA. Mayotte: the CSSM."
+        },
+        {
+          "fr": "Vous recevez un courrier avec votre numéro provisoire. Si la caisse vous demande d'autres pièces, envoyez-les vite : ameli indique que les droits peuvent être suspendus après 6 mois et supprimés après 9 mois sans les documents demandés.",
+          "en": "You receive a letter with your temporary number. If the office asks for more documents, send them quickly: ameli says rights can be suspended after 6 months and removed after 9 months without the requested documents."
+        }
+      ],
+      "links": [
+        {
+          "title": {
+            "fr": "Lire la fiche ameli pour les personnes nées à l'étranger",
+            "en": "Read the ameli page for people born abroad"
+          },
+          "url": "https://www.ameli.fr/assure/droits-demarches/europe-international/protection-sociale-france/ne-etranger-demander-numero-securite-sociale"
+        },
+        {
+          "title": {
+            "fr": "Lire la fiche Puma sur service-public.gouv.fr",
+            "en": "Read the Puma page on service-public.gouv.fr"
+          },
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34308"
+        }
+      ],
+      "contacts": [
+        "france_services"
+      ],
+      "guides": [
+        "health_insurance",
+        "sworn_translation",
+        "proof_of_address"
+      ],
+      "condition": {
+        "question": "residence_status",
+        "in": [
+          "french",
+          "eu",
+          "permit",
+          "receipt",
+          "refugee"
+        ]
+      },
+      "sources": [
+        "sp_puma",
+        "ameli_puma",
+        "ameli_numero_ne_etranger"
+      ]
+    },
+    {
+      "id": "carte_vitale",
+      "category": "health",
+      "title": {
+        "fr": "Carte Vitale",
+        "en": "Carte Vitale (health insurance card)"
+      },
+      "summary": {
+        "fr": "La carte Vitale prouve vos droits à l'assurance maladie chez le médecin, le pharmacien ou à l'hôpital. Elle est gratuite.",
+        "en": "The carte Vitale proves your health insurance rights at the doctor, pharmacy or hospital. It is free."
+      },
+      "who": {
+        "fr": "Les personnes qui ont un numéro de sécurité sociale définitif et des droits ouverts à l'assurance maladie.",
+        "en": "People who have a permanent social security number and open health insurance rights."
+      },
+      "conditions": [
+        {
+          "fr": "Il faut un numéro de sécurité sociale définitif. Avec un numéro provisoire, vous ne pouvez pas encore l'avoir.",
+          "en": "You need a permanent social security number. With a temporary number, you cannot get it yet."
+        },
+        {
+          "fr": "Pour un enfant, la demande en ligne est possible à partir de 16 ans, ou dès 12 ans si la situation l'exige.",
+          "en": "For a child, you can apply online from age 16, or from age 12 if the situation requires it."
+        }
+      ],
+      "howTo": [
+        {
+          "fr": "Quand votre numéro définitif est confirmé, la caisse vous envoie un courrier qui explique la démarche.",
+          "en": "When your permanent number is confirmed, the office sends you a letter explaining what to do."
+        },
+        {
+          "fr": "Commandez la carte dans votre compte ameli (rubrique Démarches) ou dans l'application Compte ameli, avec une photo d'identité et une pièce d'identité numérisées. Délai indiqué : environ 2 semaines.",
+          "en": "Order the card in your ameli account (Démarches section) or in the Compte ameli app, with a scanned ID photo and ID document. Stated delay: about 2 weeks."
+        },
+        {
+          "fr": "Ou répondez par courrier au formulaire papier reçu, avec une photo couleur collée et la photocopie d'une pièce d'identité valide. Délai indiqué : environ 3 semaines.",
+          "en": "Or reply by post to the paper form you received, with a colour photo stuck on and a copy of a valid ID. Stated delay: about 3 weeks."
+        },
+        {
+          "fr": "Attention : ameli indique que toute personne qui vous demande de l'argent pour une carte Vitale est un escroc.",
+          "en": "Warning: ameli says anyone asking you for money for a carte Vitale is a scammer."
+        }
+      ],
+      "links": [
+        {
+          "title": {
+            "fr": "Demander sa carte Vitale sur ameli.fr",
+            "en": "Apply for a carte Vitale on ameli.fr"
+          },
+          "url": "https://www.ameli.fr/assure/remboursements/etre-bien-rembourse/carte-vitale/carte-vitale-application/demander-sa-carte-vitale-conditions-et-demarches"
+        }
+      ],
+      "contacts": [
+        "france_services"
+      ],
+      "guides": [
+        "health_insurance"
+      ],
+      "condition": {
+        "question": "residence_status",
+        "in": [
+          "french",
+          "eu",
+          "permit",
+          "receipt",
+          "refugee"
+        ]
+      },
+      "sources": [
+        "ameli_carte_vitale",
+        "ameli_numero_ne_etranger"
+      ]
+    },
+    {
+      "id": "c2s",
+      "category": "health",
+      "title": {
+        "fr": "Complémentaire santé solidaire (C2S)",
+        "en": "Complémentaire santé solidaire (C2S, free or low-cost top-up health cover)"
+      },
+      "summary": {
+        "fr": "La C2S paie la part de vos frais de santé que l'assurance maladie ne rembourse pas. Elle est gratuite ou coûte entre 8 et 30 € par mois et par personne, selon vos ressources et votre âge.",
+        "en": "The C2S pays the share of your healthcare costs that health insurance does not refund. It is free or costs between €8 and €30 per month per person, depending on your income and age."
+      },
+      "who": {
+        "fr": "Les personnes affiliées à la Sécurité sociale qui ont des ressources modestes. Les personnes en situation irrégulière ne peuvent pas l'avoir : service-public les oriente vers l'AME.",
+        "en": "People covered by Social Security who have modest income. People without legal residence cannot get it: service-public points them to AME."
+      },
+      "conditions": [
+        {
+          "fr": "Étrangers : d'après service-public, il faut un titre de séjour valide et résider en France sans interruption depuis plus de 3 mois (sauf cas prévus, par exemple une activité professionnelle de plus de 3 mois).",
+          "en": "Foreigners: according to service-public, you need a valid residence permit and must have lived in France without interruption for more than 3 months (except in listed cases, for example work for more than 3 months)."
+        },
+        {
+          "fr": "Ressources : en métropole, ameli indique au 1er avril 2026 un plafond indicatif de 868,44 € par mois pour une personne seule pour la C2S gratuite, et 1 172,40 € pour la C2S avec participation. Les plafonds augmentent avec le nombre de personnes du foyer.",
+          "en": "Income: in mainland France, ameli gives as of 1 April 2026 an indicative ceiling of €868.44 per month for a single person for free C2S, and €1,172.40 for C2S with a contribution. Ceilings rise with household size."
+        },
+        {
+          "fr": "Si vous touchez le RSA, la C2S gratuite vous est attribuée automatiquement, sauf si vous vous y opposez.",
+          "en": "If you receive RSA, free C2S is granted automatically unless you refuse it."
+        },
+        {
+          "fr": "Sans domicile stable, vous pouvez utiliser une adresse administrative auprès d'un CCAS ou d'une association agréée.",
+          "en": "Without a stable home, you can use an administrative address with a CCAS or an approved association."
+        }
+      ],
+      "howTo": [
+        {
+          "fr": "Faites une simulation sur mesdroitssociaux.gouv.fr.",
+          "en": "Run a simulation on mesdroitssociaux.gouv.fr."
+        },
+        {
+          "fr": "Faites la demande dans votre compte ameli : Démarches > Frais de santé > Demander la Complémentaire santé solidaire.",
+          "en": "Apply in your ameli account: Démarches > Frais de santé > Demander la Complémentaire santé solidaire."
+        },
+        {
+          "fr": "Ou envoyez le formulaire cerfa n° 12504 avec les justificatifs à votre caisse d'assurance maladie, ou déposez-le à l'accueil.",
+          "en": "Or send form cerfa no. 12504 with the supporting documents to your health insurance office, or drop it off at the counter."
+        },
+        {
+          "fr": "La caisse répond en 2 mois. La C2S dure 1 an : demandez le renouvellement entre 4 et 2 mois avant la fin.",
+          "en": "The office replies within 2 months. C2S lasts 1 year: ask for renewal between 4 and 2 months before it ends."
+        }
+      ],
+      "links": [
+        {
+          "title": {
+            "fr": "Faire une simulation sur mesdroitssociaux.gouv.fr",
+            "en": "Run a simulation on mesdroitssociaux.gouv.fr"
+          },
+          "url": "https://www.mesdroitssociaux.gouv.fr/"
+        },
+        {
+          "title": {
+            "fr": "Lire la fiche C2S sur ameli.fr",
+            "en": "Read the C2S page on ameli.fr"
+          },
+          "url": "https://www.ameli.fr/assure/droits-demarches/difficultes-acces-droits-soins/complementaire-sante/complementaire-sante-solidaire"
+        }
+      ],
+      "contacts": [
+        "france_services"
+      ],
+      "guides": [
+        "health_insurance",
+        "tax_documents"
+      ],
+      "condition": {
+        "all": [
+          {
+            "question": "residence_status",
+            "in": [
+              "french",
+              "eu",
+              "permit",
+              "receipt",
+              "refugee",
+              "asylum_seeker"
+            ]
+          },
+          {
+            "question": "low_income",
+            "equals": "yes"
+          }
+        ]
+      },
+      "sources": [
+        "sp_c2s",
+        "ameli_c2s",
+        "ameli_demandeur_asile"
+      ]
+    },
+    {
+      "id": "ame",
+      "category": "health",
+      "title": {
+        "fr": "Aide médicale de l'État (AME)",
+        "en": "State medical aid (AME)"
+      },
+      "summary": {
+        "fr": "L'AME prend en charge à 100 % les soins médicaux et hospitaliers des étrangers en situation irrégulière, sans avance de frais, dans la limite des tarifs de la Sécurité sociale.",
+        "en": "AME covers 100% of medical and hospital care for foreigners without legal residence, with no upfront payment, within Social Security rates."
+      },
+      "who": {
+        "fr": "Les étrangers en situation irrégulière qui vivent en France depuis plus de 3 mois et ont des ressources faibles. Les demandeurs d'asile ne peuvent pas l'avoir. L'AME n'existe pas à Mayotte.",
+        "en": "Foreigners without legal residence who have lived in France for more than 3 months and have low income. Asylum seekers cannot get it. AME does not exist in Mayotte."
+      },
+      "conditions": [
+        {
+          "fr": "Résider en France de façon stable depuis plus de 3 mois (ameli précise : sans interruption) et ne pas avoir de titre de séjour depuis plus de 3 mois.",
+          "en": "Live in France on a stable basis for more than 3 months (ameli says: without interruption) and not have held a residence permit for more than 3 months."
+        },
+        {
+          "fr": "Ressources des 12 derniers mois sous un plafond : en métropole, 10 421 € par an pour une personne seule, 15 632 € pour 2 personnes (plafonds ameli applicables au 1er avril 2026 ; plus élevés dans les DOM).",
+          "en": "Income over the last 12 months below a ceiling: in mainland France, €10,421 a year for a single person, €15,632 for 2 people (ameli ceilings applicable from 1 April 2026; higher in overseas departments)."
+        },
+        {
+          "fr": "Les enfants mineurs l'obtiennent sans délai, même sans la condition de 3 mois, et même si les parents ne l'ont pas.",
+          "en": "Minor children get it without delay, even without the 3-month condition, and even if their parents do not have it."
+        },
+        {
+          "fr": "Pour un nouvel adulte, certains soins non urgents ne sont pris en charge qu'après 9 mois d'AME.",
+          "en": "For a new adult, some non-urgent care is only covered after 9 months of AME."
+        }
+      ],
+      "howTo": [
+        {
+          "fr": "Remplissez le formulaire de demande d'AME (cerfa n° 17620 selon service-public). La notice liste les pièces : identité, preuve de résidence en France depuis plus de 3 mois, ressources du foyer.",
+          "en": "Fill in the AME application form (cerfa no. 17620 according to service-public). The notice lists the documents: identity, proof of residence in France for more than 3 months, household income."
+        },
+        {
+          "fr": "Première demande : déposez-la en personne à l'accueil de la CPAM de votre lieu de résidence, ou dans une France Services. Si vous êtes soigné à l'hôpital ou dans une PASS, l'établissement peut transmettre votre dossier.",
+          "en": "First application: file it in person at the CPAM counter where you live, or at a France Services office. If you are treated at a hospital or a PASS, the hospital can forward your file."
+        },
+        {
+          "fr": "La caisse répond en 2 mois. Sans réponse, la demande est considérée comme refusée. Si elle est acceptée, vous êtes convoqué pour retirer votre carte d'admission.",
+          "en": "The office replies within 2 months. Without a reply, the application is considered refused. If accepted, you are called in to collect your admission card."
+        },
+        {
+          "fr": "L'AME dure 1 an. Le renouvellement n'est pas automatique : déposez une nouvelle demande dans les 2 mois avant la fin.",
+          "en": "AME lasts 1 year. Renewal is not automatic: file a new application within the 2 months before it ends."
+        }
+      ],
+      "links": [
+        {
+          "title": {
+            "fr": "Lire la fiche AME sur ameli.fr",
+            "en": "Read the AME page on ameli.fr"
+          },
+          "url": "https://www.ameli.fr/assure/droits-demarches/situations-particulieres/situation-irreguliere-ame"
+        },
+        {
+          "title": {
+            "fr": "Lire la fiche AME sur service-public.gouv.fr",
+            "en": "Read the AME page on service-public.gouv.fr"
+          },
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F3079"
+        }
+      ],
+      "contacts": [
+        "france_services",
+        "defenseur_des_droits"
+      ],
+      "guides": [
+        "proof_of_address",
+        "health_insurance"
+      ],
+      "condition": {
+        "all": [
+          {
+            "question": "residence_status",
+            "equals": "undocumented"
+          },
+          {
+            "any": [
+              {
+                "not": {
+                  "question": "time_in_france",
+                  "equals": "under_3_months"
+                }
+              },
+              {
+                "question": "has_children",
+                "equals": "yes"
+              },
+              {
+                "question": "age_group",
+                "equals": "under_18"
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_ame",
+        "ameli_ame"
+      ]
+    },
+    {
+      "id": "soins_urgents",
+      "category": "health",
+      "title": {
+        "fr": "Soins urgents à l'hôpital",
+        "en": "Urgent care at the hospital"
+      },
+      "summary": {
+        "fr": "Si vous n'avez ni assurance maladie ni AME, l'hôpital public peut vous soigner en cas d'urgence. Les soins urgents faits à l'hôpital sont pris en charge, sans avance de frais.",
+        "en": "If you have neither health insurance nor AME, the public hospital can treat you in an emergency. Urgent care given at the hospital is covered, with no upfront payment."
+      },
+      "who": {
+        "fr": "Les personnes en situation irrégulière qui ne sont pas admises à l'AME, et les demandeurs d'asile pendant leurs 3 premiers mois en France. Ce dispositif ne s'applique pas à Mayotte.",
+        "en": "People without legal residence who are not admitted to AME, and asylum seekers during their first 3 months in France. This scheme does not apply in Mayotte."
+      },
+      "conditions": [
+        {
+          "fr": "Soins concernés d'après ameli : soins dont l'absence mettrait en jeu le pronostic vital, soins pour éviter qu'une maladie se propage, soins liés à la grossesse et au nouveau-né, interruptions de grossesse, soins aux mineurs.",
+          "en": "Care covered according to ameli: care without which your life would be at risk, care to stop a disease spreading, pregnancy and newborn care, abortions, care for minors."
+        },
+        {
+          "fr": "Personnes en situation irrégulière : une demande d'AME doit être faite, par vous ou par l'hôpital.",
+          "en": "People without legal residence: an AME application must be made, by you or by the hospital."
+        },
+        {
+          "fr": "Demandeurs d'asile : pas besoin de demande d'AME, l'attestation de demande d'asile suffit.",
+          "en": "Asylum seekers: no AME application needed, the asylum seeker certificate is enough."
+        }
+      ],
+      "howTo": [
+        {
+          "fr": "Allez à l'hôpital public. Montrez votre attestation de demande d'asile si vous en avez une.",
+          "en": "Go to the public hospital. Show your asylum seeker certificate if you have one."
+        },
+        {
+          "fr": "L'hôpital gère le dossier avec l'assurance maladie. Si vous n'avez pas encore demandé l'AME, il peut le faire avec vous.",
+          "en": "The hospital handles the file with health insurance. If you have not yet applied for AME, it can do it with you."
+        }
+      ],
+      "links": [
+        {
+          "title": {
+            "fr": "Lire la fiche soins urgents sur ameli.fr",
+            "en": "Read the urgent care page on ameli.fr"
+          },
+          "url": "https://www.ameli.fr/assure/remboursements/aide-medicale-etat-soins-urgents"
+        }
+      ],
+      "contacts": [
+        "france_services"
+      ],
+      "guides": [],
+      "condition": {
+        "question": "residence_status",
+        "in": [
+          "undocumented",
+          "asylum_seeker"
+        ]
+      },
+      "sources": [
+        "ameli_soins_urgents",
+        "sp_hospitalisation"
+      ]
+    },
+    {
+      "id": "pass_hopital",
+      "category": "health",
+      "title": {
+        "fr": "Permanence d'accès aux soins de santé (PASS)",
+        "en": "Healthcare access desk at hospitals (PASS)"
+      },
+      "summary": {
+        "fr": "Certains hôpitaux ont une PASS, où vous pouvez accéder à des soins si vous n'avez pas encore de couverture santé.",
+        "en": "Some hospitals have a PASS, where you can get care if you do not have health cover yet."
+      },
+      "who": {
+        "fr": "Service-public cite les PASS pour les demandeurs d'asile qui attendent leur couverture santé. Ameli indique qu'une PASS peut aussi transmettre une première demande d'AME.",
+        "en": "Service-public mentions PASS for asylum seekers waiting for their health cover. Ameli says a PASS can also forward a first AME application."
+      },
+      "conditions": [
+        {
+          "fr": "Tous les hôpitaux n'ont pas de PASS : renseignez-vous auprès de l'hôpital le plus proche.",
+          "en": "Not every hospital has a PASS: ask the nearest hospital."
+        },
+        {
+          "fr": "Si vous êtes pris en charge dans une PASS, l'établissement transmet votre dossier d'AME à la caisse dans un délai de 8 jours.",
+          "en": "If you are treated at a PASS, the hospital forwards your AME file to the health insurance office within 8 days."
+        }
+      ],
+      "howTo": [
+        {
+          "fr": "Demandez à l'accueil de l'hôpital s'il existe une PASS.",
+          "en": "Ask at the hospital reception whether there is a PASS."
+        },
+        {
+          "fr": "Apportez vos papiers d'identité et, si vous en avez, votre attestation de demande d'asile ou vos justificatifs de résidence.",
+          "en": "Bring your identity papers and, if you have them, your asylum seeker certificate or proof of residence."
+        }
+      ],
+      "links": [
+        {
+          "title": {
+            "fr": "Lire les droits du demandeur d'asile sur service-public.gouv.fr",
+            "en": "Read asylum seekers' rights on service-public.gouv.fr"
+          },
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F32454"
+        }
+      ],
+      "contacts": [
+        "france_services"
+      ],
+      "guides": [],
+      "condition": {
+        "question": "residence_status",
+        "in": [
+          "undocumented",
+          "asylum_seeker"
+        ]
+      },
+      "sources": [
+        "sp_droits_demandeur_asile",
+        "ameli_ame"
+      ]
+    },
+    {
+      "id": "sante_demandeur_asile",
+      "category": "health",
+      "title": {
+        "fr": "Santé des demandeurs d'asile",
+        "en": "Healthcare for asylum seekers"
+      },
+      "summary": {
+        "fr": "Pendant l'examen de votre demande d'asile, vous pourriez avoir accès à l'assurance maladie (Puma) après 3 mois de résidence. Avant, les soins urgents à l'hôpital sont pris en charge.",
+        "en": "While your asylum claim is examined, you could have access to health insurance (Puma) after 3 months of residence. Before that, urgent hospital care is covered."
+      },
+      "who": {
+        "fr": "Les personnes qui ont une attestation de demande d'asile.",
+        "en": "People who have an asylum seeker certificate."
+      },
+      "conditions": [
+        {
+          "fr": "Les 3 premiers mois : seuls les soins urgents à l'hôpital sont pris en charge, sans avance de frais.",
+          "en": "First 3 months: only urgent hospital care is covered, with no upfront payment."
+        },
+        {
+          "fr": "Après 3 mois : il faut un justificatif de résidence en France depuis plus de 3 mois. Les mineurs n'ont pas cette condition de 3 mois.",
+          "en": "After 3 months: you need proof that you have lived in France for more than 3 months. Minors do not have this 3-month condition."
+        },
+        {
+          "fr": "D'après ameli, la Complémentaire santé solidaire (C2S) est aussi possible selon vos ressources, après 3 mois de résidence.",
+          "en": "According to ameli, the Complémentaire santé solidaire (C2S) is also possible depending on your income, after 3 months of residence."
+        },
+        {
+          "fr": "En cas de rejet définitif, ameli indique que la couverture continue 6 mois après la fin de validité de l'attestation, si vous vivez toujours en France.",
+          "en": "If your claim is finally rejected, ameli says coverage continues for 6 months after your certificate expires, if you still live in France."
+        }
+      ],
+      "howTo": [
+        {
+          "fr": "Après 3 mois, remplissez le formulaire « Demande d'ouverture des droits à l'assurance maladie ».",
+          "en": "After 3 months, fill in the form \"Application to open health insurance rights\"."
+        },
+        {
+          "fr": "Joignez votre attestation de demande d'asile, un RIB, un justificatif de domiciliation et une pièce d'identité si vous en avez une.",
+          "en": "Attach your asylum seeker certificate, bank details (RIB), proof of domiciliation and an ID if you have one."
+        },
+        {
+          "fr": "Envoyez le dossier à la CPAM de votre lieu de résidence. Vous recevez un numéro provisoire et une attestation de droits.",
+          "en": "Send the file to the CPAM where you live. You receive a temporary number and a certificate of rights."
+        }
+      ],
+      "links": [
+        {
+          "title": {
+            "fr": "Lire la fiche ameli pour les demandeurs d'asile",
+            "en": "Read the ameli page for asylum seekers"
+          },
+          "url": "https://www.ameli.fr/assure/droits-demarches/europe-international/protection-sociale-france/demandeur-d-asile"
+        },
+        {
+          "title": {
+            "fr": "Lire les droits du demandeur d'asile sur service-public.gouv.fr",
+            "en": "Read asylum seekers' rights on service-public.gouv.fr"
+          },
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F32454"
+        }
+      ],
+      "contacts": [
+        "france_services"
+      ],
+      "guides": [
+        "health_insurance",
+        "proof_of_address"
+      ],
+      "condition": {
+        "question": "residence_status",
+        "equals": "asylum_seeker"
+      },
+      "sources": [
+        "sp_droits_demandeur_asile",
+        "ameli_demandeur_asile",
+        "ameli_soins_urgents"
+      ]
+    },
+    {
+      "id": "rsa",
+      "category": "money",
+      "title": {
+        "fr": "Revenu de solidarité active (RSA)",
+        "en": "Active solidarity income (RSA)"
+      },
+      "summary": {
+        "fr": "Le RSA assure un revenu minimum aux personnes qui ont peu ou pas de ressources. Il est versé par la Caf ou la MSA.",
+        "en": "RSA provides a minimum income to people with little or no resources. It is paid by the Caf or the MSA."
+      },
+      "who": {
+        "fr": "Les personnes d'au moins 25 ans qui vivent en France de manière stable et effective et ont de faibles ressources. Il n'y a pas d'âge maximum.",
+        "en": "People aged 25 or over who live in France on a stable and effective basis and have low income. There is no maximum age."
+      },
+      "conditions": [
+        {
+          "fr": "Étrangers hors UE : avoir depuis au moins 5 ans un titre de séjour qui autorise à travailler. Service-public précise que cette condition ne s'applique pas aux Algériens.",
+          "en": "Non-EU foreigners: have held a residence permit allowing you to work for at least 5 years. Service-public says this condition does not apply to Algerian nationals."
+        },
+        {
+          "fr": "Exceptions à la condition des 5 ans : carte de résident ou titre équivalent, statut de réfugié, apatride reconnu, protection subsidiaire.",
+          "en": "Exceptions to the 5-year condition: resident card or equivalent permit, refugee status, recognised stateless person, subsidiary protection."
+        },
+        {
+          "fr": "Citoyens de l'UE : avoir le droit de séjour et vivre en France depuis au moins 3 mois, ou avoir travaillé en France (puis chômage avec inscription à France Travail, arrêt maladie ou formation). Pas de RSA si vous êtes en France seulement pour chercher un emploi.",
+          "en": "EU citizens: have the right of residence and have lived in France for at least 3 months, or have worked in France (then unemployed and registered with France Travail, on sick leave or in training). No RSA if you are in France only to look for work."
+        },
+        {
+          "fr": "Les étudiants, élèves et stagiaires non rémunérés ne peuvent pas l'avoir, sauf parent isolé sous conditions.",
+          "en": "Students, pupils and unpaid trainees cannot get it, except lone parents under conditions."
+        },
+        {
+          "fr": "Le montant dépend de vos ressources des 3 derniers mois et de votre foyer. Service-public indique à titre indicatif 651,69 € par mois pour une personne seule sans ressources.",
+          "en": "The amount depends on your income over the last 3 months and your household. Service-public gives, as an indication, €651.69 per month for a single person with no income."
+        },
+        {
+          "fr": "L'inscription à France Travail est automatique. Il faut signer un contrat d'engagement (en général 15 à 20 heures d'activité par semaine) et faire une déclaration de ressources tous les 3 mois.",
+          "en": "Registration with France Travail is automatic. You must sign a commitment contract (usually 15 to 20 hours of activity per week) and declare your income every 3 months."
+        }
+      ],
+      "howTo": [
+        {
+          "fr": "Faites une simulation sur mesdroitssociaux.gouv.fr.",
+          "en": "Run a simulation on mesdroitssociaux.gouv.fr."
+        },
+        {
+          "fr": "Faites la demande en ligne sur caf.fr (ou sur le site de la MSA si vous dépendez du régime agricole).",
+          "en": "Apply online on caf.fr (or on the MSA website if you are in the agricultural scheme)."
+        },
+        {
+          "fr": "Vous pouvez aussi demander sur place (Caf, services du département, parfois le CCAS ou une association agréée) ou par courrier avec les formulaires cerfa n° 15481 (ou 15482 si vous êtes indépendant) et n° 14130.",
+          "en": "You can also apply in person (Caf, département services, sometimes the CCAS or an approved association) or by post with forms cerfa no. 15481 (or 15482 if self-employed) and no. 14130."
+        },
+        {
+          "fr": "Étrangers hors UE : service-public indique de contacter la Caf ou la MSA et de fournir les justificatifs de ressources des 3 derniers mois.",
+          "en": "Non-EU foreigners: service-public says to contact the Caf or MSA and provide proof of income for the last 3 months."
+        }
+      ],
+      "links": [
+        {
+          "title": {
+            "fr": "Faire une simulation sur mesdroitssociaux.gouv.fr",
+            "en": "Run a simulation on mesdroitssociaux.gouv.fr"
+          },
+          "url": "https://www.mesdroitssociaux.gouv.fr/"
+        },
+        {
+          "title": {
+            "fr": "Demander le RSA en ligne (Caf)",
+            "en": "Apply for RSA online (Caf)"
+          },
+          "url": "https://wwwd.caf.fr/wps/portal/caffr/aidesetservices/lesservicesenligne/faireunedemandedeprestation#/solidariteetactivite"
+        },
+        {
+          "title": {
+            "fr": "Lire la fiche RSA sur service-public.gouv.fr",
+            "en": "Read the RSA page on service-public.gouv.fr"
+          },
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F19778"
+        }
+      ],
+      "contacts": [
+        "france_services"
+      ],
+      "guides": [
+        "proof_of_address",
+        "tax_documents"
+      ],
+      "condition": {
+        "all": [
+          {
+            "question": "residence_status",
+            "in": [
+              "french",
+              "eu",
+              "permit",
+              "receipt",
+              "refugee"
+            ]
+          },
+          {
+            "question": "age_group",
+            "in": [
+              "18_25",
+              "26_64",
+              "65_plus"
+            ]
+          },
+          {
+            "question": "low_income",
+            "equals": "yes"
+          }
+        ]
+      },
+      "sources": [
+        "sp_rsa",
+        "sp_rsa_demande_caf"
+      ]
+    },
+    {
+      "id": "prime_activite",
+      "category": "money",
+      "title": {
+        "fr": "Prime d'activité",
+        "en": "Prime d'activité (in-work benefit)"
+      },
+      "summary": {
+        "fr": "La prime d'activité complète les revenus des personnes qui travaillent et gagnent peu. Elle est versée par la Caf ou la MSA.",
+        "en": "The prime d'activité tops up the income of people who work and earn little. It is paid by the Caf or the MSA."
+      },
+      "who": {
+        "fr": "Les personnes de 18 ans ou plus qui ont une activité professionnelle avec des revenus modestes et résident en France de manière stable et effective.",
+        "en": "People aged 18 or over who work with modest income and live in France on a stable and effective basis."
+      },
+      "conditions": [
+        {
+          "fr": "Étrangers hors UE, d'après la fiche service-public vérifiée le 1er juin 2026 : avoir depuis au moins 5 ans un titre de séjour permettant de travailler en France, ou être parent isolé avec un enfant à charge de moins de 3 ans et un titre de séjour, ou avoir la carte de résident, ou être réfugié, apatride reconnu ou bénéficiaire de la protection subsidiaire.",
+          "en": "Non-EU foreigners, according to the service-public page verified on 1 June 2026: have held a residence permit allowing you to work in France for at least 5 years, or be a lone parent with a dependent child under 3 and a residence permit, or have a resident card, or be a refugee, recognised stateless person or beneficiary of subsidiary protection."
+        },
+        {
+          "fr": "Une actualité service-public mise à jour le 22 juillet 2026 résume cette condition autrement : les personnes étrangères « titulaires d'un titre de séjour valide de longue durée » peuvent faire la demande. Le simulateur ou la Caf vous diront si votre titre convient.",
+          "en": "A service-public news item updated on 22 July 2026 summarises this condition differently: foreigners \"holding a valid long-term residence permit\" can apply. The simulator or the Caf will tell you whether your permit qualifies."
+        },
+        {
+          "fr": "Citoyens de l'UE : avoir le droit de séjour et vivre en France depuis au moins 3 mois au moment de la demande.",
+          "en": "EU citizens: have the right of residence and have lived in France for at least 3 months when you apply."
+        },
+        {
+          "fr": "Les travailleurs détachés temporairement en France ne peuvent pas l'avoir.",
+          "en": "Workers temporarily posted to France cannot get it."
+        }
+      ],
+      "howTo": [
+        {
+          "fr": "Faites une simulation sur le simulateur de la Caf.",
+          "en": "Run a simulation with the Caf simulator."
+        },
+        {
+          "fr": "Faites la demande en ligne sur caf.fr, ou dans votre espace privé MSA si vous dépendez du régime agricole.",
+          "en": "Apply online on caf.fr, or in your MSA private space if you are in the agricultural scheme."
+        }
+      ],
+      "links": [
+        {
+          "title": {
+            "fr": "Faire une simulation (Caf)",
+            "en": "Run a simulation (Caf)"
+          },
+          "url": "https://wwwd.caf.fr/wps/portal/caffr/simulateurpa/"
+        },
+        {
+          "title": {
+            "fr": "Demander la prime d'activité (Caf)",
+            "en": "Apply for the prime d'activité (Caf)"
+          },
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R42724"
+        },
+        {
+          "title": {
+            "fr": "Lire la fiche sur service-public.gouv.fr",
+            "en": "Read the page on service-public.gouv.fr"
+          },
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2882"
+        }
+      ],
+      "contacts": [
+        "france_services"
+      ],
+      "guides": [
+        "tax_documents"
+      ],
+      "condition": {
+        "all": [
+          {
+            "question": "residence_status",
+            "in": [
+              "french",
+              "eu",
+              "permit",
+              "receipt",
+              "refugee"
+            ]
+          },
+          {
+            "question": "activity",
+            "in": [
+              "employee",
+              "self_employed"
+            ]
+          },
+          {
+            "not": {
+              "question": "age_group",
+              "equals": "under_18"
+            }
+          }
+        ]
+      },
+      "sources": [
+        "sp_prime_activite",
+        "sp_prime_activite_2026"
+      ]
+    },
+    {
+      "id": "prestations_familiales",
+      "category": "money",
+      "title": {
+        "fr": "Allocations familiales et autres prestations de la Caf",
+        "en": "Family allowances and other Caf benefits"
+      },
+      "summary": {
+        "fr": "La Caf (ou la MSA) verse des prestations aux familles, dont les allocations familiales à partir de 2 enfants. Les étrangers peuvent y avoir accès s'ils sont en séjour régulier.",
+        "en": "The Caf (or MSA) pays benefits to families, including family allowances from 2 children. Foreigners can access them if they live in France legally."
+      },
+      "who": {
+        "fr": "Les personnes qui résident en France avec au moins un enfant à charge qui vit en France. Les allocations familiales concernent les familles avec au moins 2 enfants à charge de moins de 20 ans.",
+        "en": "People living in France with at least one dependent child who lives in France. Family allowances are for families with at least 2 dependent children under 20."
+      },
+      "conditions": [
+        {
+          "fr": "Résidence : avoir votre résidence habituelle en France, ou y séjourner plus de 9 mois dans l'année (consécutifs ou non). Votre enfant doit aussi résider en France : s'il quitte le pays plus de 3 mois, même seul, les allocations familiales sont suspendues (sauf études ou soins dans un pays frontalier, sous conditions).",
+          "en": "Residence: have your usual residence in France, or stay there more than 9 months in the year (consecutive or not). Your child must also live in France: if the child leaves the country for more than 3 months, even alone, family allowances are suspended (except for studies or medical care in a neighbouring country, under conditions)."
+        },
+        {
+          "fr": "Étrangers hors EEE et Suisse : être en séjour régulier. Documents acceptés notamment : VLS-TS, carte de séjour temporaire, carte de résident (ou leur récépissé de renouvellement), autorisation provisoire de séjour de plus de 3 mois.",
+          "en": "Foreigners from outside the EEA and Switzerland: live in France legally. Accepted documents include: VLS-TS, temporary residence permit, resident card (or their renewal receipt), temporary residence authorisation of more than 3 months."
+        },
+        {
+          "fr": "Réfugiés : le récépissé doit porter la mention « reconnu réfugié », « étranger admis au séjour au titre de l'asile » ou « a obtenu le bénéfice de la protection subsidiaire ».",
+          "en": "Refugees: the receipt must state \"reconnu réfugié\", \"étranger admis au séjour au titre de l'asile\" or \"a obtenu le bénéfice de la protection subsidiaire\"."
+        },
+        {
+          "fr": "Citoyens de l'EEE et de la Suisse : justifier du droit au séjour (travailleur, inactif, étudiant), résider en France et avoir un enfant à charge qui y vit.",
+          "en": "EEA and Swiss citizens: prove your right of residence (worker, non-working, student), live in France and have a dependent child living there."
+        },
+        {
+          "fr": "Il faut prouver l'entrée régulière de vos enfants en France, sauf si vous avez un titre qui vous autorise à travailler. À Mayotte, cette preuve est toujours demandée.",
+          "en": "You must prove your children entered France legally, unless you hold a permit allowing you to work. In Mayotte, this proof is always required."
+        },
+        {
+          "fr": "La plupart des prestations dépendent des revenus du foyer. Pour les allocations familiales de 2026, ce sont les revenus de 2024.",
+          "en": "Most benefits depend on household income. For 2026 family allowances, 2024 income is used."
+        }
+      ],
+      "howTo": [
+        {
+          "fr": "Faites une simulation sur mesdroitssociaux.gouv.fr.",
+          "en": "Run a simulation on mesdroitssociaux.gouv.fr."
+        },
+        {
+          "fr": "Si vous recevez déjà des aides de la Caf, déclarez la naissance ou l'arrivée d'un enfant avec une copie du livret de famille ou de l'acte de naissance : les allocations familiales sont alors versées automatiquement.",
+          "en": "If you already receive Caf benefits, declare the birth or arrival of a child with a copy of the family record book or birth certificate: family allowances are then paid automatically."
+        },
+        {
+          "fr": "Sinon, remplissez les formulaires cerfa n° 11423 et n° 10397 et envoyez-les à votre Caf (ou inscrivez-vous en ligne sur le site de la MSA).",
+          "en": "Otherwise, fill in forms cerfa no. 11423 and no. 10397 and send them to your Caf (or register online on the MSA website)."
+        }
+      ],
+      "links": [
+        {
+          "title": {
+            "fr": "Faire une simulation sur mesdroitssociaux.gouv.fr",
+            "en": "Run a simulation on mesdroitssociaux.gouv.fr"
+          },
+          "url": "https://www.mesdroitssociaux.gouv.fr/"
+        },
+        {
+          "title": {
+            "fr": "Lire la fiche « étranger et prestations familiales »",
+            "en": "Read the page on foreigners and family benefits"
+          },
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2787"
+        },
+        {
+          "title": {
+            "fr": "Lire la fiche allocations familiales",
+            "en": "Read the family allowances page"
+          },
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F13213"
+        }
+      ],
+      "contacts": [
+        "france_services"
+      ],
+      "guides": [
+        "civil_status_france",
+        "sworn_translation",
+        "tax_documents"
+      ],
+      "condition": {
+        "all": [
+          {
+            "question": "residence_status",
+            "in": [
+              "french",
+              "eu",
+              "permit",
+              "receipt",
+              "refugee"
+            ]
+          },
+          {
+            "question": "has_children",
+            "equals": "yes"
+          }
+        ]
+      },
+      "sources": [
+        "sp_prestations_etranger",
+        "sp_allocations_familiales"
+      ]
+    },
+    {
+      "id": "ada",
+      "category": "money",
+      "title": {
+        "fr": "Allocation pour demandeur d'asile (Ada)",
+        "en": "Asylum seeker allowance (Ada)"
+      },
+      "summary": {
+        "fr": "L'Ada est une aide financière versée par l'Ofii pendant l'examen de votre demande d'asile, sur une carte de paiement.",
+        "en": "Ada is a financial allowance paid by Ofii while your asylum claim is examined, on a payment card."
+      },
+      "who": {
+        "fr": "Les demandeurs d'asile majeurs qui ont accepté les conditions d'accueil proposées par l'Ofii. Les bénéficiaires de la protection temporaire peuvent aussi y avoir droit.",
+        "en": "Adult asylum seekers who accepted the reception conditions offered by Ofii. Beneficiaries of temporary protection may also be entitled."
+      },
+      "conditions": [
+        {
+          "fr": "Attention : service-public indique que sa fiche sur l'Ada est en cours de mise à jour pour appliquer le Pacte européen sur la migration et l'asile. Le droit national devait être adapté pour le 12 juin 2026 et des décrets sont parus depuis, notamment sur les conditions matérielles d'accueil. Les conditions ci-dessous peuvent avoir changé : vérifiez auprès de l'Ofii.",
+          "en": "Warning: service-public says its Ada page is being updated to apply the EU Pact on Migration and Asylum. National law was to be adapted by 12 June 2026 and decrees have been published since, including on material reception conditions. The conditions below may have changed: check with Ofii."
+        },
+        {
+          "fr": "Avoir au moins 18 ans et l'attestation de demande d'asile.",
+          "en": "Be at least 18 and hold the asylum seeker certificate."
+        },
+        {
+          "fr": "Avoir accepté les conditions matérielles d'accueil proposées par l'Ofii, dont l'hébergement. Refuser l'hébergement proposé peut priver des autres aides.",
+          "en": "Have accepted the material reception conditions offered by Ofii, including housing. Refusing the housing offered can mean losing the other aid."
+        },
+        {
+          "fr": "Avoir déposé la demande d'asile à l'Ofpra dans les 21 jours (sauf procédure Dublin).",
+          "en": "Have filed the asylum claim with Ofpra within 21 days (except under the Dublin procedure)."
+        },
+        {
+          "fr": "Avoir des ressources mensuelles inférieures au montant du RSA (vos ressources et celles de votre conjoint).",
+          "en": "Have monthly income below the RSA amount (yours and your partner's)."
+        },
+        {
+          "fr": "Montant journalier indiqué par service-public : 6,80 € pour une personne seule, 10,20 € pour 2 personnes, plus un montant supplémentaire si vous avez demandé un hébergement sans en obtenir un gratuitement. Montants différents en Guyane et à Saint-Martin.",
+          "en": "Daily amount given by service-public: €6.80 for a single person, €10.20 for 2 people, plus an extra amount if you asked for housing and did not get free housing. Different amounts in French Guiana and Saint-Martin."
+        },
+        {
+          "fr": "Le versement s'arrête à la fin du mois de la décision définitive sur votre demande, ou si vous quittez la France.",
+          "en": "Payment stops at the end of the month of the final decision on your claim, or if you leave France."
+        }
+      ],
+      "howTo": [
+        {
+          "fr": "L'Ada se demande au guichet unique de la préfecture lors de l'enregistrement de votre demande d'asile (ou, exceptionnellement, auprès de l'Ofii).",
+          "en": "Ada is requested at the prefecture's single desk (guichet unique) when your asylum claim is registered (or, exceptionally, from Ofii)."
+        },
+        {
+          "fr": "Apportez votre attestation de demande d'asile, vos justificatifs de ressources et de situation familiale, et un relevé d'identité bancaire si vous en avez un.",
+          "en": "Bring your asylum seeker certificate, proof of income and family situation, and bank details if you have them."
+        },
+        {
+          "fr": "Déclarez à l'Ofii tout changement (adresse, famille, travail, ressources).",
+          "en": "Report any change to Ofii (address, family, work, income)."
+        }
+      ],
+      "links": [
+        {
+          "title": {
+            "fr": "Lire la fiche Ada sur service-public.gouv.fr",
+            "en": "Read the Ada page on service-public.gouv.fr"
+          },
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33314"
+        }
+      ],
+      "contacts": [
+        "prefecture_directory",
+        "france_services"
+      ],
+      "guides": [],
+      "condition": {
+        "all": [
+          {
+            "question": "residence_status",
+            "equals": "asylum_seeker"
+          },
+          {
+            "not": {
+              "question": "age_group",
+              "equals": "under_18"
+            }
+          }
+        ]
+      },
+      "sources": [
+        "sp_ada",
+        "sp_droits_demandeur_asile"
+      ]
+    },
+    {
+      "id": "aspa",
+      "category": "money",
+      "title": {
+        "fr": "Allocation de solidarité aux personnes âgées (Aspa)",
+        "en": "Solidarity allowance for older people (Aspa)"
+      },
+      "summary": {
+        "fr": "L'Aspa complète les revenus des personnes âgées qui ont de faibles ressources. Les sommes versées peuvent être récupérées sur la succession.",
+        "en": "Aspa tops up the income of older people with low resources. The amounts paid can be recovered from the estate after death."
+      },
+      "who": {
+        "fr": "Les personnes de 65 ans ou plus (62 ans dans certains cas) qui vivent en France de manière stable et ont des ressources faibles.",
+        "en": "People aged 65 or over (62 in some cases) who live in France on a stable basis and have low income."
+      },
+      "conditions": [
+        {
+          "fr": "Résidence stable : avoir un foyer permanent en France ou y séjourner plus de 9 mois dans l'année.",
+          "en": "Stable residence: have a permanent home in France or stay there more than 9 months in the year."
+        },
+        {
+          "fr": "Étrangers : avoir depuis au moins 10 ans, sans interruption, un titre de séjour autorisant à travailler, ou être réfugié, apatride, bénéficiaire de la protection subsidiaire, ancien combattant pour la France, ressortissant de l'EEE ou de la Suisse, ou de certains pays sous conditions.",
+          "en": "Foreigners: have held a residence permit allowing you to work for at least 10 years without interruption, or be a refugee, stateless person, beneficiary of subsidiary protection, former combatant for France, EEA or Swiss national, or a national of certain countries under conditions."
+        },
+        {
+          "fr": "Ressources : au 1er janvier 2026, le plafond et le montant maximum sont de 1 043,59 € brut par mois pour une personne seule, et 1 620,18 € pour un couple.",
+          "en": "Income: as of 1 January 2026, the ceiling and maximum amount are €1,043.59 gross per month for a single person, and €1,620.18 for a couple."
+        },
+        {
+          "fr": "En métropole, la récupération sur la succession ne s'applique que si l'actif net dépasse 108 586,14 € (décès en 2026).",
+          "en": "In mainland France, recovery from the estate only applies if the net estate exceeds €108,586.14 (deaths in 2026)."
+        }
+      ],
+      "howTo": [
+        {
+          "fr": "Si vous avez une retraite du régime général, envoyez le formulaire à votre Carsat. Si vous avez une retraite agricole, à la MSA.",
+          "en": "If you have a general-scheme pension, send the form to your Carsat. If you have an agricultural pension, to the MSA."
+        },
+        {
+          "fr": "Si vous n'avez aucune retraite, déposez le formulaire prévu à la mairie.",
+          "en": "If you have no pension, file the dedicated form at your town hall (mairie)."
+        },
+        {
+          "fr": "L'Aspa commence le 1er jour du mois qui suit la réception de la demande.",
+          "en": "Aspa starts on the first day of the month after the application is received."
+        }
+      ],
+      "links": [
+        {
+          "title": {
+            "fr": "Lire la fiche Aspa et trouver le formulaire",
+            "en": "Read the Aspa page and find the form"
+          },
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F16871"
+        },
+        {
+          "title": {
+            "fr": "Faire une simulation sur mesdroitssociaux.gouv.fr",
+            "en": "Run a simulation on mesdroitssociaux.gouv.fr"
+          },
+          "url": "https://www.mesdroitssociaux.gouv.fr/"
+        }
+      ],
+      "contacts": [
+        "france_services"
+      ],
+      "guides": [
+        "tax_documents"
+      ],
+      "condition": {
+        "all": [
+          {
+            "question": "residence_status",
+            "in": [
+              "french",
+              "eu",
+              "permit",
+              "receipt",
+              "refugee"
+            ]
+          },
+          {
+            "question": "age_group",
+            "equals": "65_plus"
+          }
+        ]
+      },
+      "sources": [
+        "sp_aspa"
+      ]
+    },
+    {
+      "id": "cheque_energie",
+      "category": "money",
+      "title": {
+        "fr": "Chèque énergie",
+        "en": "Energy cheque (chèque énergie)"
+      },
+      "summary": {
+        "fr": "Le chèque énergie aide à payer les factures d'électricité, de gaz, de fioul ou de bois. Son montant va de 48 à 277 € par an.",
+        "en": "The energy cheque helps pay electricity, gas, heating oil or wood bills. It ranges from €48 to €277 a year."
+      },
+      "who": {
+        "fr": "Les foyers aux revenus modestes dont un membre a signé un contrat d'électricité. Service-public ne fixe pas de condition de nationalité.",
+        "en": "Low-income households where one member has signed an electricity contract. Service-public sets no nationality condition."
+      },
+      "conditions": [
+        {
+          "fr": "Revenu fiscal de référence inférieur à 11 000 € par unité de consommation, d'après l'avis d'impôt de l'année N-2. Il faut donc avoir déclaré vos revenus.",
+          "en": "Reference tax income below €11,000 per consumption unit, based on the tax notice from 2 years earlier. You therefore need to have filed a tax return."
+        },
+        {
+          "fr": "Un seul chèque par logement.",
+          "en": "Only one cheque per home."
+        }
+      ],
+      "howTo": [
+        {
+          "fr": "En 2026, les chèques sont envoyés automatiquement à partir du 1er avril aux foyers identifiés.",
+          "en": "In 2026, cheques are sent automatically from 1 April to identified households."
+        },
+        {
+          "fr": "Si vous pensez y avoir droit sans l'avoir reçu, faites une demande en ligne ou par courrier jusqu'au 31 décembre 2026, avec une pièce d'identité, une attestation de contrat d'électricité de moins de 3 mois et votre avis d'impôt.",
+          "en": "If you think you are entitled but did not receive it, apply online or by post until 31 December 2026, with an ID, an electricity contract certificate less than 3 months old and your tax notice."
+        }
+      ],
+      "links": [
+        {
+          "title": {
+            "fr": "Faire une demande de chèque énergie en ligne",
+            "en": "Apply for the energy cheque online"
+          },
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R74067"
+        },
+        {
+          "title": {
+            "fr": "Lire l'actualité chèque énergie 2026",
+            "en": "Read the 2026 energy cheque news"
+          },
+          "url": "https://www.service-public.gouv.fr/particuliers/actualites/A17885"
+        }
+      ],
+      "contacts": [
+        "france_services"
+      ],
+      "guides": [
+        "tax_documents",
+        "proof_of_address"
+      ],
+      "condition": {
+        "all": [
+          {
+            "question": "low_income",
+            "equals": "yes"
+          },
+          {
+            "question": "housing",
+            "in": [
+              "tenant",
+              "owner"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_cheque_energie",
+        "sp_cheque_energie_2026"
+      ]
+    }
+  ]
+}

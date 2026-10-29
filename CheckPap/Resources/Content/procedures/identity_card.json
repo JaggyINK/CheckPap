@@ -1,0 +1,1901 @@
+{
+  "id": "identity_card",
+  "reviewStatus": "draft",
+  "lastVerified": "2026-10-29",
+  "title": {
+    "fr": "Faire ou renouveler une carte d'identité",
+    "en": "Get or renew an identity card"
+  },
+  "summary": {
+    "fr": "Cette démarche explique comment demander une carte nationale d'identité française, pour vous si vous êtes devenu français ou pour votre enfant français : première demande, renouvellement, perte ou vol. Si vous n'êtes pas français, elle vous oriente vers les titres de séjour.",
+    "en": "This explains how to apply for a French national identity card, for yourself if you became French or for your French child: first application, renewal, loss or theft. If you are not French, it points you to residence permits."
+  },
+  "sources": [
+    {
+      "id": "sp_f1341",
+      "publisher": "service-public.gouv.fr",
+      "title": "Carte d'identité d'un majeur : première demande (Vérifié le 08 avril 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1341",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f21089",
+      "publisher": "service-public.gouv.fr",
+      "title": "Renouvellement de la carte d'identité d'un majeur (Vérifié le 13 mai 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F21089",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f1344",
+      "publisher": "service-public.gouv.fr",
+      "title": "Carte d'identité d'un majeur : renouvellement en cas de perte (Vérifié le 08 avril 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1344",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f1759",
+      "publisher": "service-public.gouv.fr",
+      "title": "Carte d'identité d'un majeur : renouvellement en cas de vol (Vérifié le 08 avril 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1759",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f1342",
+      "publisher": "service-public.gouv.fr",
+      "title": "Carte d'identité d'un mineur : première demande (Vérifié le 27 avril 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1342",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f21090",
+      "publisher": "service-public.gouv.fr",
+      "title": "Renouvellement de la carte d'identité d'un mineur (Vérifié le 19 juin 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F21090",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f1153",
+      "publisher": "service-public.gouv.fr",
+      "title": "Carte d'identité d'un mineur : renouvellement en cas de perte (Vérifié le 19 juin 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1153",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f1794",
+      "publisher": "service-public.gouv.fr",
+      "title": "Carte d'identité d'un mineur : renouvellement en cas de vol (Vérifié le 19 juin 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1794",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f33805",
+      "publisher": "service-public.gouv.fr",
+      "title": "Carte d'identité perdue ou volée : comment acheter un timbre fiscal ? (Vérifié le 27 mars 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33805",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_a18208",
+      "publisher": "service-public.gouv.fr",
+      "title": "Carte d'identité : un nouveau motif pour la renouveler gratuitement (actualité publiée le 09 avril 2025)",
+      "url": "https://www.service-public.gouv.fr/particuliers/actualites/A18208",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f11601",
+      "publisher": "service-public.gouv.fr",
+      "title": "Est-on obligé d'avoir une carte d'identité ? (Vérifié le 05 août 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F11601",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f18713",
+      "publisher": "service-public.gouv.fr",
+      "title": "Carte d'identité ou passeport : comment prouver sa nationalité française ? (Vérifié le 14 août 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F18713",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f14807",
+      "publisher": "service-public.gouv.fr",
+      "title": "Carte d'identité ou passeport d'un majeur : quel justificatif de domicile présenter ? (Vérifié le 28 septembre 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F14807",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f32675",
+      "publisher": "service-public.gouv.fr",
+      "title": "Carte d'identité ou passeport d'un mineur : quel justificatif de domicile présenter ? (Vérifié le 18 septembre 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F32675",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f10619",
+      "publisher": "service-public.gouv.fr",
+      "title": "Photo d'identité : quelles sont les normes à respecter ? (Vérifié le 08 octobre 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10619",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f33640",
+      "publisher": "service-public.gouv.fr",
+      "title": "Comment remplir le formulaire ou la pré-demande de carte d'identité ou de passeport ? (Vérifié le 12 août 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33640",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_r45668",
+      "publisher": "service-public.gouv.fr",
+      "title": "Pré-demande pour une 1re demande de carte d'identité (aucune date affichée)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R45668",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_r62483",
+      "publisher": "service-public.gouv.fr",
+      "title": "Pré-demande pour un renouvellement de carte d'identité (Vérifié le 06 mars 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R62483",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_r63715",
+      "publisher": "service-public.gouv.fr",
+      "title": "Rechercher un rendez-vous pour une demande de carte d'identité (Vérifié le 30 janvier 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R63715",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_n110",
+      "publisher": "service-public.gouv.fr",
+      "title": "Titres, cartes de séjour et documents de circulation pour étranger en France (aucune date affichée)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/N110",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "ants_dematerialisation",
+      "publisher": "passeport.ants.gouv.fr",
+      "title": "Villes adhérentes à la dématérialisation (aucune date affichée)",
+      "url": "https://passeport.ants.gouv.fr/services/villes-adherentes-a-la-dematerialisation",
+      "consulted": "2026-10-29"
+    }
+  ],
+  "questions": [
+    {
+      "id": "nationality",
+      "kind": "single",
+      "title": {
+        "fr": "La personne qui aura la carte est-elle française ?",
+        "en": "Is the person who will get the card French?"
+      },
+      "help": {
+        "fr": "La carte nationale d'identité française permet de justifier de son identité et de la nationalité française. Elle est délivrée aux Français, y compris aux personnes devenues françaises.",
+        "en": "The French national identity card proves your identity and French nationality. It is issued to French nationals, including people who became French."
+      },
+      "example": {
+        "fr": "Exemple : vous êtes devenu français par décret de naturalisation : répondez « Oui ».",
+        "en": "Example: you became French by naturalisation decree: answer \"Yes\"."
+      },
+      "options": [
+        {
+          "id": "french",
+          "label": {
+            "fr": "Oui, elle est française",
+            "en": "Yes, the person is French"
+          },
+          "help": {
+            "fr": "Par exemple après une naturalisation, ou pour votre enfant français.",
+            "en": "For example after naturalisation, or for your French child."
+          }
+        },
+        {
+          "id": "not_french",
+          "label": {
+            "fr": "Non, elle n'est pas française",
+            "en": "No, the person is not French"
+          },
+          "help": {
+            "fr": "Vous avez par exemple un titre de séjour.",
+            "en": "For example, you have a residence permit."
+          }
+        }
+      ],
+      "condition": null,
+      "sources": [
+        "sp_f11601",
+        "sp_f1341",
+        "sp_f18713"
+      ]
+    },
+    {
+      "id": "request_reason",
+      "kind": "single",
+      "title": {
+        "fr": "Pourquoi faites-vous la demande ?",
+        "en": "Why are you applying?"
+      },
+      "help": {
+        "fr": "Les pièces et le prix changent selon le cas.",
+        "en": "The documents and the price depend on your case."
+      },
+      "example": {
+        "fr": "Exemple : vous venez d'être naturalisé et vous n'avez jamais eu de carte : « Première carte ».",
+        "en": "Example: you were just naturalised and never had a card: \"First card\"."
+      },
+      "options": [
+        {
+          "id": "first",
+          "label": {
+            "fr": "Première carte d'identité",
+            "en": "First identity card"
+          },
+          "help": {
+            "fr": "Par exemple après une naturalisation.",
+            "en": "For example after naturalisation."
+          }
+        },
+        {
+          "id": "renewal",
+          "label": {
+            "fr": "Renouveler une carte que j'ai encore",
+            "en": "Renew a card I still have"
+          },
+          "help": {
+            "fr": "Carte bientôt expirée ou expirée, ancien modèle, changement d'adresse ou d'état civil.",
+            "en": "Card expiring soon or expired, old model, change of address or civil status."
+          }
+        },
+        {
+          "id": "lost",
+          "label": {
+            "fr": "La carte a été perdue",
+            "en": "The card was lost"
+          }
+        },
+        {
+          "id": "stolen",
+          "label": {
+            "fr": "La carte a été volée",
+            "en": "The card was stolen"
+          }
+        }
+      ],
+      "condition": {
+        "question": "nationality",
+        "equals": "french"
+      },
+      "sources": [
+        "sp_f1341",
+        "sp_f21089",
+        "sp_f1344",
+        "sp_f1759",
+        "sp_f1342",
+        "sp_f21090",
+        "sp_f1153",
+        "sp_f1794"
+      ]
+    },
+    {
+      "id": "applicant_age",
+      "kind": "single",
+      "title": {
+        "fr": "La carte est-elle pour un adulte ou pour un enfant ?",
+        "en": "Is the card for an adult or a child?"
+      },
+      "help": {
+        "fr": "Pour un mineur, le parent ou le tuteur fait la demande et des pièces en plus sont demandées. Un mineur français peut avoir une carte à tout âge, même un bébé.",
+        "en": "For a minor, the parent or guardian applies and extra documents are required. A French minor can have a card at any age, even a baby."
+      },
+      "options": [
+        {
+          "id": "adult",
+          "label": {
+            "fr": "Pour un adulte (18 ans ou plus)",
+            "en": "For an adult (18 or older)"
+          }
+        },
+        {
+          "id": "minor",
+          "label": {
+            "fr": "Pour un enfant (moins de 18 ans)",
+            "en": "For a child (under 18)"
+          }
+        }
+      ],
+      "condition": {
+        "question": "nationality",
+        "equals": "french"
+      },
+      "sources": [
+        "sp_f1341",
+        "sp_f1342"
+      ]
+    },
+    {
+      "id": "card_model",
+      "kind": "single",
+      "title": {
+        "fr": "Quel modèle de carte avez-vous aujourd'hui ?",
+        "en": "Which card model do you have today?"
+      },
+      "help": {
+        "fr": "La nouvelle carte a le format d'une carte bancaire. L'ancien modèle est une carte plus grande, plastifiée.",
+        "en": "The new card is the size of a bank card. The old model is a larger laminated card."
+      },
+      "example": {
+        "fr": "Exemple : votre carte ne rentre pas dans un emplacement de carte bancaire : c'est l'ancien modèle.",
+        "en": "Example: your card does not fit in a bank card slot: it is the old model."
+      },
+      "options": [
+        {
+          "id": "old_model",
+          "label": {
+            "fr": "L'ancien modèle (grande carte plastifiée)",
+            "en": "The old model (large laminated card)"
+          }
+        },
+        {
+          "id": "new_model",
+          "label": {
+            "fr": "Le nouveau format carte bancaire",
+            "en": "The new bank card format"
+          }
+        }
+      ],
+      "condition": {
+        "all": [
+          {
+            "question": "nationality",
+            "equals": "french"
+          },
+          {
+            "question": "request_reason",
+            "equals": "renewal"
+          },
+          {
+            "question": "applicant_age",
+            "equals": "adult"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f21089",
+        "sp_a18208"
+      ]
+    },
+    {
+      "id": "current_card_expiry",
+      "kind": "date",
+      "title": {
+        "fr": "Quelle est la date de fin de validité de la carte actuelle ?",
+        "en": "What is the expiry date of the current card?"
+      },
+      "help": {
+        "fr": "Les pièces ne sont pas les mêmes si la carte est expirée depuis plus de 5 ans. Le renouvellement peut être demandé dans l'année qui précède l'expiration.",
+        "en": "The documents are not the same if the card expired more than 5 years ago. Renewal can be requested in the year before expiry."
+      },
+      "example": {
+        "fr": "Exemple : elle est écrite au recto de la nouvelle carte, à côté de « Date d'expiration ».",
+        "en": "Example: it is written on the front of the new card, next to \"Date d'expiration\"."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "nationality",
+            "equals": "french"
+          },
+          {
+            "question": "request_reason",
+            "equals": "renewal"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f21089",
+        "sp_f21090"
+      ]
+    },
+    {
+      "id": "passport_status",
+      "kind": "single",
+      "title": {
+        "fr": "La personne a-t-elle un passeport français ?",
+        "en": "Does the person have a French passport?"
+      },
+      "help": {
+        "fr": "Un passeport valide ou expiré depuis moins de 5 ans évite en général de fournir un acte de naissance et une preuve de nationalité.",
+        "en": "A passport that is valid or expired less than 5 years ago usually means you do not need a birth certificate or proof of nationality."
+      },
+      "options": [
+        {
+          "id": "valid_or_recent",
+          "label": {
+            "fr": "Oui, valide ou expiré depuis moins de 5 ans",
+            "en": "Yes, valid or expired less than 5 years ago"
+          }
+        },
+        {
+          "id": "old_or_none",
+          "label": {
+            "fr": "Non, ou expiré depuis plus de 5 ans",
+            "en": "No, or expired more than 5 years ago"
+          }
+        }
+      ],
+      "condition": {
+        "all": [
+          {
+            "question": "nationality",
+            "equals": "french"
+          },
+          {
+            "any": [
+              {
+                "question": "request_reason",
+                "in": [
+                  "first",
+                  "lost",
+                  "stolen"
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "question": "request_reason",
+                    "equals": "renewal"
+                  },
+                  {
+                    "question": "current_card_expiry",
+                    "daysFromToday": {
+                      "max": -1827
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_f1341",
+        "sp_f21089",
+        "sp_f1344",
+        "sp_f1759",
+        "sp_f1342",
+        "sp_f21090",
+        "sp_f1153",
+        "sp_f1794"
+      ]
+    },
+    {
+      "id": "birth_place",
+      "kind": "single",
+      "title": {
+        "fr": "Où la personne est-elle née ?",
+        "en": "Where was the person born?"
+      },
+      "help": {
+        "fr": "L'acte de naissance ne se demande pas au même endroit selon le lieu de naissance.",
+        "en": "The birth certificate is not requested from the same place depending on where the person was born."
+      },
+      "example": {
+        "fr": "Exemple : vous êtes né au Maroc et devenu français : « À l'étranger ».",
+        "en": "Example: you were born in Morocco and became French: \"Abroad\"."
+      },
+      "options": [
+        {
+          "id": "france",
+          "label": {
+            "fr": "En France",
+            "en": "In France"
+          }
+        },
+        {
+          "id": "abroad",
+          "label": {
+            "fr": "À l'étranger",
+            "en": "Abroad"
+          },
+          "help": {
+            "fr": "C'est souvent le cas des personnes devenues françaises.",
+            "en": "This is often the case for people who became French."
+          }
+        }
+      ],
+      "condition": {
+        "all": [
+          {
+            "question": "nationality",
+            "equals": "french"
+          },
+          {
+            "question": "passport_status",
+            "equals": "old_or_none"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f1341",
+        "sp_f18713"
+      ]
+    },
+    {
+      "id": "family_situation",
+      "kind": "single",
+      "title": {
+        "fr": "Quelle est la situation familiale de l'enfant ?",
+        "en": "What is the child's family situation?"
+      },
+      "help": {
+        "fr": "Le parent ou le tuteur qui fait la demande doit exercer l'autorité parentale. Certaines situations demandent une pièce en plus.",
+        "en": "The parent or guardian applying must have parental authority. Some situations need an extra document."
+      },
+      "example": {
+        "fr": "Exemple : les parents sont divorcés et l'enfant vit une semaine chez chacun : « garde alternée ».",
+        "en": "Example: the parents are divorced and the child spends one week with each: \"shared custody\"."
+      },
+      "options": [
+        {
+          "id": "together",
+          "label": {
+            "fr": "Les parents vivent ensemble",
+            "en": "The parents live together"
+          }
+        },
+        {
+          "id": "alternate",
+          "label": {
+            "fr": "Parents séparés, garde alternée",
+            "en": "Parents separated, shared custody"
+          }
+        },
+        {
+          "id": "exclusive",
+          "label": {
+            "fr": "Parents séparés, un seul parent a l'autorité parentale",
+            "en": "Parents separated, only one parent has parental authority"
+          }
+        },
+        {
+          "id": "one_parent",
+          "label": {
+            "fr": "L'enfant n'a qu'un seul parent",
+            "en": "The child has only one parent"
+          }
+        },
+        {
+          "id": "other_guardian",
+          "label": {
+            "fr": "Un tuteur ou l'aide sociale à l'enfance",
+            "en": "A guardian or child welfare services (ASE)"
+          }
+        }
+      ],
+      "condition": {
+        "all": [
+          {
+            "question": "nationality",
+            "equals": "french"
+          },
+          {
+            "question": "applicant_age",
+            "equals": "minor"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f1342",
+        "sp_f21090",
+        "sp_f1153",
+        "sp_f1794"
+      ]
+    },
+    {
+      "id": "housing",
+      "kind": "single",
+      "title": {
+        "fr": "Comment justifier l'adresse ?",
+        "en": "How can you prove the address?"
+      },
+      "help": {
+        "fr": "Pour un enfant, il s'agit de l'adresse du parent ou du tuteur qui fait la demande.",
+        "en": "For a child, this is the address of the parent or guardian applying."
+      },
+      "example": {
+        "fr": "Exemple : vous vivez chez votre frère et aucune facture n'est à votre nom : « J'habite chez un proche ».",
+        "en": "Example: you live at your brother's and no bill is in your name: \"I live with someone\"."
+      },
+      "options": [
+        {
+          "id": "own",
+          "label": {
+            "fr": "J'ai une facture ou un document à mon nom",
+            "en": "I have a bill or document in my name"
+          }
+        },
+        {
+          "id": "hosted",
+          "label": {
+            "fr": "J'habite chez un proche",
+            "en": "I live with someone (family, friend)"
+          }
+        },
+        {
+          "id": "other",
+          "label": {
+            "fr": "Autre situation",
+            "en": "Other situation"
+          },
+          "help": {
+            "fr": "Hôtel, sans domicile stable, caravane, bateau, détention.",
+            "en": "Hotel, no stable home, caravan, boat, detention."
+          }
+        }
+      ],
+      "condition": {
+        "question": "nationality",
+        "equals": "french"
+      },
+      "sources": [
+        "sp_f14807",
+        "sp_f32675"
+      ]
+    },
+    {
+      "id": "usage_name",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Voulez-vous faire inscrire un nom d'usage qui n'est sur aucun titre d'identité ?",
+        "en": "Do you want to add a usual name that is not on any ID document yet?"
+      },
+      "help": {
+        "fr": "Le nom d'usage est par exemple le nom de l'époux ou de l'épouse, ou le nom de l'autre parent. Des documents en plus sont alors demandés.",
+        "en": "A usual name is for example your spouse's name, or the other parent's name. Extra documents are then required."
+      },
+      "example": {
+        "fr": "Exemple : vous êtes mariée et voulez le nom de votre mari sur la carte pour la première fois.",
+        "en": "Example: you are married and want your husband's name on the card for the first time."
+      },
+      "condition": {
+        "question": "nationality",
+        "equals": "french"
+      },
+      "sources": [
+        "sp_f1341",
+        "sp_f21089",
+        "sp_f1794"
+      ]
+    }
+  ],
+  "documents": [
+    {
+      "id": "predemande",
+      "category": "other",
+      "title": {
+        "fr": "Numéro ou QR code de la pré-demande",
+        "en": "Pre-application number or QR code"
+      },
+      "details": {
+        "fr": "Si vous avez fait la pré-demande en ligne, apportez le numéro et/ou le QR code. Sinon, vous remplirez un formulaire au guichet, à l'encre noire et en majuscules.",
+        "en": "If you made the online pre-application, bring the number and/or QR code. Otherwise, you will fill in a form at the counter, in black ink and capital letters."
+      },
+      "tip": {
+        "fr": "Service-public conseille d'imprimer le récapitulatif de la pré-demande.",
+        "en": "Service-public suggests printing the pre-application summary."
+      },
+      "condition": {
+        "question": "nationality",
+        "equals": "french"
+      },
+      "sources": [
+        "sp_f1341",
+        "sp_f21089",
+        "sp_f33640",
+        "sp_r45668",
+        "sp_r62483"
+      ]
+    },
+    {
+      "id": "photo",
+      "category": "photo",
+      "title": {
+        "fr": "1 photo d'identité",
+        "en": "1 ID photo"
+      },
+      "details": {
+        "fr": "Une photo de moins de 6 mois, conforme aux normes.",
+        "en": "One photo less than 6 months old, meeting the standards."
+      },
+      "example": {
+        "fr": "Format 3,5 x 4,5 cm, fond uni clair, tête nue, bouche fermée.",
+        "en": "Size 3.5 x 4.5 cm, plain light background, bare head, mouth closed."
+      },
+      "condition": {
+        "question": "nationality",
+        "equals": "french"
+      },
+      "sources": [
+        "sp_f1341",
+        "sp_f21089",
+        "sp_f1342",
+        "sp_f10619"
+      ]
+    },
+    {
+      "id": "address_own",
+      "category": "address",
+      "title": {
+        "fr": "Justificatif de domicile de moins d'1 an",
+        "en": "Proof of address less than 1 year old"
+      },
+      "details": {
+        "fr": "Un document à votre nom et prénom, daté de moins d'1 an. Pour un enfant, il est au nom du parent ou du tuteur qui fait la demande.",
+        "en": "A document with your first and last name, dated less than 1 year ago. For a child, it is in the name of the parent or guardian applying."
+      },
+      "example": {
+        "fr": "Facture de téléphone, d'électricité, de gaz ou d'eau, quittance de loyer, attestation d'assurance du logement.",
+        "en": "Phone, electricity, gas or water bill, rent receipt, home insurance certificate."
+      },
+      "guides": [
+        "proof_of_address"
+      ],
+      "condition": {
+        "all": [
+          {
+            "question": "nationality",
+            "equals": "french"
+          },
+          {
+            "question": "housing",
+            "equals": "own"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f14807",
+        "sp_f32675"
+      ]
+    },
+    {
+      "id": "address_hosted",
+      "category": "address",
+      "title": {
+        "fr": "Justificatifs si vous êtes hébergé",
+        "en": "Documents if you live with someone"
+      },
+      "details": {
+        "fr": "3 documents : la photocopie de la pièce d'identité de la personne qui vous héberge, son attestation sur l'honneur d'hébergement datée et signée, et son justificatif de domicile de moins d'1 an.",
+        "en": "3 documents: a photocopy of the host's ID, their signed and dated sworn statement that you live with them, and their proof of address less than 1 year old."
+      },
+      "guides": [
+        "proof_of_address"
+      ],
+      "condition": {
+        "all": [
+          {
+            "question": "nationality",
+            "equals": "french"
+          },
+          {
+            "question": "housing",
+            "equals": "hosted"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f14807",
+        "sp_f32675"
+      ]
+    },
+    {
+      "id": "address_other",
+      "category": "address",
+      "title": {
+        "fr": "Justificatif de domicile selon votre situation",
+        "en": "Proof of address for your situation"
+      },
+      "details": {
+        "fr": "Service-public prévoit des pièces pour chaque cas : attestation d'élection de domicile (CCAS ou organisme agréé) si vous êtes sans domicile stable, attestation du gérant de l'hôtel avec un document à votre nom à la même adresse, etc.",
+        "en": "Service-public lists documents for each case: a certificate of domiciliation (CCAS or approved organisation) if you have no stable home, a certificate from the hotel manager with a document in your name at the same address, etc."
+      },
+      "guides": [
+        "proof_of_address"
+      ],
+      "condition": {
+        "all": [
+          {
+            "question": "nationality",
+            "equals": "french"
+          },
+          {
+            "question": "housing",
+            "equals": "other"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f14807",
+        "sp_f32675"
+      ]
+    },
+    {
+      "id": "current_card",
+      "category": "identity",
+      "title": {
+        "fr": "La carte d'identité actuelle",
+        "en": "The current identity card"
+      },
+      "details": {
+        "fr": "L'original de la carte à renouveler. Le renouvellement est gratuit à condition de présenter l'ancienne carte. Elle doit être rendue au retrait de la nouvelle.",
+        "en": "The original card you are renewing. Renewal is free provided you show the old card. It must be handed back when you collect the new one."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "nationality",
+            "equals": "french"
+          },
+          {
+            "question": "request_reason",
+            "equals": "renewal"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f21089",
+        "sp_f21090"
+      ]
+    },
+    {
+      "id": "passport",
+      "category": "identity",
+      "title": {
+        "fr": "Passeport français",
+        "en": "French passport"
+      },
+      "details": {
+        "fr": "Le passeport de la personne qui aura la carte, valide ou expiré depuis moins de 5 ans.",
+        "en": "The passport of the person who will get the card, valid or expired less than 5 years ago."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "nationality",
+            "equals": "french"
+          },
+          {
+            "question": "passport_status",
+            "equals": "valid_or_recent"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f1341",
+        "sp_f21089",
+        "sp_f1344",
+        "sp_f1759",
+        "sp_f1342",
+        "sp_f21090",
+        "sp_f1153",
+        "sp_f1794"
+      ]
+    },
+    {
+      "id": "birth_certificate_france",
+      "category": "civil_status",
+      "title": {
+        "fr": "Acte de naissance de moins de 3 mois (si demandé)",
+        "en": "Birth certificate less than 3 months old (if required)"
+      },
+      "details": {
+        "fr": "Copie intégrale ou extrait avec filiation. Il n'est pas demandé si l'état civil de la commune de naissance est dématérialisé : vérifiez sur la liste de l'ANTS.",
+        "en": "Full copy or extract with parents' names. It is not required if the birth town's civil records are digitised: check the ANTS list."
+      },
+      "guides": [
+        "civil_status_france"
+      ],
+      "condition": {
+        "all": [
+          {
+            "question": "nationality",
+            "equals": "french"
+          },
+          {
+            "question": "passport_status",
+            "equals": "old_or_none"
+          },
+          {
+            "question": "birth_place",
+            "equals": "france"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f1341",
+        "sp_f21089",
+        "sp_f1344",
+        "sp_f1759",
+        "sp_f1342",
+        "sp_f21090",
+        "sp_f1153",
+        "sp_f1794",
+        "ants_dematerialisation"
+      ]
+    },
+    {
+      "id": "birth_certificate_abroad",
+      "category": "civil_status",
+      "title": {
+        "fr": "Acte de naissance de moins de 3 mois (si demandé)",
+        "en": "Birth certificate less than 3 months old (if required)"
+      },
+      "details": {
+        "fr": "Copie intégrale ou extrait avec filiation. Pour une personne née à l'étranger, service-public renvoie vers la demande d'acte au Service central d'état civil (Nantes). Il n'est pas demandé si le lieu de naissance figure sur la liste de dématérialisation de l'ANTS.",
+        "en": "Full copy or extract with parents' names. For a person born abroad, service-public points to the request to the Central Civil Status Office (Nantes). It is not required if the place of birth is on the ANTS digitisation list."
+      },
+      "guides": [
+        "civil_status_france"
+      ],
+      "condition": {
+        "all": [
+          {
+            "question": "nationality",
+            "equals": "french"
+          },
+          {
+            "question": "passport_status",
+            "equals": "old_or_none"
+          },
+          {
+            "question": "birth_place",
+            "equals": "abroad"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f1341",
+        "sp_f21089",
+        "sp_f1344",
+        "sp_f1759",
+        "sp_f1342",
+        "sp_f21090",
+        "sp_f1153",
+        "sp_f1794",
+        "sp_f18713",
+        "ants_dematerialisation"
+      ]
+    },
+    {
+      "id": "nationality_proof",
+      "category": "civil_status",
+      "title": {
+        "fr": "Preuve de la nationalité française (si demandée)",
+        "en": "Proof of French nationality (if required)"
+      },
+      "details": {
+        "fr": "Demandée seulement si la nationalité française n'apparaît pas sur l'acte de naissance. Service-public cite par exemple l'ampliation du décret de naturalisation, la déclaration d'acquisition enregistrée ou un certificat de nationalité française.",
+        "en": "Only required if French nationality does not appear on the birth certificate. Service-public lists for example the copy of the naturalisation decree, the registered declaration of acquisition or a certificate of French nationality."
+      },
+      "example": {
+        "fr": "Exemple : vous êtes devenu français par décret ; gardez l'ampliation du décret.",
+        "en": "Example: you became French by decree; keep the copy of the decree."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "nationality",
+            "equals": "french"
+          },
+          {
+            "question": "passport_status",
+            "equals": "old_or_none"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f1341",
+        "sp_f21089",
+        "sp_f1344",
+        "sp_f1759",
+        "sp_f1342",
+        "sp_f21090",
+        "sp_f1153",
+        "sp_f1794",
+        "sp_f18713"
+      ]
+    },
+    {
+      "id": "loss_declaration",
+      "category": "other",
+      "title": {
+        "fr": "Déclaration de perte",
+        "en": "Loss declaration"
+      },
+      "details": {
+        "fr": "À remplir sur place à la mairie, ou avec le formulaire cerfa n°14011 rempli et signé.",
+        "en": "To fill in at the town hall, or with form cerfa no. 14011 filled in and signed."
+      },
+      "guides": [
+        "loss_theft_report"
+      ],
+      "condition": {
+        "all": [
+          {
+            "question": "nationality",
+            "equals": "french"
+          },
+          {
+            "question": "request_reason",
+            "equals": "lost"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f1344",
+        "sp_f1153"
+      ]
+    },
+    {
+      "id": "theft_declaration",
+      "category": "other",
+      "title": {
+        "fr": "Déclaration de vol",
+        "en": "Theft report"
+      },
+      "details": {
+        "fr": "Le récépissé de dépôt de plainte remis par le commissariat ou la gendarmerie (ou obtenu après une plainte en ligne).",
+        "en": "The complaint receipt given by the police station or gendarmerie (or obtained after an online complaint)."
+      },
+      "guides": [
+        "loss_theft_report"
+      ],
+      "condition": {
+        "all": [
+          {
+            "question": "nationality",
+            "equals": "french"
+          },
+          {
+            "question": "request_reason",
+            "equals": "stolen"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f1759",
+        "sp_f1794"
+      ]
+    },
+    {
+      "id": "stamp",
+      "category": "tax",
+      "title": {
+        "fr": "Timbre fiscal de 25 €",
+        "en": "25 € tax stamp"
+      },
+      "details": {
+        "fr": "En cas de perte ou de vol, la nouvelle carte coûte 25 € (12,50 € en Guyane), pour un adulte comme pour un enfant. Le timbre est électronique.",
+        "en": "After a loss or theft, the new card costs 25 € (12.50 € in French Guiana), for an adult or a child. The stamp is electronic."
+      },
+      "tip": {
+        "fr": "Vous pouvez l'acheter à la fin de la pré-demande, sur timbres.impots.gouv.fr ou dans un bureau de tabac équipé de l'application « Point de vente agréé ».",
+        "en": "You can buy it at the end of the pre-application, on timbres.impots.gouv.fr or in a tobacco shop with the \"Point de vente agréé\" app."
+      },
+      "guides": [
+        "fiscal_stamp"
+      ],
+      "condition": {
+        "all": [
+          {
+            "question": "nationality",
+            "equals": "french"
+          },
+          {
+            "question": "request_reason",
+            "in": [
+              "lost",
+              "stolen"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_f33805",
+        "sp_f1344",
+        "sp_f1759",
+        "sp_f1153",
+        "sp_f1794"
+      ]
+    },
+    {
+      "id": "guardian_id",
+      "category": "identity",
+      "title": {
+        "fr": "Pièce d'identité du parent ou du tuteur",
+        "en": "ID of the parent or guardian"
+      },
+      "details": {
+        "fr": "La pièce d'identité du représentant légal qui fait la demande. Il doit exercer l'autorité parentale.",
+        "en": "The ID of the legal representative applying. They must have parental authority."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "nationality",
+            "equals": "french"
+          },
+          {
+            "question": "applicant_age",
+            "equals": "minor"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f1342",
+        "sp_f21090",
+        "sp_f1153",
+        "sp_f1794"
+      ]
+    },
+    {
+      "id": "alternate_custody",
+      "category": "family",
+      "title": {
+        "fr": "Preuve de la résidence alternée (facultatif)",
+        "en": "Proof of shared residence (optional)"
+      },
+      "details": {
+        "fr": "Pour faire inscrire les 2 adresses de l'enfant : la décision du juge, la convention de divorce ou la convention parentale, et un justificatif de domicile pour chaque parent.",
+        "en": "To have both of the child's addresses on the card: the judge's decision, the divorce agreement or parental agreement, and a proof of address for each parent."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "nationality",
+            "equals": "french"
+          },
+          {
+            "question": "applicant_age",
+            "equals": "minor"
+          },
+          {
+            "question": "family_situation",
+            "equals": "alternate"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f1342",
+        "sp_f21090",
+        "sp_f1153",
+        "sp_f1794"
+      ]
+    },
+    {
+      "id": "exclusive_authority",
+      "category": "family",
+      "title": {
+        "fr": "Document sur l'autorité parentale exclusive",
+        "en": "Document showing sole parental authority"
+      },
+      "details": {
+        "fr": "Tout document qui montre que le parent qui fait la demande exerce seul l'autorité parentale.",
+        "en": "Any document showing that the parent applying has sole parental authority."
+      },
+      "example": {
+        "fr": "Exemple : un jugement du juge aux affaires familiales.",
+        "en": "Example: a family court judgment."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "nationality",
+            "equals": "french"
+          },
+          {
+            "question": "applicant_age",
+            "equals": "minor"
+          },
+          {
+            "question": "family_situation",
+            "equals": "exclusive"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f1342",
+        "sp_f21090",
+        "sp_f1153",
+        "sp_f1794"
+      ]
+    },
+    {
+      "id": "delegated_authority",
+      "category": "family",
+      "title": {
+        "fr": "Justificatif de délégation de l'autorité parentale",
+        "en": "Proof of delegated parental authority"
+      },
+      "details": {
+        "fr": "Par exemple un jugement du juge aux affaires familiales. Si c'est l'aide sociale à l'enfance (Ase), il faut aussi un document sur la qualité professionnelle de la personne (carte professionnelle, attestation du département).",
+        "en": "For example a family court judgment. If it is child welfare services (ASE), you also need a document about the person's job (professional card, certificate from the département)."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "nationality",
+            "equals": "french"
+          },
+          {
+            "question": "applicant_age",
+            "equals": "minor"
+          },
+          {
+            "question": "family_situation",
+            "equals": "other_guardian"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f1342",
+        "sp_f21090",
+        "sp_f1153",
+        "sp_f1794"
+      ]
+    },
+    {
+      "id": "usage_name_docs",
+      "category": "civil_status",
+      "title": {
+        "fr": "Documents pour le nom d'usage",
+        "en": "Documents for the usual name"
+      },
+      "details": {
+        "fr": "Des documents en plus sont demandés selon l'origine du nom d'usage (nom de l'époux ou de l'épouse, nom de l'autre parent).",
+        "en": "Extra documents are required depending on where the usual name comes from (spouse's name, other parent's name)."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "nationality",
+            "equals": "french"
+          },
+          {
+            "question": "usage_name",
+            "equals": "yes"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f1341",
+        "sp_f21089",
+        "sp_f1794"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "when_to_renew",
+      "phase": "before",
+      "title": {
+        "fr": "Vérifier quand demander le renouvellement",
+        "en": "Check when to apply for renewal"
+      },
+      "body": {
+        "fr": "Le renouvellement peut être demandé dans l'année qui précède la date d'expiration de la carte. Il est gratuit à condition de présenter l'ancienne carte.",
+        "en": "Renewal can be requested in the year before the card's expiry date. It is free provided you show the old card."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "nationality",
+            "equals": "french"
+          },
+          {
+            "question": "request_reason",
+            "equals": "renewal"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f21089",
+        "sp_f21090"
+      ]
+    },
+    {
+      "id": "old_model",
+      "phase": "before",
+      "title": {
+        "fr": "Ancien modèle : la pré-demande est obligatoire",
+        "en": "Old model: the pre-application is required"
+      },
+      "body": {
+        "fr": "Avec une carte ancien modèle, vous pouvez demander la nouvelle carte en avance, même si la vôtre est encore valide. Dans ce cas, la pré-demande en ligne est obligatoire. Service-public indique que ce renouvellement est gratuit pour un adulte qui n'a pas encore la nouvelle carte, s'il rend l'ancienne au retrait.",
+        "en": "With an old-model card, you can apply for the new card early, even if yours is still valid. In that case, the online pre-application is required. Service-public says this renewal is free for an adult who does not have the new card yet, if they hand back the old one on collection."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "nationality",
+            "equals": "french"
+          },
+          {
+            "question": "card_model",
+            "equals": "old_model"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f21089",
+        "sp_a18208"
+      ]
+    },
+    {
+      "id": "report_theft",
+      "phase": "before",
+      "title": {
+        "fr": "Déclarer le vol à la police ou à la gendarmerie",
+        "en": "Report the theft to the police or gendarmerie"
+      },
+      "body": {
+        "fr": "Allez au commissariat ou à la gendarmerie, ou portez plainte en ligne. Gardez le récépissé : il est demandé en mairie.",
+        "en": "Go to the police station or gendarmerie, or file a complaint online. Keep the receipt: the town hall asks for it."
+      },
+      "link": {
+        "title": {
+          "fr": "Trouver un commissariat ou une gendarmerie",
+          "en": "Find a police station or gendarmerie"
+        },
+        "url": "https://www.masecurite.interieur.gouv.fr/fr/trouver-un-commissariat-une-gendarmerie"
+      },
+      "guides": [
+        "loss_theft_report"
+      ],
+      "condition": {
+        "all": [
+          {
+            "question": "nationality",
+            "equals": "french"
+          },
+          {
+            "question": "request_reason",
+            "equals": "stolen"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f1759",
+        "sp_f1794"
+      ]
+    },
+    {
+      "id": "report_loss_later",
+      "phase": "before",
+      "title": {
+        "fr": "Si vous ne refaites pas la carte tout de suite",
+        "en": "If you do not replace the card right away"
+      },
+      "body": {
+        "fr": "Si vous demandez une nouvelle carte tout de suite, la perte se déclare en mairie au moment du dépôt. Sinon, service-public demande de déclarer la perte au commissariat ou à la gendarmerie.",
+        "en": "If you apply for a new card right away, the loss is declared at the town hall when you apply. Otherwise, service-public asks you to report the loss to the police or gendarmerie."
+      },
+      "guides": [
+        "loss_theft_report"
+      ],
+      "condition": {
+        "all": [
+          {
+            "question": "nationality",
+            "equals": "french"
+          },
+          {
+            "question": "request_reason",
+            "equals": "lost"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f1344",
+        "sp_f1153"
+      ]
+    },
+    {
+      "id": "predemande_first",
+      "phase": "before",
+      "title": {
+        "fr": "Faire la pré-demande en ligne (conseillé)",
+        "en": "Make the online pre-application (recommended)"
+      },
+      "body": {
+        "fr": "La pré-demande n'est pas obligatoire mais fait gagner du temps au guichet. Elle se fait avec un compte ANTS ou FranceConnect. Vous indiquez votre état civil et celui de vos parents. Notez le numéro ou le QR code.",
+        "en": "The pre-application is optional but saves time at the counter. You need an ANTS account or FranceConnect. You enter your civil status and your parents'. Write down the number or QR code."
+      },
+      "link": {
+        "title": {
+          "fr": "Pré-demande pour une 1re carte",
+          "en": "Pre-application for a first card"
+        },
+        "url": "https://passeport.ants.gouv.fr/demarches-en-ligne/faire-une-premiere-demande-de-carte-nationale-d-identite"
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "nationality",
+            "equals": "french"
+          },
+          {
+            "question": "request_reason",
+            "equals": "first"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f1341",
+        "sp_f1342",
+        "sp_r45668",
+        "sp_f33640"
+      ]
+    },
+    {
+      "id": "predemande_renewal",
+      "phase": "before",
+      "title": {
+        "fr": "Faire la pré-demande en ligne",
+        "en": "Make the online pre-application"
+      },
+      "body": {
+        "fr": "La pré-demande fait gagner du temps au guichet, aussi en cas de perte ou de vol. Elle se fait avec FranceConnect. Elle est obligatoire si vous renouvelez une carte ancien modèle pour avoir le nouveau format. Notez le numéro ou le QR code.",
+        "en": "The pre-application saves time at the counter, also after a loss or theft. You log in with FranceConnect. It is required if you renew an old-model card to get the new format. Write down the number or QR code."
+      },
+      "link": {
+        "title": {
+          "fr": "Pré-demande pour un renouvellement",
+          "en": "Pre-application for a renewal"
+        },
+        "url": "https://passeport.ants.gouv.fr/demarches-en-ligne/effectuer-le-renouvellement-de-votre-carte-didentite"
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "nationality",
+            "equals": "french"
+          },
+          {
+            "question": "request_reason",
+            "in": [
+              "renewal",
+              "lost",
+              "stolen"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_f21089",
+        "sp_r62483",
+        "sp_f1344",
+        "sp_f1759",
+        "sp_f1153",
+        "sp_f1794"
+      ]
+    },
+    {
+      "id": "buy_stamp",
+      "phase": "before",
+      "title": {
+        "fr": "Acheter le timbre fiscal de 25 €",
+        "en": "Buy the 25 € tax stamp"
+      },
+      "body": {
+        "fr": "Avec une pré-demande, vous pouvez payer le timbre à la fin. Sinon, achetez-le en ligne ou dans un bureau de tabac équipé de l'application « Point de vente agréé ». Le timbre électronique se présente en PDF avec un code 2D, ou par SMS avec un identifiant de 16 chiffres.",
+        "en": "With a pre-application, you can pay for the stamp at the end. Otherwise, buy it online or in a tobacco shop with the \"Point de vente agréé\" app. The electronic stamp comes as a PDF with a 2D code, or by text message with a 16-digit number."
+      },
+      "link": {
+        "title": {
+          "fr": "Acheter le timbre en ligne",
+          "en": "Buy the stamp online"
+        },
+        "url": "https://timbres.impots.gouv.fr"
+      },
+      "guides": [
+        "fiscal_stamp"
+      ],
+      "condition": {
+        "all": [
+          {
+            "question": "nationality",
+            "equals": "french"
+          },
+          {
+            "question": "request_reason",
+            "in": [
+              "lost",
+              "stolen"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_f33805"
+      ]
+    },
+    {
+      "id": "find_town_hall",
+      "phase": "before",
+      "title": {
+        "fr": "Trouver une mairie équipée",
+        "en": "Find an equipped town hall"
+      },
+      "body": {
+        "fr": "Vous pouvez aller dans n'importe quelle mairie équipée d'une station d'enregistrement, pas forcément celle de votre domicile.",
+        "en": "You can go to any town hall equipped with a registration station, not necessarily the one where you live."
+      },
+      "link": {
+        "title": {
+          "fr": "Trouver une mairie",
+          "en": "Find a town hall"
+        },
+        "url": "https://passeport.ants.gouv.fr/services/geolocaliser-une-mairie-habilitee"
+      },
+      "condition": {
+        "question": "nationality",
+        "equals": "french"
+      },
+      "sources": [
+        "sp_f1341",
+        "sp_f21089",
+        "sp_f1344",
+        "sp_f1759",
+        "sp_f1342",
+        "sp_f21090",
+        "sp_f1153",
+        "sp_f1794"
+      ]
+    },
+    {
+      "id": "book_appointment",
+      "phase": "before",
+      "title": {
+        "fr": "Prendre rendez-vous",
+        "en": "Book an appointment"
+      },
+      "body": {
+        "fr": "Beaucoup de mairies reçoivent seulement sur rendez-vous. L'outil de recherche permet de chercher par code postal, motif et distance.",
+        "en": "Many town halls only see people by appointment. The search tool lets you search by postcode, reason and distance."
+      },
+      "link": {
+        "title": {
+          "fr": "Chercher un rendez-vous",
+          "en": "Find an appointment"
+        },
+        "url": "https://rendezvouspasseport.ants.gouv.fr/"
+      },
+      "condition": {
+        "question": "nationality",
+        "equals": "french"
+      },
+      "sources": [
+        "sp_r63715",
+        "sp_f1341",
+        "sp_f21089"
+      ]
+    },
+    {
+      "id": "go_adult",
+      "phase": "submit",
+      "title": {
+        "fr": "Aller au rendez-vous avec les originaux",
+        "en": "Go to the appointment with the originals"
+      },
+      "body": {
+        "fr": "Votre présence est obligatoire : vos empreintes sont prises sur place. Apportez les documents originaux.",
+        "en": "You must be there in person: your fingerprints are taken on site. Bring the original documents."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "nationality",
+            "equals": "french"
+          },
+          {
+            "question": "applicant_age",
+            "equals": "adult"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f1341",
+        "sp_f21089",
+        "sp_f1344",
+        "sp_f1759"
+      ]
+    },
+    {
+      "id": "go_minor",
+      "phase": "submit",
+      "title": {
+        "fr": "Aller au rendez-vous avec l'enfant",
+        "en": "Go to the appointment with the child"
+      },
+      "body": {
+        "fr": "L'enfant et son parent ou tuteur doivent venir ensemble. Le représentant légal doit exercer l'autorité parentale et présenter sa propre pièce d'identité. Les empreintes de l'enfant sont prises à partir de 12 ans.",
+        "en": "The child and their parent or guardian must come together. The legal representative must have parental authority and show their own ID. The child's fingerprints are taken from age 12."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "nationality",
+            "equals": "french"
+          },
+          {
+            "question": "applicant_age",
+            "equals": "minor"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f1342",
+        "sp_f21090",
+        "sp_f1153",
+        "sp_f1794"
+      ]
+    },
+    {
+      "id": "track",
+      "phase": "after",
+      "title": {
+        "fr": "Suivre la fabrication de la carte",
+        "en": "Track the card production"
+      },
+      "body": {
+        "fr": "La carte n'est pas fabriquée sur place. Service-public parle de plusieurs semaines, plus à l'approche des vacances d'été. Si vous avez donné un numéro de portable, un SMS vous prévient quand la carte est prête.",
+        "en": "The card is not made on site. Service-public mentions several weeks, longer before the summer holidays. If you gave a mobile number, a text message tells you when the card is ready."
+      },
+      "link": {
+        "title": {
+          "fr": "Suivre ma demande",
+          "en": "Track my application"
+        },
+        "url": "https://moncompte.ants.gouv.fr/suivi_cni_passeport"
+      },
+      "condition": {
+        "question": "nationality",
+        "equals": "french"
+      },
+      "sources": [
+        "sp_f1341",
+        "sp_f21089",
+        "sp_f1342"
+      ]
+    },
+    {
+      "id": "collect_adult",
+      "phase": "after",
+      "title": {
+        "fr": "Retirer la carte dans les 3 mois",
+        "en": "Collect the card within 3 months"
+      },
+      "body": {
+        "fr": "Vous devez la retirer vous-même, à l'endroit du dépôt. Après 3 mois, la carte est détruite. Elle est valable 10 ans. En cas de renouvellement, l'ancienne carte doit être rendue.",
+        "en": "You must collect it yourself, where you applied. After 3 months, the card is destroyed. It is valid for 10 years. For a renewal, the old card must be handed back."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "nationality",
+            "equals": "french"
+          },
+          {
+            "question": "applicant_age",
+            "equals": "adult"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f1341",
+        "sp_f21089",
+        "sp_f1344",
+        "sp_f1759"
+      ]
+    },
+    {
+      "id": "collect_minor",
+      "phase": "after",
+      "title": {
+        "fr": "Retirer la carte de l'enfant dans les 3 mois",
+        "en": "Collect the child's card within 3 months"
+      },
+      "body": {
+        "fr": "Le parent ou tuteur retire la carte. À partir de 12 ans, l'enfant doit venir avec lui. À partir de 13 ans, l'enfant peut signer si son représentant légal est d'accord. Après 3 mois, la carte est détruite. Elle est valable 10 ans et reste utilisable après 18 ans.",
+        "en": "The parent or guardian collects the card. From age 12, the child must come too. From 13, the child can sign if their legal representative agrees. After 3 months, the card is destroyed. It is valid for 10 years and can still be used after 18."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "nationality",
+            "equals": "french"
+          },
+          {
+            "question": "applicant_age",
+            "equals": "minor"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f1342",
+        "sp_f21090",
+        "sp_f1153",
+        "sp_f1794"
+      ]
+    }
+  ],
+  "deadlines": [
+    {
+      "id": "renewal_window_start",
+      "relativeTo": "current_card_expiry",
+      "offsetDays": -365,
+      "title": {
+        "fr": "Début de la période où le renouvellement peut être demandé",
+        "en": "Start of the period when renewal can be requested"
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "nationality",
+            "equals": "french"
+          },
+          {
+            "question": "request_reason",
+            "equals": "renewal"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f21089",
+        "sp_f21090"
+      ]
+    }
+  ],
+  "outcomes": [
+    {
+      "id": "not_french",
+      "kind": "redirect",
+      "condition": {
+        "question": "nationality",
+        "equals": "not_french"
+      },
+      "title": {
+        "fr": "La carte d'identité française est réservée aux Français",
+        "en": "The French identity card is for French nationals"
+      },
+      "body": {
+        "fr": "D'après service-public, la carte nationale d'identité justifie de l'identité et de la nationalité française. Une personne étrangère qui vit en France justifie de son séjour avec un titre de séjour.",
+        "en": "According to service-public, the national identity card proves identity and French nationality. A foreign national living in France proves their right to stay with a residence permit."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Voir les titres de séjour",
+            "en": "See residence permits"
+          },
+          "body": {
+            "fr": "Service-public liste les titres et cartes de séjour pour les étrangers en France. Dans cette application, les démarches « Renouveler mon titre de séjour » et « Duplicata » peuvent vous aider.",
+            "en": "Service-public lists residence permits for foreign nationals in France. In this app, the \"Renew my residence permit\" and \"Duplicate\" procedures can help you."
+          },
+          "link": {
+            "title": {
+              "fr": "Ouvrir la page service-public",
+              "en": "Open the service-public page"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/N110"
+          }
+        },
+        {
+          "title": {
+            "fr": "Si vous venez de devenir français",
+            "en": "If you just became French"
+          },
+          "body": {
+            "fr": "Revenez en arrière et répondez « Oui » : la carte d'identité se demande alors comme une première demande.",
+            "en": "Go back and answer \"Yes\": the identity card is then requested as a first application."
+          }
+        }
+      ],
+      "contacts": [
+        "prefecture_directory",
+        "france_services"
+      ],
+      "letters": [],
+      "sources": [
+        "sp_f11601",
+        "sp_n110",
+        "sp_f1341"
+      ]
+    },
+    {
+      "id": "renewal_too_early",
+      "kind": "warning",
+      "condition": {
+        "all": [
+          {
+            "question": "nationality",
+            "equals": "french"
+          },
+          {
+            "question": "request_reason",
+            "equals": "renewal"
+          },
+          {
+            "not": {
+              "question": "card_model",
+              "equals": "old_model"
+            }
+          },
+          {
+            "question": "current_card_expiry",
+            "daysFromToday": {
+              "min": 366
+            }
+          }
+        ]
+      },
+      "title": {
+        "fr": "Votre carte expire dans plus d'un an",
+        "en": "Your card expires in more than a year"
+      },
+      "body": {
+        "fr": "D'après service-public, le renouvellement peut être demandé dans l'année qui précède la date d'expiration. Pour une carte ancien modèle, la demande peut être faite en avance.",
+        "en": "According to service-public, renewal can be requested in the year before the expiry date. For an old-model card, you can apply early."
+      },
+      "sources": [
+        "sp_f21089",
+        "sp_f21090"
+      ]
+    },
+    {
+      "id": "lost_or_stolen_cost",
+      "kind": "warning",
+      "condition": {
+        "all": [
+          {
+            "question": "nationality",
+            "equals": "french"
+          },
+          {
+            "question": "request_reason",
+            "in": [
+              "lost",
+              "stolen"
+            ]
+          }
+        ]
+      },
+      "title": {
+        "fr": "Perte ou vol : la nouvelle carte est payante",
+        "en": "Loss or theft: the new card is not free"
+      },
+      "body": {
+        "fr": "D'après service-public, le renouvellement est gratuit seulement si vous présentez l'ancienne carte. En cas de perte ou de vol, un timbre fiscal de 25 € est demandé (12,50 € en Guyane).",
+        "en": "According to service-public, renewal is free only if you show the old card. After a loss or theft, a 25 € tax stamp is required (12.50 € in French Guiana)."
+      },
+      "sources": [
+        "sp_f33805",
+        "sp_f21089",
+        "sp_a18208"
+      ]
+    }
+  ],
+  "reviewNotes": [
+    "Périmètre : seules les demandes faites en France (mairie) sont couvertes. Les demandes au consulat (timbre acheté au consulat, retrait chez un consul honoraire) ne sont pas reprises.",
+    "Prix : gratuit pour une première demande et un renouvellement avec présentation de l'ancienne carte ; 25 € (12,50 € en Guyane) en cas de perte ou de vol, d'après F33805 (« Vérifié le 27 mars 2026 »), F1344, F1759 (« 08 avril 2026 »), F1153 et F1794 (« 19 juin 2026 »). Aucune source consultée n'annonce de changement pour 2027 ; à revérifier au 1er janvier 2027 (loi de finances). Aucun tarif propre à Mayotte n'est donné par ces fiches.",
+    "Renouvellement d'une carte ancien modèle : F21089 dit que la demande peut être faite en avance et que la pré-demande est alors obligatoire. La gratuité « nouveau motif » vient d'une actualité service-public du 09 avril 2025 (A18208), présentée comme une expérimentation depuis le 31 mars 2025 ; durée de l'expérimentation non vérifiée.",
+    "Prolongation de 5 ans des anciennes cartes (cartes dites « valables 15 ans ») : F21089 cite seulement le décret n°2013-1188 dans ses références, sans explication. Point non repris ; la date saisie est celle écrite sur la carte, ce qui peut être inexact pour ces cartes.",
+    "Seuil « expirée depuis plus de 5 ans » codé comme daysFromToday max -1827 sur current_card_expiry (approximation de 5 ans).",
+    "Pour un mineur dont la carte est expirée depuis plus de 5 ans, F21090 est moins détaillée (« vous pouvez avoir besoin » d'un acte de naissance) ; traité comme pour l'adulte.",
+    "Titres des fiches F14807, F32675, F10619, F33640, F18713 et page ANTS de dématérialisation repris du fichier passport.json (consultées le même jour pour cette démarche via les liens des fiches F1341 et F1342), non relues intégralement ici.",
+    "Liens ANTS : pré-demande (passeport.ants.gouv.fr) relevés depuis R45668 et R62483 ; recherche de mairie et suivi (moncompte.ants.gouv.fr) repris de passport.json. Le lien de suivi donné par service-public pour la carte d'identité est R1580/R49786.",
+    "Mineur : F1342 donne les règles de signature (moins de 12 ans, 12-13 ans, 13 ans et plus) ; F21090, F1153 et F1794 ne détaillent pas toutes ces règles. Repris de F1342.",
+    "Personne non française : la redirection s'appuie sur F11601 (la carte justifie de la nationalité française) et F1341. Aucune fiche consultée ne dit en une phrase « la CNI est réservée aux Français » ; formulation prudente.",
+    "Les fiches (proof_of_address, civil_status_france, loss_theft_report, fiscal_stamp) et contacts (prefecture_directory, france_services) sont des identifiants de help.json, non relus ici.",
+    "La démarche n'est pas encore dans catalog.json (non modifié, comme demandé)."
+  ]
+}

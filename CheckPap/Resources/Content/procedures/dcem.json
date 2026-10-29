@@ -1,0 +1,2393 @@
+{
+  "id": "dcem",
+  "reviewStatus": "draft",
+  "lastVerified": "2026-10-29",
+  "title": {
+    "fr": "Demander un document de circulation pour mon enfant (DCEM)",
+    "en": "Apply for a travel document for my child (DCEM)"
+  },
+  "summary": {
+    "fr": "Le DCEM permet à un enfant étranger mineur qui vit en France de revenir en France après un voyage, avec son passeport. Un parent qui a un titre de séjour valide le demande en ligne sur l'ANEF, puis le retire en préfecture avec l'enfant. Il remplace le TIR, plus délivré depuis 2019.",
+    "en": "The DCEM lets a foreign minor living in France come back to France after a trip, together with their passport. A parent with a valid residence permit applies online on ANEF, then collects it at the prefecture with the child. It replaces the TIR, no longer issued since 2019."
+  },
+  "sources": [
+    {
+      "id": "sp_dcem",
+      "publisher": "service-public.gouv.fr",
+      "title": "Document de circulation pour étranger mineur (DCEM) (Vérifié le 30 juillet 2024)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2718",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_dcem_online",
+      "publisher": "service-public.gouv.fr",
+      "title": "Demander ou renouveler un DCEM (Vérifié le 30 mars 2023)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R64360",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_tir",
+      "publisher": "service-public.gouv.fr",
+      "title": "Le titre d'identité républicain (TIR) d'un mineur étranger né en France existe-t-il toujours ? (Vérifié le 13 février 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F297",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_timbre",
+      "publisher": "service-public.gouv.fr",
+      "title": "Étranger en France : comment acheter un timbre fiscal ? (Vérifié le 19 avril 2024)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33071",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_regroupement_sur_place",
+      "publisher": "service-public.gouv.fr",
+      "title": "Une famille déjà en France peut-elle bénéficier d'un regroupement familial ? (Vérifié le 12 janvier 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F11167",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_photo",
+      "publisher": "service-public.gouv.fr",
+      "title": "Quelle photo fournir pour un titre d'identité (passeport, carte d'identité...) ? (Vérifié le 08 octobre 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10619",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_taxes_2026",
+      "publisher": "service-public.gouv.fr",
+      "title": "Titres de séjour : augmentation du montant des taxes demandées aux étrangers à compter du 1er mai (Publié le 22 avril 2026, mis à jour le 12 mai 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/actualites/A18881",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "pref_maine_et_loire_dcem",
+      "publisher": "maine-et-loire.gouv.fr",
+      "title": "Documents de circulation pour étranger mineur (DCEM) et titres de voyage pour étranger (TVE) (aucune date affichée ; guides usagers PDF du 08/12/2023)",
+      "url": "https://www.maine-et-loire.gouv.fr/Demarches/Demarches-etrangers/Demarches-a-realiser-en-ligne-sur-ANEF-administration-numerique-etrangers-en-France/Documents-de-circulation-pour-etranger-mineur-DCEM-et-titres-de-voyage-pour-etranger-TVE",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "pref_rhone_faq",
+      "publisher": "rhone.gouv.fr",
+      "title": "FAQ SEJOUR, L'Administration Numérique pour les Etrangers en France (ANEF) (PDF, aucune date affichée)",
+      "url": "https://www.rhone.gouv.fr/contenu/telechargement/49803/275054/file/FAQ%20SEJOUR%20FINAL.pdf",
+      "consulted": "2026-10-29"
+    }
+  ],
+  "questions": [
+    {
+      "id": "request_type",
+      "kind": "single",
+      "title": {
+        "fr": "Que voulez-vous faire pour votre enfant ?",
+        "en": "What do you want to do for your child?"
+      },
+      "help": {
+        "fr": "Le DCEM permet à un enfant étranger qui vit en France de revenir en France (ou dans l'espace Schengen) après un voyage. Il se présente avec son passeport. Service-public indique aussi que les enfants mineurs admis au regroupement familial sur place reçoivent un DCEM.",
+        "en": "The DCEM lets a foreign child who lives in France come back to France (or into the Schengen area) after a trip. It is shown together with the child's passport. Service-public also says minor children admitted through family reunification from within France receive a DCEM."
+      },
+      "example": {
+        "fr": "Exemple : votre enfant n'a jamais eu de DCEM et vous partez en vacances dans votre pays d'origine l'été prochain.",
+        "en": "Example: your child has never had a DCEM and you plan a holiday in your home country next summer."
+      },
+      "options": [
+        {
+          "id": "first",
+          "label": {
+            "fr": "Demander un premier DCEM",
+            "en": "Apply for a first DCEM"
+          }
+        },
+        {
+          "id": "renewal",
+          "label": {
+            "fr": "Renouveler un DCEM qui arrive à sa fin",
+            "en": "Renew a DCEM that is about to end"
+          }
+        },
+        {
+          "id": "from_tir",
+          "label": {
+            "fr": "Mon enfant avait un TIR (titre d'identité républicain)",
+            "en": "My child had a TIR (titre d'identité républicain)"
+          },
+          "help": {
+            "fr": "Ancien document pour les mineurs étrangers nés en France.",
+            "en": "Former document for foreign minors born in France."
+          }
+        },
+        {
+          "id": "replace",
+          "label": {
+            "fr": "Remplacer un DCEM perdu, volé ou abîmé",
+            "en": "Replace a lost, stolen or damaged DCEM"
+          }
+        }
+      ],
+      "condition": null,
+      "sources": [
+        "sp_dcem",
+        "sp_tir",
+        "sp_regroupement_sur_place",
+        "pref_maine_et_loire_dcem"
+      ]
+    },
+    {
+      "id": "parent_status",
+      "kind": "single",
+      "title": {
+        "fr": "Quelle est la situation du parent qui fait la demande ?",
+        "en": "What is the situation of the parent making the request?"
+      },
+      "help": {
+        "fr": "Service-public indique que la demande est faite par au moins un des parents (ou la personne qui a l'autorité parentale) qui a un titre de séjour en cours de validité.",
+        "en": "Service-public says the request is made by at least one parent (or the person with parental authority) who has a valid residence permit."
+      },
+      "example": {
+        "fr": "Exemple : la mère a une carte de séjour valable jusqu'en 2028 : c'est elle qui peut faire la demande.",
+        "en": "Example: the mother has a residence card valid until 2028: she can make the request."
+      },
+      "options": [
+        {
+          "id": "third_country_permit",
+          "label": {
+            "fr": "J'ai un titre de séjour en cours de validité",
+            "en": "I have a valid residence permit"
+          },
+          "help": {
+            "fr": "Vous êtes parent ou vous avez l'autorité parentale.",
+            "en": "You are a parent or you have parental authority."
+          }
+        },
+        {
+          "id": "eu_parent",
+          "label": {
+            "fr": "Je suis citoyen européen installé en France depuis plus de 3 mois",
+            "en": "I am a European citizen settled in France for more than 3 months"
+          },
+          "help": {
+            "fr": "Service-public indique que ce parent n'a pas l'obligation d'avoir un titre de séjour.",
+            "en": "Service-public says this parent does not need a residence permit."
+          }
+        },
+        {
+          "id": "none_valid",
+          "label": {
+            "fr": "Aucun parent n'a de titre de séjour valide",
+            "en": "No parent has a valid residence permit"
+          }
+        }
+      ],
+      "condition": {
+        "question": "request_type",
+        "in": [
+          "first",
+          "renewal",
+          "from_tir"
+        ]
+      },
+      "sources": [
+        "sp_dcem"
+      ]
+    },
+    {
+      "id": "parent_permit_expiry",
+      "kind": "date",
+      "title": {
+        "fr": "Quelle est la date de fin de votre titre de séjour ?",
+        "en": "What is the expiry date of your residence permit?"
+      },
+      "help": {
+        "fr": "La durée du DCEM dépend de la date de fin du titre des parents. Si les deux parents ont un titre, indiquez la date la plus lointaine.",
+        "en": "The DCEM's length depends on the expiry date of the parents' permit. If both parents have a permit, enter the later date."
+      },
+      "example": {
+        "fr": "Exemple : la date écrite après « Valable jusqu'au » sur votre carte.",
+        "en": "Example: the date written after \"Valable jusqu'au\" (valid until) on your card."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "request_type",
+            "in": [
+              "first",
+              "renewal",
+              "from_tir"
+            ]
+          },
+          {
+            "question": "parent_status",
+            "equals": "third_country_permit"
+          }
+        ]
+      },
+      "sources": [
+        "sp_dcem"
+      ]
+    },
+    {
+      "id": "child_birth_date",
+      "kind": "date",
+      "title": {
+        "fr": "Quelle est la date de naissance de votre enfant ?",
+        "en": "What is your child's date of birth?"
+      },
+      "help": {
+        "fr": "La durée du DCEM n'est pas la même avant et après 13 ans. Le DCEM concerne les mineurs.",
+        "en": "The DCEM's length is not the same before and after age 13. The DCEM is for minors."
+      },
+      "example": {
+        "fr": "Exemple : la date écrite sur l'acte de naissance ou le passeport de l'enfant.",
+        "en": "Example: the date on the child's birth certificate or passport."
+      },
+      "condition": {
+        "question": "request_type",
+        "in": [
+          "first",
+          "renewal",
+          "from_tir"
+        ]
+      },
+      "sources": [
+        "sp_dcem"
+      ]
+    },
+    {
+      "id": "in_mayotte",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Votre enfant vit-il à Mayotte ?",
+        "en": "Does your child live in Mayotte?"
+      },
+      "help": {
+        "fr": "À Mayotte, les pièces sont différentes et le DCEM ne permet que le retour à Mayotte.",
+        "en": "In Mayotte, the documents are different and the DCEM only allows a return to Mayotte."
+      },
+      "example": {
+        "fr": "Exemple : votre famille habite à Mamoudzou.",
+        "en": "Example: your family lives in Mamoudzou."
+      },
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "request_type",
+                "in": [
+                  "first",
+                  "renewal",
+                  "from_tir"
+                ]
+              },
+              {
+                "question": "parent_status",
+                "in": [
+                  "third_country_permit",
+                  "eu_parent"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_dcem"
+      ]
+    },
+    {
+      "id": "born_in_france",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Votre enfant est-il né en France ?",
+        "en": "Was your child born in France?"
+      },
+      "help": {
+        "fr": "À Mayotte, service-public demande une preuve de naissance en France, ou sinon une preuve d'entrée régulière à Mayotte avant 13 ans.",
+        "en": "In Mayotte, service-public asks for proof of birth in France, or otherwise proof of lawful entry into Mayotte before age 13."
+      },
+      "example": {
+        "fr": "Exemple : l'acte de naissance indique une ville française.",
+        "en": "Example: the birth certificate shows a French town."
+      },
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "request_type",
+                "in": [
+                  "first",
+                  "renewal",
+                  "from_tir"
+                ]
+              },
+              {
+                "question": "parent_status",
+                "in": [
+                  "third_country_permit",
+                  "eu_parent"
+                ]
+              }
+            ]
+          },
+          {
+            "question": "in_mayotte",
+            "equals": "yes"
+          }
+        ]
+      },
+      "sources": [
+        "sp_dcem"
+      ]
+    },
+    {
+      "id": "child_situation",
+      "kind": "single",
+      "title": {
+        "fr": "Votre enfant est-il dans l'une de ces situations ?",
+        "en": "Is your child in one of these situations?"
+      },
+      "help": {
+        "fr": "Service-public demande des pièces en plus dans ces cas. Si aucun ne vous concerne, choisissez la dernière réponse.",
+        "en": "Service-public asks for extra documents in these cases. If none applies, choose the last answer."
+      },
+      "example": {
+        "fr": "Exemple : votre enfant est arrivé en France à 9 ans avec un visa long séjour « visiteur ».",
+        "en": "Example: your child came to France at age 9 with a \"visitor\" long-stay visa."
+      },
+      "options": [
+        {
+          "id": "ase",
+          "label": {
+            "fr": "Confié à l'aide sociale à l'enfance avant 16 ans",
+            "en": "Placed with child welfare services (ASE) before age 16"
+          }
+        },
+        {
+          "id": "refugee",
+          "label": {
+            "fr": "Reconnu réfugié ou protégé (protection subsidiaire)",
+            "en": "Recognised as a refugee or under subsidiary protection"
+          }
+        },
+        {
+          "id": "french_parent_visa",
+          "label": {
+            "fr": "Entré avec un visa long séjour « famille de Français » ou « adoption internationale »",
+            "en": "Came with a long-stay visa \"famille de Français\" or \"adoption internationale\""
+          }
+        },
+        {
+          "id": "visitor_before_13",
+          "label": {
+            "fr": "Entré avant 13 ans avec un visa long séjour « visiteur »",
+            "en": "Came before age 13 with a \"visitor\" long-stay visa"
+          }
+        },
+        {
+          "id": "none",
+          "label": {
+            "fr": "Aucune de ces situations",
+            "en": "None of these situations"
+          }
+        }
+      ],
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "request_type",
+                "in": [
+                  "first",
+                  "renewal",
+                  "from_tir"
+                ]
+              },
+              {
+                "question": "parent_status",
+                "in": [
+                  "third_country_permit",
+                  "eu_parent"
+                ]
+              }
+            ]
+          },
+          {
+            "question": "in_mayotte",
+            "equals": "no"
+          }
+        ]
+      },
+      "sources": [
+        "sp_dcem"
+      ]
+    },
+    {
+      "id": "parents_marital",
+      "kind": "single",
+      "title": {
+        "fr": "Quelle est la situation des parents ?",
+        "en": "What is the parents' situation?"
+      },
+      "help": {
+        "fr": "Service-public demande une preuve que vous exercez l'autorité parentale. Le document dépend de cette situation.",
+        "en": "Service-public asks for proof that you hold parental authority. The document depends on this situation."
+      },
+      "example": {
+        "fr": "Exemple : les parents vivent ensemble sans être mariés : choisissez « Non mariés ».",
+        "en": "Example: the parents live together without being married: choose \"Not married\"."
+      },
+      "options": [
+        {
+          "id": "married",
+          "label": {
+            "fr": "Mariés",
+            "en": "Married"
+          }
+        },
+        {
+          "id": "divorced",
+          "label": {
+            "fr": "Divorcés",
+            "en": "Divorced"
+          }
+        },
+        {
+          "id": "unmarried",
+          "label": {
+            "fr": "Non mariés",
+            "en": "Not married"
+          }
+        },
+        {
+          "id": "third_party",
+          "label": {
+            "fr": "L'autorité parentale est exercée par une autre personne",
+            "en": "Parental authority is held by someone else"
+          },
+          "help": {
+            "fr": "Par exemple après une délégation d'autorité parentale ou une décision du conseil de famille.",
+            "en": "For example after a delegation of parental authority or a family council decision."
+          }
+        }
+      ],
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "request_type",
+                "in": [
+                  "first",
+                  "renewal",
+                  "from_tir"
+                ]
+              },
+              {
+                "question": "parent_status",
+                "in": [
+                  "third_country_permit",
+                  "eu_parent"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_dcem"
+      ]
+    },
+    {
+      "id": "recognized_before_1",
+      "kind": "yesNo",
+      "title": {
+        "fr": "L'enfant a-t-il été reconnu avant l'âge d'1 an ?",
+        "en": "Was the child recognised before age 1?"
+      },
+      "help": {
+        "fr": "Pour des parents non mariés, la pièce demandée n'est pas la même si l'enfant a été reconnu avant ou après 1 an.",
+        "en": "For unmarried parents, the document asked for is not the same if the child was recognised before or after age 1."
+      },
+      "example": {
+        "fr": "Exemple : la reconnaissance figure en mention sur l'acte de naissance, avec sa date.",
+        "en": "Example: the recognition appears as a note on the birth certificate, with its date."
+      },
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "request_type",
+                "in": [
+                  "first",
+                  "renewal",
+                  "from_tir"
+                ]
+              },
+              {
+                "question": "parent_status",
+                "in": [
+                  "third_country_permit",
+                  "eu_parent"
+                ]
+              }
+            ]
+          },
+          {
+            "question": "parents_marital",
+            "equals": "unmarried"
+          }
+        ]
+      },
+      "sources": [
+        "sp_dcem"
+      ]
+    },
+    {
+      "id": "foreign_language_docs",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Certains actes d'état civil sont-ils dans une langue étrangère ?",
+        "en": "Are any civil status records in a foreign language?"
+      },
+      "help": {
+        "fr": "Service-public indique que les actes en langue étrangère doivent être accompagnés d'une traduction en français par un traducteur agréé.",
+        "en": "Service-public says records in a foreign language must come with a French translation by an approved translator."
+      },
+      "example": {
+        "fr": "Exemple : l'acte de naissance de l'enfant a été établi au Maroc en arabe.",
+        "en": "Example: the child's birth certificate was issued in Morocco in Arabic."
+      },
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "request_type",
+                "in": [
+                  "first",
+                  "renewal",
+                  "from_tir"
+                ]
+              },
+              {
+                "question": "parent_status",
+                "in": [
+                  "third_country_permit",
+                  "eu_parent"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_dcem"
+      ]
+    },
+    {
+      "id": "travel_planned",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Un voyage hors de France est-il prévu avant que vous ayez le DCEM ?",
+        "en": "Is a trip outside France planned before you have the DCEM?"
+      },
+      "help": {
+        "fr": "La confirmation de dépôt ne permet pas à l'enfant de revenir en France.",
+        "en": "The filing confirmation does not allow the child to come back to France."
+      },
+      "example": {
+        "fr": "Exemple : vous déposez la demande en juin et vous partez en juillet.",
+        "en": "Example: you apply in June and leave in July."
+      },
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "request_type",
+                "in": [
+                  "first",
+                  "renewal",
+                  "from_tir"
+                ]
+              },
+              {
+                "question": "parent_status",
+                "in": [
+                  "third_country_permit",
+                  "eu_parent"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_dcem",
+        "pref_maine_et_loire_dcem"
+      ]
+    }
+  ],
+  "documents": [
+    {
+      "id": "parent_permit",
+      "category": "residence",
+      "title": {
+        "fr": "Votre carte de séjour",
+        "en": "Your residence card"
+      },
+      "details": {
+        "fr": "Votre carte de séjour en cours de validité, comme preuve que votre séjour est régulier.",
+        "en": "Your valid residence card, as proof that your stay is lawful."
+      },
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "request_type",
+                "in": [
+                  "first",
+                  "renewal",
+                  "from_tir"
+                ]
+              },
+              {
+                "question": "parent_status",
+                "in": [
+                  "third_country_permit",
+                  "eu_parent"
+                ]
+              }
+            ]
+          },
+          {
+            "question": "parent_status",
+            "equals": "third_country_permit"
+          }
+        ]
+      },
+      "sources": [
+        "sp_dcem"
+      ]
+    },
+    {
+      "id": "passports",
+      "category": "identity",
+      "title": {
+        "fr": "Passeport du parent et de l'enfant",
+        "en": "Passport of the parent and of the child"
+      },
+      "details": {
+        "fr": "Le passeport du demandeur et celui de l'enfant. À défaut : carte d'identité nationale, carte d'identité consulaire, etc.",
+        "en": "The passport of the applicant and of the child. If you do not have one: national ID card, consular ID card, etc."
+      },
+      "tip": {
+        "fr": "La préfecture de Maine-et-Loire demande d'avoir une pièce d'identité et de nationalité de l'enfant en cours de validité avant de commencer la démarche en ligne.",
+        "en": "The Maine-et-Loire prefecture asks you to have a valid ID and nationality document for the child before starting the online request."
+      },
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "request_type",
+                "in": [
+                  "first",
+                  "renewal",
+                  "from_tir"
+                ]
+              },
+              {
+                "question": "parent_status",
+                "in": [
+                  "third_country_permit",
+                  "eu_parent"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_dcem",
+        "pref_maine_et_loire_dcem"
+      ]
+    },
+    {
+      "id": "filiation",
+      "category": "civil_status",
+      "title": {
+        "fr": "Livret de famille ou acte de naissance de l'enfant",
+        "en": "Family record book or child's birth certificate"
+      },
+      "details": {
+        "fr": "Un livret de famille ou un extrait d'acte de naissance qui montre le lien de filiation de l'enfant (noms des parents).",
+        "en": "A family record book or a birth certificate extract showing the child's parentage (parents' names)."
+      },
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "request_type",
+                "in": [
+                  "first",
+                  "renewal",
+                  "from_tir"
+                ]
+              },
+              {
+                "question": "parent_status",
+                "in": [
+                  "third_country_permit",
+                  "eu_parent"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_dcem"
+      ],
+      "guides": [
+        "civil_status_france"
+      ]
+    },
+    {
+      "id": "marriage_certificate",
+      "category": "family",
+      "title": {
+        "fr": "Extrait d'acte de mariage",
+        "en": "Marriage certificate extract"
+      },
+      "details": {
+        "fr": "Preuve de l'autorité parentale pour des parents mariés.",
+        "en": "Proof of parental authority for married parents."
+      },
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "request_type",
+                "in": [
+                  "first",
+                  "renewal",
+                  "from_tir"
+                ]
+              },
+              {
+                "question": "parent_status",
+                "in": [
+                  "third_country_permit",
+                  "eu_parent"
+                ]
+              }
+            ]
+          },
+          {
+            "question": "parents_marital",
+            "equals": "married"
+          }
+        ]
+      },
+      "sources": [
+        "sp_dcem"
+      ]
+    },
+    {
+      "id": "divorce_judgment",
+      "category": "family",
+      "title": {
+        "fr": "Jugement de divorce",
+        "en": "Divorce judgment"
+      },
+      "details": {
+        "fr": "Preuve de l'autorité parentale pour des parents divorcés.",
+        "en": "Proof of parental authority for divorced parents."
+      },
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "request_type",
+                "in": [
+                  "first",
+                  "renewal",
+                  "from_tir"
+                ]
+              },
+              {
+                "question": "parent_status",
+                "in": [
+                  "third_country_permit",
+                  "eu_parent"
+                ]
+              }
+            ]
+          },
+          {
+            "question": "parents_marital",
+            "equals": "divorced"
+          }
+        ]
+      },
+      "sources": [
+        "sp_dcem"
+      ]
+    },
+    {
+      "id": "recognition_before_1",
+      "category": "family",
+      "title": {
+        "fr": "Acte de naissance avec la reconnaissance",
+        "en": "Birth certificate showing the recognition"
+      },
+      "details": {
+        "fr": "L'acte de naissance de l'enfant qui mentionne sa reconnaissance avant l'âge d'1 an.",
+        "en": "The child's birth certificate mentioning the recognition before age 1."
+      },
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "request_type",
+                "in": [
+                  "first",
+                  "renewal",
+                  "from_tir"
+                ]
+              },
+              {
+                "question": "parent_status",
+                "in": [
+                  "third_country_permit",
+                  "eu_parent"
+                ]
+              }
+            ]
+          },
+          {
+            "question": "parents_marital",
+            "equals": "unmarried"
+          },
+          {
+            "question": "recognized_before_1",
+            "equals": "yes"
+          }
+        ]
+      },
+      "sources": [
+        "sp_dcem"
+      ]
+    },
+    {
+      "id": "joint_authority",
+      "category": "family",
+      "title": {
+        "fr": "Preuve de l'autorité parentale commune",
+        "en": "Proof of shared parental authority"
+      },
+      "details": {
+        "fr": "La déclaration conjointe d'exercice en commun de l'autorité parentale faite auprès du greffier du tribunal judiciaire, ou une copie de la décision de justice sur l'autorité parentale.",
+        "en": "The joint declaration of shared parental authority made with the clerk of the judicial court, or a copy of the court decision on parental authority."
+      },
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "request_type",
+                "in": [
+                  "first",
+                  "renewal",
+                  "from_tir"
+                ]
+              },
+              {
+                "question": "parent_status",
+                "in": [
+                  "third_country_permit",
+                  "eu_parent"
+                ]
+              }
+            ]
+          },
+          {
+            "question": "parents_marital",
+            "equals": "unmarried"
+          },
+          {
+            "question": "recognized_before_1",
+            "equals": "no"
+          }
+        ]
+      },
+      "sources": [
+        "sp_dcem"
+      ]
+    },
+    {
+      "id": "third_party_decision",
+      "category": "family",
+      "title": {
+        "fr": "Décision qui confie l'autorité parentale",
+        "en": "Decision granting parental authority"
+      },
+      "details": {
+        "fr": "Une copie de la décision de justice portant délégation de l'autorité parentale, ou de la décision du conseil de famille.",
+        "en": "A copy of the court decision delegating parental authority, or of the family council decision."
+      },
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "request_type",
+                "in": [
+                  "first",
+                  "renewal",
+                  "from_tir"
+                ]
+              },
+              {
+                "question": "parent_status",
+                "in": [
+                  "third_country_permit",
+                  "eu_parent"
+                ]
+              }
+            ]
+          },
+          {
+            "question": "parents_marital",
+            "equals": "third_party"
+          }
+        ]
+      },
+      "sources": [
+        "sp_dcem"
+      ]
+    },
+    {
+      "id": "residence_proof_child",
+      "category": "family",
+      "title": {
+        "fr": "Preuve que l'enfant vit en France",
+        "en": "Proof that the child lives in France"
+      },
+      "details": {
+        "fr": "Un certificat de scolarité ou de crèche, ou un autre document pour les jeunes enfants qui prouve sa résidence habituelle en France.",
+        "en": "A school or nursery certificate, or another document for young children proving they usually live in France."
+      },
+      "tip": {
+        "fr": "La préfecture de Maine-et-Loire demande des justificatifs de présence sur au moins un an à la date de la demande : certificats de scolarité, pages d'identité du carnet de santé, visites chez le médecin, attestation de crèche.",
+        "en": "The Maine-et-Loire prefecture asks for proof of presence covering at least one year on the date of the request: school certificates, ID pages of the health record book, doctor visits, nursery certificate."
+      },
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "request_type",
+                "in": [
+                  "first",
+                  "renewal",
+                  "from_tir"
+                ]
+              },
+              {
+                "question": "parent_status",
+                "in": [
+                  "third_country_permit",
+                  "eu_parent"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_dcem",
+        "pref_maine_et_loire_dcem"
+      ]
+    },
+    {
+      "id": "ephoto_child",
+      "category": "photo",
+      "title": {
+        "fr": "E-photo de l'enfant",
+        "en": "Child's e-photo"
+      },
+      "details": {
+        "fr": "Vous indiquez le code e-photo écrit sur la planche, donné par un photographe ou une cabine agréés.",
+        "en": "You enter the e-photo code printed on the sheet, given by an approved photographer or photo booth."
+      },
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "request_type",
+                "in": [
+                  "first",
+                  "renewal",
+                  "from_tir"
+                ]
+              },
+              {
+                "question": "parent_status",
+                "in": [
+                  "third_country_permit",
+                  "eu_parent"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_dcem",
+        "sp_photo"
+      ],
+      "guides": [
+        "ephoto"
+      ]
+    },
+    {
+      "id": "fiscal_stamp",
+      "category": "tax",
+      "title": {
+        "fr": "Timbres fiscaux de 50 €",
+        "en": "Tax stamps worth 50 €"
+      },
+      "details": {
+        "fr": "Service-public indique une taxe de 50 € en timbres fiscaux, à donner au moment de la remise du DCEM. Cette fiche date de juillet 2024, avant la hausse des taxes du 1er mai 2026, et l'actualité de service-public sur cette hausse ne parle pas du DCEM : vérifiez le montant affiché sur l'ANEF avant d'acheter.",
+        "en": "Service-public says a 50 € tax in tax stamps, handed over when you collect the DCEM. This page dates from July 2024, before the tax increase of 1 May 2026, and the service-public news item on that increase does not mention the DCEM: check the amount shown on ANEF before buying."
+      },
+      "tip": {
+        "fr": "Gratuit pour les enfants d'un parent européen ou d'un bénéficiaire de l'accord de retrait du Royaume-Uni. Ne prenez pas un timbre amende par erreur.",
+        "en": "Free for children of a European parent or of a beneficiary of the UK withdrawal agreement. Do not buy a fine stamp by mistake."
+      },
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "request_type",
+                "in": [
+                  "first",
+                  "renewal",
+                  "from_tir"
+                ]
+              },
+              {
+                "question": "parent_status",
+                "in": [
+                  "third_country_permit",
+                  "eu_parent"
+                ]
+              }
+            ]
+          },
+          {
+            "not": {
+              "question": "parent_status",
+              "equals": "eu_parent"
+            }
+          }
+        ]
+      },
+      "sources": [
+        "sp_dcem",
+        "sp_timbre",
+        "sp_taxes_2026"
+      ],
+      "guides": [
+        "fiscal_stamp"
+      ]
+    },
+    {
+      "id": "translations",
+      "category": "civil_status",
+      "title": {
+        "fr": "Traductions des actes en langue étrangère",
+        "en": "Translations of records in a foreign language"
+      },
+      "details": {
+        "fr": "Chaque acte d'état civil en langue étrangère doit être accompagné de sa traduction en français par un traducteur interprète agréé.",
+        "en": "Each civil status record in a foreign language must come with its French translation by an approved translator-interpreter."
+      },
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "request_type",
+                "in": [
+                  "first",
+                  "renewal",
+                  "from_tir"
+                ]
+              },
+              {
+                "question": "parent_status",
+                "in": [
+                  "third_country_permit",
+                  "eu_parent"
+                ]
+              }
+            ]
+          },
+          {
+            "question": "foreign_language_docs",
+            "equals": "yes"
+          }
+        ]
+      },
+      "sources": [
+        "sp_dcem"
+      ],
+      "guides": [
+        "sworn_translation"
+      ]
+    },
+    {
+      "id": "ase_decision",
+      "category": "family",
+      "title": {
+        "fr": "Décision de placement à l'aide sociale à l'enfance",
+        "en": "Child welfare placement decision"
+      },
+      "details": {
+        "fr": "La décision du juge judiciaire de placement à l'aide sociale à l'enfance avant 16 ans.",
+        "en": "The judge's decision placing the child with child welfare services before age 16."
+      },
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "request_type",
+                "in": [
+                  "first",
+                  "renewal",
+                  "from_tir"
+                ]
+              },
+              {
+                "question": "parent_status",
+                "in": [
+                  "third_country_permit",
+                  "eu_parent"
+                ]
+              }
+            ]
+          },
+          {
+            "question": "child_situation",
+            "equals": "ase"
+          }
+        ]
+      },
+      "sources": [
+        "sp_dcem"
+      ]
+    },
+    {
+      "id": "protection_decision",
+      "category": "family",
+      "title": {
+        "fr": "Décision de l'Ofpra ou de la CNDA",
+        "en": "Ofpra or CNDA decision"
+      },
+      "details": {
+        "fr": "La décision qui reconnaît à l'enfant le statut de réfugié ou le bénéfice de la protection subsidiaire.",
+        "en": "The decision granting the child refugee status or subsidiary protection."
+      },
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "request_type",
+                "in": [
+                  "first",
+                  "renewal",
+                  "from_tir"
+                ]
+              },
+              {
+                "question": "parent_status",
+                "in": [
+                  "third_country_permit",
+                  "eu_parent"
+                ]
+              }
+            ]
+          },
+          {
+            "question": "child_situation",
+            "equals": "refugee"
+          }
+        ]
+      },
+      "sources": [
+        "sp_dcem"
+      ]
+    },
+    {
+      "id": "french_parent_visa",
+      "category": "residence",
+      "title": {
+        "fr": "Visa de l'enfant et nationalité du parent français",
+        "en": "Child's visa and French parent's nationality"
+      },
+      "details": {
+        "fr": "Le visa de plus de 3 mois avec la mention « famille de Français » ou « adoption internationale », et une preuve de la nationalité française du parent : passeport ou carte d'identité en cours de validité, ou certificat de nationalité française de moins de 6 mois.",
+        "en": "The visa of more than 3 months marked \"famille de Français\" or \"adoption internationale\", and proof of the parent's French nationality: valid passport or ID card, or a certificate of French nationality less than 6 months old."
+      },
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "request_type",
+                "in": [
+                  "first",
+                  "renewal",
+                  "from_tir"
+                ]
+              },
+              {
+                "question": "parent_status",
+                "in": [
+                  "third_country_permit",
+                  "eu_parent"
+                ]
+              }
+            ]
+          },
+          {
+            "question": "child_situation",
+            "equals": "french_parent_visa"
+          }
+        ]
+      },
+      "sources": [
+        "sp_dcem"
+      ]
+    },
+    {
+      "id": "visitor_visa",
+      "category": "residence",
+      "title": {
+        "fr": "Visa « visiteur » et preuves de résidence depuis 13 ans",
+        "en": "\"Visitor\" visa and proof of residence since age 13"
+      },
+      "details": {
+        "fr": "Une copie du visa de plus de 3 mois avec la mention « visiteur » et le cachet d'entrée en France avant 13 ans, plus des justificatifs de résidence habituelle en France (certificats de scolarité) depuis l'âge de 13 ans.",
+        "en": "A copy of the visa of more than 3 months marked \"visiteur\" and the entry stamp into France before age 13, plus proof of usual residence in France (school certificates) since age 13."
+      },
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "request_type",
+                "in": [
+                  "first",
+                  "renewal",
+                  "from_tir"
+                ]
+              },
+              {
+                "question": "parent_status",
+                "in": [
+                  "third_country_permit",
+                  "eu_parent"
+                ]
+              }
+            ]
+          },
+          {
+            "question": "child_situation",
+            "equals": "visitor_before_13"
+          }
+        ]
+      },
+      "sources": [
+        "sp_dcem"
+      ]
+    },
+    {
+      "id": "mayotte_born_france",
+      "category": "family",
+      "title": {
+        "fr": "Mayotte : titre d'un parent et preuve de naissance en France",
+        "en": "Mayotte: a parent's permit and proof of birth in France"
+      },
+      "details": {
+        "fr": "La carte de séjour en cours de validité d'au moins un des 2 parents et un justificatif de la naissance de l'enfant en France.",
+        "en": "The valid residence card of at least one of the 2 parents and proof that the child was born in France."
+      },
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "request_type",
+                "in": [
+                  "first",
+                  "renewal",
+                  "from_tir"
+                ]
+              },
+              {
+                "question": "parent_status",
+                "in": [
+                  "third_country_permit",
+                  "eu_parent"
+                ]
+              }
+            ]
+          },
+          {
+            "question": "in_mayotte",
+            "equals": "yes"
+          },
+          {
+            "question": "born_in_france",
+            "equals": "yes"
+          }
+        ]
+      },
+      "sources": [
+        "sp_dcem"
+      ]
+    },
+    {
+      "id": "mayotte_born_abroad",
+      "category": "family",
+      "title": {
+        "fr": "Mayotte : titre d'un parent et preuve d'entrée avant 13 ans",
+        "en": "Mayotte: a parent's permit and proof of entry before age 13"
+      },
+      "details": {
+        "fr": "La carte de séjour en cours de validité d'au moins un des 2 parents et un justificatif de l'entrée régulière à Mayotte avant l'âge de 13 ans.",
+        "en": "The valid residence card of at least one of the 2 parents and proof of lawful entry into Mayotte before age 13."
+      },
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "request_type",
+                "in": [
+                  "first",
+                  "renewal",
+                  "from_tir"
+                ]
+              },
+              {
+                "question": "parent_status",
+                "in": [
+                  "third_country_permit",
+                  "eu_parent"
+                ]
+              }
+            ]
+          },
+          {
+            "question": "in_mayotte",
+            "equals": "yes"
+          },
+          {
+            "question": "born_in_france",
+            "equals": "no"
+          }
+        ]
+      },
+      "sources": [
+        "sp_dcem"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "get_ephoto",
+      "phase": "before",
+      "title": {
+        "fr": "Faire l'e-photo de l'enfant",
+        "en": "Get the child's e-photo"
+      },
+      "body": {
+        "fr": "Allez chez un photographe ou dans une cabine agréés avec l'enfant. Gardez la planche : le code sera demandé en ligne.",
+        "en": "Go to an approved photographer or photo booth with the child. Keep the sheet: the code will be asked for online."
+      },
+      "link": {
+        "title": {
+          "fr": "Trouver un photographe ou une cabine",
+          "en": "Find a photographer or photo booth"
+        },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R62705"
+      },
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "request_type",
+                "in": [
+                  "first",
+                  "renewal",
+                  "from_tir"
+                ]
+              },
+              {
+                "question": "parent_status",
+                "in": [
+                  "third_country_permit",
+                  "eu_parent"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_dcem",
+        "sp_photo"
+      ],
+      "guides": [
+        "ephoto"
+      ]
+    },
+    {
+      "id": "get_translations",
+      "phase": "before",
+      "title": {
+        "fr": "Faire traduire les actes",
+        "en": "Have the records translated"
+      },
+      "body": {
+        "fr": "Faites traduire en français chaque acte d'état civil en langue étrangère par un traducteur interprète agréé.",
+        "en": "Have each civil status record in a foreign language translated into French by an approved translator-interpreter."
+      },
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "request_type",
+                "in": [
+                  "first",
+                  "renewal",
+                  "from_tir"
+                ]
+              },
+              {
+                "question": "parent_status",
+                "in": [
+                  "third_country_permit",
+                  "eu_parent"
+                ]
+              }
+            ]
+          },
+          {
+            "question": "foreign_language_docs",
+            "equals": "yes"
+          }
+        ]
+      },
+      "sources": [
+        "sp_dcem"
+      ],
+      "guides": [
+        "sworn_translation"
+      ]
+    },
+    {
+      "id": "scan_documents",
+      "phase": "before",
+      "title": {
+        "fr": "Numériser les pièces",
+        "en": "Scan the documents"
+      },
+      "body": {
+        "fr": "La demande se fait en ligne : préparez une copie lisible de chaque pièce de la liste.",
+        "en": "The request is made online: prepare a readable copy of each document on the list."
+      },
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "request_type",
+                "in": [
+                  "first",
+                  "renewal",
+                  "from_tir"
+                ]
+              },
+              {
+                "question": "parent_status",
+                "in": [
+                  "third_country_permit",
+                  "eu_parent"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_dcem"
+      ]
+    },
+    {
+      "id": "anef_account",
+      "phase": "before",
+      "title": {
+        "fr": "Se connecter à son compte ANEF",
+        "en": "Log in to your ANEF account"
+      },
+      "body": {
+        "fr": "Le parent qui fait la demande se connecte à son compte personnel. La préfecture du Rhône indique qu'un compte se crée avec le numéro étranger et les dates de début et de fin du titre.",
+        "en": "The parent making the request logs in to their personal account. The Rhône prefecture says an account is created with the foreigner number and the start and end dates of the permit."
+      },
+      "link": {
+        "title": {
+          "fr": "Ouvrir le site de l'ANEF",
+          "en": "Open the ANEF website"
+        },
+        "url": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/"
+      },
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "request_type",
+                "in": [
+                  "first",
+                  "renewal",
+                  "from_tir"
+                ]
+              },
+              {
+                "question": "parent_status",
+                "in": [
+                  "third_country_permit",
+                  "eu_parent"
+                ]
+              }
+            ]
+          },
+          {
+            "question": "parent_status",
+            "equals": "third_country_permit"
+          }
+        ]
+      },
+      "sources": [
+        "sp_dcem",
+        "pref_rhone_faq"
+      ],
+      "guides": [
+        "anef_account"
+      ]
+    },
+    {
+      "id": "submit_online",
+      "phase": "submit",
+      "title": {
+        "fr": "Déposer la demande en ligne",
+        "en": "Submit the request online"
+      },
+      "body": {
+        "fr": "Le parent (ou la personne qui a l'autorité parentale) dépose la demande sur l'ANEF, rubrique « Demander ou renouveler un DCEM ». Une confirmation de dépôt est ensuite envoyée.",
+        "en": "The parent (or the person with parental authority) submits the request on ANEF, in the \"Demander ou renouveler un DCEM\" (apply for or renew a DCEM) section. A filing confirmation is then sent."
+      },
+      "link": {
+        "title": {
+          "fr": "Faire la demande de DCEM en ligne",
+          "en": "Apply for the DCEM online"
+        },
+        "url": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/sejour/document-voyage"
+      },
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "request_type",
+                "in": [
+                  "first",
+                  "renewal",
+                  "from_tir"
+                ]
+              },
+              {
+                "question": "parent_status",
+                "in": [
+                  "third_country_permit",
+                  "eu_parent"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_dcem",
+        "sp_dcem_online"
+      ]
+    },
+    {
+      "id": "wait_processing",
+      "phase": "after",
+      "title": {
+        "fr": "Attendre l'instruction",
+        "en": "Wait for processing"
+      },
+      "body": {
+        "fr": "La demande est traitée par la préfecture ou la sous-préfecture de votre adresse déclarée. Les délais varient selon les préfectures. Par exemple, la préfecture de Maine-et-Loire annonce 2 à 3 mois minimum.",
+        "en": "The request is handled by the prefecture or sub-prefecture of your declared address. Times vary between prefectures. For example, the Maine-et-Loire prefecture says 2 to 3 months minimum."
+      },
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "request_type",
+                "in": [
+                  "first",
+                  "renewal",
+                  "from_tir"
+                ]
+              },
+              {
+                "question": "parent_status",
+                "in": [
+                  "third_country_permit",
+                  "eu_parent"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_dcem",
+        "pref_maine_et_loire_dcem"
+      ]
+    },
+    {
+      "id": "follow_up",
+      "phase": "after",
+      "title": {
+        "fr": "Suivre la demande",
+        "en": "Track the request"
+      },
+      "body": {
+        "fr": "Connectez-vous à votre compte personnel pour voir où en est la demande.",
+        "en": "Log in to your personal account to see the status of the request."
+      },
+      "link": {
+        "title": {
+          "fr": "Ouvrir le site de l'ANEF",
+          "en": "Open the ANEF website"
+        },
+        "url": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/"
+      },
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "request_type",
+                "in": [
+                  "first",
+                  "renewal",
+                  "from_tir"
+                ]
+              },
+              {
+                "question": "parent_status",
+                "in": [
+                  "third_country_permit",
+                  "eu_parent"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_dcem"
+      ],
+      "letters": [
+        "file_followup"
+      ]
+    },
+    {
+      "id": "buy_stamp",
+      "phase": "after",
+      "title": {
+        "fr": "Acheter le timbre fiscal",
+        "en": "Buy the tax stamp"
+      },
+      "body": {
+        "fr": "Le timbre se donne à la remise du DCEM. Vous pouvez l'acheter en ligne (carte bancaire CB, Visa ou Mastercard ; ni PayPal ni American Express) ou dans un bureau de tabac équipé. Le timbre en ligne arrive en PDF ou par SMS (numéro à 16 chiffres).",
+        "en": "The stamp is handed over when you collect the DCEM. You can buy it online (CB, Visa or Mastercard bank card; no PayPal or American Express) or at an equipped tobacconist. The online stamp comes as a PDF or by text message (16-digit number)."
+      },
+      "link": {
+        "title": {
+          "fr": "Acheter un timbre fiscal en ligne",
+          "en": "Buy a tax stamp online"
+        },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R49486"
+      },
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "request_type",
+                "in": [
+                  "first",
+                  "renewal",
+                  "from_tir"
+                ]
+              },
+              {
+                "question": "parent_status",
+                "in": [
+                  "third_country_permit",
+                  "eu_parent"
+                ]
+              }
+            ]
+          },
+          {
+            "not": {
+              "question": "parent_status",
+              "equals": "eu_parent"
+            }
+          }
+        ]
+      },
+      "sources": [
+        "sp_dcem",
+        "sp_timbre"
+      ],
+      "guides": [
+        "fiscal_stamp"
+      ]
+    },
+    {
+      "id": "collect_with_child",
+      "phase": "after",
+      "title": {
+        "fr": "Retirer le DCEM avec l'enfant",
+        "en": "Collect the DCEM with the child"
+      },
+      "body": {
+        "fr": "Selon la préfecture, vous recevez un SMS ou un e-mail pour prendre rendez-vous, ou une convocation. Le parent qui a fait la demande vient retirer le DCEM en préfecture ou sous-préfecture, avec l'enfant.",
+        "en": "Depending on the prefecture, you receive a text or e-mail inviting you to book an appointment, or a notice to attend. The parent who applied collects the DCEM at the prefecture or sub-prefecture, with the child."
+      },
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "request_type",
+                "in": [
+                  "first",
+                  "renewal",
+                  "from_tir"
+                ]
+              },
+              {
+                "question": "parent_status",
+                "in": [
+                  "third_country_permit",
+                  "eu_parent"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_dcem"
+      ],
+      "guides": [
+        "prefecture_appointment"
+      ]
+    },
+    {
+      "id": "validity_renewal",
+      "phase": "after",
+      "title": {
+        "fr": "Connaître la durée du DCEM et le renouveler",
+        "en": "Know how long the DCEM lasts and renew it"
+      },
+      "body": {
+        "fr": "Moins de 13 ans : DCEM de 5 ans, renouvelable. À partir de 13 ans : valable jusqu'aux 18 ans. Si le titre des parents finit plus tôt, le DCEM finit à la même date, mais il dure au moins 1 an. Si les parents ont des dates différentes, la date la plus lointaine compte. Le renouvellement se demande en ligne de la même façon. Si l'enfant devient français ou obtient un titre de séjour, le DCEM est rendu à la préfecture.",
+        "en": "Under 13: 5-year DCEM, renewable. From 13: valid until age 18. If the parents' permit ends earlier, the DCEM ends on the same date, but it lasts at least 1 year. If the parents have different dates, the later one counts. Renewal is requested online in the same way. If the child becomes French or gets a residence permit, the DCEM is returned to the prefecture."
+      },
+      "link": {
+        "title": {
+          "fr": "Faire la demande de DCEM en ligne",
+          "en": "Apply for the DCEM online"
+        },
+        "url": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/sejour/document-voyage"
+      },
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "request_type",
+                "in": [
+                  "first",
+                  "renewal",
+                  "from_tir"
+                ]
+              },
+              {
+                "question": "parent_status",
+                "in": [
+                  "third_country_permit",
+                  "eu_parent"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_dcem",
+        "sp_dcem_online"
+      ]
+    }
+  ],
+  "outcomes": [
+    {
+      "id": "replace_dcem",
+      "kind": "redirect",
+      "condition": {
+        "question": "request_type",
+        "equals": "replace"
+      },
+      "title": {
+        "fr": "C'est une autre démarche : le duplicata",
+        "en": "This is a different process: the duplicate"
+      },
+      "body": {
+        "fr": "Pour un DCEM perdu, volé ou abîmé, il s'agit d'un duplicata. La préfecture de Maine-et-Loire indique qu'il se demande aussi en ligne sur l'ANEF.",
+        "en": "For a lost, stolen or damaged DCEM, you need a duplicate. The Maine-et-Loire prefecture says it is also requested online on ANEF."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Ouvrir la démarche « Remplacer un titre de séjour perdu, volé ou abîmé »",
+            "en": "Open the \"Replace a lost, stolen or damaged residence permit\" process"
+          },
+          "body": {
+            "fr": "Dans l'app, choisissez cette démarche puis « Document de circulation pour mon enfant mineur (DCEM) ».",
+            "en": "In the app, choose that process, then \"Travel document for my minor child (DCEM)\"."
+          },
+          "link": {
+            "title": {
+              "fr": "Ouvrir le site de l'ANEF",
+              "en": "Open the ANEF website"
+            },
+            "url": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/"
+          }
+        }
+      ],
+      "contacts": [
+        "anef_contact",
+        "prefecture_directory",
+        "france_services"
+      ],
+      "letters": [],
+      "sources": [
+        "pref_maine_et_loire_dcem"
+      ]
+    },
+    {
+      "id": "tir_replaced",
+      "kind": "warning",
+      "condition": {
+        "question": "request_type",
+        "equals": "from_tir"
+      },
+      "title": {
+        "fr": "Le TIR n'est plus délivré",
+        "en": "The TIR is no longer issued"
+      },
+      "body": {
+        "fr": "D'après service-public, le titre d'identité républicain (TIR) n'est plus délivré depuis le 1er mars 2019. Il faut désormais demander un DCEM : la liste ci-dessous correspond à cette demande.",
+        "en": "According to service-public, the TIR (titre d'identité républicain) has not been issued since 1 March 2019. You must now apply for a DCEM: the list below is for that request."
+      },
+      "actions": [],
+      "contacts": [],
+      "letters": [],
+      "sources": [
+        "sp_tir"
+      ]
+    },
+    {
+      "id": "no_valid_permit",
+      "kind": "redirect",
+      "condition": {
+        "all": [
+          {
+            "question": "request_type",
+            "in": [
+              "first",
+              "renewal",
+              "from_tir"
+            ]
+          },
+          {
+            "question": "parent_status",
+            "equals": "none_valid"
+          }
+        ]
+      },
+      "title": {
+        "fr": "Cette situation n'est pas décrite par service-public",
+        "en": "This situation is not described by service-public"
+      },
+      "body": {
+        "fr": "D'après service-public, la demande est faite par au moins un parent (ou la personne qui a l'autorité parentale) qui a un titre de séjour en cours de validité. Un parent européen installé depuis plus de 3 mois n'a pas besoin de titre. La préfecture de Maine-et-Loire publie un guide pour un « parent sans titre ou représentant mandaté », sans détailler les conditions sur sa page.",
+        "en": "According to service-public, the request is made by at least one parent (or the person with parental authority) who has a valid residence permit. A European parent settled for more than 3 months does not need a permit. The Maine-et-Loire prefecture publishes a guide for a \"parent without a permit or authorised representative\", without detailing the conditions on its page."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Demander à votre préfecture",
+            "en": "Ask your prefecture"
+          },
+          "body": {
+            "fr": "Demandez quelle démarche est possible pour votre enfant. Le support de l'ANEF répond au 0 806 001 620.",
+            "en": "Ask which process is possible for your child. The ANEF support answers at 0 806 001 620."
+          },
+          "link": {
+            "title": {
+              "fr": "Trouver votre préfecture",
+              "en": "Find your prefecture"
+            },
+            "url": "https://lannuaire.service-public.gouv.fr/navigation/prefecture"
+          }
+        }
+      ],
+      "contacts": [
+        "anef_contact",
+        "prefecture_directory",
+        "france_services",
+        "point_justice"
+      ],
+      "letters": [
+        "appointment_request"
+      ],
+      "sources": [
+        "sp_dcem",
+        "pref_maine_et_loire_dcem"
+      ]
+    },
+    {
+      "id": "parent_permit_expired",
+      "kind": "redirect",
+      "condition": {
+        "all": [
+          {
+            "question": "request_type",
+            "in": [
+              "first",
+              "renewal",
+              "from_tir"
+            ]
+          },
+          {
+            "question": "parent_status",
+            "equals": "third_country_permit"
+          },
+          {
+            "question": "parent_permit_expiry",
+            "daysFromToday": {
+              "max": -1
+            }
+          }
+        ]
+      },
+      "title": {
+        "fr": "Votre titre de séjour semble expiré",
+        "en": "Your residence permit seems to have expired"
+      },
+      "body": {
+        "fr": "D'après service-public, le parent qui fait la demande doit avoir un titre de séjour en cours de validité. Si l'autre parent a un titre valide, c'est lui qui peut faire la demande.",
+        "en": "According to service-public, the parent making the request must have a valid residence permit. If the other parent has a valid permit, they can make the request."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Si votre renouvellement est en cours",
+            "en": "If your renewal is in progress"
+          },
+          "body": {
+            "fr": "Les sources consultées ne disent pas si une attestation de prolongation d'instruction suffit pour le DCEM. Posez la question à votre préfecture ou au support de l'ANEF (0 806 001 620).",
+            "en": "The sources we checked do not say whether an extension certificate is enough for the DCEM. Ask your prefecture or the ANEF support (0 806 001 620)."
+          },
+          "link": {
+            "title": {
+              "fr": "Ouvrir le site de l'ANEF",
+              "en": "Open the ANEF website"
+            },
+            "url": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/"
+          }
+        }
+      ],
+      "contacts": [
+        "anef_contact",
+        "prefecture_directory",
+        "france_services"
+      ],
+      "letters": [],
+      "sources": [
+        "sp_dcem"
+      ]
+    },
+    {
+      "id": "child_adult",
+      "kind": "redirect",
+      "condition": {
+        "all": [
+          {
+            "question": "request_type",
+            "in": [
+              "first",
+              "renewal",
+              "from_tir"
+            ]
+          },
+          {
+            "question": "child_birth_date",
+            "daysFromToday": {
+              "max": -6575
+            }
+          }
+        ]
+      },
+      "title": {
+        "fr": "Le DCEM concerne les mineurs",
+        "en": "The DCEM is for minors"
+      },
+      "body": {
+        "fr": "D'après la date indiquée, votre enfant a 18 ans ou plus. Service-public décrit le DCEM pour les mineurs ; à partir de 13 ans, il est valable au plus jusqu'aux 18 ans.",
+        "en": "Based on the date entered, your child is 18 or older. Service-public describes the DCEM for minors; from age 13, it is valid at most until age 18."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Regarder les démarches de titre de séjour",
+            "en": "Look at residence permit processes"
+          },
+          "body": {
+            "fr": "Un majeur étranger qui vit en France relève d'une demande de titre de séjour. Le site de votre préfecture indique la marche à suivre.",
+            "en": "A foreign adult living in France needs to apply for a residence permit. Your prefecture's website explains what to do."
+          },
+          "link": {
+            "title": {
+              "fr": "Trouver votre préfecture",
+              "en": "Find your prefecture"
+            },
+            "url": "https://lannuaire.service-public.gouv.fr/navigation/prefecture"
+          }
+        }
+      ],
+      "contacts": [
+        "anef_contact",
+        "prefecture_directory",
+        "france_services"
+      ],
+      "letters": [],
+      "sources": [
+        "sp_dcem"
+      ]
+    },
+    {
+      "id": "mayotte_only",
+      "kind": "warning",
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "request_type",
+                "in": [
+                  "first",
+                  "renewal",
+                  "from_tir"
+                ]
+              },
+              {
+                "question": "parent_status",
+                "in": [
+                  "third_country_permit",
+                  "eu_parent"
+                ]
+              }
+            ]
+          },
+          {
+            "question": "in_mayotte",
+            "equals": "yes"
+          }
+        ]
+      },
+      "title": {
+        "fr": "Le DCEM de Mayotte ne permet que le retour à Mayotte",
+        "en": "A Mayotte DCEM only allows a return to Mayotte"
+      },
+      "body": {
+        "fr": "Service-public indique que le DCEM délivré à Mayotte ne permet que le retour à Mayotte.",
+        "en": "Service-public says a DCEM issued in Mayotte only allows a return to Mayotte."
+      },
+      "actions": [],
+      "contacts": [],
+      "letters": [],
+      "sources": [
+        "sp_dcem"
+      ]
+    },
+    {
+      "id": "travel_before_dcem",
+      "kind": "warning",
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "request_type",
+                "in": [
+                  "first",
+                  "renewal",
+                  "from_tir"
+                ]
+              },
+              {
+                "question": "parent_status",
+                "in": [
+                  "third_country_permit",
+                  "eu_parent"
+                ]
+              }
+            ]
+          },
+          {
+            "question": "travel_planned",
+            "equals": "yes"
+          }
+        ]
+      },
+      "title": {
+        "fr": "La confirmation de dépôt ne suffit pas pour revenir en France",
+        "en": "The filing confirmation is not enough to come back to France"
+      },
+      "body": {
+        "fr": "Service-public indique que la confirmation de dépôt ne permet pas à l'enfant d'être réadmis en France ou aux frontières de l'espace Schengen : un visa est nécessaire. La préfecture de Maine-et-Loire annonce un délai de 2 à 3 mois minimum.",
+        "en": "Service-public says the filing confirmation does not allow the child to be readmitted to France or at the Schengen borders: a visa is needed. The Maine-et-Loire prefecture says it takes 2 to 3 months minimum."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Déposer la demande le plus tôt possible",
+            "en": "Submit the request as early as possible"
+          },
+          "body": {
+            "fr": "Les délais varient selon les préfectures. Regardez le site de votre préfecture.",
+            "en": "Times vary between prefectures. Check your prefecture's website."
+          },
+          "link": {
+            "title": {
+              "fr": "Faire la demande de DCEM en ligne",
+              "en": "Apply for the DCEM online"
+            },
+            "url": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/sejour/document-voyage"
+          }
+        }
+      ],
+      "contacts": [
+        "anef_contact",
+        "prefecture_directory"
+      ],
+      "letters": [],
+      "sources": [
+        "sp_dcem",
+        "pref_maine_et_loire_dcem"
+      ]
+    },
+    {
+      "id": "parent_permit_short",
+      "kind": "warning",
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "request_type",
+                "in": [
+                  "first",
+                  "renewal",
+                  "from_tir"
+                ]
+              },
+              {
+                "question": "parent_status",
+                "in": [
+                  "third_country_permit",
+                  "eu_parent"
+                ]
+              }
+            ]
+          },
+          {
+            "question": "parent_status",
+            "equals": "third_country_permit"
+          },
+          {
+            "question": "parent_permit_expiry",
+            "daysFromToday": {
+              "min": 0,
+              "max": 364
+            }
+          }
+        ]
+      },
+      "title": {
+        "fr": "Le DCEM sera sans doute court",
+        "en": "The DCEM will probably be short"
+      },
+      "body": {
+        "fr": "Service-public indique que la date de fin du DCEM suit celle du titre des parents, avec une durée d'au moins 1 an. Si l'autre parent a un titre qui finit plus tard, c'est cette date qui compte.",
+        "en": "Service-public says the DCEM's end date follows that of the parents' permit, with a length of at least 1 year. If the other parent has a permit ending later, that date counts."
+      },
+      "actions": [],
+      "contacts": [],
+      "letters": [],
+      "sources": [
+        "sp_dcem"
+      ]
+    }
+  ],
+  "deadlines": [
+    {
+      "id": "child_turns_13",
+      "relativeTo": "child_birth_date",
+      "offsetDays": 4748,
+      "title": {
+        "fr": "Vers cette date, l'enfant a 13 ans : un DCEM demandé ensuite peut aller jusqu'à ses 18 ans (date approximative)",
+        "en": "Around this date, the child turns 13: a DCEM requested after this can last until age 18 (approximate date)"
+      },
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "request_type",
+                "in": [
+                  "first",
+                  "renewal",
+                  "from_tir"
+                ]
+              },
+              {
+                "question": "parent_status",
+                "in": [
+                  "third_country_permit",
+                  "eu_parent"
+                ]
+              }
+            ]
+          },
+          {
+            "question": "child_birth_date",
+            "daysFromToday": {
+              "min": -4748
+            }
+          }
+        ]
+      },
+      "sources": [
+        "sp_dcem"
+      ]
+    },
+    {
+      "id": "child_turns_18",
+      "relativeTo": "child_birth_date",
+      "offsetDays": 6574,
+      "title": {
+        "fr": "Vers cette date, l'enfant a 18 ans : le DCEM ne va pas au-delà (date approximative)",
+        "en": "Around this date, the child turns 18: the DCEM does not go beyond it (approximate date)"
+      },
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "request_type",
+                "in": [
+                  "first",
+                  "renewal",
+                  "from_tir"
+                ]
+              },
+              {
+                "question": "parent_status",
+                "in": [
+                  "third_country_permit",
+                  "eu_parent"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_dcem"
+      ]
+    }
+  ],
+  "reviewNotes": [
+    "F2718 est « Vérifié le 30 juillet 2024 », avant la hausse des taxes du 1er mai 2026. Montant de 50 € repris de F2718 avec une mise en garde. L'actualité A18881 (mise à jour le 12 mai 2026) ne mentionne pas le DCEM. Montant 2026 du DCEM non confirmé : à vérifier sur Légifrance (CESEDA L436-1 et suivants, non lus, 403) ou sur l'ANEF.",
+    "Pour quels enfants : F2718 ne donne pas de liste de catégories d'enfants éligibles (seulement des pièces en plus selon la situation : ASE avant 16 ans, réfugié, visa famille de Français, visa visiteur avant 13 ans). Le lieu de naissance n'apparaît que pour Mayotte. Les articles L414-4 à L414-7 et D414-1 à D414-4 du CESEDA (cités par F2718) n'ont pas pu être lus (Légifrance 403).",
+    "Une fiche PDF de la préfecture de Corrèze (« Fiche séjour DCEM », non datée) liste des catégories (parent « vie privée et familiale », regroupement familial avec certificat médical OFII, réfugié ou apatride, résidence depuis 13 ans ou 10 ans pour Algériens et Tunisiens, etc.). Elle mentionne un dépôt sur rendez-vous, le cerfa 11203*02 et un montant de 45 € : elle paraît antérieure au passage sur l'ANEF. Non reprise.",
+    "Regroupement familial sur place : F11167 (Vérifié le 12 janvier 2026) indique que « Les enfants mineurs reçoivent quant à eux un document de circulation pour étranger mineur (DCEM) ». Pièces spécifiques (certificat médical OFII ?) non trouvées dans une source à jour ; pas d'option dédiée.",
+    "Mineurs algériens et tunisiens : règles particulières citées seulement par la fiche Corrèze (non reprise). Non couvert.",
+    "Parent sans titre : la préfecture de Maine-et-Loire publie un « Guide usager - DCEM - parent sans titre ou représentant mandaté » (PDF du 08/12/2023, non lu : extraction PDF impossible ici). Le cas est traité par un écran redirect qui renvoie vers la préfecture.",
+    "Délai de 2 à 3 mois et preuve de présence d'un an : préfecture de Maine-et-Loire seulement (page non datée), présentés comme exemples locaux.",
+    "Âges : 13 et 18 ans codés en jours (4748 et 6574, base 365,25 j/an). Les échéances sont marquées « date approximative ». L'écran child_adult se déclenche à partir de 6575 jours.",
+    "Durée du DCEM : la date de délivrance n'est pas connue de l'app, donc aucune échéance « fin du DCEM » n'est calculée ; seule l'étape validity_renewal explique la règle de F2718.",
+    "Renouvellement : F2718 ne donne ni délai pour le demander ni liste de pièces différente ; on suppose la même liste (même service en ligne « Demander ou renouveler un DCEM », R64360 Vérifié le 30 mars 2023).",
+    "Refus implicite : F2718 cite le décret n°2014-1292 (silence de plus de 2 mois vaut refus) ; non repris dans les textes affichés car le texte n'a pas été lu.",
+    "Cerfa 11203*03 (R1457, Vérifié le 31 mai 2019) : formulaire papier, non repris car la demande se fait en ligne.",
+    "Lien de dépôt : https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/sejour/document-voyage, donné par R64360. Le site ANEF n'est pas lisible sans compte : libellés internes non vérifiés.",
+    "Attestation de prolongation d'instruction du parent : aucune source ne dit si elle suffit pour demander un DCEM (écran parent_permit_expired).",
+    "Contacts et courriers : identifiants de help.json (non relus ici). point_justice proposé seulement dans l'écran no_valid_permit (aide juridique générale), sans source qui le relie au DCEM."
+  ]
+}

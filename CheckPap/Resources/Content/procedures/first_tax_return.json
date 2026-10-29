@@ -1,0 +1,1486 @@
+{
+  "id": "first_tax_return",
+  "reviewStatus": "draft",
+  "lastVerified": "2026-10-29",
+  "title": {
+    "fr": "Faire ma première déclaration de revenus",
+    "en": "File my first income tax return"
+  },
+  "summary": {
+    "fr": "Cette démarche explique comment faire votre première déclaration de revenus après votre arrivée en France, même sans revenus ou avec des revenus de l'étranger : quand déclarer, sur papier ou en ligne, avec quels formulaires, et pourquoi l'avis d'impôt est demandé pour un titre de séjour ou une naturalisation.",
+    "en": "This explains how to file your first income tax return after arriving in France, even with no income or with income from abroad: when to file, on paper or online, with which forms, and why the tax notice is requested for a residence permit or naturalisation."
+  },
+  "sources": [
+    {
+      "id": "imp_first_time",
+      "publisher": "impots.gouv.fr",
+      "title": "Je déclare pour la première fois, je déclare chaque année (modifié le 05/05/2026)",
+      "url": "https://www.impots.gouv.fr/particulier/je-declare-pour-la-premiere-fois-je-declare-chaque-annee",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "imp_arrival",
+      "publisher": "impots.gouv.fr",
+      "title": "Je viens ou je reviens en France, comment et quels revenus dois-je déclarer ? (modifié le 17/12/2025)",
+      "url": "https://www.impots.gouv.fr/international-particulier/questions/je-reviens-en-france-apres-un-sejour-letranger",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "imp_forms",
+      "publisher": "impots.gouv.fr",
+      "title": "Comment puis-je me procurer les formulaires pour déclarer mes revenus la première fois et où les déposer ? (modifié le 30/03/2026)",
+      "url": "https://www.impots.gouv.fr/toutes-les-questions/particulier/comment-puis-je-me-procurer-les-formulaires-pour-declarer-mes",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "imp_first_online",
+      "publisher": "impots.gouv.fr",
+      "title": "Puis-je déclarer en ligne pour ma première déclaration de revenus ? (modifié le 30/03/2026)",
+      "url": "https://www.impots.gouv.fr/toutes-les-questions/particulier/puis-je-declarer-en-ligne-pour-ma-premiere-declaration-de-revenus",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "imp_space",
+      "publisher": "impots.gouv.fr",
+      "title": "Comment créer mon espace Finances publiques ? (modifié le 30/03/2026)",
+      "url": "https://www.impots.gouv.fr/particulier/questions/comment-creer-mon-espace-finances-publiques",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "imp_2026",
+      "publisher": "impots.gouv.fr",
+      "title": "Les modalités de la déclaration de revenus en 2026 (aucune date affichée)",
+      "url": "https://www.impots.gouv.fr/les-modalites-de-la-declaration-de-revenus-en-2026",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "imp_obligations",
+      "publisher": "impots.gouv.fr",
+      "title": "Obligations déclaratives (modifié le 08/04/2026)",
+      "url": "https://www.impots.gouv.fr/particulier/obligations-declaratives",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "imp_2042",
+      "publisher": "impots.gouv.fr",
+      "title": "Formulaire n°2042 - Déclaration des revenus (millésime 2026, aucune date affichée)",
+      "url": "https://www.impots.gouv.fr/formulaire/2042/declaration-des-revenus",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "imp_2047",
+      "publisher": "impots.gouv.fr",
+      "title": "Formulaire n°2047 - Déclaration des revenus encaissés à l'étranger (aucune date affichée)",
+      "url": "https://www.impots.gouv.fr/formulaire/2047/declaration-des-revenus-encaisses-letranger",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f369",
+      "publisher": "service-public.gouv.fr",
+      "title": "Impôt sur le revenu - Première déclaration de revenus (Vérifié le 05 juin 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F369",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f358",
+      "publisher": "service-public.gouv.fr",
+      "title": "Impôt sur le revenu - Déclaration de revenus annuelle (Vérifié le 05 juin 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F358",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f359",
+      "publisher": "service-public.gouv.fr",
+      "title": "Quelle est la date limite pour faire sa déclaration de revenus pour les impôts ? (Vérifié le 05 juin 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F359",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f62",
+      "publisher": "service-public.gouv.fr",
+      "title": "Comment déterminer son domicile fiscal ? (Vérifié le 01 janvier 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F62",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f31443",
+      "publisher": "service-public.gouv.fr",
+      "title": "Impôt sur le revenu - Retour d'expatriation (Vérifié le 15 avril 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F31443",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f34009",
+      "publisher": "service-public.gouv.fr",
+      "title": "Impôt sur le revenu - Prélèvement à la source (Vérifié le 15 avril 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34009",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f388",
+      "publisher": "service-public.gouv.fr",
+      "title": "Impôt sur le revenu - Déclarer un changement de situation familiale (Vérifié le 15 janvier 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F388",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f99",
+      "publisher": "service-public.gouv.fr",
+      "title": "Impôt sur le revenu - À quoi sert l'avis d'impôt ? (Vérifié le 01 janvier 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F99",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f34746",
+      "publisher": "service-public.gouv.fr",
+      "title": "Naturalisation française : quels justificatifs de revenus et d'impôts ? (Vérifié le 01 janvier 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34746",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f17359",
+      "publisher": "service-public.gouv.fr",
+      "title": "Carte de résident de longue durée-UE (étranger en France depuis 5 ans) (Vérifié le 01 juin 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F17359",
+      "consulted": "2026-10-29"
+    }
+  ],
+  "questions": [
+    {
+      "id": "arrival_year",
+      "kind": "single",
+      "title": {
+        "fr": "En quelle année êtes-vous arrivé en France pour y vivre ?",
+        "en": "In which year did you arrive in France to live here?"
+      },
+      "help": {
+        "fr": "Les revenus se déclarent l'année qui suit l'arrivée. Pour l'année d'arrivée, on déclare les revenus perçus depuis la date d'arrivée jusqu'au 31 décembre.",
+        "en": "Income is declared the year after you arrive. For the year of arrival, you declare the income received from your arrival date to 31 December."
+      },
+      "example": {
+        "fr": "Exemple : vous êtes arrivé le 1er septembre 2026 : « En 2026 ». Votre première déclaration se fera au printemps 2027.",
+        "en": "Example: you arrived on 1 September 2026: \"In 2026\". Your first return will be in spring 2027."
+      },
+      "options": [
+        {
+          "id": "y2026",
+          "label": {
+            "fr": "En 2026",
+            "en": "In 2026"
+          }
+        },
+        {
+          "id": "y2025",
+          "label": {
+            "fr": "En 2025",
+            "en": "In 2025"
+          }
+        },
+        {
+          "id": "before",
+          "label": {
+            "fr": "En 2024 ou avant",
+            "en": "In 2024 or earlier"
+          }
+        }
+      ],
+      "condition": null,
+      "sources": [
+        "imp_arrival",
+        "sp_f31443",
+        "sp_f358"
+      ]
+    },
+    {
+      "id": "already_declared",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Avez-vous déjà fait une déclaration de revenus en France ?",
+        "en": "Have you already filed an income tax return in France?"
+      },
+      "help": {
+        "fr": "Si vous avez déjà déclaré, vous avez un numéro fiscal et la déclaration suivante se fait en général en ligne.",
+        "en": "If you already filed a return, you have a tax number and the next return is usually done online."
+      },
+      "example": {
+        "fr": "Exemple : vous avez reçu un avis d'impôt ou un avis de non-imposition à votre nom : répondez « Oui ».",
+        "en": "Example: you received a tax notice or a non-taxation notice in your name: answer \"Yes\"."
+      },
+      "condition": {
+        "question": "arrival_year",
+        "in": [
+          "y2025",
+          "before"
+        ]
+      },
+      "sources": [
+        "imp_first_online",
+        "imp_space"
+      ]
+    },
+    {
+      "id": "fiscal_number",
+      "kind": "single",
+      "title": {
+        "fr": "Avez-vous un numéro fiscal ?",
+        "en": "Do you have a tax number?"
+      },
+      "help": {
+        "fr": "Le numéro fiscal a 13 chiffres. Il figure sur les courriers des impôts. Il sert à créer votre espace Finances publiques et à déclarer en ligne.",
+        "en": "The tax number has 13 digits. It is on letters from the tax office. You need it to create your Finances publiques space and file online."
+      },
+      "example": {
+        "fr": "Exemple : vous avez reçu une lettre des Finances publiques avec un « numéro fiscal » et un « numéro d'accès en ligne ».",
+        "en": "Example: you received a letter from Finances publiques with a \"numéro fiscal\" and a \"numéro d'accès en ligne\"."
+      },
+      "options": [
+        {
+          "id": "letter",
+          "label": {
+            "fr": "Oui, j'ai reçu un courrier avec un numéro d'accès en ligne",
+            "en": "Yes, I received a letter with an online access number"
+          }
+        },
+        {
+          "id": "number_only",
+          "label": {
+            "fr": "Oui, mais je n'ai pas de numéro d'accès",
+            "en": "Yes, but I have no access number"
+          },
+          "help": {
+            "fr": "Par exemple un numéro reçu pour une taxe foncière.",
+            "en": "For example a number received for a property tax."
+          }
+        },
+        {
+          "id": "none",
+          "label": {
+            "fr": "Non, je n'ai pas de numéro fiscal",
+            "en": "No, I have no tax number"
+          }
+        }
+      ],
+      "condition": {
+        "not": {
+          "question": "already_declared",
+          "equals": "yes"
+        }
+      },
+      "sources": [
+        "imp_first_online",
+        "imp_space",
+        "sp_f369"
+      ]
+    },
+    {
+      "id": "income_france",
+      "kind": "single",
+      "title": {
+        "fr": "Quels revenus avez-vous eus en France depuis votre arrivée ?",
+        "en": "What income have you had in France since you arrived?"
+      },
+      "help": {
+        "fr": "Il faut déclarer même sans revenus : la déclaration permet de recevoir un avis de non-imposition.",
+        "en": "You must file even with no income: the return lets you receive a non-taxation notice."
+      },
+      "example": {
+        "fr": "Exemple : vous êtes étudiant et avez travaillé l'été : « Salaire ».",
+        "en": "Example: you are a student and worked over the summer: \"Salary\"."
+      },
+      "options": [
+        {
+          "id": "salary",
+          "label": {
+            "fr": "Salaire, allocations chômage ou pension",
+            "en": "Salary, unemployment benefits or pension"
+          }
+        },
+        {
+          "id": "independent",
+          "label": {
+            "fr": "Activité indépendante ou loyers perçus",
+            "en": "Self-employment or rental income"
+          }
+        },
+        {
+          "id": "both",
+          "label": {
+            "fr": "Les deux",
+            "en": "Both"
+          }
+        },
+        {
+          "id": "none",
+          "label": {
+            "fr": "Aucun revenu",
+            "en": "No income"
+          }
+        }
+      ],
+      "condition": {
+        "not": {
+          "question": "already_declared",
+          "equals": "yes"
+        }
+      },
+      "sources": [
+        "sp_f369",
+        "sp_f358",
+        "sp_f34009"
+      ]
+    },
+    {
+      "id": "income_abroad",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Depuis votre arrivée, avez-vous reçu des revenus à l'étranger ?",
+        "en": "Since you arrived, have you received income abroad?"
+      },
+      "help": {
+        "fr": "Les revenus encaissés hors de France se déclarent sur un formulaire en plus, le n°2047.",
+        "en": "Income received outside France is declared on an extra form, no. 2047."
+      },
+      "example": {
+        "fr": "Exemple : vous louez un appartement dans votre pays d'origine et recevez les loyers là-bas.",
+        "en": "Example: you rent out a flat in your home country and receive the rent there."
+      },
+      "condition": {
+        "not": {
+          "question": "already_declared",
+          "equals": "yes"
+        }
+      },
+      "sources": [
+        "imp_2047",
+        "imp_forms",
+        "imp_arrival",
+        "sp_f358"
+      ]
+    },
+    {
+      "id": "foreign_account",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Avez-vous un compte bancaire ou une assurance vie à l'étranger ?",
+        "en": "Do you have a bank account or life insurance abroad?"
+      },
+      "help": {
+        "fr": "La déclaration de revenus contient une case sur les comptes à l'étranger (case 3916).",
+        "en": "The tax return has a box about accounts abroad (box 3916)."
+      },
+      "example": {
+        "fr": "Exemple : vous avez gardé votre compte dans une banque de votre pays d'origine.",
+        "en": "Example: you kept your account at a bank in your home country."
+      },
+      "condition": {
+        "not": {
+          "question": "already_declared",
+          "equals": "yes"
+        }
+      },
+      "sources": [
+        "imp_2026"
+      ]
+    },
+    {
+      "id": "french_income_before",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Avant d'arriver, aviez-vous déjà des revenus venant de France ?",
+        "en": "Before arriving, did you already have income from France?"
+      },
+      "help": {
+        "fr": "Par exemple des loyers d'un logement en France. Ces revenus, perçus avant l'arrivée, se déclarent sur un formulaire à part, le n°2042-NR.",
+        "en": "For example rent from a property in France. This income, received before arrival, is declared on a separate form, no. 2042-NR."
+      },
+      "example": {
+        "fr": "Exemple : vous possédiez déjà un studio à Lyon, loué, avant de vous installer en France.",
+        "en": "Example: you already owned a rented studio in Lyon before moving to France."
+      },
+      "condition": {
+        "all": [
+          {
+            "not": {
+              "question": "already_declared",
+              "equals": "yes"
+            }
+          },
+          {
+            "question": "arrival_year",
+            "in": [
+              "y2026",
+              "y2025"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "imp_arrival",
+        "sp_f31443"
+      ]
+    },
+    {
+      "id": "family_status",
+      "kind": "single",
+      "title": {
+        "fr": "Quelle est votre situation familiale ?",
+        "en": "What is your family situation?"
+      },
+      "help": {
+        "fr": "On fait une seule déclaration par foyer fiscal. Un couple marié ou pacsé déclare en principe ensemble.",
+        "en": "There is one return per tax household. A married couple or a couple in a PACS usually files together."
+      },
+      "example": {
+        "fr": "Exemple : vous êtes marié et votre épouse vit encore dans votre pays d'origine : « Marié ou pacsé, conjoint à l'étranger ».",
+        "en": "Example: you are married and your wife still lives in your home country: \"Married or PACS, partner abroad\"."
+      },
+      "options": [
+        {
+          "id": "single",
+          "label": {
+            "fr": "Célibataire, divorcé, séparé ou veuf",
+            "en": "Single, divorced, separated or widowed"
+          }
+        },
+        {
+          "id": "couple_france",
+          "label": {
+            "fr": "Marié ou pacsé, nous vivons tous les deux en France",
+            "en": "Married or PACS, we both live in France"
+          }
+        },
+        {
+          "id": "couple_abroad",
+          "label": {
+            "fr": "Marié ou pacsé, mon conjoint vit à l'étranger",
+            "en": "Married or PACS, my partner lives abroad"
+          }
+        },
+        {
+          "id": "event_this_year",
+          "label": {
+            "fr": "Mariage, Pacs ou séparation cette année",
+            "en": "Marriage, PACS or separation this year"
+          }
+        }
+      ],
+      "condition": {
+        "not": {
+          "question": "already_declared",
+          "equals": "yes"
+        }
+      },
+      "sources": [
+        "sp_f358",
+        "sp_f388",
+        "sp_f62"
+      ]
+    },
+    {
+      "id": "young_parents_france",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Avez-vous moins de 25 ans et vos parents déclarent-ils leurs revenus en France ?",
+        "en": "Are you under 25 and do your parents file their tax return in France?"
+      },
+      "help": {
+        "fr": "Un jeune peut, sous conditions d'âge, demander à être rattaché au foyer fiscal de ses parents au lieu de déclarer seul.",
+        "en": "A young person can, under age conditions, ask to be attached to their parents' tax household instead of filing alone."
+      },
+      "example": {
+        "fr": "Exemple : vous avez 21 ans, êtes étudiant et vivez en France avec vos parents.",
+        "en": "Example: you are 21, a student, and live in France with your parents."
+      },
+      "condition": {
+        "all": [
+          {
+            "not": {
+              "question": "already_declared",
+              "equals": "yes"
+            }
+          },
+          {
+            "question": "family_status",
+            "equals": "single"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f369"
+      ]
+    },
+    {
+      "id": "notice_purpose",
+      "kind": "single",
+      "title": {
+        "fr": "Pourquoi avez-vous besoin d'un avis d'impôt ?",
+        "en": "Why do you need a tax notice?"
+      },
+      "help": {
+        "fr": "L'avis d'impôt prouve les revenus déclarés. Il est demandé par des administrations, des banques ou des propriétaires.",
+        "en": "The tax notice proves the income you declared. It is requested by administrations, banks or landlords."
+      },
+      "example": {
+        "fr": "Exemple : vous préparez une demande de carte de résident.",
+        "en": "Example: you are preparing an application for a resident card."
+      },
+      "options": [
+        {
+          "id": "residence_permit",
+          "label": {
+            "fr": "Pour un titre de séjour",
+            "en": "For a residence permit"
+          }
+        },
+        {
+          "id": "naturalisation",
+          "label": {
+            "fr": "Pour une naturalisation",
+            "en": "For naturalisation"
+          }
+        },
+        {
+          "id": "other",
+          "label": {
+            "fr": "Autre raison ou je ne sais pas",
+            "en": "Other reason or I do not know"
+          },
+          "help": {
+            "fr": "Logement, banque, aides sociales.",
+            "en": "Housing, bank, social benefits."
+          }
+        }
+      ],
+      "condition": {
+        "not": {
+          "question": "already_declared",
+          "equals": "yes"
+        }
+      },
+      "sources": [
+        "sp_f99",
+        "sp_f17359",
+        "sp_f34746",
+        "sp_f369"
+      ]
+    }
+  ],
+  "documents": [
+    {
+      "id": "form_2042",
+      "category": "tax",
+      "title": {
+        "fr": "Déclaration de revenus n°2042",
+        "en": "Income tax return no. 2042"
+      },
+      "details": {
+        "fr": "Le formulaire principal de la déclaration. Si vous ne pouvez pas déclarer en ligne, utilisez la version papier : à télécharger sur impots.gouv.fr (millésime 2027 pour les revenus de 2026, quand il sera publié), ou à demander à votre service des impôts des particuliers (SIP) ou dans un espace France Services.",
+        "en": "The main tax return form. If you cannot file online, use the paper version: download it on impots.gouv.fr (2027 edition for 2026 income, once published), or ask your local tax office (SIP) or a France Services centre."
+      },
+      "tip": {
+        "fr": "Les formulaires remplis doivent être signés.",
+        "en": "Completed forms must be signed."
+      },
+      "condition": {
+        "not": {
+          "question": "already_declared",
+          "equals": "yes"
+        }
+      },
+      "sources": [
+        "imp_forms",
+        "imp_2042",
+        "imp_arrival",
+        "sp_f358"
+      ]
+    },
+    {
+      "id": "identity_copy",
+      "category": "identity",
+      "title": {
+        "fr": "Copie d'une pièce d'identité",
+        "en": "Copy of an ID document"
+      },
+      "details": {
+        "fr": "Pour faire vérifier votre identité auprès du service des impôts (et pouvoir créer votre espace en ligne), service-public demande votre état civil, une adresse postale et une copie d'une pièce d'identité.",
+        "en": "To have your identity checked by the tax office (so you can create your online space), service-public asks for your civil status, a postal address and a copy of an ID document."
+      },
+      "example": {
+        "fr": "Exemple : passeport ou titre de séjour.",
+        "en": "Example: passport or residence permit."
+      },
+      "condition": {
+        "all": [
+          {
+            "not": {
+              "question": "already_declared",
+              "equals": "yes"
+            }
+          },
+          {
+            "question": "fiscal_number",
+            "in": [
+              "none",
+              "number_only"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_f369",
+        "imp_first_online"
+      ]
+    },
+    {
+      "id": "income_amounts",
+      "category": "resources",
+      "title": {
+        "fr": "Les montants de vos revenus",
+        "en": "The amounts of your income"
+      },
+      "details": {
+        "fr": "Les revenus perçus de la date de votre arrivée au 31 décembre. Service-public demande de conserver les justificatifs pendant 3 ans.",
+        "en": "The income received from your arrival date to 31 December. Service-public asks you to keep the supporting documents for 3 years."
+      },
+      "example": {
+        "fr": "Exemple : vos bulletins de paie et attestations de France Travail.",
+        "en": "Example: your payslips and France Travail statements."
+      },
+      "condition": {
+        "all": [
+          {
+            "not": {
+              "question": "already_declared",
+              "equals": "yes"
+            }
+          },
+          {
+            "question": "income_france",
+            "in": [
+              "salary",
+              "independent",
+              "both"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "imp_arrival",
+        "sp_f358"
+      ]
+    },
+    {
+      "id": "form_2047",
+      "category": "tax",
+      "title": {
+        "fr": "Formulaire n°2047 (revenus encaissés à l'étranger)",
+        "en": "Form no. 2047 (income received abroad)"
+      },
+      "details": {
+        "fr": "Pour les personnes domiciliées en France qui ont encaissé des revenus hors de France. Il est joint à la déclaration n°2042.",
+        "en": "For people living in France who received income outside France. It is attached to return no. 2042."
+      },
+      "condition": {
+        "all": [
+          {
+            "not": {
+              "question": "already_declared",
+              "equals": "yes"
+            }
+          },
+          {
+            "question": "income_abroad",
+            "equals": "yes"
+          }
+        ]
+      },
+      "sources": [
+        "imp_2047",
+        "imp_forms",
+        "sp_f358"
+      ]
+    },
+    {
+      "id": "foreign_account_info",
+      "category": "tax",
+      "title": {
+        "fr": "Informations sur vos comptes à l'étranger",
+        "en": "Information on your accounts abroad"
+      },
+      "details": {
+        "fr": "La déclaration contient la case 3916 sur les comptes et contrats d'assurance vie à l'étranger. Préparez les coordonnées de ces comptes.",
+        "en": "The return has box 3916 about accounts and life insurance contracts abroad. Have the details of these accounts ready."
+      },
+      "condition": {
+        "all": [
+          {
+            "not": {
+              "question": "already_declared",
+              "equals": "yes"
+            }
+          },
+          {
+            "question": "foreign_account",
+            "equals": "yes"
+          }
+        ]
+      },
+      "sources": [
+        "imp_2026"
+      ]
+    },
+    {
+      "id": "form_2042_nr",
+      "category": "tax",
+      "title": {
+        "fr": "Formulaire n°2042-NR (revenus avant l'arrivée)",
+        "en": "Form no. 2042-NR (income before arrival)"
+      },
+      "details": {
+        "fr": "Pour les revenus de source française imposables en France perçus du 1er janvier jusqu'à la date d'arrivée. Les revenus après l'arrivée vont sur la n°2042.",
+        "en": "For French-source income taxable in France received from 1 January to your arrival date. Income after arrival goes on form 2042."
+      },
+      "condition": {
+        "all": [
+          {
+            "not": {
+              "question": "already_declared",
+              "equals": "yes"
+            }
+          },
+          {
+            "question": "french_income_before",
+            "equals": "yes"
+          }
+        ]
+      },
+      "sources": [
+        "imp_arrival",
+        "sp_f31443"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "check_residence",
+      "phase": "before",
+      "title": {
+        "fr": "Savoir si vous devez déclarer en France",
+        "en": "Know whether you must file in France"
+      },
+      "body": {
+        "fr": "Vous devez déclarer si votre foyer ou votre lieu de séjour principal est en France (au moins 183 jours dans l'année), si vous y exercez votre activité principale, ou si le centre de vos intérêts économiques y est. Une convention entre la France et un autre pays peut prévoir d'autres règles. En cas de doute, service-public conseille de demander à votre service des impôts.",
+        "en": "You must file if your household or main place of stay is in France (at least 183 days in the year), if your main work is in France, or if the centre of your economic interests is in France. A tax treaty between France and another country may set other rules. If in doubt, service-public suggests asking your tax office."
+      },
+      "condition": {
+        "not": {
+          "question": "already_declared",
+          "equals": "yes"
+        }
+      },
+      "sources": [
+        "sp_f62",
+        "imp_obligations",
+        "imp_first_time"
+      ]
+    },
+    {
+      "id": "when_2027",
+      "phase": "before",
+      "title": {
+        "fr": "Déclarer au printemps 2027",
+        "en": "File in spring 2027"
+      },
+      "body": {
+        "fr": "Votre première déclaration porte sur les revenus perçus de votre arrivée au 31 décembre 2026. D'après service-public, la déclaration 2027 des revenus de 2026 commencera en avril 2027. Les dates limites ne sont pas encore publiées. Pour information, en 2026 la date limite papier était le 19 mai.",
+        "en": "Your first return covers the income received from your arrival to 31 December 2026. According to service-public, the 2027 return for 2026 income will start in April 2027. The deadlines are not published yet. For reference, in 2026 the paper deadline was 19 May."
+      },
+      "condition": {
+        "all": [
+          {
+            "not": {
+              "question": "already_declared",
+              "equals": "yes"
+            }
+          },
+          {
+            "question": "arrival_year",
+            "equals": "y2026"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f359",
+        "sp_f358",
+        "imp_arrival",
+        "imp_2026"
+      ]
+    },
+    {
+      "id": "when_late",
+      "phase": "before",
+      "title": {
+        "fr": "Déclarer sans attendre",
+        "en": "File without waiting"
+      },
+      "body": {
+        "fr": "La campagne 2026 (revenus de 2025) est terminée : la date limite papier était le 19 mai 2026, et en ligne entre le 21 mai et le 4 juin selon le département. Service-public indique qu'une déclaration peut encore être faite après la date limite, mais que des pénalités peuvent s'appliquer. Contactez votre service des impôts des particuliers.",
+        "en": "The 2026 campaign (2025 income) is over: the paper deadline was 19 May 2026, and online between 21 May and 4 June depending on the département. Service-public says a return can still be filed after the deadline, but penalties may apply. Contact your local tax office."
+      },
+      "link": {
+        "title": {
+          "fr": "Trouver mon service des impôts",
+          "en": "Find my tax office"
+        },
+        "url": "https://www.impots.gouv.fr/contacts"
+      },
+      "condition": {
+        "all": [
+          {
+            "not": {
+              "question": "already_declared",
+              "equals": "yes"
+            }
+          },
+          {
+            "question": "arrival_year",
+            "in": [
+              "y2025",
+              "before"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_f359",
+        "imp_2026"
+      ]
+    },
+    {
+      "id": "online_with_letter",
+      "phase": "before",
+      "title": {
+        "fr": "Créer votre espace Finances publiques",
+        "en": "Create your Finances publiques space"
+      },
+      "body": {
+        "fr": "Sur impots.gouv.fr, saisissez le numéro fiscal et le numéro d'accès en ligne du courrier. Pour le revenu fiscal de référence, saisissez « 0 ». Vous pourrez ensuite déclarer en ligne.",
+        "en": "On impots.gouv.fr, enter the tax number and the online access number from the letter. For the reference tax income, enter \"0\". You can then file online."
+      },
+      "link": {
+        "title": {
+          "fr": "Ouvrir mon espace",
+          "en": "Open my space"
+        },
+        "url": "https://cfspart.impots.gouv.fr"
+      },
+      "condition": {
+        "all": [
+          {
+            "not": {
+              "question": "already_declared",
+              "equals": "yes"
+            }
+          },
+          {
+            "question": "fiscal_number",
+            "equals": "letter"
+          }
+        ]
+      },
+      "sources": [
+        "imp_first_online",
+        "imp_space",
+        "sp_f369"
+      ]
+    },
+    {
+      "id": "number_only",
+      "phase": "before",
+      "title": {
+        "fr": "Accéder à votre espace avec votre numéro fiscal",
+        "en": "Access your space with your tax number"
+      },
+      "body": {
+        "fr": "Avec un numéro fiscal mais sans numéro d'accès, vous pouvez passer par FranceConnect si vous avez déjà un compte compatible (Ameli, La Poste, etc.). Sinon, faites vérifier votre identité auprès de votre centre des Finances publiques, au guichet ou par courrier.",
+        "en": "With a tax number but no access number, you can use FranceConnect if you already have a compatible account (Ameli, La Poste, etc.). Otherwise, have your identity checked at your public finance centre, at the counter or by post."
+      },
+      "link": {
+        "title": {
+          "fr": "Ouvrir mon espace",
+          "en": "Open my space"
+        },
+        "url": "https://cfspart.impots.gouv.fr"
+      },
+      "condition": {
+        "all": [
+          {
+            "not": {
+              "question": "already_declared",
+              "equals": "yes"
+            }
+          },
+          {
+            "question": "fiscal_number",
+            "equals": "number_only"
+          }
+        ]
+      },
+      "sources": [
+        "imp_first_online",
+        "imp_space"
+      ]
+    },
+    {
+      "id": "no_number",
+      "phase": "before",
+      "title": {
+        "fr": "Sans numéro fiscal : prévoir une déclaration papier",
+        "en": "No tax number: plan a paper return"
+      },
+      "body": {
+        "fr": "Le site des impôts indique que, si vous déclarez en France pour la première fois, la déclaration se fait sur papier (formulaire n°2042). Le numéro fiscal est attribué après ce dépôt, puis vous pourrez créer votre espace en ligne. Une autre page indique qu'il est aussi possible de faire vérifier votre identité au centre des Finances publiques pour créer votre espace avant de déclarer.",
+        "en": "The tax website says that if you file in France for the first time, the return is on paper (form 2042). The tax number is assigned after this filing, then you can create your online space. Another page says you can also have your identity checked at the public finance centre to create your space before filing."
+      },
+      "link": {
+        "title": {
+          "fr": "Télécharger le formulaire n°2042",
+          "en": "Download form 2042"
+        },
+        "url": "https://www.impots.gouv.fr/formulaire/2042/declaration-des-revenus"
+      },
+      "guides": [
+        "tax_documents"
+      ],
+      "condition": {
+        "all": [
+          {
+            "not": {
+              "question": "already_declared",
+              "equals": "yes"
+            }
+          },
+          {
+            "question": "fiscal_number",
+            "equals": "none"
+          }
+        ]
+      },
+      "sources": [
+        "imp_arrival",
+        "imp_space",
+        "imp_first_online",
+        "sp_f369"
+      ]
+    },
+    {
+      "id": "submit_online",
+      "phase": "submit",
+      "title": {
+        "fr": "Déclarer en ligne",
+        "en": "File online"
+      },
+      "body": {
+        "fr": "Depuis votre espace, remplissez la déclaration : situation familiale, revenus depuis votre arrivée, et annexes si besoin. Vérifiez la case 3916 sur les comptes à l'étranger. La déclaration en ligne est obligatoire si votre logement a accès à internet et que vous pouvez la faire en ligne.",
+        "en": "From your space, fill in the return: family situation, income since you arrived, and annexes if needed. Check box 3916 about accounts abroad. Filing online is required if your home has internet access and you are able to file online."
+      },
+      "link": {
+        "title": {
+          "fr": "Déclarer en ligne",
+          "en": "File online"
+        },
+        "url": "https://cfspart.impots.gouv.fr"
+      },
+      "condition": {
+        "all": [
+          {
+            "not": {
+              "question": "already_declared",
+              "equals": "yes"
+            }
+          },
+          {
+            "question": "fiscal_number",
+            "in": [
+              "letter",
+              "number_only"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_f358",
+        "imp_2026",
+        "imp_first_online"
+      ]
+    },
+    {
+      "id": "submit_paper",
+      "phase": "submit",
+      "title": {
+        "fr": "Déposer ou envoyer la déclaration papier",
+        "en": "Hand in or send the paper return"
+      },
+      "body": {
+        "fr": "Remplissez et signez le formulaire n°2042 et ses annexes. Déposez-les à votre service des impôts des particuliers (SIP), celui de votre domicile en France, ou envoyez-les par la poste. Ses coordonnées sont dans la rubrique « Contact et RDV » du site des impôts.",
+        "en": "Fill in and sign form 2042 and its annexes. Hand them in at your local tax office (SIP), the one for your home in France, or send them by post. Its contact details are in the \"Contact et RDV\" section of the tax website."
+      },
+      "link": {
+        "title": {
+          "fr": "Trouver mon service des impôts",
+          "en": "Find my tax office"
+        },
+        "url": "https://www.impots.gouv.fr/contacts"
+      },
+      "condition": {
+        "all": [
+          {
+            "not": {
+              "question": "already_declared",
+              "equals": "yes"
+            }
+          },
+          {
+            "question": "fiscal_number",
+            "equals": "none"
+          }
+        ]
+      },
+      "sources": [
+        "imp_forms",
+        "imp_arrival"
+      ]
+    },
+    {
+      "id": "help_france_services",
+      "phase": "submit",
+      "title": {
+        "fr": "Se faire aider gratuitement",
+        "en": "Get free help"
+      },
+      "body": {
+        "fr": "Le service d'information des impôts répond au 0809 401 401 (du lundi au vendredi, 8h30-19h, service gratuit + prix d'un appel). Les espaces France Services et des permanences fiscales en mairie peuvent aussi vous aider.",
+        "en": "The tax information service answers on 0809 401 401 (Monday to Friday, 8:30am to 7pm, free service + call cost). France Services centres and tax drop-in sessions at town halls can also help you."
+      },
+      "condition": {
+        "not": {
+          "question": "already_declared",
+          "equals": "yes"
+        }
+      },
+      "sources": [
+        "sp_f369",
+        "sp_f358"
+      ]
+    },
+    {
+      "id": "withholding_salary",
+      "phase": "after",
+      "title": {
+        "fr": "Comprendre le prélèvement à la source",
+        "en": "Understand withholding tax"
+      },
+      "body": {
+        "fr": "L'impôt est payé en même temps que vous percevez vos revenus. Sans déclaration, l'administration ne peut pas calculer de taux personnalisé : votre employeur applique un taux par défaut, selon votre salaire (de 0 % à 43 %). Vous pouvez demander un taux personnalisé depuis votre espace ou à votre service des impôts. Après votre déclaration, le nouveau taux s'applique en septembre.",
+        "en": "Tax is paid as you receive your income. Without a return, the administration cannot calculate a personal rate: your employer applies a default rate based on your salary (0% to 43%). You can ask for a personal rate from your space or at your tax office. After your return, the new rate applies from September."
+      },
+      "condition": {
+        "all": [
+          {
+            "not": {
+              "question": "already_declared",
+              "equals": "yes"
+            }
+          },
+          {
+            "question": "income_france",
+            "in": [
+              "salary",
+              "both"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_f34009",
+        "sp_f31443",
+        "imp_2026",
+        "imp_first_time"
+      ]
+    },
+    {
+      "id": "withholding_installments",
+      "phase": "after",
+      "title": {
+        "fr": "Payer par acomptes",
+        "en": "Pay by instalments"
+      },
+      "body": {
+        "fr": "Pour une activité indépendante ou des loyers, l'impôt est payé par des acomptes prélevés sur votre compte bancaire. Vous pouvez demander des acomptes au service des impôts avec le formulaire « Demande de taux personnalisé et/ou d'acomptes de prélèvement à la source ».",
+        "en": "For self-employment or rental income, tax is paid through instalments taken from your bank account. You can request instalments from the tax office with the form \"Demande de taux personnalisé et/ou d'acomptes de prélèvement à la source\"."
+      },
+      "condition": {
+        "all": [
+          {
+            "not": {
+              "question": "already_declared",
+              "equals": "yes"
+            }
+          },
+          {
+            "question": "income_france",
+            "in": [
+              "independent",
+              "both"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_f34009",
+        "sp_f31443"
+      ]
+    },
+    {
+      "id": "report_change",
+      "phase": "after",
+      "title": {
+        "fr": "Signaler un changement de situation dans les 60 jours",
+        "en": "Report a change of situation within 60 days"
+      },
+      "body": {
+        "fr": "Un mariage, un Pacs, un divorce ou un décès se signale dans les 60 jours, dans la rubrique « Gérer mon prélèvement à la source » de votre espace, ou par courrier à votre service des impôts.",
+        "en": "A marriage, PACS, divorce or death must be reported within 60 days, in the \"Gérer mon prélèvement à la source\" section of your space, or by post to your tax office."
+      },
+      "condition": {
+        "all": [
+          {
+            "not": {
+              "question": "already_declared",
+              "equals": "yes"
+            }
+          },
+          {
+            "question": "family_status",
+            "equals": "event_this_year"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f388"
+      ]
+    },
+    {
+      "id": "receive_notice",
+      "phase": "after",
+      "title": {
+        "fr": "Recevoir l'avis d'impôt",
+        "en": "Receive the tax notice"
+      },
+      "body": {
+        "fr": "L'avis arrive pendant l'été qui suit la déclaration. Si vous n'êtes pas imposable, vous recevez quand même un avis. Si la déclaration n'a pas été faite en ligne, il est envoyé par courrier. Sinon, il est dans votre espace Finances publiques. Jusqu'à sa réception, c'est l'avis précédent qui compte.",
+        "en": "The notice arrives in the summer after the return. If you are not taxable, you still receive a notice. If the return was not filed online, it is sent by post. Otherwise, it is in your Finances publiques space. Until it arrives, the previous notice is the one that counts."
+      },
+      "guides": [
+        "tax_documents"
+      ],
+      "condition": {
+        "not": {
+          "question": "already_declared",
+          "equals": "yes"
+        }
+      },
+      "sources": [
+        "sp_f99",
+        "imp_2026"
+      ]
+    },
+    {
+      "id": "notice_uses",
+      "phase": "after",
+      "title": {
+        "fr": "Garder vos avis pour vos démarches",
+        "en": "Keep your notices for your procedures"
+      },
+      "body": {
+        "fr": "L'avis d'impôt prouve les revenus déclarés. Pour une carte de résident de longue durée-UE, service-public cite l'avis d'imposition parmi les justificatifs de ressources des 5 dernières années. Pour une naturalisation, il demande les avis d'imposition ou de non-imposition des 3 dernières années et un bordereau de situation fiscale (P. 237). Déclarer chaque année, même sans revenus, permet d'avoir ces avis.",
+        "en": "The tax notice proves the income you declared. For an EU long-term resident card, service-public lists the tax notice among proofs of income for the last 5 years. For naturalisation, it asks for tax or non-taxation notices for the last 3 years and a tax status statement (P. 237). Filing every year, even with no income, gives you these notices."
+      },
+      "guides": [
+        "tax_documents"
+      ],
+      "condition": {
+        "not": {
+          "question": "already_declared",
+          "equals": "yes"
+        }
+      },
+      "sources": [
+        "sp_f99",
+        "sp_f17359",
+        "sp_f34746",
+        "sp_f369"
+      ]
+    }
+  ],
+  "outcomes": [
+    {
+      "id": "already_declared",
+      "kind": "redirect",
+      "condition": {
+        "question": "already_declared",
+        "equals": "yes"
+      },
+      "title": {
+        "fr": "Ce n'est plus une première déclaration",
+        "en": "This is no longer a first return"
+      },
+      "body": {
+        "fr": "D'après le site des impôts, après une première déclaration papier, vous pouvez déclarer en ligne avec votre numéro fiscal, le numéro d'accès en ligne (sur la déclaration reçue en avril) et votre revenu fiscal de référence (sur votre dernier avis).",
+        "en": "According to the tax website, after a first paper return, you can file online with your tax number, the online access number (on the return received in April) and your reference tax income (on your last notice)."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Ouvrir votre espace Finances publiques",
+            "en": "Open your Finances publiques space"
+          },
+          "body": {
+            "fr": "Vous y trouverez la déclaration en ligne et vos avis d'impôt.",
+            "en": "You will find the online return and your tax notices there."
+          },
+          "link": {
+            "title": {
+              "fr": "Ouvrir mon espace",
+              "en": "Open my space"
+            },
+            "url": "https://cfspart.impots.gouv.fr"
+          }
+        },
+        {
+          "title": {
+            "fr": "Retrouver un avis d'impôt",
+            "en": "Find a tax notice"
+          },
+          "body": {
+            "fr": "Les avis des années où vous avez déclaré en ligne sont classés par année dans votre espace Finances publiques.",
+            "en": "Notices for the years you filed online are listed by year in your Finances publiques space."
+          }
+        }
+      ],
+      "contacts": [
+        "france_services"
+      ],
+      "letters": [],
+      "sources": [
+        "imp_first_online",
+        "imp_space",
+        "sp_f99"
+      ]
+    },
+    {
+      "id": "late_filing",
+      "kind": "warning",
+      "condition": {
+        "all": [
+          {
+            "not": {
+              "question": "already_declared",
+              "equals": "yes"
+            }
+          },
+          {
+            "question": "arrival_year",
+            "in": [
+              "y2025",
+              "before"
+            ]
+          }
+        ]
+      },
+      "title": {
+        "fr": "Une déclaration aurait déjà dû être faite",
+        "en": "A return should already have been filed"
+      },
+      "body": {
+        "fr": "D'après le site des impôts, les revenus se déclarent l'année qui suit l'arrivée. Pour une arrivée en 2025, la déclaration était à faire au printemps 2026. Service-public indique qu'on peut encore déclarer après la date limite, avec des pénalités possibles. Contactez votre service des impôts des particuliers pour savoir quoi déclarer.",
+        "en": "According to the tax website, income is declared the year after arrival. For an arrival in 2025, the return was due in spring 2026. Service-public says you can still file after the deadline, with possible penalties. Contact your local tax office to know what to declare."
+      },
+      "sources": [
+        "imp_arrival",
+        "sp_f359",
+        "imp_2026"
+      ]
+    },
+    {
+      "id": "no_income",
+      "kind": "warning",
+      "condition": {
+        "all": [
+          {
+            "not": {
+              "question": "already_declared",
+              "equals": "yes"
+            }
+          },
+          {
+            "question": "income_france",
+            "equals": "none"
+          }
+        ]
+      },
+      "title": {
+        "fr": "Déclarez même sans revenus",
+        "en": "File even with no income"
+      },
+      "body": {
+        "fr": "D'après service-public, il faut déclarer même sans revenus, pour recevoir un avis de non-imposition. Ce document sert dans d'autres démarches.",
+        "en": "According to service-public, you must file even with no income, to receive a non-taxation notice. This document is used in other procedures."
+      },
+      "sources": [
+        "sp_f369",
+        "sp_f358",
+        "imp_obligations"
+      ]
+    },
+    {
+      "id": "partner_abroad",
+      "kind": "warning",
+      "condition": {
+        "all": [
+          {
+            "not": {
+              "question": "already_declared",
+              "equals": "yes"
+            }
+          },
+          {
+            "question": "family_status",
+            "equals": "couple_abroad"
+          }
+        ]
+      },
+      "title": {
+        "fr": "Conjoint à l'étranger : règles particulières",
+        "en": "Partner abroad: specific rules"
+      },
+      "body": {
+        "fr": "D'après service-public, si vous vivez en France et que votre conjoint ou partenaire de Pacs a son domicile fiscal à l'étranger en application d'une convention, vous déclarez vos revenus, ceux de vos enfants et personnes à charge vivant en France, et les revenus de source française de votre conjoint si la convention les rend imposables en France. Le site des impôts précise que ces couples déclarent ensemble, en ligne. Demandez confirmation à votre service des impôts.",
+        "en": "According to service-public, if you live in France and your spouse or PACS partner is tax-resident abroad under a treaty, you declare your income, that of your children and dependants living in France, and your partner's French-source income if the treaty makes it taxable in France. The tax website says these couples file together, online. Ask your tax office to confirm."
+      },
+      "contacts": [
+        "france_services"
+      ],
+      "sources": [
+        "sp_f62",
+        "imp_arrival"
+      ]
+    },
+    {
+      "id": "family_event",
+      "kind": "warning",
+      "condition": {
+        "all": [
+          {
+            "not": {
+              "question": "already_declared",
+              "equals": "yes"
+            }
+          },
+          {
+            "question": "family_status",
+            "equals": "event_this_year"
+          }
+        ]
+      },
+      "title": {
+        "fr": "Mariage, Pacs ou séparation dans l'année",
+        "en": "Marriage, PACS or separation during the year"
+      },
+      "body": {
+        "fr": "D'après service-public, l'année du mariage ou du Pacs, on fait en principe une seule déclaration commune, mais on peut choisir 2 déclarations séparées. L'année d'une séparation ou d'un divorce, il faut 2 déclarations séparées.",
+        "en": "According to service-public, in the year of marriage or PACS, you usually file one joint return, but you can choose 2 separate returns. In the year of a separation or divorce, 2 separate returns are required."
+      },
+      "sources": [
+        "sp_f388"
+      ]
+    },
+    {
+      "id": "young_attachment",
+      "kind": "warning",
+      "condition": {
+        "all": [
+          {
+            "not": {
+              "question": "already_declared",
+              "equals": "yes"
+            }
+          },
+          {
+            "question": "young_parents_france",
+            "equals": "yes"
+          }
+        ]
+      },
+      "title": {
+        "fr": "Vous pouvez peut-être être rattaché à vos parents",
+        "en": "You may be able to be attached to your parents"
+      },
+      "body": {
+        "fr": "D'après service-public, selon votre année de naissance et vos études, vous pouvez soit déclarer vous-même, soit demander à être rattaché au foyer fiscal de vos parents. À partir de 25 ans, la déclaration personnelle est obligatoire.",
+        "en": "According to service-public, depending on your year of birth and your studies, you can either file yourself or ask to be attached to your parents' tax household. From 25, you must file your own return."
+      },
+      "sources": [
+        "sp_f369"
+      ]
+    },
+    {
+      "id": "notice_for_permit",
+      "kind": "warning",
+      "condition": {
+        "all": [
+          {
+            "not": {
+              "question": "already_declared",
+              "equals": "yes"
+            }
+          },
+          {
+            "question": "notice_purpose",
+            "in": [
+              "residence_permit",
+              "naturalisation"
+            ]
+          }
+        ]
+      },
+      "title": {
+        "fr": "Vos avis d'impôt seront demandés",
+        "en": "Your tax notices will be requested"
+      },
+      "body": {
+        "fr": "D'après service-public, l'avis d'impôt justifie des revenus déclarés. Il est cité pour la carte de résident de longue durée-UE (ressources des 5 dernières années) et demandé pour la naturalisation (avis des 3 dernières années, avec un bordereau de situation fiscale). Un avis n'existe que si une déclaration a été faite.",
+        "en": "According to service-public, the tax notice proves the income you declared. It is listed for the EU long-term resident card (income for the last 5 years) and required for naturalisation (notices for the last 3 years, with a tax status statement). A notice only exists if a return was filed."
+      },
+      "sources": [
+        "sp_f99",
+        "sp_f17359",
+        "sp_f34746"
+      ]
+    }
+  ],
+  "reviewNotes": [
+    "Dates : la campagne 2026 (revenus 2025) est terminée. Dates 2026 reprises de la page impots.gouv.fr « Les modalités de la déclaration de revenus en 2026 » (papier : 19 mai 2026 ; en ligne : 21 mai pour les départements 01 à 19 et non-résidents, 28 mai pour 20 à 54, 4 juin pour 55 à 974 et 976). F359 et F358 (« Vérifié le 05 juin 2026 ») disent seulement que la campagne 2027 débutera en avril 2027 : dates 2027 non publiées au 29/10/2026, à ajouter dès publication.",
+    "Papier obligatoire la première fois : la page impots.gouv.fr « Je viens ou je reviens en France » (modifiée le 17/12/2025) et « Comment créer mon espace » disent que, sans numéro fiscal, la première déclaration se fait sur papier et que le numéro est attribué ensuite. La FAQ « Puis-je déclarer en ligne pour ma première déclaration » (modifiée le 30/03/2026) et F369 prévoient aussi une vérification d'identité au centre des Finances publiques pour créer l'espace. Les deux versions sont présentées dans l'étape no_number ; à clarifier avec la DGFiP.",
+    "Copie de pièce d'identité : F369 la cite pour la vérification d'identité. Une version ancienne du formulaire 2042 (2024) demanderait de joindre un justificatif d'identité lors d'une première déclaration ; le PDF 2042 millésime 2026 n'a pas pu être lu (outil PDF indisponible). Non affirmé.",
+    "Revenus avant l'arrivée : la règle « revenus de la date d'arrivée au 31 décembre » vient de la page impots.gouv.fr « Je viens ou je reviens en France » et de F31443 (retour d'expatriation). F31443 vise le retour ; elle est citée pour la 2042-NR et le taux par défaut. Les conventions fiscales peuvent changer les règles (F62) : non détaillé.",
+    "Taux par défaut du prélèvement à la source (0 % à 43 %) : F34009 et F31443. La grille exacte (BOFiP) n'est pas reprise. La page impots.gouv.fr « Quelles sont les différences entre les taux de prélèvement à la source proposés ? » parle du taux individualisé par défaut depuis le 1er septembre 2025 pour les couples : non repris.",
+    "Case 3916 : la page « modalités 2026 » ne donne que le cas où l'on peut décocher la case (pas de compte à l'étranger, encaissements PayPal jusqu'à 10 000 €). Le détail de la déclaration des comptes (formulaire 3916) n'a pas été vérifié.",
+    "Rattachement au foyer des parents (F369) : conditions détaillées par année de naissance non reprises (simplifiées en « selon votre année de naissance et vos études »).",
+    "Pénalités de retard : F359 renvoie à une fiche « Quelles sanctions en cas de déclaration en retard ? » non consultée ; aucun taux n'est donné.",
+    "Avis d'impôt et titres de séjour : seules F17359 (carte de résident longue durée-UE) et F34746 (naturalisation) ont été vérifiées. Les autres titres de séjour (carte pluriannuelle, etc.) n'ont pas été vérifiés pour ce point.",
+    "Les pages impots.gouv.fr n'ont pas de mention « Vérifié le » : la date « modifié le » affichée est reprise dans le titre de la source, ou « aucune date affichée ».",
+    "Aucun courrier de help.json n'est lié : les modèles existants visent la préfecture.",
+    "La démarche n'est pas encore dans catalog.json (non modifié, comme demandé)."
+  ]
+}

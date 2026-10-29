@@ -1,0 +1,542 @@
+{
+  "reviewNotes": [
+    "APL / ALS : les fiches F12006 et F1280 parlent d'un \"titre de séjour en cours de validité\" pour les étrangers. Elles ne disent pas si un récépissé ou une attestation suffit, ni ce qui est demandé aux citoyens UE/EEE/Suisse (le texte des fiches pour ces cas n'a pas été lu en entier). La condition d'affichage inclut \"receipt\" et \"eu\" par prudence : à vérifier.",
+    "APL : la fiche F12006 contient une contradiction interne sur la sous-location (texte : moins de 30 ans ; infographie : moins de 30 ans, plus de 60 ans ou handicap). Ce point n'a pas été repris.",
+    "Logement social : la fiche F869 ne parle ni de renouvellement annuel ni de numéro unique de demande ; ces points n'ont pas été écrits. Le simulateur cité par la fiche est sur demande-logement-social.gouv.fr, domaine non autorisé : on renvoie vers la page service-public R34754.",
+    "DALO : la liste des titres de séjour admis est dans l'arrêté du 20 avril 2022 (Legifrance), non lu. Il n'est pas vérifié qu'un récépissé suffise.",
+    "Visale : la fiche service-public F33453 ne mentionne aucune condition de nationalité ou de titre de séjour. visale.fr renvoie une erreur 403 : la FAQ \"conditions d'éligibilité relatives à l'état civil\" (titre de séjour, VLS-TS mention étudiant, etc.) n'a pas pu être lue. Les plafonds de loyer hors Île-de-France n'ont pas été repris (ils dépendent de la commune).",
+    "Hébergement d'urgence : la fiche F2003 indique \"Tous publics\" mais ne dit rien explicitement de la situation de séjour. La gratuité de l'hébergement n'est pas précisée par la fiche. Le rôle du SIAO n'est pas décrit.",
+    "France Travail : la fiche F24465 (justificatifs) date de janvier 2025 ; la liste des titres peut avoir changé avec les réformes 2025-2026. Le cas des demandeurs d'asile (accès au marché du travail, fiche F2741) n'a pas été traité ici.",
+    "Étudiants : la fiche F2713 est vérifiée le 07 octobre 2025. La règle des 964 heures et le cas des étudiants algériens sont à revérifier.",
+    "Contrat d'engagement jeune : la fiche F32700 ne mentionne aucune condition de nationalité ou de titre de séjour. Ce point n'a pas pu être vérifié (ni sur 1jeune1solution.gouv.fr). La condition d'affichage exclut seulement \"undocumented\" : à valider. Le lien de contact France Travail cité par la fiche (pole-emploi.fr) et l'annuaire des missions locales (unml.info) ne sont pas sur des domaines autorisés et n'ont pas été repris.",
+    "Discrimination au travail : la fiche F1642 liste 25 critères ; \"nationalité\" n'apparaît pas comme critère distinct (on trouve \"origine\", \"nation\", \"ethnie\"). On n'a donc pas écrit \"discrimination liée à la nationalité\". La plateforme antidiscriminations.fr est citée par le Défenseur des droits mais n'est pas un domaine autorisé : citée en texte, sans lien.",
+    "Inspection du travail : les coordonnées sont sur dreets.gouv.fr (domaine non listé) : non mis en lien.",
+    "Scolarisation : le principe \"inscription non subordonnée à un titre de séjour\" figure dans une circulaire de 2002 (education.gouv.fr, BO spécial n°10 du 25 avril 2002) et sur la page \"Les grands principes du système éducatif\" (\"français et étrangers\") ; ces deux pages renvoient une erreur 403 et n'ont pas pu être lues. On a seulement écrit que la liste de pièces de la fiche F1866 ne contient pas de titre de séjour, et que l'obligation concerne les enfants de 3 à 16 ans (F1898).",
+    "Bourse de collège : la période de demande 2026-2027 indiquée par la fiche F984 (1er septembre au 15 octobre 2026) est déjà passée au 29/10/2026, sauf CNED (31 octobre 2026). La bourse de lycée (F616) et l'allocation de rentrée scolaire (F1878, prestation Caf) n'ont pas été traitées ici.",
+    "Aide juridictionnelle : la fiche F18074 ne mentionne pas l'OQTF ni les refus de séjour ; c'est la fiche F18362 (OQTF) qui indique qu'on peut en bénéficier. Le simulateur est sur aidejuridictionnelle.justice.fr (sous-domaine de justice.fr).",
+    "Recours contre un refus de titre : la fiche OQTF F18362 est vérifiée le 13 novembre 2024 et la fiche F31969 le 03 juillet 2024 ; les délais ont pu changer avec la loi immigration et ses décrets. Les délais propres à chaque titre (refus implicite après 2, 3 ou 4 mois de silence selon le titre) ne sont pas repris : ils sont sur la fiche de chaque titre. La fiche F2478 ne dit pas si l'avocat est obligatoire devant le tribunal administratif ; la fiche OQTF dit qu'il ne l'est pas pour un recours contre une OQTF.",
+    "Défenseur des droits : sa page \"Lutter contre les discriminations\" affiche deux numéros généraux différents (09 69 39 00 00 et 09 69 36 00 00). On a gardé le 3928 (discriminations), cité par service-public et par le Défenseur des droits."
+  ],
+  "sources": [
+    { "id": "sp_f12006", "publisher": "service-public.gouv.fr", "title": "Aide personnalisée au logement (APL) (Vérifié le 01 juillet 2026)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F12006", "consulted": "2026-10-29" },
+    { "id": "sp_f1280", "publisher": "service-public.gouv.fr", "title": "Allocation de logement sociale (ALS) (Vérifié le 01 juillet 2026)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1280", "consulted": "2026-10-29" },
+    { "id": "sp_f869", "publisher": "service-public.gouv.fr", "title": "Quelles sont les conditions pour obtenir un logement social ? (Vérifié le 11 septembre 2026)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F869", "consulted": "2026-10-29" },
+    { "id": "sp_f18005", "publisher": "service-public.gouv.fr", "title": "Droit au logement opposable (Dalo) : faire valoir son droit à un logement (Vérifié le 08 juillet 2026)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F18005", "consulted": "2026-10-29" },
+    { "id": "sp_f33453", "publisher": "service-public.gouv.fr", "title": "Garantie Visale : caution pour le locataire (impayés et dégradations) (Vérifié le 23 janvier 2026)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33453", "consulted": "2026-10-29" },
+    { "id": "sp_f2003", "publisher": "service-public.gouv.fr", "title": "Quelles solutions d'hébergement existent pour les personnes en situation de précarité ? (Vérifié le 06 août 2026)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2003", "consulted": "2026-10-29" },
+    { "id": "sp_f1636", "publisher": "service-public.gouv.fr", "title": "Chômage : inscription à France Travail (anciennement Pôle emploi) (Vérifié le 10 octobre 2025)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1636", "consulted": "2026-10-29" },
+    { "id": "sp_f24465", "publisher": "service-public.gouv.fr", "title": "Quel justificatif fournir pour s'inscrire à France Travail (anciennement Pôle emploi) ? (Vérifié le 21 janvier 2025)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F24465", "consulted": "2026-10-29" },
+    { "id": "sp_f2713", "publisher": "service-public.gouv.fr", "title": "Un étudiant non européen peut-il travailler en France ? (Vérifié le 07 octobre 2025)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2713", "consulted": "2026-10-29" },
+    { "id": "sp_f32700", "publisher": "service-public.gouv.fr", "title": "Contrat d'engagement jeune (accompagnement pour trouver un travail) (Vérifié le 01 avril 2026)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F32700", "consulted": "2026-10-29" },
+    { "id": "sp_f1642", "publisher": "service-public.gouv.fr", "title": "Discrimination au travail (Vérifié le 20 octobre 2025)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1642", "consulted": "2026-10-29" },
+    { "id": "sp_f107", "publisher": "service-public.gouv.fr", "title": "Quand faire appel à l'inspection du travail ? (Vérifié le 19 juin 2026)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F107", "consulted": "2026-10-29" },
+    { "id": "sp_f2417", "publisher": "service-public.gouv.fr", "title": "Refus d'ouverture de compte bancaire : droit au compte (Vérifié le 19 octobre 2026)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2417", "consulted": "2026-10-29" },
+    { "id": "sp_f1898", "publisher": "service-public.gouv.fr", "title": "Instruction obligatoire (Vérifié le 06 novembre 2025)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1898", "consulted": "2026-10-29" },
+    { "id": "sp_f1866", "publisher": "service-public.gouv.fr", "title": "École primaire (maternelle ou élémentaire) pour un élève venant de l'étranger (Vérifié le 19 juin 2026)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1866", "consulted": "2026-10-29" },
+    { "id": "sp_f21304", "publisher": "service-public.gouv.fr", "title": "Scolarisation au collège ou lycée d'un élève venant de l'étranger (Vérifié le 05 août 2026)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F21304", "consulted": "2026-10-29" },
+    { "id": "sp_f24570", "publisher": "service-public.gouv.fr", "title": "Cantine scolaire à l'école primaire (maternelle et élémentaire) (Vérifié le 20 mai 2025)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F24570", "consulted": "2026-10-29" },
+    { "id": "sp_f19294", "publisher": "service-public.gouv.fr", "title": "Peut-on obtenir une aide financière pour la cantine scolaire ? (Vérifié le 20 octobre 2025)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F19294", "consulted": "2026-10-29" },
+    { "id": "sp_f984", "publisher": "service-public.gouv.fr", "title": "Bourse de collège (Vérifié le 30 avril 2026)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F984", "consulted": "2026-10-29" },
+    { "id": "sp_f18074", "publisher": "service-public.gouv.fr", "title": "Aide juridictionnelle lors d'une procédure en France (Vérifié le 12 juin 2026)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F18074", "consulted": "2026-10-29" },
+    { "id": "sp_f20706", "publisher": "service-public.gouv.fr", "title": "Comment consulter gratuitement un avocat ? (Vérifié le 22 juillet 2026)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F20706", "consulted": "2026-10-29" },
+    { "id": "lannuaire_point_justice", "publisher": "lannuaire.service-public.gouv.fr", "title": "Point-justice - Annuaire | Service Public", "url": "https://lannuaire.service-public.gouv.fr/navigation/point_justice", "consulted": "2026-10-29" },
+    { "id": "sp_f13158", "publisher": "service-public.gouv.fr", "title": "Litige avec l'administration : saisir le Défenseur des droits (Vérifié le 29 avril 2026)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F13158", "consulted": "2026-10-29" },
+    { "id": "ddd_services_publics", "publisher": "defenseurdesdroits.fr", "title": "Défendre les droits des usagers des services publics | Défenseur des droits (date de mise à jour non affichée)", "url": "https://www.defenseurdesdroits.fr/defendre-les-droits-des-usagers-des-services-publics-194", "consulted": "2026-10-29" },
+    { "id": "ddd_discriminations", "publisher": "defenseurdesdroits.fr", "title": "Lutter contre les discriminations et promouvoir l'égalité | Défenseur des droits (date de mise à jour non affichée)", "url": "https://www.defenseurdesdroits.fr/lutter-contre-les-discriminations-et-promouvoir-legalite-185", "consulted": "2026-10-29" },
+    { "id": "sp_f31969", "publisher": "service-public.gouv.fr", "title": "Que faire en cas de difficulté lors d'une demande de titre de séjour ? (Vérifié le 03 juillet 2024)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F31969", "consulted": "2026-10-29" },
+    { "id": "sp_f2474", "publisher": "service-public.gouv.fr", "title": "Recours gracieux, recours hiérarchique et recours administratif préalable obligatoire (Rapo) (Vérifié le 11 mai 2026)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2474", "consulted": "2026-10-29" },
+    { "id": "sp_f2478", "publisher": "service-public.gouv.fr", "title": "Dans quelles conditions peut-on saisir le juge administratif ? (Vérifié le 19 juin 2026)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2478", "consulted": "2026-10-29" },
+    { "id": "sp_f18362", "publisher": "service-public.gouv.fr", "title": "Obligation de quitter le territoire français (OQTF) (Vérifié le 13 novembre 2024)", "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F18362", "consulted": "2026-10-29" }
+  ],
+  "rights": [
+    {
+      "id": "apl_als",
+      "category": "housing",
+      "title": { "fr": "Aide au logement (APL ou ALS)", "en": "Housing benefit (APL or ALS)" },
+      "summary": { "fr": "Une aide de la Caf ou de la MSA pour payer une partie de votre loyer. L'ALS est versée quand on ne peut pas recevoir l'APL ni l'ALF.", "en": "Help from the Caf or the MSA to pay part of your rent. ALS is paid when you cannot receive APL or ALF." },
+      "who": { "fr": "Les locataires, colocataires et certains sous-locataires, ainsi que les résidents de certains établissements (résidence pour étudiants, logement-foyer, Ehpad). Si vous louez votre résidence principale en France, vous pourriez y avoir droit. Seul le simulateur de la Caf ou de la MSA peut vous donner une réponse.", "en": "Tenants, flatmates and some subtenants, as well as residents of some establishments (student residence, hostel, care home). If you rent your main home in France, you might be entitled to it. Only the Caf or MSA simulator can give you an answer." },
+      "conditions": [
+        { "fr": "Si vous êtes étranger, service-public indique que vous devez avoir un titre de séjour en cours de validité.", "en": "If you are a foreign national, service-public says you must have a valid residence permit." },
+        { "fr": "Depuis le 1er juillet 2026, un étudiant d'un pays hors UE, EEE ou Suisse peut recevoir l'APL ou l'ALS seulement dans l'un de ces 3 cas : il reçoit une bourse sur critères sociaux, il a une activité professionnelle, ou il est en contrat d'apprentissage ou de professionnalisation.", "en": "Since 1 July 2026, a student from a country outside the EU, EEA or Switzerland can receive APL or ALS only in one of these 3 cases: they receive a means-tested grant, they have a job, or they are on an apprenticeship or professionalisation contract." },
+        { "fr": "Le logement doit être votre résidence principale, situé en France, et respecter des critères de décence et de peuplement. Pour l'APL, le logement doit être conventionné (le propriétaire doit vous l'indiquer).", "en": "The home must be your main residence, located in France, and meet decency and occupancy standards. For APL, the home must be \"conventionné\" (the landlord must tell you)." },
+        { "fr": "Vos ressources sont prises en compte : l'ALS est versée sous des plafonds qui dépendent de la taille du foyer et du lieu.", "en": "Your income is taken into account: ALS is paid under ceilings that depend on household size and location." }
+      ],
+      "howTo": [
+        { "fr": "Faites une simulation sur le site de la Caf (ou de la MSA si vous dépendez du régime agricole).", "en": "Run a simulation on the Caf website (or the MSA website if you are covered by the farming scheme)." },
+        { "fr": "Si vous n'êtes pas encore allocataire, créez d'abord un compte Caf (ou MSA).", "en": "If you are not yet a claimant, first create a Caf (or MSA) account." },
+        { "fr": "Faites la demande en ligne. Pour l'ALS, la fiche cite : copie de votre pièce d'identité ou de votre titre de séjour, un RIB et une attestation de loyer signée par le propriétaire.", "en": "Apply online. For ALS, the page lists: a copy of your ID or residence permit, bank details (RIB) and a rent certificate signed by the landlord." }
+      ],
+      "links": [
+        { "title": { "fr": "Faire une simulation (Caf)", "en": "Run a simulation (Caf)" }, "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R2972" },
+        { "title": { "fr": "Faire une simulation (MSA)", "en": "Run a simulation (MSA)" }, "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R41449" },
+        { "title": { "fr": "Demander l'aide au logement en ligne (Caf)", "en": "Apply for housing benefit online (Caf)" }, "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1292" }
+      ],
+      "contacts": ["france_services"],
+      "guides": ["proof_of_address", "tax_documents"],
+      "condition": {
+        "all": [
+          { "question": "residence_status", "in": ["french", "eu", "permit", "receipt", "refugee"] },
+          { "question": "housing", "in": ["tenant", "looking"] }
+        ]
+      },
+      "sources": ["sp_f12006", "sp_f1280"]
+    },
+    {
+      "id": "social_housing",
+      "category": "housing",
+      "title": { "fr": "Demander un logement social", "en": "Apply for social housing" },
+      "summary": { "fr": "Un logement à loyer modéré, attribué sous conditions de ressources.", "en": "Housing with a moderate rent, allocated based on income." },
+      "who": { "fr": "Les personnes dont les revenus ne dépassent pas un plafond, et, pour les étrangers, qui ont un des documents de séjour cités par service-public. Vous pourriez y avoir droit : le simulateur et le service de demande vous diront si votre situation correspond.", "en": "People whose income is below a ceiling and, for foreign nationals, who hold one of the residence documents listed by service-public. You might be entitled to it: the simulator and the application service will tell you if your situation fits." },
+      "conditions": [
+        { "fr": "Si vous êtes étranger, vous devez au minimum fournir la copie d'un de ces documents : titre de séjour (carte de résident ou carte de séjour) ; récépissé de demande de renouvellement de titre ; récépissé de demande d'asile d'un mois renouvelable ; récépissé portant la mention \"a obtenu le statut de réfugié\" ; récépissé portant la mention \"a obtenu le bénéfice de la protection subsidiaire\" ou \"reconnu apatride\".", "en": "If you are a foreign national, you must at least provide a copy of one of these documents: residence permit (resident card or residence card); receipt for a renewal application; one-month renewable asylum application receipt; receipt marked \"a obtenu le statut de réfugié\"; receipt marked \"a obtenu le bénéfice de la protection subsidiaire\" or \"reconnu apatride\"." },
+        { "fr": "Le total des revenus annuels des personnes à loger ne doit pas dépasser un plafond. Pour une demande en 2026, ce sont les revenus 2024 (revenu fiscal de référence). Exemple pour 1 personne : 34 996 € à Paris et en Île-de-France, 30 424 € en province, 27 382 € en outre-mer.", "en": "The total annual income of the people to be housed must not exceed a ceiling. For a 2026 application, 2024 income is used (reference tax income). Example for 1 person: €34,996 in Paris and Île-de-France, €30,424 elsewhere in mainland France, €27,382 overseas." }
+      ],
+      "howTo": [
+        { "fr": "Faites la demande en ligne (le même service permet de renouveler la demande).", "en": "Apply online (the same service lets you renew your application)." },
+        { "fr": "Ou remplissez le formulaire n°14069 et déposez-le dans un guichet enregistreur.", "en": "Or fill in form no. 14069 and hand it in at a registration office (guichet enregistreur)." },
+        { "fr": "En Île-de-France, un seul dossier couvre toute la région. En province, il faut un dossier par département.", "en": "In Île-de-France, one file covers the whole region. Elsewhere, you need one file per département." },
+        { "fr": "Aide par téléphone : 0 806 000 113, du lundi au vendredi de 9h à 19h (appel local).", "en": "Phone help: 0 806 000 113, Monday to Friday, 9am to 7pm (local call rate)." }
+      ],
+      "links": [
+        { "title": { "fr": "Faire une demande de logement social en ligne", "en": "Apply for social housing online" }, "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R34754" },
+        { "title": { "fr": "Trouver un guichet enregistreur", "en": "Find a registration office" }, "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R54377" }
+      ],
+      "contacts": ["france_services"],
+      "guides": ["tax_documents", "proof_of_address"],
+      "condition": {
+        "all": [
+          { "question": "residence_status", "in": ["french", "eu", "permit", "receipt", "refugee", "asylum_seeker"] },
+          { "question": "housing", "in": ["tenant", "looking", "hosted", "no_housing"] }
+        ]
+      },
+      "sources": ["sp_f869"]
+    },
+    {
+      "id": "visale",
+      "category": "housing",
+      "title": { "fr": "Garantie Visale (caution gratuite)", "en": "Visale guarantee (free guarantor)" },
+      "summary": { "fr": "Une caution locative gratuite d'Action Logement qui couvre les loyers impayés et les dégradations, quand vous n'avez pas de garant.", "en": "A free rental guarantee from Action Logement that covers unpaid rent and damage, when you have no guarantor." },
+      "who": { "fr": "Les locataires de 17 ans et 10 mois à moins de 30 ans selon leur situation (étudiant, apprenti, salarié, demandeur d'emploi...), et, à partir de 31 ans, certains salariés sous conditions. Vous pourriez y avoir droit : vérifiez avec le test d'éligibilité.", "en": "Tenants aged 17 years and 10 months to under 30 depending on their situation (student, apprentice, employee, job seeker...), and, from age 31, some employees under conditions. You might be entitled to it: check with the eligibility test." },
+      "conditions": [
+        { "fr": "La demande doit être faite avant de signer le bail.", "en": "You must apply before signing the lease." },
+        { "fr": "Le loyer (charges comprises) ne doit pas dépasser un plafond. En Île-de-France, en général 1 940 € ; pour les étudiants et apprentis sans autre condition de ressources, 1 000 €. Ailleurs, le plafond dépend de la commune.", "en": "Rent (including charges) must not exceed a ceiling. In Île-de-France, generally €1,940; for students and apprentices with no other income condition, €1,000. Elsewhere, the ceiling depends on the town." },
+        { "fr": "Le propriétaire ne doit pas être un membre de votre famille (grand-parent, parent ou enfant).", "en": "The landlord must not be a family member (grandparent, parent or child)." },
+        { "fr": "La fiche service-public ne précise pas de condition de titre de séjour. Vérifiez sur visale.fr les pièces demandées aux étrangers.", "en": "The service-public page does not state a residence permit condition. Check on visale.fr which documents are asked of foreign nationals." }
+      ],
+      "howTo": [
+        { "fr": "Faites le test d'éligibilité.", "en": "Take the eligibility test." },
+        { "fr": "Créez un compte locataire sur visale.fr et envoyez vos justificatifs.", "en": "Create a tenant account on visale.fr and upload your documents." },
+        { "fr": "Action Logement vous délivre un \"visa\" en quelques jours ouvrés. Donnez-le au propriétaire, qui le valide dans son propre compte avant la signature du bail.", "en": "Action Logement issues a \"visa\" within a few working days. Give it to the landlord, who validates it in their own account before the lease is signed." },
+        { "fr": "Action Logement : 0970 800 800, du lundi au vendredi de 9h à 18h.", "en": "Action Logement: 0970 800 800, Monday to Friday, 9am to 6pm." }
+      ],
+      "links": [
+        { "title": { "fr": "Tester mon éligibilité", "en": "Check my eligibility" }, "url": "https://site.actionlogement.fr/eligibilite-visale/" },
+        { "title": { "fr": "Créer mon compte locataire Visale", "en": "Create my Visale tenant account" }, "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R42843" }
+      ],
+      "contacts": ["france_services"],
+      "guides": ["proof_of_address"],
+      "condition": {
+        "all": [
+          { "not": { "question": "residence_status", "equals": "undocumented" } },
+          { "question": "age_group", "in": ["18_25", "26_64"] },
+          { "question": "housing", "in": ["looking", "hosted", "no_housing"] }
+        ]
+      },
+      "sources": ["sp_f33453"]
+    },
+    {
+      "id": "emergency_shelter",
+      "category": "housing",
+      "title": { "fr": "Hébergement d'urgence (115)", "en": "Emergency shelter (115)" },
+      "summary": { "fr": "Un hébergement pour une ou plusieurs nuits pour les personnes sans abri. Le 115 vous oriente vers une solution.", "en": "Accommodation for one or more nights for people without a home. The 115 helpline directs you to a solution." },
+      "who": { "fr": "Service-public indique que les centres d'hébergement d'urgence sont ouverts à \"tous publics\". Si vous êtes sans logement, vous pourriez être orienté vers une place.", "en": "Service-public says emergency shelters are open to \"all audiences\". If you have no home, you might be directed to a place." },
+      "conditions": [
+        { "fr": "Durée variable, de 1 à plusieurs nuits.", "en": "Variable length, from 1 to several nights." },
+        { "fr": "Si aucune solution adaptée ne vous est proposée après votre demande, un recours (Daho ou Dalo) est possible sous conditions.", "en": "If no suitable solution is offered after your request, an appeal (Daho or Dalo) is possible under conditions." }
+      ],
+      "howTo": [
+        { "fr": "Appelez le 115, numéro d'urgence et d'accueil des personnes sans abri. Il est gratuit depuis un fixe ou un mobile, en métropole et en outre-mer, et fonctionne 24h/24.", "en": "Call 115, the emergency helpline for homeless people. It is free from a landline or mobile, in mainland France and overseas, and works 24/7." },
+        { "fr": "Certaines associations proposent aussi un hébergement d'urgence : renseignez-vous directement auprès d'elles. La mairie peut aussi vous informer sur les structures proches.", "en": "Some charities also offer emergency shelter: ask them directly. The town hall can also tell you about local services." }
+      ],
+      "links": [
+        { "title": { "fr": "Les solutions d'hébergement sur service-public", "en": "Housing solutions on service-public" }, "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2003" }
+      ],
+      "contacts": ["france_services"],
+      "guides": [],
+      "condition": { "question": "housing", "in": ["no_housing", "hosted"] },
+      "sources": ["sp_f2003"]
+    },
+    {
+      "id": "dalo",
+      "category": "housing",
+      "title": { "fr": "Droit au logement opposable (Dalo)", "en": "Enforceable right to housing (Dalo)" },
+      "summary": { "fr": "Un recours auprès d'une commission de médiation quand vos démarches pour obtenir un logement n'ont pas abouti.", "en": "An appeal to a mediation committee when your efforts to get housing have not worked." },
+      "who": { "fr": "Les personnes mal logées ou sans logement qui ont déjà fait au moins une démarche, par exemple une demande de logement social. Vous pourriez être concerné : une assistante sociale ou une association agréée peut vous aider à vérifier.", "en": "People who are badly housed or homeless and have already taken at least one step, for example a social housing application. You might be concerned: a social worker or approved charity can help you check." },
+      "conditions": [
+        { "fr": "Être Français ou avoir un droit ou un titre de séjour en cours de validité (la liste des titres est fixée par un arrêté du 20 avril 2022).", "en": "Be French or have a valid right of residence or residence permit (the list of permits is set by an order of 20 April 2022)." },
+        { "fr": "Remplir les conditions de revenus du logement social.", "en": "Meet the income conditions for social housing." },
+        { "fr": "Être dans au moins une situation prévue : pas de proposition adaptée après un délai anormalement long, sans logement, menacé d'expulsion sans relogement, hébergé en structure depuis plus de 6 mois, en logement de transition ou foyer depuis plus de 18 mois, logement impropre, insalubre ou dangereux, ou handicap avec logement inadapté.", "en": "Be in at least one listed situation: no suitable offer after an abnormally long wait, homeless, facing eviction with no rehousing, in a shelter for more than 6 months, in transitional housing or a hostel for more than 18 months, unfit, unsanitary or dangerous housing, or disability with unsuitable housing." }
+      ],
+      "howTo": [
+        { "fr": "Remplissez le formulaire cerfa n°15036 avec les justificatifs, ou utilisez le service en ligne s'il existe dans votre département (Île-de-France notamment).", "en": "Fill in form cerfa no. 15036 with supporting documents, or use the online service if your département has one (Île-de-France, for example)." },
+        { "fr": "Envoyez le dossier au secrétariat de la commission de médiation Dalo du département où vous voulez un logement. Ne faites qu'un seul recours Dalo.", "en": "Send the file to the Dalo mediation committee of the département where you want housing. Make only one Dalo appeal." },
+        { "fr": "La commission décide en 3 mois à partir de l'accusé de réception (6 mois dans les Dom).", "en": "The committee decides within 3 months of the acknowledgement of receipt (6 months in overseas départements)." }
+      ],
+      "links": [
+        { "title": { "fr": "Le Dalo sur service-public", "en": "Dalo on service-public" }, "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F18005" },
+        { "title": { "fr": "Formulaire de recours Dalo (cerfa 15036)", "en": "Dalo appeal form (cerfa 15036)" }, "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R19319" }
+      ],
+      "contacts": ["france_services", "point_justice"],
+      "guides": ["proof_of_address"],
+      "condition": {
+        "all": [
+          { "question": "residence_status", "in": ["french", "eu", "permit", "receipt", "refugee"] },
+          { "question": "housing", "in": ["tenant", "looking", "hosted", "no_housing"] }
+        ]
+      },
+      "sources": ["sp_f18005"]
+    },
+    {
+      "id": "france_travail_registration",
+      "category": "work",
+      "title": { "fr": "S'inscrire à France Travail", "en": "Register with France Travail" },
+      "summary": { "fr": "L'inscription comme demandeur d'emploi vous donne un accompagnement pour trouver un travail.", "en": "Registering as a job seeker gives you support to find work." },
+      "who": { "fr": "Toute personne qui cherche un emploi, quelle que soit sa nationalité, si elle réside en France. Pour les étrangers, le titre de séjour doit permettre de travailler. Vous pourriez pouvoir vous inscrire : vérifiez la mention de votre titre.", "en": "Anyone looking for work, whatever their nationality, if they live in France. For foreign nationals, the residence permit must allow work. You might be able to register: check the wording on your permit." },
+      "conditions": [
+        { "fr": "Résider en France, chercher un emploi et être disponible.", "en": "Live in France, be looking for work and be available." },
+        { "fr": "Citoyens UE, EEE, Suisse : une pièce d'identité en cours de validité suffit.", "en": "EU, EEA and Swiss citizens: a valid ID document is enough." },
+        { "fr": "Hors UE, titres cités par service-public : carte de résident ; carte de séjour (temporaire ou pluriannuelle) salarié ; passeport talent ; vie privée et familiale ; recherche d'emploi ou création d'entreprise ; protection subsidiaire ; apatride ; VLS-TS salarié ou vie privée et familiale ; travailleur temporaire (seulement si le contrat a été rompu de façon anticipée par l'employeur ou pour force majeure).", "en": "Outside the EU, permits listed by service-public: resident card; employee (temporary or multi-year) residence card; talent passport; private and family life; job search or business creation; subsidiary protection; stateless person; VLS-TS employee or private and family life; temporary worker (only if the contract ended early because of the employer or force majeure)." },
+        { "fr": "Certains récépissés et autorisations provisoires de séjour portant la mention \"autorise son titulaire à travailler\" sont aussi acceptés, ainsi que certains récépissés des réfugiés et bénéficiaires de la protection subsidiaire en attente de leur carte.", "en": "Some receipts and temporary residence authorisations marked \"autorise son titulaire à travailler\" are also accepted, as are some receipts for refugees and subsidiary protection holders waiting for their card." }
+      ],
+      "howTo": [
+        { "fr": "Inscrivez-vous en ligne sur francetravail.fr, rubrique \"M'inscrire, me réinscrire\". Sans accès à Internet, allez en agence le matin, sans rendez-vous.", "en": "Register online at francetravail.fr, under \"M'inscrire, me réinscrire\". Without internet access, go to an agency in the morning, no appointment needed." },
+        { "fr": "Préparez une pièce d'identité (ou votre titre de séjour), votre numéro de sécurité sociale et un justificatif de domiciliation.", "en": "Have an ID document (or your residence permit), your social security number and proof of address ready." },
+        { "fr": "Un entretien avec un conseiller a lieu au plus tard 30 jours après l'inscription.", "en": "An interview with an adviser takes place no later than 30 days after registration." }
+      ],
+      "links": [
+        { "title": { "fr": "S'inscrire à France Travail", "en": "Register with France Travail" }, "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R49998" },
+        { "title": { "fr": "Liste des titres acceptés", "en": "List of accepted permits" }, "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F24465" }
+      ],
+      "contacts": ["france_services"],
+      "guides": ["proof_of_address", "health_insurance"],
+      "condition": {
+        "all": [
+          { "question": "residence_status", "in": ["french", "eu", "permit", "receipt", "refugee"] },
+          { "question": "activity", "in": ["job_seeker", "none"] }
+        ]
+      },
+      "sources": ["sp_f1636", "sp_f24465"]
+    },
+    {
+      "id": "student_work",
+      "category": "work",
+      "title": { "fr": "Travailler pendant vos études", "en": "Working during your studies" },
+      "summary": { "fr": "Avec une carte de séjour étudiant ou un VLS-TS étudiant, vous pouvez travailler dans une limite d'heures par an.", "en": "With a student residence card or a student VLS-TS, you can work up to a limit of hours per year." },
+      "who": { "fr": "Les étudiants non européens qui ont une carte de séjour étudiant ou un VLS-TS étudiant. Les règles sont différentes pour les étudiants algériens.", "en": "Non-European students holding a student residence card or a student VLS-TS. Rules differ for Algerian students." },
+      "conditions": [
+        { "fr": "Au maximum 964 heures par an (60 % de la durée légale annuelle). Pour ces heures, pas besoin d'autorisation de travail.", "en": "Up to 964 hours per year (60% of the legal annual working time). For these hours, no work permit is needed." },
+        { "fr": "Le compte commence à la délivrance de la carte ou à la validation du VLS-TS.", "en": "The count starts when the card is issued or the VLS-TS is validated." },
+        { "fr": "En cas de dépassement, l'étudiant risque le retrait et le refus de renouvellement de son titre de séjour.", "en": "If the limit is exceeded, the student risks having their permit withdrawn and its renewal refused." },
+        { "fr": "L'employeur doit faire une déclaration nominative à la préfecture au moins 2 jours ouvrables avant l'embauche.", "en": "The employer must send a named declaration to the prefecture at least 2 working days before hiring." },
+        { "fr": "Étudiants algériens (certificat de résidence étudiant) : l'employeur doit d'abord obtenir une autorisation de travail, et le travail est limité à 50 % de la durée annuelle de travail de la branche.", "en": "Algerian students (student residence certificate): the employer must first get a work permit, and work is limited to 50% of the annual working time in the sector." },
+        { "fr": "Contrat d'apprentissage validé par l'Opco ou la Dreets : pas d'autorisation de travail à demander et pas de limite de 964 heures. Il faut être en France depuis plus d'un an, sauf master ou diplôme de niveau I reconnu par la Conférence des grandes écoles.", "en": "Apprenticeship contract validated by the Opco or Dreets: no work permit to request and no 964-hour limit. You must have been in France for more than one year, except for a master's or a level I diploma recognised by the Conférence des grandes écoles." }
+      ],
+      "howTo": [
+        { "fr": "Comptez vos heures depuis la délivrance de votre carte ou la validation de votre VLS-TS.", "en": "Keep track of your hours from the date your card was issued or your VLS-TS validated." },
+        { "fr": "Rappelez à votre employeur qu'il doit faire la déclaration à la préfecture avant votre embauche.", "en": "Remind your employer to send the declaration to the prefecture before hiring you." }
+      ],
+      "links": [
+        { "title": { "fr": "Lire la fiche sur service-public", "en": "Read the page on service-public" }, "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2713" }
+      ],
+      "contacts": ["france_services", "point_justice"],
+      "guides": ["anef_account"],
+      "condition": {
+        "all": [
+          { "question": "activity", "equals": "student" },
+          { "question": "residence_status", "in": ["permit", "receipt"] }
+        ]
+      },
+      "sources": ["sp_f2713"]
+    },
+    {
+      "id": "youth_commitment_contract",
+      "category": "work",
+      "title": { "fr": "Contrat d'engagement jeune (CEJ)", "en": "Youth commitment contract (CEJ)" },
+      "summary": { "fr": "Un accompagnement de 15 à 20 heures par semaine pour trouver un emploi durable, avec une allocation possible. Ce n'est pas un contrat de travail.", "en": "Support of 15 to 20 hours a week to find a stable job, with a possible allowance. It is not an employment contract." },
+      "who": { "fr": "Les jeunes de 16 à 25 ans inclus (jusqu'à 29 ans inclus avec une reconnaissance de travailleur handicapé) qui ont des difficultés à trouver un emploi durable, ne sont pas étudiants et ne suivent pas de formation. Vous pourriez être concerné : France Travail ou la mission locale vous dira si vous pouvez entrer dans le dispositif.", "en": "Young people aged 16 to 25 inclusive (up to 29 inclusive with recognised disability status) who struggle to find a stable job, are not students and are not in training. You might be concerned: France Travail or the mission locale will tell you if you can join." },
+      "conditions": [
+        { "fr": "Avoir des difficultés d'accès à l'emploi durable, ne pas être étudiant et ne pas suivre de formation.", "en": "Have difficulty accessing stable employment, not be a student and not be in training." },
+        { "fr": "Durée maximale d'un an, prolongeable de 6 mois dans certains cas.", "en": "Up to one year, which can be extended by 6 months in some cases." },
+        { "fr": "Allocation mensuelle maximale : 566,17 € pour un majeur fiscalement autonome ou rattaché à un foyer non imposable ; 339,70 € si le foyer est imposable ; 226,48 € pour un mineur dans certains cas (montants plus bas à Mayotte).", "en": "Maximum monthly allowance: €566.17 for an adult who is tax-independent or in a non-taxable household; €339.70 if the household is taxable; €226.48 for a minor in some cases (lower amounts in Mayotte)." },
+        { "fr": "La fiche service-public ne précise pas de condition de titre de séjour : demandez à France Travail ou à la mission locale.", "en": "The service-public page does not state a residence permit condition: ask France Travail or the mission locale." }
+      ],
+      "howTo": [
+        { "fr": "Contactez France Travail (39 49) ou la mission locale près de chez vous. Certaines associations peuvent aussi le proposer.", "en": "Contact France Travail (39 49) or your local mission locale. Some charities can also offer it." },
+        { "fr": "Informez-vous sur 1jeune1solution.gouv.fr.", "en": "Find out more on 1jeune1solution.gouv.fr." }
+      ],
+      "links": [
+        { "title": { "fr": "Le CEJ sur 1jeune1solution", "en": "The CEJ on 1jeune1solution" }, "url": "https://www.1jeune1solution.gouv.fr/contrat-engagement-jeune" },
+        { "title": { "fr": "Lire la fiche sur service-public", "en": "Read the page on service-public" }, "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F32700" }
+      ],
+      "contacts": ["france_services"],
+      "guides": [],
+      "condition": {
+        "all": [
+          { "not": { "question": "residence_status", "equals": "undocumented" } },
+          { "question": "age_group", "in": ["under_18", "18_25"] },
+          { "question": "activity", "in": ["job_seeker", "none"] }
+        ]
+      },
+      "sources": ["sp_f32700"]
+    },
+    {
+      "id": "work_discrimination",
+      "category": "work",
+      "title": { "fr": "Être protégé contre les discriminations au travail", "en": "Protection against discrimination at work" },
+      "summary": { "fr": "La loi interdit 25 critères de discrimination au travail, dont l'origine, la nation, l'ethnie et la religion, à l'embauche comme pendant l'emploi.", "en": "The law bans 25 grounds of discrimination at work, including origin, nation, ethnicity and religion, both in hiring and during employment." },
+      "who": { "fr": "Toute personne qui travaille dans l'entreprise (salarié, encadrant, stagiaire, apprenti) et les candidats à un emploi, un stage ou une formation.", "en": "Anyone working in the company (employee, manager, intern, apprentice) and candidates for a job, internship or training." },
+      "conditions": [
+        { "fr": "Pour aller devant le conseil de prud'hommes : 5 ans à partir de la révélation de la discrimination.", "en": "To go to the employment tribunal (conseil de prud'hommes): 5 years from when the discrimination came to light." },
+        { "fr": "Pour porter plainte : 6 ans à partir du dernier jour de l'infraction.", "en": "To file a criminal complaint: 6 years from the last day of the offence." }
+      ],
+      "howTo": [
+        { "fr": "Signalez les faits à l'employeur, s'il n'en est pas l'auteur.", "en": "Report the facts to the employer, if they are not responsible." },
+        { "fr": "Contactez l'inspection du travail, qui peut mener une enquête.", "en": "Contact the labour inspectorate, which can investigate." },
+        { "fr": "Contactez gratuitement le Défenseur des droits au 3928, par le tchat antidiscriminations.fr ou en ligne.", "en": "Contact the Defender of Rights free of charge on 3928, via the antidiscriminations.fr chat or online." },
+        { "fr": "Vous pouvez aussi saisir le conseil de prud'hommes ou porter plainte auprès de la police ou de la gendarmerie.", "en": "You can also go to the employment tribunal or file a complaint with the police or gendarmerie." }
+      ],
+      "links": [
+        { "title": { "fr": "Lire la fiche sur service-public", "en": "Read the page on service-public" }, "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1642" },
+        { "title": { "fr": "Contacter le Défenseur des droits", "en": "Contact the Defender of Rights" }, "url": "https://www.defenseurdesdroits.fr/nous-contacter-355" }
+      ],
+      "contacts": ["defenseur_des_droits", "point_justice"],
+      "guides": [],
+      "condition": { "question": "activity", "in": ["employee", "job_seeker"] },
+      "sources": ["sp_f1642", "ddd_discriminations"]
+    },
+    {
+      "id": "labour_inspection",
+      "category": "work",
+      "title": { "fr": "Faire appel à l'inspection du travail", "en": "Contact the labour inspectorate" },
+      "summary": { "fr": "L'inspection du travail informe les salariés sur leurs droits et contrôle l'application du droit du travail.", "en": "The labour inspectorate informs employees about their rights and checks that labour law is applied." },
+      "who": { "fr": "Les salariés qui ont une question sur une règle de la loi ou de la convention collective, ou qui veulent signaler un non-respect, un harcèlement ou une discrimination.", "en": "Employees with a question about a rule in the law or collective agreement, or who want to report a breach, harassment or discrimination." },
+      "conditions": [
+        { "fr": "Vous n'avez pas à prévenir votre employeur ni un représentant du personnel, et vous ne pouvez pas être sanctionné pour avoir contacté l'inspection du travail.", "en": "You do not have to tell your employer or a staff representative, and you cannot be punished for contacting the labour inspectorate." },
+        { "fr": "L'inspection ne règle pas les litiges individuels : ils relèvent du conseil de prud'hommes.", "en": "The inspectorate does not settle individual disputes: those go to the employment tribunal." }
+      ],
+      "howTo": [
+        { "fr": "Les coordonnées de l'inspection du travail doivent être affichées dans l'entreprise. Elles sont aussi sur le site de la Dreets de votre région.", "en": "The labour inspectorate's contact details must be displayed in the workplace. They are also on your regional Dreets website." }
+      ],
+      "links": [
+        { "title": { "fr": "Lire la fiche sur service-public", "en": "Read the page on service-public" }, "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F107" }
+      ],
+      "contacts": ["point_justice"],
+      "guides": [],
+      "condition": { "question": "activity", "equals": "employee" },
+      "sources": ["sp_f107"]
+    },
+    {
+      "id": "right_to_account",
+      "category": "bank",
+      "title": { "fr": "Droit au compte bancaire (Banque de France)", "en": "Right to a bank account (Banque de France)" },
+      "summary": { "fr": "Si une banque refuse de vous ouvrir un compte, la Banque de France peut désigner une banque qui devra vous l'ouvrir, avec des services de base gratuits.", "en": "If a bank refuses to open an account for you, the Banque de France can appoint a bank that must open one, with free basic services." },
+      "who": { "fr": "Les personnes domiciliées en France, sans condition de nationalité, qui n'ont pas déjà de compte de dépôt en France. Vous pourriez y avoir droit : la Banque de France étudie votre dossier.", "en": "People living in France, whatever their nationality, who do not already have a deposit account in France. You might be entitled to it: the Banque de France reviews your file." },
+      "conditions": [
+        { "fr": "Être domicilié en France, sans condition de nationalité.", "en": "Live in France, whatever your nationality." },
+        { "fr": "Ne pas avoir déjà de compte de dépôt en France.", "en": "Not already have a deposit account in France." },
+        { "fr": "Avoir essuyé un refus. Sans réponse de la banque après 15 jours, c'est un refus ; la banque doit vous remettre une lettre de refus.", "en": "Have been refused. No answer from the bank after 15 days counts as a refusal; the bank must give you a refusal letter." }
+      ],
+      "howTo": [
+        { "fr": "Préparez : une pièce d'identité, un justificatif de domicile de moins de 3 mois, la lettre de refus (ou la preuve de votre demande datant de plus de 15 jours) et une déclaration sur l'honneur que vous n'avez pas de compte.", "en": "Prepare: an ID document, proof of address less than 3 months old, the refusal letter (or proof of your request dated more than 15 days ago) and a sworn statement that you have no account." },
+        { "fr": "Envoyez la demande en ligne (avec FranceConnect), au guichet d'une succursale de la Banque de France, ou par courrier : Banque de France, TSA 50120, 75035 Paris Cedex 01. La banque qui a refusé peut aussi transmettre votre dossier.", "en": "Send the request online (with FranceConnect), at a Banque de France branch, or by post: Banque de France, TSA 50120, 75035 Paris Cedex 01. The bank that refused can also forward your file." },
+        { "fr": "La Banque de France désigne une banque en 1 jour ouvré. Cette banque doit ouvrir le compte dans les 3 jours ouvrés après réception de toutes vos pièces.", "en": "The Banque de France appoints a bank within 1 working day. That bank must open the account within 3 working days of receiving all your documents." },
+        { "fr": "Une association de consommateurs agréée, la Caf, le département ou le CCAS peut vous accompagner.", "en": "An approved consumer association, the Caf, the département or the CCAS can help you." }
+      ],
+      "links": [
+        { "title": { "fr": "Faire la demande en ligne", "en": "Apply online" }, "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R74226" },
+        { "title": { "fr": "Formulaire de demande", "en": "Application form" }, "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R62631" },
+        { "title": { "fr": "Trouver une succursale de la Banque de France", "en": "Find a Banque de France branch" }, "url": "https://lannuaire.service-public.gouv.fr/navigation/bdf" }
+      ],
+      "contacts": ["france_services"],
+      "guides": ["proof_of_address"],
+      "condition": null,
+      "sources": ["sp_f2417"]
+    },
+    {
+      "id": "school_enrolment",
+      "category": "family",
+      "title": { "fr": "Inscrire vos enfants à l'école", "en": "Enrol your children in school" },
+      "summary": { "fr": "L'instruction est obligatoire pour les enfants de 3 à 16 ans. Les enfants qui arrivent de l'étranger sont accueillis avec un accompagnement en français si besoin.", "en": "Education is compulsory for children aged 3 to 16. Children arriving from abroad are welcomed, with French language support if needed." },
+      "who": { "fr": "Les parents d'enfants de 3 à 16 ans qui vivent en France.", "en": "Parents of children aged 3 to 16 living in France." },
+      "conditions": [
+        { "fr": "Dès 3 ans, les parents doivent inscrire leur enfant à l'école, jusqu'à 16 ans (ou demander une autorisation pour l'instruction en famille, accordée pour des motifs limités).", "en": "From age 3, parents must enrol their child in school, up to age 16 (or ask for permission to home-school, granted only for limited reasons)." },
+        { "fr": "École primaire : la mairie demande une pièce d'identité pour vous et l'enfant (livret de famille, carte d'identité, passeport ou extrait d'acte de naissance) et un justificatif de domicile récent, qui peut être une attestation sur l'honneur. La liste de la fiche ne comprend pas de titre de séjour.", "en": "Primary school: the town hall asks for ID for you and your child (family record book, ID card, passport or birth certificate extract) and recent proof of address, which can be a sworn statement. The list on the page does not include a residence permit." },
+        { "fr": "L'école demande un document montrant que l'enfant a les vaccinations obligatoires pour son âge, ou une contre-indication.", "en": "The school asks for a document showing the child has the compulsory vaccinations for their age, or a medical exemption." }
+      ],
+      "howTo": [
+        { "fr": "École maternelle ou élémentaire : inscrivez l'enfant à la mairie, puis à l'école indiquée sur le certificat d'inscription. Des enseignants évaluent ses acquis ; si besoin, il est accueilli en UPE2A (classe pour élèves allophones arrivants).", "en": "Nursery or primary school: enrol your child at the town hall, then at the school named on the enrolment certificate. Teachers assess the child; if needed, they join a UPE2A (class for newly arrived non-French-speaking pupils)." },
+        { "fr": "Collège ou lycée : contactez le Casnav de votre lieu de résidence. Un psychologue de l'Éducation nationale organise une évaluation, puis l'académie affecte l'enfant dans un établissement.", "en": "Secondary school: contact the Casnav where you live. An Education nationale psychologist arranges an assessment, then the académie assigns the child to a school." },
+        { "fr": "En cas de déménagement, l'inscription dans la nouvelle école doit se faire dans les 8 jours à la mairie du nouveau domicile.", "en": "If you move, enrolment in the new school must be done within 8 days at the town hall of your new home." }
+      ],
+      "links": [
+        { "title": { "fr": "École primaire pour un élève venant de l'étranger", "en": "Primary school for a pupil from abroad" }, "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1866" },
+        { "title": { "fr": "Collège ou lycée pour un élève venant de l'étranger", "en": "Secondary school for a pupil from abroad" }, "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F21304" },
+        { "title": { "fr": "Trouver ma mairie", "en": "Find my town hall" }, "url": "https://lannuaire.service-public.gouv.fr/navigation/mairie" }
+      ],
+      "contacts": ["france_services"],
+      "guides": ["proof_of_address", "civil_status_france", "sworn_translation"],
+      "condition": { "question": "has_children", "equals": "yes" },
+      "sources": ["sp_f1898", "sp_f1866", "sp_f21304"]
+    },
+    {
+      "id": "school_canteen_aid",
+      "category": "family",
+      "title": { "fr": "Cantine scolaire et aides", "en": "School canteen and financial help" },
+      "summary": { "fr": "Quand une cantine existe, tous les enfants scolarisés peuvent s'y inscrire. Des tarifs selon les revenus et des aides existent dans certaines communes et établissements.", "en": "Where a canteen exists, every enrolled child can sign up. Income-based prices and financial help exist in some towns and schools." },
+      "who": { "fr": "Les familles dont les enfants vont à l'école, au collège ou au lycée. Vous pourriez avoir droit à une aide : renseignez-vous auprès de la mairie ou de l'établissement.", "en": "Families whose children attend primary or secondary school. You might be entitled to help: ask the town hall or the school." },
+      "conditions": [
+        { "fr": "La commune n'est pas obligée de proposer une cantine à l'école primaire. Mais quand elle existe, l'inscription est un droit pour tous les enfants scolarisés ; la situation de la famille ne doit pas y faire obstacle. La réserver aux enfants dont les parents travaillent est illégal.", "en": "The town does not have to offer a canteen at primary school. But where one exists, every enrolled child has the right to sign up; the family's situation must not prevent it. Restricting it to children whose parents work is illegal." },
+        { "fr": "Les tarifs sont fixés par la commune (école), le département (collège) ou la région (lycée), qui peuvent appliquer un quotient familial.", "en": "Prices are set by the town (primary), the département (collège) or the region (lycée), which may apply a family quotient." }
+      ],
+      "howTo": [
+        { "fr": "École primaire : demandez à la mairie s'il existe des aides, ou contactez l'assistante sociale scolaire.", "en": "Primary school: ask the town hall whether help exists, or contact the school social worker." },
+        { "fr": "Collège ou lycée : adressez-vous à l'assistante sociale ou au secrétariat pour le fonds social de l'établissement. Pour les tarifs, contactez le département (collège) ou le conseil régional (lycée).", "en": "Secondary school: ask the social worker or the school office about the school's social fund. For prices, contact the département (collège) or the regional council (lycée)." }
+      ],
+      "links": [
+        { "title": { "fr": "Cantine à l'école primaire", "en": "Primary school canteen" }, "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F24570" },
+        { "title": { "fr": "Aides pour la cantine", "en": "Help with canteen costs" }, "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F19294" }
+      ],
+      "contacts": ["france_services"],
+      "guides": [],
+      "condition": { "question": "has_children", "equals": "yes" },
+      "sources": ["sp_f24570", "sp_f19294"]
+    },
+    {
+      "id": "college_scholarship",
+      "category": "family",
+      "title": { "fr": "Bourse de collège", "en": "Collège grant (bourse de collège)" },
+      "summary": { "fr": "Une aide versée aux familles d'un collégien dont les ressources ne dépassent pas un plafond.", "en": "Financial help for families of a collège pupil whose income is below a ceiling." },
+      "who": { "fr": "Les parents qui ont la charge effective et permanente d'un enfant inscrit au collège. Vous pourriez y avoir droit : utilisez le calculateur.", "en": "Parents who effectively and permanently care for a child enrolled in collège. You might be entitled to it: use the calculator." },
+      "conditions": [
+        { "fr": "Vos ressources ne doivent pas dépasser un plafond qui dépend du nombre d'enfants à charge. Pour 2026-2027, c'est le revenu fiscal de référence de l'avis d'imposition 2026 (revenus 2025).", "en": "Your income must not exceed a ceiling that depends on the number of dependent children. For 2026-2027, it is the reference tax income on the 2026 tax notice (2025 income)." },
+        { "fr": "Pour 2026-2027, la demande se faisait entre le 1er septembre et le 15 octobre 2026 (collège public). Il faut refaire une demande chaque année.", "en": "For 2026-2027, applications were open from 1 September to 15 October 2026 (public collège). You must apply again every year." }
+      ],
+      "howTo": [
+        { "fr": "Collège public : donnez votre accord pour l'étude automatique de votre droit lors de l'inscription, ou faites la demande en ligne (Educonnect) ou par formulaire papier.", "en": "Public collège: agree to automatic review of your entitlement at enrolment, or apply online (Educonnect) or with the paper form." },
+        { "fr": "Collège privé : remettez le formulaire papier au secrétariat du collège, sauf si l'établissement propose l'étude automatique.", "en": "Private collège: hand the paper form to the school office, unless the school offers automatic review." }
+      ],
+      "links": [
+        { "title": { "fr": "Estimer la bourse (calculateur)", "en": "Estimate the grant (calculator)" }, "url": "https://calculateur-bourses.education.gouv.fr/cabs/api/v1/college/simulateur.html" },
+        { "title": { "fr": "Demander la bourse en ligne", "en": "Apply for the grant online" }, "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R60054" }
+      ],
+      "contacts": ["france_services"],
+      "guides": ["tax_documents"],
+      "condition": {
+        "all": [
+          { "question": "has_children", "equals": "yes" },
+          { "question": "low_income", "equals": "yes" }
+        ]
+      },
+      "sources": ["sp_f984"]
+    },
+    {
+      "id": "legal_aid",
+      "category": "justice",
+      "title": { "fr": "Aide juridictionnelle", "en": "Legal aid (aide juridictionnelle)" },
+      "summary": { "fr": "L'État prend en charge tout ou partie des frais d'avocat et de justice si vos ressources sont faibles.", "en": "The State pays all or part of your lawyer and court costs if your income is low." },
+      "who": { "fr": "Les personnes qui ont un procès ou veulent en engager un et dont les ressources sont sous un plafond. Vous pourriez y avoir droit : faites la simulation, puis le bureau d'aide juridictionnelle décide.", "en": "People who have or want to start a court case and whose income is below a ceiling. You might be entitled to it: run the simulation, then the legal aid office decides." },
+      "conditions": [
+        { "fr": "Être Français ou ressortissant européen (sauf Danemark). Si vous êtes de nationalité étrangère, vous devez résider habituellement en France, même si votre titre de séjour n'est pas valide.", "en": "Be French or an EU national (except Denmark). If you are a foreign national, you must usually live in France, even if your residence permit is not valid." },
+        { "fr": "La condition de résidence ne s'applique pas aux mineurs, aux bénéficiaires d'une ordonnance de protection ni aux personnes impliquées dans une procédure pénale.", "en": "The residence condition does not apply to minors, people with a protection order, or people involved in criminal proceedings." },
+        { "fr": "Plafonds 2026 (revenu fiscal de référence, 1 personne) : 12 957 € pour l'aide totale, 19 433 € pour l'aide partielle. Les plafonds augmentent avec la taille du foyer ; des plafonds de patrimoine s'appliquent aussi.", "en": "2026 ceilings (reference tax income, 1 person): €12,957 for full aid, €19,433 for partial aid. Ceilings rise with household size; asset ceilings also apply." },
+        { "fr": "Pour un recours contre une OQTF, service-public indique que vous pouvez bénéficier de l'aide juridictionnelle.", "en": "For an appeal against an OQTF, service-public says you can receive legal aid." }
+      ],
+      "howTo": [
+        { "fr": "Faites une simulation.", "en": "Run a simulation." },
+        { "fr": "Faites la demande en ligne ou avec le formulaire. Envoyez-la au bureau d'aide juridictionnelle du tribunal judiciaire. Pour le tribunal administratif, utilisez le cerfa n°16146, à envoyer au bureau d'aide juridictionnelle du tribunal judiciaire dont dépend ce tribunal.", "en": "Apply online or with the form. Send it to the legal aid office of the tribunal judiciaire. For the administrative court, use form cerfa no. 16146, sent to the legal aid office of the tribunal judiciaire linked to that court." },
+        { "fr": "Joignez les justificatifs demandés, par exemple un justificatif de domicile et votre dernier avis d'impôt.", "en": "Attach the requested documents, for example proof of address and your latest tax notice." }
+      ],
+      "links": [
+        { "title": { "fr": "Faire une simulation", "en": "Run a simulation" }, "url": "https://www.aidejuridictionnelle.justice.fr/simulateur" },
+        { "title": { "fr": "Demander l'aide juridictionnelle en ligne", "en": "Apply for legal aid online" }, "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R66463" }
+      ],
+      "contacts": ["point_justice", "france_services"],
+      "guides": ["tax_documents", "proof_of_address"],
+      "condition": { "question": "low_income", "equals": "yes" },
+      "sources": ["sp_f18074", "sp_f18362"]
+    },
+    {
+      "id": "points_justice",
+      "category": "justice",
+      "title": { "fr": "Consulter gratuitement un avocat (point-justice)", "en": "Free consultation with a lawyer (point-justice)" },
+      "summary": { "fr": "Les points-justice organisent des permanences juridiques gratuites, notamment en droit des étrangers, au travail, au logement et en famille.", "en": "Points-justice hold free legal sessions, including on immigration law, work, housing and family." },
+      "who": { "fr": "Toute personne, quelle que soit sa situation et sa nationalité.", "en": "Anyone, whatever their situation and nationality." },
+      "conditions": [
+        { "fr": "Seule la première consultation est gratuite. Si un avocat vous assiste ensuite pendant toute la procédure, vous payez ses honoraires, sauf si vous avez l'aide juridictionnelle.", "en": "Only the first consultation is free. If a lawyer then assists you throughout the case, you pay their fees, unless you have legal aid." }
+      ],
+      "howTo": [
+        { "fr": "Contactez le point-justice le plus proche de chez vous. Les permanences ont lieu dans des CCAS, des France services, des tribunaux judiciaires, etc.", "en": "Contact the point-justice nearest your home. Sessions take place in CCAS, France services offices, courts, etc." },
+        { "fr": "Chaque barreau organise aussi des permanences gratuites : voyez le site du barreau de votre ville.", "en": "Each bar association also holds free sessions: see your local bar's website." }
+      ],
+      "links": [
+        { "title": { "fr": "Trouver un point-justice", "en": "Find a point-justice" }, "url": "https://lannuaire.service-public.gouv.fr/navigation/point_justice" },
+        { "title": { "fr": "Consulter gratuitement un avocat", "en": "Free consultation with a lawyer" }, "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F20706" }
+      ],
+      "contacts": ["point_justice"],
+      "guides": [],
+      "condition": null,
+      "sources": ["sp_f20706", "lannuaire_point_justice"]
+    },
+    {
+      "id": "defender_of_rights",
+      "category": "justice",
+      "title": { "fr": "Saisir le Défenseur des droits", "en": "Contact the Defender of Rights" },
+      "summary": { "fr": "Le Défenseur des droits aide gratuitement en cas de problème avec un service public (préfecture, Caf, CPAM, France Travail...) et en cas de discrimination.", "en": "The Defender of Rights helps free of charge with problems with a public service (prefecture, Caf, CPAM, France Travail...) and with discrimination." },
+      "who": { "fr": "Toute personne qui a des difficultés avec une administration ou un service public (absence de réponse, erreur de décision, délais trop longs...) ou qui pense être victime de discrimination (emploi, logement, accès à un service).", "en": "Anyone having difficulties with an administration or public service (no answer, wrong decision, long delays...) or who thinks they have faced discrimination (work, housing, access to a service)." },
+      "conditions": [
+        { "fr": "Litige avec un service public : vous devez d'abord faire les démarches auprès du service concerné, par exemple une réclamation ou un recours à la préfecture.", "en": "Dispute with a public service: you must first take steps with the service concerned, for example a complaint or appeal to the prefecture." },
+        { "fr": "Saisir le Défenseur des droits n'interrompt pas et ne suspend pas les délais pour aller devant le juge.", "en": "Contacting the Defender of Rights does not stop or suspend the time limits for going to court." },
+        { "fr": "Ses services sont gratuits.", "en": "Its services are free." }
+      ],
+      "howTo": [
+        { "fr": "Saisissez-le en ligne, par courrier gratuit sans timbre, ou rencontrez un délégué près de chez vous (permanences en préfecture, maison de justice et du droit...).", "en": "Contact it online, by free post with no stamp, or meet a local delegate (sessions at prefectures, justice and law centres...)." },
+        { "fr": "Pour une discrimination : appelez le 3928 ou utilisez le tchat antidiscriminations.fr.", "en": "For discrimination: call 3928 or use the antidiscriminations.fr chat." }
+      ],
+      "links": [
+        { "title": { "fr": "Trouver un délégué près de chez vous", "en": "Find a delegate near you" }, "url": "https://www.defenseurdesdroits.fr/carte-des-delegues" },
+        { "title": { "fr": "Saisir le Défenseur des droits (service-public)", "en": "Contact the Defender of Rights (service-public)" }, "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F13158" }
+      ],
+      "contacts": ["defenseur_des_droits"],
+      "guides": [],
+      "condition": null,
+      "sources": ["sp_f13158", "ddd_services_publics", "ddd_discriminations"]
+    },
+    {
+      "id": "permit_refusal_appeal",
+      "category": "justice",
+      "title": { "fr": "Contester un refus de titre de séjour", "en": "Challenge a residence permit refusal" },
+      "summary": { "fr": "Après un refus de titre de séjour, des recours sont possibles : auprès de la préfecture ou du ministre, et devant le tribunal administratif. Les délais sont courts.", "en": "After a residence permit refusal, you can appeal: to the prefecture or the minister, and to the administrative court. Time limits are short." },
+      "who": { "fr": "Les personnes qui ont reçu un refus de titre de séjour, un refus d'enregistrer leur demande, ou une obligation de quitter le territoire (OQTF). Un professionnel du droit peut vous dire quel recours correspond à votre décision.", "en": "People who have received a residence permit refusal, a refusal to register their application, or an obligation to leave France (OQTF). A legal professional can tell you which appeal fits your decision." },
+      "conditions": [
+        { "fr": "Recours gracieux (au préfet) ou hiérarchique (au ministre de l'Intérieur) : 2 mois en métropole. Il est gratuit, sur papier libre, de préférence en recommandé avec accusé de réception, et doit être motivé.", "en": "Administrative appeal (to the prefect) or hierarchical appeal (to the Interior minister): 2 months in mainland France. It is free, on plain paper, preferably by registered post with acknowledgement, and must give your reasons." },
+        { "fr": "Envoyé dans le délai, ce recours interrompt le délai pour saisir le tribunal administratif. Sans réponse après 2 mois, il est considéré comme rejeté.", "en": "Sent within the time limit, this appeal stops the clock for going to the administrative court. With no answer after 2 months, it counts as rejected." },
+        { "fr": "Recours devant le tribunal administratif : en général 2 mois après la notification de la décision (3 mois outre-mer, 4 mois à l'étranger). En principe, il ne coûte rien, hors honoraires d'avocat.", "en": "Appeal to the administrative court: generally 2 months after the decision is notified (3 months overseas, 4 months abroad). In principle it costs nothing, apart from lawyer's fees." },
+        { "fr": "Si le refus est accompagné d'une OQTF : 1 mois pour le recours en cas général, 7 jours en cas d'assignation à résidence, 48 heures en rétention. Un recours gracieux ou hiérarchique ne prolonge pas ce délai. L'avocat n'est pas obligatoire et l'aide juridictionnelle est possible.", "en": "If the refusal comes with an OQTF: 1 month to appeal in general, 7 days under house arrest, 48 hours in detention. An administrative or hierarchical appeal does not extend this time limit. A lawyer is not compulsory and legal aid is possible." }
+      ],
+      "howTo": [
+        { "fr": "Notez la date à laquelle vous avez reçu la décision : les délais partent de là.", "en": "Note the date you received the decision: time limits start from there." },
+        { "fr": "Faites-vous aider rapidement par un point-justice ou un avocat, et demandez l'aide juridictionnelle si vos ressources sont faibles.", "en": "Get help quickly from a point-justice or a lawyer, and apply for legal aid if your income is low." },
+        { "fr": "Après avoir fait les démarches auprès de la préfecture, vous pouvez aussi saisir le Défenseur des droits. Cela ne suspend pas les délais devant le juge.", "en": "After taking steps with the prefecture, you can also contact the Defender of Rights. This does not suspend court time limits." }
+      ],
+      "links": [
+        { "title": { "fr": "Recours gracieux et hiérarchique", "en": "Administrative and hierarchical appeals" }, "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2474" },
+        { "title": { "fr": "Saisir le juge administratif", "en": "Go to the administrative court" }, "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2478" },
+        { "title": { "fr": "Recours contre une OQTF", "en": "Appeal against an OQTF" }, "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F18362" }
+      ],
+      "contacts": ["point_justice", "defenseur_des_droits", "prefecture_directory"],
+      "guides": [],
+      "condition": { "question": "residence_status", "in": ["permit", "receipt", "undocumented", "asylum_seeker"] },
+      "sources": ["sp_f31969", "sp_f2474", "sp_f2478", "sp_f18362", "sp_f13158"]
+    }
+  ]
+}

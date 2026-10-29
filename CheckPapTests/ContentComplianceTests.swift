@@ -11,7 +11,15 @@ struct ContentComplianceTests {
         "legifrance.gouv.fr", "ofii.fr", "france-visas.gouv.fr", "demarches.interieur.gouv.fr",
         "immigration.interieur.gouv.fr", "data.gouv.fr", "lannuaire.service-public.gouv.fr",
         "defenseurdesdroits.fr", "justice.fr", "ameli.fr", "france-education-international.fr",
-        "courdecassation.fr", "cci-paris-idf.fr",
+        "courdecassation.fr", "cci-paris-idf.fr", "caf.fr", "msa.fr", "francetravail.fr",
+        "banque-france.fr", "visale.fr", "actionlogement.fr", "conseil-constitutionnel.fr", "conseil-etat.fr",
+    ]
+
+    /// Formules de promesse de résultat. "garantie" seul reste permis (ex. : "Garantie Visale").
+    static let promises = [
+        "vous obtiendrez votre titre", "vous obtiendrez la nationalité", "succès garanti", "réussite garantie",
+        "accord garanti", "c'est garanti", "nous garantissons", "garanti à 100",
+        "guaranteed approval", "guaranteed success", "you will be granted",
     ]
 
     static func isAllowed(_ url: URL) -> Bool {
@@ -167,7 +175,9 @@ struct ContentComplianceTests {
             for value in displayed.compactMap({ $0 }).flatMap({ Array($0.values.values) }) {
                 let lower = value.lowercased()
                 #expect(!lower.contains("officiel"), "\(id) : mot interdit dans « \(value) »")
-                #expect(!lower.contains("garanti"), "\(id) : promesse interdite dans « \(value) »")
+                for promise in Self.promises where lower.contains(promise) {
+                    Issue.record("\(id) : promesse interdite (« \(promise) ») dans « \(value) »")
+                }
             }
         }
     }
@@ -229,6 +239,76 @@ struct ContentComplianceTests {
                 let title = (document.title.values["fr"] ?? "").lowercased()
                 for marker in ["seulement", "uniquement", "le cas échéant", "si vous", "si votre"] {
                     #expect(!title.contains(marker), "\(id) / \(document.id) : « \(marker) » dans le titre mais aucune condition")
+                }
+            }
+        }
+    }
+
+    @Test func everyProcedureIsFiledInAnExistingSubcategory() throws {
+        let catalog = try Self.catalog
+        let categories = catalog.categories ?? []
+        #expect(!categories.isEmpty, "catalog.json : aucune catégorie")
+        for entry in catalog.procedures {
+            let category = categories.first { $0.id == entry.category }
+            #expect(category != nil, "\(entry.id) : catégorie inconnue \(entry.category ?? "aucune")")
+            #expect(category?.subcategories.contains { $0.id == entry.subcategory } == true,
+                    "\(entry.id) : sous-catégorie inconnue \(entry.subcategory ?? "aucune")")
+        }
+    }
+
+    @Test func newsFollowsTheRules() throws {
+        let url = try #require(Bundle.main.url(forResource: "news", withExtension: "json"), "news.json manquant")
+        let feed = try JSONDecoder().decode(NewsFeed.self, from: Data(contentsOf: url))
+        let catalog = try Self.catalog
+        let categoryIds = Set((catalog.categories ?? []).map(\.id) + ["rights"])
+        let procedureIds = Set(catalog.procedures.map(\.id))
+        #expect(!feed.items.isEmpty)
+        for item in feed.items {
+            #expect(DayDate.parse(item.date) != nil, "news / \(item.id) : date invalide")
+            #expect(categoryIds.contains(item.category), "news / \(item.id) : catégorie inconnue \(item.category)")
+            #expect(Self.isAllowed(item.link.url), "news / \(item.id) : lien hors domaines autorisés \(item.link.url)")
+            for text in [item.title, item.summary] {
+                #expect(text.values["fr"]?.isEmpty == false && text.values["en"]?.isEmpty == false, "news / \(item.id) : traduction manquante")
+            }
+            for procedure in item.procedures ?? [] where !procedureIds.contains(procedure) {
+                // Une démarche pas encore publiée est simplement ignorée par l'app ; on le signale sans échouer.
+                print("news / \(item.id) : démarche pas encore au catalogue \(procedure)")
+            }
+        }
+    }
+
+    @Test func rightsFollowTheRules() throws {
+        let profileURL = try #require(Bundle.main.url(forResource: "rights", withExtension: "json"))
+        let profile = try JSONDecoder().decode(RightsProfile.self, from: Data(contentsOf: profileURL))
+        let helpURL = try #require(Bundle.main.url(forResource: "help", withExtension: "json"))
+        let help = try JSONDecoder().decode(HelpContent.self, from: Data(contentsOf: helpURL))
+        let questions = Dictionary(uniqueKeysWithValues: profile.questions.map { ($0.id, $0) })
+        for part in profile.parts {
+            let url = try #require(Bundle.main.url(forResource: part, withExtension: "json"), "\(part).json manquant")
+            let content = try JSONDecoder().decode(RightsPart.self, from: Data(contentsOf: url))
+            let known = Set(content.sources.map(\.id))
+            for source in content.sources {
+                #expect(Self.isAllowed(source.url), "\(part) : source hors domaines autorisés \(source.url)")
+            }
+            for right in content.rights {
+                #expect(!right.sources.isEmpty && right.sources.allSatisfy(known.contains), "\(part) / \(right.id) : sources")
+                for link in right.links ?? [] {
+                    #expect(Self.isAllowed(link.url), "\(part) / \(right.id) : lien hors domaines autorisés \(link.url)")
+                }
+                for reference in right.condition?.references ?? [] {
+                    let question = questions[reference.question]
+                    #expect(question != nil, "\(part) / \(right.id) : question de profil inconnue \(reference.question)")
+                    let valid = Set(question?.choices.map(\.id) ?? [])
+                    for value in reference.values where !valid.contains(value) {
+                        Issue.record("\(part) / \(right.id) : valeur \(value) inexistante pour \(reference.question)")
+                    }
+                }
+                #expect((right.contacts ?? []).allSatisfy { id in help.contacts.contains { $0.id == id } }, "\(part) / \(right.id) : contact inconnu")
+                #expect((right.guides ?? []).allSatisfy { id in (help.guides ?? []).contains { $0.id == id } }, "\(part) / \(right.id) : fiche inconnue")
+                let texts = [right.title, right.summary, right.who].compactMap { $0 } + (right.conditions ?? []) + (right.howTo ?? [])
+                for value in texts.flatMap({ Array($0.values.values) }) {
+                    #expect(!value.lowercased().contains("officiel"), "\(part) / \(right.id) : mot interdit")
+                    #expect(!value.contains("\u{2014}"), "\(part) / \(right.id) : tiret cadratin")
                 }
             }
         }
