@@ -1,0 +1,59 @@
+{
+  "sourceLanguage" : "fr",
+  "strings" : {
+    "Check Pap" : {
+      "shouldTranslate" : false
+    },
+    "Choisissez votre situation, répondez à quelques questions et retrouvez les pièces demandées par la préfecture." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choose your situation, answer a few questions and find the documents requested by the prefecture."
+          }
+        }
+      }
+    },
+    "En préparation" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Coming soon"
+          }
+        }
+      }
+    },
+    "La liste des démarches arrive bientôt." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The list of procedures is on its way."
+          }
+        }
+      }
+    },
+    "Service indépendant. Les démarches officielles sont gratuites." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Independent service. Government procedures are free of charge."
+          }
+        }
+      }
+    },
+    "Vos démarches, une étape à la fois." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your paperwork, one step at a time."
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
