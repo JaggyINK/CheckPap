@@ -20,6 +20,10 @@ struct ProceduresView: View {
                 .staggeredAppear(0)
 
                 if query.isEmpty {
+                    ResumeSection()
+                    FeaturedSection()
+                    Text("Tous les thèmes")
+                        .font(.headline)
                     LazyVGrid(columns: columns, spacing: 12) {
                         ForEach(Array(store.availableCategories.enumerated()), id: \.element.id) { index, category in
                             CategoryTile(category: category)

@@ -4,6 +4,8 @@ import Foundation
 struct Catalog: Decodable {
     let schemaVersion: Int
     let contentVersion: String
+    /// Démarches mises en avant en haut de l'onglet (les plus demandées).
+    let featured: [String]?
     let categories: [ProcedureCategory]?
     let procedures: [CatalogEntry]
 }

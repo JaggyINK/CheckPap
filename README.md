@@ -17,11 +17,14 @@ Quatre onglets :
 
 Catégories de démarches :
 
-- **S'expatrier** : préparer son départ, 200 fiches pays (liens utiles, motifs de départ, âge et programme vacances-travail, budget repère en euros et en monnaie locale).
-- **Séjour** : renouveler, changer de titre, remplacer un titre perdu, signaler un changement, faire venir sa famille, faire voyager son enfant.
-- **Nationalité** : naturalisation, nationalité par mariage.
-- **Identité et voyages** : passeport, carte d'identité, venir en France avec un visa, voyager hors de France.
+- **Titre de séjour** : renouveler, changer de titre ; remplacer un titre perdu, signaler un changement.
+- **Famille** : faire venir sa famille, faire voyager son enfant.
+- **Nationalité française** : naturalisation, par mariage.
+- **Papiers et voyages** : passeport, carte d'identité, venir en France avec un visa, voyager hors de France.
 - **Vie en France** : première déclaration d'impôts, garant pour louer (Visale), échange de permis de conduire.
+- **S'expatrier** : préparer son départ, 200 fiches pays (motifs de départ, vacances-travail, budget repère en euros et en monnaie locale).
+
+En haut de l'onglet : "Reprendre mes dossiers" et "Les plus demandées".
 
 Tout le contenu est sourcé (lien et date de consultation sur chaque information) et reste en statut "brouillon" tant qu'une personne ne l'a pas relu.
 

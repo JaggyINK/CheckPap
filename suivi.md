@@ -103,6 +103,11 @@ Dernière mise à jour du plan : 29/10/2026.
 - Interface (222 textes), titres des démarches et catégories, questions du profil Mes droits : traduits dans les 18 langues (traduction automatique, à faire relire par des locuteurs natifs, en priorité tigrigna et pachto). Termes français isolés dans les langues de droite à gauche. Le contenu détaillé reste en français et en anglais pour l'instant.
 - Dossier `AppStore/` : fiche FR et EN (longueurs vérifiées), politique de confidentialité FR et EN (+ pages web), réponses aux questionnaires, notes pour Apple, script de captures (10 captures 1320 x 2868 générées). Manifeste de confidentialité ajouté à l'app.
 
+**30/10/2026 (réorganisation)**
+- Menu des démarches réorganisé selon les besoins des utilisateurs : Titre de séjour (obtenir ou renouveler, gérer mon titre), Famille, Nationalité française, Papiers et voyages, Vie en France, S'expatrier (en dernier).
+- En haut de l'onglet Démarches : "Reprendre mes dossiers" et "Les plus demandées" (champ `featured` du catalogue).
+- Nouveaux libellés traduits dans les 18 langues.
+
 ## Feuille de route après la v1 (demandes de l'utilisatrice)
 
 - [ ] **Annuaire des consulats par nationalité et par lieu** (les fiches pays donnent déjà le lien vers l'ambassade du pays en France) : pour un passeport étranger, indiquer le consulat compétent selon le pays et le département de la personne. Nécessite une source structurée et maintenue (liste des représentations étrangères en France) et l'écran de choix du département (tâche 3.5).
