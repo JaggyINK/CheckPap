@@ -91,7 +91,8 @@ Dernière mise à jour du plan : 29/10/2026.
 - Rendez-vous enregistré : date, lieu, notes, ajout au calendrier (sans accès complet), rappels la veille et 2 h avant.
 - Mes dossiers : suppression d'un dossier (glisser ou appui long).
 - Bandeau "Contenu en cours de vérification" retiré (personne ne relit encore).
-- En cours : annuaire des préfectures (`prefectures.json`) et parcours "S'expatrier" pour les personnes étrangères.
+- S'expatrier : parcours complet pour les personnes étrangères vivant en France (passeport de leur pays, visa selon la nationalité, effet d'une longue absence sur le titre de séjour, réfugiés, impôts, protection sociale), plus d'impasse.
+- En cours : annuaire des préfectures (`prefectures.json`).
 
 ## Feuille de route après la v1 (demandes de l'utilisatrice)
 
