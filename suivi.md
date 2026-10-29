@@ -100,7 +100,7 @@ Dernière mise à jour du plan : 29/10/2026.
 **30/10/2026 (suite)**
 - Écran d'accueil au premier lancement : langue (langue du téléphone par défaut) puis code postal (facultatif), réutilisé pour la préfecture. Page Réglages (roue dentée dans Actualités) pour les changer.
 - 18 langues prévues : français, anglais, arabe, bengali, hindi, chinois simplifié, russe, indonésien, thaï, turc, ukrainien, dari, pachto, ourdou, tamoul, tigrigna, portugais, espagnol. Écriture de droite à gauche gérée (arabe, dari, pachto, ourdou). Si un contenu n'est pas traduit : anglais, puis français, avec un message.
-- Traduction de l'interface et des titres en cours (3 lots de langues) ; le contenu détaillé des démarches reste en français et en anglais pour l'instant.
+- Interface (222 textes), titres des démarches et catégories, questions du profil Mes droits : traduits dans les 18 langues (traduction automatique, à faire relire par des locuteurs natifs, en priorité tigrigna et pachto). Termes français isolés dans les langues de droite à gauche. Le contenu détaillé reste en français et en anglais pour l'instant.
 - Dossier `AppStore/` : fiche FR et EN (longueurs vérifiées), politique de confidentialité FR et EN (+ pages web), réponses aux questionnaires, notes pour Apple, script de captures (10 captures 1320 x 2868 générées). Manifeste de confidentialité ajouté à l'app.
 
 ## Feuille de route après la v1 (demandes de l'utilisatrice)

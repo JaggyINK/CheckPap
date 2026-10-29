@@ -6,7 +6,21 @@ Les chemins de contenu : catalog.categories.<id>.title, catalog.procedures.<id>.
 rights.questions.<id>.options.<id>.label, etc.
 """
 import json
+import re
 import sys
+
+RIGHT_TO_LEFT = {"ar", "fa", "ps", "ur"}
+LATIN_IN_PARENTHESES = re.compile(r"\(([^()\u2066]*[A-Za-zÀ-ÿ][^()]*)\)")
+
+
+def protect_latin_terms(language, text):
+    """Dans une langue écrite de droite à gauche, isole les termes français entre parenthèses
+    (marques Unicode LRI/PDI) et empêche leur coupure en fin de ligne (espaces insécables)."""
+    if language not in RIGHT_TO_LEFT:
+        return text
+    return LATIN_IN_PARENTHESES.sub(
+        lambda m: "(\u2066" + m.group(1).replace(" ", "\u00a0") + "\u2069)", text
+    )
 
 CATALOG = "CheckPap/Resources/Localizable.xcstrings"
 CONTENT = "CheckPap/Resources/Content/{}.json"
@@ -15,9 +29,9 @@ ui, content = {}, {}
 for path in sys.argv[1:]:
     data = json.load(open(path))
     for key, values in data.get("ui", {}).items():
-        ui.setdefault(key, {}).update({k: v for k, v in values.items() if v})
+        ui.setdefault(key, {}).update({k: protect_latin_terms(k, v) for k, v in values.items() if v})
     for key, values in data.get("content", {}).items():
-        content.setdefault(key, {}).update({k: v for k, v in values.items() if v})
+        content.setdefault(key, {}).update({k: protect_latin_terms(k, v) for k, v in values.items() if v})
 
 # 1. Interface (String Catalog).
 strings_file = json.load(open(CATALOG))
