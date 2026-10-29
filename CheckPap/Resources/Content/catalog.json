@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "2026-10-29.12",
+  "contentVersion": "2026-10-29.13",
   "categories": [
     {
       "id": "expatriation",
@@ -11,8 +11,8 @@
         "en": "Moving abroad"
       },
       "subtitle": {
-        "fr": "Partir vivre à l'étranger, fiches pays",
-        "en": "Living abroad, country guides"
+        "fr": "Vivre à l'étranger : départ et fiches pays",
+        "en": "Living abroad: leaving and country guides"
       },
       "subcategories": [
         {
@@ -116,8 +116,8 @@
         "en": "Life in France"
       },
       "subtitle": {
-        "fr": "Impôts, logement, permis",
-        "en": "Taxes, housing, driving"
+        "fr": "Impôts, logement, permis de conduire",
+        "en": "Taxes, housing, driving licence"
       },
       "subcategories": [
         {
@@ -153,8 +153,8 @@
         "en": "Renew my residence permit"
       },
       "subtitle": {
-        "fr": "Mon titre arrive bientôt à expiration",
-        "en": "My permit expires soon"
+        "fr": "Avant la fin de validité de votre titre",
+        "en": "Before your permit expires"
       },
       "category": "residence",
       "subcategory": "permits"
@@ -163,11 +163,11 @@
       "id": "status_change",
       "symbol": "arrow.left.arrow.right",
       "title": {
-        "fr": "Changer de statut",
-        "en": "Change my status"
+        "fr": "Changer de titre de séjour",
+        "en": "Change my residence permit"
       },
       "subtitle": {
-        "fr": "Par exemple d'étudiant à salarié",
+        "fr": "Par exemple, passer d'étudiant à salarié",
         "en": "For example, from student to employee"
       },
       "category": "residence",
@@ -181,8 +181,8 @@
         "en": "Apply for French citizenship"
       },
       "subtitle": {
-        "fr": "Naturalisation par décret",
-        "en": "Naturalisation by decree"
+        "fr": "Par naturalisation",
+        "en": "Through naturalisation"
       },
       "category": "nationality",
       "subcategory": "naturalisation"
@@ -195,8 +195,8 @@
         "en": "Replace a lost or stolen permit"
       },
       "subtitle": {
-        "fr": "Demande de duplicata",
-        "en": "Duplicate request"
+        "fr": "Perte, vol ou carte abîmée",
+        "en": "Lost, stolen or damaged card"
       },
       "category": "residence",
       "subcategory": "permits"
@@ -205,7 +205,7 @@
       "id": "passport",
       "symbol": "person.crop.rectangle.stack",
       "title": {
-        "fr": "Faire ou refaire un passeport",
+        "fr": "Obtenir ou renouveler un passeport",
         "en": "Get or renew a passport"
       },
       "subtitle": {
@@ -241,18 +241,19 @@
         "en": "Leave and come back with the right documents"
       },
       "category": "identity_travel",
-      "subcategory": "travel"
+      "subcategory": "travel",
+      "showsCountries": true
     },
     {
       "id": "change_of_details",
       "symbol": "mappin.and.ellipse",
       "title": {
-        "fr": "Déclarer un changement d'adresse ou de situation",
-        "en": "Report a change of address or situation"
+        "fr": "Signaler un déménagement ou un changement",
+        "en": "Report a move or a change"
       },
       "subtitle": {
-        "fr": "Déménagement, mariage, nom",
-        "en": "Moving, marriage, name"
+        "fr": "Adresse, mariage, nom",
+        "en": "Address, marriage, name"
       },
       "category": "residence",
       "subcategory": "permits"
@@ -261,12 +262,12 @@
       "id": "dcem",
       "symbol": "figure.and.child.holdinghands",
       "title": {
-        "fr": "Document de circulation pour un mineur",
-        "en": "Travel document for a minor"
+        "fr": "Faire voyager mon enfant étranger",
+        "en": "Travel with my foreign child"
       },
       "subtitle": {
-        "fr": "DCEM pour votre enfant étranger",
-        "en": "DCEM for your foreign child"
+        "fr": "Document de circulation pour mineur (DCEM)",
+        "en": "Travel document for minors (DCEM)"
       },
       "category": "residence",
       "subcategory": "family"
@@ -275,8 +276,8 @@
       "id": "nationality_by_marriage",
       "symbol": "heart.circle",
       "title": {
-        "fr": "Nationalité par mariage",
-        "en": "Citizenship through marriage"
+        "fr": "Devenir français par mariage",
+        "en": "Become French through marriage"
       },
       "subtitle": {
         "fr": "Déclaration pour les conjoints de Français",
@@ -289,12 +290,12 @@
       "id": "family_reunification",
       "symbol": "person.3",
       "title": {
-        "fr": "Regroupement familial",
-        "en": "Family reunification"
+        "fr": "Faire venir ma famille",
+        "en": "Bring my family to France"
       },
       "subtitle": {
-        "fr": "Faire venir votre conjoint et vos enfants",
-        "en": "Bring your spouse and children"
+        "fr": "Regroupement familial : conjoint et enfants",
+        "en": "Family reunification: spouse and children"
       },
       "category": "residence",
       "subcategory": "family"
@@ -303,8 +304,8 @@
       "id": "first_tax_return",
       "symbol": "doc.text.magnifyingglass",
       "title": {
-        "fr": "Première déclaration d'impôts",
-        "en": "First tax return"
+        "fr": "Faire ma première déclaration d'impôts",
+        "en": "File my first tax return"
       },
       "subtitle": {
         "fr": "Déclarer vos revenus en France",
@@ -317,11 +318,11 @@
       "id": "identity_card",
       "symbol": "person.text.rectangle",
       "title": {
-        "fr": "Carte d'identité",
-        "en": "Identity card"
+        "fr": "Obtenir ou renouveler ma carte d'identité",
+        "en": "Get or renew my identity card"
       },
       "subtitle": {
-        "fr": "Pour les personnes françaises",
+        "fr": "Pour les personnes de nationalité française",
         "en": "For French citizens"
       },
       "category": "identity_travel",
@@ -331,12 +332,12 @@
       "id": "visale",
       "symbol": "key",
       "title": {
-        "fr": "Garantie Visale",
-        "en": "Visale guarantee"
+        "fr": "Trouver un garant pour louer",
+        "en": "Find a guarantor to rent"
       },
       "subtitle": {
-        "fr": "Une caution gratuite pour louer",
-        "en": "A free guarantor to rent"
+        "fr": "Garantie Visale, gratuite",
+        "en": "Visale guarantee, free of charge"
       },
       "category": "daily_life",
       "subcategory": "housing"
@@ -354,6 +355,21 @@
       },
       "category": "daily_life",
       "subcategory": "driving"
+    },
+    {
+      "id": "expatriation",
+      "symbol": "suitcase.rolling",
+      "title": {
+        "fr": "Préparer mon départ à l'étranger",
+        "en": "Prepare to move abroad"
+      },
+      "subtitle": {
+        "fr": "Registre, sécurité sociale, impôts, retraite",
+        "en": "Registration, social security, taxes, pension"
+      },
+      "category": "expatriation",
+      "subcategory": "departure",
+      "showsCountries": true
     }
   ]
 }

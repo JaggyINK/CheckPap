@@ -31,3 +31,20 @@ for part in try JSONDecoder().decode(RightsProfile.self, from: profileData).part
     where FileManager.default.fileExists(atPath: directory.appendingPathComponent("\(part).json").path) {
     check(RightsPart.self, "\(part).json") { "\($0.rights.count) droits" }
 }
+
+for (file, describe) in [
+    ("countries.json", { (data: Data) in "\(try JSONDecoder().decode(CountryList.self, from: data).countries.count) pays" }),
+    ("countries_details.json", { (data: Data) in "\(try JSONDecoder().decode(CountryDetailsFile.self, from: data).details.count) fiches détaillées" }),
+    ("countries_budget.json", { (data: Data) in
+        let budget = try JSONDecoder().decode(CountryBudgetFile.self, from: data)
+        return "\(budget.perDiem.count) barèmes, \(budget.rates.perEuro.count) taux, \(budget.workingHoliday?.count ?? 0) PVT"
+    }),
+] as [(String, (Data) throws -> String)] {
+    let url = directory.appendingPathComponent(file)
+    guard FileManager.default.fileExists(atPath: url.path) else { continue }
+    do {
+        print("OK      \(file) : \(try describe(Data(contentsOf: url)))")
+    } catch {
+        print("ERREUR  \(file) : \(error)")
+    }
+}

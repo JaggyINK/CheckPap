@@ -1,0 +1,1803 @@
+{
+  "id": "expatriation",
+  "reviewStatus": "draft",
+  "lastVerified": "2026-10-29",
+  "title": {
+    "fr": "Préparer mon départ à l'étranger",
+    "en": "Prepare my move abroad"
+  },
+  "summary": {
+    "fr": "Cette démarche aide une personne de nationalité française, y compris devenue française, à préparer son installation à l'étranger : papiers de voyage, visa, protection sociale, impôts, chômage, retraite, permis de conduire, scolarité des enfants, inscription au consulat et vote. Elle regroupe ce que disent service-public.gouv.fr, le ministère des Affaires étrangères, le Cleiss, la CFE, les impôts et France Travail.",
+    "en": "This helps a French national, including someone who became French, prepare to settle abroad: travel documents, visa, social security, taxes, unemployment, pension, driving licence, children's schooling, consular registration and voting. It brings together what service-public.gouv.fr, the Ministry for Foreign Affairs, Cleiss, CFE, the tax office and France Travail say."
+  },
+  "sources": [
+    {
+      "id": "sp_partir",
+      "publisher": "service-public.gouv.fr",
+      "title": "Je pars vivre à l'étranger (Vérifié le 26 avril 2024)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2485",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_registre",
+      "publisher": "service-public.gouv.fr",
+      "title": "Inscription consulaire au registre des Français établis hors de France (Vérifié le 29 septembre 2025)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33307",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_registre_teleservice",
+      "publisher": "service-public.gouv.fr",
+      "title": "Registre des Français établis hors de France - Inscription consulaire (Vérifié le 06 décembre 2023)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R43248",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_ariane",
+      "publisher": "service-public.gouv.fr",
+      "title": "Ariane : pour être alerté en cas de crise lors d'un voyage à l'étranger (Vérifié le 20 décembre 2023)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R18974",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_passeport_renouvellement",
+      "publisher": "service-public.gouv.fr",
+      "title": "Renouvellement du passeport d'un majeur (Vérifié le 22 mai 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F21091",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_legalisation",
+      "publisher": "service-public.gouv.fr",
+      "title": "Légalisation ou apostille d'un acte public établi par une autorité française (Vérifié le 01 septembre 2025)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1400",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_vaccins",
+      "publisher": "service-public.gouv.fr",
+      "title": "Vaccinations en cas de voyage à l'étranger (Vérifié le 14 septembre 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F720",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_impot_depart",
+      "publisher": "service-public.gouv.fr",
+      "title": "Impôt sur le revenu d'un Français qui part vivre ou travailler à l'étranger (Vérifié le 15 avril 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F31442",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_2042nr",
+      "publisher": "service-public.gouv.fr",
+      "title": "Déclaration 2026 des revenus 2025 - Départ à l'étranger ou retour en France, formulaire 2042-NR (Vérifié le 15 avril 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R10245",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_transfert_residence",
+      "publisher": "service-public.gouv.fr",
+      "title": "Déclaration de transfert de résidence hors de France, cerfa 15717*01 (Vérifié le 13 mai 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R63307",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_vote",
+      "publisher": "service-public.gouv.fr",
+      "title": "Vote d'un Français installé à l'étranger (Vérifié le 01 juin 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F16904",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_cerfa_lec",
+      "publisher": "service-public.gouv.fr",
+      "title": "Demande d'inscription sur les listes électorales, cerfa 12669 (Vérifié le 13 août 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R16024",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_procuration",
+      "publisher": "service-public.gouv.fr",
+      "title": "Vote par procuration (Vérifié le 02 février 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1604",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_maprocuration",
+      "publisher": "service-public.gouv.fr",
+      "title": "Maprocuration (Vérifié le 23 octobre 2023)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R58939",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_permis_international",
+      "publisher": "service-public.gouv.fr",
+      "title": "Permis international pour conduire à l'étranger (Vérifié le 16 octobre 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F11534",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_permis_europe",
+      "publisher": "service-public.gouv.fr",
+      "title": "Conduire en Europe (UE/EEE) avec un permis français (Vérifié le 22 août 2025)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F420",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_vehicule",
+      "publisher": "service-public.gouv.fr",
+      "title": "Que faire de son véhicule quand on part s'installer à l'étranger ? (Vérifié le 13 janvier 2025)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F32277",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_douane_argent",
+      "publisher": "service-public.gouv.fr",
+      "title": "Douane : transfert d'argent ou de fonds de la France vers l'étranger (Vérifié le 11 décembre 2024)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F794",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_animal",
+      "publisher": "service-public.gouv.fr",
+      "title": "Voyager à l'étranger avec son animal de compagnie (Vérifié le 28 avril 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F21374",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_courrier",
+      "publisher": "service-public.gouv.fr",
+      "title": "Transférez votre courrier (Vérifié le 11 juin 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R14213",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_csnj",
+      "publisher": "service-public.gouv.fr",
+      "title": "Un jeune doit-il déclarer que sa situation a changé depuis qu'il a fait son recensement citoyen ? (Vérifié le 19 juin 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1241",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_vie",
+      "publisher": "service-public.gouv.fr",
+      "title": "Volontariat international en entreprise (VIE) (Vérifié le 05 juin 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10040",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_via",
+      "publisher": "service-public.gouv.fr",
+      "title": "Volontariat international en administration (VIA) (Vérifié le 05 juin 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F13279",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_scolarite_europe",
+      "publisher": "service-public.gouv.fr",
+      "title": "Scolariser son enfant en Europe (Vérifié le 14 octobre 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F406",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_scolarite_hors_europe",
+      "publisher": "service-public.gouv.fr",
+      "title": "Scolariser son enfant à l'étranger (hors Espace économique européen) (Vérifié le 14 octobre 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F32800",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_retour",
+      "publisher": "service-public.gouv.fr",
+      "title": "Je rentre en France après avoir vécu à l'étranger (Vérifié le 17 juin 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F32823",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "dipl_guides",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Les guides de l'expatriation (Mis à jour le 27 octobre 2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/services-aux-francaises-et-aux-francais/preparer-son-expatriation/les-guides-de-l-expatriation",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "dipl_guide_pdf",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Expatriation : partir et revenir l'esprit tranquille (guide PDF, version du 27 octobre 2026)",
+      "url": "https://www.diplomatie.gouv.fr/files/files/pdf/guide-de-l-expatriation-fd-27-10-2026.pdf",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "dipl_checklist",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Expatriation : la check-list (dépliant PDF, avril 2025)",
+      "url": "https://www.diplomatie.gouv.fr/files/files/services/demarches-a-letranger/depliant_check-list_meae_avril_2025_cle049299-1.pdf",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "dipl_registre",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "S'inscrire au registre des Français établis hors de France (Mis à jour le 27 juillet 2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/services-aux-francaises-et-aux-francais/formalites-avant-le-depart/sinscrire-au-registre-des-francais-etablis-hors-de-france",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "dipl_cav",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Conseils aux voyageurs (Mis à jour le 29 octobre 2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "dipl_representations",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Annuaire des représentations étrangères en France (aucune date affichée)",
+      "url": "https://www.diplomatie.gouv.fr/fr/services/j-ai-une-question/annuaire-et-contacts/representations-etrangeres",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "dipl_reseau",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Ambassades et consulats français à l'étranger (aucune date affichée)",
+      "url": "https://www.diplomatie.gouv.fr/fr/le-ministere/reseau-diplomatique",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cleiss_travailler",
+      "publisher": "cleiss.fr",
+      "title": "Vous partez travailler à l'étranger (aucune date affichée)",
+      "url": "https://www.cleiss.fr/particuliers/partir/travailler/index.html",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cleiss_detachement_ue",
+      "publisher": "cleiss.fr",
+      "title": "Vous partez travailler dans l'Union européenne, en Islande, au Liechtenstein, en Norvège ou en Suisse (détachement) (aucune date affichée)",
+      "url": "https://www.cleiss.fr/particuliers/partir/travailler/detachement/883.html",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cleiss_detachement_hors",
+      "publisher": "cleiss.fr",
+      "title": "Détachement dans un pays qui n'est pas lié à la France par un accord de sécurité sociale (aucune date affichée)",
+      "url": "https://www.cleiss.fr/particuliers/partir/travailler/detachement/detachement_interne.html",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cleiss_expat_ue",
+      "publisher": "cleiss.fr",
+      "title": "Vous partez travailler dans l'UE, en Islande, au Liechtenstein ou en Norvège (expatriation) (aucune date affichée)",
+      "url": "https://www.cleiss.fr/particuliers/partir/travailler/expatriation/883.html",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cleiss_expat_hors",
+      "publisher": "cleiss.fr",
+      "title": "Vous partez travailler en tant qu'expatrié dans un pays sans accord de sécurité sociale (aucune date affichée)",
+      "url": "https://www.cleiss.fr/particuliers/partir/travailler/expatriation/horsconvention.html",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cleiss_ayant_droit",
+      "publisher": "cleiss.fr",
+      "title": "Personne sans activité qui part résider dans l'UE, l'EEE ou en Suisse, membre de la famille d'une personne qui travaille en France (aucune date affichée)",
+      "url": "https://www.cleiss.fr/particuliers/partir/resider/ue-eee-suisse_ayant-droit.html",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cleiss_etudes",
+      "publisher": "cleiss.fr",
+      "title": "Vous partez étudier à l'étranger : votre protection sociale (aucune date affichée)",
+      "url": "https://www.cleiss.fr/particuliers/partir/etudes/index.html",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cleiss_independants",
+      "publisher": "cleiss.fr",
+      "title": "Travailleurs indépendants et protection sociale à l'international (aucune date affichée)",
+      "url": "https://www.cleiss.fr/independants/index.php",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "ameli_detachement",
+      "publisher": "ameli.fr",
+      "title": "Vous êtes travailleur détaché à l'étranger (30 avril 2026)",
+      "url": "https://www.ameli.fr/assure/droits-demarches/europe-international/protection-sociale-etranger/travailleur-detachement-etranger",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "ameli_expatriation",
+      "publisher": "ameli.fr",
+      "title": "Vous êtes travailleur expatrié à l'étranger (19 janvier 2026)",
+      "url": "https://www.ameli.fr/assure/droits-demarches/europe-international/protection-sociale-etranger/travailleur-expatriation-etranger",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "ameli_retraite",
+      "publisher": "ameli.fr",
+      "title": "Retraité : partir vivre à l'étranger (13 janvier 2026)",
+      "url": "https://www.ameli.fr/assure/droits-demarches/europe-international/protection-sociale-etranger/retraite-etranger",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cfe_mondexpat",
+      "publisher": "cfe.fr",
+      "title": "Offre MondExpat Santé (aucune date affichée)",
+      "url": "https://www.cfe.fr/offre-mondexpat",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cfe_aidee",
+      "publisher": "cfe.fr",
+      "title": "Catégorie aidée (aucune date affichée)",
+      "url": "https://www.cfe.fr/categorie-aidee",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cfe_retraite",
+      "publisher": "cfe.fr",
+      "title": "Assurance retraite (aucune date affichée)",
+      "url": "https://www.cfe.fr/assurance-retraite",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "impots_depart",
+      "publisher": "impots.gouv.fr",
+      "title": "Je pars vivre à l'étranger, quelles démarches dois-je accomplir ? (modifié le 25/06/2026)",
+      "url": "https://www.impots.gouv.fr/particulier/questions/je-pars-vivre-letranger-quelles-demarches-dois-je-accomplir-dois-je-cloturer",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "impots_annee_depart",
+      "publisher": "impots.gouv.fr",
+      "title": "Comment déclarer les revenus relatifs à l'année de mon départ à l'étranger ? (modifié le 17/12/2025)",
+      "url": "https://www.impots.gouv.fr/international-particulier/questions/aupres-de-qui-dois-je-declarer-mes-revenus",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "impots_exit_tax",
+      "publisher": "impots.gouv.fr",
+      "title": "Je quitte la France, suis-je concerné par l'Exit Tax ? (modifié le 10/03/2026)",
+      "url": "https://www.impots.gouv.fr/particulier/questions/je-quitte-la-france-suis-je-concerne-par-lexit-tax",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "impots_conventions",
+      "publisher": "impots.gouv.fr",
+      "title": "Les conventions internationales (aucune date affichée)",
+      "url": "https://www.impots.gouv.fr/les-conventions-internationales",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "ft_adhesion",
+      "publisher": "francetravail.fr",
+      "title": "Les cas d'adhésion individuelle du salarié (aucune date affichée)",
+      "url": "https://www.francetravail.fr/candidat/mes-droits-aux-aides-et-allocati/lallocation-chomage-a-letranger/les-cas-dadhesion-individuelle-d.html",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "ft_europe",
+      "publisher": "francetravail.fr",
+      "title": "Je pars chercher un emploi en Europe (aucune date de mise à jour affichée)",
+      "url": "https://www.francetravail.fr/candidat/mes-droits-aux-aides-et-allocati/lallocation-chomage-a-letranger/je-pars-chercher-un-emploi-en-eu.html",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "ft_conjoint_europe",
+      "publisher": "francetravail.fr",
+      "title": "Je démissionne pour suivre mon conjoint en Europe (aucune date affichée)",
+      "url": "https://www.francetravail.fr/candidat/mes-droits-aux-aides-et-allocati/lallocation-chomage-a-letranger/je-demissionne-pour-suivre-mon-c.html",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "ft_conjoint_hors_europe",
+      "publisher": "francetravail.fr",
+      "title": "Je démissionne pour suivre mon conjoint hors de l'Europe (aucune date affichée)",
+      "url": "https://www.francetravail.fr/candidat/mes-droits-aux-aides-et-allocati/lallocation-chomage-a-letranger/je-demissionne-pour-suivre-mon-1.html",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "ft_travailler",
+      "publisher": "francetravail.fr",
+      "title": "Travailler à l'étranger (aucune date affichée)",
+      "url": "https://www.francetravail.fr/international/mobilite-internationale/travailler-a-letranger.html",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "ir_etranger",
+      "publisher": "info-retraite.fr",
+      "title": "Retraite à l'étranger (aucune date affichée)",
+      "url": "https://www.info-retraite.fr/portail-info/sites/PortailInformationnel/home/aide/retraite-a-letranger.html",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "ir_expatriation",
+      "publisher": "info-retraite.fr",
+      "title": "Expatriation (aucune date affichée)",
+      "url": "https://www.info-retraite.fr/portail-info/sites/PortailInformationnel/home/mes-droits-a-la-retraite/ma-vie-professionnelle-1/travail/expatriation.html",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "aefe_bourses",
+      "publisher": "aefe.gouv.fr",
+      "title": "Bourses scolaires : critères et modalités d'obtention (publié le 06/01/2025)",
+      "url": "https://aefe.gouv.fr/fr/scolarite/aide-la-scolarite-par-des-bourses-scolaires/criteres-et-modalites-dobtention",
+      "consulted": "2026-10-29"
+    }
+  ],
+  "questions": [
+    {
+      "id": "french_nationality",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Avez-vous la nationalité française ?",
+        "en": "Do you have French nationality?"
+      },
+      "help": {
+        "fr": "Répondez oui si vous êtes devenu français, par exemple par naturalisation ou par déclaration. Cette démarche suit les fiches pour les Français qui partent vivre à l'étranger.",
+        "en": "Answer yes if you became French, for example by naturalisation or declaration. This follows the guidance for French nationals moving abroad."
+      },
+      "condition": null,
+      "sources": ["sp_partir"]
+    },
+    {
+      "id": "destination_zone",
+      "kind": "single",
+      "title": {
+        "fr": "Où partez-vous vivre ?",
+        "en": "Where are you moving to?"
+      },
+      "help": {
+        "fr": "Les règles changent beaucoup entre l'Europe (Espace économique européen et Suisse) et les autres pays. Le Royaume-Uni compte parmi les autres pays.",
+        "en": "The rules differ a lot between Europe (European Economic Area and Switzerland) and other countries. The United Kingdom counts as another country."
+      },
+      "example": {
+        "fr": "Exemple : l'Espagne, la Belgique ou la Norvège sont dans l'EEE. Le Canada ou le Maroc n'y sont pas.",
+        "en": "Example: Spain, Belgium or Norway are in the EEA. Canada or Morocco are not."
+      },
+      "options": [
+        {
+          "id": "eee_switzerland",
+          "label": {
+            "fr": "Un pays de l'Union européenne, de l'EEE, ou la Suisse",
+            "en": "An EU or EEA country, or Switzerland"
+          },
+          "help": {
+            "fr": "Les 27 pays de l'Union européenne, plus l'Islande, le Liechtenstein et la Norvège, et la Suisse.",
+            "en": "The 27 EU countries, plus Iceland, Liechtenstein and Norway, and Switzerland."
+          }
+        },
+        {
+          "id": "other",
+          "label": {
+            "fr": "Un autre pays",
+            "en": "Another country"
+          },
+          "help": {
+            "fr": "Par exemple le Royaume-Uni, les États-Unis, le Canada, un pays d'Afrique ou d'Asie.",
+            "en": "For example the United Kingdom, the United States, Canada, a country in Africa or Asia."
+          }
+        }
+      ],
+      "condition": { "question": "french_nationality", "equals": "yes" },
+      "sources": ["sp_partir"]
+    },
+    {
+      "id": "reason",
+      "kind": "single",
+      "title": {
+        "fr": "Pourquoi partez-vous ?",
+        "en": "Why are you leaving?"
+      },
+      "help": {
+        "fr": "Votre protection sociale dépend surtout de ce point. Si plusieurs cas vous concernent, choisissez votre situation principale.",
+        "en": "Your social security mainly depends on this. If several cases apply, choose your main situation."
+      },
+      "options": [
+        {
+          "id": "local_job",
+          "label": { "fr": "Je vais travailler avec un contrat local", "en": "I will work on a local contract" },
+          "help": {
+            "fr": "Vous êtes embauché par un employeur sur place. On parle d'expatrié : vous relevez du régime du pays où vous travaillez.",
+            "en": "You are hired by a local employer. This is called an expatriate: you come under the scheme of the country where you work."
+          }
+        },
+        {
+          "id": "posted",
+          "label": { "fr": "Mon employeur en France m'envoie en mission (détachement)", "en": "My employer in France sends me on assignment (posting)" },
+          "help": {
+            "fr": "Vous restez rattaché à la sécurité sociale française pendant une durée limitée.",
+            "en": "You stay covered by French social security for a limited time."
+          }
+        },
+        {
+          "id": "volunteer",
+          "label": { "fr": "Je pars en volontariat international (VIE ou VIA)", "en": "I am going on an international volunteer programme (VIE or VIA)" }
+        },
+        {
+          "id": "studies",
+          "label": { "fr": "Je pars faire des études", "en": "I am going to study" }
+        },
+        {
+          "id": "retirement",
+          "label": { "fr": "Je suis retraité", "en": "I am retired" }
+        },
+        {
+          "id": "business",
+          "label": { "fr": "Je vais créer une entreprise ou travailler à mon compte", "en": "I will start a business or be self-employed" }
+        },
+        {
+          "id": "spouse",
+          "label": { "fr": "J'accompagne mon conjoint, sans travailler sur place", "en": "I am joining my partner, without working there" }
+        }
+      ],
+      "condition": { "question": "french_nationality", "equals": "yes" },
+      "sources": ["sp_partir", "dipl_guide_pdf", "cleiss_travailler"]
+    },
+    {
+      "id": "stay_length",
+      "kind": "single",
+      "title": {
+        "fr": "Combien de temps pensez-vous rester à l'étranger ?",
+        "en": "How long do you plan to stay abroad?"
+      },
+      "help": {
+        "fr": "L'inscription au registre des Français établis hors de France s'adresse aux personnes qui s'installent plus de 6 mois à l'étranger.",
+        "en": "Registration with the register of French nationals abroad is meant for people settling abroad for more than 6 months."
+      },
+      "options": [
+        {
+          "id": "under_6_months",
+          "label": { "fr": "Moins de 6 mois", "en": "Less than 6 months" }
+        },
+        {
+          "id": "six_months_or_more",
+          "label": { "fr": "6 mois ou plus", "en": "6 months or more" }
+        }
+      ],
+      "condition": { "question": "french_nationality", "equals": "yes" },
+      "sources": ["sp_registre"]
+    },
+    {
+      "id": "departure_date",
+      "kind": "date",
+      "title": {
+        "fr": "À quelle date partez-vous ?",
+        "en": "When are you leaving?"
+      },
+      "help": {
+        "fr": "Une date approximative suffit. Elle sert à calculer les échéances avant et après le départ.",
+        "en": "An approximate date is enough. It is used to work out deadlines before and after you leave."
+      },
+      "condition": { "question": "french_nationality", "equals": "yes" },
+      "sources": ["sp_partir", "sp_permis_international", "ameli_expatriation", "cfe_mondexpat"]
+    },
+    {
+      "id": "children",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Des enfants mineurs partent-ils avec vous ?",
+        "en": "Are minor children going with you?"
+      },
+      "help": {
+        "fr": "Chaque enfant a besoin de ses propres papiers, et il faut organiser sa scolarité.",
+        "en": "Each child needs their own documents, and their schooling has to be arranged."
+      },
+      "condition": { "question": "french_nationality", "equals": "yes" },
+      "sources": ["sp_partir", "dipl_guide_pdf"]
+    },
+    {
+      "id": "france_travail",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Êtes-vous inscrit à France Travail ?",
+        "en": "Are you registered with France Travail?"
+      },
+      "help": {
+        "fr": "Par exemple si vous recevez l'allocation chômage. France Travail demande d'être prévenu avant le départ.",
+        "en": "For example if you receive unemployment benefit. France Travail asks to be told before you leave."
+      },
+      "condition": { "question": "french_nationality", "equals": "yes" },
+      "sources": ["sp_partir"]
+    },
+    {
+      "id": "caf_msa",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Recevez-vous des aides de la Caf ou de la MSA ?",
+        "en": "Do you receive benefits from the Caf or the MSA?"
+      },
+      "help": {
+        "fr": "Par exemple des allocations familiales ou une aide au logement.",
+        "en": "For example family allowance or housing benefit."
+      },
+      "condition": { "question": "french_nationality", "equals": "yes" },
+      "sources": ["sp_partir"]
+    },
+    {
+      "id": "driving_licence",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Avez-vous un permis de conduire français ?",
+        "en": "Do you have a French driving licence?"
+      },
+      "condition": { "question": "french_nationality", "equals": "yes" },
+      "sources": ["sp_permis_international", "sp_permis_europe"]
+    },
+    {
+      "id": "french_income",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Aurez-vous encore des revenus venant de France après votre départ ?",
+        "en": "Will you still have income from France after you leave?"
+      },
+      "help": {
+        "fr": "Par exemple des loyers d'un logement en France, une pension de retraite française, ou un salaire versé par un employeur en France.",
+        "en": "For example rent from a property in France, a French pension, or a salary paid by an employer in France."
+      },
+      "condition": { "question": "french_nationality", "equals": "yes" },
+      "sources": ["sp_impot_depart", "impots_annee_depart"]
+    }
+  ],
+  "outcomes": [
+    {
+      "id": "not_french",
+      "kind": "redirect",
+      "condition": { "question": "french_nationality", "equals": "no" },
+      "title": {
+        "fr": "Cette démarche ne semble pas correspondre à votre situation",
+        "en": "This process does not seem to match your situation"
+      },
+      "body": {
+        "fr": "D'après service-public.gouv.fr, la fiche « Je pars vivre à l'étranger » concerne les personnes de nationalité française. Les conditions d'entrée et de séjour dans un autre pays dépendent de votre nationalité et sont fixées par ce pays.",
+        "en": "According to service-public.gouv.fr, the \"Je pars vivre à l'étranger\" page is for French nationals. The entry and residence conditions of another country depend on your nationality and are set by that country."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Contacter l'ambassade ou le consulat du pays de destination",
+            "en": "Contact the embassy or consulate of the destination country"
+          },
+          "body": {
+            "fr": "Le ministère des Affaires étrangères renvoie vers l'annuaire des représentations étrangères en France. Le visa et les pièces sont fixés par le pays où vous allez.",
+            "en": "The Ministry for Foreign Affairs points to the directory of foreign representations in France. The visa and documents are set by the country you are going to."
+          },
+          "link": {
+            "title": { "fr": "Ouvrir l'annuaire", "en": "Open the directory" },
+            "url": "https://www.diplomatie.gouv.fr/fr/services/j-ai-une-question/annuaire-et-contacts/representations-etrangeres"
+          }
+        },
+        {
+          "title": {
+            "fr": "Si vous avez un titre de séjour en France",
+            "en": "If you hold a French residence permit"
+          },
+          "body": {
+            "fr": "Consultez la démarche « Voyager à l'étranger » de l'application pour les règles liées à votre titre de séjour.",
+            "en": "See the app's \"Travel abroad\" process for rules linked to your residence permit."
+          }
+        }
+      ],
+      "contacts": ["france_services"],
+      "letters": [],
+      "sources": ["sp_partir", "dipl_representations"]
+    },
+    {
+      "id": "short_stay",
+      "kind": "warning",
+      "condition": { "question": "stay_length", "equals": "under_6_months" },
+      "title": {
+        "fr": "Séjour de moins de 6 mois",
+        "en": "Stay of less than 6 months"
+      },
+      "body": {
+        "fr": "Service-public.gouv.fr indique que l'inscription au registre des Français établis hors de France s'adresse aux personnes qui s'installent plus de 6 mois à l'étranger. Pour un séjour plus court, il recommande de s'enregistrer sur la plateforme Ariane pour être alerté en cas d'événement grave. L'assurance rapatriement liée à une carte bancaire ne couvre que les séjours de moins de 3 mois.",
+        "en": "Service-public.gouv.fr says registration with the register of French nationals abroad is for people settling abroad for more than 6 months. For a shorter stay, it recommends signing up to the Ariane platform to be alerted of serious events. Repatriation insurance that comes with a bank card only covers stays of less than 3 months."
+      },
+      "actions": [
+        {
+          "title": { "fr": "S'inscrire sur Ariane", "en": "Sign up to Ariane" },
+          "body": {
+            "fr": "Le service est présenté sur service-public.gouv.fr.",
+            "en": "The service is described on service-public.gouv.fr."
+          },
+          "link": {
+            "title": { "fr": "Voir la page Ariane", "en": "See the Ariane page" },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R18974"
+          }
+        }
+      ],
+      "contacts": [],
+      "letters": [],
+      "sources": ["sp_registre", "sp_ariane", "sp_partir"]
+    },
+    {
+      "id": "departure_soon",
+      "kind": "warning",
+      "condition": { "question": "departure_date", "daysFromToday": { "min": 0, "max": 30 } },
+      "title": {
+        "fr": "Votre départ est dans moins d'un mois",
+        "en": "You leave in less than a month"
+      },
+      "body": {
+        "fr": "Service-public.gouv.fr rappelle que les délais pour obtenir un passeport varient selon la période de l'année, qu'un visa peut demander plusieurs semaines, et recommande de demander le permis international au moins 1 mois avant le départ. Commencez par ces points.",
+        "en": "Service-public.gouv.fr points out that passport processing times vary through the year, that a visa can take several weeks, and recommends applying for an international driving permit at least 1 month before leaving. Start with these."
+      },
+      "actions": [],
+      "contacts": [],
+      "letters": [],
+      "sources": ["sp_partir", "sp_permis_international"]
+    },
+    {
+      "id": "already_left",
+      "kind": "warning",
+      "condition": { "question": "departure_date", "daysFromToday": { "max": -1 } },
+      "title": {
+        "fr": "Vous êtes déjà parti",
+        "en": "You have already left"
+      },
+      "body": {
+        "fr": "Plusieurs démarches se font en ligne depuis l'étranger : inscription au registre des Français établis hors de France, changement d'adresse dans votre espace impots.gouv.fr, adhésion à la CFE. D'après ameli.fr, la déclaration de transfert de résidence se fait dans le mois qui suit la date où vous cessez de résider en France. D'après la CFE, une adhésion dans les 3 mois après l'installation à l'étranger permet une prise en charge immédiate.",
+        "en": "Several steps can be done online from abroad: registration with the register of French nationals abroad, change of address in your impots.gouv.fr account, joining the CFE. According to ameli.fr, the declaration of transfer of residence is made within one month of ceasing to live in France. According to the CFE, joining within 3 months of settling abroad gives immediate cover."
+      },
+      "actions": [],
+      "contacts": [],
+      "letters": [],
+      "sources": ["sp_registre", "impots_depart", "ameli_expatriation", "cfe_mondexpat"]
+    }
+  ],
+  "documents": [
+    {
+      "id": "id_document",
+      "category": "identity",
+      "title": {
+        "fr": "Carte d'identité ou passeport en cours de validité",
+        "en": "Valid ID card or passport"
+      },
+      "details": {
+        "fr": "Dans l'EEE et en Suisse, une carte d'identité ou un passeport en cours de validité suffit. Vérifiez la date de fin de validité avant de partir.",
+        "en": "In the EEA and Switzerland, a valid ID card or passport is enough. Check the expiry date before leaving."
+      },
+      "tip": {
+        "fr": "Le guide du ministère conseille de garder une copie numérique de vos papiers en cas de perte ou de vol.",
+        "en": "The ministry's guide suggests keeping a digital copy of your documents in case of loss or theft."
+      },
+      "condition": { "question": "destination_zone", "equals": "eee_switzerland" },
+      "sources": ["sp_partir", "dipl_guide_pdf"]
+    },
+    {
+      "id": "passport",
+      "category": "identity",
+      "title": {
+        "fr": "Passeport en cours de validité",
+        "en": "Valid passport"
+      },
+      "details": {
+        "fr": "Hors Europe, un passeport en cours de validité est demandé. Certains pays exigent une durée minimum de validité après la date d'entrée ; la check-list du ministère parle de plus de 6 mois pour certains pays. Pour un renouvellement en France, le timbre fiscal d'un majeur est de 86 €.",
+        "en": "Outside Europe, a valid passport is required. Some countries require a minimum validity after the entry date; the ministry's checklist mentions more than 6 months for some countries. For a renewal in France, the tax stamp for an adult is €86."
+      },
+      "tip": {
+        "fr": "Les délais d'obtention varient selon les périodes de l'année : faites la démarche sans tarder.",
+        "en": "Processing times vary through the year: apply without delay."
+      },
+      "condition": { "question": "destination_zone", "equals": "other" },
+      "sources": ["sp_partir", "dipl_checklist", "sp_passeport_renouvellement"]
+    },
+    {
+      "id": "children_passports",
+      "category": "identity",
+      "title": {
+        "fr": "Pièce d'identité de chaque enfant",
+        "en": "Identity document for each child"
+      },
+      "details": {
+        "fr": "Un mineur doit avoir un passeport individuel, quel que soit son âge, pour un pays hors Europe. Le guide du ministère indique qu'une autorisation de sortie du territoire est nécessaire si le mineur voyage sans l'un de ses parents.",
+        "en": "A minor needs their own passport, whatever their age, for a country outside Europe. The ministry's guide says an authorisation to leave the country is needed if the minor travels without one of their parents."
+      },
+      "condition": { "question": "children", "equals": "yes" },
+      "sources": ["sp_partir", "dipl_guide_pdf"]
+    },
+    {
+      "id": "visa",
+      "category": "residence",
+      "title": {
+        "fr": "Visa du pays de destination",
+        "en": "Visa for the destination country"
+      },
+      "details": {
+        "fr": "Dans la plupart des pays hors Europe, un visa est demandé. Il se demande au consulat en France du pays où vous allez vous installer, selon le motif du séjour (travail, études, résidence...). Les démarches peuvent prendre plusieurs semaines et plusieurs documents sont demandés.",
+        "en": "Most countries outside Europe require a visa. You apply at the French-based consulate of the country where you will settle, according to the purpose of the stay (work, study, residence...). It can take several weeks and several documents are requested."
+      },
+      "condition": { "question": "destination_zone", "equals": "other" },
+      "sources": ["sp_partir", "dipl_guide_pdf"]
+    },
+    {
+      "id": "legalised_documents",
+      "category": "civil_status",
+      "title": {
+        "fr": "Documents légalisés demandés par le pays d'accueil",
+        "en": "Legalised documents requested by the host country"
+      },
+      "details": {
+        "fr": "Pour le permis de séjour, de travail ou d'études, les autorités locales peuvent exiger des documents français légalisés ou apostillés. Renseignez-vous d'abord au consulat du pays en France. Le guide du ministère indique que la légalisation se fait par courrier auprès du Bureau des légalisations à Paris, avec les originaux, de préférence avant le départ.",
+        "en": "For a residence, work or study permit, local authorities may require French documents to be legalised or apostilled. Ask the country's consulate in France first. The ministry's guide says legalisation is done by post with the Legalisation Office in Paris, with the originals, preferably before leaving."
+      },
+      "condition": { "question": "destination_zone", "equals": "other" },
+      "sources": ["sp_partir", "dipl_guide_pdf", "sp_legalisation"]
+    },
+    {
+      "id": "posting_certificate",
+      "category": "work",
+      "title": {
+        "fr": "Certificat de détachement remis par votre employeur",
+        "en": "Posting certificate given by your employer"
+      },
+      "details": {
+        "fr": "Votre employeur informe l'Urssaf avant le départ. Il obtient un certificat A1 (EEE, Suisse, Royaume-Uni), un certificat prévu par l'accord de sécurité sociale du pays, ou un certificat de maintien à la sécurité sociale française pour les autres pays. Il vous le remet : gardez-le et présentez-le si on vous le demande.",
+        "en": "Your employer informs Urssaf before you leave. It obtains an A1 certificate (EEA, Switzerland, UK), a certificate under the country's social security agreement, or a certificate of continued French cover for other countries. It gives it to you: keep it and show it if asked."
+      },
+      "tip": {
+        "fr": "Ameli.fr indique que, sauf cas exceptionnel, un détachement ne dépasse pas 24 mois ; la durée peut varier selon les conventions.",
+        "en": "Ameli.fr says that, except in special cases, a posting does not exceed 24 months; the length may vary by agreement."
+      },
+      "condition": { "question": "reason", "equals": "posted" },
+      "sources": ["ameli_detachement", "cleiss_detachement_ue", "cleiss_detachement_hors"]
+    },
+    {
+      "id": "s1_posted",
+      "category": "other",
+      "title": {
+        "fr": "Formulaire S1 (si vous vivez dans le pays de détachement)",
+        "en": "S1 form (if you live in the posting country)"
+      },
+      "details": {
+        "fr": "Pour être soigné sur place comme un assuré local, demandez le formulaire S1 à votre caisse d'assurance maladie en France, avant le départ ou depuis le pays, puis remettez-le à la caisse maladie du lieu de résidence. Vous ne remplissez pas le S1 vous-même.",
+        "en": "To be treated locally like a local insured person, ask your health insurance fund in France for the S1 form, before leaving or from abroad, then hand it to the local health fund. You do not fill in the S1 yourself."
+      },
+      "condition": {
+        "all": [
+          { "question": "reason", "equals": "posted" },
+          { "question": "destination_zone", "equals": "eee_switzerland" }
+        ]
+      },
+      "sources": ["ameli_detachement", "cleiss_detachement_ue"]
+    },
+    {
+      "id": "s1_retiree",
+      "category": "other",
+      "title": {
+        "fr": "Formulaire S1 (E 121) de votre caisse de retraite",
+        "en": "S1 (E 121) form from your pension fund"
+      },
+      "details": {
+        "fr": "Avant le départ, demandez le formulaire E 121/S1 à votre caisse de retraite. Il permet de vous inscrire auprès de la sécurité sociale de votre lieu de résidence. Il est individuel : un formulaire pour chaque membre de la famille qui vous accompagne.",
+        "en": "Before leaving, ask your pension fund for the E 121/S1 form. It lets you register with the social security of your place of residence. It is individual: one form for each family member going with you."
+      },
+      "condition": {
+        "all": [
+          { "question": "reason", "equals": "retirement" },
+          { "question": "destination_zone", "equals": "eee_switzerland" }
+        ]
+      },
+      "sources": ["ameli_retraite"]
+    },
+    {
+      "id": "s1_family_member",
+      "category": "other",
+      "title": {
+        "fr": "Formulaire S1 au titre de votre conjoint",
+        "en": "S1 form through your partner"
+      },
+      "details": {
+        "fr": "Si vous êtes sans activité et que votre conjoint est assuré en France pour son travail, le Cleiss indique que la caisse maladie du pays examine votre situation grâce au document S1. Si votre conjoint ne part pas avec vous, demandez le S1 à sa caisse en France et remettez-le à la caisse de votre nouveau lieu de résidence.",
+        "en": "If you do not work and your partner is insured in France through their job, Cleiss says the local health fund examines your situation with the S1 document. If your partner is not coming with you, ask their fund in France for the S1 and give it to the fund at your new place of residence."
+      },
+      "condition": {
+        "all": [
+          { "question": "reason", "equals": "spouse" },
+          { "question": "destination_zone", "equals": "eee_switzerland" }
+        ]
+      },
+      "sources": ["cleiss_ayant_droit"]
+    },
+    {
+      "id": "transfer_of_residence_form",
+      "category": "other",
+      "title": {
+        "fr": "Déclaration de transfert de résidence hors de France (S1105)",
+        "en": "Declaration of transfer of residence outside France (S1105)"
+      },
+      "details": {
+        "fr": "Formulaire cerfa 15717*01, gratuit, à envoyer à votre CPAM (ou à la MSA). Ameli.fr demande de l'envoyer dans le mois qui suit la date où vous cessez de résider en France, pour vous et vos enfants mineurs ; chaque adulte qui vous accompagne fait la même démarche. Rendez aussi votre carte Vitale et votre carte européenne d'assurance maladie.",
+        "en": "Form cerfa 15717*01, free, to send to your CPAM (or MSA). Ameli.fr asks you to send it within one month of ceasing to live in France, for you and your minor children; each adult going with you does the same. Also return your Carte Vitale and European Health Insurance Card."
+      },
+      "tip": {
+        "fr": "Le formulaire peut être rempli en ligne puis imprimé et signé.",
+        "en": "The form can be filled in online, then printed and signed."
+      },
+      "condition": { "question": "reason", "equals": "local_job" },
+      "sources": ["sp_transfert_residence", "ameli_expatriation"]
+    },
+    {
+      "id": "u2_form",
+      "category": "work",
+      "title": {
+        "fr": "Formulaire U2 de France Travail",
+        "en": "U2 form from France Travail"
+      },
+      "details": {
+        "fr": "Si vous recevez l'allocation chômage et partez chercher du travail en Europe, le U2 permet de garder vos allocations jusqu'à 3 mois. Il se demande à France Travail avant le départ et se remet au service de l'emploi du nouveau pays.",
+        "en": "If you receive unemployment benefit and go to look for work in Europe, the U2 lets you keep your benefit for up to 3 months. Ask France Travail for it before leaving and hand it to the employment service of the new country."
+      },
+      "condition": {
+        "all": [
+          { "question": "france_travail", "equals": "yes" },
+          { "question": "destination_zone", "equals": "eee_switzerland" }
+        ]
+      },
+      "sources": ["ft_europe", "ft_conjoint_europe"]
+    },
+    {
+      "id": "u1_form",
+      "category": "work",
+      "title": {
+        "fr": "Formulaire U1 (périodes de travail en France)",
+        "en": "U1 form (periods of work in France)"
+      },
+      "details": {
+        "fr": "Le U1 récapitule vos périodes de travail en France. Il peut être pris en compte pour vos droits au chômage dans le nouveau pays européen. La demande se fait en ligne ; le lien est sur la page de France Travail.",
+        "en": "The U1 lists your periods of work in France. It can be taken into account for unemployment rights in the new European country. You apply online; the link is on the France Travail page."
+      },
+      "condition": {
+        "all": [
+          { "question": "reason", "equals": "local_job" },
+          { "question": "destination_zone", "equals": "eee_switzerland" }
+        ]
+      },
+      "sources": ["ft_europe", "cleiss_expat_ue"]
+    },
+    {
+      "id": "caf_certificate",
+      "category": "family",
+      "title": {
+        "fr": "Attestation de radiation ou de non-droit de la Caf ou de la MSA",
+        "en": "Caf or MSA certificate of removal or no entitlement"
+      },
+      "details": {
+        "fr": "Les bourses scolaires de l'AEFE ne se cumulent pas avec les prestations de la Caf. Si vous comptez demander une bourse, demandez cette attestation à la Caf ou à la MSA avant le départ.",
+        "en": "AEFE school grants cannot be combined with Caf benefits. If you plan to apply for a grant, ask the Caf or MSA for this certificate before leaving."
+      },
+      "condition": {
+        "all": [
+          { "question": "children", "equals": "yes" },
+          { "question": "caf_msa", "equals": "yes" }
+        ]
+      },
+      "sources": ["sp_partir", "aefe_bourses"]
+    },
+    {
+      "id": "school_reports",
+      "category": "studies",
+      "title": {
+        "fr": "Derniers bulletins scolaires des enfants",
+        "en": "Children's latest school reports"
+      },
+      "details": {
+        "fr": "Ils sont en général demandés pour l'inscription dans une école du pays. Une attestation de niveau de langue peut aussi être demandée. Une traduction ou une légalisation est parfois nécessaire.",
+        "en": "They are usually requested to enrol in a local school. A language level certificate may also be requested. A translation or legalisation is sometimes needed."
+      },
+      "condition": { "question": "children", "equals": "yes" },
+      "sources": ["sp_scolarite_europe", "sp_scolarite_hors_europe"]
+    },
+    {
+      "id": "international_permit",
+      "category": "other",
+      "title": {
+        "fr": "Permis de conduire international (si le pays l'exige)",
+        "en": "International driving permit (if the country requires it)"
+      },
+      "details": {
+        "fr": "Demande en ligne sur le site de France Titres (ANTS), 7,25 €. Pièces : justificatif d'identité, justificatif de domicile de moins de 6 mois, permis en cours de validité et en bon état, e-photo (photo signature) de moins de 6 mois.",
+        "en": "Apply online on the France Titres (ANTS) website, €7.25. Documents: proof of identity, proof of address less than 6 months old, valid licence in good condition, e-photo (photo and signature) less than 6 months old."
+      },
+      "tip": {
+        "fr": "Vérifiez d'abord si le pays l'exige : le permis français suffit dans de nombreux pays.",
+        "en": "First check whether the country requires it: the French licence is enough in many countries."
+      },
+      "guides": ["ephoto"],
+      "condition": {
+        "all": [
+          { "question": "driving_licence", "equals": "yes" },
+          { "question": "destination_zone", "equals": "other" }
+        ]
+      },
+      "sources": ["sp_permis_international"]
+    },
+    {
+      "id": "vie_application",
+      "category": "work",
+      "title": {
+        "fr": "Dossier de volontariat international",
+        "en": "International volunteer application"
+      },
+      "details": {
+        "fr": "Un CV, votre numéro identifiant défense si vous avez moins de 25 ans (il figure sur le certificat de la journée défense et citoyenneté), un casier judiciaire vierge, puis un certificat médical d'aptitude une fois sélectionné.",
+        "en": "A CV, your defence ID number if you are under 25 (shown on the defence and citizenship day certificate), a clean criminal record, then a medical fitness certificate once selected."
+      },
+      "guides": ["criminal_record"],
+      "condition": { "question": "reason", "equals": "volunteer" },
+      "sources": ["sp_vie", "sp_via"]
+    },
+    {
+      "id": "tax_return_forms",
+      "category": "tax",
+      "title": {
+        "fr": "Déclarations de revenus l'année suivant le départ (2042 et 2042-NR)",
+        "en": "Tax returns the year after leaving (2042 and 2042-NR)"
+      },
+      "details": {
+        "fr": "Au printemps de l'année qui suit le départ, la déclaration 2042 regroupe vos revenus du 1er janvier à la date du départ. La 2042-NR regroupe vos revenus de source française imposables en France entre le départ et le 31 décembre. En ligne, la 2042-NR se coche dans les annexes.",
+        "en": "In spring of the year after you leave, form 2042 covers your income from 1 January to the date you left. Form 2042-NR covers French-source income taxable in France between your departure and 31 December. Online, 2042-NR is ticked in the annexes."
+      },
+      "condition": { "question": "french_income", "equals": "yes" },
+      "sources": ["sp_impot_depart", "sp_2042nr", "impots_depart", "impots_annee_depart"]
+    },
+    {
+      "id": "customs_moving_documents",
+      "category": "other",
+      "title": {
+        "fr": "Documents pour la douane (déménagement hors Union européenne)",
+        "en": "Customs documents (moving outside the EU)"
+      },
+      "details": {
+        "fr": "Le guide du ministère cite : un document qui justifie le changement de résidence (passeport, titre de propriété ou de location, attestation de changement de résidence du consulat), une attestation du bailleur ou de la mairie (à défaut une déclaration sur l'honneur), et un inventaire détaillé, estimatif, daté, paginé et signé des biens, en double exemplaire.",
+        "en": "The ministry's guide lists: a document proving the change of residence (passport, deed or lease, change of residence certificate from the consulate), a certificate from the landlord or town hall (or else a sworn statement), and a detailed, valued, dated, numbered and signed inventory of your belongings, in two copies."
+      },
+      "condition": { "question": "destination_zone", "equals": "other" },
+      "sources": ["dipl_guide_pdf"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "country_sheet",
+      "phase": "before",
+      "title": {
+        "fr": "Consulter la fiche de votre pays",
+        "en": "Read your country's page"
+      },
+      "body": {
+        "fr": "Choisissez votre pays de destination dans la liste pour voir sa fiche. Les Conseils aux voyageurs du ministère donnent aussi, par pays, la sécurité, la santé, les règles locales et les formalités d'entrée.",
+        "en": "Choose your destination country from the list to see its page. The ministry's travel advice also gives, by country, safety, health, local rules and entry formalities."
+      },
+      "link": {
+        "title": { "fr": "Ouvrir les Conseils aux voyageurs", "en": "Open the travel advice" },
+        "url": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs"
+      },
+      "condition": null,
+      "sources": ["dipl_cav", "dipl_guide_pdf"]
+    },
+    {
+      "id": "official_checklist",
+      "phase": "before",
+      "title": {
+        "fr": "Télécharger la check-list et le guide du ministère",
+        "en": "Download the ministry's checklist and guide"
+      },
+      "body": {
+        "fr": "Le ministère des Affaires étrangères publie une check-list à imprimer (avant de partir, à l'étranger, avant de revenir) et le guide « Expatriation : partir et revenir l'esprit tranquille », mis à jour le 27 octobre 2026, avec les contacts utiles. Un « Guide du jeune expat » existe pour les études, stages et volontariats. Service-public.gouv.fr propose aussi une liste personnalisée dans sa fiche « Je pars vivre à l'étranger ».",
+        "en": "The Ministry for Foreign Affairs publishes a printable checklist (before leaving, abroad, before coming back) and the guide \"Expatriation : partir et revenir l'esprit tranquille\", updated on 27 October 2026, with useful contacts. A \"Young expat guide\" covers studies, internships and volunteering. Service-public.gouv.fr also offers a personalised list on its \"Je pars vivre à l'étranger\" page."
+      },
+      "link": {
+        "title": { "fr": "Voir les guides de l'expatriation", "en": "See the expatriation guides" },
+        "url": "https://www.diplomatie.gouv.fr/fr/services-aux-francaises-et-aux-francais/preparer-son-expatriation/les-guides-de-l-expatriation"
+      },
+      "condition": null,
+      "sources": ["dipl_guides", "dipl_checklist", "dipl_guide_pdf", "sp_partir"]
+    },
+    {
+      "id": "check_travel_documents",
+      "phase": "before",
+      "title": {
+        "fr": "Vérifier la validité de vos papiers",
+        "en": "Check that your documents are valid"
+      },
+      "body": {
+        "fr": "Regardez la date de fin de validité de votre passeport ou de votre carte d'identité, et de ceux de vos enfants. Si un renouvellement est nécessaire, faites-le sans tarder : les délais varient selon la période. Une fois à l'étranger, vous pourrez demander un passeport au consulat.",
+        "en": "Check the expiry date of your passport or ID card, and your children's. If a renewal is needed, do it without delay: processing times vary. Once abroad, you can apply for a passport at the consulate."
+      },
+      "link": {
+        "title": { "fr": "Renouveler un passeport", "en": "Renew a passport" },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F21091"
+      },
+      "condition": null,
+      "sources": ["sp_partir", "dipl_guide_pdf", "sp_passeport_renouvellement"]
+    },
+    {
+      "id": "visa_request",
+      "phase": "before",
+      "title": {
+        "fr": "Demander le visa au consulat du pays",
+        "en": "Apply for the visa at the country's consulate"
+      },
+      "body": {
+        "fr": "Renseignez-vous auprès de l'ambassade ou du consulat du pays en France sur le visa, le droit au séjour et le permis de travail. Demandez le visa qui correspond à votre situation : il conditionne souvent le titre de séjour obtenu sur place. Sur place, d'autres formalités peuvent être demandées par les autorités locales.",
+        "en": "Ask the country's embassy or consulate in France about the visa, residence rights and work permit. Apply for the visa that matches your situation: it often determines the residence permit you get there. Once there, local authorities may require other formalities."
+      },
+      "link": {
+        "title": { "fr": "Trouver l'ambassade du pays en France", "en": "Find the country's embassy in France" },
+        "url": "https://www.diplomatie.gouv.fr/fr/services/j-ai-une-question/annuaire-et-contacts/representations-etrangeres"
+      },
+      "condition": { "question": "destination_zone", "equals": "other" },
+      "sources": ["sp_partir", "dipl_guide_pdf", "dipl_representations"]
+    },
+    {
+      "id": "family_members",
+      "phase": "before",
+      "title": {
+        "fr": "Vérifier les conditions pour votre famille",
+        "en": "Check the conditions for your family"
+      },
+      "body": {
+        "fr": "Les membres de votre famille français ont besoin de papiers en cours de validité et, selon le pays, d'un visa. S'ils ont une autre nationalité, les conditions peuvent être différentes : renseignez-vous auprès de l'ambassade ou du consulat du pays de destination.",
+        "en": "French family members need valid documents and, depending on the country, a visa. If they have another nationality, the conditions may differ: ask the destination country's embassy or consulate."
+      },
+      "condition": null,
+      "sources": ["sp_partir"]
+    },
+    {
+      "id": "health_before",
+      "phase": "before",
+      "title": {
+        "fr": "Faire le point sur votre santé",
+        "en": "Review your health needs"
+      },
+      "body": {
+        "fr": "Voyez votre médecin pour les vaccins et la suite d'un traitement. Certains pays exigent le vaccin contre la fièvre jaune. Gardez l'ordonnance avec vos médicaments : certains médicaments autorisés en France sont interdits dans d'autres pays. L'assurance rapatriement d'une carte bancaire ne couvre que les séjours de moins de 3 mois ; le consulat ne paie pas les frais d'hôpital ni de rapatriement.",
+        "en": "See your doctor about vaccines and ongoing treatment. Some countries require a yellow fever vaccine. Keep the prescription with your medicines: some medicines allowed in France are banned elsewhere. Repatriation insurance from a bank card only covers stays under 3 months; the consulate does not pay hospital or repatriation costs."
+      },
+      "link": {
+        "title": { "fr": "Vaccinations en cas de voyage", "en": "Vaccinations for travel" },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F720"
+      },
+      "condition": null,
+      "sources": ["sp_partir", "dipl_guide_pdf", "sp_vaccins"]
+    },
+    {
+      "id": "social_posted",
+      "phase": "before",
+      "title": {
+        "fr": "Protection sociale : détachement",
+        "en": "Social security: posting"
+      },
+      "body": {
+        "fr": "Vous restez affilié à la sécurité sociale française. Votre employeur fait la démarche auprès de l'Urssaf et vous remet le certificat. Dans l'EEE ou en Suisse, si vous vivez sur place, demandez le formulaire S1 à votre caisse pour vous inscrire à la caisse locale. Dans un pays sans accord de sécurité sociale, le Cleiss indique que le détachement dure 3 ans, renouvelable une fois, et que les soins sont remboursés par votre caisse sur factures avec le formulaire S3125.",
+        "en": "You stay covered by French social security. Your employer handles the Urssaf formalities and gives you the certificate. In the EEA or Switzerland, if you live there, ask your fund for the S1 form to register with the local fund. In a country without a social security agreement, Cleiss says the posting lasts 3 years, renewable once, and care is refunded by your fund on invoices with form S3125."
+      },
+      "link": {
+        "title": { "fr": "Lire la page du Cleiss", "en": "Read the Cleiss page" },
+        "url": "https://www.cleiss.fr/particuliers/partir/travailler/index.html"
+      },
+      "condition": { "question": "reason", "equals": "posted" },
+      "sources": ["ameli_detachement", "cleiss_detachement_ue", "cleiss_detachement_hors", "cleiss_travailler"]
+    },
+    {
+      "id": "social_local_job",
+      "phase": "before",
+      "title": {
+        "fr": "Protection sociale : contrat local",
+        "en": "Social security: local contract"
+      },
+      "body": {
+        "fr": "Vous relevez du régime de sécurité sociale du pays où vous travaillez et n'êtes plus pris en charge par le régime français. Envoyez la déclaration de transfert de résidence (S1105) à votre CPAM et rendez votre carte Vitale. Le Cleiss liste les pays liés à la France par un accord de sécurité sociale ; dans les autres pays, renseignez-vous sur le système local avant de partir. Prévenez aussi la Caf et France Travail.",
+        "en": "You come under the social security scheme of the country where you work and are no longer covered by the French scheme. Send the transfer of residence declaration (S1105) to your CPAM and return your Carte Vitale. Cleiss lists the countries that have a social security agreement with France; elsewhere, find out about the local system before leaving. Also tell the Caf and France Travail."
+      },
+      "link": {
+        "title": { "fr": "Remplir le formulaire S1105", "en": "Fill in form S1105" },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R63307"
+      },
+      "condition": { "question": "reason", "equals": "local_job" },
+      "sources": ["ameli_expatriation", "sp_transfert_residence", "cleiss_travailler", "cleiss_expat_ue", "cleiss_expat_hors"]
+    },
+    {
+      "id": "social_volunteer",
+      "phase": "before",
+      "title": {
+        "fr": "Volontariat international : conditions et couverture",
+        "en": "International volunteering: conditions and cover"
+      },
+      "body": {
+        "fr": "Le VIE et le VIA sont ouverts de 18 à 28 ans (départ au plus tard le jour des 29 ans). La mission dure de 6 à 24 mois. Créez votre compte sur le site Mon Volontariat International. Vous recevez une indemnité fixe de 772,87 € par mois, plus une indemnité qui dépend du pays, sans impôt sur le revenu. Un assureur privé remplace la sécurité sociale française pendant la mission. Le voyage aller-retour est pris en charge.",
+        "en": "VIE and VIA are open from 18 to 28 (departure no later than your 29th birthday). The assignment lasts 6 to 24 months. Create your account on the Mon Volontariat International website. You receive a fixed allowance of €772.87 a month, plus an allowance that depends on the country, free of income tax. A private insurer replaces French social security during the assignment. The return trip is paid for."
+      },
+      "link": {
+        "title": { "fr": "Ouvrir Mon Volontariat International", "en": "Open Mon Volontariat International" },
+        "url": "https://mon-vie-via.businessfrance.fr/"
+      },
+      "condition": { "question": "reason", "equals": "volunteer" },
+      "sources": ["sp_vie", "sp_via", "dipl_guide_pdf"]
+    },
+    {
+      "id": "social_studies",
+      "phase": "before",
+      "title": {
+        "fr": "Protection sociale : études",
+        "en": "Social security: studies"
+      },
+      "body": {
+        "fr": "Votre couverture dépend de votre situation et du pays. Le guide du ministère rappelle que si vous n'êtes pas inscrit dans un établissement français, vous n'êtes plus couvert par la sécurité sociale française : renseignez-vous sur la protection sur place. Pour un échange, contactez le service des relations internationales de votre établissement. Pour faire reconnaître un diplôme, le guide renvoie vers ENIC-NARIC France.",
+        "en": "Your cover depends on your situation and the country. The ministry's guide notes that if you are not enrolled in a French institution, you are no longer covered by French social security: find out about local cover. For an exchange, contact your institution's international office. To have a diploma recognised, the guide points to ENIC-NARIC France."
+      },
+      "link": {
+        "title": { "fr": "Lire la page du Cleiss sur les études", "en": "Read the Cleiss page on studies" },
+        "url": "https://www.cleiss.fr/particuliers/partir/etudes/index.html"
+      },
+      "condition": { "question": "reason", "equals": "studies" },
+      "sources": ["cleiss_etudes", "dipl_guide_pdf", "sp_partir"]
+    },
+    {
+      "id": "social_retirement",
+      "phase": "before",
+      "title": {
+        "fr": "Protection sociale : retraite",
+        "en": "Social security: retirement"
+      },
+      "body": {
+        "fr": "Prévenez votre caisse d'assurance maladie et votre caisse de retraite de votre départ et de votre nouvelle adresse. Dans l'EEE ou en Suisse, demandez le formulaire E 121/S1 à votre caisse de retraite avant de partir. Hors Europe, le guide du ministère indique de vous rattacher au régime local si la loi le permet et/ou d'adhérer à la CFE pour être couvert dans le pays.",
+        "en": "Tell your health insurance fund and pension fund about your departure and new address. In the EEA or Switzerland, ask your pension fund for the E 121/S1 form before leaving. Outside Europe, the ministry's guide says to join the local scheme if the law allows and/or join the CFE to be covered in the country."
+      },
+      "link": {
+        "title": { "fr": "Lire la page d'ameli.fr", "en": "Read the ameli.fr page" },
+        "url": "https://www.ameli.fr/assure/droits-demarches/europe-international/protection-sociale-etranger/retraite-etranger"
+      },
+      "condition": { "question": "reason", "equals": "retirement" },
+      "sources": ["ameli_retraite", "dipl_guide_pdf"]
+    },
+    {
+      "id": "social_business",
+      "phase": "before",
+      "title": {
+        "fr": "Protection sociale : indépendant ou création d'entreprise",
+        "en": "Social security: self-employed or new business"
+      },
+      "body": {
+        "fr": "Vos obligations dépendent des accords entre la France et le pays, et de la loi du pays. Le Cleiss propose un questionnaire pour savoir si vous restez au régime français ou devez vous affilier au régime local. Hors accord, le Cleiss indique que les indépendants peuvent cotiser à la CFE pour la maladie et la maternité. Pour créer une entreprise, le guide du ministère renvoie vers les chambres de commerce à l'étranger et Business France.",
+        "en": "Your obligations depend on agreements between France and the country, and on local law. Cleiss offers a questionnaire to find out whether you stay in the French scheme or must join the local one. Without an agreement, Cleiss says self-employed people can contribute to the CFE for sickness and maternity. To start a business, the ministry's guide points to chambers of commerce abroad and Business France."
+      },
+      "link": {
+        "title": { "fr": "Ouvrir la page du Cleiss pour les indépendants", "en": "Open the Cleiss page for the self-employed" },
+        "url": "https://www.cleiss.fr/independants/index.php"
+      },
+      "condition": { "question": "reason", "equals": "business" },
+      "sources": ["cleiss_independants", "cleiss_expat_hors", "dipl_guide_pdf"]
+    },
+    {
+      "id": "social_spouse",
+      "phase": "before",
+      "title": {
+        "fr": "Protection sociale : vous accompagnez votre conjoint",
+        "en": "Social security: you are joining your partner"
+      },
+      "body": {
+        "fr": "Dans l'EEE ou en Suisse, si votre conjoint reste assuré en France pour son travail, le formulaire S1 peut vous permettre d'être soigné sur place sans cotiser. Hors Europe, service-public.gouv.fr demande de contacter le Cleiss pour connaître votre situation. Le Cleiss indique aussi des cas où vous pouvez adhérer à l'assurance volontaire vieillesse de la CFE (par exemple avoir été assuré au moins 6 mois et demander dans les 6 mois qui suivent).",
+        "en": "In the EEA or Switzerland, if your partner stays insured in France through their job, the S1 form may let you be treated locally without contributing. Outside Europe, service-public.gouv.fr says to contact Cleiss about your situation. Cleiss also lists cases where you can join the CFE's voluntary old-age insurance (for example having been insured for at least 6 months and applying within the following 6 months)."
+      },
+      "link": {
+        "title": { "fr": "Contacter le Cleiss", "en": "Contact Cleiss" },
+        "url": "https://www.cleiss.fr/presentation/contact.html"
+      },
+      "condition": { "question": "reason", "equals": "spouse" },
+      "sources": ["cleiss_ayant_droit", "sp_partir", "cleiss_expat_hors"]
+    },
+    {
+      "id": "cfe_membership",
+      "phase": "before",
+      "title": {
+        "fr": "Envisager une adhésion à la CFE",
+        "en": "Consider joining the CFE"
+      },
+      "body": {
+        "fr": "La Caisse des Français de l'étranger permet de garder une couverture santé proche de la sécurité sociale française, en plus de l'affiliation obligatoire dans le pays. L'adhésion se fait en ligne ou par courrier, sans questionnaire de santé. Si vous adhérez avant le départ ou dans les 3 mois après l'installation, les soins sont pris en charge tout de suite ; sinon, après 3 mois (moins de 44 ans) ou 6 mois (45 ans et plus). Le montant de la cotisation s'estime en ligne. La CFE annonce une option arrêt de travail, invalidité et décès à partir de 12 € par mois (MondExpat). Hors Europe, une « catégorie aidée » à 228 € par trimestre existe si vos ressources sont inférieures à 24 030 € par an (2026) et que vous êtes inscrit au registre ; la demande se fait au consulat.",
+        "en": "The Caisse des Français de l'étranger lets you keep health cover similar to French social security, on top of compulsory cover in the country. You join online or by post, with no health questionnaire. If you join before leaving or within 3 months of settling, care is covered straight away; otherwise after 3 months (under 44) or 6 months (45 and over). The contribution is estimated online. The CFE advertises a sick leave, disability and death option from €12 a month (MondExpat). Outside Europe, an \"assisted category\" at €228 per quarter exists if your income is under €24,030 a year (2026) and you are on the register; you apply at the consulate."
+      },
+      "link": {
+        "title": { "fr": "Estimer la cotisation et adhérer", "en": "Estimate the contribution and join" },
+        "url": "https://www.cfe.fr/offre-mondexpat"
+      },
+      "condition": { "question": "reason", "in": ["local_job", "business", "retirement", "spouse"] },
+      "sources": ["cfe_mondexpat", "cfe_aidee", "sp_partir", "ameli_expatriation"]
+    },
+    {
+      "id": "pension_rights",
+      "phase": "before",
+      "title": {
+        "fr": "Penser à vos droits à la retraite",
+        "en": "Think about your pension rights"
+      },
+      "body": {
+        "fr": "Avec un contrat local, vous cotisez aux régimes de retraite du pays. Selon le pays, ces périodes peuvent être prises en compte comme si elles avaient été faites en France. Pour continuer à cotiser en France, la CFE gère la retraite de base et Malakoff Humanis la retraite complémentaire, en plus des cotisations obligatoires sur place. Info Retraite propose un parcours en ligne sur la retraite après une expatriation.",
+        "en": "On a local contract, you contribute to the country's pension schemes. Depending on the country, these periods may count as if done in France. To keep contributing in France, the CFE handles the basic pension and Malakoff Humanis the supplementary pension, on top of compulsory local contributions. Info Retraite offers an online guide on pensions after working abroad."
+      },
+      "link": {
+        "title": { "fr": "Ouvrir la page Expatriation d'Info Retraite", "en": "Open Info Retraite's expatriation page" },
+        "url": "https://www.info-retraite.fr/portail-info/sites/PortailInformationnel/home/mes-droits-a-la-retraite/ma-vie-professionnelle-1/travail/expatriation.html"
+      },
+      "condition": { "question": "reason", "in": ["local_job", "business"] },
+      "sources": ["ir_expatriation", "cfe_retraite", "sp_partir", "dipl_guide_pdf"]
+    },
+    {
+      "id": "unemployment_eu",
+      "phase": "before",
+      "title": {
+        "fr": "Chômage : garder vos allocations en Europe",
+        "en": "Unemployment: keep your benefit in Europe"
+      },
+      "body": {
+        "fr": "Prévenez France Travail de votre départ et demandez le formulaire U2. Vos allocations peuvent être versées jusqu'à 3 mois dans le pays de destination, à condition de vous inscrire au service de l'emploi local dans les 7 jours. Au-delà de 7 jours, le paiement reprend à la date d'inscription, sans allonger les 3 mois.",
+        "en": "Tell France Travail you are leaving and ask for the U2 form. Your benefit can be paid for up to 3 months in the destination country, provided you register with the local employment service within 7 days. After 7 days, payment resumes from the registration date, without extending the 3 months."
+      },
+      "link": {
+        "title": { "fr": "Lire la page de France Travail", "en": "Read the France Travail page" },
+        "url": "https://www.francetravail.fr/candidat/mes-droits-aux-aides-et-allocati/lallocation-chomage-a-letranger/je-pars-chercher-un-emploi-en-eu.html"
+      },
+      "condition": {
+        "all": [
+          { "question": "france_travail", "equals": "yes" },
+          { "question": "destination_zone", "equals": "eee_switzerland" }
+        ]
+      },
+      "sources": ["ft_europe", "sp_partir"]
+    },
+    {
+      "id": "unemployment_other",
+      "phase": "before",
+      "title": {
+        "fr": "Chômage : prévenir France Travail avant le départ",
+        "en": "Unemployment: tell France Travail before leaving"
+      },
+      "body": {
+        "fr": "Contactez France Travail le plus tôt possible avant le départ pour faire étudier vos droits et connaître les démarches. Pour un VIE ou un VIA, indiquez à votre conseiller la date de début et la durée de la mission : vos allocations sont suspendues pendant la mission et reprennent à la fin, sous conditions.",
+        "en": "Contact France Travail as early as possible before leaving to have your rights reviewed and learn the steps. For a VIE or VIA, tell your adviser the start date and length of the assignment: your benefit is suspended during the assignment and resumes at the end, under conditions."
+      },
+      "link": {
+        "title": { "fr": "Trouver votre agence", "en": "Find your office" },
+        "url": "https://www.francetravail.fr/annuaire/"
+      },
+      "condition": {
+        "any": [
+          {
+            "all": [
+              { "question": "france_travail", "equals": "yes" },
+              { "question": "destination_zone", "equals": "other" }
+            ]
+          },
+          {
+            "all": [
+              { "question": "france_travail", "equals": "yes" },
+              { "question": "reason", "equals": "volunteer" }
+            ]
+          }
+        ]
+      },
+      "sources": ["sp_partir", "sp_vie"]
+    },
+    {
+      "id": "unemployment_spouse",
+      "phase": "before",
+      "title": {
+        "fr": "Démission pour suivre votre conjoint",
+        "en": "Resigning to follow your partner"
+      },
+      "body": {
+        "fr": "France Travail considère comme légitime la démission pour suivre un conjoint qui change de résidence pour un nouvel emploi. Pour l'Europe, vous pouvez faire la demande dès la fin du contrat, mais aucune allocation n'est versée avant le départ ; le U2 permet ensuite jusqu'à 3 mois de versement. Hors Europe, vous pourrez être indemnisé à votre retour en France au titre de cet emploi.",
+        "en": "France Travail treats resigning to follow a partner who moves for a new job as legitimate. For Europe, you can apply as soon as the contract ends, but no benefit is paid before you leave; the U2 then allows up to 3 months of payment. Outside Europe, you may be paid on your return to France based on that job."
+      },
+      "link": {
+        "title": { "fr": "Lire la page de France Travail", "en": "Read the France Travail page" },
+        "url": "https://www.francetravail.fr/candidat/mes-droits-aux-aides-et-allocati/lallocation-chomage-a-letranger/je-demissionne-pour-suivre-mon-c.html"
+      },
+      "condition": { "question": "reason", "equals": "spouse" },
+      "sources": ["ft_conjoint_europe", "ft_conjoint_hors_europe"]
+    },
+    {
+      "id": "unemployment_expat_insurance",
+      "phase": "before",
+      "title": {
+        "fr": "Chômage : adhésion individuelle hors Europe",
+        "en": "Unemployment: individual membership outside Europe"
+      },
+      "body": {
+        "fr": "Salarié hors Europe et non couvert par votre employeur, vous pouvez adhérer à titre individuel au régime expatrié de l'assurance chômage. La demande se fait avant l'expatriation ou dans les 12 mois suivants (contrat toujours en cours). Les contributions sont entièrement à votre charge et se paient chaque trimestre à France Travail services (01 46 52 97 00).",
+        "en": "As an employee outside Europe not covered by your employer, you can join the expatriate unemployment insurance scheme individually. Apply before you move or within the following 12 months (contract still running). Contributions are entirely at your expense and are paid quarterly to France Travail services (01 46 52 97 00)."
+      },
+      "link": {
+        "title": { "fr": "Lire la page de France Travail", "en": "Read the France Travail page" },
+        "url": "https://www.francetravail.fr/candidat/mes-droits-aux-aides-et-allocati/lallocation-chomage-a-letranger/les-cas-dadhesion-individuelle-d.html"
+      },
+      "condition": {
+        "all": [
+          { "question": "reason", "equals": "local_job" },
+          { "question": "destination_zone", "equals": "other" }
+        ]
+      },
+      "sources": ["ft_adhesion", "cleiss_expat_hors"]
+    },
+    {
+      "id": "job_search",
+      "phase": "before",
+      "title": {
+        "fr": "Chercher un emploi à l'étranger",
+        "en": "Look for a job abroad"
+      },
+      "body": {
+        "fr": "France Travail propose un accompagnement par des conseillers Mobilité internationale, des offres à l'international et des informations par pays. En Europe, le réseau EURES donne des offres et des conseils.",
+        "en": "France Travail offers support from international mobility advisers, international job offers and country information. In Europe, the EURES network provides job offers and advice."
+      },
+      "link": {
+        "title": { "fr": "Travailler à l'étranger (France Travail)", "en": "Working abroad (France Travail)" },
+        "url": "https://www.francetravail.fr/international/mobilite-internationale/travailler-a-letranger.html"
+      },
+      "condition": { "question": "reason", "in": ["local_job", "spouse"] },
+      "sources": ["ft_travailler", "dipl_guide_pdf"]
+    },
+    {
+      "id": "taxes",
+      "phase": "before",
+      "title": {
+        "fr": "Prévenir les impôts et préparer les déclarations",
+        "en": "Tell the tax office and prepare your returns"
+      },
+      "body": {
+        "fr": "Signalez votre nouvelle adresse à l'étranger depuis votre espace Finances publiques ; créez-le avant de partir si vous n'en avez pas. En avril/mai de l'année du départ, déclarez comme d'habitude vos revenus de l'année précédente. L'année suivante, déclarez les revenus du 1er janvier au départ, et, si vous avez encore des revenus imposables en France, ceux de la période après le départ (2042-NR). Ensuite, le service des impôts des particuliers non-résidents gère votre dossier. Vérifiez la convention fiscale avec votre pays et vos obligations auprès des impôts locaux. Si vous détenez au moins 800 000 € de titres, renseignez-vous sur l'exit tax.",
+        "en": "Report your new address abroad from your Finances publiques account; create one before leaving if you do not have one. In April/May of the year you leave, declare last year's income as usual. The following year, declare income from 1 January to your departure and, if you still have income taxable in France, income after departure (2042-NR). After that, the non-resident tax office handles your file. Check the tax treaty with your country and your obligations with the local tax authorities. If you hold at least €800,000 in securities, find out about the exit tax."
+      },
+      "link": {
+        "title": { "fr": "Lire la page d'impots.gouv.fr", "en": "Read the impots.gouv.fr page" },
+        "url": "https://www.impots.gouv.fr/particulier/questions/je-pars-vivre-letranger-quelles-demarches-dois-je-accomplir-dois-je-cloturer"
+      },
+      "guides": ["tax_documents"],
+      "condition": null,
+      "sources": ["sp_impot_depart", "impots_depart", "impots_annee_depart", "impots_conventions", "impots_exit_tax", "dipl_guide_pdf"]
+    },
+    {
+      "id": "non_resident_tax",
+      "phase": "before",
+      "title": {
+        "fr": "Comprendre l'impôt des non-résidents",
+        "en": "Understand non-resident tax"
+      },
+      "body": {
+        "fr": "Une fois non-résident, vous êtes imposé en France seulement sur vos revenus de source française (loyers, pensions françaises...). Service-public.gouv.fr indique un taux minimum de 20 % jusqu'à 29 579 € et de 30 % au-delà, sauf si un taux moyen calculé sur tous vos revenus est plus favorable. Pour payer en ligne, il faut un compte bancaire en France ou dans la zone SEPA.",
+        "en": "Once non-resident, you are taxed in France only on French-source income (rent, French pensions...). Service-public.gouv.fr gives a minimum rate of 20% up to €29,579 and 30% above, unless an average rate based on all your income is more favourable. To pay online, you need a bank account in France or in the SEPA area."
+      },
+      "condition": { "question": "french_income", "equals": "yes" },
+      "sources": ["sp_impot_depart", "impots_depart", "dipl_guide_pdf"]
+    },
+    {
+      "id": "notify_caf_msa",
+      "phase": "before",
+      "title": {
+        "fr": "Prévenir la Caf ou la MSA",
+        "en": "Tell the Caf or MSA"
+      },
+      "body": {
+        "fr": "Signalez votre départ et votre future adresse dans votre espace Caf, ou contactez votre MSA, pour connaître vos droits et ceux de votre famille. Si vos enfants iront dans un établissement de l'AEFE et que vous demandez une bourse, demandez avant le départ une attestation de non-droit.",
+        "en": "Report your departure and future address in your Caf account, or contact your MSA, to learn your and your family's rights. If your children will attend an AEFE school and you apply for a grant, ask for a certificate of no entitlement before leaving."
+      },
+      "condition": { "question": "caf_msa", "equals": "yes" },
+      "sources": ["sp_partir", "cleiss_expat_hors"]
+    },
+    {
+      "id": "schooling",
+      "phase": "before",
+      "title": {
+        "fr": "Organiser la scolarité des enfants",
+        "en": "Arrange your children's schooling"
+      },
+      "body": {
+        "fr": "Trois possibilités : une école du pays (démarches auprès de l'ambassade du pays), un établissement français géré ou reconnu par l'AEFE (inscription auprès de l'établissement, le plus tôt possible ; frais variables selon le pays), ou le Cned à distance. Pour un établissement géré par l'AEFE, l'absence de réponse en 2 mois vaut refus. Des bourses existent pour les enfants français d'au moins 3 ans, sous conditions de ressources : il faut être inscrit au registre, et la demande se fait chaque année au consulat ou sur la plateforme Scolaide.",
+        "en": "Three options: a local school (ask the country's embassy), a French school run or recognised by the AEFE (apply to the school as early as possible; fees vary by country), or the Cned distance learning. For an AEFE-run school, no reply within 2 months means refusal. Grants exist for French children aged 3 or more, based on income: you must be on the register, and you apply each year at the consulate or on the Scolaide platform."
+      },
+      "link": {
+        "title": { "fr": "Bourses scolaires de l'AEFE", "en": "AEFE school grants" },
+        "url": "https://aefe.gouv.fr/fr/scolarite/aide-la-scolarite-par-des-bourses-scolaires/criteres-et-modalites-dobtention"
+      },
+      "condition": { "question": "children", "equals": "yes" },
+      "sources": ["sp_scolarite_europe", "sp_scolarite_hors_europe", "aefe_bourses", "sp_partir", "dipl_guide_pdf"]
+    },
+    {
+      "id": "driving_eu",
+      "phase": "before",
+      "title": {
+        "fr": "Conduire en Europe avec votre permis français",
+        "en": "Drive in Europe with your French licence"
+      },
+      "body": {
+        "fr": "Votre permis français reste valable si vous vous installez dans un pays de l'UE ou de l'EEE. L'échange contre un permis local est facultatif, sauf dans certains cas : fin de validité, perte, vol ou détérioration, infraction dans le pays, ou ancien permis rose si le pays demande son renouvellement après 2 ans. Attention : un permis français obtenu en échange d'un permis non européen n'est pas automatiquement reconnu pour un long séjour ; renseignez-vous auprès de l'ambassade du pays.",
+        "en": "Your French licence remains valid if you settle in an EU or EEA country. Exchanging it for a local licence is optional, except in some cases: expiry, loss, theft or damage, an offence in the country, or the old pink licence if the country requires renewal after 2 years. Note: a French licence obtained by exchanging a non-European licence is not automatically recognised for a long stay; ask the country's embassy."
+      },
+      "link": {
+        "title": { "fr": "Lire la fiche service-public", "en": "Read the service-public page" },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F420"
+      },
+      "condition": {
+        "all": [
+          { "question": "driving_licence", "equals": "yes" },
+          { "question": "destination_zone", "equals": "eee_switzerland" }
+        ]
+      },
+      "sources": ["sp_permis_europe", "dipl_guide_pdf"]
+    },
+    {
+      "id": "driving_other",
+      "phase": "before",
+      "title": {
+        "fr": "Conduire hors d'Europe",
+        "en": "Drive outside Europe"
+      },
+      "body": {
+        "fr": "Selon le pays, le permis français suffit ou un permis international est demandé en plus ; la Sécurité routière publie un récapitulatif par pays. Le permis international coûte 7,25 € et se demande en ligne au moins 1 mois avant le départ. D'après le guide du ministère, vous pourrez conduire avec le permis français pendant 3 mois à 1 an selon les pays, puis il faudra un permis local, par échange s'il existe un accord, ou en passant l'examen.",
+        "en": "Depending on the country, the French licence is enough or an international permit is also required; the Road Safety agency publishes a summary by country. The international permit costs €7.25 and is requested online at least 1 month before leaving. According to the ministry's guide, you can drive with your French licence for 3 months to 1 year depending on the country, then you will need a local licence, by exchange if there is an agreement, or by taking the test."
+      },
+      "link": {
+        "title": { "fr": "Lire la fiche service-public", "en": "Read the service-public page" },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F11534"
+      },
+      "condition": {
+        "all": [
+          { "question": "driving_licence", "equals": "yes" },
+          { "question": "destination_zone", "equals": "other" }
+        ]
+      },
+      "sources": ["sp_permis_international", "dipl_guide_pdf"]
+    },
+    {
+      "id": "home_vehicle_moving",
+      "phase": "before",
+      "title": {
+        "fr": "Logement, véhicule et déménagement",
+        "en": "Housing, vehicle and moving"
+      },
+      "body": {
+        "fr": "Locataire : donnez congé en respectant le préavis, ou sous-louez si c'est permis ; résiliez l'assurance habitation si vous partez. Véhicule : les démarches changent si vous le laissez en France ou l'emmenez ; sans adresse en France, vous ne pouvez pas garder l'immatriculation française à votre seul nom. Déménagement : le ministère recommande un déménageur reconnu par la Fédération internationale des déménageurs internationaux. Animal : les conditions varient selon le pays et l'animal.",
+        "en": "Tenant: give notice respecting the notice period, or sublet if allowed; cancel home insurance if you leave. Vehicle: the steps differ if you leave it in France or take it; without an address in France, you cannot keep the French registration in your name only. Moving: the ministry recommends a mover recognised by the International Federation of International Movers. Pet: conditions vary by country and animal."
+      },
+      "link": {
+        "title": { "fr": "Que faire de son véhicule", "en": "What to do with your vehicle" },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F32277"
+      },
+      "condition": null,
+      "sources": ["sp_partir", "sp_vehicule", "sp_animal", "dipl_guide_pdf"]
+    },
+    {
+      "id": "customs",
+      "phase": "before",
+      "title": {
+        "fr": "Formalités de douane",
+        "en": "Customs formalities"
+      },
+      "body": {
+        "fr": "Si vous quittez la France avec 10 000 € ou plus en argent liquide, vous devez le déclarer à la douane. Pour un déménagement dans l'Union européenne, il n'y a pas de formalité de douane. Hors Union européenne, la douane demande des justificatifs et un inventaire des biens. Certains biens (armes, biens culturels) demandent une formalité.",
+        "en": "If you leave France with €10,000 or more in cash, you must declare it to customs. Moving within the EU involves no customs formalities. Outside the EU, customs asks for proof and an inventory of your belongings. Some goods (weapons, cultural goods) require a formality."
+      },
+      "link": {
+        "title": { "fr": "Déclarer de l'argent liquide", "en": "Declare cash" },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F794"
+      },
+      "condition": null,
+      "sources": ["sp_douane_argent", "sp_partir", "dipl_guide_pdf"]
+    },
+    {
+      "id": "bank_subscriptions",
+      "phase": "before",
+      "title": {
+        "fr": "Banque, abonnements et courrier",
+        "en": "Bank, subscriptions and mail"
+      },
+      "body": {
+        "fr": "Décidez si vous gardez vos comptes en France ; si oui, donnez votre nouvelle adresse et vérifiez vos plafonds à l'étranger. Certains placements ne peuvent être gardés qu'avec une résidence fiscale en France : demandez à votre banque. En cas de refus d'ouverture de compte, le « droit au compte » auprès de la Banque de France existe. Résiliez ou adaptez vos abonnements. La Poste propose une réexpédition payante du courrier vers l'étranger, pour un an au maximum.",
+        "en": "Decide whether to keep your French accounts; if so, give your new address and check your limits abroad. Some savings products can only be kept with French tax residence: ask your bank. If an account is refused, the \"right to an account\" through the Banque de France exists. Cancel or adjust your subscriptions. La Poste offers paid mail forwarding abroad, for up to one year."
+      },
+      "link": {
+        "title": { "fr": "Réexpédier son courrier", "en": "Forward your mail" },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R14213"
+      },
+      "condition": null,
+      "sources": ["sp_partir", "sp_courrier", "impots_depart", "dipl_guide_pdf"]
+    },
+    {
+      "id": "young_people_csnj",
+      "phase": "before",
+      "title": {
+        "fr": "Moins de 25 ans : prévenir le centre du service national",
+        "en": "Under 25: tell the national service centre"
+      },
+      "body": {
+        "fr": "Si vous avez fait votre recensement citoyen et avez moins de 25 ans, signalez votre déménagement au centre du service national et de la jeunesse.",
+        "en": "If you completed your citizen census and are under 25, report your move to the national service and youth centre."
+      },
+      "link": {
+        "title": { "fr": "Lire la fiche service-public", "en": "Read the service-public page" },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1241"
+      },
+      "condition": null,
+      "sources": ["sp_partir", "sp_csnj"]
+    },
+    {
+      "id": "register_consulate",
+      "phase": "after",
+      "title": {
+        "fr": "S'inscrire au registre des Français établis hors de France",
+        "en": "Register with the register of French nationals abroad"
+      },
+      "body": {
+        "fr": "Une fois installé, inscrivez-vous en ligne avec votre compte service-public ou FranceConnect. Ce n'est pas obligatoire mais vivement recommandé : cela facilite le vote, les papiers d'identité, les bourses scolaires, et permet au consulat de vous joindre en cas d'urgence. L'inscription est gratuite et valable 5 ans. Il faut scanner une pièce d'identité française (valide ou périmée depuis moins de 2 ans), une photo de moins de 6 mois et un justificatif de résidence dans le pays. Vos enfants mineurs peuvent être inscrits sur votre compte.",
+        "en": "Once settled, register online with your service-public or FranceConnect account. It is not compulsory but strongly recommended: it makes voting, ID documents and school grants easier, and lets the consulate reach you in an emergency. Registration is free and valid for 5 years. You scan a French ID document (valid or expired less than 2 years ago), a photo under 6 months old and proof of residence in the country. Your minor children can be registered on your account."
+      },
+      "link": {
+        "title": { "fr": "Faire l'inscription en ligne", "en": "Register online" },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R43248"
+      },
+      "condition": { "question": "stay_length", "equals": "six_months_or_more" },
+      "sources": ["sp_registre", "sp_registre_teleservice", "dipl_registre", "dipl_guide_pdf"]
+    },
+    {
+      "id": "vote",
+      "phase": "after",
+      "title": {
+        "fr": "Choisir comment voter",
+        "en": "Choose how to vote"
+      },
+      "body": {
+        "fr": "Pour voter depuis l'étranger (présidentielle, législatives, européennes, référendums, conseillers des Français de l'étranger), inscrivez-vous sur la liste électorale consulaire : en cochant la case lors de l'inscription au registre, ou au consulat avec le formulaire cerfa 12669. Pour les municipales, il faut être inscrit sur la liste d'une commune en France. Vous pouvez aussi voter par procuration ; elle peut durer jusqu'à 3 ans si vous êtes inscrit sur une liste consulaire. Une procuration peut être faite en France avant le départ.",
+        "en": "To vote from abroad (presidential, parliamentary, European, referendums, councillors for French nationals abroad), register on the consular electoral roll: by ticking the box when joining the register, or at the consulate with form cerfa 12669. For municipal elections, you must be on a French town's roll. You can also vote by proxy; it can last up to 3 years if you are on a consular roll. A proxy can be set up in France before leaving."
+      },
+      "link": {
+        "title": { "fr": "Faire une procuration (Maprocuration)", "en": "Set up a proxy (Maprocuration)" },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R58939"
+      },
+      "condition": null,
+      "sources": ["sp_vote", "sp_cerfa_lec", "sp_procuration", "sp_maprocuration", "dipl_guide_pdf"]
+    },
+    {
+      "id": "local_formalities",
+      "phase": "after",
+      "title": {
+        "fr": "Faire les démarches auprès des autorités locales",
+        "en": "Complete local formalities"
+      },
+      "body": {
+        "fr": "Sur place, c'est la loi du pays qui s'applique. Dans la plupart des pays, après 3 mois de résidence, il faut remplir des conditions pour rester : enregistrement auprès des autorités locales (souvent la mairie ou la police), titre de séjour, sécurité sociale locale, impôts locaux. Le consulat peut établir les actes d'état civil (naissance, mariage) qui surviennent pendant votre séjour.",
+        "en": "Once there, local law applies. In most countries, after 3 months of residence you must meet conditions to stay: registration with local authorities (often the town hall or police), residence permit, local social security, local taxes. The consulate can register civil status events (birth, marriage) that happen during your stay."
+      },
+      "link": {
+        "title": { "fr": "Trouver le consulat de France", "en": "Find the French consulate" },
+        "url": "https://www.diplomatie.gouv.fr/fr/le-ministere/reseau-diplomatique"
+      },
+      "condition": null,
+      "sources": ["sp_partir", "dipl_guide_pdf", "dipl_checklist", "dipl_reseau"]
+    },
+    {
+      "id": "retirement_abroad",
+      "phase": "after",
+      "title": {
+        "fr": "Retraite : adresse et certificat de vie",
+        "en": "Pension: address and life certificate"
+      },
+      "body": {
+        "fr": "Informez chaque régime de retraite de votre nouvelle adresse. Une fois sur place, envoyez un certificat de vie dans le mois qui suit l'arrivée, puis chaque année : sans ce document, le versement de la pension s'arrête. Un seul certificat par an suffit pour tous vos régimes avec le service « Ma retraite à l'étranger » d'Info Retraite. Gardez votre compte français tant que les versements sur un compte étranger ne fonctionnent pas. Hors Europe, l'Aspa ne peut pas être versée sur un compte étranger.",
+        "en": "Tell each pension scheme your new address. Once there, send a life certificate within a month of arrival, then every year: without it, the pension stops. One certificate a year covers all your schemes through Info Retraite's \"Ma retraite à l'étranger\" service. Keep your French account until payments to a foreign account work. Outside Europe, Aspa cannot be paid into a foreign account."
+      },
+      "link": {
+        "title": { "fr": "Ouvrir la page Info Retraite", "en": "Open the Info Retraite page" },
+        "url": "https://www.info-retraite.fr/portail-info/sites/PortailInformationnel/home/aide/retraite-a-letranger.html"
+      },
+      "condition": { "question": "reason", "equals": "retirement" },
+      "sources": ["sp_partir", "ir_etranger", "dipl_guide_pdf"]
+    },
+    {
+      "id": "return_to_france",
+      "phase": "after",
+      "title": {
+        "fr": "Préparer un retour en France",
+        "en": "Prepare a return to France"
+      },
+      "body": {
+        "fr": "Le jour où vous rentrez, service-public.gouv.fr propose une fiche personnalisée « Je rentre en France après avoir vécu à l'étranger ». Avant de quitter le pays, demandez votre radiation du registre en ligne, gardez vos contrats, fiches de paie et avis d'impôt locaux, et demandez les formulaires qui prouvent vos droits (S1, U1 en Europe). Avec la CFE, vos droits sont maintenus jusqu'à 3 mois après le retour.",
+        "en": "When you come back, service-public.gouv.fr offers a personalised page \"Je rentre en France après avoir vécu à l'étranger\". Before leaving the country, ask to be removed from the register online, keep your contracts, payslips and local tax notices, and ask for the forms that prove your rights (S1, U1 in Europe). With the CFE, your rights continue for up to 3 months after you return."
+      },
+      "link": {
+        "title": { "fr": "Je rentre en France", "en": "Coming back to France" },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F32823"
+      },
+      "condition": null,
+      "sources": ["sp_retour", "dipl_guide_pdf", "dipl_checklist"]
+    }
+  ],
+  "deadlines": [
+    {
+      "id": "international_permit_request",
+      "relativeTo": "departure_date",
+      "offsetDays": -30,
+      "title": {
+        "fr": "Demander le permis international (au moins 1 mois avant le départ, conseillé)",
+        "en": "Apply for the international driving permit (at least 1 month before leaving, recommended)"
+      },
+      "condition": {
+        "all": [
+          { "question": "driving_licence", "equals": "yes" },
+          { "question": "destination_zone", "equals": "other" }
+        ]
+      },
+      "sources": ["sp_permis_international"]
+    },
+    {
+      "id": "transfer_of_residence_deadline",
+      "relativeTo": "departure_date",
+      "offsetDays": 30,
+      "title": {
+        "fr": "Envoyer la déclaration de transfert de résidence (S1105) à votre CPAM",
+        "en": "Send the transfer of residence declaration (S1105) to your CPAM"
+      },
+      "condition": { "question": "reason", "equals": "local_job" },
+      "sources": ["ameli_expatriation", "sp_transfert_residence"]
+    },
+    {
+      "id": "pension_life_certificate",
+      "relativeTo": "departure_date",
+      "offsetDays": 30,
+      "title": {
+        "fr": "Envoyer le premier certificat de vie aux caisses de retraite",
+        "en": "Send the first life certificate to your pension funds"
+      },
+      "condition": { "question": "reason", "equals": "retirement" },
+      "sources": ["sp_partir"]
+    },
+    {
+      "id": "cfe_immediate_cover",
+      "relativeTo": "departure_date",
+      "offsetDays": 90,
+      "title": {
+        "fr": "Dernier jour pour adhérer à la CFE avec une prise en charge immédiate (3 mois après l'installation)",
+        "en": "Last day to join the CFE with immediate cover (3 months after settling)"
+      },
+      "condition": { "question": "reason", "in": ["local_job", "business", "retirement", "spouse"] },
+      "sources": ["cfe_mondexpat"]
+    },
+    {
+      "id": "unemployment_individual_membership",
+      "relativeTo": "departure_date",
+      "offsetDays": 365,
+      "title": {
+        "fr": "Fin du délai pour l'adhésion individuelle à l'assurance chômage des expatriés (12 mois)",
+        "en": "End of the period to join the expatriate unemployment insurance individually (12 months)"
+      },
+      "condition": {
+        "all": [
+          { "question": "reason", "equals": "local_job" },
+          { "question": "destination_zone", "equals": "other" }
+        ]
+      },
+      "sources": ["ft_adhesion"]
+    }
+  ],
+  "reviewNotes": [
+    "Fiche principale F2485 « Je pars vivre à l'étranger » : « Vérifié le 26 avril 2024 », la plus ancienne des sources service-public utilisées. Son contenu a été recoupé avec le guide du ministère (PDF du 27 octobre 2026) et la check-list (avril 2025), qui disent la même chose sur les points repris.",
+    "Fiche F37904 « Je vis à l'étranger » (Vérifié le 30 avril 2024) téléchargée mais non reprise.",
+    "Domaines : ameli.fr est utilisé comme source (détachement, expatriation, retraite, formulaire S1105 hébergé sur ameli.fr) ; il est autorisé pour les fiches et droits, pas explicitement pour les démarches. aefe.fr redirige vers aefe.gouv.fr (domaine utilisé). civiweb.com redirige vers mon-vie-via.businessfrance.fr (businessfrance.fr autorisé). Liens non autorisés évités : lassuranceretraite.fr (carte des autorités pour le certificat de vie), demarches-simplifiees.fr (demande de U1, renvoi vers la page France Travail), maprocuration.gouv.fr (renvoi vers R58939), permisdeconduire.ants.gouv.fr (renvoi vers F11534), scolaide.aefe.gouv.fr (cité dans le texte seulement), securite-routiere.gouv.fr (récapitulatif par pays, cité seulement).",
+    "Contradiction : F31442 dit d'envoyer les déclarations papier de l'année suivant le départ (2042 et 2042-NR) au service qui gérait le dossier avant le départ ; R10245 indique comme destinataire de la 2042-NR le Service des impôts des particuliers non-résidents. impots.gouv.fr dit que le dernier centre gère le dossier jusqu'au traitement de la déclaration N+1, puis le SIPNR. Le texte ne précise donc pas l'adresse d'envoi papier.",
+    "Échéance CFE (+90 jours) : la CFE parle de 3 mois après « l'installation à l'étranger », assimilée ici à la date de départ. Délais de carence : la page dit « moins de 44 ans » puis « plus de 45 ans » (cas des 44 ans non précisé) ; reformulé en « 45 ans et plus ».",
+    "Coûts CFE : aucune grille tarifaire publique trouvée pour la cotisation santé (simulateur en ligne seulement). Montants repris : option « pack 3 en 1 » à partir de 12 €/mois (MondExpat) et 13 €/mois (JeuneExpat, non cité), catégorie aidée 228 €/trimestre, plafond 24 030 €/an pour 2026. La catégorie aidée ne concerne que les adhésions individuelles hors de France et d'Europe.",
+    "Échéance S1105 (+30 jours) : ameli.fr (page expatriés) donne le délai d'un mois pour les travailleurs expatriés ; R63307 vise plus largement « l'assuré qui s'installe à l'étranger ». Appliquée seulement au motif « contrat local » ; à confirmer pour les autres motifs (indépendant, conjoint, retraité hors Europe).",
+    "Certificat de vie : F2485 dit de l'envoyer « dans le mois qui suit l'arrivée » ; l'échéance est calculée sur la date de départ (+30 jours), approximation.",
+    "Adresse du Cleiss contradictoire : service-public indique 44 rue Armand Carrel, Montreuil ; le pied de page de cleiss.fr indique 11 rue de la tour des Dames, Paris 9e. Aucune adresse n'est reprise ; seul le lien vers le formulaire de contact est donné.",
+    "Formulaire A1 : la page Cleiss « employeurs » détaillant la demande n'a pas été trouvée (404). Repris d'ameli.fr (service Ilass de l'Urssaf).",
+    "VIA : F13279 lu partiellement (âge, durée, indemnité fixe 772,87 €). La couverture maladie par assureur privé et la prise en charge du voyage sont reprises de F10040 (VIE) ; à vérifier pour le VIA.",
+    "Fiche « ephoto » de help.json liée au permis international : F11534 parle bien d'une « photo signature, aussi appelée e-photo » faite par un photographe ou une cabine habilités. Vérifier que le texte de la fiche (centré sur l'ANEF) convient.",
+    "Fiche « legalisation_apostille » non liée : elle porte sur les actes étrangers présentés en France, alors qu'ici il s'agit d'actes français présentés à l'étranger (F1400). Une fiche dédiée pourrait être utile.",
+    "Personnes devenues françaises : aucune source consultée ne traite de la double nationalité à l'étranger (entrée avec un autre passeport, protection consulaire). Seul point spécifique trouvé et repris : un permis français obtenu en échange d'un permis non européen n'est pas automatiquement reconnu dans l'UE pour un long séjour (F420).",
+    "Exit tax : seuil de 800 000 € et demande de sursis au moins 90 jours avant le transfert (cas particuliers) ; seul le seuil est mentionné, sans échéance, car aucune question ne permet de cibler ces personnes.",
+    "Chômage hors Europe pour un demandeur d'emploi qui part chercher du travail : seule la consigne générale de F2485 (contacter France Travail avant le départ) est reprise ; la page France Travail « départ hors EEE-Suisse » n'a pas été lue.",
+    "Prestations Caf : le Cleiss détaille de nombreux cas (détachement, conjoint qui travaille...). Non repris en détail ; renvoi général vers la Caf.",
+    "La démarche n'est pas ajoutée à catalog.json (non modifié, comme demandé). La catégorie « expatriation » et la sous-catégorie « departure » existent déjà dans catalog.json."
+  ]
+}

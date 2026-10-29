@@ -1,126 +1,684 @@
 {
-  "sourceLanguage": "fr",
-  "strings": {
-    "Changer de statut": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Change my status"
+  "sourceLanguage" : "fr",
+  "strings" : {
+    "%lld droits et aides peuvent vous concerner" : {
+
+    },
+    "%lld fiches pays : visas, santé, protection sociale, contacts" : {
+
+    },
+    "%lld questions au maximum, une par écran." : {
+
+    },
+    "%lld sur %lld" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld sur %2$lld"
           }
         }
       }
     },
-    "Choisissez votre situation, répondez à quelques questions et retrouvez les pièces demandées par la préfecture.": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Choose your situation, answer a few questions and find the documents requested by the prefecture."
+    "%lld sur %lld pièces prêtes" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld sur %2$lld pièces prêtes"
           }
         }
       }
     },
-    "Demande de duplicata": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Duplicate request"
+    "^[%lld démarche](inflect: true)" : {
+
+    },
+    "1 an" : {
+
+    },
+    "1 étranger, 1 solution" : {
+
+    },
+    "1 mois" : {
+
+    },
+    "1 semaine" : {
+
+    },
+    "2 semaines" : {
+
+    },
+    "3 mois" : {
+
+    },
+    "6 mois" : {
+
+    },
+    "À joindre" : {
+
+    },
+    "À la une" : {
+
+    },
+    "À savoir pour votre situation" : {
+
+    },
+    "Actualités" : {
+
+    },
+    "Adresse" : {
+
+    },
+    "Affichage" : {
+
+    },
+    "Afrique" : {
+
+    },
+    "Amériques" : {
+
+    },
+    "Aperçu" : {
+
+    },
+    "Après le dépôt" : {
+
+    },
+    "Argent et aides" : {
+
+    },
+    "Asie" : {
+
+    },
+    "Astuce" : {
+
+    },
+    "Aucun dossier en cours" : {
+
+    },
+    "Aucune liste" : {
+
+    },
+    "Autre" : {
+
+    },
+    "Autres" : {
+
+    },
+    "Autres droits" : {
+
+    },
+    "Autres pays" : {
+
+    },
+    "Autres pièces" : {
+
+    },
+    "Avant de déposer" : {
+
+    },
+    "Banque" : {
+
+    },
+    "Bon à savoir" : {
+
+    },
+    "Budget repère" : {
+
+    },
+    "Calculées à partir des dates que vous avez indiquées." : {
+
+    },
+    "Ce que dit ce courrier" : {
+
+    },
+    "Ce que vous pouvez faire" : {
+
+    },
+    "Ce qui change pour vous" : {
+
+    },
+    "Ce sont des repères, pas des prix exacts : votre budget réel dépend de votre logement et de votre mode de vie." : {
+
+    },
+    "Ces informations ont été rassemblées depuis les sites de l'administration et sont en cours de relecture. Vérifiez toujours auprès de votre préfecture." : {
+
+    },
+    "Changer de statut" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Change my status"
           }
         }
       }
     },
-    "Demander la nationalité française": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Apply for French citizenship"
+    "Choisir un pays" : {
+
+    },
+    "Choisissez un thème, répondez à quelques questions et retrouvez les pièces demandées." : {
+
+    },
+    "Choisissez votre situation, répondez à quelques questions et retrouvez les pièces demandées par la préfecture." : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choose your situation, answer a few questions and find the documents requested by the prefecture."
           }
         }
       }
     },
-    "Mon titre arrive bientôt à expiration": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "My permit expires soon"
+    "Commencer" : {
+
+    },
+    "Comment ça marche" : {
+
+    },
+    "Comment faire" : {
+
+    },
+    "Comment l'obtenir ?" : {
+
+    },
+    "Conditions principales" : {
+
+    },
+    "Contenu bientôt disponible" : {
+
+    },
+    "Contenu en cours de vérification" : {
+
+    },
+    "Continuer" : {
+
+    },
+    "Copier" : {
+
+    },
+    "Copiez ce texte dans un e-mail adressé à votre préfecture. L'adresse se trouve sur son site." : {
+
+    },
+    "Coûts" : {
+
+    },
+    "Date" : {
+
+    },
+    "Date de dépôt" : {
+
+    },
+    "Date de naissance" : {
+
+    },
+    "Dates" : {
+
+    },
+    "Demande de duplicata" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Duplicate request"
           }
         }
       }
     },
-    "Naturalisation par décret": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Naturalisation by decree"
+    "Demandée à toutes les personnes qui font cette démarche." : {
+
+    },
+    "Demander la nationalité française" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apply for French citizenship"
           }
         }
       }
     },
-    "Par exemple d'étudiant à salarié": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "For example, from student to employee"
+    "Démarches" : {
+
+    },
+    "Domicile" : {
+
+    },
+    "Droits et aides" : {
+
+    },
+    "E-mail" : {
+
+    },
+    "Effacer vos réponses et vos coches pour cette démarche ?" : {
+
+    },
+    "Étapes" : {
+
+    },
+    "État civil" : {
+
+    },
+    "Études" : {
+
+    },
+    "Europe" : {
+
+    },
+    "Ex. : 3 septembre 2026" : {
+
+    },
+    "Ex. : 06 12 34 56 78" : {
+
+    },
+    "Ex. : 12 mars 1998" : {
+
+    },
+    "Ex. : Amina DIALLO" : {
+
+    },
+    "Ex. : Créteil" : {
+
+    },
+    "Ex. : Dakar (Sénégal)" : {
+
+    },
+    "Ex. : Préfecture du Val-de-Marne" : {
+
+    },
+    "Ex. : prenom.nom@exemple.fr" : {
+
+    },
+    "Ex. : sénégalaise" : {
+
+    },
+    "Exemple" : {
+
+    },
+    "Famille" : {
+
+    },
+    "Famille et école" : {
+
+    },
+    "Fermer" : {
+
+    },
+    "Fiche détaillée" : {
+
+    },
+    "Gardées uniquement sur ce téléphone, pour vos prochains courriers." : {
+
+    },
+    "Identité" : {
+
+    },
+    "Impôts et taxes" : {
+
+    },
+    "Imprimez ce courrier, signez-le, et envoyez-le en lettre recommandée avec avis de réception. Gardez une copie et le reçu." : {
+
+    },
+    "Indiqué sur votre attestation de dépôt" : {
+
+    },
+    "Indiqué sur votre titre de séjour" : {
+
+    },
+    "Informations vérifiées le %@" : {
+
+    },
+    "Investir, créer une entreprise" : {
+
+    },
+    "Langue et intégration" : {
+
+    },
+    "Le dépôt" : {
+
+    },
+    "Les conditions détaillées par motif ne sont pas encore disponibles pour ce pays. Consultez les liens utiles ci-dessous." : {
+
+    },
+    "Liens utiles" : {
+
+    },
+    "Lieu de naissance" : {
+
+    },
+    "Liste des pays bientôt disponible" : {
+
+    },
+    "Logement" : {
+
+    },
+    "Lois, taxes, délais et aides : les dernières nouvelles publiées par l'administration." : {
+
+    },
+    "Marquer comme à préparer" : {
+
+    },
+    "Marquer comme prête" : {
+
+    },
+    "Mes dossiers" : {
+
+    },
+    "Mes droits" : {
+
+    },
+    "Modifier ma réponse" : {
+
+    },
+    "Modifier mes réponses" : {
+
+    },
+    "Mon titre arrive bientôt à expiration" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "My permit expires soon"
           }
         }
       }
     },
-    "Quelle est votre démarche ?": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "What do you need to do?"
+    "Moyen-Orient" : {
+
+    },
+    "Nationalité" : {
+
+    },
+    "Naturalisation par décret" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Naturalisation by decree"
           }
         }
       }
     },
-    "Remplacer un titre perdu ou volé": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Replace a lost or stolen permit"
+    "Nom et prénom" : {
+
+    },
+    "Numéro de dossier" : {
+
+    },
+    "Numéro étranger" : {
+
+    },
+    "Numéro, rue, code postal, ville" : {
+
+    },
+    "Océanie" : {
+
+    },
+    "Options" : {
+
+    },
+    "Orientation" : {
+
+    },
+    "Où déposer, quand, et ce qui se passe ensuite." : {
+
+    },
+    "Où partent le plus de Français" : {
+
+    },
+    "Par exemple d'étudiant à salarié" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "For example, from student to employee"
           }
         }
       }
     },
-    "Renouveler mon titre de séjour": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Renew my residence permit"
+    "Parce que vous avez répondu :" : {
+
+    },
+    "Partager" : {
+
+    },
+    "Pas d'actualités pour le moment" : {
+
+    },
+    "Photo et signature" : {
+
+    },
+    "Pièces" : {
+
+    },
+    "Pour qui ?" : {
+
+    },
+    "Pourquoi cette pièce ?" : {
+
+    },
+    "Pourquoi cette question ?" : {
+
+    },
+    "Précédent" : {
+
+    },
+    "Préfecture" : {
+
+    },
+    "Préparer mon départ" : {
+
+    },
+    "Préparer un courrier" : {
+
+    },
+    "Quand vous commencez une démarche, elle apparaît ici avec votre liste de pièces." : {
+
+    },
+    "Quelle est votre démarche ?" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "What do you need to do?"
           }
         }
       }
     },
-    "Service indépendant. Les démarches officielles sont gratuites.": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Independent service. Government procedures are free of charge."
+    "Question %lld sur %lld" : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Question %1$lld sur %2$lld"
           }
         }
       }
     },
-    "Vos démarches, une étape à la fois.": {
-      "localizations": {
-        "en": {
-          "stringUnit": {
-            "state": "translated",
-            "value": "Your paperwork, one step at a time."
+    "Qui peut vous aider" : {
+
+    },
+    "Récapitulatif" : {
+
+    },
+    "Recevez votre liste de pièces" : {
+
+    },
+    "Rechercher un pays" : {
+
+    },
+    "Rechercher une démarche" : {
+
+    },
+    "Recommencer" : {
+
+    },
+    "Recours et justice" : {
+
+    },
+    "Remplacer un titre perdu ou volé" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Replace a lost or stolen permit"
           }
         }
       }
+    },
+    "Renouveler mon titre de séjour" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Renew my residence permit"
+          }
+        }
+      }
+    },
+    "Repère bas : allocation mensuelle d'un volontaire international (VIE) dans ce pays, ramenée à la durée choisie. Elle correspond au coût de la vie d'un jeune installé sur place." : {
+
+    },
+    "Repère haut : barème journalier que l'État verse à ses agents en mission dans ce pays (hôtel de type professionnel et repas)." : {
+
+    },
+    "Répondez à quelques questions" : {
+
+    },
+    "Répondez à quelques questions : nous vous montrons les droits et aides qui peuvent vous concerner, et où les demander." : {
+
+    },
+    "Ressources" : {
+
+    },
+    "Retraite" : {
+
+    },
+    "Revenir à l'accueil" : {
+
+    },
+    "Sans réponse" : {
+
+    },
+    "Santé" : {
+
+    },
+    "Séjour" : {
+
+    },
+    "Service indépendant. Les démarches officielles sont gratuites." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Independent service. Government procedures are free of charge."
+          }
+        }
+      }
+    },
+    "Seulement les documents qui vous concernent, avec des exemples." : {
+
+    },
+    "Source" : {
+
+    },
+    "Suivez les étapes" : {
+
+    },
+    "Taux de change du %@" : {
+
+    },
+    "Téléphone" : {
+
+    },
+    "Touchez une pièce pour voir le détail, et le rond pour la cocher quand elle est prête." : {
+
+    },
+    "Touchez une réponse pour la modifier." : {
+
+    },
+    "Tourisme" : {
+
+    },
+    "Tout" : {
+
+    },
+    "Toutes vos pièces sont prêtes." : {
+
+    },
+    "Travail" : {
+
+    },
+    "Un programme vacances-travail existe avec ce pays (%lld à %lld ans) : votre âge est dans la tranche." : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Un programme vacances-travail existe avec ce pays (%1$lld à %2$lld ans) : votre âge est dans la tranche."
+          }
+        }
+      }
+    },
+    "Un programme vacances-travail existe avec ce pays, réservé aux %lld à %lld ans." : {
+      "localizations" : {
+        "fr" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Un programme vacances-travail existe avec ce pays, réservé aux %1$lld à %2$lld ans."
+          }
+        }
+      }
+    },
+    "Vacances-travail (PVT)" : {
+
+    },
+    "Vérifiez vos réponses" : {
+
+    },
+    "Ville" : {
+
+    },
+    "Voir les démarches" : {
+
+    },
+    "Voir ma liste de pièces" : {
+
+    },
+    "Vos démarches, une étape à la fois." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your paperwork, one step at a time."
+          }
+        }
+      }
+    },
+    "Vos informations" : {
+
+    },
+    "Votre âge : %lld ans" : {
+
+    },
+    "Votre profil" : {
+
+    },
+    "Votre projet" : {
+
+    },
+    "Vous pourriez y avoir droit" : {
+
     }
   },
-  "version": "1.0"
+  "version" : "1.0"
 }

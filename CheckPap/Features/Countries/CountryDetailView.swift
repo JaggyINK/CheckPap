@@ -28,6 +28,13 @@ struct CountryDetailView: View {
                 }
                 .staggeredAppear(0)
 
+                if let content = store.countries {
+                    CountryMotiveSection(country: country, content: content)
+                        .staggeredAppear(1)
+                    CountryBudgetCard(country: country, content: content)
+                        .staggeredAppear(2)
+                }
+
                 if highlights.isEmpty {
                     Callout(.info, LocalizedText([
                         "fr": "Pas encore de fiche détaillée pour ce pays. Les liens ci-dessous mènent aux informations à jour du ministère des Affaires étrangères et des organismes concernés.",
@@ -36,7 +43,7 @@ struct CountryDetailView: View {
                 } else {
                     ForEach(Array(highlights.enumerated()), id: \.offset) { index, highlight in
                         HighlightCard(highlight: highlight)
-                            .staggeredAppear(index + 1)
+                            .staggeredAppear(index + 3)
                     }
                 }
 

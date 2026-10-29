@@ -13,6 +13,7 @@ struct ContentComplianceTests {
         "defenseurdesdroits.fr", "justice.fr", "ameli.fr", "france-education-international.fr",
         "courdecassation.fr", "cci-paris-idf.fr", "caf.fr", "msa.fr", "francetravail.fr",
         "banque-france.fr", "visale.fr", "actionlogement.fr", "conseil-constitutionnel.fr", "conseil-etat.fr",
+        "cleiss.fr", "cfe.fr", "aefe.fr", "civiweb.com", "businessfrance.fr", "info-retraite.fr", "assemblee-afe.fr",
     ]
 
     /// Formules de promesse de résultat. "garantie" seul reste permis (ex. : "Garantie Visale").
@@ -311,6 +312,37 @@ struct ContentComplianceTests {
                     #expect(!value.contains("\u{2014}"), "\(part) / \(right.id) : tiret cadratin")
                 }
             }
+        }
+    }
+
+    /// Fiches pays : les liens peuvent mener aux sites des autres États, mais restent en https,
+    /// et chaque information détaillée cite une source déclarée.
+    @Test func countriesFollowTheRules() throws {
+        let listURL = try #require(Bundle.main.url(forResource: "countries", withExtension: "json"))
+        let list = try JSONDecoder().decode(CountryList.self, from: Data(contentsOf: listURL))
+        #expect(list.countries.count > 150)
+        #expect(Set(list.countries.map(\.id)).count == list.countries.count, "countries : identifiants en double")
+        for country in list.countries {
+            #expect(!country.links.isEmpty, "countries / \(country.id) : aucun lien")
+            for link in country.links {
+                #expect(link.url.scheme == "https", "countries / \(country.id) : lien non https")
+            }
+        }
+        if let url = Bundle.main.url(forResource: "countries_details", withExtension: "json") {
+            let details = try JSONDecoder().decode(CountryDetailsFile.self, from: Data(contentsOf: url))
+            let known = Set(details.sources.map(\.id))
+            let ids = Set(list.countries.map(\.id))
+            for detail in details.details {
+                #expect(ids.contains(detail.country), "countries_details : pays inconnu \(detail.country)")
+                let cited = detail.highlights.flatMap(\.sources) + (detail.motives ?? []).flatMap(\.sources)
+                #expect(cited.allSatisfy(known.contains), "countries_details / \(detail.country) : source inconnue")
+            }
+        }
+        if let url = Bundle.main.url(forResource: "countries_budget", withExtension: "json") {
+            let budget = try JSONDecoder().decode(CountryBudgetFile.self, from: Data(contentsOf: url))
+            #expect(DayDate.parse(budget.rates.date) != nil)
+            #expect(budget.perDiem.allSatisfy { $0.amount > 0 })
+            #expect(budget.rates.perEuro.values.allSatisfy { $0 > 0 })
         }
     }
 }

@@ -42,6 +42,18 @@ struct ProceduresView: View {
         .navigationTitle("Démarches")
         .navigationBarTitleDisplayMode(.inline)
         .searchable(text: $query, prompt: Text("Rechercher une démarche"))
+        .onAppear(perform: openRequestedCountry)
+    }
+
+    @Environment(Router.self) private var router
+
+    /// Pour les captures d'écran et la vérification : `-openCountry BD` ouvre directement une fiche pays.
+    private func openRequestedCountry() {
+        #if DEBUG
+        if let id = UserDefaults.standard.string(forKey: "openCountry"), router.path.isEmpty {
+            router.path = [.countries, .country(id)]
+        }
+        #endif
     }
 
     @ViewBuilder

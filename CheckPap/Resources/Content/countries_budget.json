@@ -1,0 +1,2863 @@
+{
+  "lastVerified": "2026-10-29",
+  "sources": [
+    {
+      "id": "legifrance_annexe_missions_etranger",
+      "publisher": "Légifrance",
+      "title": "Arrêté du 3 juillet 2006 fixant les taux des indemnités de mission (article 3 du décret n° 2006-781), Annexe : indemnités journalières de mission temporaire à l'étranger, version en vigueur depuis le 27 novembre 2025",
+      "url": "https://www.legifrance.gouv.fr/loda/id/LEGIARTI000052845319/2026-10-29",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "legifrance_arrete_2025_11_21",
+      "publisher": "Légifrance",
+      "title": "Arrêté du 21 novembre 2025 modifiant l'arrêté du 3 juillet 2006 fixant les taux des indemnités de mission (JORF n°0277 du 26 novembre 2025)",
+      "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000052843029",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "dgfip_bareme_missions",
+      "publisher": "DGFiP (economie.gouv.fr)",
+      "title": "Barème des frais de mission à l'étranger",
+      "url": "https://www.economie.gouv.fr/dgfip/taux-de-chancellerie/bareme-des-frais-de-mission-letranger",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "dgfip_data_frais_mission",
+      "publisher": "DGFiP (data.economie.gouv.fr)",
+      "title": "DGFIP - Frais de mission à l'étranger (jeu de données, mis à jour le 30 septembre 2026)",
+      "url": "https://data.economie.gouv.fr/explore/dataset/dgfip-frais-de-mission-etranger/",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "dgfip_taux_chancellerie",
+      "publisher": "DGFiP (economie.gouv.fr)",
+      "title": "Taux de change de chancellerie, fichier TXT des taux (Webtaux)",
+      "url": "https://www.economie.gouv.fr/dgfip/fichiers_taux_chancellerie/txt/Webtaux",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "dgfip_data_taux_change",
+      "publisher": "DGFiP (data.economie.gouv.fr)",
+      "title": "DGFIP - Taux de change (chancellerie) (jeu de données, mis à jour le 19 octobre 2026)",
+      "url": "https://data.economie.gouv.fr/explore/dataset/dgfip-taux-de-change/",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "dgfip_pays_monnaies",
+      "publisher": "DGFiP (economie.gouv.fr)",
+      "title": "Taux de chancellerie, fichier TXT des pays et monnaies (Webpays)",
+      "url": "https://www.economie.gouv.fr/dgfip/fichiers_taux_chancellerie/txt/Webpays",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "mae_pvt",
+      "publisher": "Ministère de l'Europe et des Affaires étrangères (diplomatie.gouv.fr)",
+      "title": "Programme Vacances-Travail (PVT), mis à jour le 16 octobre 2026",
+      "url": "https://www.diplomatie.gouv.fr/fr/services-aux-francaises-et-aux-francais/preparer-son-expatriation/programme-vacances-travail-pvt",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "legifrance_annexe_via_2016",
+      "publisher": "Légifrance",
+      "title": "Arrêté du 15 janvier 2016 fixant le montant de l'indemnité supplémentaire attribuée aux volontaires internationaux en administration, Annexe : indemnité supplémentaire mensuelle, version en vigueur depuis le 1er janvier 2026",
+      "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000031878867/2026-10-29",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "legifrance_arrete_via_2025_12_18",
+      "publisher": "Légifrance",
+      "title": "Arrêté du 18 décembre 2025 modifiant l'arrêté du 15 janvier 2016 fixant le montant de l'indemnité supplémentaire attribuée aux volontaires internationaux en administration (NOR : EAEA2533377A), en vigueur le 1er janvier 2026",
+      "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000053177500",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "legifrance_annexe_vie_2021",
+      "publisher": "Légifrance",
+      "title": "Arrêté du 4 mai 2021 fixant le montant de l'indemnité supplémentaire des volontaires internationaux en entreprise, Annexe : liste des pays dérogatoires, version en vigueur depuis le 1er janvier 2026",
+      "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000043501536/2026-10-29",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "legifrance_arrete_vie_2025_12_23",
+      "publisher": "Légifrance",
+      "title": "Arrêté du 23 décembre 2025 modifiant l'arrêté du 4 mai 2021 fixant le montant de l'indemnité supplémentaire des volontaires internationaux en entreprise (NOR : EAET2534311A), en vigueur le 1er janvier 2026",
+      "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000053202216",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "legifrance_decret_2000_1159",
+      "publisher": "Légifrance",
+      "title": "Décret n° 2000-1159 du 30 novembre 2000 relatif aux volontariats civils, article 18 (indemnité : 50 % de la rémunération afférente à l'indice brut 244), version en vigueur depuis le 23 mai 2021",
+      "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000767029/2026-10-29",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "businessfrance_indemnite_vie",
+      "publisher": "Business France (mon-vie-via.businessfrance.fr)",
+      "title": "Quelles sont les indemnités versées en mission V.I.E / V.I.A ? (indemnité commune de 772,87 EUR par mois depuis janvier 2024)",
+      "url": "https://mon-vie-via.businessfrance.fr/indemnite-vie",
+      "consulted": "2026-10-29"
+    }
+  ],
+  "rates": {
+    "date": "2026-10-01",
+    "source": "dgfip_taux_chancellerie",
+    "perEuro": {
+      "AED": 4.17711,
+      "AFN": 74.0192,
+      "ALL": 92.2509,
+      "AMD": 421.053,
+      "AOA": 1057.53,
+      "ARS": 1716.15,
+      "AUD": 1.63452,
+      "AZN": 1.9305,
+      "BAM": 1.95312,
+      "BBD": 2.28676,
+      "BDT": 143.143,
+      "BHD": 0.428082,
+      "BIF": 3419.97,
+      "BMD": 1.13546,
+      "BND": 1.49454,
+      "BOB": 13.5135,
+      "BRL": 5.91716,
+      "BSD": 1.13546,
+      "BWP": 15.5958,
+      "BYN": 3.5137,
+      "BZD": 2.28363,
+      "CAD": 1.59872,
+      "CDF": 2656.75,
+      "CHF": 0.931966,
+      "CLP": 1071.47,
+      "CNY": 7.61035,
+      "COP": 3828.48,
+      "CRC": 517.331,
+      "CUP": 27.2926,
+      "CVE": 110.254,
+      "CZK": 24.1663,
+      "DJF": 202.224,
+      "DKK": 7.46269,
+      "DOP": 68.7285,
+      "DZD": 150.875,
+      "EGP": 58.548,
+      "ERN": 17.1939,
+      "ETB": 185.943,
+      "EUR": 1.0,
+      "FJD": 2.57334,
+      "GBP": 0.866551,
+      "GEL": 3.01205,
+      "GHS": 13.3761,
+      "GMD": 85.3971,
+      "GNF": 10001.0,
+      "GTQ": 8.79507,
+      "GYD": 237.925,
+      "HKD": 8.91266,
+      "HNL": 30.4878,
+      "HTG": 149.076,
+      "HUF": 361.795,
+      "IDR": 20350.0,
+      "ILS": 3.46141,
+      "INR": 109.806,
+      "IQD": 1487.43,
+      "IRR": 1560790.0,
+      "ISK": 136.799,
+      "JMD": 181.884,
+      "JOD": 0.805153,
+      "JPY": 178.412,
+      "KES": 149.633,
+      "KGS": 99.3049,
+      "KHR": 4730.37,
+      "KMF": 491.968,
+      "KRW": 1536.81,
+      "KWD": 0.351247,
+      "KZT": 501.756,
+      "LAK": 25713.6,
+      "LBP": 102145.0,
+      "LKR": 381.971,
+      "LRD": 194.742,
+      "LYD": 7.34754,
+      "MAD": 10.9709,
+      "MDL": 20.1045,
+      "MGA": 4962.78,
+      "MKD": 60.9756,
+      "MMK": 4576.66,
+      "MNT": 4194.63,
+      "MOP": 9.18274,
+      "MRU": 46.1255,
+      "MUR": 53.5619,
+      "MVR": 17.6336,
+      "MWK": 1995.61,
+      "MXN": 20.3211,
+      "MYR": 4.62535,
+      "MZN": 72.4113,
+      "NAD": 18.9934,
+      "NGN": 1528.12,
+      "NIO": 41.9815,
+      "NOK": 10.9757,
+      "NPR": 175.562,
+      "NZD": 2.00763,
+      "OMR": 0.437254,
+      "PAB": 1.13546,
+      "PEN": 3.95726,
+      "PGK": 5.1573,
+      "PHP": 72.4638,
+      "PKR": 321.337,
+      "PLN": 4.36491,
+      "PYG": 6671.11,
+      "QAR": 4.13394,
+      "RON": 5.24934,
+      "RSD": 117.233,
+      "RUB": 96.2464,
+      "RWF": 1680.95,
+      "SAR": 4.26257,
+      "SCR": 15.9084,
+      "SDG": 5783.69,
+      "SEK": 11.3212,
+      "SGD": 1.45033,
+      "SLE": 28.4091,
+      "SOS": 657.895,
+      "SRD": 42.8266,
+      "SSP": 6561.68,
+      "STN": 24.4978,
+      "SYP": 139.392,
+      "THB": 38.4911,
+      "TJS": 10.5507,
+      "TMT": 3.97456,
+      "TND": 3.36474,
+      "TRY": 56.1798,
+      "TTD": 7.73994,
+      "TWD": 36.8732,
+      "TZS": 3085.47,
+      "UAH": 51.6262,
+      "UGX": 4452.36,
+      "USD": 1.13546,
+      "UYU": 46.1467,
+      "UZS": 13698.6,
+      "VES": 972.763,
+      "VND": 29489.8,
+      "VUV": 133.869,
+      "WST": 3.14367,
+      "XAF": 655.957,
+      "XCD": 3.09119,
+      "XOF": 655.957,
+      "YER": 605.694,
+      "ZAR": 18.6324,
+      "ZIG": 31.2402,
+      "ZMW": 21.7202
+    }
+  },
+  "currencyOf": {
+    "AD": "EUR",
+    "AE": "AED",
+    "AF": "AFN",
+    "AG": "XCD",
+    "AI": "XCD",
+    "AL": "ALL",
+    "AM": "AMD",
+    "AO": "AOA",
+    "AR": "ARS",
+    "AT": "EUR",
+    "AU": "AUD",
+    "AW": "USD",
+    "AZ": "AZN",
+    "BA": "BAM",
+    "BB": "BBD",
+    "BD": "BDT",
+    "BE": "EUR",
+    "BF": "XOF",
+    "BG": "EUR",
+    "BH": "BHD",
+    "BI": "BIF",
+    "BJ": "XOF",
+    "BM": "BMD",
+    "BN": "BND",
+    "BO": "BOB",
+    "BR": "BRL",
+    "BS": "BSD",
+    "BW": "BWP",
+    "BY": "BYN",
+    "BZ": "BZD",
+    "CA": "CAD",
+    "CD": "CDF",
+    "CF": "XAF",
+    "CG": "XAF",
+    "CH": "CHF",
+    "CI": "XOF",
+    "CK": "NZD",
+    "CL": "CLP",
+    "CM": "XAF",
+    "CN": "CNY",
+    "CO": "COP",
+    "CR": "CRC",
+    "CU": "CUP",
+    "CV": "CVE",
+    "CW": "ANG",
+    "CY": "EUR",
+    "CZ": "CZK",
+    "DE": "EUR",
+    "DJ": "DJF",
+    "DK": "DKK",
+    "DM": "XCD",
+    "DO": "DOP",
+    "DZ": "DZD",
+    "EC": "USD",
+    "EE": "EUR",
+    "EG": "EGP",
+    "ER": "ERN",
+    "ES": "EUR",
+    "ET": "ETB",
+    "FI": "EUR",
+    "FJ": "FJD",
+    "FM": "USD",
+    "GA": "XAF",
+    "GB": "GBP",
+    "GD": "XCD",
+    "GE": "GEL",
+    "GH": "GHS",
+    "GM": "GMD",
+    "GN": "GNF",
+    "GQ": "XAF",
+    "GR": "EUR",
+    "GT": "GTQ",
+    "GW": "XOF",
+    "GY": "GYD",
+    "HK": "HKD",
+    "HN": "HNL",
+    "HR": "EUR",
+    "HT": "HTG",
+    "HU": "HUF",
+    "ID": "IDR",
+    "IE": "EUR",
+    "IL": "ILS",
+    "IN": "INR",
+    "IQ": "IQD",
+    "IR": "IRR",
+    "IS": "ISK",
+    "IT": "EUR",
+    "JM": "JMD",
+    "JO": "JOD",
+    "JP": "JPY",
+    "KE": "KES",
+    "KG": "KGS",
+    "KH": "KHR",
+    "KI": "AUD",
+    "KM": "KMF",
+    "KN": "XCD",
+    "KP": "KPW",
+    "KR": "KRW",
+    "KW": "KWD",
+    "KY": "KYD",
+    "KZ": "KZT",
+    "LA": "LAK",
+    "LB": "LBP",
+    "LC": "XCD",
+    "LI": "CHF",
+    "LK": "LKR",
+    "LR": "LRD",
+    "LS": "ZAR",
+    "LT": "EUR",
+    "LU": "EUR",
+    "LV": "EUR",
+    "LY": "LYD",
+    "MA": "MAD",
+    "MD": "MDL",
+    "ME": "EUR",
+    "MG": "MGA",
+    "MH": "USD",
+    "MK": "MKD",
+    "ML": "XOF",
+    "MM": "MMK",
+    "MN": "MNT",
+    "MO": "MOP",
+    "MR": "MRU",
+    "MT": "EUR",
+    "MU": "MUR",
+    "MV": "MVR",
+    "MW": "MWK",
+    "MX": "MXN",
+    "MY": "MYR",
+    "MZ": "MZN",
+    "NA": "NAD",
+    "NE": "XOF",
+    "NG": "NGN",
+    "NI": "NIO",
+    "NL": "EUR",
+    "NO": "NOK",
+    "NP": "NPR",
+    "NR": "AUD",
+    "NU": "NZD",
+    "NZ": "NZD",
+    "OM": "OMR",
+    "PA": "PAB",
+    "PE": "PEN",
+    "PG": "PGK",
+    "PH": "PHP",
+    "PK": "PKR",
+    "PL": "PLN",
+    "PT": "EUR",
+    "PW": "USD",
+    "PY": "PYG",
+    "QA": "QAR",
+    "RO": "RON",
+    "RS": "RSD",
+    "RU": "RUB",
+    "RW": "RWF",
+    "SA": "SAR",
+    "SB": "SBD",
+    "SC": "SCR",
+    "SD": "SDG",
+    "SE": "SEK",
+    "SG": "SGD",
+    "SI": "EUR",
+    "SK": "EUR",
+    "SL": "SLE",
+    "SN": "XOF",
+    "SO": "SOS",
+    "SR": "SRD",
+    "SS": "SSP",
+    "ST": "STN",
+    "SV": "USD",
+    "SY": "SYP",
+    "SZ": "SZL",
+    "TD": "XAF",
+    "TG": "XOF",
+    "TH": "THB",
+    "TJ": "TJS",
+    "TL": "USD",
+    "TM": "TMT",
+    "TN": "TND",
+    "TO": "TOP",
+    "TR": "TRY",
+    "TT": "TTD",
+    "TV": "AUD",
+    "TW": "TWD",
+    "TZ": "TZS",
+    "UA": "UAH",
+    "UG": "UGX",
+    "US": "USD",
+    "UY": "UYU",
+    "UZ": "UZS",
+    "VC": "XCD",
+    "VE": "VES",
+    "VN": "VND",
+    "VU": "VUV",
+    "WS": "WST",
+    "XK": "EUR",
+    "YE": "YER",
+    "ZA": "ZAR",
+    "ZM": "ZMW",
+    "ZW": "ZIG"
+  },
+  "perDiem": [
+    {
+      "country": "AD",
+      "amount": 118,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "AE",
+      "amount": 300,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "AF",
+      "amount": 279,
+      "currency": "USD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "AG",
+      "amount": 308,
+      "currency": "USD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "AI",
+      "amount": 208,
+      "currency": "USD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "AL",
+      "amount": 130,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "AM",
+      "amount": 186,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "AO",
+      "amount": 300,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "AR",
+      "amount": 157,
+      "currency": "USD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "AT",
+      "amount": 175,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "AU",
+      "amount": 380,
+      "currency": "AUD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "AW",
+      "amount": 150,
+      "currency": "USD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "AZ",
+      "amount": 204,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "BA",
+      "amount": 169,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "BB",
+      "amount": 355,
+      "currency": "USD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "BD",
+      "amount": 258,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "BE",
+      "amount": 206,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "BF",
+      "amount": 145,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "BG",
+      "amount": 145,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "BH",
+      "amount": 200,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "BI",
+      "amount": 140,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "BJ",
+      "amount": 145,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "BM",
+      "amount": 450,
+      "currency": "BMD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "BN",
+      "amount": 255,
+      "currency": "BND",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "BO",
+      "amount": 135,
+      "currency": "USD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "BR",
+      "amount": 216,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "BS",
+      "amount": 450,
+      "currency": "USD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "BW",
+      "amount": 119,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "BY",
+      "amount": 150,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "BZ",
+      "amount": 177,
+      "currency": "USD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "CA",
+      "amount": 319,
+      "currency": "CAD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "CD",
+      "amount": 240,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "CF",
+      "amount": 96000,
+      "currency": "XAF",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "CG",
+      "amount": 120000,
+      "currency": "XAF",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "CH",
+      "amount": 230,
+      "currency": "CHF",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "CI",
+      "amount": 137000,
+      "currency": "XOF",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "CK",
+      "amount": 400,
+      "currency": "NZD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "CL",
+      "amount": 217,
+      "currency": "USD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "CM",
+      "amount": 161,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "CN",
+      "amount": 1700,
+      "currency": "CNY",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "CO",
+      "amount": 176,
+      "currency": "USD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "CR",
+      "amount": 270,
+      "currency": "USD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "CU",
+      "amount": 200,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "CV",
+      "amount": 13575,
+      "currency": "CVE",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "CW",
+      "amount": 150,
+      "currency": "USD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "CY",
+      "amount": 190,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "CZ",
+      "amount": 180,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "DE",
+      "amount": 240,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "DJ",
+      "amount": 36320,
+      "currency": "DJF",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "DK",
+      "amount": 2160,
+      "currency": "DKK",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "DM",
+      "amount": 266,
+      "currency": "USD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "DO",
+      "amount": 207,
+      "currency": "USD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "DZ",
+      "amount": 20480,
+      "currency": "DZD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "EC",
+      "amount": 150,
+      "currency": "USD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "EE",
+      "amount": 171,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "EG",
+      "amount": 148,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "ER",
+      "amount": 195,
+      "currency": "USD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "ES",
+      "amount": 212,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "ET",
+      "amount": 123,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "FI",
+      "amount": 220,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "FJ",
+      "amount": 421,
+      "currency": "FJD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "FM",
+      "amount": 157,
+      "currency": "USD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "GA",
+      "amount": 140000,
+      "currency": "XAF",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "GB",
+      "amount": 210,
+      "currency": "GBP",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "GD",
+      "amount": 283,
+      "currency": "USD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "GE",
+      "amount": 195,
+      "currency": "USD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "GH",
+      "amount": 250,
+      "currency": "USD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "GM",
+      "amount": 8590,
+      "currency": "GMD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "GN",
+      "amount": 170,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "GQ",
+      "amount": 90500,
+      "currency": "XAF",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "GR",
+      "amount": 167,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "GT",
+      "amount": 160,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "GW",
+      "amount": 169,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "GY",
+      "amount": 200,
+      "currency": "USD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "HK",
+      "amount": 2200,
+      "currency": "HKD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "HN",
+      "amount": 152,
+      "currency": "USD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "HR",
+      "amount": 142,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "HT",
+      "amount": 220,
+      "currency": "USD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "HU",
+      "amount": 175,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "ID",
+      "amount": 160,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "IE",
+      "amount": 190,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "IL",
+      "amount": 230,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "IN",
+      "amount": 210,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "IQ",
+      "amount": 300,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "IR",
+      "amount": 186,
+      "currency": "USD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "IS",
+      "amount": 34397,
+      "currency": "ISK",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "IT",
+      "amount": 220,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "JM",
+      "amount": 217,
+      "currency": "USD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "JO",
+      "amount": 151,
+      "currency": "JOD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "JP",
+      "amount": 25500,
+      "currency": "JPY",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "KE",
+      "amount": 180,
+      "currency": "USD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "KG",
+      "amount": 150,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "KH",
+      "amount": 150,
+      "currency": "USD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "KI",
+      "amount": 207,
+      "currency": "AUD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "KM",
+      "amount": 150,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "KN",
+      "amount": 287,
+      "currency": "USD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "KP",
+      "amount": 272,
+      "currency": "USD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "KR",
+      "amount": 210,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "KW",
+      "amount": 245,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "KY",
+      "amount": 450,
+      "currency": "USD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "KZ",
+      "amount": 188,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "LA",
+      "amount": 150,
+      "currency": "USD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "LB",
+      "amount": 154,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "LC",
+      "amount": 261,
+      "currency": "USD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "LI",
+      "amount": 230,
+      "currency": "CHF",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "LK",
+      "amount": 180,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "LR",
+      "amount": 230,
+      "currency": "USD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "LS",
+      "amount": 150,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "LT",
+      "amount": 145,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "LU",
+      "amount": 227,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "LV",
+      "amount": 152,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "LY",
+      "amount": 240,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "MA",
+      "amount": 175,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "MD",
+      "amount": 188,
+      "currency": "USD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "ME",
+      "amount": 150,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "MG",
+      "amount": 114,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "MH",
+      "amount": 154,
+      "currency": "USD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "MK",
+      "amount": 117,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "ML",
+      "amount": 161600,
+      "currency": "XOF",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "MM",
+      "amount": 250,
+      "currency": "USD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "MN",
+      "amount": 102,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "MO",
+      "amount": 2200,
+      "currency": "HKD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "MR",
+      "amount": 143,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "MT",
+      "amount": 200,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "MU",
+      "amount": 9450,
+      "currency": "MUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "MV",
+      "amount": 320,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "MW",
+      "amount": 224,
+      "currency": "USD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "MX",
+      "amount": 3800,
+      "currency": "MXN",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "MY",
+      "amount": 468,
+      "currency": "MYR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "MZ",
+      "amount": 189,
+      "currency": "USD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "NA",
+      "amount": 150,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "NE",
+      "amount": 78000,
+      "currency": "XOF",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "NG",
+      "amount": 160,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "NI",
+      "amount": 154,
+      "currency": "USD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "NL",
+      "amount": 161,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "NO",
+      "amount": 2700,
+      "currency": "NOK",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "NP",
+      "amount": 140,
+      "currency": "USD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "NR",
+      "amount": 600,
+      "currency": "AUD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "NU",
+      "amount": 204,
+      "currency": "NZD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "NZ",
+      "amount": 370,
+      "currency": "NZD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "OM",
+      "amount": 265,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "PA",
+      "amount": 178,
+      "currency": "USD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "PE",
+      "amount": 170,
+      "currency": "USD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "PG",
+      "amount": 245,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "PH",
+      "amount": 8770,
+      "currency": "PHP",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "PK",
+      "amount": 173,
+      "currency": "USD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "PL",
+      "amount": 175,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "PT",
+      "amount": 160,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "PW",
+      "amount": 311,
+      "currency": "USD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "PY",
+      "amount": 180,
+      "currency": "USD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "QA",
+      "amount": 278,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "RO",
+      "amount": 160,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "RS",
+      "amount": 150,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "RU",
+      "amount": 230,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "RW",
+      "amount": 170,
+      "currency": "USD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "SA",
+      "amount": 337,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "SB",
+      "amount": 23052,
+      "currency": "VUV",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "SC",
+      "amount": 300,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "SD",
+      "amount": 175,
+      "currency": "USD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "SE",
+      "amount": 1997,
+      "currency": "SEK",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "SG",
+      "amount": 446,
+      "currency": "SGD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "SI",
+      "amount": 160,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "SK",
+      "amount": 155,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "SL",
+      "amount": 260,
+      "currency": "USD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "SN",
+      "amount": 91800,
+      "currency": "XOF",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "SO",
+      "amount": 158,
+      "currency": "USD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "SR",
+      "amount": 180,
+      "currency": "USD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "SS",
+      "amount": 306,
+      "currency": "USD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "ST",
+      "amount": 135,
+      "currency": "USD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "SV",
+      "amount": 177,
+      "currency": "USD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "SY",
+      "amount": 154,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "SZ",
+      "amount": 138,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "TD",
+      "amount": 225,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "TG",
+      "amount": 82640,
+      "currency": "XOF",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "TH",
+      "amount": 5000,
+      "currency": "THB",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "TJ",
+      "amount": 250,
+      "currency": "USD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "TL",
+      "amount": 150,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "TM",
+      "amount": 224,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "TN",
+      "amount": 125,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "TO",
+      "amount": 402,
+      "currency": "FJD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "TR",
+      "amount": 135,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "TT",
+      "amount": 267,
+      "currency": "USD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "TV",
+      "amount": 254,
+      "currency": "AUD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "TW",
+      "amount": 5990,
+      "currency": "TWD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "TZ",
+      "amount": 215,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "UA",
+      "amount": 208,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "UG",
+      "amount": 130,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "US",
+      "amount": 360,
+      "currency": "USD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "UY",
+      "amount": 135,
+      "currency": "USD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "UZ",
+      "amount": 197,
+      "currency": "USD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "VC",
+      "amount": 275,
+      "currency": "USD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "VE",
+      "amount": 195,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "VN",
+      "amount": 158,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "VU",
+      "amount": 210,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "WS",
+      "amount": 230,
+      "currency": "USD",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "XK",
+      "amount": 150,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "YE",
+      "amount": 188,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "ZA",
+      "amount": 138,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "ZM",
+      "amount": 180,
+      "currency": "EUR",
+      "source": "legifrance_annexe_missions_etranger"
+    },
+    {
+      "country": "ZW",
+      "amount": 180,
+      "currency": "USD",
+      "source": "legifrance_annexe_missions_etranger"
+    }
+  ],
+  "vieMonthly": [
+    {
+      "country": "AD",
+      "amount": 2283.21,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "AE",
+      "amount": 2433.98,
+      "currency": "EUR",
+      "source": "legifrance_annexe_vie_2021"
+    },
+    {
+      "country": "AF",
+      "amount": 4606.6,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "AG",
+      "amount": 2375.34,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "AL",
+      "amount": 2742.26,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "AM",
+      "amount": 2727.45,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "AO",
+      "amount": 4152.39,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "AR",
+      "amount": 2741.18,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "AT",
+      "amount": 2999.04,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "AU",
+      "amount": 3224.39,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "AZ",
+      "amount": 2525.21,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "BA",
+      "amount": 2137.81,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "BB",
+      "amount": 2221.76,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "BD",
+      "amount": 3013.92,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "BE",
+      "amount": 2950.61,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "BF",
+      "amount": 3835.89,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "BG",
+      "amount": 2085.95,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "BH",
+      "amount": 2638.54,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "BI",
+      "amount": 3485.29,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "BJ",
+      "amount": 2309.29,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "BN",
+      "amount": 2211.61,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "BO",
+      "amount": 2292.32,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "BR",
+      "amount": 2186.46,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "BW",
+      "amount": 1966.52,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "BY",
+      "amount": 2573.44,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "CA",
+      "amount": 2635.95,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "CD",
+      "amount": 4610.71,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "CF",
+      "amount": 4746.98,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "CG",
+      "amount": 3000.29,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "CH",
+      "amount": 4108.38,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "CI",
+      "amount": 2559.48,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "CL",
+      "amount": 2341.15,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "CM",
+      "amount": 2787.48,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "CN",
+      "amount": 2597.96,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "CO",
+      "amount": 2531.48,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "CR",
+      "amount": 2615.99,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "CU",
+      "amount": 4456.98,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "CV",
+      "amount": 2083.26,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "CY",
+      "amount": 2119.95,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "CZ",
+      "amount": 2637.38,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "DE",
+      "amount": 3011.73,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "DJ",
+      "amount": 2875.52,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "DK",
+      "amount": 3672.29,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "DM",
+      "amount": 2119.84,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "DO",
+      "amount": 2172.05,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "DZ",
+      "amount": 2587.27,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "EC",
+      "amount": 2678.54,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "EE",
+      "amount": 2597.37,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "EG",
+      "amount": 3208.75,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "ER",
+      "amount": 3277.44,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "ES",
+      "amount": 2673.49,
+      "currency": "EUR",
+      "source": "legifrance_annexe_vie_2021"
+    },
+    {
+      "country": "ET",
+      "amount": 2839.22,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "FI",
+      "amount": 2976.75,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "FJ",
+      "amount": 2463.84,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "GA",
+      "amount": 2607.35,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "GB",
+      "amount": 2729.62,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "GD",
+      "amount": 2119.49,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "GE",
+      "amount": 2271.34,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "GH",
+      "amount": 3386.85,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "GM",
+      "amount": 2065.68,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "GN",
+      "amount": 3407.84,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "GQ",
+      "amount": 3186.4,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "GR",
+      "amount": 2261.47,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "GT",
+      "amount": 2844.05,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "GW",
+      "amount": 3548.21,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "GY",
+      "amount": 3142.45,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "HK",
+      "amount": 3197.64,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "HN",
+      "amount": 2566.75,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "HR",
+      "amount": 2102.17,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "HT",
+      "amount": 5223.5,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "HU",
+      "amount": 2417.31,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "ID",
+      "amount": 2686.15,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "IE",
+      "amount": 3490.13,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "IL",
+      "amount": 4010.25,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "IN",
+      "amount": 2674.68,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "IQ",
+      "amount": 3972.87,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "IR",
+      "amount": 4294.41,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "IS",
+      "amount": 3176.03,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "IT",
+      "amount": 2994.76,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "JM",
+      "amount": 2766.41,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "JO",
+      "amount": 2292.91,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "JP",
+      "amount": 2495.28,
+      "currency": "EUR",
+      "source": "legifrance_annexe_vie_2021"
+    },
+    {
+      "country": "KE",
+      "amount": 2503.1,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "KG",
+      "amount": 2979.0,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "KH",
+      "amount": 2361.68,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "KM",
+      "amount": 3189.48,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "KN",
+      "amount": 2169.12,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "KP",
+      "amount": 3650.8,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "KR",
+      "amount": 2583.58,
+      "currency": "EUR",
+      "source": "legifrance_annexe_vie_2021"
+    },
+    {
+      "country": "KW",
+      "amount": 3065.68,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "KZ",
+      "amount": 2427.93,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "LA",
+      "amount": 2288.56,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "LB",
+      "amount": 4249.17,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "LC",
+      "amount": 2293.61,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "LK",
+      "amount": 2562.83,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "LR",
+      "amount": 4565.54,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "LS",
+      "amount": 2365.5,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "LT",
+      "amount": 2702.65,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "LU",
+      "amount": 3143.95,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "LV",
+      "amount": 2505.35,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "LY",
+      "amount": 3720.27,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "MA",
+      "amount": 1965.76,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "MD",
+      "amount": 2826.03,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "ME",
+      "amount": 2082.12,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "MG",
+      "amount": 2512.01,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "MK",
+      "amount": 2092.66,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "ML",
+      "amount": 3875.36,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "MM",
+      "amount": 4005.03,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "MN",
+      "amount": 3288.06,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "MO",
+      "amount": 2913.81,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "MR",
+      "amount": 3076.38,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "MT",
+      "amount": 2220.33,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "MU",
+      "amount": 1878.88,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "MV",
+      "amount": 2830.53,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "MW",
+      "amount": 2413.39,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "MX",
+      "amount": 3066.69,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "MY",
+      "amount": 2011.48,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "MZ",
+      "amount": 2785.82,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "NA",
+      "amount": 2355.17,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "NE",
+      "amount": 3725.24,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "NG",
+      "amount": 3951.01,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "NI",
+      "amount": 2446.53,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "NL",
+      "amount": 3379.49,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "NO",
+      "amount": 3133.22,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "NP",
+      "amount": 3231.51,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "NZ",
+      "amount": 2605.04,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "OM",
+      "amount": 2368.3,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "PA",
+      "amount": 2399.91,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "PE",
+      "amount": 2393.42,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "PG",
+      "amount": 3689.35,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "PH",
+      "amount": 2617.26,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "PK",
+      "amount": 3657.06,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "PL",
+      "amount": 2695.02,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "PT",
+      "amount": 2670.23,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "PY",
+      "amount": 2043.71,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "QA",
+      "amount": 2731.92,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "RO",
+      "amount": 2286.74,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "RS",
+      "amount": 2231.16,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "RU",
+      "amount": 3164.64,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "RW",
+      "amount": 2312.08,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "SA",
+      "amount": 3071.35,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "SC",
+      "amount": 2308.46,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "SD",
+      "amount": 3092.87,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "SE",
+      "amount": 3164.69,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "SG",
+      "amount": 4054.86,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "SI",
+      "amount": 2145.29,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "SK",
+      "amount": 2342.28,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "SL",
+      "amount": 3496.33,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "SN",
+      "amount": 2631.04,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "SO",
+      "amount": 3716.92,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "SR",
+      "amount": 3096.13,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "SS",
+      "amount": 5200.51,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "ST",
+      "amount": 3328.08,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "SV",
+      "amount": 2420.07,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "SY",
+      "amount": 4373.4,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "SZ",
+      "amount": 2043.73,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "TD",
+      "amount": 4134.87,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "TG",
+      "amount": 2341.47,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "TH",
+      "amount": 2436.4,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "TJ",
+      "amount": 2937.8,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "TL",
+      "amount": 2760.97,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "TM",
+      "amount": 3507.17,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "TN",
+      "amount": 1730.55,
+      "currency": "EUR",
+      "source": "legifrance_annexe_vie_2021"
+    },
+    {
+      "country": "TR",
+      "amount": 2416.34,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "TT",
+      "amount": 2752.0,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "TW",
+      "amount": 2375.85,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "TZ",
+      "amount": 2634.46,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "UA",
+      "amount": 3822.09,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "UG",
+      "amount": 3071.45,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "US",
+      "amount": 3045.89,
+      "currency": "EUR",
+      "source": "legifrance_annexe_vie_2021"
+    },
+    {
+      "country": "UY",
+      "amount": 2511.97,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "UZ",
+      "amount": 2596.93,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "VC",
+      "amount": 2169.94,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "VE",
+      "amount": 3663.0,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "VN",
+      "amount": 2209.37,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "VU",
+      "amount": 2899.61,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "WS",
+      "amount": 2539.74,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "XK",
+      "amount": 2245.82,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "YE",
+      "amount": 4063.09,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "ZA",
+      "amount": 2335.48,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "ZM",
+      "amount": 2303.61,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    },
+    {
+      "country": "ZW",
+      "amount": 2777.87,
+      "currency": "EUR",
+      "source": "legifrance_annexe_via_2016"
+    }
+  ],
+  "workingHoliday": [
+    {
+      "country": "AR",
+      "minAge": 18,
+      "maxAge": 35,
+      "source": "mae_pvt"
+    },
+    {
+      "country": "AU",
+      "minAge": 18,
+      "maxAge": 35,
+      "source": "mae_pvt"
+    },
+    {
+      "country": "BR",
+      "minAge": 18,
+      "maxAge": 30,
+      "source": "mae_pvt"
+    },
+    {
+      "country": "CA",
+      "minAge": 18,
+      "maxAge": 35,
+      "source": "mae_pvt"
+    },
+    {
+      "country": "CL",
+      "minAge": 18,
+      "maxAge": 30,
+      "source": "mae_pvt"
+    },
+    {
+      "country": "CO",
+      "minAge": 18,
+      "maxAge": 30,
+      "source": "mae_pvt"
+    },
+    {
+      "country": "KR",
+      "minAge": 18,
+      "maxAge": 30,
+      "source": "mae_pvt"
+    },
+    {
+      "country": "EC",
+      "minAge": 18,
+      "maxAge": 30,
+      "source": "mae_pvt"
+    },
+    {
+      "country": "HK",
+      "minAge": 18,
+      "maxAge": 30,
+      "source": "mae_pvt"
+    },
+    {
+      "country": "JP",
+      "minAge": 18,
+      "maxAge": 30,
+      "source": "mae_pvt"
+    },
+    {
+      "country": "MX",
+      "minAge": 18,
+      "maxAge": 30,
+      "source": "mae_pvt"
+    },
+    {
+      "country": "NZ",
+      "minAge": 18,
+      "maxAge": 30,
+      "source": "mae_pvt"
+    },
+    {
+      "country": "PE",
+      "minAge": 18,
+      "maxAge": 30,
+      "source": "mae_pvt"
+    },
+    {
+      "country": "TW",
+      "minAge": 18,
+      "maxAge": 30,
+      "source": "mae_pvt"
+    },
+    {
+      "country": "UY",
+      "minAge": 18,
+      "maxAge": 30,
+      "source": "mae_pvt"
+    }
+  ],
+  "reviewNotes": [
+    "Barème : taux journaliers de l'annexe de l'arrêté du 3 juillet 2006 modifié (version en vigueur le 29 octobre 2026, dernière modification par l'arrêté du 21 novembre 2025, en vigueur depuis le 27 novembre 2025), lus dans les données ouvertes de la DGFiP (colonne groupe_1, dernier taux par pays) et comparés par script à la table de l'annexe sur Légifrance (209 lignes) : chaque pays retenu correspond en montant et en monnaie à une ligne de l'annexe. Chine : l'annexe affiche « 1,700 » YUAN ; lu 1 700 CNY, comme dans les données DGFiP.",
+    "Taux par ville ou par période écartés au profit du taux général du pays : Afrique du Sud 185 EUR du 15 décembre au 1er mars (138 EUR retenu) ; États-Unis, ville de New York 490 USD du 1er septembre au 31 décembre (360 USD retenu, taux hors New York) ; Japon, ville de Tokyo 30 000 JPY (25 500 JPY retenu).",
+    "Pays où l'annexe ne donne que des taux par ville : le taux retenu est celui des « autres villes », qui n'est PAS celui de la capitale. Canada : 319 CAD « autres villes » (Toronto 552 CAD, Vancouver 449 CAD ; capitale Ottawa = autres villes). Nigeria : 160 EUR « autres villes » (Abuja, Lagos et Port-Harcourt 230 EUR ; la capitale Abuja est à 230 EUR). Togo : 82 640 XOF « autres villes » (Lomé, capitale, 95 771 XOF). À arbitrer : garder le taux général ou prendre la capitale.",
+    "Entrées des données DGFiP non reprises car absentes de l'annexe Légifrance en vigueur ou obsolètes : GI (entrée sans nom de pays dans les données DGFiP, absente de l'annexe Légifrance); LG (Luxembourg (ville), absente de l'annexe); BX (Bruxelles, absente de l'annexe); YU (Yougoslavie, code obsolète); CS (Serbie-Monténégro, code obsolète (Serbie et Monténégro ont chacun leur taux)); SH (Shanghai, absente de l'annexe); NY (ville de New York (taux particulier)); VT (ville de Toronto (taux particulier)); VV (ville de Vancouver (taux particulier)); NV (villes d'Abuja, Lagos et Port-Harcourt (taux particulier)); VL (ville de Lomé (taux particulier)); TY (ville de Tokyo (taux particulier)); CC (Curaçao ancien code pays (doublon de CW)).",
+    "Pays ou territoires listés par la DGFiP (fichier Pays) mais absents du barème des missions (8) : BHOUTAN (BT), MONACO (MC), NOUVELLE-CALEDONIE (NC), POLYNESIE FRANCAISE (PF), SAINT-PIERRE-ET-MIQUELON (PM), TERRITOIRES PALESTINIENS (PS), WALLIS ET FUTUNA ILES (WF), MAYOTTE (YT). Rien n'est fourni pour eux dans perDiem. NC, PF, PM, WF et YT sont des collectivités françaises d'outre-mer (régime de l'outre-mer, pas de l'étranger). Entrées non-pays du fichier ignorées : BU (ancien code de la Birmanie, couverte sous MM), EU (Union économique et monétaire), XC (Caraïbes orientales).",
+    "Codes pays : Timor oriental est codé TI par la DGFiP, converti en TL (ISO 3166-1). Kosovo : XK, code utilisé par la DGFiP mais non attribué officiellement par l'ISO 3166-1. Curaçao : code CW.",
+    "Îles Salomon (SB) : l'annexe exprime le taux en VATU (VUV, monnaie du Vanuatu) alors que la DGFiP associe le pays au dollar des Salomon (SBD) ; montant gardé tel que publié (23 052 VUV), à vérifier.",
+    "Taux de change : taux de chancellerie DGFiP en vigueur au 2026-10-01 (dernière mise à jour mensuelle disponible). Chaque devise garde le dernier taux fixé à cette date ou avant. La DGFiP publie la valeur en euros d'une unité de devise ; perEuro est l'inverse calculé (1 / taux), arrondi à 6 chiffres significatifs.",
+    "Devises dont le taux de chancellerie en vigueur a été fixé avant 2026 (date de fixation) : BAM 2017-10-01, BDT 2025-07-01, BND 2025-05-01, CVE 2002-01-01, DKK 2020-06-01, DZD 2025-05-01, KHR 2025-10-01, KMF 2002-01-01, MKD 2003-02-01, MNT 2025-07-01, MUR 2025-09-01, RSD 2020-03-01, STN 2023-03-01, TND 2022-12-01, UYU 2025-08-01, XAF 2002-01-01, XOF 2002-01-01. XOF, XAF, KMF et XPF sont des parités fixes avec l'euro.",
+    "Dates de fixation des autres taux : 2026-01-06 (1 devises), 2026-02-01 (5 devises), 2026-04-01 (19 devises), 2026-05-01 (3 devises), 2026-06-01 (6 devises), 2026-07-01 (14 devises), 2026-08-01 (12 devises), 2026-09-01 (11 devises), 2026-10-01 (51 devises).",
+    "Devises sans taux de chancellerie en vigueur (pas de conversion possible) : ANG (CW), KPW (KP), KYD (KY), SBD (SB), SZL (SZ), TOP (TO). KPW figure avec un taux nul ; KYD, SZL et TOP sont marquées « hors vigueur » dans les données DGFiP ; SBD et ANG n'ont aucun taux publié.",
+    "currencyOf : d'après le fichier « Pays » de la DGFiP (pays -> monnaie), en gardant la monnaie dont le taux est en vigueur. Haïti : la DGFiP associe deux monnaies en vigueur (HTG et USD) ; HTG retenu. Pays dont la seule monnaie listée n'a pas de taux en vigueur : CW ANG, KY KYD, SB SBD, SZ SZL, TO TOP. Curaçao : la DGFiP indique ANG (florin des Antilles néerlandaises), à vérifier sur la fiche Conseils aux voyageurs.",
+    "PVT : liste des quinze pays ou territoires et âges d'après la page diplomatie.gouv.fr (mise à jour le 16 octobre 2026) : 18 à 30 ans révolus au dépôt de la demande, 35 ans pour l'Argentine, l'Australie et le Canada. Les conditions précises dépendent de chaque accord bilatéral.",
+    "Les domaines economie.gouv.fr, data.economie.gouv.fr et diplomatie.gouv.fr ne figurent pas dans la liste des domaines autorisés des règles générales du schéma ; ils ont été utilisés à la demande pour ce fichier.",
+    "vieMonthly : indemnité mensuelle totale d'un volontaire international (VIE/VIA), en euros = indemnité commune 772,87 EUR (montant publié par Business France, « depuis janvier 2024 » ; l'article 18 du décret n° 2000-1159 la fixe à 50 % de la rémunération afférente à l'indice brut 244, sans montant en euros) + indemnité supplémentaire (géographique) du pays. La somme est calculée par script ; aucun montant total par pays n'est publié tel quel.",
+    "Barème : annexe de l'arrêté du 15 janvier 2016 (VIA) modifiée par l'arrêté du 18 décembre 2025, en vigueur depuis le 1er janvier 2026, et annexe de l'arrêté du 4 mai 2021 (VIE, pays dérogatoires) modifiée par l'arrêté du 23 décembre 2025, en vigueur depuis le 1er janvier 2026. Tableaux copiés depuis Légifrance (versions en vigueur au 29 octobre 2026) et contrôlés par empreinte SHA-256 contre la page ; 250 lignes VIA et 12 lignes VIE lues.",
+    "VIE et VIA : le barème VIA s'applique aussi aux VIE, sauf dans 6 pays dérogatoires où l'arrêté du 4 mai 2021 fixe un montant VIE propre (source legifrance_annexe_vie_2021). Pour ces pays, vieMonthly donne le montant VIE. Montants totaux VIA correspondants (du plus bas au plus haut selon les zones) : AE 2 952,08/3 190,28; ES 2 982,33; JP 2 851,63/3 402,21; KR 3 251,33; TN 2 116,92; US 3 403,77/3 586,38/3 728,58/4 065,01/4 075,82/4 090,28/4 090,28/4 128,05/4 530,82/4 572,34/5 046,14/5 046,14/5 258,62/5 450,47.",
+    "Pays à plusieurs zones ou villes : le montant le plus bas est retenu (ce n'est pas toujours la capitale ni « autres villes »). AE : « ÉMIRATS ARABES UNIS (Abu Dhabi) » 1 661,11 (zones de 1 661,11 à 1 862,57) ; AT : « AUTRICHE » 2 226,17 (zones de 2 226,17 à 2 226,17) ; AU : « AUSTRALIE (autres villes) » 2 451,52 (zones de 2 451,52 à 2 681,21) ; BE : « BELGIQUE » 2 177,74 (zones de 2 177,74 à 2 177,74) ; BR : « BRÉSIL (autres villes) » 1 413,59 (zones de 1 413,59 à 1 821,18) ; CA : « CANADA (autres villes) » 1 863,08 (zones de 1 863,08 à 2 587,38) ; CD : « CONGO RDC (Kinshasa) » 3 837,84 (zones de 3 837,84 à 3 997,81) ; CH : « SUISSE (autres villes) » 3 335,51 (zones de 3 335,51 à 3 662,82) ; CM : « CAMEROUN (autres villes) » 2 014,61 (zones de 2 014,61 à 2 170,37) ; CN : « CHINE (Canton) » 1 825,09 (zones de 1 825,09 à 2 158,02) ; DE : « ALLEMAGNE (autres villes) » 2 238,86 (zones de 2 238,86 à 2 590,30) ; DZ : « ALGÉRIE (autres villes) » 1 814,40 (zones de 1 814,40 à 1 850,99) ; GA : « GABON (autres villes) » 1 834,48 (zones de 1 834,48 à 1 986,47) ; GB : « ROYAUME-UNI (Edimbourg) » 1 956,75 (zones de 1 956,75 à 3 043,14) ; IN : « INDE (autres villes) » 1 901,81 (zones de 1 901,81 à 2 461,85) ; IQ : « IRAK (Erbil) » 3 200,00 (zones de 3 200,00 à 4 064,58) ; IT : « ITALIE (autres villes) » 2 221,89 (zones de 2 221,89 à 2 221,89) ; JP : « JAPON (autres villes) » 1 722,41 (zones de 1 722,41 à 2 069,48) ; KZ : « KAZAKHSTAN (autres villes) » 1 655,06 (zones de 1 655,06 à 1 778,46) ; MA : « MAROC (Agadir) » 1 192,89 (zones de 1 192,89 à 1 192,89) ; MX : « MEXIQUE (autres villes) » 2 293,82 (zones de 2 293,82 à 2 293,82) ; NG : « NIGERIA (Lagos) » 3 178,14 (zones de 3 178,14 à 3 526,26) ; NO : « NORVÈGE (Stavanger) » 2 360,35 (zones de 2 360,35 à 2 560,20) ; PK : « PAKISTAN (autres villes) » 2 884,19 (zones de 2 884,19 à 3 030,99) ; PL : « POLOGNE (autres villes) » 1 922,15 (zones de 1 922,15 à 1 922,15) ; RU : « RUSSIE (Saint-Pétersbourg) » 2 391,77 (zones de 2 391,77 à 3 042,01) ; TR : « TURQUIE (Izmir) » 1 643,47 (zones de 1 643,47 à 1 914,23) ; US : « ÉTATS-UNIS (Mississipi, Oklahoma, Alabama, Iowa, Géorgie, Ohio, Virginie Occidentale) » 2 273,02 (zones de 2 273,02 à 4 335,07) ; ZA : « AFRIQUE DU SUD (autres villes) » 1 562,61 (zones de 1 562,61 à 1 676,21).",
+    "États-Unis : le barème VIE dérogatoire ne liste que certains États (5 groupes, de 2 273,02 à 4 335,07 EUR d'indemnité supplémentaire) ; le texte ne dit pas quel montant s'applique aux États non listés (Massachusetts, District de Columbia, etc.). Le plus bas (groupe Mississipi, Oklahoma, Alabama, Iowa, Géorgie, Ohio, Virginie Occidentale) est retenu : 3 045,89 EUR. En VIA, le plus bas hors Porto Rico est « autres villes » : 3 403,77 EUR. La ligne « ÉTATS-UNIS (Porto Rico) » (2 489,00) est écartée (territoire codé PR, absent de perDiem). La ligne « CHINE (Hong-Kong) » est rattachée à HK, pas à CN.",
+    "Pays de perDiem sans montant dans le barème des volontaires internationaux (18) : AI, AW, BM, BS, BZ, CK, CW, FM, KI, KY, LI, MH, NR, NU, PW, SB, TO, TV. Rien n'est fourni pour eux. Lignes du barème non reprises : MONACO (MC, 1 695,42) et SAINT-SIÈGE (VA, 2 221,89), absents de perDiem ; JÉRUSALEM (3 388,92), qui n'est pas un pays ISO.",
+    "Business France indique que l'indemnité géographique est « recalculée chaque trimestre » et l'arrêté VIE prévoit un ajustement selon les changes et le coût de la vie ; la version Légifrance en vigueur au 29 octobre 2026 date du 1er janvier 2026. Les montants réellement versés peuvent donc différer. Les réductions prévues (logement pris en charge : -20 % de l'indemnité géographique ; mission dans le pays de résidence principale : 15 % de l'indemnité géographique) ne sont pas appliquées.",
+    "Domaines : legifrance.gouv.fr (autorisé) et mon-vie-via.businessfrance.fr (sous-domaine de businessfrance.fr, autorisé pour S'expatrier)."
+  ]
+}

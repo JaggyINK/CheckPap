@@ -35,6 +35,11 @@ struct ProcedureIntroView: View {
                 howItWorks
                     .staggeredAppear(2)
 
+                if store.entry(id: procedure.id)?.showsCountries == true {
+                    CountryPickerCard()
+                        .staggeredAppear(3)
+                }
+
                 if procedure.isDraft {
                     DraftBanner()
                         .staggeredAppear(3)

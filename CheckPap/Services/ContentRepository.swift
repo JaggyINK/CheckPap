@@ -45,7 +45,8 @@ struct BundleContentRepository: ContentRepository {
     func loadCountries() async throws -> CountriesContent {
         let list = try decode(CountryList.self, file: "countries")
         let details = try? decode(CountryDetailsFile.self, file: "countries_details")
-        return CountriesContent(list: list, details: details)
+        let budget = try? decode(CountryBudgetFile.self, file: "countries_budget")
+        return CountriesContent(list: list, details: details, budget: budget)
     }
 
     /// Le profil, puis chaque fichier de droits qu'il annonce. Un fichier absent est ignoré.

@@ -1,0 +1,3644 @@
+{
+  "lastVerified": "2026-10-29",
+  "sources": [
+    {
+      "id": "rapport_fae_2026",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Rapport du Gouvernement sur la situation des Français établis hors de France, année 2025 (statistiques du registre au 31/12/2025, partie V.A, p. 134-135)",
+      "url": "https://www.diplomatie.gouv.fr/files/files/fae_rapport_gouvernement_2026.pdf",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cleiss_conventions",
+      "publisher": "cleiss.fr",
+      "title": "Conventions bilatérales de sécurité sociale (aucune date affichée)",
+      "url": "https://www.cleiss.fr/docs/textes/index.html",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "impots_conventions",
+      "publisher": "impots.gouv.fr",
+      "title": "Les conventions internationales (liste des conventions fiscales par pays)",
+      "url": "https://www.impots.gouv.fr/les-conventions-internationales",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "aefe_etablissements",
+      "publisher": "aefe.fr",
+      "title": "Rechercher un établissement : établissements d'enseignement français homologués à l'étranger (aucune date affichée ; aefe.fr redirige vers aefe.gouv.fr)",
+      "url": "https://aefe.gouv.fr/fr/etablissements",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_partir_vivre",
+      "publisher": "service-public.gouv.fr",
+      "title": "Je pars vivre à l'étranger (Vérifié le 26 avril 2024)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2485",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "dipl_pvt",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Programme Vacances-Travail (PVT) (mis à jour le 16 octobre 2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/services-aux-francaises-et-aux-francais/preparer-son-expatriation/programme-vacances-travail-pvt",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cav_ch_entree",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Conseils aux voyageurs : Suisse, Entrée / séjour (mis à jour le 15 septembre 2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/suisse/conseils-aux-voyageurs-entree-sejour",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cav_ch_securite",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Conseils aux voyageurs : Suisse, Sécurité (mis à jour le 15 septembre 2026 ; zones de vigilance actualisées le 13/03/2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/suisse/conseils-aux-voyageurs-securite",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cav_ch_sante",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Conseils aux voyageurs : Suisse, Santé (mis à jour le 15 septembre 2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/suisse/conseils-aux-voyageurs-sante",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cleiss_ch",
+      "publisher": "cleiss.fr",
+      "title": "Fiches pays : Suisse (aucune date affichée)",
+      "url": "https://www.cleiss.fr/pays/suisse.html",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "emb_ch",
+      "publisher": "ambafrance.org",
+      "title": "Ambassade de France en Suisse (site lié depuis la fiche Conseils aux voyageurs)",
+      "url": "https://ch.ambafrance.org/",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cav_us_entree",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Conseils aux voyageurs : États-Unis, Entrée / séjour (mis à jour le 23 octobre 2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/etats-unis/conseils-aux-voyageurs-entree-sejour",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cav_us_securite",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Conseils aux voyageurs : États-Unis, Sécurité (mis à jour le 23 octobre 2026 ; zones de vigilance actualisées le 05/03/2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/etats-unis/conseils-aux-voyageurs-securite",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cav_us_sante",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Conseils aux voyageurs : États-Unis, Santé (mis à jour le 23 octobre 2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/etats-unis/conseils-aux-voyageurs-sante",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cleiss_us",
+      "publisher": "cleiss.fr",
+      "title": "Fiches pays : États-Unis (aucune date affichée)",
+      "url": "https://www.cleiss.fr/pays/etats-unis.html",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "emb_us",
+      "publisher": "franceintheus.org",
+      "title": "Ambassade de France aux États-Unis (site lié depuis la fiche Conseils aux voyageurs)",
+      "url": "https://fr.franceintheus.org/",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cav_gb_entree",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Conseils aux voyageurs : Royaume-Uni, Entrée / séjour (mis à jour le 28 octobre 2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/royaume-uni/conseils-aux-voyageurs-entree-sejour",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cav_gb_securite",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Conseils aux voyageurs : Royaume-Uni, Sécurité (mis à jour le 28 octobre 2026 ; zones de vigilance actualisées le 12/03/2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/royaume-uni/conseils-aux-voyageurs-securite",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cav_gb_sante",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Conseils aux voyageurs : Royaume-Uni, Santé (mis à jour le 28 octobre 2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/royaume-uni/conseils-aux-voyageurs-sante",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cleiss_gb",
+      "publisher": "cleiss.fr",
+      "title": "Fiches pays : Royaume-Uni (aucune date affichée)",
+      "url": "https://www.cleiss.fr/pays/royaume_uni.html",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "emb_gb",
+      "publisher": "ambafrance.org",
+      "title": "Ambassade de France au Royaume-Uni (site lié depuis la fiche Conseils aux voyageurs)",
+      "url": "https://uk.ambafrance.org/-Francais-",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cav_be_entree",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Conseils aux voyageurs : Belgique, Entrée / séjour (mis à jour le 21 octobre 2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/belgique/conseils-aux-voyageurs-entree-sejour",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cav_be_securite",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Conseils aux voyageurs : Belgique, Sécurité (mis à jour le 21 octobre 2026 ; zones de vigilance actualisées le 18/03/2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/belgique/conseils-aux-voyageurs-securite",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cav_be_sante",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Conseils aux voyageurs : Belgique, Santé (mis à jour le 21 octobre 2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/belgique/conseils-aux-voyageurs-sante",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cleiss_be",
+      "publisher": "cleiss.fr",
+      "title": "Fiches pays : Belgique (aucune date affichée)",
+      "url": "https://www.cleiss.fr/pays/belgique.html",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "emb_be",
+      "publisher": "ambafrance.org",
+      "title": "Ambassade de France en Belgique (site lié depuis la fiche Conseils aux voyageurs)",
+      "url": "https://be.ambafrance.org/",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cav_ca_entree",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Conseils aux voyageurs : Canada, Entrée / séjour (mis à jour le 15 septembre 2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/canada/conseils-aux-voyageurs-entree-sejour",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cav_ca_securite",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Conseils aux voyageurs : Canada, Sécurité (mis à jour le 15 septembre 2026 ; zones de vigilance actualisées le 05/03/2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/canada/conseils-aux-voyageurs-securite",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cav_ca_sante",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Conseils aux voyageurs : Canada, Santé (mis à jour le 15 septembre 2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/canada/conseils-aux-voyageurs-sante",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cleiss_ca",
+      "publisher": "cleiss.fr",
+      "title": "Fiches pays : Canada (aucune date affichée)",
+      "url": "https://www.cleiss.fr/pays/canada.html",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "emb_ca",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Ambassade de France au Canada (site lié depuis la fiche Conseils aux voyageurs)",
+      "url": "https://ca.diplomatie.gouv.fr/fr",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cav_de_entree",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Conseils aux voyageurs : Allemagne, Entrée / séjour (mis à jour le 15 septembre 2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/allemagne/conseils-aux-voyageurs-entree-sejour",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cav_de_securite",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Conseils aux voyageurs : Allemagne, Sécurité (mis à jour le 15 septembre 2026 ; zones de vigilance actualisées le 18/03/2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/allemagne/conseils-aux-voyageurs-securite",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cav_de_sante",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Conseils aux voyageurs : Allemagne, Santé (mis à jour le 15 septembre 2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/allemagne/conseils-aux-voyageurs-sante",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cleiss_de",
+      "publisher": "cleiss.fr",
+      "title": "Fiches pays : Allemagne (aucune date affichée)",
+      "url": "https://www.cleiss.fr/pays/allemagne.html",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "emb_de",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Ambassade de France en Allemagne (site lié depuis la fiche Conseils aux voyageurs)",
+      "url": "https://de.diplomatie.gouv.fr/fr",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cav_es_entree",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Conseils aux voyageurs : Espagne, Entrée / séjour (mis à jour le 20 octobre 2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/espagne/conseils-aux-voyageurs-entree-sejour",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cav_es_securite",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Conseils aux voyageurs : Espagne, Sécurité (mis à jour le 20 octobre 2026 ; zones de vigilance actualisées le 05/03/2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/espagne/conseils-aux-voyageurs-securite",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cav_es_sante",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Conseils aux voyageurs : Espagne, Santé (mis à jour le 20 octobre 2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/espagne/conseils-aux-voyageurs-sante",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cleiss_es",
+      "publisher": "cleiss.fr",
+      "title": "Fiches pays : Espagne (aucune date affichée)",
+      "url": "https://www.cleiss.fr/pays/espagne.html",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "emb_es",
+      "publisher": "ambafrance.org",
+      "title": "Ambassade de France en Espagne (site lié depuis la fiche Conseils aux voyageurs)",
+      "url": "https://es.ambafrance.org/",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cav_il_entree",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Conseils aux voyageurs : Israël, Entrée / séjour (mis à jour le 15 septembre 2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/israel-palestine/conseils-aux-voyageurs-entree-sejour",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cav_il_securite",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Conseils aux voyageurs : Israël, Sécurité (mis à jour le 15 septembre 2026 ; zones de vigilance actualisées le 13/03/2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/israel-palestine/conseils-aux-voyageurs-securite",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cav_il_sante",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Conseils aux voyageurs : Israël, Santé (mis à jour le 15 septembre 2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/israel-palestine/conseils-aux-voyageurs-sante",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cleiss_il",
+      "publisher": "cleiss.fr",
+      "title": "Fiches pays : Israël (aucune date affichée)",
+      "url": "https://www.cleiss.fr/pays/israel.html",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "emb_il",
+      "publisher": "ambafrance.org",
+      "title": "Ambassade de France en Israël (site lié depuis la fiche Conseils aux voyageurs)",
+      "url": "https://il.ambafrance.org/",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cav_ma_entree",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Conseils aux voyageurs : Maroc, Entrée / séjour (mis à jour le 15 septembre 2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/maroc/conseils-aux-voyageurs-entree-sejour",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cav_ma_securite",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Conseils aux voyageurs : Maroc, Sécurité (mis à jour le 15 septembre 2026 ; zones de vigilance actualisées le 11/03/2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/maroc/conseils-aux-voyageurs-securite",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cav_ma_sante",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Conseils aux voyageurs : Maroc, Santé (mis à jour le 15 septembre 2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/maroc/conseils-aux-voyageurs-sante",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cleiss_ma",
+      "publisher": "cleiss.fr",
+      "title": "Fiches pays : Maroc (aucune date affichée)",
+      "url": "https://www.cleiss.fr/pays/maroc.html",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "emb_ma",
+      "publisher": "ambafrance.org",
+      "title": "Ambassade de France au Maroc (site lié depuis la fiche Conseils aux voyageurs)",
+      "url": "https://ma.ambafrance.org/",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cav_it_entree",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Conseils aux voyageurs : Italie, Entrée / séjour (mis à jour le 15 septembre 2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/italie/conseils-aux-voyageurs-entree-sejour",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cav_it_securite",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Conseils aux voyageurs : Italie, Sécurité (mis à jour le 15 septembre 2026 ; zones de vigilance actualisées le 22/05/2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/italie/conseils-aux-voyageurs-securite",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cav_it_sante",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Conseils aux voyageurs : Italie, Santé (mis à jour le 15 septembre 2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/italie/conseils-aux-voyageurs-sante",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cleiss_it",
+      "publisher": "cleiss.fr",
+      "title": "Fiches pays : Italie (aucune date affichée)",
+      "url": "https://www.cleiss.fr/pays/italie.html",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "emb_it",
+      "publisher": "ambafrance.org",
+      "title": "Ambassade de France en Italie (site lié depuis la fiche Conseils aux voyageurs)",
+      "url": "https://it.ambafrance.org/",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cav_ae_entree",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Conseils aux voyageurs : Émirats arabes unis, Entrée / séjour (mis à jour le 15 septembre 2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/emirats-arabes-unis/conseils-aux-voyageurs-entree-sejour",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cav_ae_securite",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Conseils aux voyageurs : Émirats arabes unis, Sécurité (mis à jour le 15 septembre 2026 ; zones de vigilance actualisées le 17/07/2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/emirats-arabes-unis/conseils-aux-voyageurs-securite",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cav_ae_sante",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Conseils aux voyageurs : Émirats arabes unis, Santé (mis à jour le 15 septembre 2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/emirats-arabes-unis/conseils-aux-voyageurs-sante",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "emb_ae",
+      "publisher": "ambafrance.org",
+      "title": "Ambassade de France aux Émirats arabes unis (site lié depuis la fiche Conseils aux voyageurs)",
+      "url": "https://ae.ambafrance.org/",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cav_dz_entree",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Conseils aux voyageurs : Algérie, Entrée / séjour (mis à jour le 15 septembre 2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/algerie/conseils-aux-voyageurs-entree-sejour",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cav_dz_securite",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Conseils aux voyageurs : Algérie, Sécurité (mis à jour le 15 septembre 2026 ; zones de vigilance actualisées le 02/03/2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/algerie/conseils-aux-voyageurs-securite",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cav_dz_sante",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Conseils aux voyageurs : Algérie, Santé (mis à jour le 15 septembre 2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/algerie/conseils-aux-voyageurs-sante",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cleiss_dz",
+      "publisher": "cleiss.fr",
+      "title": "Fiches pays : Algérie (aucune date affichée)",
+      "url": "https://www.cleiss.fr/pays/algerie.html",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "emb_dz",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Ambassade de France en Algérie (site lié depuis la fiche Conseils aux voyageurs)",
+      "url": "https://dz.diplomatie.gouv.fr/fr",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cav_lu_entree",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Conseils aux voyageurs : Luxembourg, Entrée / séjour (mis à jour le 13 octobre 2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/luxembourg/conseils-aux-voyageurs-entree-sejour",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cav_lu_securite",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Conseils aux voyageurs : Luxembourg, Sécurité (mis à jour le 13 octobre 2026 ; zones de vigilance actualisées le 10/03/2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/luxembourg/conseils-aux-voyageurs-securite",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cav_lu_sante",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Conseils aux voyageurs : Luxembourg, Santé (mis à jour le 13 octobre 2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/luxembourg/conseils-aux-voyageurs-sante",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cleiss_lu",
+      "publisher": "cleiss.fr",
+      "title": "Fiches pays : Luxembourg (aucune date affichée)",
+      "url": "https://www.cleiss.fr/pays/luxembourg.html",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "emb_lu",
+      "publisher": "ambafrance.org",
+      "title": "Ambassade de France au Luxembourg (site lié depuis la fiche Conseils aux voyageurs)",
+      "url": "https://lu.ambafrance.org/",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cav_nl_entree",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Conseils aux voyageurs : Pays-Bas, Entrée / séjour (mis à jour le 16 octobre 2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/pays-bas/conseils-aux-voyageurs-entree-sejour",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cav_nl_securite",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Conseils aux voyageurs : Pays-Bas, Sécurité (mis à jour le 16 octobre 2026 ; zones de vigilance actualisées le 11/03/2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/pays-bas/conseils-aux-voyageurs-securite",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cav_nl_sante",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Conseils aux voyageurs : Pays-Bas, Santé (mis à jour le 16 octobre 2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/pays-bas/conseils-aux-voyageurs-sante",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cleiss_nl",
+      "publisher": "cleiss.fr",
+      "title": "Fiches pays : Pays-Bas (aucune date affichée)",
+      "url": "https://www.cleiss.fr/pays/pays-bas.html",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "emb_nl",
+      "publisher": "ambafrance.org",
+      "title": "Ambassade de France aux Pays-Bas (site lié depuis la fiche Conseils aux voyageurs)",
+      "url": "https://nl.ambafrance.org/-Francais-",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cav_au_entree",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Conseils aux voyageurs : Australie, Entrée / séjour (mis à jour le 15 septembre 2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/australie/conseils-aux-voyageurs-entree-sejour",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cav_au_securite",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Conseils aux voyageurs : Australie, Sécurité (mis à jour le 15 septembre 2026 ; zones de vigilance actualisées le 04/03/2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/australie/conseils-aux-voyageurs-securite",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cav_au_sante",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Conseils aux voyageurs : Australie, Santé (mis à jour le 15 septembre 2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/australie/conseils-aux-voyageurs-sante",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cleiss_au",
+      "publisher": "cleiss.fr",
+      "title": "Fiches pays : Australie (aucune date affichée)",
+      "url": "https://www.cleiss.fr/pays/australie.html",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "emb_au",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Ambassade de France en Australie (site lié depuis la fiche Conseils aux voyageurs)",
+      "url": "https://au.diplomatie.gouv.fr/fr",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cav_pt_entree",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Conseils aux voyageurs : Portugal, Entrée / séjour (mis à jour le 15 septembre 2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/portugal/conseils-aux-voyageurs-entree-sejour",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cav_pt_securite",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Conseils aux voyageurs : Portugal, Sécurité (mis à jour le 15 septembre 2026 ; zones de vigilance actualisées le 11/03/2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/portugal/conseils-aux-voyageurs-securite",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cav_pt_sante",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Conseils aux voyageurs : Portugal, Santé (mis à jour le 15 septembre 2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/portugal/conseils-aux-voyageurs-sante",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cleiss_pt",
+      "publisher": "cleiss.fr",
+      "title": "Fiches pays : Portugal (aucune date affichée)",
+      "url": "https://www.cleiss.fr/pays/portugal.html",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "emb_pt",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Ambassade de France au Portugal : formalités d'installation (site lié depuis la fiche Conseils aux voyageurs)",
+      "url": "https://pt.diplomatie.gouv.fr/fr/vivre-venir/sinstaller-au-portugal/formalites-dinstallation",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cav_cn_entree",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Conseils aux voyageurs : Chine, Entrée / séjour (mis à jour le 15 septembre 2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/chine/conseils-aux-voyageurs-entree-sejour",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cav_cn_securite",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Conseils aux voyageurs : Chine, Sécurité (mis à jour le 15 septembre 2026 ; zones de vigilance actualisées le 05/03/2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/chine/conseils-aux-voyageurs-securite",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cav_cn_sante",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Conseils aux voyageurs : Chine, Santé (mis à jour le 15 septembre 2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/chine/conseils-aux-voyageurs-sante",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cleiss_cn",
+      "publisher": "cleiss.fr",
+      "title": "Fiches pays : Chine (aucune date affichée)",
+      "url": "https://www.cleiss.fr/pays/chine.html",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "emb_cn",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Ambassade de France en Chine (site lié depuis la fiche Conseils aux voyageurs)",
+      "url": "https://cn.diplomatie.gouv.fr/fr",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cav_mx_entree",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Conseils aux voyageurs : Mexique, Entrée / séjour (mis à jour le 15 septembre 2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/mexique/conseils-aux-voyageurs-entree-sejour",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cav_mx_securite",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Conseils aux voyageurs : Mexique, Sécurité (mis à jour le 15 septembre 2026 ; zones de vigilance actualisées le 11/03/2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/mexique/conseils-aux-voyageurs-securite",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cav_mx_sante",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Conseils aux voyageurs : Mexique, Santé (mis à jour le 15 septembre 2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/mexique/conseils-aux-voyageurs-sante",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cleiss_mx",
+      "publisher": "cleiss.fr",
+      "title": "Fiches pays : Mexique (aucune date affichée)",
+      "url": "https://www.cleiss.fr/pays/mexique.html",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "emb_mx",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Ambassade de France au Mexique (site lié depuis la fiche Conseils aux voyageurs)",
+      "url": "https://mx.diplomatie.gouv.fr/fr",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cav_br_entree",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Conseils aux voyageurs : Brésil, Entrée / séjour (mis à jour le 15 septembre 2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/bresil/conseils-aux-voyageurs-entree-sejour",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cav_br_securite",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Conseils aux voyageurs : Brésil, Sécurité (mis à jour le 15 septembre 2026 ; zones de vigilance actualisées le 04/03/2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/bresil/conseils-aux-voyageurs-securite",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cav_br_sante",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Conseils aux voyageurs : Brésil, Santé (mis à jour le 15 septembre 2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/bresil/conseils-aux-voyageurs-sante",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cleiss_br",
+      "publisher": "cleiss.fr",
+      "title": "Fiches pays : Brésil (aucune date affichée)",
+      "url": "https://www.cleiss.fr/pays/bresil.html",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "emb_br",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Ambassade de France au Brésil (site lié depuis la fiche Conseils aux voyageurs)",
+      "url": "https://br.diplomatie.gouv.fr/fr",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cav_tn_entree",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Conseils aux voyageurs : Tunisie, Entrée / séjour (mis à jour le 15 septembre 2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/tunisie/conseils-aux-voyageurs-entree-sejour",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cav_tn_securite",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Conseils aux voyageurs : Tunisie, Sécurité (mis à jour le 15 septembre 2026 ; zones de vigilance actualisées le 13/03/2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/tunisie/conseils-aux-voyageurs-securite",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cav_tn_sante",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Conseils aux voyageurs : Tunisie, Santé (mis à jour le 15 septembre 2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/tunisie/conseils-aux-voyageurs-sante",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cleiss_tn",
+      "publisher": "cleiss.fr",
+      "title": "Fiches pays : Tunisie (aucune date affichée)",
+      "url": "https://www.cleiss.fr/pays/tunisie.html",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "emb_tn",
+      "publisher": "ambafrance.org",
+      "title": "Ambassade de France en Tunisie (site lié depuis la fiche Conseils aux voyageurs)",
+      "url": "https://tn.ambafrance.org/",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "us_emb_visas",
+      "publisher": "fr.usembassy.gov",
+      "title": "Visas, Ambassade et consulats des États-Unis en France (page modifiée le 23 octobre 2026)",
+      "url": "https://fr.usembassy.gov/visas/",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "us_emb_esta",
+      "publisher": "fr.usembassy.gov",
+      "title": "ESTA, Ambassade et consulats des États-Unis en France (aucune date affichée)",
+      "url": "https://fr.usembassy.gov/esta/",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "ukgov_eta",
+      "publisher": "gov.uk",
+      "title": "Apply for an electronic travel authorisation (ETA) (updated 27 October 2026)",
+      "url": "https://www.gov.uk/eta/apply",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "ukgov_sw_cost",
+      "publisher": "gov.uk",
+      "title": "Skilled Worker visa: How much it costs (updated 14 September 2026)",
+      "url": "https://www.gov.uk/skilled-worker-visa/how-much-it-costs",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "ukgov_sw",
+      "publisher": "gov.uk",
+      "title": "Skilled Worker visa: Overview and Your job (updated 14 September 2026)",
+      "url": "https://www.gov.uk/skilled-worker-visa",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "ukgov_st",
+      "publisher": "gov.uk",
+      "title": "Student visa: Eligibility, Money, How much it costs (updated 29 October 2026)",
+      "url": "https://www.gov.uk/student-visa",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "ukgov_ihs",
+      "publisher": "gov.uk",
+      "title": "Pay for UK healthcare as part of your immigration application: How much you have to pay (updated 18 September 2026)",
+      "url": "https://www.gov.uk/healthcare-immigration-application/how-much-pay",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "ukgov_if",
+      "publisher": "gov.uk",
+      "title": "Innovator Founder visa: How much it costs (updated 9 September 2026)",
+      "url": "https://www.gov.uk/innovator-founder-visa/how-much-it-costs",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "ircc_fees",
+      "publisher": "ircc.canada.ca",
+      "title": "Citizenship and immigration application fees: Fee list (date modified 2026-09-21)",
+      "url": "https://ircc.canada.ca/english/information/fees/fees.asp",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "ircc_fee_changes",
+      "publisher": "ircc.canada.ca",
+      "title": "Citizenship and immigration application fees: Fee changes (date modified 2026-09-21)",
+      "url": "https://ircc.canada.ca/english/information/fees/fee-changes.asp",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cav_ae_affaires",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Conseils aux voyageurs : Émirats arabes unis, Voyages d'affaires (mis à jour le 15 septembre 2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/emirats-arabes-unis/conseils-aux-voyageurs-voyages-d-affaires",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "au_homeaffairs_651",
+      "publisher": "immi.homeaffairs.gov.au",
+      "title": "eVisitor (subclass 651) (last updated 8/09/2026)",
+      "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/evisitor-651",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "au_consulat_whv",
+      "publisher": "au.diplomatie.gouv.fr",
+      "title": "Visa Vacances-Travail / Working Holiday Visa en Australie (publié le 9 décembre 2025)",
+      "url": "https://au.diplomatie.gouv.fr/fr/visa-vacances-travail-working-holiday-visa-en-australie",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "cav_cn_affaires",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Conseils aux voyageurs : Chine, Voyages d'affaires (mis à jour le 15 septembre 2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/information-par-pays/chine/conseils-aux-voyageurs-voyages-d-affaires",
+      "consulted": "2026-10-29"
+    }
+  ],
+  "details": [
+    {
+      "country": "CH",
+      "highlights": [
+        {
+          "title": {
+            "fr": "Entrée et séjour",
+            "en": "Entry and residence"
+          },
+          "body": {
+            "fr": "Pour entrer en Suisse, une carte nationale d'identité ou un passeport en cours de validité suffit. Pour un séjour de plus de trois mois, il faut contacter avant l'arrivée l'office cantonal de migration du canton où vous vous installez pour demander un permis de séjour.",
+            "en": "To enter Switzerland, a valid national ID card or passport is enough. For a stay of more than three months, contact the cantonal migration office of your future canton before arrival to apply for a residence permit."
+          },
+          "sources": [
+            "cav_ch_entree",
+            "emb_ch"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Protection sociale",
+            "en": "Social security"
+          },
+          "body": {
+            "fr": "La Suisse applique les règlements européens de coordination de sécurité sociale : vos droits sont coordonnés entre les deux pays (travail, retraite, santé). Le Cleiss détaille chaque situation (détachement, expatriation, études, retraite).",
+            "en": "Switzerland applies the EU social security coordination rules: your rights are coordinated between both countries (work, pension, health). The Cleiss explains each situation (posting, expatriation, studies, retirement)."
+          },
+          "sources": [
+            "cleiss_ch"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Impôts",
+            "en": "Taxes"
+          },
+          "body": {
+            "fr": "La France et la Suisse ont signé une convention fiscale, publiée sur impots.gouv.fr. Elle sert notamment à éviter d'être imposé deux fois sur les mêmes revenus. Des accords spécifiques existent aussi pour les travailleurs frontaliers et le télétravail.",
+            "en": "France and Switzerland have signed a tax treaty, published on impots.gouv.fr. Among other things, it helps avoid being taxed twice on the same income. Specific agreements also exist for cross-border workers and remote work."
+          },
+          "sources": [
+            "impots_conventions"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Santé",
+            "en": "Health"
+          },
+          "body": {
+            "fr": "Pour un court séjour, la carte européenne d'assurance maladie (CEAM) permet une prise en charge des soins ; elle se demande à votre caisse au moins 15 jours avant le départ. Une assurance couvrant hospitalisation et rapatriement reste conseillée. En Suisse, les frais de secours d'urgence non couverts restent à la charge de la personne secourue et peuvent atteindre plusieurs milliers d'euros.",
+            "en": "For a short stay, the European Health Insurance Card (EHIC) covers medical care; ask your health insurance fund for it at least 15 days before leaving. Insurance covering hospital care and repatriation is still advised. In Switzerland, emergency rescue costs not covered by insurance are charged to the patient and can reach several thousand euros."
+          },
+          "sources": [
+            "cav_ch_sante"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Scolarité",
+            "en": "Schooling"
+          },
+          "body": {
+            "fr": "L'AEFE recense 15 établissements d'enseignement français homologués (Berne, Bâle, Genève et sa région, Lausanne, Pully, Rolle, Sion, Zurich et d'autres villes).",
+            "en": "The AEFE lists 15 accredited French schools (Berne, Bâle, Genève et sa région, Lausanne, Pully, Rolle, Sion, Zurich et d'autres villes)."
+          },
+          "sources": [
+            "aefe_etablissements"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Sécurité",
+            "en": "Safety"
+          },
+          "body": {
+            "fr": "L'ensemble du territoire suisse est en vigilance normale. Il est conseillé de rester attentif aux vols dans les gares, aéroports et transports des grandes villes.",
+            "en": "The whole of Switzerland is at normal vigilance. Watch out for theft in stations, airports and public transport in large cities."
+          },
+          "sources": [
+            "cav_ch_securite"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Français inscrits au registre",
+            "en": "French nationals on the consular register"
+          },
+          "body": {
+            "fr": "168 881 Français inscrits au registre des Français établis hors de France au 31 décembre 2025 (1e pays dans le classement du rapport du Gouvernement). L'inscription est facultative : le nombre réel de Français sur place peut être plus élevé.",
+            "en": "168,881 French nationals on the register of French citizens living abroad on 31 December 2025 (ranked 1 in the government report). Registration is optional, so the actual number may be higher."
+          },
+          "sources": [
+            "rapport_fae_2026"
+          ]
+        }
+      ],
+      "motives": [
+        {
+          "id": "tourism",
+          "conditions": [
+            {
+              "fr": "Carte nationale d'identité ou passeport en cours de validité (ou périmé depuis moins de 5 ans).",
+              "en": "Valid national ID card or passport (or expired for less than 5 years)."
+            },
+            {
+              "fr": "Au-delà de trois mois : demande de permis de séjour auprès de l'office cantonal de migration, avant l'entrée en Suisse.",
+              "en": "Beyond three months: apply for a residence permit with the cantonal migration office before entering Switzerland."
+            }
+          ],
+          "sources": [
+            "cav_ch_entree"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "US",
+      "highlights": [
+        {
+          "title": {
+            "fr": "Entrée et séjour",
+            "en": "Entry and residence"
+          },
+          "body": {
+            "fr": "Pour un séjour touristique ou d'affaires de 90 jours maximum, un Français muni d'un passeport électronique ou biométrique peut entrer sans visa, avec une autorisation électronique de voyage (ESTA) demandée en ligne avant le départ (au moins 72 heures avant, selon les autorités américaines). L'ESTA est valable 2 ans. Le passeport d'urgence ne permet pas d'entrer sans visa.",
+            "en": "For a tourist or business stay of up to 90 days, French citizens with an electronic or biometric passport can enter without a visa, using an online travel authorization (ESTA) obtained before departure (at least 72 hours before, according to US authorities). The ESTA is valid for 2 years. An emergency passport does not allow visa-free entry."
+          },
+          "sources": [
+            "cav_us_entree",
+            "emb_us"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Visa : types, formulaires et coûts",
+            "en": "Visas: types, forms and fees"
+          },
+          "body": {
+            "fr": "Pour étudier, travailler ou vous installer, il faut un visa demandé auprès de l'ambassade des États-Unis en France. La demande se fait avec le formulaire en ligne DS-160. L'ambassade indique que depuis le 1er octobre 2025, presque tous les demandeurs doivent passer un entretien en personne. Le montant des frais n'a pas pu être vérifié directement : consultez le site de l'ambassade.",
+            "en": "To study, work or settle, you need a visa from the US embassy in France. You apply with the online DS-160 form. The embassy states that since 1 October 2025 almost all applicants must attend an in-person interview. Fees could not be checked directly: see the embassy website."
+          },
+          "sources": [
+            "us_emb_visas",
+            "cav_us_entree"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Santé et protection sociale",
+            "en": "Health and social security"
+          },
+          "body": {
+            "fr": "Les États-Unis et la France sont liés par un accord bilatéral de sécurité sociale. Selon les Conseils aux voyageurs, aucune convention ne couvre l'assurance maladie : les soins sont d'excellente qualité mais très chers, une assurance santé est indispensable. Le Cleiss détaille les règles selon votre situation (détachement, expatriation, études, retraite).",
+            "en": "The United States and France have a bilateral social security agreement. According to the French travel advice, no agreement covers health insurance: care is excellent but very expensive, so health insurance is essential. The Cleiss explains the rules for each situation (posting, expatriation, studies, retirement)."
+          },
+          "sources": [
+            "cleiss_us",
+            "cleiss_conventions",
+            "cav_us_sante"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Impôts",
+            "en": "Taxes"
+          },
+          "body": {
+            "fr": "La France et les États-Unis ont signé une convention fiscale, publiée sur impots.gouv.fr. Elle sert notamment à éviter d'être imposé deux fois sur les mêmes revenus. Un accord sur l'échange d'informations bancaires (loi FATCA) est aussi en vigueur depuis 2014.",
+            "en": "France and the United States have signed a tax treaty, published on impots.gouv.fr. Among other things, it helps avoid being taxed twice on the same income. An agreement on bank information exchange (FATCA) has also been in force since 2014."
+          },
+          "sources": [
+            "impots_conventions"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Scolarité",
+            "en": "Schooling"
+          },
+          "body": {
+            "fr": "L'AEFE recense 55 établissements d'enseignement français homologués (Atlanta, Boston, Chicago, Houston, Los Angeles, Miami, New York, San Francisco, Washington et d'autres villes).",
+            "en": "The AEFE lists 55 accredited French schools (Atlanta, Boston, Chicago, Houston, Los Angeles, Miami, New York, San Francisco, Washington et d'autres villes)."
+          },
+          "sources": [
+            "aefe_etablissements"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Sécurité",
+            "en": "Safety"
+          },
+          "body": {
+            "fr": "Les Conseils aux voyageurs présentent les États-Unis comme l'un des pays les plus sûrs, avec des règles de prudence dans les grandes villes : se renseigner sur les quartiers à éviter et les heures à risque.",
+            "en": "The French travel advice describes the United States as one of the safest countries, with basic precautions in large cities: find out which areas to avoid and at what times."
+          },
+          "sources": [
+            "cav_us_securite"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Français inscrits au registre",
+            "en": "French nationals on the consular register"
+          },
+          "body": {
+            "fr": "168 529 Français inscrits au registre des Français établis hors de France au 31 décembre 2025 (2e pays dans le classement du rapport du Gouvernement). L'inscription est facultative : le nombre réel de Français sur place peut être plus élevé.",
+            "en": "168,529 French nationals on the register of French citizens living abroad on 31 December 2025 (ranked 2 in the government report). Registration is optional, so the actual number may be higher."
+          },
+          "sources": [
+            "rapport_fae_2026"
+          ]
+        }
+      ],
+      "motives": [
+        {
+          "id": "tourism",
+          "conditions": [
+            {
+              "fr": "Pas de visa pour 90 jours maximum (tourisme ou affaires), avec un passeport électronique ou biométrique et une ESTA.",
+              "en": "No visa for up to 90 days (tourism or business) with an electronic or biometric passport and an ESTA."
+            },
+            {
+              "fr": "Les personnes s'étant rendues à Cuba depuis le 12 janvier 2021, ou en Iran, Irak, Syrie, Libye, Somalie, Yémen ou au Soudan depuis le 1er mars 2011, doivent demander un visa.",
+              "en": "People who have travelled to Cuba since 12 January 2021, or to Iran, Iraq, Syria, Libya, Somalia, Yemen or Sudan since 1 March 2011, must apply for a visa."
+            },
+            {
+              "fr": "L'ESTA ne garantit pas l'entrée : la décision revient à l'agent d'immigration à l'arrivée.",
+              "en": "An ESTA does not guarantee entry: the immigration officer decides on arrival."
+            }
+          ],
+          "forms": [
+            {
+              "title": {
+                "fr": "Demande d'ESTA (site du gouvernement américain)",
+                "en": "ESTA application (US government website)"
+              },
+              "url": "https://esta.cbp.dhs.gov/"
+            }
+          ],
+          "sources": [
+            "cav_us_entree",
+            "us_emb_esta"
+          ]
+        },
+        {
+          "id": "study",
+          "conditions": [
+            {
+              "fr": "Un visa étudiant est nécessaire ; la demande commence par le formulaire en ligne DS-160 et un rendez-vous à l'ambassade.",
+              "en": "A student visa is required; you start with the online DS-160 form and an embassy appointment."
+            },
+            {
+              "fr": "Pour les visas F, M et J, l'ambassade demande de rendre publics les comptes de réseaux sociaux pendant l'examen de la demande.",
+              "en": "For F, M and J visas, the embassy asks applicants to set their social media accounts to public during the review."
+            },
+            {
+              "fr": "Entretien en personne demandé pour presque tous les demandeurs depuis le 1er octobre 2025.",
+              "en": "In-person interview required for almost all applicants since 1 October 2025."
+            }
+          ],
+          "forms": [
+            {
+              "title": {
+                "fr": "Visas sur le site de l'ambassade des États-Unis en France",
+                "en": "Visas on the US embassy in France website"
+              },
+              "url": "https://fr.usembassy.gov/visas/"
+            }
+          ],
+          "sources": [
+            "us_emb_visas"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "GB",
+      "highlights": [
+        {
+          "title": {
+            "fr": "Entrée et séjour",
+            "en": "Entry and residence"
+          },
+          "body": {
+            "fr": "Il faut un passeport valide pour entrer au Royaume-Uni (la carte d'identité reste possible seulement pour les titulaires du settled ou pre-settled status). Sans visa, un Français doit avoir une autorisation électronique de voyage (ETA) pour un séjour touristique de 6 mois maximum. Pour travailler, étudier ou s'installer, un visa de long séjour est nécessaire.",
+            "en": "You need a valid passport to enter the UK (an ID card is only accepted for holders of settled or pre-settled status). Without a visa, French citizens need an electronic travel authorisation (ETA) for a tourist stay of up to 6 months. To work, study or settle, a long-stay visa is required."
+          },
+          "sources": [
+            "cav_gb_entree",
+            "emb_gb"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Visa : types, formulaires et coûts",
+            "en": "Visas: types, forms and fees"
+          },
+          "body": {
+            "fr": "Les demandes se font en ligne sur gov.uk. Frais affichés sur gov.uk : ETA 20 £ (page mise à jour le 27/10/2026) ; visa étudiant 558 £ depuis l'étranger (29/10/2026) ; visa Skilled Worker 819 £ jusqu'à 3 ans, 1 618 £ au-delà, depuis l'étranger (14/09/2026). S'y ajoute la surtaxe santé : 776 £ par an pour les étudiants, 1 035 £ par an dans la plupart des autres cas (18/09/2026).",
+            "en": "Applications are made online on gov.uk. Fees shown on gov.uk: ETA £20 (page updated 27/10/2026); Student visa £558 from outside the UK (29/10/2026); Skilled Worker visa £819 up to 3 years, £1,618 beyond, from outside the UK (14/09/2026). The healthcare surcharge is added: £776 per year for students, £1,035 per year in most other cases (18/09/2026)."
+          },
+          "sources": [
+            "ukgov_eta",
+            "ukgov_st",
+            "ukgov_sw_cost",
+            "ukgov_ihs",
+            "cav_gb_entree"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Santé et protection sociale",
+            "en": "Health and social security"
+          },
+          "body": {
+            "fr": "Depuis le Brexit, la coordination de sécurité sociale entre l'Union européenne et le Royaume-Uni repose sur l'accord de retrait et l'accord de commerce et de coopération (Cleiss). Pour un court séjour, la CEAM reste valable pour les soins médicalement nécessaires ; elle se demande au moins 20 jours avant le départ. Les cabinets et hôpitaux privés sont très chers.",
+            "en": "Since Brexit, social security coordination between the EU and the UK relies on the Withdrawal Agreement and the Trade and Cooperation Agreement (Cleiss). For a short stay, the EHIC remains valid for medically necessary care; apply at least 20 days before leaving. Private doctors and hospitals are very expensive."
+          },
+          "sources": [
+            "cleiss_gb",
+            "cav_gb_sante"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Impôts",
+            "en": "Taxes"
+          },
+          "body": {
+            "fr": "La France et le Royaume-Uni ont signé une convention fiscale, publiée sur impots.gouv.fr. Elle sert notamment à éviter d'être imposé deux fois sur les mêmes revenus.",
+            "en": "France and the United Kingdom have signed a tax treaty, published on impots.gouv.fr. Among other things, it helps avoid being taxed twice on the same income."
+          },
+          "sources": [
+            "impots_conventions"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Scolarité",
+            "en": "Schooling"
+          },
+          "body": {
+            "fr": "L'AEFE recense 10 établissements d'enseignement français homologués (Londres et Bristol).",
+            "en": "The AEFE lists 10 accredited French schools (Londres et Bristol)."
+          },
+          "sources": [
+            "aefe_etablissements"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Sécurité",
+            "en": "Safety"
+          },
+          "body": {
+            "fr": "Le territoire britannique est en vigilance normale. Le niveau de menace terroriste fixé par les autorités est de 4 sur 5 (3 sur 5 en Irlande du Nord) : il est conseillé de suivre les consignes locales. Le port d'une arme blanche, même un couteau de poche, est interdit.",
+            "en": "The UK is at normal vigilance. The terrorist threat level set by the authorities is 4 out of 5 (3 out of 5 in Northern Ireland): follow local instructions. Carrying a bladed item, even a pocket knife, is prohibited."
+          },
+          "sources": [
+            "cav_gb_securite"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Français inscrits au registre",
+            "en": "French nationals on the consular register"
+          },
+          "body": {
+            "fr": "141 242 Français inscrits au registre des Français établis hors de France au 31 décembre 2025 (3e pays dans le classement du rapport du Gouvernement). L'inscription est facultative : le nombre réel de Français sur place peut être plus élevé.",
+            "en": "141,242 French nationals on the register of French citizens living abroad on 31 December 2025 (ranked 3 in the government report). Registration is optional, so the actual number may be higher."
+          },
+          "sources": [
+            "rapport_fae_2026"
+          ]
+        }
+      ],
+      "motives": [
+        {
+          "id": "tourism",
+          "conditions": [
+            {
+              "fr": "Passeport valide ; ETA obligatoire sans visa ni settled ou pre-settled status.",
+              "en": "Valid passport; ETA required without a visa or settled/pre-settled status."
+            },
+            {
+              "fr": "Séjour touristique de 6 mois maximum par voyage ; l'ETA est valable 2 ans ou jusqu'à l'expiration du passeport.",
+              "en": "Tourist stay of up to 6 months per trip; the ETA is valid for 2 years or until the passport expires."
+            }
+          ],
+          "forms": [
+            {
+              "title": {
+                "fr": "Demander une ETA sur gov.uk",
+                "en": "Apply for an ETA on gov.uk"
+              },
+              "url": "https://www.gov.uk/eta/apply"
+            }
+          ],
+          "costs": [
+            {
+              "fr": "ETA : 20 £ (page gov.uk mise à jour le 27/10/2026)",
+              "en": "ETA: £20 (gov.uk page updated 27/10/2026)"
+            }
+          ],
+          "sources": [
+            "cav_gb_entree",
+            "ukgov_eta"
+          ]
+        },
+        {
+          "id": "study",
+          "conditions": [
+            {
+              "fr": "Avoir 16 ans ou plus et une offre de formation d'un établissement agréé (licensed student sponsor).",
+              "en": "Be 16 or over and have a course offer from a licensed student sponsor."
+            },
+            {
+              "fr": "Consentement des parents à 16 ou 17 ans.",
+              "en": "Parental consent if aged 16 or 17."
+            },
+            {
+              "fr": "Ressources : frais de scolarité d'une année, plus 1 529 £ par mois à Londres ou 1 171 £ par mois ailleurs, pour 9 mois maximum.",
+              "en": "Funds: one year of course fees, plus £1,529 per month in London or £1,171 per month elsewhere, for up to 9 months."
+            }
+          ],
+          "age": {
+            "fr": "16 ans ou plus.",
+            "en": "16 or over."
+          },
+          "forms": [
+            {
+              "title": {
+                "fr": "Demander un visa étudiant sur gov.uk",
+                "en": "Apply for a Student visa on gov.uk"
+              },
+              "url": "https://www.gov.uk/student-visa/apply"
+            }
+          ],
+          "costs": [
+            {
+              "fr": "Visa étudiant : 558 £ depuis l'étranger (page mise à jour le 29/10/2026)",
+              "en": "Student visa: £558 from outside the UK (page updated 29/10/2026)"
+            },
+            {
+              "fr": "Surtaxe santé : 776 £ par an pour les étudiants (page mise à jour le 18/09/2026)",
+              "en": "Healthcare surcharge: £776 per year for students (page updated 18/09/2026)"
+            }
+          ],
+          "sources": [
+            "ukgov_st",
+            "ukgov_ihs"
+          ]
+        },
+        {
+          "id": "work",
+          "conditions": [
+            {
+              "fr": "Offre d'emploi confirmée et certificat de parrainage (certificate of sponsorship) de l'employeur.",
+              "en": "Confirmed job offer and certificate of sponsorship from the employer."
+            },
+            {
+              "fr": "Connaissance de l'anglais à prouver, en général.",
+              "en": "Knowledge of English must usually be proven."
+            },
+            {
+              "fr": "Salaire : en général au moins 41 700 £ par an, selon le poste.",
+              "en": "Salary: generally at least £41,700 a year, depending on the job."
+            },
+            {
+              "fr": "Disposer d'au moins 1 270 £ sur son compte pendant 28 jours, sauf si l'employeur couvre ces frais.",
+              "en": "Have at least £1,270 in your account for 28 days, unless your employer covers this."
+            }
+          ],
+          "forms": [
+            {
+              "title": {
+                "fr": "Demander un visa Skilled Worker depuis l'étranger (gov.uk)",
+                "en": "Apply for a Skilled Worker visa from outside the UK (gov.uk)"
+              },
+              "url": "https://www.gov.uk/skilled-worker-visa/apply-from-outside-the-uk"
+            }
+          ],
+          "costs": [
+            {
+              "fr": "Visa Skilled Worker depuis l'étranger : 819 £ jusqu'à 3 ans, 1 618 £ au-delà ; 628 £ ou 1 235 £ si le poste figure sur l'immigration salary list (page mise à jour le 14/09/2026)",
+              "en": "Skilled Worker visa from outside the UK: £819 up to 3 years, £1,618 beyond; £628 or £1,235 if the job is on the immigration salary list (page updated 14/09/2026)"
+            },
+            {
+              "fr": "Surtaxe santé : 1 035 £ par an (page mise à jour le 18/09/2026)",
+              "en": "Healthcare surcharge: £1,035 per year (page updated 18/09/2026)"
+            }
+          ],
+          "sources": [
+            "ukgov_sw",
+            "ukgov_sw_cost"
+          ]
+        },
+        {
+          "id": "invest",
+          "conditions": [
+            {
+              "fr": "Visa Innovator Founder : création d'entreprise, avec l'aval (endorsement) d'un organisme agréé.",
+              "en": "Innovator Founder visa: setting up a business, endorsed by an approved endorsing body."
+            }
+          ],
+          "forms": [
+            {
+              "title": {
+                "fr": "Innovator Founder visa sur gov.uk",
+                "en": "Innovator Founder visa on gov.uk"
+              },
+              "url": "https://www.gov.uk/innovator-founder-visa"
+            }
+          ],
+          "costs": [
+            {
+              "fr": "Visa : 1 357 £ depuis l'étranger ; aval : 1 000 £ ; 500 £ à chaque rendez-vous de suivi avec l'organisme (au moins deux) (page mise à jour le 09/09/2026)",
+              "en": "Visa: £1,357 from outside the UK; endorsement: £1,000; £500 for each check-point meeting with the endorsing body (at least two) (page updated 09/09/2026)"
+            }
+          ],
+          "sources": [
+            "ukgov_if"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "BE",
+      "highlights": [
+        {
+          "title": {
+            "fr": "Entrée et séjour",
+            "en": "Entry and residence"
+          },
+          "body": {
+            "fr": "La Belgique étant membre de l'Union européenne, une carte nationale d'identité ou un passeport en cours de validité suffit pour s'y rendre. Pour une installation, le pays d'accueil peut demander un enregistrement auprès des autorités locales après trois mois (service-public.gouv.fr).",
+            "en": "As Belgium is an EU member, a valid national ID card or passport is enough to go there. If you settle, the host country may require you to register with the local authorities after three months (service-public.gouv.fr)."
+          },
+          "sources": [
+            "cav_be_entree",
+            "emb_be",
+            "sp_partir_vivre"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Protection sociale",
+            "en": "Social security"
+          },
+          "body": {
+            "fr": "La Belgique applique les règlements européens de coordination de sécurité sociale : vos droits sont coordonnés entre les deux pays (travail, retraite, santé). Le Cleiss détaille chaque situation (détachement, expatriation, études, retraite).",
+            "en": "Belgium applies the EU social security coordination rules: your rights are coordinated between both countries (work, pension, health). The Cleiss explains each situation (posting, expatriation, studies, retirement)."
+          },
+          "sources": [
+            "cleiss_be"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Impôts",
+            "en": "Taxes"
+          },
+          "body": {
+            "fr": "La France et la Belgique ont signé une convention fiscale, publiée sur impots.gouv.fr. Elle sert notamment à éviter d'être imposé deux fois sur les mêmes revenus.",
+            "en": "France and Belgium have signed a tax treaty, published on impots.gouv.fr. Among other things, it helps avoid being taxed twice on the same income."
+          },
+          "sources": [
+            "impots_conventions"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Santé",
+            "en": "Health"
+          },
+          "body": {
+            "fr": "Pour un court séjour, la carte européenne d'assurance maladie (CEAM) permet une prise en charge des soins ; elle se demande à votre caisse au moins 15 jours avant le départ. Une assurance couvrant hospitalisation et rapatriement reste conseillée.",
+            "en": "For a short stay, the European Health Insurance Card (EHIC) covers medical care; ask your health insurance fund for it at least 15 days before leaving. Insurance covering hospital care and repatriation is still advised."
+          },
+          "sources": [
+            "cav_be_sante"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Scolarité",
+            "en": "Schooling"
+          },
+          "body": {
+            "fr": "L'AEFE recense 2 établissements d'enseignement français homologués (Bruxelles et Anvers).",
+            "en": "The AEFE lists 2 accredited French schools (Bruxelles et Anvers)."
+          },
+          "sources": [
+            "aefe_etablissements"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Sécurité",
+            "en": "Safety"
+          },
+          "body": {
+            "fr": "Le territoire belge est en vigilance normale. Le niveau d'alerte terroriste fixé par les autorités est de 2. Les pickpockets sont fréquents dans les gares de Bruxelles, en particulier Bruxelles-Midi.",
+            "en": "Belgium is at normal vigilance. The terrorist alert level set by the authorities is 2. Pickpockets are common in Brussels stations, especially Brussels-Midi."
+          },
+          "sources": [
+            "cav_be_securite"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Français inscrits au registre",
+            "en": "French nationals on the consular register"
+          },
+          "body": {
+            "fr": "126 452 Français inscrits au registre des Français établis hors de France au 31 décembre 2025 (4e pays dans le classement du rapport du Gouvernement). L'inscription est facultative : le nombre réel de Français sur place peut être plus élevé.",
+            "en": "126,452 French nationals on the register of French citizens living abroad on 31 December 2025 (ranked 4 in the government report). Registration is optional, so the actual number may be higher."
+          },
+          "sources": [
+            "rapport_fae_2026"
+          ]
+        }
+      ],
+      "motives": [
+        {
+          "id": "tourism",
+          "conditions": [
+            {
+              "fr": "Carte nationale d'identité ou passeport en cours de validité.",
+              "en": "Valid national ID card or passport."
+            }
+          ],
+          "sources": [
+            "cav_be_entree"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "CA",
+      "highlights": [
+        {
+          "title": {
+            "fr": "Entrée et séjour",
+            "en": "Entry and residence"
+          },
+          "body": {
+            "fr": "Pas de visa pour un séjour touristique ou d'affaires de moins de six mois, mais une autorisation de voyage électronique (AVE) est obligatoire pour arriver en avion. Elle est valable cinq ans et se demande sur le site du gouvernement du Canada. L'AVE ne permet ni de travailler ni d'étudier. Les agents d'immigration contrôlent de près le motif du séjour.",
+            "en": "No visa for a tourist or business stay of less than six months, but an electronic travel authorization (eTA) is required to arrive by air. It is valid for five years and is obtained on the Government of Canada website. The eTA does not allow you to work or study. Immigration officers check the purpose of your stay closely."
+          },
+          "sources": [
+            "cav_ca_entree",
+            "emb_ca"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Visa : types, formulaires et coûts",
+            "en": "Visas: types, forms and fees"
+          },
+          "body": {
+            "fr": "Un permis de travail est requis pour toute activité professionnelle, y compris un stage même non rémunéré ; un permis d'études pour toute formation. Les données biométriques sont demandées. Frais publiés par IRCC (page modifiée le 21/09/2026) : AVE 7 CAD ; permis de travail 155 CAD (plus 100 CAD pour un permis ouvert) ; permis d'études 150 CAD ; biométrie 85 CAD ; Expérience internationale Canada (PVT) 184,75 CAD.",
+            "en": "A work permit is required for any job, including an internship even if unpaid; a study permit for any course. Biometrics are required. Fees published by IRCC (page modified 21/09/2026): eTA CAD 7; work permit CAD 155 (plus CAD 100 for an open permit); study permit CAD 150; biometrics CAD 85; International Experience Canada CAD 184.75."
+          },
+          "sources": [
+            "cav_ca_entree",
+            "ircc_fees"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Santé et protection sociale",
+            "en": "Health and social security"
+          },
+          "body": {
+            "fr": "Le Canada et la France sont liés par un accord bilatéral de sécurité sociale. Les frais d'hospitalisation doivent être réglés avant la sortie de l'hôpital : une assurance santé est indispensable (Conseils aux voyageurs). Le Cleiss détaille les règles selon votre situation (détachement, expatriation, études, retraite).",
+            "en": "Canada and France have a bilateral social security agreement. Hospital bills must be paid before discharge: health insurance is essential (French travel advice). The Cleiss explains the rules for each situation (posting, expatriation, studies, retirement)."
+          },
+          "sources": [
+            "cleiss_ca",
+            "cleiss_conventions",
+            "cav_ca_sante"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Impôts",
+            "en": "Taxes"
+          },
+          "body": {
+            "fr": "La France et le Canada ont signé une convention fiscale, publiée sur impots.gouv.fr. Elle sert notamment à éviter d'être imposé deux fois sur les mêmes revenus.",
+            "en": "France and Canada have signed a tax treaty, published on impots.gouv.fr. Among other things, it helps avoid being taxed twice on the same income."
+          },
+          "sources": [
+            "impots_conventions"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Scolarité",
+            "en": "Schooling"
+          },
+          "body": {
+            "fr": "L'AEFE recense 9 établissements d'enseignement français homologués (Montréal, Québec, Ottawa, Toronto, Calgary et North Vancouver).",
+            "en": "The AEFE lists 9 accredited French schools (Montréal, Québec, Ottawa, Toronto, Calgary et North Vancouver)."
+          },
+          "sources": [
+            "aefe_etablissements"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Sécurité",
+            "en": "Safety"
+          },
+          "body": {
+            "fr": "L'ensemble du territoire canadien est en vigilance normale. Les conseils portent surtout sur les longs trajets routiers et les conditions hivernales.",
+            "en": "The whole of Canada is at normal vigilance. Advice mainly concerns long road trips and winter conditions."
+          },
+          "sources": [
+            "cav_ca_securite"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Français inscrits au registre",
+            "en": "French nationals on the consular register"
+          },
+          "body": {
+            "fr": "119 545 Français inscrits au registre des Français établis hors de France au 31 décembre 2025 (5e pays dans le classement du rapport du Gouvernement). L'inscription est facultative : le nombre réel de Français sur place peut être plus élevé.",
+            "en": "119,545 French nationals on the register of French citizens living abroad on 31 December 2025 (ranked 5 in the government report). Registration is optional, so the actual number may be higher."
+          },
+          "sources": [
+            "rapport_fae_2026"
+          ]
+        }
+      ],
+      "motives": [
+        {
+          "id": "tourism",
+          "conditions": [
+            {
+              "fr": "Pas de visa pour moins de six mois (tourisme ou affaires).",
+              "en": "No visa for less than six months (tourism or business)."
+            },
+            {
+              "fr": "AVE obligatoire, valable cinq ans ou jusqu'à la fin du passeport ; le passeport doit être valide pendant tout le séjour.",
+              "en": "eTA required, valid five years or until the passport expires; the passport must be valid for the whole stay."
+            }
+          ],
+          "forms": [
+            {
+              "title": {
+                "fr": "Demande d'AVE (site du gouvernement du Canada)",
+                "en": "eTA application (Government of Canada website)"
+              },
+              "url": "https://www.canada.ca/fr/immigration-refugies-citoyennete/services/visiter-canada/ave/demande.html"
+            }
+          ],
+          "costs": [
+            {
+              "fr": "AVE : 7 CAD (page IRCC modifiée le 21/09/2026)",
+              "en": "eTA: CAD 7 (IRCC page modified 21/09/2026)"
+            }
+          ],
+          "sources": [
+            "cav_ca_entree",
+            "ircc_fees"
+          ]
+        },
+        {
+          "id": "study",
+          "conditions": [
+            {
+              "fr": "Permis d'études requis pour toute formation au Canada.",
+              "en": "A study permit is required for any course in Canada."
+            },
+            {
+              "fr": "Données biométriques à fournir.",
+              "en": "Biometrics must be provided."
+            }
+          ],
+          "forms": [
+            {
+              "title": {
+                "fr": "Étudier au Canada (site du gouvernement du Canada)",
+                "en": "Study in Canada (Government of Canada website)"
+              },
+              "url": "https://www.canada.ca/fr/immigration-refugies-citoyennete/services/etudier-canada.html"
+            }
+          ],
+          "costs": [
+            {
+              "fr": "Permis d'études : 150 CAD ; biométrie : 85 CAD par personne (page IRCC modifiée le 21/09/2026)",
+              "en": "Study permit: CAD 150; biometrics: CAD 85 per person (IRCC page modified 21/09/2026)"
+            }
+          ],
+          "sources": [
+            "cav_ca_entree",
+            "ircc_fees"
+          ]
+        },
+        {
+          "id": "work",
+          "conditions": [
+            {
+              "fr": "Permis de travail requis pour toute activité professionnelle, y compris un stage même non rémunéré.",
+              "en": "A work permit is required for any job, including an unpaid internship."
+            },
+            {
+              "fr": "Depuis le 23 décembre 2024, il n'est plus possible de sortir puis revenir au Canada pour demander un permis à la frontière.",
+              "en": "Since 23 December 2024, you can no longer leave and re-enter Canada to apply for a permit at the border."
+            }
+          ],
+          "forms": [
+            {
+              "title": {
+                "fr": "Travailler au Canada (site du gouvernement du Canada)",
+                "en": "Work in Canada (Government of Canada website)"
+              },
+              "url": "https://www.canada.ca/fr/immigration-refugies-citoyennete/services/travailler-canada.html"
+            }
+          ],
+          "costs": [
+            {
+              "fr": "Permis de travail : 155 CAD ; permis de travail ouvert : 100 CAD en plus ; biométrie : 85 CAD (page IRCC modifiée le 21/09/2026)",
+              "en": "Work permit: CAD 155; open work permit: extra CAD 100; biometrics: CAD 85 (IRCC page modified 21/09/2026)"
+            }
+          ],
+          "sources": [
+            "cav_ca_entree",
+            "ircc_fees"
+          ]
+        },
+        {
+          "id": "working_holiday",
+          "conditions": [
+            {
+              "fr": "Programme Vacances-Travail (Expérience internationale Canada) : séjour d'un an maximum, quota de 7 000 participants.",
+              "en": "Working holiday programme (International Experience Canada): stay of up to one year, quota of 7,000 participants."
+            },
+            {
+              "fr": "Ressources minimales : 2 500 CAD ; billet retour ou moyens de l'acheter ; assurance maladie, hospitalisation et rapatriement pour tout le séjour.",
+              "en": "Minimum funds: CAD 2,500; return ticket or means to buy one; health, hospital and repatriation insurance for the whole stay."
+            },
+            {
+              "fr": "Ne pas avoir déjà participé au programme dans ce pays et ne pas être accompagné d'enfants à charge.",
+              "en": "Not have taken part before in this country and not be accompanied by dependent children."
+            }
+          ],
+          "age": {
+            "fr": "18 à 35 ans à la date de la demande.",
+            "en": "18 to 35 at the time of application."
+          },
+          "costs": [
+            {
+              "fr": "Frais de participation EIC : 184,75 CAD depuis le 1er décembre 2025, plus 100 CAD pour le permis de travail ouvert (pages IRCC modifiées le 21/09/2026)",
+              "en": "IEC participation fee: CAD 184.75 since 1 December 2025, plus CAD 100 for the open work permit (IRCC pages modified 21/09/2026)"
+            }
+          ],
+          "sources": [
+            "dipl_pvt",
+            "ircc_fees",
+            "ircc_fee_changes"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "DE",
+      "highlights": [
+        {
+          "title": {
+            "fr": "Entrée et séjour",
+            "en": "Entry and residence"
+          },
+          "body": {
+            "fr": "L'Allemagne étant membre de l'Union européenne, un passeport ou une carte nationale d'identité suffit. Si vous vous installez pour plus de 3 mois, vous devez enregistrer votre résidence à la mairie de votre domicile, qui délivre un certificat d'enregistrement (Meldebescheinigung ou Anmeldebestätigung).",
+            "en": "As Germany is an EU member, a passport or national ID card is enough. If you settle for more than 3 months, you must register your address at the town hall, which issues a registration certificate (Meldebescheinigung or Anmeldebestätigung)."
+          },
+          "sources": [
+            "cav_de_entree",
+            "emb_de"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Protection sociale",
+            "en": "Social security"
+          },
+          "body": {
+            "fr": "L'Allemagne applique les règlements européens de coordination de sécurité sociale : vos droits sont coordonnés entre les deux pays (travail, retraite, santé). Le Cleiss détaille chaque situation (détachement, expatriation, études, retraite).",
+            "en": "Germany applies the EU social security coordination rules: your rights are coordinated between both countries (work, pension, health). The Cleiss explains each situation (posting, expatriation, studies, retirement)."
+          },
+          "sources": [
+            "cleiss_de"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Impôts",
+            "en": "Taxes"
+          },
+          "body": {
+            "fr": "La France et l'Allemagne ont signé une convention fiscale, publiée sur impots.gouv.fr. Elle sert notamment à éviter d'être imposé deux fois sur les mêmes revenus.",
+            "en": "France and Germany have signed a tax treaty, published on impots.gouv.fr. Among other things, it helps avoid being taxed twice on the same income."
+          },
+          "sources": [
+            "impots_conventions"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Santé",
+            "en": "Health"
+          },
+          "body": {
+            "fr": "Pour un court séjour, la carte européenne d'assurance maladie (CEAM) permet une prise en charge des soins ; il est conseillé de se la procurer avant le départ. Une assurance couvrant hospitalisation et rapatriement reste conseillée.",
+            "en": "For a short stay, the European Health Insurance Card (EHIC) covers medical care; get it before you leave. Insurance covering hospital care and repatriation is still advised."
+          },
+          "sources": [
+            "cav_de_sante"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Scolarité",
+            "en": "Schooling"
+          },
+          "body": {
+            "fr": "L'AEFE recense 16 établissements d'enseignement français homologués (Berlin, Bonn, Düsseldorf, Francfort, Fribourg-en-Brisgau, Hambourg, Heidelberg, Munich, Sarrebruck et Stuttgart).",
+            "en": "The AEFE lists 16 accredited French schools (Berlin, Bonn, Düsseldorf, Francfort, Fribourg-en-Brisgau, Hambourg, Heidelberg, Munich, Sarrebruck et Stuttgart)."
+          },
+          "sources": [
+            "aefe_etablissements"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Sécurité",
+            "en": "Safety"
+          },
+          "body": {
+            "fr": "Le territoire allemand est en vigilance normale. La petite délinquance (vols à la tire) est présente dans les zones touristiques, les gares et les grands événements.",
+            "en": "Germany is at normal vigilance. Petty crime (pickpocketing) occurs in tourist areas, stations and at large events."
+          },
+          "sources": [
+            "cav_de_securite"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Français inscrits au registre",
+            "en": "French nationals on the consular register"
+          },
+          "body": {
+            "fr": "93 281 Français inscrits au registre des Français établis hors de France au 31 décembre 2025 (6e pays dans le classement du rapport du Gouvernement). L'inscription est facultative : le nombre réel de Français sur place peut être plus élevé.",
+            "en": "93,281 French nationals on the register of French citizens living abroad on 31 December 2025 (ranked 6 in the government report). Registration is optional, so the actual number may be higher."
+          },
+          "sources": [
+            "rapport_fae_2026"
+          ]
+        }
+      ],
+      "motives": [
+        {
+          "id": "tourism",
+          "conditions": [
+            {
+              "fr": "Passeport ou carte nationale d'identité.",
+              "en": "Passport or national ID card."
+            },
+            {
+              "fr": "Au-delà de 3 mois : enregistrement de la résidence à la mairie du domicile.",
+              "en": "Beyond 3 months: register your address at the local town hall."
+            }
+          ],
+          "sources": [
+            "cav_de_entree"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "ES",
+      "highlights": [
+        {
+          "title": {
+            "fr": "Entrée et séjour",
+            "en": "Entry and residence"
+          },
+          "body": {
+            "fr": "L'Espagne étant membre de l'Union européenne, un passeport ou une carte nationale d'identité en cours de validité suffit. En cas de perte ou de vol, certaines compagnies aériennes refusent la seule déclaration de la police espagnole et demandent un laissez-passer consulaire (50 €). Pour une installation, le pays d'accueil peut demander un enregistrement auprès des autorités locales après trois mois (service-public.gouv.fr).",
+            "en": "As Spain is an EU member, a valid passport or national ID card is enough. If they are lost or stolen, some airlines refuse the Spanish police report alone and ask for a consular emergency travel document (EUR 50). If you settle, the host country may require registration with the local authorities after three months (service-public.gouv.fr)."
+          },
+          "sources": [
+            "cav_es_entree",
+            "emb_es",
+            "sp_partir_vivre"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Protection sociale",
+            "en": "Social security"
+          },
+          "body": {
+            "fr": "L'Espagne applique les règlements européens de coordination de sécurité sociale : vos droits sont coordonnés entre les deux pays (travail, retraite, santé). Le Cleiss détaille chaque situation (détachement, expatriation, études, retraite).",
+            "en": "Spain applies the EU social security coordination rules: your rights are coordinated between both countries (work, pension, health). The Cleiss explains each situation (posting, expatriation, studies, retirement)."
+          },
+          "sources": [
+            "cleiss_es"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Impôts",
+            "en": "Taxes"
+          },
+          "body": {
+            "fr": "La France et l'Espagne ont signé une convention fiscale, publiée sur impots.gouv.fr. Elle sert notamment à éviter d'être imposé deux fois sur les mêmes revenus.",
+            "en": "France and Spain have signed a tax treaty, published on impots.gouv.fr. Among other things, it helps avoid being taxed twice on the same income."
+          },
+          "sources": [
+            "impots_conventions"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Santé",
+            "en": "Health"
+          },
+          "body": {
+            "fr": "Pour un court séjour, la carte européenne d'assurance maladie (CEAM) permet une prise en charge des soins ; elle se demande à votre caisse au moins 20 jours avant le départ. Une assurance couvrant hospitalisation et rapatriement reste conseillée. Les urgences des hôpitaux publics sont accessibles aux touristes français ; le privé pratique des tarifs très élevés.",
+            "en": "For a short stay, the European Health Insurance Card (EHIC) covers medical care; ask your health insurance fund for it at least 20 days before leaving. Insurance covering hospital care and repatriation is still advised. Public hospital emergency departments are open to French tourists; private care is very expensive."
+          },
+          "sources": [
+            "cav_es_sante"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Scolarité",
+            "en": "Schooling"
+          },
+          "body": {
+            "fr": "L'AEFE recense 23 établissements d'enseignement français homologués (Madrid, Barcelone, Valence, Séville, Malaga, Bilbao, les Baléares, les Canaries et d'autres villes).",
+            "en": "The AEFE lists 23 accredited French schools (Madrid, Barcelone, Valence, Séville, Malaga, Bilbao, les Baléares, les Canaries et d'autres villes)."
+          },
+          "sources": [
+            "aefe_etablissements"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Sécurité",
+            "en": "Safety"
+          },
+          "body": {
+            "fr": "L'ensemble du pays est en vigilance normale. Le niveau de menace terroriste fixé par les autorités espagnoles est de 4 sur 5. Les vols sont fréquents dans les zones touristiques et les grandes villes, notamment à Barcelone et aux Baléares.",
+            "en": "The whole country is at normal vigilance. The terrorist threat level set by the Spanish authorities is 4 out of 5. Theft is common in tourist areas and large cities, especially Barcelona and the Balearic Islands."
+          },
+          "sources": [
+            "cav_es_securite"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Français inscrits au registre",
+            "en": "French nationals on the consular register"
+          },
+          "body": {
+            "fr": "85 201 Français inscrits au registre des Français établis hors de France au 31 décembre 2025 (7e pays dans le classement du rapport du Gouvernement). L'inscription est facultative : le nombre réel de Français sur place peut être plus élevé.",
+            "en": "85,201 French nationals on the register of French citizens living abroad on 31 December 2025 (ranked 7 in the government report). Registration is optional, so the actual number may be higher."
+          },
+          "sources": [
+            "rapport_fae_2026"
+          ]
+        }
+      ],
+      "motives": [
+        {
+          "id": "tourism",
+          "conditions": [
+            {
+              "fr": "Passeport ou carte nationale d'identité en cours de validité.",
+              "en": "Valid passport or national ID card."
+            }
+          ],
+          "sources": [
+            "cav_es_entree"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "IL",
+      "highlights": [
+        {
+          "title": {
+            "fr": "Entrée et séjour",
+            "en": "Entry and residence"
+          },
+          "body": {
+            "fr": "Pas de visa pour un séjour touristique de trois mois maximum, mais une autorisation électronique de voyage (ETA-IL) est obligatoire avant toute arrivée en Israël. Elle coûte 25 shekels, se demande sur le site de l'autorité israélienne de la population et de l'immigration et reste valable 2 ans. Le passeport doit être valide au moins 6 mois. Pour une activité (ONG, travail), il est conseillé d'obtenir au préalable un visa adapté auprès du consulat d'Israël.",
+            "en": "No visa for a tourist stay of up to three months, but an electronic travel authorization (ETA-IL) is required before arriving in Israel. It costs 25 shekels, is obtained on the Israeli Population and Immigration Authority website and is valid for 2 years. The passport must be valid for at least 6 months. For an activity (NGO, work), it is advised to get a suitable visa from the Israeli consulate beforehand."
+          },
+          "sources": [
+            "cav_il_entree",
+            "emb_il"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Protection sociale",
+            "en": "Social security"
+          },
+          "body": {
+            "fr": "Israël et la France sont liés par une convention bilatérale de sécurité sociale. Le Cleiss détaille les règles selon votre situation (détachement, expatriation, études, retraite).",
+            "en": "Israel and France have a bilateral social security agreement. The Cleiss explains the rules for each situation (posting, expatriation, studies, retirement)."
+          },
+          "sources": [
+            "cleiss_il",
+            "cleiss_conventions"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Impôts",
+            "en": "Taxes"
+          },
+          "body": {
+            "fr": "La France et Israël ont signé une convention fiscale, publiée sur impots.gouv.fr. Elle sert notamment à éviter d'être imposé deux fois sur les mêmes revenus.",
+            "en": "France and Israel have signed a tax treaty, published on impots.gouv.fr. Among other things, it helps avoid being taxed twice on the same income."
+          },
+          "sources": [
+            "impots_conventions"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Santé",
+            "en": "Health"
+          },
+          "body": {
+            "fr": "Les Conseils aux voyageurs rappellent qu'une assurance couvrant frais médicaux, hospitalisation et rapatriement est indispensable. La fièvre du Nil occidental peut toucher Israël, Jérusalem et la Palestine.",
+            "en": "The French travel advice states that insurance covering medical costs, hospital care and repatriation is essential. West Nile fever may occur in Israel, Jerusalem and Palestine."
+          },
+          "sources": [
+            "cav_il_sante"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Scolarité",
+            "en": "Schooling"
+          },
+          "body": {
+            "fr": "L'AEFE recense 4 établissements d'enseignement français homologués (Tel-Aviv, Jaffa et Holon).",
+            "en": "The AEFE lists 4 accredited French schools (Tel-Aviv, Jaffa et Holon)."
+          },
+          "sources": [
+            "aefe_etablissements"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Sécurité",
+            "en": "Safety"
+          },
+          "body": {
+            "fr": "Au 13/03/2026, il reste déconseillé, sauf raison impérative, de se rendre en Israël. Le plateau du Golan, la frontière avec le Liban et le pourtour de la bande de Gaza sont formellement déconseillés. Consultez la fiche avant tout projet.",
+            "en": "As of 13/03/2026, travel to Israel is advised against unless essential. The Golan Heights, the border with Lebanon and the area around the Gaza Strip are strongly advised against. Check the advice page before any plan."
+          },
+          "sources": [
+            "cav_il_securite"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Français inscrits au registre",
+            "en": "French nationals on the consular register"
+          },
+          "body": {
+            "fr": "75 000 Français inscrits au registre des Français établis hors de France au 31 décembre 2025 (8e pays dans le classement du rapport du Gouvernement). L'inscription est facultative : le nombre réel de Français sur place peut être plus élevé.",
+            "en": "75,000 French nationals on the register of French citizens living abroad on 31 December 2025 (ranked 8 in the government report). Registration is optional, so the actual number may be higher."
+          },
+          "sources": [
+            "rapport_fae_2026"
+          ]
+        }
+      ],
+      "motives": [
+        {
+          "id": "tourism",
+          "conditions": [
+            {
+              "fr": "Pas de visa pour trois mois maximum ; prolongation possible de trois mois sur demande justifiée.",
+              "en": "No visa for up to three months; can be extended by three months on a justified request."
+            },
+            {
+              "fr": "ETA-IL obligatoire avant l'arrivée ; passeport valide au moins 6 mois à la date de la demande.",
+              "en": "ETA-IL required before arrival; passport valid for at least 6 months on the application date."
+            }
+          ],
+          "costs": [
+            {
+              "fr": "ETA-IL : 25 shekels (Conseils aux voyageurs mis à jour le 15/09/2026)",
+              "en": "ETA-IL: 25 shekels (French travel advice updated 15/09/2026)"
+            }
+          ],
+          "sources": [
+            "cav_il_entree"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "MA",
+      "highlights": [
+        {
+          "title": {
+            "fr": "Entrée et séjour",
+            "en": "Entry and residence"
+          },
+          "body": {
+            "fr": "Un passeport valide pour toute la durée du séjour est obligatoire : la carte d'identité seule n'est plus acceptée. À l'arrivée, il faut pouvoir montrer un billet retour et des moyens de subsistance, et vérifier que le passeport a été tamponné. Au-delà de 90 jours, une prolongation (trois mois maximum) se demande au service marocain de l'immigration. La frontière avec l'Algérie est fermée.",
+            "en": "A passport valid for the whole stay is required: an ID card alone is no longer accepted. On arrival, you must show a return ticket and means of support, and check that your passport has been stamped. Beyond 90 days, an extension (three months maximum) is requested from the Moroccan immigration service. The border with Algeria is closed."
+          },
+          "sources": [
+            "cav_ma_entree",
+            "emb_ma"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Protection sociale",
+            "en": "Social security"
+          },
+          "body": {
+            "fr": "Le Maroc et la France sont liés par une convention bilatérale de sécurité sociale. Le Cleiss détaille les règles selon votre situation (détachement, expatriation, études, retraite).",
+            "en": "Morocco and France have a bilateral social security agreement. The Cleiss explains the rules for each situation (posting, expatriation, studies, retirement)."
+          },
+          "sources": [
+            "cleiss_ma",
+            "cleiss_conventions"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Impôts",
+            "en": "Taxes"
+          },
+          "body": {
+            "fr": "La France et le Maroc ont signé une convention fiscale, publiée sur impots.gouv.fr. Elle sert notamment à éviter d'être imposé deux fois sur les mêmes revenus.",
+            "en": "France and Morocco have signed a tax treaty, published on impots.gouv.fr. Among other things, it helps avoid being taxed twice on the same income."
+          },
+          "sources": [
+            "impots_conventions"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Santé",
+            "en": "Health"
+          },
+          "body": {
+            "fr": "Les Conseils aux voyageurs demandent de disposer d'une assurance couvrant frais médicaux, hospitalisation et rapatriement, et de vérifier sa validité au Maroc.",
+            "en": "The French travel advice asks you to have insurance covering medical costs, hospital care and repatriation, and to check that it is valid in Morocco."
+          },
+          "sources": [
+            "cav_ma_sante"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Scolarité",
+            "en": "Schooling"
+          },
+          "body": {
+            "fr": "L'AEFE recense 45 établissements d'enseignement français homologués (Casablanca, Rabat, Marrakech, Tanger, Fès, Agadir, Meknès, Kenitra et d'autres villes).",
+            "en": "The AEFE lists 45 accredited French schools (Casablanca, Rabat, Marrakech, Tanger, Fès, Agadir, Meknès, Kenitra et d'autres villes)."
+          },
+          "sources": [
+            "aefe_etablissements"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Sécurité",
+            "en": "Safety"
+          },
+          "body": {
+            "fr": "Les Conseils aux voyageurs décrivent le Maroc comme un pays sûr, exposé comme d'autres à la menace terroriste. La frontière avec la Mauritanie est formellement déconseillée ; le sud de la frontière avec l'Algérie et le Sahara occidental sont en vigilance renforcée.",
+            "en": "The French travel advice describes Morocco as a safe country, exposed like others to the terrorist threat. The border with Mauritania is strongly advised against; the southern border with Algeria and Western Sahara are at increased vigilance."
+          },
+          "sources": [
+            "cav_ma_securite"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Français inscrits au registre",
+            "en": "French nationals on the consular register"
+          },
+          "body": {
+            "fr": "58 016 Français inscrits au registre des Français établis hors de France au 31 décembre 2025 (9e pays dans le classement du rapport du Gouvernement). L'inscription est facultative : le nombre réel de Français sur place peut être plus élevé.",
+            "en": "58,016 French nationals on the register of French citizens living abroad on 31 December 2025 (ranked 9 in the government report). Registration is optional, so the actual number may be higher."
+          },
+          "sources": [
+            "rapport_fae_2026"
+          ]
+        }
+      ],
+      "motives": [
+        {
+          "id": "tourism",
+          "conditions": [
+            {
+              "fr": "Passeport valide pour toute la durée du séjour ; billet retour et moyens de subsistance.",
+              "en": "Passport valid for the whole stay; return ticket and means of support."
+            },
+            {
+              "fr": "Séjour de 90 jours ; prolongation de trois mois maximum auprès du service marocain de l'immigration.",
+              "en": "Stay of 90 days; extension of up to three months from the Moroccan immigration service."
+            }
+          ],
+          "sources": [
+            "cav_ma_entree"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "IT",
+      "highlights": [
+        {
+          "title": {
+            "fr": "Entrée et séjour",
+            "en": "Entry and residence"
+          },
+          "body": {
+            "fr": "Pour un séjour de trois mois maximum, une carte nationale d'identité ou un passeport en cours de validité suffit (le livret de famille n'est pas un document de voyage, y compris pour les mineurs). Pour une installation, le pays d'accueil peut demander un enregistrement auprès des autorités locales après trois mois (service-public.gouv.fr).",
+            "en": "For a stay of up to three months, a valid national ID card or passport is enough (the family record book is not a travel document, including for minors). If you settle, the host country may require registration with the local authorities after three months (service-public.gouv.fr)."
+          },
+          "sources": [
+            "cav_it_entree",
+            "emb_it",
+            "sp_partir_vivre"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Protection sociale",
+            "en": "Social security"
+          },
+          "body": {
+            "fr": "L'Italie applique les règlements européens de coordination de sécurité sociale : vos droits sont coordonnés entre les deux pays (travail, retraite, santé). Le Cleiss détaille chaque situation (détachement, expatriation, études, retraite).",
+            "en": "Italy applies the EU social security coordination rules: your rights are coordinated between both countries (work, pension, health). The Cleiss explains each situation (posting, expatriation, studies, retirement)."
+          },
+          "sources": [
+            "cleiss_it"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Impôts",
+            "en": "Taxes"
+          },
+          "body": {
+            "fr": "La France et l'Italie ont signé une convention fiscale, publiée sur impots.gouv.fr. Elle sert notamment à éviter d'être imposé deux fois sur les mêmes revenus.",
+            "en": "France and Italy have signed a tax treaty, published on impots.gouv.fr. Among other things, it helps avoid being taxed twice on the same income."
+          },
+          "sources": [
+            "impots_conventions"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Santé",
+            "en": "Health"
+          },
+          "body": {
+            "fr": "Pour un court séjour, la carte européenne d'assurance maladie (CEAM) permet une prise en charge des soins ; elle se demande à votre caisse au moins 15 jours avant le départ. Une assurance couvrant hospitalisation et rapatriement reste conseillée. En été, les températures peuvent être très élevées.",
+            "en": "For a short stay, the European Health Insurance Card (EHIC) covers medical care; ask your health insurance fund for it at least 15 days before leaving. Insurance covering hospital care and repatriation is still advised. Summer temperatures can be very high."
+          },
+          "sources": [
+            "cav_it_sante"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Scolarité",
+            "en": "Schooling"
+          },
+          "body": {
+            "fr": "L'AEFE recense 7 établissements d'enseignement français homologués (Rome, Milan, Florence, Naples et Turin).",
+            "en": "The AEFE lists 7 accredited French schools (Rome, Milan, Florence, Naples et Turin)."
+          },
+          "sources": [
+            "aefe_etablissements"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Sécurité",
+            "en": "Safety"
+          },
+          "body": {
+            "fr": "L'ensemble du territoire italien est en vigilance normale. Les vols à la tire sont fréquents dans les gares, les transports et les lieux touristiques des grandes villes.",
+            "en": "The whole of Italy is at normal vigilance. Pickpocketing is common in stations, public transport and tourist sites in large cities."
+          },
+          "sources": [
+            "cav_it_securite"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Français inscrits au registre",
+            "en": "French nationals on the consular register"
+          },
+          "body": {
+            "fr": "35 432 Français inscrits au registre des Français établis hors de France au 31 décembre 2025 (10e pays dans le classement du rapport du Gouvernement). L'inscription est facultative : le nombre réel de Français sur place peut être plus élevé.",
+            "en": "35,432 French nationals on the register of French citizens living abroad on 31 December 2025 (ranked 10 in the government report). Registration is optional, so the actual number may be higher."
+          },
+          "sources": [
+            "rapport_fae_2026"
+          ]
+        }
+      ],
+      "motives": [
+        {
+          "id": "tourism",
+          "conditions": [
+            {
+              "fr": "Carte nationale d'identité ou passeport en cours de validité pour trois mois maximum.",
+              "en": "Valid national ID card or passport for up to three months."
+            }
+          ],
+          "sources": [
+            "cav_it_entree"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "AE",
+      "highlights": [
+        {
+          "title": {
+            "fr": "Entrée et séjour",
+            "en": "Entry and residence"
+          },
+          "body": {
+            "fr": "Les Français sont dispensés de visa : un tampon à l'arrivée autorise 90 jours sur 180 jours. Le passeport doit être en bon état et valide au moins 6 mois ; le passeport d'urgence n'est pas reconnu. Pour s'installer, il faut faire, via l'employeur, la demande de visa de résidence dans les 30 jours. Les autorités refusent ce visa aux personnes séropositives au VIH ou atteintes de tuberculose ou d'hépatite B.",
+            "en": "French citizens do not need a visa: a stamp on arrival allows 90 days within 180 days. The passport must be in good condition and valid for at least 6 months; emergency passports are not recognised. To settle, the residence visa must be requested through the employer within 30 days. The authorities refuse this visa to people who are HIV positive or have tuberculosis or hepatitis B."
+          },
+          "sources": [
+            "cav_ae_entree",
+            "emb_ae"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Santé et protection sociale",
+            "en": "Health and social security"
+          },
+          "body": {
+            "fr": "Le Cleiss ne cite pas les Émirats arabes unis parmi les pays liés à la France par une convention de sécurité sociale. Les frais de santé sur place sont très élevés : les Conseils aux voyageurs recommandent vivement une assurance couvrant soins, hospitalisation et rapatriement.",
+            "en": "The Cleiss does not list the United Arab Emirates among the countries with a social security agreement with France. Healthcare costs are very high: the French travel advice strongly recommends insurance covering care, hospital and repatriation."
+          },
+          "sources": [
+            "cleiss_conventions",
+            "cav_ae_sante"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Impôts",
+            "en": "Taxes"
+          },
+          "body": {
+            "fr": "La France et les Émirats arabes unis ont signé une convention fiscale, publiée sur impots.gouv.fr. Elle sert notamment à éviter d'être imposé deux fois sur les mêmes revenus.",
+            "en": "France and the United Arab Emirates have signed a tax treaty, published on impots.gouv.fr. Among other things, it helps avoid being taxed twice on the same income."
+          },
+          "sources": [
+            "impots_conventions"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Scolarité",
+            "en": "Schooling"
+          },
+          "body": {
+            "fr": "L'AEFE recense 10 établissements d'enseignement français homologués (Abou Dabi, Dubaï et Sharjah).",
+            "en": "The AEFE lists 10 accredited French schools (Abou Dabi, Dubaï et Sharjah)."
+          },
+          "sources": [
+            "aefe_etablissements"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Sécurité",
+            "en": "Safety"
+          },
+          "body": {
+            "fr": "Au 17/07/2026, l'ensemble du pays est en vigilance renforcée, en raison des tensions régionales. Les îles Grande Tomb, Petite Tomb et Abou Moussa sont formellement déconseillées. Il est conseillé de suivre les informations de l'ambassade et du consulat général à Dubaï.",
+            "en": "As of 17/07/2026, the whole country is at increased vigilance because of regional tensions. The Greater Tunb, Lesser Tunb and Abu Musa islands are strongly advised against. Follow updates from the embassy and the consulate general in Dubai."
+          },
+          "sources": [
+            "cav_ae_securite"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Français inscrits au registre",
+            "en": "French nationals on the consular register"
+          },
+          "body": {
+            "fr": "33 438 Français inscrits au registre des Français établis hors de France au 31 décembre 2025 (11e pays dans le classement du rapport du Gouvernement). L'inscription est facultative : le nombre réel de Français sur place peut être plus élevé.",
+            "en": "33,438 French nationals on the register of French citizens living abroad on 31 December 2025 (ranked 11 in the government report). Registration is optional, so the actual number may be higher."
+          },
+          "sources": [
+            "rapport_fae_2026"
+          ]
+        }
+      ],
+      "motives": [
+        {
+          "id": "tourism",
+          "conditions": [
+            {
+              "fr": "Pas de visa : 90 jours maximum sur une période de 180 jours.",
+              "en": "No visa: up to 90 days within a 180-day period."
+            },
+            {
+              "fr": "Passeport en bon état, valide au moins 6 mois à l'entrée, avec une date de naissance complète.",
+              "en": "Passport in good condition, valid for at least 6 months on entry, with a full date of birth."
+            }
+          ],
+          "sources": [
+            "cav_ae_entree"
+          ]
+        },
+        {
+          "id": "work",
+          "conditions": [
+            {
+              "fr": "Visa de travail et permis de travail délivrés par les autorités émiriennes obligatoires pour travailler.",
+              "en": "A work visa and work permit issued by the UAE authorities are required to work."
+            },
+            {
+              "fr": "Formalités du visa de résidence via l'employeur, dans les 30 jours après l'arrivée.",
+              "en": "Residence visa formalities through the employer, within 30 days of arrival."
+            },
+            {
+              "fr": "Visa de résidence refusé en cas de VIH, tuberculose ou hépatite B.",
+              "en": "Residence visa refused in case of HIV, tuberculosis or hepatitis B."
+            }
+          ],
+          "sources": [
+            "cav_ae_entree",
+            "cav_ae_affaires"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "DZ",
+      "highlights": [
+        {
+          "title": {
+            "fr": "Entrée et séjour",
+            "en": "Entry and residence"
+          },
+          "body": {
+            "fr": "Un visa est obligatoire pour entrer en Algérie. Il se demande au consulat d'Algérie de votre lieu de résidence (18 consulats en France). Il existe plusieurs types de visas : familial, touristique, d'affaires, de travail, culturel, d'études et de transit. Sur place, les étrangers doivent se signaler au bureau des étrangers de la wilaya de résidence.",
+            "en": "A visa is required to enter Algeria. You apply at the Algerian consulate for your place of residence (18 consulates in France). There are several types: family, tourist, business, work, cultural, study and transit. Once there, foreigners must report to the foreigners' office of their wilaya of residence."
+          },
+          "sources": [
+            "cav_dz_entree",
+            "emb_dz"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Protection sociale",
+            "en": "Social security"
+          },
+          "body": {
+            "fr": "L'Algérie et la France sont liées par une convention bilatérale de sécurité sociale. Le Cleiss détaille les règles selon votre situation (détachement, expatriation, études, retraite).",
+            "en": "Algeria and France have a bilateral social security agreement. The Cleiss explains the rules for each situation (posting, expatriation, studies, retirement)."
+          },
+          "sources": [
+            "cleiss_dz",
+            "cleiss_conventions"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Impôts",
+            "en": "Taxes"
+          },
+          "body": {
+            "fr": "La France et l'Algérie ont signé une convention fiscale, publiée sur impots.gouv.fr. Elle sert notamment à éviter d'être imposé deux fois sur les mêmes revenus.",
+            "en": "France and Algeria have signed a tax treaty, published on impots.gouv.fr. Among other things, it helps avoid being taxed twice on the same income."
+          },
+          "sources": [
+            "impots_conventions"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Santé",
+            "en": "Health"
+          },
+          "body": {
+            "fr": "Les Conseils aux voyageurs demandent de disposer d'une assurance couvrant frais médicaux, hospitalisation et rapatriement, faute de quoi l'accès aux soins peut être refusé.",
+            "en": "The French travel advice asks you to have insurance covering medical costs, hospital care and repatriation; without it, access to care may be refused."
+          },
+          "sources": [
+            "cav_dz_sante"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Scolarité",
+            "en": "Schooling"
+          },
+          "body": {
+            "fr": "L'AEFE recense 2 établissements d'enseignement français homologués (Alger).",
+            "en": "The AEFE lists 2 accredited French schools (Alger)."
+          },
+          "sources": [
+            "aefe_etablissements"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Sécurité",
+            "en": "Safety"
+          },
+          "body": {
+            "fr": "Alger et Oran sont en vigilance normale. Les zones frontalières sont formellement déconseillées (sauf au nord de Tébessa). Il est conseillé de ne pas photographier les bâtiments publics et de ne pas utiliser de drone.",
+            "en": "Algiers and Oran are at normal vigilance. Border areas are strongly advised against (except north of Tébessa). Do not photograph public buildings or use drones."
+          },
+          "sources": [
+            "cav_dz_securite"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Français inscrits au registre",
+            "en": "French nationals on the consular register"
+          },
+          "body": {
+            "fr": "33 230 Français inscrits au registre des Français établis hors de France au 31 décembre 2025 (12e pays dans le classement du rapport du Gouvernement). L'inscription est facultative : le nombre réel de Français sur place peut être plus élevé.",
+            "en": "33,230 French nationals on the register of French citizens living abroad on 31 December 2025 (ranked 12 in the government report). Registration is optional, so the actual number may be higher."
+          },
+          "sources": [
+            "rapport_fae_2026"
+          ]
+        }
+      ],
+      "motives": [
+        {
+          "id": "tourism",
+          "conditions": [
+            {
+              "fr": "Visa obligatoire, à demander au consulat d'Algérie de votre lieu de résidence.",
+              "en": "Visa required, from the Algerian consulate for your place of residence."
+            },
+            {
+              "fr": "Pour le grand Sud, un visa à l'arrivée (30 jours maximum) est possible dans le cadre de voyages organisés par des agences agréées.",
+              "en": "For the deep South, a visa on arrival (up to 30 days) is possible for trips organised by approved agencies."
+            }
+          ],
+          "sources": [
+            "cav_dz_entree"
+          ]
+        },
+        {
+          "id": "work",
+          "conditions": [
+            {
+              "fr": "Un visa de travail existe ; il se demande au consulat d'Algérie compétent.",
+              "en": "A work visa exists; apply at the relevant Algerian consulate."
+            }
+          ],
+          "sources": [
+            "cav_dz_entree"
+          ]
+        },
+        {
+          "id": "study",
+          "conditions": [
+            {
+              "fr": "Un visa d'études existe ; il se demande au consulat d'Algérie compétent.",
+              "en": "A study visa exists; apply at the relevant Algerian consulate."
+            }
+          ],
+          "sources": [
+            "cav_dz_entree"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "LU",
+      "highlights": [
+        {
+          "title": {
+            "fr": "Entrée et séjour",
+            "en": "Entry and residence"
+          },
+          "body": {
+            "fr": "Un passeport ou une carte nationale d'identité suffit pour un séjour de moins de 3 mois. Pour rester plus longtemps, il faut déclarer son arrivée dans les 8 jours, puis demander une attestation d'enregistrement dans les 3 mois, auprès de la commune de résidence (Bierger-Center à Luxembourg-ville), en justifiant de ressources suffisantes.",
+            "en": "A passport or national ID card is enough for a stay of less than 3 months. To stay longer, declare your arrival within 8 days, then apply for a registration certificate within 3 months at your municipality (Bierger-Center in Luxembourg City), showing sufficient resources."
+          },
+          "sources": [
+            "cav_lu_entree",
+            "emb_lu"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Protection sociale",
+            "en": "Social security"
+          },
+          "body": {
+            "fr": "Le Luxembourg applique les règlements européens de coordination de sécurité sociale : vos droits sont coordonnés entre les deux pays (travail, retraite, santé). Le Cleiss détaille chaque situation (détachement, expatriation, études, retraite).",
+            "en": "Luxembourg applies the EU social security coordination rules: your rights are coordinated between both countries (work, pension, health). The Cleiss explains each situation (posting, expatriation, studies, retirement)."
+          },
+          "sources": [
+            "cleiss_lu"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Impôts",
+            "en": "Taxes"
+          },
+          "body": {
+            "fr": "La France et le Luxembourg ont signé une convention fiscale, publiée sur impots.gouv.fr. Elle sert notamment à éviter d'être imposé deux fois sur les mêmes revenus.",
+            "en": "France and Luxembourg have signed a tax treaty, published on impots.gouv.fr. Among other things, it helps avoid being taxed twice on the same income."
+          },
+          "sources": [
+            "impots_conventions"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Santé",
+            "en": "Health"
+          },
+          "body": {
+            "fr": "Pour un court séjour, la carte européenne d'assurance maladie (CEAM) permet une prise en charge des soins ; elle se demande à votre caisse au moins 15 jours avant le départ. Une assurance couvrant hospitalisation et rapatriement reste conseillée.",
+            "en": "For a short stay, the European Health Insurance Card (EHIC) covers medical care; ask your health insurance fund for it at least 15 days before leaving. Insurance covering hospital care and repatriation is still advised."
+          },
+          "sources": [
+            "cav_lu_sante"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Scolarité",
+            "en": "Schooling"
+          },
+          "body": {
+            "fr": "L'AEFE recense 2 établissements d'enseignement français homologués (Luxembourg).",
+            "en": "The AEFE lists 2 accredited French schools (Luxembourg)."
+          },
+          "sources": [
+            "aefe_etablissements"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Sécurité",
+            "en": "Safety"
+          },
+          "body": {
+            "fr": "L'ensemble du territoire luxembourgeois est en vigilance normale et la criminalité y est faible. Les autoroutes venant de France sont très chargées aux heures de pointe. Les transports publics sont gratuits.",
+            "en": "The whole of Luxembourg is at normal vigilance and crime is low. Motorways from France are very busy at rush hour. Public transport is free."
+          },
+          "sources": [
+            "cav_lu_securite"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Français inscrits au registre",
+            "en": "French nationals on the consular register"
+          },
+          "body": {
+            "fr": "31 684 Français inscrits au registre des Français établis hors de France au 31 décembre 2025 (13e pays dans le classement du rapport du Gouvernement). L'inscription est facultative : le nombre réel de Français sur place peut être plus élevé.",
+            "en": "31,684 French nationals on the register of French citizens living abroad on 31 December 2025 (ranked 13 in the government report). Registration is optional, so the actual number may be higher."
+          },
+          "sources": [
+            "rapport_fae_2026"
+          ]
+        }
+      ],
+      "motives": [
+        {
+          "id": "tourism",
+          "conditions": [
+            {
+              "fr": "Passeport ou carte nationale d'identité pour moins de 3 mois.",
+              "en": "Passport or national ID card for less than 3 months."
+            },
+            {
+              "fr": "Au-delà : déclaration d'arrivée sous 8 jours et attestation d'enregistrement sous 3 mois à la commune.",
+              "en": "Beyond that: declare arrival within 8 days and get a registration certificate within 3 months from the municipality."
+            }
+          ],
+          "sources": [
+            "cav_lu_entree"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "NL",
+      "highlights": [
+        {
+          "title": {
+            "fr": "Entrée et séjour",
+            "en": "Entry and residence"
+          },
+          "body": {
+            "fr": "Les Pays-Bas étant membres de l'Union européenne, un passeport ou une carte nationale d'identité en cours de validité suffit. Lors d'un contrôle, une carte d'identité dont la date est dépassée n'est pas acceptée, et ne pas avoir de pièce d'identité valide sur soi peut être sanctionné d'une amende. Le passeport est obligatoire pour les îles néerlandaises des Caraïbes. Pour une installation, le pays d'accueil peut demander un enregistrement auprès des autorités locales après trois mois (service-public.gouv.fr).",
+            "en": "As the Netherlands is an EU member, a valid passport or national ID card is enough. During a check, an ID card past its printed date is not accepted, and not carrying valid ID can lead to a fine. A passport is required for the Dutch Caribbean islands. If you settle, the host country may require registration with the local authorities after three months (service-public.gouv.fr)."
+          },
+          "sources": [
+            "cav_nl_entree",
+            "emb_nl",
+            "sp_partir_vivre"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Protection sociale",
+            "en": "Social security"
+          },
+          "body": {
+            "fr": "Les Pays-Bas applique les règlements européens de coordination de sécurité sociale : vos droits sont coordonnés entre les deux pays (travail, retraite, santé). Le Cleiss détaille chaque situation (détachement, expatriation, études, retraite).",
+            "en": "The Netherlands applies the EU social security coordination rules: your rights are coordinated between both countries (work, pension, health). The Cleiss explains each situation (posting, expatriation, studies, retirement)."
+          },
+          "sources": [
+            "cleiss_nl"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Impôts",
+            "en": "Taxes"
+          },
+          "body": {
+            "fr": "La France et les Pays-Bas ont signé une convention fiscale, publiée sur impots.gouv.fr. Elle sert notamment à éviter d'être imposé deux fois sur les mêmes revenus.",
+            "en": "France and the Netherlands have signed a tax treaty, published on impots.gouv.fr. Among other things, it helps avoid being taxed twice on the same income."
+          },
+          "sources": [
+            "impots_conventions"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Santé",
+            "en": "Health"
+          },
+          "body": {
+            "fr": "Pour un court séjour, la carte européenne d'assurance maladie (CEAM) permet une prise en charge des soins ; elle se demande à votre caisse au moins 15 jours avant le départ. Une assurance couvrant hospitalisation et rapatriement reste conseillée. La CEAM ne couvre pas les territoires néerlandais d'outre-mer.",
+            "en": "For a short stay, the European Health Insurance Card (EHIC) covers medical care; ask your health insurance fund for it at least 15 days before leaving. Insurance covering hospital care and repatriation is still advised. The EHIC does not cover the Dutch overseas territories."
+          },
+          "sources": [
+            "cav_nl_sante"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Scolarité",
+            "en": "Schooling"
+          },
+          "body": {
+            "fr": "L'AEFE recense 3 établissements d'enseignement français homologués (Amsterdam et La Haye).",
+            "en": "The AEFE lists 3 accredited French schools (Amsterdam et La Haye)."
+          },
+          "sources": [
+            "aefe_etablissements"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Sécurité",
+            "en": "Safety"
+          },
+          "body": {
+            "fr": "L'ensemble du territoire est en vigilance normale. Le niveau de menace terroriste fixé par les autorités est de 4 sur 5. Des vols sont signalés dans certains quartiers d'Amsterdam et de Rotterdam et dans les trains.",
+            "en": "The whole country is at normal vigilance. The terrorist threat level set by the authorities is 4 out of 5. Theft is reported in some areas of Amsterdam and Rotterdam and on trains."
+          },
+          "sources": [
+            "cav_nl_securite"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Français inscrits au registre",
+            "en": "French nationals on the consular register"
+          },
+          "body": {
+            "fr": "29 886 Français inscrits au registre des Français établis hors de France au 31 décembre 2025 (14e pays dans le classement du rapport du Gouvernement). L'inscription est facultative : le nombre réel de Français sur place peut être plus élevé.",
+            "en": "29,886 French nationals on the register of French citizens living abroad on 31 December 2025 (ranked 14 in the government report). Registration is optional, so the actual number may be higher."
+          },
+          "sources": [
+            "rapport_fae_2026"
+          ]
+        }
+      ],
+      "motives": [
+        {
+          "id": "tourism",
+          "conditions": [
+            {
+              "fr": "Passeport ou carte nationale d'identité en cours de validité (une carte dont la date est dépassée n'est pas acceptée lors des contrôles).",
+              "en": "Valid passport or national ID card (a card past its printed date is not accepted during checks)."
+            }
+          ],
+          "sources": [
+            "cav_nl_entree"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "AU",
+      "highlights": [
+        {
+          "title": {
+            "fr": "Entrée et séjour",
+            "en": "Entry and residence"
+          },
+          "body": {
+            "fr": "Un Français doit avoir une autorisation électronique de voyage (eVisitor) ou un visa, demandé en ligne sur le site du ministère australien de l'Intérieur (Home Affairs). L'ambassade d'Australie à Paris ne traite plus les demandes. Les visas sont électroniques : aucune vignette n'est collée dans le passeport.",
+            "en": "French citizens need an electronic travel authority (eVisitor) or a visa, requested online on the Australian Department of Home Affairs website. The Australian embassy in Paris no longer handles applications. Visas are electronic: nothing is stuck in the passport."
+          },
+          "sources": [
+            "cav_au_entree",
+            "emb_au"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Visa : types, formulaires et coûts",
+            "en": "Visas: types, forms and fees"
+          },
+          "body": {
+            "fr": "eVisitor (subclass 651) : séjours de 3 mois maximum, gratuit selon Home Affairs (page mise à jour le 08/09/2026). Au-delà de 3 mois en touriste : visa visitor (subclass 600). Visa vacances-travail (subclass 417) : de 18 à 35 ans inclus ; le consulat de France à Sydney indiquait un coût de 495 AUD au 1er juillet 2021, montant à vérifier sur le site de Home Affairs.",
+            "en": "eVisitor (subclass 651): stays of up to 3 months, free according to Home Affairs (page updated 08/09/2026). For tourist stays over 3 months: visitor visa (subclass 600). Working holiday visa (subclass 417): ages 18 to 35 inclusive; the French consulate in Sydney stated a cost of AUD 495 as of 1 July 2021, to be checked on the Home Affairs website."
+          },
+          "sources": [
+            "cav_au_entree",
+            "au_homeaffairs_651",
+            "au_consulat_whv"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Santé et protection sociale",
+            "en": "Health and social security"
+          },
+          "body": {
+            "fr": "Le Cleiss ne cite pas l'Australie parmi les pays liés à la France par une convention de sécurité sociale. Les Conseils aux voyageurs rappellent qu'une assurance couvrant soins, hospitalisation et rapatriement est indispensable, y compris en visa vacances-travail.",
+            "en": "The Cleiss does not list Australia among the countries with a social security agreement with France. The French travel advice states that insurance covering care, hospital and repatriation is essential, including on a working holiday visa."
+          },
+          "sources": [
+            "cleiss_conventions",
+            "cleiss_au",
+            "cav_au_sante"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Impôts",
+            "en": "Taxes"
+          },
+          "body": {
+            "fr": "La France et l'Australie ont signé une convention fiscale, publiée sur impots.gouv.fr. Elle sert notamment à éviter d'être imposé deux fois sur les mêmes revenus.",
+            "en": "France and Australia have signed a tax treaty, published on impots.gouv.fr. Among other things, it helps avoid being taxed twice on the same income."
+          },
+          "sources": [
+            "impots_conventions"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Scolarité",
+            "en": "Schooling"
+          },
+          "body": {
+            "fr": "L'AEFE recense 8 établissements d'enseignement français homologués (Sydney, Melbourne, Brisbane, Canberra et Highgate).",
+            "en": "The AEFE lists 8 accredited French schools (Sydney, Melbourne, Brisbane, Canberra et Highgate)."
+          },
+          "sources": [
+            "aefe_etablissements"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Sécurité",
+            "en": "Safety"
+          },
+          "body": {
+            "fr": "L'ensemble du territoire est en vigilance normale. Le pays connaît des incendies, des inondations et des cyclones (nord, de novembre à avril) : il faut suivre les consignes des autorités locales.",
+            "en": "The whole country is at normal vigilance. The country faces bushfires, floods and cyclones (north, November to April): follow local authority instructions."
+          },
+          "sources": [
+            "cav_au_securite"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Français inscrits au registre",
+            "en": "French nationals on the consular register"
+          },
+          "body": {
+            "fr": "27 614 Français inscrits au registre des Français établis hors de France au 31 décembre 2025 (15e pays dans le classement du rapport du Gouvernement). L'inscription est facultative : le nombre réel de Français sur place peut être plus élevé.",
+            "en": "27,614 French nationals on the register of French citizens living abroad on 31 December 2025 (ranked 15 in the government report). Registration is optional, so the actual number may be higher."
+          },
+          "sources": [
+            "rapport_fae_2026"
+          ]
+        }
+      ],
+      "motives": [
+        {
+          "id": "tourism",
+          "conditions": [
+            {
+              "fr": "eVisitor (subclass 651) pour 3 mois maximum : tourisme, affaires, visite familiale.",
+              "en": "eVisitor (subclass 651) for up to 3 months: tourism, business, family visit."
+            },
+            {
+              "fr": "Une demande par personne, enfants compris ; voyager avec le passeport déclaré.",
+              "en": "One application per person, including children; travel with the passport you declared."
+            },
+            {
+              "fr": "Au-delà de 3 mois : visa visitor (subclass 600).",
+              "en": "Beyond 3 months: visitor visa (subclass 600)."
+            }
+          ],
+          "forms": [
+            {
+              "title": {
+                "fr": "eVisitor (subclass 651) sur le site de Home Affairs",
+                "en": "eVisitor (subclass 651) on the Home Affairs website"
+              },
+              "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/evisitor-651"
+            }
+          ],
+          "costs": [
+            {
+              "fr": "eVisitor : gratuit (page Home Affairs mise à jour le 08/09/2026)",
+              "en": "eVisitor: free (Home Affairs page updated 08/09/2026)"
+            }
+          ],
+          "sources": [
+            "cav_au_entree",
+            "au_homeaffairs_651"
+          ]
+        },
+        {
+          "id": "working_holiday",
+          "conditions": [
+            {
+              "fr": "Séjour de 12 mois maximum, renouvelable sous conditions (2e ou 3e visa après un travail dans certaines régions et secteurs).",
+              "en": "Stay of up to 12 months, renewable under conditions (2nd or 3rd visa after working in certain regions and sectors)."
+            },
+            {
+              "fr": "Être hors d'Australie lors de la demande et de la délivrance ; passeport français valide ; pas d'enfant à charge pendant le séjour.",
+              "en": "Be outside Australia when applying and when the visa is granted; valid French passport; no dependent children during the stay."
+            },
+            {
+              "fr": "Ressources : au moins 5 000 AUD ; assurance maladie et rapatriement pour tout le séjour.",
+              "en": "Funds: at least AUD 5,000; health and repatriation insurance for the whole stay."
+            },
+            {
+              "fr": "Pas de quota pour l'Australie.",
+              "en": "No quota for Australia."
+            }
+          ],
+          "age": {
+            "fr": "18 à 35 ans inclus à la date de la demande.",
+            "en": "18 to 35 inclusive at the time of application."
+          },
+          "forms": [
+            {
+              "title": {
+                "fr": "Working Holiday visa (subclass 417) sur le site de Home Affairs",
+                "en": "Working Holiday visa (subclass 417) on the Home Affairs website"
+              },
+              "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/work-holiday-417"
+            }
+          ],
+          "costs": [
+            {
+              "fr": "495 AUD au 1er juillet 2021 selon le consulat de France à Sydney (page publiée le 09/12/2025) ; montant actuel à vérifier sur le site de Home Affairs",
+              "en": "AUD 495 as of 1 July 2021 according to the French consulate in Sydney (page published 09/12/2025); check the current amount on the Home Affairs website"
+            }
+          ],
+          "sources": [
+            "au_consulat_whv",
+            "dipl_pvt",
+            "cav_au_entree"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "PT",
+      "highlights": [
+        {
+          "title": {
+            "fr": "Entrée et séjour",
+            "en": "Entry and residence"
+          },
+          "body": {
+            "fr": "Le Portugal étant membre de l'Union européenne, un passeport ou une carte nationale d'identité en cours de validité suffit, y compris pour les mineurs. Pour un séjour de plus de 3 mois, il est recommandé de s'enregistrer auprès de la Câmara municipal du lieu de résidence ; l'ambassade de France détaille les formalités d'installation.",
+            "en": "As Portugal is an EU member, a valid passport or national ID card is enough, including for minors. For a stay of more than 3 months, it is recommended to register with the Câmara municipal where you live; the French embassy explains the settling-in formalities."
+          },
+          "sources": [
+            "cav_pt_entree",
+            "emb_pt"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Protection sociale",
+            "en": "Social security"
+          },
+          "body": {
+            "fr": "Le Portugal applique les règlements européens de coordination de sécurité sociale : vos droits sont coordonnés entre les deux pays (travail, retraite, santé). Le Cleiss détaille chaque situation (détachement, expatriation, études, retraite).",
+            "en": "Portugal applies the EU social security coordination rules: your rights are coordinated between both countries (work, pension, health). The Cleiss explains each situation (posting, expatriation, studies, retirement)."
+          },
+          "sources": [
+            "cleiss_pt"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Impôts",
+            "en": "Taxes"
+          },
+          "body": {
+            "fr": "La France et le Portugal ont signé une convention fiscale, publiée sur impots.gouv.fr. Elle sert notamment à éviter d'être imposé deux fois sur les mêmes revenus.",
+            "en": "France and Portugal have signed a tax treaty, published on impots.gouv.fr. Among other things, it helps avoid being taxed twice on the same income."
+          },
+          "sources": [
+            "impots_conventions"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Santé",
+            "en": "Health"
+          },
+          "body": {
+            "fr": "Les conditions sanitaires sont globalement bonnes. Pour un court séjour, la carte européenne d'assurance maladie (CEAM) permet une prise en charge des soins ; elle se demande à votre caisse au moins 15 jours avant le départ. Une assurance couvrant hospitalisation et rapatriement reste conseillée.",
+            "en": "Health conditions are generally good. For a short stay, the European Health Insurance Card (EHIC) covers medical care; ask your health insurance fund for it at least 15 days before leaving. Insurance covering hospital care and repatriation is still advised."
+          },
+          "sources": [
+            "cav_pt_sante"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Scolarité",
+            "en": "Schooling"
+          },
+          "body": {
+            "fr": "L'AEFE recense 4 établissements d'enseignement français homologués (Lisbonne et Porto).",
+            "en": "The AEFE lists 4 accredited French schools (Lisbonne et Porto)."
+          },
+          "sources": [
+            "aefe_etablissements"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Sécurité",
+            "en": "Safety"
+          },
+          "body": {
+            "fr": "L'ensemble du pays est en vigilance normale. Du 1er juin au 30 septembre, il est interdit d'allumer un feu en zone forestière en raison des incendies.",
+            "en": "The whole country is at normal vigilance. From 1 June to 30 September, lighting fires in forest areas is prohibited because of wildfires."
+          },
+          "sources": [
+            "cav_pt_securite"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Français inscrits au registre",
+            "en": "French nationals on the consular register"
+          },
+          "body": {
+            "fr": "21 023 Français inscrits au registre des Français établis hors de France au 31 décembre 2025 (17e pays dans le classement du rapport du Gouvernement). L'inscription est facultative : le nombre réel de Français sur place peut être plus élevé.",
+            "en": "21,023 French nationals on the register of French citizens living abroad on 31 December 2025 (ranked 17 in the government report). Registration is optional, so the actual number may be higher."
+          },
+          "sources": [
+            "rapport_fae_2026"
+          ]
+        }
+      ],
+      "motives": [
+        {
+          "id": "tourism",
+          "conditions": [
+            {
+              "fr": "Passeport ou carte nationale d'identité en cours de validité.",
+              "en": "Valid passport or national ID card."
+            },
+            {
+              "fr": "Au-delà de 3 mois : enregistrement recommandé auprès de la Câmara municipal.",
+              "en": "Beyond 3 months: registration with the Câmara municipal is recommended."
+            }
+          ],
+          "sources": [
+            "cav_pt_entree",
+            "emb_pt"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "CN",
+      "highlights": [
+        {
+          "title": {
+            "fr": "Entrée et séjour",
+            "en": "Entry and residence"
+          },
+          "body": {
+            "fr": "Jusqu'au 31 décembre 2026, les Français avec un passeport ordinaire sont exemptés de visa pour 30 jours maximum (affaires, tourisme, visite familiale, échanges, transit). Pour tout autre motif ou un séjour plus long, un visa est nécessaire, demandé via le centre de visa chinois. Les étrangers doivent s'enregistrer auprès de la police dans les 24 heures (les hôtels s'en chargent).",
+            "en": "Until 31 December 2026, French citizens with an ordinary passport are visa-exempt for up to 30 days (business, tourism, family visit, exchanges, transit). For any other purpose or a longer stay, a visa is required, applied for through the Chinese visa centre. Foreigners must register with the police within 24 hours (hotels do this)."
+          },
+          "sources": [
+            "cav_cn_entree",
+            "emb_cn"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Santé et protection sociale",
+            "en": "Health and social security"
+          },
+          "body": {
+            "fr": "Un accord de sécurité sociale entre la France et la Chine a été signé en 2016 mais n'est pas encore en vigueur (Cleiss). Avant tout séjour, il est impératif d'avoir une assistance ou une assurance couvrant tous les frais médicaux et le rapatriement.",
+            "en": "A social security agreement between France and China was signed in 2016 but is not yet in force (Cleiss). Before any stay, you must have assistance or insurance covering all medical costs and repatriation."
+          },
+          "sources": [
+            "cleiss_conventions",
+            "cav_cn_sante",
+            "cav_cn_entree",
+            "cleiss_cn"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Impôts",
+            "en": "Taxes"
+          },
+          "body": {
+            "fr": "La France et la Chine ont signé une convention fiscale, publiée sur impots.gouv.fr. Elle sert notamment à éviter d'être imposé deux fois sur les mêmes revenus. L'accord actuel a été signé en 2013 et est en vigueur depuis 2014.",
+            "en": "France and China have signed a tax treaty, published on impots.gouv.fr. Among other things, it helps avoid being taxed twice on the same income. The current agreement was signed in 2013 and has been in force since 2014."
+          },
+          "sources": [
+            "impots_conventions"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Scolarité",
+            "en": "Schooling"
+          },
+          "body": {
+            "fr": "L'AEFE recense 11 établissements d'enseignement français homologués (Pékin, Shanghai, Canton, Shenzhen, Wuhan et Hong Kong).",
+            "en": "The AEFE lists 11 accredited French schools (Pékin, Shanghai, Canton, Shenzhen, Wuhan et Hong Kong)."
+          },
+          "sources": [
+            "aefe_etablissements"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Sécurité",
+            "en": "Safety"
+          },
+          "body": {
+            "fr": "La Chine continentale est en vigilance normale, sauf la région du Xinjiang en vigilance renforcée. L'accès à certaines zones peut être restreint. Les stupéfiants, cannabis compris, sont très sévèrement punis.",
+            "en": "Mainland China is at normal vigilance, except the Xinjiang region at increased vigilance. Access to some areas may be restricted. Drug offences, including cannabis, are punished very severely."
+          },
+          "sources": [
+            "cav_cn_securite"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Français inscrits au registre",
+            "en": "French nationals on the consular register"
+          },
+          "body": {
+            "fr": "20 940 Français inscrits au registre des Français établis hors de France au 31 décembre 2025 (18e pays dans le classement du rapport du Gouvernement). L'inscription est facultative : le nombre réel de Français sur place peut être plus élevé.",
+            "en": "20,940 French nationals on the register of French citizens living abroad on 31 December 2025 (ranked 18 in the government report). Registration is optional, so the actual number may be higher."
+          },
+          "sources": [
+            "rapport_fae_2026"
+          ]
+        }
+      ],
+      "motives": [
+        {
+          "id": "tourism",
+          "conditions": [
+            {
+              "fr": "Exemption de visa jusqu'au 31/12/2026 pour 30 jours maximum, avec un passeport ordinaire (pas de passeport d'urgence).",
+              "en": "Visa exemption until 31/12/2026 for up to 30 days, with an ordinary passport (not an emergency passport)."
+            },
+            {
+              "fr": "Passeport valide au moins six mois après la sortie du territoire.",
+              "en": "Passport valid for at least six months after leaving the country."
+            },
+            {
+              "fr": "Enregistrement auprès de la police dans les 24 heures.",
+              "en": "Police registration within 24 hours."
+            }
+          ],
+          "sources": [
+            "cav_cn_entree"
+          ]
+        },
+        {
+          "id": "work",
+          "conditions": [
+            {
+              "fr": "Pour travailler ou faire un stage, il faut un visa adapté ; le visa L (tourisme) ne le permet pas.",
+              "en": "To work or do an internship, you need a suitable visa; the L (tourist) visa does not allow it."
+            },
+            {
+              "fr": "Voyages d'affaires : visa M, avec une lettre d'invitation du partenaire chinois ; demande via le Chinese Visa Application Service Center.",
+              "en": "Business trips: M visa, with an invitation letter from the Chinese partner; apply through the Chinese Visa Application Service Center."
+            }
+          ],
+          "sources": [
+            "cav_cn_entree",
+            "cav_cn_affaires"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "MX",
+      "highlights": [
+        {
+          "title": {
+            "fr": "Entrée et séjour",
+            "en": "Entry and residence"
+          },
+          "body": {
+            "fr": "Pas de visa pour un séjour touristique de 180 jours maximum, mais aucune activité, rémunérée ou bénévole, n'est permise. Un visa est nécessaire pour un emploi, un VIE, des études, une mission d'ONG : il se demande à la section consulaire de l'ambassade du Mexique en France. Il faut toujours avoir son passeport sur soi pendant le séjour.",
+            "en": "No visa for a tourist stay of up to 180 days, but no paid or voluntary activity is allowed. A visa is required for a job, a VIE, studies or NGO work: apply at the consular section of the Mexican embassy in France. Always carry your passport during your stay."
+          },
+          "sources": [
+            "cav_mx_entree",
+            "emb_mx"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Santé et protection sociale",
+            "en": "Health and social security"
+          },
+          "body": {
+            "fr": "Le Cleiss ne cite pas le Mexique parmi les pays liés à la France par une convention de sécurité sociale. Les frais de santé sont très élevés et les hôpitaux refusent les patients sans garantie financière : une assurance est indispensable.",
+            "en": "The Cleiss does not list Mexico among the countries with a social security agreement with France. Healthcare costs are very high and hospitals turn away patients without financial guarantee: insurance is essential."
+          },
+          "sources": [
+            "cleiss_conventions",
+            "cav_mx_sante",
+            "cleiss_mx"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Impôts",
+            "en": "Taxes"
+          },
+          "body": {
+            "fr": "La France et le Mexique ont signé une convention fiscale, publiée sur impots.gouv.fr. Elle sert notamment à éviter d'être imposé deux fois sur les mêmes revenus.",
+            "en": "France and Mexico have signed a tax treaty, published on impots.gouv.fr. Among other things, it helps avoid being taxed twice on the same income."
+          },
+          "sources": [
+            "impots_conventions"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Scolarité",
+            "en": "Schooling"
+          },
+          "body": {
+            "fr": "L'AEFE recense 7 établissements d'enseignement français homologués (Mexico, Guadalajara, Querétaro, Cuernavaca et Mérida).",
+            "en": "The AEFE lists 7 accredited French schools (Mexico, Guadalajara, Querétaro, Cuernavaca et Mérida)."
+          },
+          "sources": [
+            "aefe_etablissements"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Sécurité",
+            "en": "Safety"
+          },
+          "body": {
+            "fr": "Le pays est en vigilance renforcée, avec plusieurs États ou zones formellement déconseillés (Tamaulipas, Guerrero sauf certaines stations, Colima, sud du Michoacán, Tijuana, Culiacan). Il est conseillé d'arriver par avion plutôt que par la route et de consulter la carte avant chaque déplacement.",
+            "en": "The country is at increased vigilance, with several states or areas strongly advised against (Tamaulipas, Guerrero except some resorts, Colima, southern Michoacán, Tijuana, Culiacan). It is advised to arrive by air rather than by road and to check the map before each trip."
+          },
+          "sources": [
+            "cav_mx_securite"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Français inscrits au registre",
+            "en": "French nationals on the consular register"
+          },
+          "body": {
+            "fr": "20 643 Français inscrits au registre des Français établis hors de France au 31 décembre 2025 (19e pays dans le classement du rapport du Gouvernement). L'inscription est facultative : le nombre réel de Français sur place peut être plus élevé.",
+            "en": "20,643 French nationals on the register of French citizens living abroad on 31 December 2025 (ranked 19 in the government report). Registration is optional, so the actual number may be higher."
+          },
+          "sources": [
+            "rapport_fae_2026"
+          ]
+        }
+      ],
+      "motives": [
+        {
+          "id": "tourism",
+          "conditions": [
+            {
+              "fr": "Pas de visa pour 180 jours maximum ; aucune activité rémunérée ou bénévole.",
+              "en": "No visa for up to 180 days; no paid or voluntary activity."
+            },
+            {
+              "fr": "Documents demandés à l'arrivée : liste sur le site de l'ambassade du Mexique en France.",
+              "en": "Documents required on arrival: see the Mexican embassy in France website."
+            }
+          ],
+          "forms": [
+            {
+              "title": {
+                "fr": "Ambassade du Mexique en France (gouvernement mexicain)",
+                "en": "Mexican embassy in France (Mexican government)"
+              },
+              "url": "https://embamex.sre.gob.mx/francia/index.php/fr/"
+            }
+          ],
+          "sources": [
+            "cav_mx_entree"
+          ]
+        },
+        {
+          "id": "study",
+          "conditions": [
+            {
+              "fr": "Visa obligatoire pour les étudiants, à demander à la section consulaire de l'ambassade du Mexique en France.",
+              "en": "Visa required for students, from the consular section of the Mexican embassy in France."
+            },
+            {
+              "fr": "Pour un semestre ou plus, l'inscription au registre des Français de l'étranger est vivement recommandée.",
+              "en": "For a semester or more, registering with the French consular register is strongly recommended."
+            }
+          ],
+          "sources": [
+            "cav_mx_entree"
+          ]
+        },
+        {
+          "id": "work",
+          "conditions": [
+            {
+              "fr": "Visa obligatoire pour toute activité rémunérée et pour un VIE, à demander à la section consulaire de l'ambassade du Mexique en France.",
+              "en": "Visa required for any paid activity and for a VIE, from the consular section of the Mexican embassy in France."
+            }
+          ],
+          "sources": [
+            "cav_mx_entree"
+          ]
+        },
+        {
+          "id": "working_holiday",
+          "conditions": [
+            {
+              "fr": "Programme Vacances-Travail : séjour d'un an maximum ; quota de 300 participants.",
+              "en": "Working holiday programme: stay of up to one year; quota of 300 participants."
+            },
+            {
+              "fr": "Ressources minimales : 2 500 € ; billet retour ou moyens de l'acheter ; assurance couvrant maladie, hospitalisation et rapatriement.",
+              "en": "Minimum funds: EUR 2,500; return ticket or means to buy one; insurance covering illness, hospital and repatriation."
+            },
+            {
+              "fr": "Demande auprès de l'ambassade du Mexique en France.",
+              "en": "Apply at the Mexican embassy in France."
+            }
+          ],
+          "age": {
+            "fr": "18 à 30 ans révolus à la date de la demande.",
+            "en": "18 to 30 at the time of application."
+          },
+          "forms": [
+            {
+              "title": {
+                "fr": "Ambassade du Mexique en France",
+                "en": "Mexican embassy in France"
+              },
+              "url": "https://embamex.sre.gob.mx/francia/index.php/fr/"
+            }
+          ],
+          "sources": [
+            "dipl_pvt"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "BR",
+      "highlights": [
+        {
+          "title": {
+            "fr": "Entrée et séjour",
+            "en": "Entry and residence"
+          },
+          "body": {
+            "fr": "Les Français sont dispensés de visa pour moins de 90 jours, dans la limite de 90 jours sur 180 jours, sans renouvellement possible. Le passeport doit être valide six mois après la date de retour et il faut un billet retour. Les Franco-Brésiliens doivent entrer et sortir avec leur passeport brésilien.",
+            "en": "French citizens do not need a visa for less than 90 days, within a limit of 90 days in 180, with no renewal. The passport must be valid six months after the return date and a return ticket is required. French-Brazilian dual nationals must enter and leave with their Brazilian passport."
+          },
+          "sources": [
+            "cav_br_entree",
+            "emb_br"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Santé et protection sociale",
+            "en": "Health and social security"
+          },
+          "body": {
+            "fr": "Le Brésil et la France sont liés par un accord bilatéral de sécurité sociale. Les Conseils aux voyageurs conseillent une assurance couvrant au moins l'équivalent de 30 000 euros de frais médicaux et de rapatriement. Le Cleiss détaille les règles selon votre situation (détachement, expatriation, études, retraite).",
+            "en": "Brazil and France have a bilateral social security agreement. The French travel advice recommends insurance covering at least the equivalent of EUR 30,000 in medical and repatriation costs. The Cleiss explains the rules for each situation (posting, expatriation, studies, retirement)."
+          },
+          "sources": [
+            "cleiss_br",
+            "cleiss_conventions",
+            "cav_br_sante"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Impôts",
+            "en": "Taxes"
+          },
+          "body": {
+            "fr": "La France et le Brésil ont signé une convention fiscale, publiée sur impots.gouv.fr. Elle sert notamment à éviter d'être imposé deux fois sur les mêmes revenus.",
+            "en": "France and Brazil have signed a tax treaty, published on impots.gouv.fr. Among other things, it helps avoid being taxed twice on the same income."
+          },
+          "sources": [
+            "impots_conventions"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Scolarité",
+            "en": "Schooling"
+          },
+          "body": {
+            "fr": "L'AEFE recense 3 établissements d'enseignement français homologués (Brasilia, Rio de Janeiro et São Paulo).",
+            "en": "The AEFE lists 3 accredited French schools (Brasilia, Rio de Janeiro et São Paulo)."
+          },
+          "sources": [
+            "aefe_etablissements"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Sécurité",
+            "en": "Safety"
+          },
+          "body": {
+            "fr": "La zone frontalière avec le Venezuela est formellement déconseillée et les autres zones frontalières sont déconseillées sauf raison impérative. Les grandes villes, dont Brasilia, Rio et São Paulo, sont en vigilance renforcée : les fiches détaillent les quartiers et précautions.",
+            "en": "The border area with Venezuela is strongly advised against and other border areas are advised against unless essential. Large cities, including Brasilia, Rio and São Paulo, are at increased vigilance: the advice details areas and precautions."
+          },
+          "sources": [
+            "cav_br_securite"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Français inscrits au registre",
+            "en": "French nationals on the consular register"
+          },
+          "body": {
+            "fr": "20 345 Français inscrits au registre des Français établis hors de France au 31 décembre 2025 (20e pays dans le classement du rapport du Gouvernement). L'inscription est facultative : le nombre réel de Français sur place peut être plus élevé.",
+            "en": "20,345 French nationals on the register of French citizens living abroad on 31 December 2025 (ranked 20 in the government report). Registration is optional, so the actual number may be higher."
+          },
+          "sources": [
+            "rapport_fae_2026"
+          ]
+        }
+      ],
+      "motives": [
+        {
+          "id": "tourism",
+          "conditions": [
+            {
+              "fr": "Pas de visa pour moins de 90 jours ; 90 jours maximum sur 180 jours, sans renouvellement.",
+              "en": "No visa for less than 90 days; up to 90 days within 180 days, no renewal."
+            },
+            {
+              "fr": "Passeport valide six mois après la date de retour ; billet retour ou de sortie.",
+              "en": "Passport valid six months after the return date; return or onward ticket."
+            }
+          ],
+          "sources": [
+            "cav_br_entree"
+          ]
+        },
+        {
+          "id": "working_holiday",
+          "conditions": [
+            {
+              "fr": "Programme Vacances-Travail : séjour d'un an maximum ; quota de 500 participants.",
+              "en": "Working holiday programme: stay of up to one year; quota of 500 participants."
+            },
+            {
+              "fr": "Ressources minimales : 2 500 € ; billet retour ou moyens de l'acheter ; assurance couvrant maladie, hospitalisation et rapatriement.",
+              "en": "Minimum funds: EUR 2,500; return ticket or means to buy one; insurance covering illness, hospital and repatriation."
+            },
+            {
+              "fr": "Demande auprès de la représentation du Brésil en France.",
+              "en": "Apply at Brazil's representation in France."
+            }
+          ],
+          "age": {
+            "fr": "18 à 30 ans révolus à la date de la demande.",
+            "en": "18 to 30 at the time of application."
+          },
+          "forms": [
+            {
+              "title": {
+                "fr": "Consulat du Brésil à Paris (gouvernement brésilien)",
+                "en": "Consulate of Brazil in Paris (Brazilian government)"
+              },
+              "url": "http://cgparis.itamaraty.gov.br/fr/"
+            }
+          ],
+          "sources": [
+            "dipl_pvt"
+          ]
+        }
+      ]
+    },
+    {
+      "country": "TN",
+      "highlights": [
+        {
+          "title": {
+            "fr": "Entrée et séjour",
+            "en": "Entry and residence"
+          },
+          "body": {
+            "fr": "Pas de visa pour trois mois maximum ; depuis le 1er janvier 2025, le passeport doit être valide au moins 3 mois à l'entrée. Au-delà de trois mois, il faut obtenir un visa et une carte de séjour auprès du ministère de l'Intérieur tunisien. Les Franco-Tunisiens doivent présenter un passeport tunisien à l'entrée et à la sortie.",
+            "en": "No visa for up to three months; since 1 January 2025, the passport must be valid for at least 3 months on entry. Beyond three months, a visa and a residence card must be obtained from the Tunisian Ministry of the Interior. French-Tunisian dual nationals must show a Tunisian passport on entry and exit."
+          },
+          "sources": [
+            "cav_tn_entree",
+            "emb_tn"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Protection sociale",
+            "en": "Social security"
+          },
+          "body": {
+            "fr": "La Tunisie et la France sont liées par une convention bilatérale de sécurité sociale. Le Cleiss détaille les règles selon votre situation (détachement, expatriation, études, retraite).",
+            "en": "Tunisia and France have a bilateral social security agreement. The Cleiss explains the rules for each situation (posting, expatriation, studies, retirement)."
+          },
+          "sources": [
+            "cleiss_tn",
+            "cleiss_conventions"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Impôts",
+            "en": "Taxes"
+          },
+          "body": {
+            "fr": "La France et la Tunisie ont signé une convention fiscale, publiée sur impots.gouv.fr. Elle sert notamment à éviter d'être imposé deux fois sur les mêmes revenus.",
+            "en": "France and Tunisia have signed a tax treaty, published on impots.gouv.fr. Among other things, it helps avoid being taxed twice on the same income."
+          },
+          "sources": [
+            "impots_conventions"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Santé",
+            "en": "Health"
+          },
+          "body": {
+            "fr": "Les Conseils aux voyageurs demandent de disposer d'une assurance couvrant frais médicaux, hospitalisation et rapatriement.",
+            "en": "The French travel advice asks you to have insurance covering medical costs, hospital care and repatriation."
+          },
+          "sources": [
+            "cav_tn_sante"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Scolarité",
+            "en": "Schooling"
+          },
+          "body": {
+            "fr": "L'AEFE recense 35 établissements d'enseignement français homologués (Tunis et sa région, Sousse, Sfax, Nabeul, Monastir, Bizerte, Djerba et d'autres villes).",
+            "en": "The AEFE lists 35 accredited French schools (Tunis et sa région, Sousse, Sfax, Nabeul, Monastir, Bizerte, Djerba et d'autres villes)."
+          },
+          "sources": [
+            "aefe_etablissements"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Sécurité",
+            "en": "Safety"
+          },
+          "body": {
+            "fr": "L'état d'urgence est en vigueur depuis 2015. Le territoire est en vigilance renforcée ; l'extrême sud près de la Libye et de l'Algérie et certains massifs de l'ouest sont formellement déconseillés.",
+            "en": "A state of emergency has been in force since 2015. The country is at increased vigilance; the far south near Libya and Algeria and some western mountain areas are strongly advised against."
+          },
+          "sources": [
+            "cav_tn_securite"
+          ]
+        },
+        {
+          "title": {
+            "fr": "Français inscrits au registre",
+            "en": "French nationals on the consular register"
+          },
+          "body": {
+            "fr": "20 060 Français inscrits au registre des Français établis hors de France au 31 décembre 2025 (21e pays dans le classement du rapport du Gouvernement). L'inscription est facultative : le nombre réel de Français sur place peut être plus élevé.",
+            "en": "20,060 French nationals on the register of French citizens living abroad on 31 December 2025 (ranked 21 in the government report). Registration is optional, so the actual number may be higher."
+          },
+          "sources": [
+            "rapport_fae_2026"
+          ]
+        }
+      ],
+      "motives": [
+        {
+          "id": "tourism",
+          "conditions": [
+            {
+              "fr": "Pas de visa pour trois mois maximum ; passeport valide au moins 3 mois à l'entrée.",
+              "en": "No visa for up to three months; passport valid for at least 3 months on entry."
+            },
+            {
+              "fr": "Au-delà : visa et carte de séjour auprès du ministère de l'Intérieur.",
+              "en": "Beyond that: visa and residence card from the Ministry of the Interior."
+            }
+          ],
+          "sources": [
+            "cav_tn_entree"
+          ]
+        }
+      ]
+    }
+  ],
+  "reviewNotes": [
+    "Classement : rapport du Gouvernement sur la situation des Français établis hors de France, année 2025 (PDF diplomatie.gouv.fr, tableau V.A « Par pays », inscrits au 31/12/2025). Le rang 16 « Israël/Territoires palestiniens » (22 365 inscrits) correspond à la circonscription du consulat général à Jérusalem et non à un pays : il a été écarté et la Tunisie (rang 21, 20 060) a été retenue comme 20e pays. Israël (rang 8) est compté à 75 000, chiffre rond publié tel quel.",
+    "Incohérences dans le rapport : les États-Unis sont à 168 529 dans le tableau et le graphique, mais à 168 259 dans le texte p. 11 ; la Suisse est à +1,86 % dans le tableau mais -2 % dans le texte p. 9. Le chiffre du tableau est utilisé.",
+    "Domaines supplémentaires utilisés (sites du gouvernement du pays de destination, comme autorisé) : gov.uk (Royaume-Uni), ircc.canada.ca et canada.ca (Canada), immi.homeaffairs.gov.au (Australie), fr.usembassy.gov et esta.cbp.dhs.gov (États-Unis), embamex.sre.gob.mx (ambassade du Mexique), cgparis.itamaraty.gov.br (consulat du Brésil). Tous sont des domaines gouvernementaux de ces pays ; les liens canada.ca, esta.cbp.dhs.gov, embamex et itamaraty viennent des fiches Conseils aux voyageurs ou de la page PVT de diplomatie.gouv.fr et n'ont pas été ouverts (canada.ca refuse les requêtes automatiques).",
+    "aefe.fr redirige vers aefe.gouv.fr (même opérateur) : la source AEFE pointe vers aefe.gouv.fr. Comptages faits sur la liste « Rechercher un établissement » (639 établissements) : pour la Suisse, 14 établissements sont classés « Suisse » et 1 (Institut Florimont) est classé « Genève », d'où 15. Les établissements de Jérusalem et de Palestine sont exclus du compte d'Israël.",
+    "Sites d'ambassades : liens repris des fiches Conseils aux voyageurs (index du ministère). Plusieurs sont en ambafrance.org (CH, GB, BE, ES, IL, MA, IT, AE, LU, NL, TN). Pour les États-Unis, la fiche renvoie vers fr.franceintheus.org, domaine hors liste autorisée : à valider ou à remplacer par washington.consulfrance.org.",
+    "Coûts non publiés ou non vérifiables, donc absents : frais de visa américains (travel.state.gov renvoie une erreur 403 ; le site de l'ambassade affiche encore une ESTA à 21 $ alors que le montant a pu changer) ; frais des visas australiens 417, 500 et 482 (montants chargés dynamiquement, non lisibles) ; frais des visas chinois, algériens, mexicains, brésiliens, israéliens (hors ETA-IL), émiriens, marocains et tunisiens.",
+    "Motifs non documentés par une source vérifiée, donc absents : « retire » pour les 20 pays ; « invest » sauf Royaume-Uni ; « study » et « work » pour les pays de l'UE et la Suisse (la liberté de travailler sans permis n'a pas été trouvée textuellement sur service-public.gouv.fr dans la page consultée), pour l'Australie, Israël, le Maroc, la Tunisie, le Brésil, les Émirats (étude) et la Chine (étude) ; « work » pour les États-Unis.",
+    "Le Cleiss n'a pas de fiche pays pour les Émirats arabes unis ; l'absence de convention pour les Émirats, l'Australie et le Mexique est déduite de la liste des accords en vigueur du Cleiss (ces pays n'y figurent pas).",
+    "Le coût du visa vacances-travail australien (495 AUD) date du 1er juillet 2021 selon la page du consulat : à mettre à jour depuis le site de Home Affairs.",
+    "Les dates de mise à jour des Conseils aux voyageurs sont celles affichées sur la page (même date pour les onglets d'un pays) ; la date d'actualisation des zones de vigilance est indiquée séparément dans la source Sécurité.",
+    "Highlight « Visa : types, formulaires et coûts » rédigé seulement pour les États-Unis, le Royaume-Uni, le Canada et l'Australie, où une page du gouvernement du pays a pu être lue. Pour les autres pays, les règles de visa viennent des Conseils aux voyageurs et figurent dans « Entrée et séjour » et dans `motives`.",
+    "Contacts utiles : non rédigés comme highlight séparé ; le site de l'ambassade figure en source du highlight « Entrée et séjour » de chaque pays, et la fiche Cleiss en source du highlight protection sociale."
+  ]
+}

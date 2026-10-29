@@ -15,6 +15,8 @@ struct CatalogEntry: Decodable, Identifiable, Hashable {
     let subtitle: LocalizedText
     let category: String?
     let subcategory: String?
+    /// `true` pour proposer le choix d'un pays depuis la démarche (ex. : voyager hors de France).
+    let showsCountries: Bool?
 }
 
 /// Grande famille de démarches (Séjour, Nationalité...), découpée en sous-catégories.
