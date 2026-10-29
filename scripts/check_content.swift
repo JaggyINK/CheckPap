@@ -48,3 +48,9 @@ for (file, describe) in [
         print("ERREUR  \(file) : \(error)")
     }
 }
+
+if FileManager.default.fileExists(atPath: directory.appendingPathComponent("prefectures.json").path) {
+    check(PrefectureDirectory.self, "prefectures.json") { directory in
+        "\(directory.departments.count) départements, \(directory.departments.filter { $0.appointmentUrl != nil }.count) avec page de rendez-vous"
+    }
+}

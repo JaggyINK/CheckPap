@@ -15,6 +15,6 @@ struct CheckPapApp: App {
                 .tint(Brand.teal)
                 .task { await contentStore.load() }
         }
-        .modelContainer(for: SavedProcedure.self)
+        .modelContainer(for: [SavedProcedure.self, PlannedAppointment.self])
     }
 }

@@ -48,6 +48,7 @@ struct Procedure: Decodable, Identifiable {
     let steps: [GuideStep]
     let deadlines: [Deadline]?
     let outcomes: [Outcome]?
+    let appointments: [Appointment]?
     let reviewNotes: [String]?
 
     var isDraft: Bool { reviewStatus != "verified" }

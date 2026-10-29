@@ -1897,5 +1897,41 @@
     "Personne non française : la redirection s'appuie sur F11601 (la carte justifie de la nationalité française) et F1341. Aucune fiche consultée ne dit en une phrase « la CNI est réservée aux Français » ; formulation prudente.",
     "Les fiches (proof_of_address, civil_status_france, loss_theft_report, fiscal_stamp) et contacts (prefecture_directory, france_services) sont des identifiants de help.json, non relus ici.",
     "La démarche n'est pas encore dans catalog.json (non modifié, comme demandé)."
+  ],
+  "appointments": [
+    {
+      "id": "town_hall_appointment",
+      "where": "mairie",
+      "title": {
+        "fr": "Prendre rendez-vous dans une mairie équipée",
+        "en": "Book an appointment at an equipped town hall"
+      },
+      "body": {
+        "fr": "Vous pouvez aller dans n'importe quelle mairie équipée d'une station d'enregistrement ; beaucoup reçoivent seulement sur rendez-vous, et l'outil de recherche permet de chercher par code postal, motif et distance. Le jour J, venez en personne (l'enfant avec son parent ou tuteur pour un mineur) avec les documents originaux et le numéro ou le QR code de pré-demande : les empreintes sont prises sur place (à partir de 12 ans pour un enfant). La carte n'est pas fabriquée sur place : vous la retirez à l'endroit du dépôt, dans les 3 mois.",
+        "en": "You can go to any town hall with a registration station; many only see people by appointment, and the search tool lets you search by postcode, reason and distance. On the day, come in person (a child comes with their parent or guardian) with the original documents and the pre-application number or QR code: fingerprints are taken there (from age 12 for a child). The card is not made on site: you collect it where you applied, within 3 months."
+      },
+      "link": {
+        "title": {
+          "fr": "Chercher un rendez-vous",
+          "en": "Search for an appointment"
+        },
+        "url": "https://rendezvouspasseport.ants.gouv.fr/"
+      },
+      "condition": {
+        "question": "nationality",
+        "equals": "french"
+      },
+      "sources": [
+        "sp_r63715",
+        "sp_f1341",
+        "sp_f21089",
+        "sp_f1344",
+        "sp_f1759",
+        "sp_f1342",
+        "sp_f21090",
+        "sp_f1153",
+        "sp_f1794"
+      ]
+    }
   ]
 }

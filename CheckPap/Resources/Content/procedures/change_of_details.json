@@ -1948,5 +1948,151 @@
     "Délai de traitement et délai de fabrication de la nouvelle carte : non trouvés.",
     "Européens : F35807 et F35808 mentionnent la gratuité pour les ressortissants UE/EEE/Suisse et leur famille ; la démarche propre aux citoyens UE (carte facultative) n'a pas été relue.",
     "Contacts et courriers : identifiants de help.json (non relus ici). point_justice et defenseur_des_droits non utilisés : aucune source consultée ne les relie à cette démarche."
+  ],
+  "appointments": [
+    {
+      "id": "anef_online",
+      "where": "online",
+      "title": {
+        "fr": "Faire la démarche en ligne sur l'ANEF",
+        "en": "Do it online on ANEF"
+      },
+      "body": {
+        "fr": "Sur l'ANEF, choisissez « Je déclare un changement de situation », puis ajoutez les pièces ; pour un déménagement, vous choisissez pendant la démarche de demander ou non une nouvelle carte. Certaines préfectures ajoutent leurs propres consignes : regardez le site de la vôtre. Vous suivez ensuite le dossier sur votre espace personnel ; pour une adresse, une attestation à conserver y est mise à disposition après instruction.",
+        "en": "On ANEF, choose \"Je déclare un changement de situation\" (I report a change of situation), then add the documents; for a move, you choose during the process whether to ask for a new card. Some prefectures add their own instructions: check your prefecture's website. You then follow your file in your personal account; for an address, a certificate to keep is made available there once processed."
+      },
+      "link": {
+        "title": {
+          "fr": "Ouvrir le site de l'ANEF",
+          "en": "Open the ANEF website"
+        },
+        "url": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/"
+      },
+      "condition": {
+        "any": [
+          {
+            "question": "change_type",
+            "equals": "address"
+          },
+          {
+            "all": [
+              {
+                "question": "change_type",
+                "in": [
+                  "marriage",
+                  "divorce",
+                  "name_change"
+                ]
+              },
+              {
+                "question": "want_card_updated",
+                "equals": "yes"
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_adresse",
+        "sp_etat_civil",
+        "sp_anef",
+        "pref_rhone_faq",
+        "pref_correze",
+        "pref_bdr"
+      ]
+    },
+    {
+      "id": "paris_appointment",
+      "where": "prefecture",
+      "title": {
+        "fr": "Paris : rendez-vous à la préfecture de police",
+        "en": "Paris: appointment at the Préfecture de police"
+      },
+      "body": {
+        "fr": "La préfecture de police propose une prise de rendez-vous pour « Un changement d'adresse (d'un département vers Paris - 75) ». Téléchargez la convocation et la liste des pièces : rien n'est envoyé par courrier.",
+        "en": "The Préfecture de police offers appointments for \"Un changement d'adresse (d'un département vers Paris - 75)\" (a change of address from another department to Paris). Download the notice and the list of documents: nothing is sent by post."
+      },
+      "link": {
+        "title": {
+          "fr": "Ouvrir la page de la préfecture de police",
+          "en": "Open the Préfecture de police page"
+        },
+        "url": "https://www.prefecturedepolice.interieur.gouv.fr/demarches/titres-de-sejour-nous-contacter"
+      },
+      "condition": {
+        "question": "new_department",
+        "equals": "to_paris"
+      },
+      "sources": [
+        "pref_police"
+      ]
+    },
+    {
+      "id": "collect_card",
+      "where": "prefecture",
+      "title": {
+        "fr": "Retirer la nouvelle carte à la préfecture",
+        "en": "Collect the new card at the prefecture"
+      },
+      "body": {
+        "fr": "La préfecture de Corrèze indique qu'un SMS vous prévient quand la carte est disponible en préfecture. Le paiement est demandé à la remise : achetez le timbre fiscal sur internet ou dans un bureau de tabac, sans prendre un timbre amende par erreur.",
+        "en": "The Corrèze prefecture says a text message tells you when the card is ready at the prefecture. Payment is asked for when the card is handed over: buy the tax stamp online or in a tobacco shop, and do not buy a fine stamp by mistake."
+      },
+      "link": {
+        "title": {
+          "fr": "Acheter un timbre fiscal",
+          "en": "Buy a tax stamp"
+        },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R49486"
+      },
+      "condition": {
+        "all": [
+          {
+            "any": [
+              {
+                "all": [
+                  {
+                    "question": "change_type",
+                    "equals": "address"
+                  },
+                  {
+                    "question": "new_card_wanted",
+                    "equals": "yes"
+                  }
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "question": "change_type",
+                    "in": [
+                      "marriage",
+                      "divorce",
+                      "name_change"
+                    ]
+                  },
+                  {
+                    "question": "want_card_updated",
+                    "equals": "yes"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "not": {
+              "question": "permit_kind",
+              "equals": "eu_family"
+            }
+          }
+        ]
+      },
+      "sources": [
+        "pref_correze",
+        "sp_timbre",
+        "sp_adresse",
+        "sp_etat_civil"
+      ]
+    }
   ]
 }

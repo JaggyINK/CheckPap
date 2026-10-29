@@ -9,6 +9,7 @@ protocol ContentRepository {
     func loadNews() async throws -> NewsFeed
     func loadRights() async throws -> RightsContent
     func loadCountries() async throws -> CountriesContent
+    func loadPrefectures() async throws -> PrefectureDirectory
 }
 
 enum ContentError: LocalizedError {
@@ -39,6 +40,10 @@ struct BundleContentRepository: ContentRepository {
 
     func loadNews() async throws -> NewsFeed {
         try decode(NewsFeed.self, file: "news")
+    }
+
+    func loadPrefectures() async throws -> PrefectureDirectory {
+        try decode(PrefectureDirectory.self, file: "prefectures")
     }
 
     /// La liste de tous les pays, complétée par les fiches détaillées si elles existent.

@@ -8,6 +8,10 @@ final class SavedProcedure {
     @Attribute(.unique) var procedureId: String
     var answersData: Data
     var checkedDocumentIds: [String]
+    /// Pièces que la personne a retirées de sa liste ("Je n'en ai pas besoin").
+    var dismissedDocumentIds: [String] = []
+    /// Étapes marquées comme faites.
+    var completedStepIds: [String] = []
     var contentVersion: String
     var createdAt: Date
     var updatedAt: Date
@@ -32,6 +36,34 @@ final class SavedProcedure {
 
     func isChecked(_ documentId: String) -> Bool {
         checkedDocumentIds.contains(documentId)
+    }
+
+    func isDismissed(_ documentId: String) -> Bool {
+        dismissedDocumentIds.contains(documentId)
+    }
+
+    func dismiss(_ documentId: String) {
+        guard !dismissedDocumentIds.contains(documentId) else { return }
+        dismissedDocumentIds.append(documentId)
+        updatedAt = .now
+    }
+
+    func restore(_ documentId: String) {
+        dismissedDocumentIds.removeAll { $0 == documentId }
+        updatedAt = .now
+    }
+
+    func isCompleted(step stepId: String) -> Bool {
+        completedStepIds.contains(stepId)
+    }
+
+    func toggle(step stepId: String) {
+        if let index = completedStepIds.firstIndex(of: stepId) {
+            completedStepIds.remove(at: index)
+        } else {
+            completedStepIds.append(stepId)
+        }
+        updatedAt = .now
     }
 
     func toggle(_ documentId: String) {

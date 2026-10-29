@@ -1482,5 +1482,87 @@
     "Les pages impots.gouv.fr n'ont pas de mention « Vérifié le » : la date « modifié le » affichée est reprise dans le titre de la source, ou « aucune date affichée ».",
     "Aucun courrier de help.json n'est lié : les modèles existants visent la préfecture.",
     "La démarche n'est pas encore dans catalog.json (non modifié, comme demandé)."
+  ],
+  "appointments": [
+    {
+      "id": "declare_online",
+      "where": "online",
+      "title": {
+        "fr": "Déclarer en ligne depuis votre espace Finances publiques",
+        "en": "Declare online from your Finances publiques account"
+      },
+      "body": {
+        "fr": "Avec votre numéro fiscal, créez ou ouvrez votre espace sur impots.gouv.fr (avec le numéro d'accès en ligne du courrier, ou FranceConnect), puis remplissez la déclaration. La déclaration en ligne est obligatoire si votre logement a accès à internet et que vous pouvez la faire en ligne. Sans numéro d'accès ni compte FranceConnect, faites vérifier votre identité auprès de votre centre des Finances publiques, au guichet ou par courrier.",
+        "en": "With your tax number, create or open your account on impots.gouv.fr (with the online access number from the letter, or FranceConnect), then fill in the return. Filing online is compulsory if your home has internet access and you are able to do it online. Without an access number or FranceConnect account, have your identity checked at your public finance centre, at the counter or by post."
+      },
+      "link": {
+        "title": {
+          "fr": "Ouvrir mon espace",
+          "en": "Open my account"
+        },
+        "url": "https://cfspart.impots.gouv.fr"
+      },
+      "condition": {
+        "all": [
+          {
+            "not": {
+              "question": "already_declared",
+              "equals": "yes"
+            }
+          },
+          {
+            "question": "fiscal_number",
+            "in": [
+              "letter",
+              "number_only"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "imp_first_online",
+        "imp_space",
+        "sp_f358",
+        "imp_2026"
+      ]
+    },
+    {
+      "id": "tax_office_paper",
+      "where": "tax_office",
+      "title": {
+        "fr": "Déposer la déclaration papier à votre service des impôts",
+        "en": "File the paper return at your tax office"
+      },
+      "body": {
+        "fr": "Sans numéro fiscal, la première déclaration se fait sur papier : remplissez et signez le formulaire n°2042 et ses annexes. Déposez-les à votre service des impôts des particuliers (SIP), celui de votre domicile en France, ou envoyez-les par la poste ; ses coordonnées sont dans la rubrique « Contact et RDV » du site des impôts. Le numéro fiscal est attribué après ce dépôt, puis vous pourrez créer votre espace en ligne.",
+        "en": "Without a tax number, the first return is on paper: fill in and sign form no. 2042 and its appendices. Hand them in at your individual tax office (SIP), the one for your home in France, or send them by post; its contact details are in the \"Contact et RDV\" section of the tax website. The tax number is given after this filing, and you can then create your online account."
+      },
+      "link": {
+        "title": {
+          "fr": "Trouver mon service des impôts",
+          "en": "Find my tax office"
+        },
+        "url": "https://www.impots.gouv.fr/contacts"
+      },
+      "condition": {
+        "all": [
+          {
+            "not": {
+              "question": "already_declared",
+              "equals": "yes"
+            }
+          },
+          {
+            "question": "fiscal_number",
+            "equals": "none"
+          }
+        ]
+      },
+      "sources": [
+        "imp_forms",
+        "imp_arrival",
+        "imp_first_online"
+      ]
+    }
   ]
 }

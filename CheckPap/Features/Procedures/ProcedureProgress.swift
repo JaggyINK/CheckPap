@@ -11,7 +11,7 @@ struct ProcedureProgress {
         guard let record = saved.first(where: { $0.procedureId == entryId }),
               let procedure = store.procedures[entryId]
         else { return nil }
-        let documents = RulesEngine.documents(in: procedure, answers: record.answers)
+        let documents = RulesEngine.documents(in: procedure, answers: record.answers).filter { !record.isDismissed($0.id) }
         return ProcedureProgress(done: documents.filter { record.isChecked($0.id) }.count, total: documents.count)
     }
 }

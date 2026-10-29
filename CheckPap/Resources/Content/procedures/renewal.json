@@ -4433,5 +4433,195 @@
     "Titre déjà expiré : aucune source consultée ne dit à partir de quand un renouvellement devient une 1re demande ou une régularisation. L'outcome permit_expired est donc un warning (pas un redirect), sans montant du droit de visa de régularisation (180 € dans les fiches, 300 € dans l'actualité A18881 du 12/05/2026).",
     "Outcomes : les identifiants de contacts (france_services, point_justice, anef_contact, prefecture_directory, defenseur_des_droits) et de courriers (appointment_request, cannot_use_online, receipt_request, file_followup) doivent exister dans help.json. Le recours puis la saisine du Défenseur des droits viennent de F31969 (vérifiée le 03/07/2024, ancienne).",
     "Européens : redirection d'après F39 (vérifiée le 08/07/2026). Algériens : redirection vers F2215 (01/08/2026) et F2257 (01/10/2024, ancienne, antérieure aux taxes du 1er mai 2026)."
+  ],
+  "appointments": [
+    {
+      "id": "anef_online",
+      "where": "online",
+      "title": {
+        "fr": "Déposer la demande en ligne sur l'ANEF",
+        "en": "Apply online on ANEF"
+      },
+      "body": {
+        "fr": "Pour votre titre, la demande se fait en ligne sur l'ANEF : les fiches indiquent un dépôt au plus tôt 4 mois et au plus tard 2 mois avant la fin de validité. Ajoutez vos pièces numérisées, le code e-photo si votre fiche le demande, et signez le contrat d'engagement républicain pendant la démarche. Dès le dépôt, vous recevez une attestation de dépôt ; un passage en préfecture pour les empreintes peut ensuite être demandé.",
+        "en": "For your permit, you apply online on ANEF: the pages say to apply no earlier than 4 months and no later than 2 months before the expiry date. Add your scanned documents, the e-photo code if your page asks for it, and sign the republican commitment contract during the process. As soon as you apply, you get a filing certificate; you may later be asked to go to the prefecture for your fingerprints."
+      },
+      "link": {
+        "title": {
+          "fr": "Ouvrir le service ANEF",
+          "en": "Open the ANEF service"
+        },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R59398"
+      },
+      "condition": {
+        "any": [
+          {
+            "question": "permit_type",
+            "in": [
+              "student",
+              "talent",
+              "visitor",
+              "resident_card"
+            ]
+          },
+          {
+            "all": [
+              {
+                "question": "permit_type",
+                "equals": "private_family_life"
+              },
+              {
+                "question": "vpf_reason",
+                "in": [
+                  "spouse_of_french",
+                  "parent_of_french_child"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_f2231",
+        "sp_f2209",
+        "sp_f302",
+        "sp_f16922",
+        "sp_f17359",
+        "sp_f11201",
+        "sp_f36206",
+        "sp_f38329",
+        "lf_r431_5"
+      ]
+    },
+    {
+      "id": "prefecture_deposit",
+      "where": "prefecture",
+      "title": {
+        "fr": "Déposer la demande à votre préfecture",
+        "en": "Apply at your prefecture"
+      },
+      "body": {
+        "fr": "Pour votre titre, la demande se dépose à la préfecture ou à la sous-préfecture de votre domicile ; les fiches indiquent un dépôt 2 mois avant la fin de validité. Le mode de dépôt varie : dans la plupart des préfectures, il faut prendre rendez-vous, certaines sous-préfectures ne traitent pas ces démarches, et si aucun rendez-vous n'est disponible, vous pouvez écrire à la préfecture. Le jour du dépôt, vous signez le contrat d'engagement républicain et, si le dossier est complet, la préfecture vous remet un récépissé.",
+        "en": "For your permit, you apply at the prefecture or sub-prefecture where you live; the pages say to apply 2 months before the expiry date. The way to apply varies: most prefectures require an appointment, some sub-prefectures do not handle these requests, and if no appointment is available, you can write to the prefecture. On the day, you sign the republican commitment contract and, if your file is complete, the prefecture gives you a receipt."
+      },
+      "link": {
+        "title": {
+          "fr": "Trouver ma préfecture",
+          "en": "Find my prefecture"
+        },
+        "url": "https://lannuaire.service-public.gouv.fr/"
+      },
+      "condition": {
+        "any": [
+          {
+            "question": "permit_type",
+            "in": [
+              "employee",
+              "temp_worker"
+            ]
+          },
+          {
+            "all": [
+              {
+                "question": "permit_type",
+                "equals": "private_family_life"
+              },
+              {
+                "question": "vpf_reason",
+                "in": [
+                  "family_ties",
+                  "spouse_of_eu_resident",
+                  "humanitarian"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_f15898",
+        "sp_f2209",
+        "sp_f15763",
+        "sp_f38329"
+      ]
+    },
+    {
+      "id": "talent_medical_prefecture",
+      "where": "prefecture",
+      "title": {
+        "fr": "Professions médicales et pharmacie : dépôt en préfecture",
+        "en": "Medical and pharmacy professions: apply at the prefecture"
+      },
+      "body": {
+        "fr": "Pour la carte « talent-professions médicales et de la pharmacie », la fiche indique un dépôt auprès de la préfecture de votre département, dans les 2 mois précédant la fin de validité de votre titre. Les modalités sont sur le site de votre préfecture. Les autres cartes talent se demandent sur l'ANEF.",
+        "en": "For the \"talent - medical and pharmacy professions\" card, the page says to apply at the prefecture of your department, within the 2 months before your permit expires. The details are on your prefecture's website. Other talent cards are requested on ANEF."
+      },
+      "condition": {
+        "question": "permit_type",
+        "equals": "talent"
+      },
+      "sources": [
+        "sp_f16922"
+      ]
+    },
+    {
+      "id": "collect_card",
+      "where": "prefecture",
+      "title": {
+        "fr": "Retirer la nouvelle carte à la préfecture",
+        "en": "Collect the new card at the prefecture"
+      },
+      "body": {
+        "fr": "Quand la demande est acceptée, vous êtes informé de la disponibilité du titre et du montant à payer. La carte est remise par la préfecture ou la sous-préfecture de votre domicile, souvent sur rendez-vous ou convocation. Apportez le justificatif de paiement du timbre fiscal et, si votre fiche le demande, le certificat médical de l'Ofii.",
+        "en": "When your application is accepted, you are told that the permit is ready and how much to pay. The card is handed over by the prefecture or sub-prefecture where you live, often by appointment or notice. Bring the proof of payment of the tax stamp and, if your page asks for it, the Ofii medical certificate."
+      },
+      "link": {
+        "title": {
+          "fr": "Acheter un timbre fiscal",
+          "en": "Buy a tax stamp"
+        },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R49486"
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "permit_type",
+            "in": [
+              "student",
+              "employee",
+              "temp_worker",
+              "private_family_life",
+              "talent",
+              "visitor",
+              "resident_card"
+            ]
+          },
+          {
+            "not": {
+              "all": [
+                {
+                  "question": "permit_type",
+                  "equals": "private_family_life"
+                },
+                {
+                  "question": "vpf_reason",
+                  "in": [
+                    "other_vpf"
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "sources": [
+        "sp_f2209",
+        "sp_f15898",
+        "sp_f302",
+        "sp_f11201",
+        "sp_a18881",
+        "sp_f33071"
+      ]
+    }
   ]
 }

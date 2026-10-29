@@ -8,6 +8,8 @@ struct ProcedureCard: View {
     @Environment(ContentStore.self) private var store
     @Environment(Router.self) private var router
     @Query private var saved: [SavedProcedure]
+    @Query private var planned: [PlannedAppointment]
+    @Environment(\.locale) private var locale
 
     var body: some View {
         let progress = ProcedureProgress.compute(entryId: entry.id, store: store, saved: saved)
@@ -25,7 +27,15 @@ struct ProcedureCard: View {
                     ContentText(entry.title)
                         .font(.body.weight(.semibold))
                         .foregroundStyle(.primary)
-                    if let progress {
+                    if let appointment = planned.first(where: { $0.procedureId == entry.id }), appointment.date > .now {
+                        Label {
+                            Text(verbatim: appointment.date.formatted(.dateTime.weekday(.abbreviated).day().month(.abbreviated).hour().minute().locale(locale)))
+                        } icon: {
+                            Image(systemName: "calendar")
+                        }
+                        .font(.subheadline.weight(.semibold))
+                        .foregroundStyle(Brand.teal)
+                    } else if let progress {
                         Text("\(progress.done) sur \(progress.total) pièces prêtes")
                             .font(.subheadline)
                             .foregroundStyle(Brand.teal)

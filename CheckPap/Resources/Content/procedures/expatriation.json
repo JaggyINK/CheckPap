@@ -1799,5 +1799,63 @@
     "Chômage hors Europe pour un demandeur d'emploi qui part chercher du travail : seule la consigne générale de F2485 (contacter France Travail avant le départ) est reprise ; la page France Travail « départ hors EEE-Suisse » n'a pas été lue.",
     "Prestations Caf : le Cleiss détaille de nombreux cas (détachement, conjoint qui travaille...). Non repris en détail ; renvoi général vers la Caf.",
     "La démarche n'est pas ajoutée à catalog.json (non modifié, comme demandé). La catégorie « expatriation » et la sous-catégorie « departure » existent déjà dans catalog.json."
+  ],
+  "appointments": [
+    {
+      "id": "destination_consulate",
+      "where": "consulate",
+      "title": {
+        "fr": "Demander le visa à l'ambassade ou au consulat du pays",
+        "en": "Apply for the visa at the country's embassy or consulate"
+      },
+      "body": {
+        "fr": "Renseignez-vous auprès de l'ambassade ou du consulat du pays en France sur le visa, le droit au séjour et le permis de travail. Demandez le visa qui correspond à votre situation : il conditionne souvent le titre de séjour obtenu sur place. Sur place, d'autres formalités peuvent être demandées par les autorités locales.",
+        "en": "Ask the country's embassy or consulate in France about the visa, the right to stay and the work permit. Apply for the visa that matches your situation: it often determines the residence permit you get there. Once there, the local authorities may ask for other formalities."
+      },
+      "link": {
+        "title": {
+          "fr": "Trouver l'ambassade du pays en France",
+          "en": "Find the country's embassy in France"
+        },
+        "url": "https://www.diplomatie.gouv.fr/fr/services/j-ai-une-question/annuaire-et-contacts/representations-etrangeres"
+      },
+      "condition": {
+        "question": "destination_zone",
+        "equals": "other"
+      },
+      "sources": [
+        "sp_partir",
+        "dipl_guide_pdf",
+        "dipl_representations"
+      ]
+    },
+    {
+      "id": "consular_registration_online",
+      "where": "online",
+      "title": {
+        "fr": "S'inscrire en ligne au registre des Français établis hors de France",
+        "en": "Register online with the register of French nationals abroad"
+      },
+      "body": {
+        "fr": "Une fois installé, inscrivez-vous en ligne avec votre compte service-public ou FranceConnect : c'est gratuit, valable 5 ans, pas obligatoire mais vivement recommandé. Préparez le scan d'une pièce d'identité française (valide ou périmée depuis moins de 2 ans), une photo de moins de 6 mois et un justificatif de résidence dans le pays. Vos enfants mineurs peuvent être inscrits sur votre compte.",
+        "en": "Once you have settled, register online with your service-public or FranceConnect account: it is free, valid for 5 years, not compulsory but strongly recommended. Have ready a scan of a French ID document (valid or expired for less than 2 years), a photo less than 6 months old and a proof of residence in the country. Your minor children can be registered on your account."
+      },
+      "link": {
+        "title": {
+          "fr": "Faire l'inscription en ligne",
+          "en": "Register online"
+        },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R43248"
+      },
+      "condition": {
+        "question": "stay_length",
+        "equals": "six_months_or_more"
+      },
+      "sources": [
+        "sp_registre",
+        "sp_registre_teleservice",
+        "dipl_registre"
+      ]
+    }
   ]
 }

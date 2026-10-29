@@ -2173,5 +2173,81 @@
     "Contacts et courriers : identifiants repris de help.json (non relu). Courrier appointment_request (prévu pour les rendez-vous préfecture) rattaché à l'étape de dépôt, utile quand la plateforme demande un rendez-vous ; file_followup rattaché au suivi, alors que F2726 indique le suivi par courriel à sdanf-accueil@interieur.gouv.fr. À valider.",
     "Non traité : enfants mineurs qui deviennent français en même temps (effet collectif) au-delà des pièces listées ; francisation (F10528 non lue) ; cas des réfugiés pour l'acte de naissance (actes Ofpra non cités par F2726) ; conditions de casier judiciaire français (pas de question, rappel dans les conditions).",
     "Le simulateur R64661 n'a pas été exécuté : la liste des pièces vient de F2726 seulement."
+  ],
+  "appointments": [
+    {
+      "id": "platform_deposit",
+      "where": "other",
+      "title": {
+        "fr": "Déposer ou envoyer le dossier à votre plateforme de naturalisation",
+        "en": "File or send your application to your naturalisation platform"
+      },
+      "body": {
+        "fr": "Le dossier va à la plateforme d'accès à la nationalité française dont dépend votre domicile : selon la plateforme, il se dépose au guichet ou s'envoie en recommandé avec avis de réception. Par exemple, pour les Bouches-du-Rhône, les Alpes-de-Haute-Provence, les Hautes-Alpes et le Vaucluse, il s'envoie uniquement par courrier au service de Marseille, et dans le Val-de-Marne, la préfecture demande de prendre rendez-vous par courriel. Par courrier, ajoutez une enveloppe timbrée à votre adresse et une lettre « suivie » 500 g vierge, et gardez une copie de tout le dossier et la preuve d'envoi.",
+        "en": "The file goes to the French nationality platform for where you live: depending on the platform, you file it at the counter or send it by registered post with acknowledgement of receipt. For example, for Bouches-du-Rhône, Alpes-de-Haute-Provence, Hautes-Alpes and Vaucluse, it is sent only by post to the Marseille office, and in Val-de-Marne, the prefecture asks you to book an appointment by email. By post, add a stamped envelope with your address and a blank 500 g \"suivie\" (tracked) letter, and keep a copy of the whole file and the proof of sending."
+      },
+      "link": {
+        "title": {
+          "fr": "Voir où envoyer le dossier",
+          "en": "See where to send the file"
+        },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2726"
+      },
+      "condition": {
+        "question": "living_country",
+        "equals": "france"
+      },
+      "sources": [
+        "sp_f2726",
+        "pref_bdr_mariage",
+        "pref_vdm_naturalisation"
+      ]
+    },
+    {
+      "id": "couple_interview",
+      "where": "other",
+      "title": {
+        "fr": "Passer l'entretien avec votre époux ou épouse",
+        "en": "Attend the interview with your spouse"
+      },
+      "body": {
+        "fr": "Après le dépôt, vous êtes convoqués tous les deux à un entretien. Apportez les originaux de vos pièces d'identité : l'agent vérifie votre communauté de vie et votre assimilation, et vous signez une attestation sur l'honneur sur votre vie commune depuis le mariage. Un récépissé vous est remis à la fin : gardez-le.",
+        "en": "After filing, you are both invited to an interview. Bring the originals of your ID documents: the officer checks that you live together and your integration, and you sign a sworn statement about your life together since the marriage. You get a receipt at the end: keep it."
+      },
+      "condition": {
+        "question": "living_country",
+        "equals": "france"
+      },
+      "sources": [
+        "sp_f2726",
+        "pref_vdm_naturalisation"
+      ]
+    },
+    {
+      "id": "consulate_abroad",
+      "where": "consulate",
+      "title": {
+        "fr": "Vous vivez à l'étranger : déposer au consulat de France",
+        "en": "You live abroad: apply at the French consulate"
+      },
+      "body": {
+        "fr": "D'après service-public.fr, si vous vivez à l'étranger, le dossier se dépose auprès d'un consulat français, et les 255 € se paient au consulat. Cette app décrit le dépôt en France : renseignez-vous auprès du consulat de France de votre pays de résidence.",
+        "en": "According to service-public.fr, if you live abroad, the file is filed with a French consulate, and the €255 is paid at the consulate. This app describes filing in France: ask the French consulate in your country of residence."
+      },
+      "link": {
+        "title": {
+          "fr": "Lire la fiche sur service-public.fr",
+          "en": "Read the page on service-public.fr"
+        },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2726"
+      },
+      "condition": {
+        "question": "living_country",
+        "equals": "abroad"
+      },
+      "sources": [
+        "sp_f2726"
+      ]
+    }
   ]
 }

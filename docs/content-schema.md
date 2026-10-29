@@ -426,3 +426,48 @@ Dans `countries_details.json`, chaque pays détaillé peut avoir un tableau `mot
 - `rates.perEuro` : nombre d'unités de chaque devise pour 1 euro, d'une source publique datée (taux de chancellerie de la DGFiP ou taux de référence de la Banque de France / BCE).
 - `currencyOf` facultatif : `{ "BD": "BDT" }`, devise locale de chaque pays, si la source la donne.
 - `workingHoliday` : pays ayant un accord de programme vacances-travail avec la France et limites d'âge, d'après diplomatie.gouv.fr.
+
+## `appointments` : prendre rendez-vous une fois le dossier prêt
+
+Tableau facultatif dans chaque `procedures/<id>.json`. L'app l'affiche quand toutes les pièces sont cochées (et à tout moment dans l'onglet Étapes).
+
+```json
+"appointments": [
+  {
+    "id": "prefecture_appointment",
+    "where": "prefecture",
+    "title": { "fr": "Prendre rendez-vous à votre préfecture", "en": "..." },
+    "body": { "fr": "Ce qu'il faut savoir : quand, comment, quoi apporter le jour J.", "en": "..." },
+    "link": { "title": { "fr": "...", "en": "..." }, "url": "https://..." },
+    "condition": null,
+    "sources": ["..."]
+  }
+]
+```
+
+`where` : `prefecture` (préfecture ou sous-préfecture du département de la personne : l'app affiche alors sa préfecture et son lien de rendez-vous), `mairie`, `online` (dépôt en ligne, pas de rendez-vous), `ofii`, `tax_office`, `consulate`, `other`.
+
+## `prefectures.json` : préfectures par département
+
+```json
+{
+  "lastVerified": "2026-10-29",
+  "sources": [ ... ],
+  "departments": [
+    {
+      "code": "94",
+      "name": "Val-de-Marne",
+      "prefecture": { "fr": "Préfecture du Val-de-Marne", "en": "Val-de-Marne prefecture" },
+      "city": "Créteil",
+      "address": "21-29 avenue du Général de Gaulle, 94000 Créteil",
+      "phone": "0149564000",
+      "website": "https://www.val-de-marne.gouv.fr",
+      "appointmentUrl": "https://www.val-de-marne.gouv.fr/...",
+      "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/...",
+      "sources": ["..."]
+    }
+  ]
+}
+```
+
+`appointmentUrl` : page "Prendre rendez-vous" ou "Démarches étrangers" du site de la préfecture, seulement si elle a été trouvée et vérifiée ; sinon absent (l'app renvoie au site). Paris : préfecture de police.

@@ -3370,5 +3370,101 @@
         "sp_service_autorisation_travail"
       ]
     }
+  ],
+  "appointments": [
+    {
+      "id": "prefecture_deposit",
+      "where": "prefecture",
+      "title": {
+        "fr": "Déposer la demande auprès de votre préfecture",
+        "en": "Apply with your prefecture"
+      },
+      "body": {
+        "fr": "Pour ce titre, service-public indique un dépôt à la préfecture ou à la sous-préfecture de votre domicile, et pas sur l'ANEF, avant la fin de validité de votre titre actuel (dans les 2 mois avant la fin pour la carte recherche d'emploi, la carte entrepreneur, ou pour un étudiant qui demande le titre salarié ou travailleur temporaire). La façon de déposer change selon la préfecture : plateforme en ligne en Ille-et-Vilaine, rendez-vous une fois l'autorisation de travail obtenue dans l'Hérault, dépôt en ligne dans les Hauts-de-Seine. Si votre dossier est complet, vous recevez un récépissé en attendant la réponse.",
+        "en": "For this permit, service-public says to apply at the prefecture or sub-prefecture where you live, not on ANEF, before your current permit expires (within the 2 months before it ends for the job-seeking card, the entrepreneur card, or for a student asking for the employee or temporary worker permit). The way to apply depends on the prefecture: an online platform in Ille-et-Vilaine, an appointment once the work authorisation is granted in Hérault, an online filing in Hauts-de-Seine. If your file is complete, you get a receipt while you wait for the answer."
+      },
+      "link": {
+        "title": {
+          "fr": "Trouver le site de ma préfecture",
+          "en": "Find my prefecture's website"
+        },
+        "url": "https://www.interieur.gouv.fr/Le-ministere/Prefectures"
+      },
+      "condition": {
+        "question": "target_status",
+        "in": [
+          "salarie",
+          "travailleur_temporaire",
+          "rece",
+          "entrepreneur"
+        ]
+      },
+      "sources": [
+        "sp_salarie",
+        "sp_apres_etudes",
+        "sp_rece",
+        "sp_entrepreneur",
+        "pref_ille_et_vilaine",
+        "pref_herault",
+        "pref_hauts_de_seine"
+      ]
+    },
+    {
+      "id": "anef_online",
+      "where": "online",
+      "title": {
+        "fr": "Déposer la demande sur le site de l'ANEF",
+        "en": "Apply on the ANEF website"
+      },
+      "body": {
+        "fr": "Pour une carte talent, service-public indique que la demande se fait sur internet, au plus tôt 4 mois et au plus tard 2 mois avant la fin de validité de votre titre. Vous recevez tout de suite une attestation de dépôt, qui ne permet pas de travailler. L'attestation de prolongation d'instruction d'une première demande de carte talent, elle, permet de travailler.",
+        "en": "For a talent card, service-public says you apply online, no earlier than 4 months and no later than 2 months before your permit expires. You immediately get a filing certificate, which does not allow you to work. The extension certificate for a first talent card application does allow you to work."
+      },
+      "link": {
+        "title": {
+          "fr": "Ouvrir le site de l'ANEF",
+          "en": "Open the ANEF website"
+        },
+        "url": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/"
+      },
+      "condition": {
+        "question": "target_status",
+        "in": [
+          "talent_qualified",
+          "talent_blue_card",
+          "talent_project"
+        ]
+      },
+      "sources": [
+        "sp_talent",
+        "sp_anef",
+        "sp_autorisation_travail"
+      ]
+    },
+    {
+      "id": "collect_permit",
+      "where": "prefecture",
+      "title": {
+        "fr": "Retirer votre titre à la préfecture",
+        "en": "Collect your permit at the prefecture"
+      },
+      "body": {
+        "fr": "Si votre demande est acceptée, la préfecture vous informe, par exemple par SMS avec le montant des taxes, puis vous convoque pour la remise du titre. Achetez les timbres fiscaux sur internet ou dans un bureau de tabac équipé ; dans la plupart des préfectures, il faut prendre rendez-vous pour la remise. Apportez aussi les pièces demandées à la remise, comme le certificat médical de l'Ofii si votre liste le prévoit.",
+        "en": "If your application is accepted, the prefecture tells you, for example by text message with the amount of the fees, then invites you to collect the permit. Buy the tax stamps online or in an equipped tobacco shop; most prefectures require an appointment to collect it. Also bring the documents asked for at collection, such as the Ofii medical certificate if your list includes it."
+      },
+      "link": {
+        "title": {
+          "fr": "Acheter un timbre fiscal",
+          "en": "Buy a tax stamp"
+        },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R49486"
+      },
+      "condition": null,
+      "sources": [
+        "sp_talent",
+        "sp_salarie",
+        "sp_actu_taxes_2026"
+      ]
+    }
   ]
 }

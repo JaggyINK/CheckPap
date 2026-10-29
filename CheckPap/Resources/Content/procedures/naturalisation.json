@@ -2941,5 +2941,79 @@
         "sp_r60835"
       ]
     }
+  ],
+  "appointments": [
+    {
+      "id": "anef_online",
+      "where": "online",
+      "title": {
+        "fr": "Déposer la demande en ligne sur l'ANEF",
+        "en": "Apply online on ANEF"
+      },
+      "body": {
+        "fr": "Quand le dossier est complet, déposez la demande sur l'ANEF : connectez-vous avec FranceConnect, votre numéro de visa, votre numéro de titre de séjour ou les identifiants de votre demande de titre en ligne, puis ajoutez vos documents numérisés. Vous pouvez payer le timbre fiscal pendant la démarche ; gardez les originaux, ils seront demandés à l'entretien. Pour être aidé, appelez le centre de contact citoyens de l'ANTS au 0806 001 620 (du lundi au vendredi, 9h à 17h) ou allez au point d'accueil numérique de votre préfecture.",
+        "en": "Once your file is complete, apply on ANEF: log in with FranceConnect, your visa number, your residence permit number or the login details of your online permit application, then add your scanned documents. You can pay the tax stamp during the process; keep the originals, they will be asked for at the interview. For help, call the ANTS citizen contact centre on 0806 001 620 (Monday to Friday, 9am to 5pm) or go to the digital help desk of your prefecture."
+      },
+      "link": {
+        "title": {
+          "fr": "Ouvrir le site de l'ANEF",
+          "en": "Open the ANEF website"
+        },
+        "url": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/espace-personnel/connexion-inscription"
+      },
+      "condition": null,
+      "sources": [
+        "sp_r60835",
+        "sp_f2213",
+        "sp_f32952"
+      ]
+    },
+    {
+      "id": "paper_application",
+      "where": "other",
+      "title": {
+        "fr": "Si le dépôt en ligne est impossible",
+        "en": "If you cannot apply online"
+      },
+      "body": {
+        "fr": "Vous pouvez envoyer le dossier par courrier à la plateforme de naturalisation de votre domicile, avec un mail du centre de contact de l'ANTS ou un document de la préfecture qui atteste l'impossibilité. Il faut alors le formulaire cerfa n°12753 en 2 exemplaires, 2 photos d'identité 35 x 45 mm, une enveloppe timbrée à votre adresse et une lettre suivie 500 g vierge. En Guyane, le dossier se dépose à la préfecture.",
+        "en": "You can send the file by post to the naturalisation platform for where you live, with an email from the ANTS contact centre or a document from the prefecture confirming that you cannot apply online. You then need form cerfa no. 12753 in 2 copies, 2 ID photos 35 x 45 mm, a stamped envelope with your address and a blank 500 g tracked letter. In French Guiana, the file is filed at the prefecture."
+      },
+      "link": {
+        "title": {
+          "fr": "Lire la fiche sur service-public.fr",
+          "en": "Read the page on service-public.fr"
+        },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2213"
+      },
+      "condition": null,
+      "sources": [
+        "sp_f2213",
+        "sp_r60835"
+      ]
+    },
+    {
+      "id": "prefecture_interview",
+      "where": "prefecture",
+      "title": {
+        "fr": "Passer l'entretien en préfecture, sur convocation",
+        "en": "Attend the interview at the prefecture, when invited"
+      },
+      "body": {
+        "fr": "Si votre demande est recevable, vous êtes convoqué à un entretien en préfecture, qui vérifie votre assimilation à la communauté française. Apportez les originaux indiqués sur la convocation ; pour vous préparer, vous pouvez lire le livret du citoyen, et vous signez à la fin la charte des droits et devoirs du citoyen français. Sans raison légitime, une absence peut entraîner le classement sans suite.",
+        "en": "If your application is admissible, you are invited to an interview at the prefecture, which checks your integration into the French community. Bring the originals listed on the invitation; to prepare, you can read the citizen's booklet, and at the end you sign the charter of the rights and duties of the French citizen. Without a valid reason, missing it can lead to your application being closed."
+      },
+      "link": {
+        "title": {
+          "fr": "En savoir plus sur l'entretien",
+          "en": "Learn more about the interview"
+        },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2213"
+      },
+      "condition": null,
+      "sources": [
+        "sp_f2213"
+      ]
+    }
   ]
 }

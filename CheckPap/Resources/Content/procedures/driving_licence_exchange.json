@@ -2964,5 +2964,72 @@
     "Permis obtenu en Nouvelle-Calédonie ou dans une COM, permis britannique délivré avant 2021 en détail, rétablissement d'un permis français (F32776), permis ukrainien (F36341) : non couverts. Le cas Royaume-Uni avant 2021 est traité comme un permis européen (F1758).",
     "Pas de courrier type : les modèles de help.json visent la préfecture / l'ANEF, pas l'ANTS. Contact ANTS (34 00, 09 70 83 07 07 depuis l'étranger) donné dans le texte des étapes, absent de help.json.",
     "La démarche n'est pas encore dans catalog.json (non modifié, comme demandé)."
+  ],
+  "appointments": [
+    {
+      "id": "ants_online",
+      "where": "online",
+      "title": {
+        "fr": "Faire la demande d'échange en ligne sur le site de l'ANTS",
+        "en": "Apply for the exchange online on the ANTS website"
+      },
+      "body": {
+        "fr": "La demande se fait en ligne avec votre compte ANTS : préparez votre code e-photo, vos pièces numérisées et le paiement ou le numéro du timbre fiscal. Pendant l'instruction, vous gardez votre permis et pouvez conduire ; suivez l'avancée depuis votre compte. À la fin, on vous demande par SMS et par e-mail d'envoyer le permis original en courrier recommandé.",
+        "en": "You apply online with your ANTS account: have your e-photo code, your scanned documents and the tax stamp payment or number ready. During processing, you keep your licence and can drive; follow progress in your account. At the end, you are asked by text message and email to send the original licence by registered post."
+      },
+      "link": {
+        "title": {
+          "fr": "Ouvrir la démarche sur le site de l'ANTS",
+          "en": "Open the process on the ANTS website"
+        },
+        "url": "https://permisdeconduire.ants.gouv.fr/demarches-en-ligne/echanger-un-permis-etranger"
+      },
+      "condition": {
+        "any": [
+          {
+            "all": [
+              {
+                "question": "licence_country",
+                "in": [
+                  "non_eu",
+                  "uk_2021_after"
+                ]
+              },
+              {
+                "not": {
+                  "question": "stay_situation",
+                  "in": [
+                    "student_rece",
+                    "short_stay"
+                  ]
+                }
+              }
+            ]
+          },
+          {
+            "all": [
+              {
+                "question": "licence_country",
+                "in": [
+                  "eu_eea",
+                  "uk_before_2021"
+                ]
+              },
+              {
+                "not": {
+                  "question": "eu_reason",
+                  "equals": "none"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "ants_echange",
+        "sp_f1460",
+        "sp_f1758"
+      ]
+    }
   ]
 }

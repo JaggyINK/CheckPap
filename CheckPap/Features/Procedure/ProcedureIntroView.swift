@@ -40,11 +40,6 @@ struct ProcedureIntroView: View {
                         .staggeredAppear(3)
                 }
 
-                if procedure.isDraft {
-                    DraftBanner()
-                        .staggeredAppear(3)
-                }
-
                 VStack(alignment: .leading, spacing: 8) {
                     LastVerifiedLabel(dateString: procedure.lastVerified)
                     IndependentServiceNotice()

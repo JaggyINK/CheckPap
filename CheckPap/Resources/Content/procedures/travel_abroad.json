@@ -2068,5 +2068,249 @@
     "Récépissé / attestation : aucune source ne dit si le document provisoire doit être encore valide le jour du retour ; aucune question de date posée pour ces documents.",
     "Pages diplomatie.gouv.fr « Conseils aux voyageurs », « FAQ Voyage », « Contact et renseignements » et « Annuaire des représentations étrangères » : aucune date de mise à jour affichée. FAQ OFPRA : aucune date affichée.",
     "Contacts et guides : identifiants anef_contact, prefecture_directory, point_justice, france_services (contacts) et anef_account, loss_theft_report, ephoto, fiscal_stamp (guides) supposés définis dans help.json ; le tableau guides de help.json était vide à la lecture. defenseur_des_droits non utilisé : aucune source consultée ne le relie à cette démarche."
+  ],
+  "appointments": [
+    {
+      "id": "travel_document_anef",
+      "where": "online",
+      "title": {
+        "fr": "Demander le titre de voyage sur l'ANEF",
+        "en": "Apply for the travel document on ANEF"
+      },
+      "body": {
+        "fr": "Service-public indique que la demande se fait sur le site de l'ANEF. Préparez la preuve de votre protection, votre carte en cours de validité, un justificatif de domicile, votre e-photo et le timbre fiscal. Le délai de délivrance n'est pas indiqué : faites la demande bien avant le voyage.",
+        "en": "Service-public says you apply on the ANEF website. Have ready the proof of your protection, your valid card, a proof of address, your e-photo and the tax stamp. The processing time is not given: apply well before your trip."
+      },
+      "link": {
+        "title": {
+          "fr": "Ouvrir le site de l'ANEF",
+          "en": "Open the ANEF website"
+        },
+        "url": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/"
+      },
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "status",
+                "equals": "protection"
+              },
+              {
+                "question": "protection_type",
+                "in": [
+                  "refugee",
+                  "subsidiary",
+                  "stateless"
+                ]
+              }
+            ]
+          },
+          {
+            "question": "has_travel_document",
+            "equals": "no"
+          }
+        ]
+      },
+      "sources": [
+        "sp_refugie",
+        "sp_protection_subsidiaire",
+        "sp_apatride",
+        "sp_anef"
+      ]
+    },
+    {
+      "id": "dcem_anef",
+      "where": "online",
+      "title": {
+        "fr": "Demander le DCEM de votre enfant en ligne",
+        "en": "Apply online for your child's DCEM"
+      },
+      "body": {
+        "fr": "Un parent qui a un titre de séjour en cours de validité fait la demande sur internet. La confirmation de dépôt ne permet pas à l'enfant de revenir en France : un visa est alors nécessaire. Le DCEM est ensuite retiré en préfecture, avec l'enfant, contre un timbre fiscal.",
+        "en": "A parent with a valid residence permit applies online. The filing confirmation does not allow the child to come back to France: a visa is then needed. The DCEM is then collected at the prefecture, with the child, in exchange for a tax stamp."
+      },
+      "link": {
+        "title": {
+          "fr": "Demander ou renouveler un DCEM",
+          "en": "Apply for or renew a DCEM"
+        },
+        "url": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/sejour/document-voyage"
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "status",
+            "equals": "minor"
+          },
+          {
+            "question": "minor_has_dcem",
+            "equals": "no"
+          }
+        ]
+      },
+      "sources": [
+        "sp_dcem",
+        "sp_dcem_en_ligne"
+      ]
+    },
+    {
+      "id": "prefecture_return_visa",
+      "where": "prefecture",
+      "title": {
+        "fr": "Situation exceptionnelle : visa de retour à la préfecture",
+        "en": "Exceptional situation: return visa from the prefecture"
+      },
+      "body": {
+        "fr": "Service-public indique qu'un visa de retour préfectoral peut être accordé dans des situations exceptionnelles (cas humanitaire, force majeure). Il se demande avant le départ, à la préfecture ou à la sous-préfecture, et coûte 6 € en timbres fiscaux. Il ne permet de revenir que par une frontière française, et le préfet décide librement.",
+        "en": "Service-public says a prefectural return visa can be granted in exceptional situations (humanitarian reasons, force majeure). You request it before leaving, at the prefecture or sub-prefecture, and it costs €6 in tax stamps. It only lets you come back through a French border, and the prefect decides freely."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "receipt_type",
+            "in": [
+              "receipt_first",
+              "attestation_deposit"
+            ]
+          },
+          {
+            "question": "destination",
+            "in": [
+              "outside_schengen",
+              "origin_country"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_retour_schengen"
+      ]
+    },
+    {
+      "id": "consulate_return_visa",
+      "where": "consulate",
+      "title": {
+        "fr": "Pendant le voyage : visa de retour au consulat français",
+        "en": "During the trip: return visa at the French consulate"
+      },
+      "body": {
+        "fr": "Avec un récépissé de première demande ou une attestation de dépôt, service-public indique qu'il faut demander un visa de retour au consulat français du pays où vous séjournez, pour pouvoir revenir. Le lien ci-dessous aide à trouver le service des visas dans ce pays.",
+        "en": "With a first application receipt or a filing certificate, service-public says you must ask for a return visa at the French consulate in the country where you are staying, to be able to come back. The link below helps you find the visa service in that country."
+      },
+      "link": {
+        "title": {
+          "fr": "Trouver le service des visas à l'étranger",
+          "en": "Find the visa service abroad"
+        },
+        "url": "https://france-visas.gouv.fr/web/france-visas/lieu-de-depot"
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "receipt_type",
+            "in": [
+              "receipt_first",
+              "attestation_deposit"
+            ]
+          },
+          {
+            "question": "destination",
+            "in": [
+              "outside_schengen",
+              "origin_country"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_retour_schengen"
+      ]
+    },
+    {
+      "id": "destination_consulate",
+      "where": "consulate",
+      "title": {
+        "fr": "Visa du pays de destination : ambassade ou consulat en France",
+        "en": "Destination country visa: embassy or consulate in France"
+      },
+      "body": {
+        "fr": "Pour vos questions sur le visa ou l'entrée dans un autre pays, service-public renvoie vers l'ambassade ou le consulat de ce pays en France. Le ministère des Affaires étrangères publie l'annuaire des ambassades et consulats étrangers en France. Les documents demandés pour entrer dans le pays sont aussi dans sa fiche Conseils aux voyageurs, rubrique « Entrée / Séjour ».",
+        "en": "For questions about a visa or entry into another country, service-public refers you to that country's embassy or consulate in France. The Ministry for Foreign Affairs publishes the directory of foreign embassies and consulates in France. The documents needed to enter the country are also in its Travel advice page, section \"Entrée / Séjour\" (Entry / Stay)."
+      },
+      "link": {
+        "title": {
+          "fr": "Ouvrir l'annuaire des représentations étrangères",
+          "en": "Open the directory of foreign representations"
+        },
+        "url": "https://www.diplomatie.gouv.fr/fr/services/j-ai-une-question/annuaire-et-contacts/representations-etrangeres"
+      },
+      "condition": {
+        "any": [
+          {
+            "question": "destination",
+            "equals": "outside_schengen"
+          },
+          {
+            "all": [
+              {
+                "question": "destination",
+                "equals": "origin_country"
+              },
+              {
+                "not": {
+                  "question": "protection_type",
+                  "in": [
+                    "refugee",
+                    "subsidiary"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_europe",
+        "dipl_representations",
+        "dipl_faq_contact",
+        "dipl_faq_voyage"
+      ]
+    },
+    {
+      "id": "ast_no_appointment",
+      "where": "other",
+      "title": {
+        "fr": "Autorisation de sortie du territoire : pas de rendez-vous",
+        "en": "Authorisation to leave the country: no appointment"
+      },
+      "body": {
+        "fr": "Remplissez le formulaire en ligne puis téléchargez-le, ou imprimez-le vierge et remplissez-le à la main. Il n'est pas nécessaire d'aller à la mairie, à la préfecture ou au commissariat. Joignez la photocopie de votre pièce d'identité.",
+        "en": "Fill in the form online and download it, or print it blank and fill it in by hand. You do not need to go to the town hall, the prefecture or the police station. Attach a photocopy of your ID document."
+      },
+      "link": {
+        "title": {
+          "fr": "Ouvrir le formulaire AST",
+          "en": "Open the AST form"
+        },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R46121"
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "status",
+            "equals": "minor"
+          },
+          {
+            "question": "minor_with_parent",
+            "equals": "no"
+          }
+        ]
+      },
+      "sources": [
+        "sp_ast",
+        "sp_ast_formulaire"
+      ]
+    }
   ]
 }

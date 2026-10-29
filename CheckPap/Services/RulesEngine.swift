@@ -72,6 +72,12 @@ enum RulesEngine {
         return (procedure.outcomes ?? []).filter { $0.kind == kind && isSatisfied($0.condition, answers: effective) }
     }
 
+    /// Où déposer le dossier ou prendre rendez-vous, compte tenu des réponses.
+    static func appointments(in procedure: Procedure, answers: Answers) -> [Appointment] {
+        let effective = effectiveAnswers(in: procedure, answers: answers)
+        return (procedure.appointments ?? []).filter { isSatisfied($0.condition, answers: effective) }
+    }
+
     /// Première orientation qui arrête le questionnaire, s'il y en a une.
     static func redirect(in procedure: Procedure, answers: Answers) -> Outcome? {
         outcomes(in: procedure, answers: answers, kind: .redirect).first

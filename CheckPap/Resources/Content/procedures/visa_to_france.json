@@ -1484,5 +1484,98 @@
     "Système européen d'entrée/sortie (EES) : mentionné par service-public (F16146, F21921), non repris dans les étapes.",
     "Fiches pratiques : fiscal_stamp (attestation d'accueil) et anef_account (validation du VLS-TS) sont référencées ; help.json ne contient pas encore de tableau guides. Le fichier catalog.json n'a pas été modifié : l'entrée visa_to_france reste à ajouter.",
     "Contacts : point_justice et france_services proposés pour les refus ; aucune source lue ne décrit leur rôle pour les visas en particulier."
+  ],
+  "appointments": [
+    {
+      "id": "consulate_appointment",
+      "where": "consulate",
+      "title": {
+        "fr": "Remplir la demande en ligne puis prendre rendez-vous au consulat",
+        "en": "Fill in the application online, then book an appointment at the consulate"
+      },
+      "body": {
+        "fr": "Remplissez d'abord la demande sur France-Visas, au plus tôt 3 mois avant le départ prévu, puis prenez rendez-vous sur internet au consulat de France du pays où vous résidez ; dans beaucoup de pays, la réception des dossiers et la prise des empreintes sont confiées à un prestataire de services extérieur, contrôlé par l'administration. Au rendez-vous, votre photo et vos empreintes sont enregistrées (pas d'empreintes avant 12 ans), et vous payez les droits de visa contre une quittance. Sans réponse au bout de 2 mois, la demande est considérée comme refusée.",
+        "en": "First fill in the application on France-Visas, no earlier than 3 months before your planned departure, then book an appointment online at the French consulate in the country where you live; in many countries, receiving files and taking fingerprints is handled by an external service provider supervised by the authorities. At the appointment, your photo and fingerprints are recorded (no fingerprints under age 12), and you pay the visa fee and get a receipt. Without an answer after 2 months, the application is considered refused."
+      },
+      "link": {
+        "title": {
+          "fr": "Trouver le lieu de dépôt",
+          "en": "Find where to apply"
+        },
+        "url": "https://france-visas.gouv.fr/web/france-visas/lieu-de-depot"
+      },
+      "condition": {
+        "any": [
+          {
+            "question": "stay_length",
+            "equals": "long"
+          },
+          {
+            "question": "has_schengen_permit",
+            "equals": "no"
+          }
+        ]
+      },
+      "sources": [
+        "sp_r50559",
+        "sp_f16146",
+        "sp_f16162",
+        "dip_externalisation"
+      ]
+    },
+    {
+      "id": "studies_platform",
+      "where": "other",
+      "title": {
+        "fr": "Étudiants : vérifier si vous passez par Études en France",
+        "en": "Students: check whether you go through Études en France"
+      },
+      "body": {
+        "fr": "Les étrangers de 72 pays doivent demander leur visa sur le site Études en France, au moment de la préinscription en ligne dans l'enseignement supérieur. Les autres passent par France-Visas. Service-public publie le tableau des pays concernés.",
+        "en": "Nationals of 72 countries must apply for their visa on the Études en France website, when they pre-register online for higher education. Others go through France-Visas. Service-public publishes the table of the countries concerned."
+      },
+      "link": {
+        "title": {
+          "fr": "Voir le tableau des pays",
+          "en": "See the table of countries"
+        },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2231"
+      },
+      "condition": {
+        "question": "purpose_long",
+        "equals": "studies"
+      },
+      "sources": [
+        "sp_f2231",
+        "sp_r57009"
+      ]
+    },
+    {
+      "id": "host_attestation_mairie",
+      "where": "mairie",
+      "title": {
+        "fr": "La personne qui accueille : attestation d'accueil en mairie",
+        "en": "The host: welcome certificate at the town hall"
+      },
+      "body": {
+        "fr": "La personne qui vous accueille achète un timbre fiscal de 30 €, puis dépose la demande à sa mairie, souvent sur rendez-vous. Elle remplit et signe sur place le formulaire cerfa n°10798. Une fois l'attestation validée, elle vous envoie l'original avant la demande de visa.",
+        "en": "The person hosting you buys a €30 tax stamp, then files the request at their town hall, often by appointment. They fill in and sign form cerfa no. 10798 there. Once the certificate is approved, they send you the original before the visa application."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "stay_length",
+            "equals": "short"
+          },
+          {
+            "question": "accommodation",
+            "equals": "host"
+          }
+        ]
+      },
+      "sources": [
+        "sp_f2191"
+      ]
+    }
   ]
 }

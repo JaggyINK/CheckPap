@@ -7,6 +7,7 @@ struct DocumentRow: View {
     let answers: [String: String]
     let isChecked: Bool
     let toggle: () -> Void
+    let dismiss: () -> Void
 
     @Environment(ContentStore.self) private var store
     @State private var expanded = false
@@ -70,6 +71,12 @@ struct DocumentRow: View {
             }
             DocumentReason(reasons: RulesEngine.reasons(for: document.condition, in: procedure, answers: answers))
             SourcesList(sources: procedure.sources(for: document.sources))
+            Button(action: dismiss) {
+                Label("Je n'ai pas besoin de cette pièce", systemImage: "minus.circle")
+                    .font(.footnote.weight(.semibold))
+            }
+            .buttonStyle(.plain)
+            .foregroundStyle(.secondary)
         }
     }
 }

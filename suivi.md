@@ -84,6 +84,15 @@ Dernière mise à jour du plan : 29/10/2026.
 - 36 tests verts.
 - Historique Git : auteur des commits remplacé par le compte GitHub JaggyINK.
 
+**30/10/2026**
+- Pièces : bouton "Je n'ai pas besoin de cette pièce", pièces retirées consultables et remettables.
+- Étapes : cocher une étape faite, étape en cours mise en avant, suivantes grisées.
+- Dossier prêt : écran "Votre dossier est prêt", lieu de dépôt pour chacune des 16 démarches (`appointments`), préfecture trouvée par code postal.
+- Rendez-vous enregistré : date, lieu, notes, ajout au calendrier (sans accès complet), rappels la veille et 2 h avant.
+- Mes dossiers : suppression d'un dossier (glisser ou appui long).
+- Bandeau "Contenu en cours de vérification" retiré (personne ne relit encore).
+- En cours : annuaire des préfectures (`prefectures.json`) et parcours "S'expatrier" pour les personnes étrangères.
+
 ## Feuille de route après la v1 (demandes de l'utilisatrice)
 
 - [ ] **Annuaire des consulats par nationalité et par lieu** (les fiches pays donnent déjà le lien vers l'ambassade du pays en France) : pour un passeport étranger, indiquer le consulat compétent selon le pays et le département de la personne. Nécessite une source structurée et maintenue (liste des représentations étrangères en France) et l'écran de choix du département (tâche 3.5).

@@ -2573,5 +2573,77 @@
     "Cohabitation intergénérationnelle (réseau Cohabilis), dommages mobiliers, procédure côté bailleur : non repris en détail.",
     "Pas de fiche pratique (guides) liée : aucune des fiches de help.json ne correspond aux justificatifs Visale vérifiés. Pas de courrier type : les modèles visent la préfecture. Contact Action Logement (0970 800 800) donné dans le texte d'une étape, absent de help.json.",
     "La démarche n'est pas encore dans catalog.json (non modifié, comme demandé)."
+  ],
+  "appointments": [
+    {
+      "id": "visale_online",
+      "where": "online",
+      "title": {
+        "fr": "Faire la demande en ligne, avant de signer le bail",
+        "en": "Apply online, before signing the lease"
+      },
+      "body": {
+        "fr": "Créez votre compte locataire sur le site Visale, saisissez votre demande et déposez vos justificatifs en ligne ; la demande est gratuite. Si elle est complète et conforme, le visa est délivré en quelques jours ouvrés et se télécharge sur votre compte. Donnez-le ensuite à votre futur bailleur, qui crée à son tour un compte sur le site Visale pour valider l'acte de cautionnement avant la signature du bail.",
+        "en": "Create your tenant account on the Visale website, enter your application and upload your documents; the application is free. If it is complete and compliant, the visa is issued within a few working days and you download it from your account. Then give it to your future landlord, who creates an account on the Visale website to approve the guarantee deed before the lease is signed."
+      },
+      "link": {
+        "title": {
+          "fr": "Ouvrir mon espace Visale",
+          "en": "Open my Visale account"
+        },
+        "url": "https://fo.visale.fr/?#/fr/login/locataire"
+      },
+      "condition": {
+        "all": [
+          {
+            "any": [
+              {
+                "question": "young_status",
+                "in": [
+                  "student_apprentice",
+                  "seasonal",
+                  "other_young"
+                ]
+              },
+              {
+                "question": "older_status",
+                "in": [
+                  "seasonal",
+                  "mobility_lease"
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "question": "older_status",
+                    "equals": "private_employee"
+                  },
+                  {
+                    "question": "employee_situation",
+                    "in": [
+                      "job_promise",
+                      "recent_hire",
+                      "low_salary"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "not": {
+              "question": "housing_type",
+              "equals": "family_landlord"
+            }
+          }
+        ]
+      },
+      "sources": [
+        "sp_visale",
+        "sp_espace",
+        "al_visale",
+        "al_fiche"
+      ]
+    }
   ]
 }

@@ -18,6 +18,7 @@ final class ContentStore {
     private(set) var news: NewsFeed?
     private(set) var rights: RightsContent?
     private(set) var countries: CountriesContent?
+    private(set) var prefectures: PrefectureDirectory?
 
     private let repository: ContentRepository
 
@@ -79,6 +80,7 @@ final class ContentStore {
             news = await loadOptional("actualités") { try await repository.loadNews() }
             rights = await loadOptional("droits") { try await repository.loadRights() }
             countries = await loadOptional("pays") { try await repository.loadCountries() }
+            prefectures = await loadOptional("préfectures") { try await repository.loadPrefectures() }
             state = .loaded
         } catch {
             state = .failed(error.localizedDescription)

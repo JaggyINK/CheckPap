@@ -74,6 +74,7 @@ struct ContentComplianceTests {
                 + procedure.steps.map { ($0.id, $0.sources) }
                 + (procedure.deadlines ?? []).map { ($0.id, $0.sources) }
                 + (procedure.outcomes ?? []).map { ($0.id, $0.sources) }
+                + (procedure.appointments ?? []).map { ($0.id, $0.sources) }
             for (item, sources) in cited {
                 #expect(!sources.isEmpty, "\(id) / \(item) : aucune source")
                 for source in sources {
@@ -122,6 +123,7 @@ struct ContentComplianceTests {
             procedure.documents.forEach { check($0.condition, owner: $0.id) }
             procedure.steps.forEach { check($0.condition, owner: $0.id) }
             procedure.outcomes?.forEach { check($0.condition, owner: $0.id) }
+        procedure.appointments?.forEach { check($0.condition, owner: $0.id) }
             for deadline in procedure.deadlines ?? [] {
                 check(deadline.condition, owner: deadline.id)
                 #expect(asked[deadline.relativeTo]?.kind == .date, "\(id) / \(deadline.id) : relativeTo doit être une question date")
@@ -343,6 +345,19 @@ struct ContentComplianceTests {
             #expect(DayDate.parse(budget.rates.date) != nil)
             #expect(budget.perDiem.allSatisfy { $0.amount > 0 })
             #expect(budget.rates.perEuro.values.allSatisfy { $0 > 0 })
+        }
+    }
+
+    @Test func prefecturesFollowTheRules() throws {
+        guard let url = Bundle.main.url(forResource: "prefectures", withExtension: "json") else { return }
+        let directory = try JSONDecoder().decode(PrefectureDirectory.self, from: Data(contentsOf: url))
+        #expect(directory.departments.count >= 101, "prefectures : \(directory.departments.count) départements")
+        #expect(Set(directory.departments.map(\.code)).count == directory.departments.count, "prefectures : codes en double")
+        for department in directory.departments {
+            for link in [department.website, department.appointmentUrl, department.subprefecturesUrl].compactMap({ $0 }) {
+                #expect(Self.isAllowed(link), "prefectures / \(department.code) : lien hors domaines autorisés \(link)")
+            }
+            #expect(!department.sources.isEmpty, "prefectures / \(department.code) : aucune source")
         }
     }
 }

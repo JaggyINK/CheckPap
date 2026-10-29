@@ -1938,5 +1938,96 @@
     "Carte déjà expirée : aucune source consultée ne traite ce cas ; simple avertissement (warning) qui renvoie vers la préfecture et le support ANEF, sans orientation précise.",
     "DCEM : la question « où » et la déclaration de vol ne sont pas posées pour un DCEM, car les sources (perte ou vol à l'étranger, plainte) ne parlent que de la carte de séjour. Le DCEM abîmé n'est décrit par aucune source (avertissement dcem_damaged).",
     "Guides : identifiants de help.json (non relus ici). prefecture_appointment non utilisé : aucune source consultée ne dit qu'un rendez-vous est nécessaire pour le retrait du duplicata."
+  ],
+  "appointments": [
+    {
+      "id": "anef_online",
+      "where": "online",
+      "title": {
+        "fr": "Demander le duplicata en ligne sur l'ANEF",
+        "en": "Apply for the duplicate online on ANEF"
+      },
+      "body": {
+        "fr": "Sur l'ANEF, choisissez « Je déclare un changement de situation », puis « Je signale la perte, le vol ou la détérioration de mon titre de séjour » ; pour un DCEM, la préfecture de Maine-et-Loire indique que le duplicata se demande aussi en ligne sur l'ANEF. Plusieurs préfectures indiquent que la demande n'est pas acceptée au guichet ni par courrier, et la demande rend l'ancienne carte invalide, de façon définitive. En cas de difficulté, le centre de contact citoyen répond au 0 806 001 620.",
+        "en": "On ANEF, choose \"Je déclare un changement de situation\" (I report a change of situation), then \"Je signale la perte, le vol ou la détérioration de mon titre de séjour\" (I report the loss, theft or damage of my residence permit); for a DCEM, the Maine-et-Loire prefecture says the duplicate is also requested online on ANEF. Several prefectures say the request is not accepted at the counter or by post, and the request makes the old card permanently invalid. If you have trouble, the citizen contact centre answers on 0 806 001 620."
+      },
+      "link": {
+        "title": {
+          "fr": "Ouvrir le site de l'ANEF",
+          "en": "Open the ANEF website"
+        },
+        "url": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/"
+      },
+      "condition": null,
+      "sources": [
+        "sp_perte",
+        "sp_vol",
+        "pref_rhone_faq",
+        "pref_seine_maritime",
+        "pref_val_doise",
+        "pref_haute_vienne",
+        "pref_maine_et_loire_dcem",
+        "pref_cotes_darmor"
+      ]
+    },
+    {
+      "id": "collect_card",
+      "where": "prefecture",
+      "title": {
+        "fr": "Retirer la nouvelle carte à la préfecture",
+        "en": "Collect the new card at the prefecture"
+      },
+      "body": {
+        "fr": "Allez retirer la nouvelle carte quand la préfecture vous prévient. Après une perte ou un vol, le justificatif de paiement du timbre fiscal est demandé lors de la remise. Si vous retrouvez l'ancienne carte après la demande, vous devez quand même venir retirer la nouvelle.",
+        "en": "Go and collect the new card when the prefecture tells you. After a loss or theft, the proof of payment of the tax stamp is asked for when the card is handed over. If you find the old card after applying, you still have to come and collect the new one."
+      },
+      "link": {
+        "title": {
+          "fr": "Acheter un timbre fiscal",
+          "en": "Buy a tax stamp"
+        },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33071"
+      },
+      "condition": {
+        "not": {
+          "question": "document_type",
+          "equals": "dcem"
+        }
+      },
+      "sources": [
+        "sp_perte",
+        "sp_vol",
+        "sp_timbre",
+        "pref_correze",
+        "pref_loire_atlantique"
+      ]
+    },
+    {
+      "id": "return_visa_consulate",
+      "where": "consulate",
+      "title": {
+        "fr": "Hors de France : visa de retour au consulat de France",
+        "en": "Outside France: return visa at the French consulate"
+      },
+      "body": {
+        "fr": "Déclarez d'abord la perte ou le vol à la police locale, puis à l'ambassade ou au consulat de France du pays où vous êtes. Pour rentrer, demandez-y un visa de retour : avant de le délivrer, l'ambassade ou le consulat fait une enquête auprès de la préfecture qui a délivré votre titre. Dès votre retour en France, demandez le duplicata en ligne.",
+        "en": "First report the loss or theft to the local police, then to the French embassy or consulate in the country where you are. To come back, ask them for a return visa: before issuing it, the embassy or consulate checks with the prefecture that issued your permit. As soon as you are back in France, apply for the duplicate online."
+      },
+      "link": {
+        "title": {
+          "fr": "Lire la fiche perte",
+          "en": "Read the loss page"
+        },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F21032"
+      },
+      "condition": {
+        "question": "where_happened",
+        "equals": "abroad"
+      },
+      "sources": [
+        "sp_perte",
+        "sp_vol"
+      ]
+    }
   ]
 }

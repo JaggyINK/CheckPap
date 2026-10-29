@@ -2389,5 +2389,85 @@
     "Lien de dépôt : https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/sejour/document-voyage, donné par R64360. Le site ANEF n'est pas lisible sans compte : libellés internes non vérifiés.",
     "Attestation de prolongation d'instruction du parent : aucune source ne dit si elle suffit pour demander un DCEM (écran parent_permit_expired).",
     "Contacts et courriers : identifiants de help.json (non relus ici). point_justice proposé seulement dans l'écran no_valid_permit (aide juridique générale), sans source qui le relie au DCEM."
+  ],
+  "appointments": [
+    {
+      "id": "anef_online",
+      "where": "online",
+      "title": {
+        "fr": "Déposer la demande en ligne sur l'ANEF",
+        "en": "Apply online on ANEF"
+      },
+      "body": {
+        "fr": "Le parent (ou la personne qui a l'autorité parentale) dépose la demande sur l'ANEF, rubrique « Demander ou renouveler un DCEM », avec les pièces numérisées et le code e-photo de l'enfant. Une confirmation de dépôt est ensuite envoyée ; elle ne permet pas à l'enfant d'être réadmis en France après un voyage. La demande est traitée par la préfecture ou la sous-préfecture de votre adresse déclarée, et les délais varient selon les préfectures.",
+        "en": "The parent (or the person with parental authority) applies on ANEF, in the section \"Demander ou renouveler un DCEM\" (apply for or renew a DCEM), with the scanned documents and the child's e-photo code. A filing confirmation is then sent; it does not allow the child to be readmitted to France after a trip. The application is handled by the prefecture or sub-prefecture of your declared address, and processing times vary between prefectures."
+      },
+      "link": {
+        "title": {
+          "fr": "Faire la demande de DCEM en ligne",
+          "en": "Apply for the DCEM online"
+        },
+        "url": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/sejour/document-voyage"
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "request_type",
+            "in": [
+              "first",
+              "renewal",
+              "from_tir"
+            ]
+          },
+          {
+            "question": "parent_status",
+            "in": [
+              "third_country_permit",
+              "eu_parent"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_dcem",
+        "sp_dcem_online",
+        "pref_maine_et_loire_dcem"
+      ]
+    },
+    {
+      "id": "collect_with_child",
+      "where": "prefecture",
+      "title": {
+        "fr": "Retirer le DCEM à la préfecture, avec l'enfant",
+        "en": "Collect the DCEM at the prefecture, with the child"
+      },
+      "body": {
+        "fr": "Selon la préfecture, vous recevez un SMS ou un e-mail pour prendre rendez-vous, ou une convocation. Le parent qui a fait la demande vient retirer le DCEM en préfecture ou sous-préfecture, avec l'enfant. Si un timbre fiscal vous est demandé, il se donne à la remise du DCEM.",
+        "en": "Depending on the prefecture, you get a text message or an email to book an appointment, or a notice. The parent who applied comes to collect the DCEM at the prefecture or sub-prefecture, with the child. If a tax stamp is required, you hand it in when the DCEM is given to you."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "request_type",
+            "in": [
+              "first",
+              "renewal",
+              "from_tir"
+            ]
+          },
+          {
+            "question": "parent_status",
+            "in": [
+              "third_country_permit",
+              "eu_parent"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_dcem",
+        "sp_timbre"
+      ]
+    }
   ]
 }

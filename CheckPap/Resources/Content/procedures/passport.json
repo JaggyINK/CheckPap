@@ -2102,5 +2102,117 @@
     "Fiches (fiscal_stamp, proof_of_address, civil_status_france, loss_theft_report) et contacts (prefecture_directory, france_services, anef_contact) : identifiants présents dans help.json, contenu non relu ici. Leur contenu vise surtout les démarches d'étrangers (ANEF) : vérifier qu'il convient aussi au passeport français.",
     "Nom d'usage : pièces exactes non détaillées (renvoi vers F868 et F1343, non relues).",
     "La démarche n'est pas encore dans catalog.json (non modifié, comme demandé)."
+  ],
+  "appointments": [
+    {
+      "id": "town_hall_appointment",
+      "where": "mairie",
+      "title": {
+        "fr": "Prendre rendez-vous dans une mairie équipée",
+        "en": "Book an appointment at an equipped town hall"
+      },
+      "body": {
+        "fr": "Vous pouvez aller dans n'importe quelle mairie équipée d'une station d'enregistrement, pas forcément celle de votre domicile ; beaucoup reçoivent seulement sur rendez-vous. Le jour J, venez en personne (l'enfant avec son parent ou tuteur pour un mineur) avec les documents originaux, le numéro ou le QR code de pré-demande, et le timbre fiscal si vous ne l'avez pas payé en ligne : les empreintes sont prises sur place. Le passeport n'est pas fabriqué sur place : vous le retirez dans la même mairie, dans les 3 mois.",
+        "en": "You can go to any town hall with a registration station, not only the one where you live; many only see people by appointment. On the day, come in person (a child comes with their parent or guardian) with the original documents, the pre-application number or QR code, and the tax stamp if you have not paid it online: fingerprints are taken there. The passport is not made on site: you collect it at the same town hall, within 3 months."
+      },
+      "link": {
+        "title": {
+          "fr": "Chercher un rendez-vous",
+          "en": "Search for an appointment"
+        },
+        "url": "https://rendezvouspasseport.ants.gouv.fr/"
+      },
+      "condition": {
+        "question": "passport_country",
+        "equals": "french"
+      },
+      "sources": [
+        "sp_majeur_premiere",
+        "sp_majeur_renouvellement",
+        "sp_majeur_perte",
+        "sp_majeur_vol",
+        "sp_mineur_premiere",
+        "sp_mineur_renouvellement",
+        "sp_mineur_perte",
+        "sp_mineur_vol",
+        "ants_premiere",
+        "sp_timbre"
+      ]
+    },
+    {
+      "id": "home_country_consulate",
+      "where": "consulate",
+      "title": {
+        "fr": "Contacter l'ambassade ou le consulat de votre pays en France",
+        "en": "Contact your country's embassy or consulate in France"
+      },
+      "body": {
+        "fr": "La France ne délivre pas les passeports des autres pays : la demande se fait auprès de l'ambassade ou du consulat de votre pays en France. Les pièces, le prix et le délai sont fixés par votre pays : consultez le site de votre consulat. En cas de perte ou de vol, la préfecture des Bouches-du-Rhône parle d'une déclaration de perte ou de vol faite au consulat et d'une attestation de demande de renouvellement : gardez-les pour votre titre de séjour.",
+        "en": "France does not issue other countries' passports: you apply at your country's embassy or consulate in France. The documents, price and time are set by your country: check your consulate's website. If it was lost or stolen, the Bouches-du-Rhône prefecture mentions a loss or theft report made at the consulate and a certificate of passport renewal application: keep them for your residence permit."
+      },
+      "link": {
+        "title": {
+          "fr": "Trouver l'ambassade ou le consulat de votre pays",
+          "en": "Find your country's embassy or consulate"
+        },
+        "url": "https://www.diplomatie.gouv.fr/fr/services/j-ai-une-question/annuaire-et-contacts/representations-etrangeres"
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "passport_country",
+            "equals": "other"
+          },
+          {
+            "question": "foreign_situation",
+            "in": [
+              "expired",
+              "lost_stolen"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "dipl_faq",
+        "dipl_annuaire",
+        "pref_bdr_pieces"
+      ]
+    },
+    {
+      "id": "travel_document_anef",
+      "where": "online",
+      "title": {
+        "fr": "Demander le titre de voyage sur l'ANEF",
+        "en": "Apply for the travel document on ANEF"
+      },
+      "body": {
+        "fr": "Si vous êtes réfugié, protégé subsidiaire ou apatride, la demande se fait en ligne, dans la rubrique « Je demande un document de voyage ». D'après service-public, ce document permet de sortir de France puis d'y revenir ; il indique les pays interdits, en général le pays d'origine.",
+        "en": "If you are a refugee, a beneficiary of subsidiary protection or stateless, you apply online, in the section \"Je demande un document de voyage\" (I request a travel document). According to service-public, this document lets you leave France and come back; it lists the forbidden countries, usually the country of origin."
+      },
+      "link": {
+        "title": {
+          "fr": "Ouvrir le site de l'ANEF",
+          "en": "Open the ANEF website"
+        },
+        "url": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/"
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "passport_country",
+            "equals": "other"
+          },
+          {
+            "question": "foreign_situation",
+            "equals": "protection"
+          }
+        ]
+      },
+      "sources": [
+        "sp_refugie",
+        "sp_protection_subsidiaire",
+        "sp_apatride"
+      ]
+    }
   ]
 }

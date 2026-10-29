@@ -2700,5 +2700,83 @@
     "Polygamie : question posée seulement si l'époux est concerné ; formulation reprise de la fiche. Mayotte (3 ans, titre de 5 ans) et regroupement « famille accompagnante » (carte talent, F35308 non lue) : non traités.",
     "Réfugiés : la redirection vers la réunification familiale repose sur F35158 (22/04/2026). F11168 (21/05/2024) renvoie à un dépliant Ofpra (ofpra.gouv.fr, domaine hors liste, non consulté).",
     "Conjoint de Français : F16162 (09/10/2026) et F11168. Pas de page France-Visas consultée pour ce visa. Contacts et courriers repris de help.json (non relu) ; file_followup rattaché à l'attente de la décision du préfet."
+  ],
+  "appointments": [
+    {
+      "id": "ofii_application",
+      "where": "ofii",
+      "title": {
+        "fr": "Envoyer la demande à l'Ofii",
+        "en": "Send the application to Ofii"
+      },
+      "body": {
+        "fr": "La demande s'envoie à l'Ofii : sur internet, avec un compte créé avec votre numéro étranger, ou sur papier (formulaire cerfa n°11436 et pièces) en recommandé avec accusé de réception à la direction territoriale de l'Ofii, dont l'adresse est dans une annexe du formulaire. Choisissez un seul mode d'envoi et gardez une copie du dossier. Si le dossier est complet, l'Ofii vous remet une attestation de dépôt et informe le préfet ; s'il est incomplet, il vous le renvoie.",
+        "en": "The application is sent to Ofii: online, with an account created with your foreigner number, or on paper (form cerfa no. 11436 and documents) by registered post with acknowledgement of receipt to the Ofii regional office, whose address is in an appendix to the form. Choose only one way of sending and keep a copy of the file. If the file is complete, Ofii gives you a filing certificate and informs the prefect; if not, it sends it back to you."
+      },
+      "link": {
+        "title": {
+          "fr": "Faire la demande en ligne",
+          "en": "Apply online"
+        },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R68987"
+      },
+      "condition": {
+        "question": "nationality_group",
+        "in": [
+          "algerian",
+          "morocco_tunisia",
+          "africa_agreement",
+          "other"
+        ]
+      },
+      "sources": [
+        "sp_r68987",
+        "sp_f11166",
+        "sp_r1251"
+      ]
+    },
+    {
+      "id": "family_visa_consulate",
+      "where": "consulate",
+      "title": {
+        "fr": "Pour la famille : le visa au consulat de France",
+        "en": "For your family: the visa at the French consulate"
+      },
+      "body": {
+        "fr": "Dès la délivrance de l'attestation de dépôt, transmettez-la à votre famille avec les pièces d'état civil. Votre époux ou épouse demande alors sans délai un visa de long séjour au consulat de France. La famille doit entrer en France dans les 3 mois suivant la délivrance des visas ; le voyage est à sa charge.",
+        "en": "As soon as the filing certificate is issued, send it to your family with the civil status documents. Your spouse then applies without delay for a long-stay visa at the French consulate. The family must enter France within 3 months of the visas being issued; they pay for the journey."
+      },
+      "link": {
+        "title": {
+          "fr": "Le visa de long séjour",
+          "en": "The long-stay visa"
+        },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F16162"
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "nationality_group",
+            "in": [
+              "algerian",
+              "morocco_tunisia",
+              "africa_agreement",
+              "other"
+            ]
+          },
+          {
+            "question": "family_location",
+            "in": [
+              "home_country",
+              "other_country"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_f11166",
+        "sp_f16162"
+      ]
+    }
   ]
 }
