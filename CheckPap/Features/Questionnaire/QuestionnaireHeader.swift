@@ -2,13 +2,13 @@ import SwiftUI
 
 /// En-tête du questionnaire : nom de la démarche, "Question 2 sur 7", barre de progression.
 struct QuestionnaireHeader: View {
-    let procedure: Procedure
+    let title: LocalizedText
     let model: QuestionnaireModel
 
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
             HStack {
-                ContentText(procedure.title)
+                ContentText(title)
                     .font(.subheadline.weight(.semibold))
                     .foregroundStyle(.secondary)
                     .lineLimit(1)

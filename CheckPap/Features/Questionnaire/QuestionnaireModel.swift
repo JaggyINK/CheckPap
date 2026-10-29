@@ -2,9 +2,12 @@ import Foundation
 import Observation
 
 /// Logique du questionnaire, séparée de l'affichage (comme un hook `useQuestionnaire()` en React).
+/// Sert aux démarches et au profil de "Mes droits" : seule la liste de questions change.
 @Observable
 final class QuestionnaireModel {
-    let procedure: Procedure
+    let questions: [Question]
+    /// Orientation qui arrête le questionnaire (démarches seulement).
+    private let redirect: ([String: String]) -> Outcome?
     var answers: [String: String] = [:]
     private(set) var index = 0
     private(set) var isReviewing = false
@@ -13,12 +16,17 @@ final class QuestionnaireModel {
     /// Sens de la dernière navigation, pour animer l'entrée de la question depuis le bon côté.
     private(set) var movingForward = true
 
-    init(procedure: Procedure) {
-        self.procedure = procedure
+    init(questions: [Question], redirect: @escaping ([String: String]) -> Outcome? = { _ in nil }) {
+        self.questions = questions
+        self.redirect = redirect
+    }
+
+    convenience init(procedure: Procedure) {
+        self.init(questions: procedure.questions) { RulesEngine.redirect(in: procedure, answers: $0) }
     }
 
     var visibleQuestions: [Question] {
-        RulesEngine.visibleQuestions(in: procedure, answers: answers)
+        RulesEngine.visibleQuestions(questions, answers: answers)
     }
 
     var current: Question? {
@@ -44,13 +52,13 @@ final class QuestionnaireModel {
         guard let current else { return }
         answers[current.id] = value
         // Une réponse peut rendre d'autres questions hors sujet : on retire leurs réponses.
-        answers = RulesEngine.effectiveAnswers(in: procedure, answers: answers)
+        answers = RulesEngine.effectiveAnswers(questions, answers: answers)
     }
 
     func next() {
         movingForward = true
-        if let redirect = RulesEngine.redirect(in: procedure, answers: answers) {
-            outcome = redirect
+        if let outcome = redirect(answers) {
+            self.outcome = outcome
             return
         }
         if index + 1 < visibleQuestions.count {
@@ -74,8 +82,16 @@ final class QuestionnaireModel {
 
     /// Reprise de réponses déjà enregistrées : on ouvre directement le récapitulatif.
     func resume(with saved: [String: String]) {
-        answers = RulesEngine.effectiveAnswers(in: procedure, answers: saved)
+        answers = RulesEngine.effectiveAnswers(questions, answers: saved)
         isReviewing = true
+        outcome = nil
+    }
+
+    /// Reprendre des réponses existantes en repartant de la première question (modification du profil).
+    func restart(with saved: [String: String]) {
+        answers = RulesEngine.effectiveAnswers(questions, answers: saved)
+        index = 0
+        isReviewing = false
         outcome = nil
     }
 

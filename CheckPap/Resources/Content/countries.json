@@ -113,7 +113,8 @@
     "Îles Cook : la page \"Vivre en Nouvelle-Zélande\" du site de l'ambassade compétente concerne un autre pays ; non ajoutée.",
     "Îles Marshall : la page \"Vivre ou venir aux Philippines\" du site de l'ambassade compétente concerne un autre pays ; non ajoutée.",
     "Îles Marshall : pas de page Conseils aux voyageurs détaillée liée depuis la fiche pays ; le lien pointe vers la page Dernières minutes et alertes (issue de l'index).",
-    "Îles Salomon : la page \"Vivre ou venir au Vanuatu\" du site de l'ambassade compétente concerne un autre pays ; non ajoutée."
+    "Îles Salomon : la page \"Vivre ou venir au Vanuatu\" du site de l'ambassade compétente concerne un autre pays ; non ajoutée.",
+    "29/10/2026 : liens d'ambassades étrangères en http passés en https quand le site répond en https, sinon retirés : DZ (https), AM (retiré), AU (https), BB (https), BE (https), BF (retiré), ET (https), GY (retiré), LA (https), MW (https), NA (https), NE (https), LK (retiré), SY (https)."
   ],
   "countries": [
     {
@@ -261,7 +262,7 @@
             "fr": "Ambassade d’Algérie",
             "en": "Embassy in France: Algeria"
           },
-          "url": "http://www.amb-algerie.fr"
+          "url": "https://www.amb-algerie.fr"
         }
       ]
     },
@@ -542,13 +543,6 @@
             "en": "Living in the country: Armenia (French embassy)"
           },
           "url": "https://am.diplomatie.gouv.fr/fr/vivre-venir"
-        },
-        {
-          "title": {
-            "fr": "Ambassade d’Arménie",
-            "en": "Embassy in France: Armenia"
-          },
-          "url": "http://www.france.mfa.am/fr/"
         }
       ]
     },
@@ -594,7 +588,7 @@
             "fr": "Ambassade d’Australie",
             "en": "Embassy in France: Australia"
           },
-          "url": "http://www.france.embassy.gov.au"
+          "url": "https://www.france.embassy.gov.au"
         }
       ]
     },
@@ -821,7 +815,7 @@
             "fr": "Ambassade de la Barbade en France",
             "en": "Embassy in France: Barbados"
           },
-          "url": "http://www.foreign.gov.bb/"
+          "url": "https://www.foreign.gov.bb/"
         }
       ]
     },
@@ -867,7 +861,7 @@
             "fr": "Ambassade de Belgique",
             "en": "Embassy in France: Belgium"
           },
-          "url": "http://france.diplomatie.belgium.be"
+          "url": "https://france.diplomatie.belgium.be"
         }
       ]
     },
@@ -1329,13 +1323,6 @@
             "en": "Living in the country: Burkina Faso (French embassy)"
           },
           "url": "https://bf.diplomatie.gouv.fr/vivre-venir"
-        },
-        {
-          "title": {
-            "fr": "Ambassade du Burkina Faso en France",
-            "en": "Embassy in France: Burkina Faso"
-          },
-          "url": "http://ambaburkina-fr.org/"
         }
       ]
     },
@@ -2522,7 +2509,7 @@
             "fr": "Ambassade d’Éthiopie",
             "en": "Embassy in France: Ethiopia"
           },
-          "url": "http://ambassade-ethiopie.fr/index.html"
+          "url": "https://ambassade-ethiopie.fr/index.html"
         }
       ]
     },
@@ -2984,13 +2971,6 @@
             "en": "Living in the country: Guyana (French embassy)"
           },
           "url": "https://gy.diplomatie.gouv.fr/fr/vivre-venir"
-        },
-        {
-          "title": {
-            "fr": "Ambassade du Guyana en France",
-            "en": "Embassy in France: Guyana"
-          },
-          "url": "http://guyanahclondon.co.uk/"
         }
       ]
     },
@@ -3948,7 +3928,7 @@
             "fr": "Ambassade du Laos",
             "en": "Embassy in France: Laos"
           },
-          "url": "http://www.ambalaos-france.com/home"
+          "url": "https://www.ambalaos-france.com/home"
         }
       ]
     },
@@ -4455,7 +4435,7 @@
             "fr": "Ambassade du Malawi en résidence à Bruxelles",
             "en": "Embassy in France: Malawi"
           },
-          "url": "http://www.embassymalawi.be"
+          "url": "https://www.embassymalawi.be"
         }
       ]
     },
@@ -5004,7 +4984,7 @@
             "fr": "Ambassade de Namibie",
             "en": "Embassy in France: Namibia"
           },
-          "url": "http://www.embassyofnamibia.fr"
+          "url": "https://www.embassyofnamibia.fr"
         }
       ]
     },
@@ -5139,7 +5119,7 @@
             "fr": "Ambassade du Niger",
             "en": "Embassy in France: Niger"
           },
-          "url": "http://www.ambassadeniger-fr.org/"
+          "url": "https://www.ambassadeniger-fr.org/"
         }
       ]
     },
@@ -6832,13 +6812,6 @@
             "en": "Living in the country: Sri Lanka (French embassy)"
           },
           "url": "https://lk.diplomatie.gouv.fr/fr/vivre-venir"
-        },
-        {
-          "title": {
-            "fr": "Ambassade du Sri Lanka",
-            "en": "Embassy in France: Sri Lanka"
-          },
-          "url": "http://www.srilankaembassy.fr"
         }
       ]
     },
@@ -6994,7 +6967,7 @@
             "fr": "Ambassade de Syrie",
             "en": "Embassy in France: Syria"
           },
-          "url": "http://www.ambassadesyrie.fr/"
+          "url": "https://www.ambassadesyrie.fr/"
         }
       ]
     },

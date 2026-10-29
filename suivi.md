@@ -71,10 +71,23 @@ Dernière mise à jour du plan : 29/10/2026.
 - Fiches pratiques "Comment l'obtenir ?" (e-photo, timbre fiscal, traduction, casier judiciaire...) reliées aux pièces et aux étapes.
 - Nouvelles démarches en cours de rédaction : passeport (français ou étranger), visa pour venir en France, voyager de la France vers l'étranger.
 
+**29/10/2026 (fin de journée)**
+- Navigation en 4 onglets : Actualités (première page), Démarches, Mes droits, Mes dossiers. Barre d'onglets Liquid Glass sur iOS 26.
+- Démarches rangées en catégories et sous-catégories, avec recherche : S'expatrier, Séjour, Nationalité, Identité et voyages, Vie en France.
+- 16 démarches : renouvellement, changement de titre, naturalisation, duplicata, passeport, visa pour la France, voyage hors de France, changement d'adresse ou de situation, document de circulation pour mineur, nationalité par mariage, regroupement familial, première déclaration d'impôts, carte d'identité, Visale, échange de permis, préparer son départ à l'étranger.
+- Titres des démarches reformulés (verbe d'action, première personne, nom administratif en sous-titre).
+- Actualités : 21 articles sourcés (lois, décrets, taxes, aides), filtres par thème.
+- Mes droits (1 étranger, 1 solution) : questionnaire page par page, puis 31 droits et aides sourcés.
+- S'expatrier : 200 fiches pays (liens vérifiés), 20 fiches détaillées (motifs de départ, visas, coûts), programme vacances-travail selon l'âge, budget repère en fourchette (allocation VIE pour le bas, barème des missions de l'État pour le haut) en euros et en monnaie locale (taux DGFiP du 1er octobre 2026).
+- Lettre "impossible de faire la démarche en ligne" corrigée : elle cite exactement la décision du Conseil d'État n° 502860 (rappel du principe, pas d'injonction nationale).
+- Garde-fou "promesse" affiné ("Garantie Visale" autorisé) ; liens d'ambassades passés en https.
+- 36 tests verts.
+- Historique Git : auteur des commits remplacé par le compte GitHub JaggyINK.
+
 ## Feuille de route après la v1 (demandes de l'utilisatrice)
 
-- [ ] **Annuaire des consulats par nationalité et par lieu** : pour un passeport étranger, indiquer le consulat compétent selon le pays et le département de la personne. Nécessite une source structurée et maintenue (liste des représentations étrangères en France) et l'écran de choix du département (tâche 3.5).
-- [ ] **Onglet "1 étranger 1 solution"** : les droits des étrangers selon leur situation (santé, logement, travail, aides, scolarité, recours...), sur le modèle de "1 jeune 1 solution". Même principe que les démarches : quelques questions, puis les droits et aides qui correspondent, chacun sourcé, avec les services à contacter.
+- [ ] **Annuaire des consulats par nationalité et par lieu** (les fiches pays donnent déjà le lien vers l'ambassade du pays en France) : pour un passeport étranger, indiquer le consulat compétent selon le pays et le département de la personne. Nécessite une source structurée et maintenue (liste des représentations étrangères en France) et l'écran de choix du département (tâche 3.5).
+- [x] **Onglet "1 étranger 1 solution"** (première version faite le 29/10/2026) : les droits des étrangers selon leur situation (santé, logement, travail, aides, scolarité, recours...), sur le modèle de "1 jeune 1 solution". Même principe que les démarches : quelques questions, puis les droits et aides qui correspondent, chacun sourcé, avec les services à contacter.
 
 ---
 
@@ -2167,3 +2180,7 @@ git tag v1.0.0 && git push --tags
 25. Préfecture de police de Paris : traitement à part (son organisation diffère des autres préfectures) ?
 26. Outre-mer : inclus dès la v1 ? Certaines règles du CESEDA y sont adaptées ; à confirmer par l'inventaire.
 27. Fréquence de mise à jour de l'annuaire des préfectures (régénération depuis l'annuaire officiel à chaque version de contenu ?).
+
+- [ ] **Actualités automatiques** : tâche planifiée (GitHub Actions) qui lit l'API Légifrance (compte PISTE à créer) et les actualités de service-public, propose des brouillons d'articles en pull request, publication après validation humaine ; l'app télécharge `news.json` en ligne.
+- [ ] **Traductions** : passer en anglais tous les nouveaux textes de l'interface (String Catalog).
+- [ ] **Relecture humaine** de tout le contenu (statut "draft") et vérification des délais après le décret n°2026-1001.

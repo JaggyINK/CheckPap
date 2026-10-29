@@ -22,7 +22,7 @@ struct QuestionnaireView: View {
 
     var body: some View {
         VStack(spacing: 0) {
-            QuestionnaireHeader(procedure: procedure, model: model)
+            QuestionnaireHeader(title: procedure.title, model: model)
             ZStack {
                 if let outcome = model.outcome {
                     OutcomeScreen(procedure: procedure, outcome: outcome, onBack: goBack)
