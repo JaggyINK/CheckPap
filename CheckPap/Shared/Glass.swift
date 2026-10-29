@@ -36,15 +36,34 @@ extension View {
     }
 }
 
-/// Fond discret de l'app : un léger dégradé de la couleur d'accent,
-/// pour que l'effet verre ait quelque chose à réfracter.
+/// Fond de l'app : un dégradé doux menthe et sarcelle en haut, qui se fond dans le fond système.
+/// Le verre a besoin de couleurs derrière lui pour être visible.
 struct AppBackground: View {
     var body: some View {
-        LinearGradient(
-            colors: [Color.accentColor.opacity(0.18), Color(.systemBackground)],
-            startPoint: .top,
-            endPoint: .center
-        )
+        Group {
+            if #available(iOS 18.0, *) {
+                MeshGradient(
+                    width: 3,
+                    height: 3,
+                    points: [
+                        [0, 0], [0.5, 0], [1, 0],
+                        [0, 0.45], [0.6, 0.35], [1, 0.5],
+                        [0, 1], [0.5, 1], [1, 1],
+                    ],
+                    colors: [
+                        Brand.mint.opacity(0.45), Brand.teal.opacity(0.30), Brand.mint.opacity(0.25),
+                        Brand.mint.opacity(0.15), Color(.systemBackground), Brand.teal.opacity(0.12),
+                        Color(.systemBackground), Color(.systemBackground), Brand.mint.opacity(0.10),
+                    ]
+                )
+            } else {
+                LinearGradient(
+                    colors: [Brand.mint.opacity(0.35), Color(.systemBackground)],
+                    startPoint: .top,
+                    endPoint: .center
+                )
+            }
+        }
         .ignoresSafeArea()
     }
 }

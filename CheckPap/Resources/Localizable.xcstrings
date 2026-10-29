@@ -1,59 +1,126 @@
 {
-  "sourceLanguage" : "fr",
-  "strings" : {
-    "Check Pap" : {
-      "shouldTranslate" : false
-    },
-    "Choisissez votre situation, répondez à quelques questions et retrouvez les pièces demandées par la préfecture." : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Choose your situation, answer a few questions and find the documents requested by the prefecture."
+  "sourceLanguage": "fr",
+  "strings": {
+    "Changer de statut": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Change my status"
           }
         }
       }
     },
-    "En préparation" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Coming soon"
+    "Choisissez votre situation, répondez à quelques questions et retrouvez les pièces demandées par la préfecture.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choose your situation, answer a few questions and find the documents requested by the prefecture."
           }
         }
       }
     },
-    "La liste des démarches arrive bientôt." : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "The list of procedures is on its way."
+    "Demande de duplicata": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Duplicate request"
           }
         }
       }
     },
-    "Service indépendant. Les démarches officielles sont gratuites." : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Independent service. Government procedures are free of charge."
+    "Demander la nationalité française": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apply for French citizenship"
           }
         }
       }
     },
-    "Vos démarches, une étape à la fois." : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Your paperwork, one step at a time."
+    "Mon titre arrive bientôt à expiration": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "My permit expires soon"
+          }
+        }
+      }
+    },
+    "Naturalisation par décret": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Naturalisation by decree"
+          }
+        }
+      }
+    },
+    "Par exemple d'étudiant à salarié": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "For example, from student to employee"
+          }
+        }
+      }
+    },
+    "Quelle est votre démarche ?": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "What do you need to do?"
+          }
+        }
+      }
+    },
+    "Remplacer un titre perdu ou volé": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Replace a lost or stolen permit"
+          }
+        }
+      }
+    },
+    "Renouveler mon titre de séjour": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Renew my residence permit"
+          }
+        }
+      }
+    },
+    "Service indépendant. Les démarches officielles sont gratuites.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Independent service. Government procedures are free of charge."
+          }
+        }
+      }
+    },
+    "Vos démarches, une étape à la fois.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your paperwork, one step at a time."
           }
         }
       }
     }
   },
-  "version" : "1.0"
+  "version": "1.0"
 }
