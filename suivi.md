@@ -32,7 +32,7 @@ Dernière mise à jour du plan : 29/10/2026.
 | 0 | 9 | 3 h 30 |
 | 1 | 5 | 3 h 30 |
 | 2 | 8 | 11 h |
-| 3 | 4 | 4 h 30 |
+| 3 | 5 | 6 h |
 | 4 | 7 | 10 h |
 | 5 | 6 | 8 h |
 | 6 | 6 | 8 h |
@@ -41,7 +41,7 @@ Dernière mise à jour du plan : 29/10/2026.
 | 9 | 6 | 8 h |
 | 10 | 9 | 9 h |
 | 11 | 7 | 5 h (+ délais Apple) |
-| **Total** | **77** | **environ 80 h** |
+| **Total** | **78** | **environ 82 h** |
 
 ---
 
@@ -52,7 +52,8 @@ Dernière mise à jour du plan : 29/10/2026.
 - Le projet a été créé **par fichiers** au lieu de l'assistant Xcode (tâche 1.1 adaptée) : `CheckPap.xcodeproj` avec dossiers synchronisés, cible app + cible de tests, schéma partagé.
 - Réglages appliqués (tâche 1.2) : iOS 17, iPhone, portrait, nom affiché "Check Pap", version 0.1.0 build 1, signature automatique, chiffrement non soumis à déclaration. **Reste à faire à la main : choisir la Team dans Signing & Capabilities et vérifier le bundle ID** (provisoire : `com.jaggyink.checkpap`).
 - Premier écran en Liquid Glass, mention d'indépendance, String Catalog fr/en, premier test : compilation et tests OK sur iPhone 18 Pro (iOS 27.1).
-- Inventaire des sources officielles du Val-de-Marne en cours : `docs/sources/inventaire-demarches.md`.
+- Inventaire des sources officielles en cours : `docs/sources/inventaire-demarches.md`.
+- **Changement de périmètre : l'app couvre toute la France**, plus seulement le Val-de-Marne. Plan, README et recherche de sources adaptés.
 - À faire : installer un simulateur iOS 17 (tâche 0.4), et choisir la Team dans Xcode (tâche 0.7).
 
 ---
@@ -80,9 +81,13 @@ Ces décisions sont prises. On ne les remet pas en question pendant la v1.
 - Notifications locales de rappel.
 
 **Périmètre de la version 1** (mis à jour le 29/10/2026)
-- Plusieurs démarches au choix, préfecture du Val-de-Marne : changement de statut, renouvellement, première demande, naturalisation, etc. La liste exacte dépend de l'inventaire des sources (tâche 2.0).
+- **Toute la France** : n'importe quel étranger, quel que soit son département, peut utiliser l'app.
+- Plusieurs démarches au choix : changement de statut, renouvellement, première demande, naturalisation, etc. La liste exacte dépend de l'inventaire des sources (tâche 2.0).
+- Le contenu est en deux couches : un **socle national** (règles, conditions et pièces communes, issues de l'ANEF, de service-public.fr et de Légifrance) et des **précisions locales par préfecture** (rendez-vous, sous-préfecture compétente, pièces ou modalités propres au département).
+- L'utilisateur indique son département (ou son code postal) ; l'app lui associe sa préfecture.
+- Si les précisions locales d'une préfecture n'ont pas encore été vérifiées, l'app l'affiche clairement et renvoie vers le site de cette préfecture. On n'invente jamais une règle locale.
 - Parcours : choix de la langue au premier lancement, puis **choix de la démarche**, puis QCM propre à cette démarche, puis liste personnalisée des documents à fournir, avec liens officiels et explication de la prise de rendez-vous.
-- **Toute information vient des sources officielles** : site de la préfecture du Val-de-Marne en priorité, puis les sites nationaux vers lesquels elle renvoie (ANEF, service-public.fr, Légifrance, OFII). Chaque question, condition et pièce du JSON porte au moins une source (URL + date de consultation). Un test bloque tout élément sans source ou dont la source est hors de ces domaines.
+- **Toute information vient des sources officielles** : sites nationaux (ANEF, service-public.fr, Légifrance, OFII, interieur.gouv.fr) pour le socle, sites des préfectures (*.gouv.fr) pour les précisions locales, annuaire de l'administration (service-public.fr / data.gouv.fr) pour les coordonnées. Chaque question, condition et pièce du JSON porte au moins une source (URL + date de consultation). Un test bloque tout élément sans source ou dont la source est hors de ces domaines.
 
 **Design**
 - Épuré, style Apple "Liquid Glass" (iOS 26+), avec repli automatique sur des matériaux translucides pour iOS 17 à 25.
@@ -573,10 +578,12 @@ Principe central : **deux types de données bien séparés**.
 
 - [ ] **2.0 Inventaire des sources officielles**
 
-**Objectif :** savoir, source par source, quelles démarches la préfecture du Val-de-Marne propose et ce qu'elle exige, avant d'écrire une seule ligne de contenu.
+**Objectif :** savoir, source par source, quelles démarches existent au niveau national, ce que chacune exige, et ce qui change d'une préfecture à l'autre, avant d'écrire une seule ligne de contenu.
 
 **Étapes :**
-1. (Recherche) Parcourir le site de la préfecture du Val-de-Marne, rubrique étrangers, puis les pages ANEF, service-public.fr et Légifrance vers lesquelles il renvoie.
+1. (Recherche) Établir le socle national à partir de l'ANEF, de service-public.fr et de Légifrance (CESEDA, Code civil pour la nationalité).
+   Puis comparer plusieurs préfectures (Val-de-Marne, Paris, Rhône, Bouches-du-Rhône...) pour lister ce qui varie localement.
+   Enfin, identifier la source officielle de l'annuaire des préfectures et sous-préfectures.
 2. Pour chaque démarche : canal (ANEF en ligne, rendez-vous, courrier), conditions citées mot pour mot, liste des pièces, délais, coût, URL et date de consultation.
 3. (À la main) Relire l'inventaire, cliquer sur chaque lien, signaler ce qui est faux ou manquant.
 4. Choisir les démarches de la v1 à partir de cet inventaire.
@@ -600,7 +607,10 @@ Principe central : **deux types de données bien séparés**.
 **Étapes (en documentation, pas de Swift) :**
 1. Créer `docs/content-schema.md` décrivant :
    - `catalog.json` : `schemaVersion`, `contentVersion`, liste des démarches disponibles.
-   - `procedures/student-status-change-94.json` : identifiant, titre, description, préfecture, `lastVerified`, sources, questions, documents, explication de la prise de rendez-vous, échéances.
+   - `procedures/<id>.json` (un fichier par démarche, socle national) : identifiant, titre, description, `lastVerified`, sources, questions, documents, échéances.
+   - `prefectures/index.json` : liste de toutes les préfectures et sous-préfectures (code département, nom, site, coordonnées, codes postaux ou communes couverts), générée depuis l'annuaire officiel.
+   - `prefectures/<code-departement>.json` (seulement pour les préfectures vérifiées) : prise de rendez-vous, sous-préfecture compétente selon la commune, pièces ou conditions locales qui s'ajoutent au socle, `lastVerified`, sources.
+   - Règle de fusion : liste finale = socle national + ajouts locaux. Une précision locale peut ajouter ou préciser une pièce, jamais en retirer une sans source.
    - `consulates.json` : pays, ville, adresse, téléphone, site, `lastVerified`.
 2. Définir un type "texte traduit" commun : un objet `{ "fr": "...", "en": "..." }`. Ajouter une langue = ajouter une clé, sans toucher au code.
 3. Définir le format des conditions, purement déclaratif, par exemple :
@@ -641,7 +651,7 @@ for f in CheckPap/Resources/Content/**/*.json CheckPap/Resources/Content/*.json;
 done
 ```
 
-**Fichiers créés :** `Resources/Content/catalog.json`, `Resources/Content/procedures/student-status-change-94.json`, `Resources/Content/consulates.json`.
+**Fichiers créés :** `Resources/Content/catalog.json`, `Resources/Content/procedures/*.json`, `Resources/Content/prefectures/index.json`, `Resources/Content/prefectures/94.json` (premier exemple local), `Resources/Content/consulates.json`.
 
 **Concept :** les fichiers ajoutés à la cible sont copiés dans le "bundle" de l'app, l'équivalent du dossier `public/` d'un projet web : accessibles en lecture à l'exécution.
 
@@ -660,7 +670,7 @@ done
 2. Créer `Condition` comme un `enum` récursif (voir concept).
 3. Rendre tout `Decodable`, `Identifiable` (champ `id`) et `Hashable`.
 4. Ajouter à `LocalizedText` une méthode `resolved(for languageCode:)` avec repli sur le français si la traduction manque.
-5. Écrire une Preview ou un petit test qui décode `student-status-change-94.json`.
+5. Écrire une Preview ou un petit test qui décode un fichier de démarche et le fichier local `prefectures/94.json`.
 
 **Commandes :** aucune.
 
@@ -783,7 +793,7 @@ done
 
 ## Phase 3 : écran de choix de la langue
 
-Objectif de la phase : au premier lancement, l'utilisateur choisit sa langue ; il peut la changer plus tard dans l'app ; l'interface est prête pour l'arabe.
+Objectif de la phase : au premier lancement, l'utilisateur choisit sa langue puis son département ; il peut la changer plus tard dans l'app ; l'interface est prête pour l'arabe.
 
 - [ ] **3.1 Créer le gestionnaire de langue**
 
@@ -875,6 +885,29 @@ Objectif de la phase : au premier lancement, l'utilisateur choisit sa langue ; i
 **Terminé quand :** en pseudo-langue droite à gauche, tous les écrans existants sont correctement miroités.
 
 **Durée :** 30 min (à refaire à la fin de chaque phase d'interface).
+
+---
+
+- [ ] **3.5 Choix du département**
+
+**Objectif :** associer l'utilisateur à sa préfecture, n'importe où en France.
+
+**Étapes (en code) :**
+1. Dans `Features/Onboarding/`, créer `DepartmentPickerView` : recherche par numéro, nom de département ou code postal (`.searchable`), liste issue de `prefectures/index.json`.
+2. Enregistrer le département choisi (`@AppStorage`), modifiable dans les réglages.
+3. Si la commune relève d'une sous-préfecture, le proposer d'après l'annuaire.
+4. Afficher pour la préfecture choisie : "Précisions locales vérifiées le ..." ou "Précisions locales pas encore vérifiées : consultez le site de la préfecture" avec le lien.
+5. Aucune localisation GPS : saisie manuelle uniquement (pas de permission à demander, rien ne sort du téléphone).
+
+**Commandes :** aucune.
+
+**Fichiers créés :** `Features/Onboarding/DepartmentPickerView.swift`.
+
+**Concept :** filtrer une liste pendant la saisie avec une propriété calculée, comme un `filter` sur un état `query` en React. Le résultat de la sélection est une simple chaîne ("94") stockée comme dans `localStorage`.
+
+**Terminé quand :** on peut choisir n'importe quel département de métropole et d'outre-mer, et l'état de vérification locale s'affiche.
+
+**Durée :** 1 h 30
 
 ---
 
@@ -2108,3 +2141,9 @@ git tag v1.0.0 && git push --tags
 21. Adresse email de contact dédiée pour l'assistance ?
 22. Qui conçoit l'icône et la palette de couleurs ?
 23. Le nom "Check Pap" ("pap" pour "papiers") reste-t-il identique en anglais et dans les futures langues ?
+
+**Couverture nationale**
+24. Dans quel ordre vérifier les précisions locales des 101 préfectures (par nombre de demandes ? par département des premiers utilisateurs ?) et qui s'en charge ?
+25. Préfecture de police de Paris : traitement à part (son organisation diffère des autres préfectures) ?
+26. Outre-mer : inclus dès la v1 ? Certaines règles du CESEDA y sont adaptées ; à confirmer par l'inventaire.
+27. Fréquence de mise à jour de l'annuaire des préfectures (régénération depuis l'annuaire officiel à chaque version de contenu ?).

@@ -1,6 +1,6 @@
 # Check Pap
 
-Application iOS (SwiftUI, iOS 17 minimum) d'aide aux démarches de séjour des étrangers en France, préfecture du Val-de-Marne.
+Application iOS (SwiftUI, iOS 17 minimum) d'aide aux démarches de séjour des étrangers en France, utilisable dans tous les départements (métropole et outre-mer).
 
 Service indépendant. Les démarches officielles sont gratuites.
 
