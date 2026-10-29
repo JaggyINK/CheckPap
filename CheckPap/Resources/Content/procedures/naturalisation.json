@@ -355,6 +355,29 @@
       ]
     },
     {
+      "id": "residence_permit_expiry",
+      "kind": "date",
+      "title": {
+        "fr": "Jusqu'à quelle date votre titre de séjour est-il valable ?",
+        "en": "Until what date is your residence permit valid?"
+      },
+      "help": {
+        "fr": "Service-public.fr demande un titre de séjour en cours de validité au moment du dépôt de la demande.",
+        "en": "Service-public.fr requires a residence permit that is valid on the day you apply."
+      },
+      "example": {
+        "fr": "Exemple : la date de fin de validité est écrite au recto de votre carte de séjour.",
+        "en": "Example: the expiry date is printed on the front of your residence card."
+      },
+      "condition": {
+        "question": "eu_national",
+        "equals": "no"
+      },
+      "sources": [
+        "sp_f2213"
+      ]
+    },
+    {
       "id": "language_proof",
       "kind": "single",
       "title": {
@@ -395,8 +418,8 @@
         {
           "id": "language_test",
           "label": {
-            "fr": "Test TCF ou TEF réussi il y a moins de 2 ans",
-            "en": "TCF or TEF test passed less than 2 years ago"
+            "fr": "Attestation TCF ou TEF de niveau B2",
+            "en": "TCF or TEF certificate at B2 level"
           }
         },
         {
@@ -407,14 +430,25 @@
           }
         },
         {
-          "id": "exemption",
+          "id": "exemption_health",
           "label": {
-            "fr": "Je pense être dispensé(e)",
-            "en": "I think I am exempt"
+            "fr": "Ma santé ou un handicap rend l'évaluation impossible",
+            "en": "My health or a disability makes testing impossible"
           },
           "help": {
-            "fr": "Dispense possible si votre santé ou un handicap rend l'évaluation impossible, ou si vous êtes réfugié ou apatride, avez plus de 70 ans et résidez en France depuis au moins 15 ans avec un titre valide.",
-            "en": "Possible exemption if your health or a disability makes testing impossible, or if you are a refugee or stateless, over 70, and have lived in France for at least 15 years with a valid permit."
+            "fr": "Un certificat médical est alors demandé.",
+            "en": "A medical certificate is then required."
+          }
+        },
+        {
+          "id": "exemption_refugee_senior",
+          "label": {
+            "fr": "Réfugié ou apatride de plus de 70 ans, en France depuis 15 ans ou plus",
+            "en": "Refugee or stateless, over 70, in France for 15 years or more"
+          },
+          "help": {
+            "fr": "Les 3 conditions doivent être réunies : réfugié ou apatride, plus de 70 ans, au moins 15 ans de résidence en France avec un titre valide.",
+            "en": "All 3 conditions must be met: refugee or stateless, over 70, at least 15 years in France with a valid permit."
           }
         }
       ],
@@ -422,6 +456,29 @@
       "sources": [
         "sp_f11926",
         "sp_simulateur"
+      ]
+    },
+    {
+      "id": "language_test_date",
+      "kind": "date",
+      "title": {
+        "fr": "À quelle date votre attestation TCF ou TEF a-t-elle été délivrée ?",
+        "en": "On what date was your TCF or TEF certificate issued?"
+      },
+      "help": {
+        "fr": "L'attestation TCF ou TEF doit avoir été délivrée depuis moins de 2 ans.",
+        "en": "The TCF or TEF certificate must have been issued less than 2 years ago."
+      },
+      "example": {
+        "fr": "Exemple : la date de délivrance figure sur l'attestation de résultats.",
+        "en": "Example: the issue date is shown on the results certificate."
+      },
+      "condition": {
+        "question": "language_proof",
+        "equals": "language_test"
+      },
+      "sources": [
+        "sp_f11926"
       ]
     },
     {
@@ -666,24 +723,26 @@
       "id": "previous_union",
       "kind": "yesNo",
       "title": {
-        "fr": "Avez-vous déjà été marié(e) ou pacsé(e) avant votre union actuelle ?",
-        "en": "Were you married or in a PACS before your current relationship?"
+        "fr": "Avez-vous eu un autre mariage ou un Pacs qui a pris fin ?",
+        "en": "Have you had another marriage or a PACS that ended?"
       },
       "help": {
-        "fr": "Si oui, les pièces sur chaque mariage précédent et sa fin sont demandées.",
-        "en": "If so, documents about each previous marriage and how it ended are required."
+        "fr": "Si oui, les actes de ces unions et la preuve de leur fin sont demandés (divorce, répudiation, dissolution du Pacs).",
+        "en": "If so, the records of these unions and proof they ended are required (divorce, repudiation, PACS dissolution)."
       },
       "example": {
-        "fr": "Exemple : vous avez divorcé en 2015, puis vous vous êtes remarié en 2020. Vous répondez « Oui ».",
-        "en": "Example: you divorced in 2015, then remarried in 2020. Answer \"Yes\"."
+        "fr": "Exemple : vous avez rompu un Pacs en 2018 et vous êtes célibataire aujourd'hui. Vous répondez « Oui ».",
+        "en": "Example: you ended a PACS in 2018 and are single today. Answer \"Yes\"."
       },
       "condition": {
         "question": "family_status",
         "in": [
+          "single",
           "married",
           "pacs",
           "cohabiting",
-          "separated"
+          "separated",
+          "widowed"
         ]
       },
       "sources": [
@@ -908,6 +967,9 @@
         "sp_f32952",
         "sp_simulateur",
         "pref_rhone_nationalite"
+      ],
+      "guides": [
+        "fiscal_stamp"
       ]
     },
     {
@@ -989,6 +1051,11 @@
       "sources": [
         "sp_f34741",
         "sp_simulateur"
+      ],
+      "guides": [
+        "civil_status_france",
+        "sworn_translation",
+        "legalisation_apostille"
       ]
     },
     {
@@ -1006,6 +1073,10 @@
       "sources": [
         "sp_f34741",
         "sp_simulateur"
+      ],
+      "guides": [
+        "sworn_translation",
+        "legalisation_apostille"
       ]
     },
     {
@@ -1026,6 +1097,10 @@
       "sources": [
         "sp_f34741",
         "sp_simulateur"
+      ],
+      "guides": [
+        "sworn_translation",
+        "legalisation_apostille"
       ]
     },
     {
@@ -1067,6 +1142,10 @@
       "sources": [
         "sp_f34741",
         "sp_simulateur"
+      ],
+      "guides": [
+        "sworn_translation",
+        "legalisation_apostille"
       ]
     },
     {
@@ -1095,6 +1174,11 @@
       "sources": [
         "sp_f2213",
         "sp_simulateur"
+      ],
+      "guides": [
+        "criminal_record",
+        "sworn_translation",
+        "legalisation_apostille"
       ]
     },
     {
@@ -1118,6 +1202,11 @@
       "sources": [
         "sp_f34758",
         "sp_simulateur"
+      ],
+      "guides": [
+        "civil_status_france",
+        "sworn_translation",
+        "legalisation_apostille"
       ]
     },
     {
@@ -1245,6 +1334,10 @@
       "sources": [
         "sp_f34777",
         "sp_simulateur"
+      ],
+      "guides": [
+        "sworn_translation",
+        "legalisation_apostille"
       ]
     },
     {
@@ -1264,6 +1357,11 @@
       },
       "sources": [
         "sp_f34777"
+      ],
+      "guides": [
+        "civil_status_france",
+        "sworn_translation",
+        "legalisation_apostille"
       ]
     },
     {
@@ -1288,6 +1386,11 @@
       "sources": [
         "sp_f34764",
         "sp_simulateur"
+      ],
+      "guides": [
+        "civil_status_france",
+        "sworn_translation",
+        "legalisation_apostille"
       ]
     },
     {
@@ -1369,6 +1472,9 @@
       "sources": [
         "sp_f34745",
         "sp_simulateur"
+      ],
+      "guides": [
+        "proof_of_address"
       ]
     },
     {
@@ -1389,6 +1495,9 @@
       "sources": [
         "sp_f34745",
         "sp_simulateur"
+      ],
+      "guides": [
+        "proof_of_address"
       ]
     },
     {
@@ -1409,6 +1518,9 @@
       "sources": [
         "sp_f34745",
         "sp_simulateur"
+      ],
+      "guides": [
+        "proof_of_address"
       ]
     },
     {
@@ -1426,6 +1538,9 @@
       "sources": [
         "sp_f34746",
         "sp_simulateur"
+      ],
+      "guides": [
+        "tax_documents"
       ]
     },
     {
@@ -1447,6 +1562,9 @@
       "sources": [
         "sp_f34746",
         "sp_simulateur"
+      ],
+      "guides": [
+        "tax_documents"
       ]
     },
     {
@@ -1607,6 +1725,9 @@
       "sources": [
         "sp_f34746",
         "sp_simulateur"
+      ],
+      "guides": [
+        "tax_documents"
       ]
     },
     {
@@ -1720,6 +1841,9 @@
         "sp_f11926",
         "sp_simulateur",
         "pref_rhone_nationalite"
+      ],
+      "guides": [
+        "language_certificate"
       ]
     },
     {
@@ -1743,6 +1867,9 @@
       "sources": [
         "sp_f11926",
         "sp_simulateur"
+      ],
+      "guides": [
+        "language_certificate"
       ]
     },
     {
@@ -1753,8 +1880,8 @@
         "en": "Medical certificate for language exemption"
       },
       "details": {
-        "fr": "Certificat médical qui atteste que votre handicap ou votre état de santé rend impossible toute évaluation linguistique. Si vous êtes dispensé parce que vous êtes réfugié ou apatride, avez plus de 70 ans et résidez en France depuis au moins 15 ans avec un titre valide, aucun justificatif de langue n'est demandé.",
-        "en": "Medical certificate stating that your disability or health makes any language assessment impossible. If you are exempt because you are a refugee or stateless, over 70 and have lived in France for at least 15 years with a valid permit, no language proof is required."
+        "fr": "Certificat médical qui atteste que votre handicap ou votre état de santé rend impossible toute évaluation linguistique.",
+        "en": "Medical certificate stating that your disability or health makes any language assessment impossible."
       },
       "tip": {
         "fr": "Le service instructeur peut demander une nouvelle expertise médicale.",
@@ -1762,7 +1889,7 @@
       },
       "condition": {
         "question": "language_proof",
-        "equals": "exemption"
+        "equals": "exemption_health"
       },
       "sources": [
         "sp_f11926",
@@ -1791,6 +1918,9 @@
         "sp_f2213",
         "sp_f39426",
         "sp_simulateur"
+      ],
+      "guides": [
+        "civic_exam"
       ]
     },
     {
@@ -1949,6 +2079,9 @@
       "sources": [
         "sp_f11926",
         "pref_rhone_nationalite"
+      ],
+      "guides": [
+        "language_certificate"
       ]
     },
     {
@@ -1973,7 +2106,10 @@
         "any": [
           {
             "question": "language_proof",
-            "equals": "exemption"
+            "in": [
+              "exemption_health",
+              "exemption_refugee_senior"
+            ]
           },
           {
             "question": "protection_status",
@@ -2012,6 +2148,9 @@
       },
       "sources": [
         "sp_f39426"
+      ],
+      "guides": [
+        "civic_exam"
       ]
     },
     {
@@ -2037,6 +2176,10 @@
         "sp_f2213",
         "sp_f12956",
         "sp_f1402"
+      ],
+      "guides": [
+        "sworn_translation",
+        "legalisation_apostille"
       ]
     },
     {
@@ -2086,6 +2229,10 @@
         "sp_r60835",
         "sp_f2213",
         "sp_f32952"
+      ],
+      "guides": [
+        "anef_account",
+        "fiscal_stamp"
       ]
     },
     {
@@ -2110,6 +2257,10 @@
       "sources": [
         "sp_r60835",
         "sp_f2213"
+      ],
+      "guides": [
+        "anef_account",
+        "prefecture_appointment"
       ]
     },
     {
@@ -2180,6 +2331,9 @@
       "condition": null,
       "sources": [
         "sp_f2213"
+      ],
+      "guides": [
+        "prefecture_appointment"
       ]
     },
     {
@@ -2307,7 +2461,10 @@
     "Pièces sans condition, gardées car demandées à toutes les personnes d'après F2213 (liste « Envoi en ligne ») et le simulateur : timbre fiscal, pièce d'identité, acte de naissance, justificatif de naissance des parents, avis d'imposition, bordereau P237. Exception constatée : la rubrique « micro-entrepreneur » de F34746 ne liste ni avis d'imposition ni P237, alors que le simulateur les affiche toujours ; gardés sans condition, à vérifier.",
     "Justificatif de nationalité : masqué pour les apatrides (déduction : F34741 parle de la nationalité « concernant votre pays d'origine » ; aucune source ne traite le cas apatride). Le simulateur ne l'a affiché dans aucun des 3 profils testés, alors que F34741 le liste : à vérifier.",
     "Parents : les sources ne distinguent pas une naissance des parents en France ou à l'étranger ; seule la preuve du mariage dépend de leur situation (« s'ils sont mariés »). Nouvelle question parents_married.",
-    "Impôts : aucune source ne prévoit de pièce différente pour une personne non imposable (l'avis « de non-imposition » ou Asdir est accepté) ; pour l'étudiant à la charge de ses parents, F34746 demande le dernier avis d'imposition des parents (question supported_by_parents)."
+    "Impôts : aucune source ne prévoit de pièce différente pour une personne non imposable (l'avis « de non-imposition » ou Asdir est accepté) ; pour l'étudiant à la charge de ses parents, F34746 demande le dernier avis d'imposition des parents (question supported_by_parents).",
+    "Revue du parcours (29/10/2026) : ajout d'une question date sur la fin de validité du titre de séjour (redirection si expiré, d'après F2213) et d'une question date sur l'attestation TCF/TEF (avertissement si plus de 2 ans, d'après F11926). L'option « dispensé » de la langue est scindée en deux cas sourcés ; le certificat médical n'est plus demandé au cas réfugié/apatride de plus de 70 ans. La question sur une union précédente est aussi posée aux célibataires et veufs (rupture de Pacs ou divorce antérieur, F34777).",
+    "Âge : aucune question sur l'âge (18 ans, dépôt dès 17 ans ; plus de 70 ans pour la dispense de langue). L'app suppose une personne majeure ; la condition d'âge est seulement rappelée dans l'étape « conditions de base ».",
+    "Guides : identifiants repris de help.json (rédigé par une autre personne, non relu). Aucune e-photo n'est citée par les sources pour la demande en ligne ; le guide ephoto n'est donc pas utilisé."
   ],
   "outcomes": [
     {
@@ -2397,6 +2554,96 @@
       "sources": [
         "sp_f2213",
         "sp_f2726"
+      ]
+    },
+    {
+      "id": "permit_expired",
+      "kind": "redirect",
+      "condition": {
+        "question": "residence_permit_expiry",
+        "daysFromToday": {
+          "max": -1
+        }
+      },
+      "title": {
+        "fr": "Un titre de séjour valide est demandé au dépôt",
+        "en": "A valid residence permit is required when you apply"
+      },
+      "body": {
+        "fr": "D'après service-public.fr, vous devez avoir un titre de séjour en cours de validité au moment du dépôt de la demande de naturalisation (sauf UE, EEE et Suisse). D'après la date indiquée, votre titre est expiré.",
+        "en": "According to service-public.fr, you must have a valid residence permit when you file the naturalisation application (except EU, EEA and Switzerland). Based on the date you entered, your permit has expired."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Régulariser d'abord votre titre de séjour",
+            "en": "Sort out your residence permit first"
+          },
+          "body": {
+            "fr": "Renseignez-vous sur le renouvellement de votre titre, puis revenez à cette démarche quand vous aurez un titre valide. Si vous avez fait une erreur de date, modifiez votre réponse.",
+            "en": "Find out about renewing your permit, then come back to this procedure once you have a valid permit. If you entered the wrong date, change your answer."
+          },
+          "link": {
+            "title": {
+              "fr": "Revoir les conditions",
+              "en": "Review the conditions"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2213"
+          }
+        }
+      ],
+      "contacts": [
+        "prefecture_directory",
+        "france_services",
+        "point_justice"
+      ],
+      "letters": [],
+      "sources": [
+        "sp_f2213"
+      ]
+    },
+    {
+      "id": "language_test_too_old",
+      "kind": "warning",
+      "condition": {
+        "question": "language_test_date",
+        "daysFromToday": {
+          "max": -731
+        }
+      },
+      "title": {
+        "fr": "Votre attestation TCF ou TEF a plus de 2 ans",
+        "en": "Your TCF or TEF certificate is more than 2 years old"
+      },
+      "body": {
+        "fr": "D'après service-public.fr, l'attestation TCF ou TEF doit avoir été délivrée depuis moins de 2 ans. Avec la date indiquée, elle a plus de 2 ans.",
+        "en": "According to service-public.fr, the TCF or TEF certificate must have been issued less than 2 years ago. With the date you entered, it is more than 2 years old."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Repasser un test ou fournir un diplôme",
+            "en": "Retake a test or provide a diploma"
+          },
+          "body": {
+            "fr": "Un nouveau test de niveau B2, ou un diplôme français accepté (brevet, niveau 3 ou plus), peut servir de justificatif.",
+            "en": "A new B2 test, or an accepted French diploma (brevet, level 3 or higher), can be used as proof."
+          },
+          "link": {
+            "title": {
+              "fr": "Justifier son niveau en français",
+              "en": "Proving your French level"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F11926"
+          }
+        }
+      ],
+      "contacts": [
+        "france_services"
+      ],
+      "letters": [],
+      "sources": [
+        "sp_f11926"
       ]
     },
     {
@@ -2493,16 +2740,39 @@
       "id": "language_exemption_check",
       "kind": "warning",
       "condition": {
-        "question": "language_proof",
-        "equals": "exemption"
+        "all": [
+          {
+            "question": "language_proof",
+            "equals": "exemption_refugee_senior"
+          },
+          {
+            "any": [
+              {
+                "not": {
+                  "question": "protection_status",
+                  "in": [
+                    "refugee",
+                    "stateless"
+                  ]
+                }
+              },
+              {
+                "not": {
+                  "question": "residence_length",
+                  "equals": "15_plus"
+                }
+              }
+            ]
+          }
+        ]
       },
       "title": {
-        "fr": "Dispense de justificatif de français : vérifiez votre cas",
-        "en": "Exemption from French proof: check your case"
+        "fr": "Dispense de justificatif de français : vos réponses ne correspondent pas",
+        "en": "Exemption from French proof: your answers do not match"
       },
       "body": {
-        "fr": "D'après service-public.fr, la dispense concerne deux cas : un handicap ou un état de santé qui rend l'évaluation impossible (certificat médical à fournir), ou une personne réfugiée ou apatride, de plus de 70 ans, qui réside en France depuis au moins 15 ans avec un titre valide. Le service instructeur peut demander une nouvelle expertise médicale.",
-        "en": "According to service-public.fr, the exemption covers two cases: a disability or health condition that makes testing impossible (medical certificate required), or a refugee or stateless person over 70 who has lived in France for at least 15 years with a valid permit. The office may ask for a new medical assessment."
+        "fr": "D'après service-public.fr, cette dispense demande 3 conditions réunies : être réfugié ou apatride, avoir plus de 70 ans, et résider en France depuis au moins 15 ans avec un titre valide. Vos réponses sur le statut ou la durée de résidence ne correspondent pas à ce cas. L'autre dispense concerne un état de santé qui rend l'évaluation impossible, avec un certificat médical.",
+        "en": "According to service-public.fr, this exemption requires all 3 conditions: being a refugee or stateless, being over 70, and having lived in France for at least 15 years with a valid permit. Your answers about status or residence period do not match this case. The other exemption covers a health condition that makes testing impossible, with a medical certificate."
       },
       "actions": [
         {

@@ -92,4 +92,22 @@ struct RulesEngineTests {
         let passport = try #require(procedure.documents.first { $0.id == "passport" })
         #expect(RulesEngine.reasons(for: passport.condition, in: procedure, answers: [:]).isEmpty)
     }
+
+    @Test(arguments: [
+        ("2026-10-28", true, false),   // hier : déjà expiré
+        ("2026-11-15", false, true),   // dans 17 jours
+        ("2027-06-01", false, false),  // dans plus de 3 mois
+    ])
+    func dateConditionsCompareWithToday(expiry: String, expired: Bool, soon: Bool) throws {
+        let today = try #require(DayDate.parse("2026-10-29"))
+        let answers = ["expiry": expiry]
+        #expect(RulesEngine.isSatisfied(.daysFromToday(question: "expiry", min: nil, max: -1), answers: answers, today: today) == expired)
+        #expect(RulesEngine.isSatisfied(.daysFromToday(question: "expiry", min: 0, max: 89), answers: answers, today: today) == soon)
+    }
+
+    @Test func dateConditionDecodesFromJSON() throws {
+        let json = #"{ "question": "expiry", "daysFromToday": { "max": -1 } }"#
+        let condition = try JSONDecoder().decode(Condition.self, from: Data(json.utf8))
+        #expect(condition == .daysFromToday(question: "expiry", min: nil, max: -1))
+    }
 }

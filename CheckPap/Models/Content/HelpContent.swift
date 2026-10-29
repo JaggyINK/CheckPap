@@ -5,6 +5,7 @@ struct HelpContent: Decodable {
     let sources: [Source]
     let contacts: [Contact]
     let letters: [LetterTemplate]
+    let guides: [PracticalGuide]?
 
     func contacts(for ids: [String]?) -> [Contact] {
         (ids ?? []).compactMap { id in contacts.first { $0.id == id } }
@@ -12,6 +13,10 @@ struct HelpContent: Decodable {
 
     func letters(for ids: [String]?) -> [LetterTemplate] {
         (ids ?? []).compactMap { id in letters.first { $0.id == id } }
+    }
+
+    func guides(for ids: [String]?) -> [PracticalGuide] {
+        (ids ?? []).compactMap { id in guides?.first { $0.id == id } }
     }
 
     func sources(for ids: [String]) -> [Source] {
@@ -47,5 +52,18 @@ struct LetterTemplate: Decodable, Identifiable, Hashable {
     let summary: LocalizedText
     let fields: [String]
     let attachments: LocalizedText?
+    let sources: [String]
+}
+
+/// Fiche "Comment l'obtenir ?" : où aller, quoi faire, combien ça coûte, liens pour agir.
+struct PracticalGuide: Decodable, Identifiable, Hashable {
+    let id: String
+    let symbol: String?
+    let title: LocalizedText
+    let summary: LocalizedText
+    let steps: [LocalizedText]
+    let cost: LocalizedText?
+    let tip: LocalizedText?
+    let links: [StepLink]?
     let sources: [String]
 }

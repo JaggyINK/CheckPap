@@ -126,6 +126,73 @@
   ],
   "questions": [
     {
+      "id": "document_type",
+      "kind": "single",
+      "title": {
+        "fr": "Quel document faut-il remplacer ?",
+        "en": "Which document do you need to replace?"
+      },
+      "help": {
+        "fr": "Le prix du duplicata dépend du type de carte et de sa mention. Si vous avez gardé une photo ou une copie de la carte, la durée et la mention y sont écrites.",
+        "en": "The price of the duplicate depends on the type of card and what it says on it. If you kept a photo or a copy of the card, the length and the purpose are written on it."
+      },
+      "example": {
+        "fr": "Exemple : une carte valable 1 an avec la mention \"étudiant\" est une carte de séjour d'1 an.",
+        "en": "Example: a card valid for 1 year marked \"étudiant\" (student) is a 1-year residence card."
+      },
+      "options": [
+        {
+          "id": "card_1y",
+          "label": {
+            "fr": "Carte de séjour d'1 an",
+            "en": "1-year residence card"
+          },
+          "help": {
+            "fr": "Y compris le certificat de résidence pour Algérien d'1 an.",
+            "en": "This includes the 1-year residence certificate for Algerians."
+          }
+        },
+        {
+          "id": "card_multi",
+          "label": {
+            "fr": "Carte de séjour pluriannuelle (plus d'1 an)",
+            "en": "Multi-year residence card (more than 1 year)"
+          }
+        },
+        {
+          "id": "resident_10y",
+          "label": {
+            "fr": "Carte de résident de 10 ans",
+            "en": "10-year resident card"
+          },
+          "help": {
+            "fr": "Y compris le certificat de résidence de 10 ans pour Algérien.",
+            "en": "This includes the 10-year residence certificate for Algerians."
+          }
+        },
+        {
+          "id": "retired_10y",
+          "label": {
+            "fr": "Carte retraité ou conjoint de retraité de 10 ans",
+            "en": "10-year retired person or spouse of retired person card"
+          }
+        },
+        {
+          "id": "dcem",
+          "label": {
+            "fr": "Document de circulation pour mon enfant mineur (DCEM)",
+            "en": "Travel document for my minor child (DCEM)"
+          }
+        }
+      ],
+      "condition": null,
+      "sources": [
+        "sp_perte",
+        "sp_vol",
+        "pref_maine_et_loire_dcem"
+      ]
+    },
+    {
       "id": "what_happened",
       "kind": "single",
       "title": {
@@ -198,10 +265,20 @@
         }
       ],
       "condition": {
-        "question": "what_happened",
-        "in": [
-          "lost",
-          "stolen"
+        "all": [
+          {
+            "not": {
+              "question": "document_type",
+              "equals": "dcem"
+            }
+          },
+          {
+            "question": "what_happened",
+            "in": [
+              "lost",
+              "stolen"
+            ]
+          }
         ]
       },
       "sources": [
@@ -210,86 +287,19 @@
       ]
     },
     {
-      "id": "document_type",
-      "kind": "single",
+      "id": "permit_expiry_date",
+      "kind": "date",
       "title": {
-        "fr": "Quel document faut-il remplacer ?",
-        "en": "Which document do you need to replace?"
+        "fr": "Quelle est la date de fin de validité de votre carte ?",
+        "en": "What is the expiry date of your card?"
       },
       "help": {
-        "fr": "Le prix du duplicata dépend du type de carte et de sa mention. Si vous avez gardé une photo ou une copie de la carte, la durée et la mention y sont écrites.",
-        "en": "The price of the duplicate depends on the type of card and what it says on it. If you kept a photo or a copy of the card, the length and the purpose are written on it."
+        "fr": "Le duplicata garde les mêmes dates que l'ancienne carte. Si la carte est déjà expirée, vous pouvez choisir une date passée. Selon la préfecture du Rhône, si la carte expire dans moins de 90 jours, l'ANEF oriente vers un renouvellement.",
+        "en": "The duplicate keeps the same dates as the old card. If the card has already expired, you can pick a past date. According to the Rhône prefecture, if the card expires in less than 90 days, ANEF sends you to a renewal instead."
       },
       "example": {
-        "fr": "Exemple : une carte valable 1 an avec la mention \"étudiant\" est une carte de séjour d'1 an.",
-        "en": "Example: a card valid for 1 year marked \"étudiant\" (student) is a 1-year residence card."
-      },
-      "options": [
-        {
-          "id": "card_1y",
-          "label": {
-            "fr": "Carte de séjour d'1 an",
-            "en": "1-year residence card"
-          },
-          "help": {
-            "fr": "Y compris le certificat de résidence pour Algérien d'1 an.",
-            "en": "This includes the 1-year residence certificate for Algerians."
-          }
-        },
-        {
-          "id": "card_multi",
-          "label": {
-            "fr": "Carte de séjour pluriannuelle (plus d'1 an)",
-            "en": "Multi-year residence card (more than 1 year)"
-          }
-        },
-        {
-          "id": "resident_10y",
-          "label": {
-            "fr": "Carte de résident de 10 ans",
-            "en": "10-year resident card"
-          },
-          "help": {
-            "fr": "Y compris le certificat de résidence de 10 ans pour Algérien.",
-            "en": "This includes the 10-year residence certificate for Algerians."
-          }
-        },
-        {
-          "id": "retired_10y",
-          "label": {
-            "fr": "Carte retraité ou conjoint de retraité de 10 ans",
-            "en": "10-year retired person or spouse of retired person card"
-          }
-        },
-        {
-          "id": "dcem",
-          "label": {
-            "fr": "Document de circulation pour mon enfant mineur (DCEM)",
-            "en": "Travel document for my minor child (DCEM)"
-          }
-        }
-      ],
-      "condition": null,
-      "sources": [
-        "sp_perte",
-        "sp_vol",
-        "pref_maine_et_loire_dcem"
-      ]
-    },
-    {
-      "id": "expires_soon",
-      "kind": "yesNo",
-      "title": {
-        "fr": "Votre carte expire-t-elle dans moins de 3 mois ?",
-        "en": "Does your card expire in less than 3 months?"
-      },
-      "help": {
-        "fr": "Le duplicata garde les mêmes dates que l'ancienne carte. Les préfectures des Bouches-du-Rhône, de Corrèze et de Loire-Atlantique parlent de 3 mois ; la préfecture du Rhône parle de 90 jours. En dessous, elles orientent vers un renouvellement.",
-        "en": "The duplicate keeps the same dates as the old card. The Bouches-du-Rhône, Corrèze and Loire-Atlantique prefectures mention 3 months; the Rhône prefecture mentions 90 days. Below that, they point you to a renewal."
-      },
-      "example": {
-        "fr": "Exemple : nous sommes le 29 octobre et votre carte expirait le 15 janvier : répondez oui.",
-        "en": "Example: today is 29 October and your card expired on 15 January: answer yes."
+        "fr": "Exemple : vous trouvez cette date sur une copie de la carte, ou dans votre espace ANEF si vous l'avez demandée en ligne.",
+        "en": "Example: you can find this date on a copy of the card, or in your ANEF account if you applied online."
       },
       "condition": {
         "not": {
@@ -303,30 +313,6 @@
         "pref_bdr_pieces",
         "pref_correze",
         "pref_loire_atlantique"
-      ]
-    },
-    {
-      "id": "permit_expiry_date",
-      "kind": "date",
-      "title": {
-        "fr": "Quelle était la date de fin de validité de votre carte ?",
-        "en": "What was the expiry date of your card?"
-      },
-      "help": {
-        "fr": "Cette date sert à vous montrer à partir de quand un renouvellement remplacerait le duplicata.",
-        "en": "This date is used to show you from when a renewal would replace the duplicate."
-      },
-      "example": {
-        "fr": "Exemple : vous trouvez cette date sur une copie de la carte, ou dans votre espace ANEF si vous l'avez demandée en ligne.",
-        "en": "Example: you can find this date on a copy of the card, or in your ANEF account if you applied online."
-      },
-      "condition": {
-        "question": "expires_soon",
-        "equals": "no"
-      },
-      "sources": [
-        "sp_perte",
-        "pref_rhone_faq"
       ]
     },
     {
@@ -549,6 +535,9 @@
         "sp_perte",
         "pref_loire_atlantique",
         "pref_haute_vienne"
+      ],
+      "guides": [
+        "loss_theft_report"
       ]
     },
     {
@@ -586,6 +575,9 @@
       },
       "sources": [
         "sp_perte"
+      ],
+      "guides": [
+        "loss_theft_report"
       ]
     },
     {
@@ -628,6 +620,9 @@
       "sources": [
         "sp_vol",
         "sp_plainte"
+      ],
+      "guides": [
+        "loss_theft_report"
       ]
     },
     {
@@ -665,6 +660,9 @@
       },
       "sources": [
         "sp_vol"
+      ],
+      "guides": [
+        "loss_theft_report"
       ]
     },
     {
@@ -783,6 +781,9 @@
       },
       "sources": [
         "pref_bdr_pieces"
+      ],
+      "guides": [
+        "loss_theft_report"
       ]
     },
     {
@@ -828,6 +829,9 @@
         "sp_perte",
         "sp_vol",
         "pref_bdr_pieces"
+      ],
+      "guides": [
+        "proof_of_address"
       ]
     },
     {
@@ -870,6 +874,9 @@
       "sources": [
         "sp_vol",
         "sp_perte"
+      ],
+      "guides": [
+        "proof_of_address"
       ]
     },
     {
@@ -893,6 +900,9 @@
       },
       "sources": [
         "pref_bdr_pieces"
+      ],
+      "guides": [
+        "proof_of_address"
       ]
     },
     {
@@ -923,6 +933,9 @@
       "sources": [
         "sp_perte",
         "sp_vol"
+      ],
+      "guides": [
+        "ephoto"
       ]
     },
     {
@@ -959,6 +972,9 @@
         "sp_perte",
         "sp_vol",
         "sp_timbre"
+      ],
+      "guides": [
+        "fiscal_stamp"
       ]
     },
     {
@@ -995,6 +1011,9 @@
         "sp_perte",
         "sp_vol",
         "sp_timbre"
+      ],
+      "guides": [
+        "fiscal_stamp"
       ]
     },
     {
@@ -1031,6 +1050,9 @@
         "sp_perte",
         "sp_vol",
         "sp_timbre"
+      ],
+      "guides": [
+        "fiscal_stamp"
       ]
     },
     {
@@ -1067,6 +1089,9 @@
         "sp_perte",
         "sp_vol",
         "sp_timbre"
+      ],
+      "guides": [
+        "fiscal_stamp"
       ]
     },
     {
@@ -1125,8 +1150,18 @@
         "en": "The Loire-Atlantique prefecture suggests checking lost and found offices before asking for a duplicate. Once you apply, the old card is no longer valid, and this cannot be undone."
       },
       "condition": {
-        "question": "what_happened",
-        "equals": "lost"
+        "all": [
+          {
+            "question": "what_happened",
+            "equals": "lost"
+          },
+          {
+            "not": {
+              "question": "document_type",
+              "equals": "dcem"
+            }
+          }
+        ]
       },
       "sources": [
         "pref_loire_atlantique",
@@ -1167,6 +1202,9 @@
         "sp_vol",
         "sp_plainte",
         "sp_plainte_en_ligne"
+      ],
+      "guides": [
+        "loss_theft_report"
       ]
     },
     {
@@ -1195,6 +1233,9 @@
       "sources": [
         "sp_perte",
         "pref_haute_vienne"
+      ],
+      "guides": [
+        "loss_theft_report"
       ]
     },
     {
@@ -1215,6 +1256,9 @@
       "sources": [
         "sp_perte",
         "sp_vol"
+      ],
+      "guides": [
+        "loss_theft_report"
       ]
     },
     {
@@ -1249,8 +1293,10 @@
         "en": "The duplicate keeps the same dates as the old card and does not renew it. According to the Rhône prefecture, if your card expires in less than 90 days, ANEF sends you to the renewal process. The Bouches-du-Rhône, Corrèze and Loire-Atlantique prefectures mention 3 months. The loss or theft report is then added to your renewal file."
       },
       "condition": {
-        "question": "expires_soon",
-        "equals": "no"
+        "question": "permit_expiry_date",
+        "daysFromToday": {
+          "min": 90
+        }
       },
       "sources": [
         "sp_perte",
@@ -1307,6 +1353,10 @@
         "pref_loire_atlantique",
         "pref_seine_maritime",
         "sp_adresse"
+      ],
+      "guides": [
+        "proof_of_address",
+        "anef_account"
       ]
     },
     {
@@ -1329,6 +1379,9 @@
       "sources": [
         "sp_perte",
         "sp_vol"
+      ],
+      "guides": [
+        "ephoto"
       ]
     },
     {
@@ -1365,6 +1418,9 @@
       ],
       "letters": [
         "cannot_use_online"
+      ],
+      "guides": [
+        "anef_account"
       ]
     },
     {
@@ -1394,6 +1450,9 @@
       ],
       "letters": [
         "cannot_use_online"
+      ],
+      "guides": [
+        "anef_account"
       ]
     },
     {
@@ -1415,6 +1474,9 @@
       ],
       "letters": [
         "cannot_use_online"
+      ],
+      "guides": [
+        "anef_account"
       ]
     },
     {
@@ -1435,6 +1497,9 @@
       "letters": [
         "receipt_request",
         "file_followup"
+      ],
+      "guides": [
+        "anef_account"
       ]
     },
     {
@@ -1476,6 +1541,9 @@
         "sp_perte",
         "sp_vol",
         "sp_timbre"
+      ],
+      "guides": [
+        "fiscal_stamp"
       ]
     },
     {
@@ -1526,6 +1594,10 @@
       },
       "sources": [
         "sp_etat_civil"
+      ],
+      "guides": [
+        "civil_status_france",
+        "anef_account"
       ]
     }
   ],
@@ -1534,8 +1606,11 @@
       "id": "renewal_more_suitable",
       "kind": "redirect",
       "condition": {
-        "question": "expires_soon",
-        "equals": "yes"
+        "question": "permit_expiry_date",
+        "daysFromToday": {
+          "min": 0,
+          "max": 89
+        }
       },
       "title": {
         "fr": "Un renouvellement semble plus adapté qu'un duplicata",
@@ -1595,6 +1670,57 @@
         "pref_bdr_pieces",
         "pref_correze",
         "pref_loire_atlantique"
+      ]
+    },
+    {
+      "id": "permit_already_expired",
+      "kind": "warning",
+      "condition": {
+        "question": "permit_expiry_date",
+        "daysFromToday": {
+          "max": -1
+        }
+      },
+      "title": {
+        "fr": "Votre carte est déjà expirée",
+        "en": "Your card has already expired"
+      },
+      "body": {
+        "fr": "D'après service-public, le duplicata porte les mêmes dates de validité que la carte perdue ou volée. Les sources consultées ne décrivent pas le cas d'une carte déjà expirée. Les préfectures des Bouches-du-Rhône, de Corrèze et de Loire-Atlantique orientent vers un renouvellement quand la carte expire dans moins de 3 mois.",
+        "en": "According to service-public, the duplicate has the same validity dates as the lost or stolen card. The sources we checked do not describe the case of a card that has already expired. The Bouches-du-Rhône, Corrèze and Loire-Atlantique prefectures point to a renewal when the card expires in less than 3 months."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Demander à la préfecture ou au support de l'ANEF",
+            "en": "Ask the prefecture or the ANEF support"
+          },
+          "body": {
+            "fr": "Avant de déposer, demandez quelle démarche faire dans votre situation. Le support de l'ANEF répond au 0 806 001 620.",
+            "en": "Before applying, ask which process fits your situation. The ANEF support answers at 0 806 001 620."
+          },
+          "link": {
+            "title": {
+              "fr": "Ouvrir le site de l'ANEF",
+              "en": "Open the ANEF website"
+            },
+            "url": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/"
+          }
+        }
+      ],
+      "contacts": [
+        "anef_contact",
+        "prefecture_directory",
+        "france_services"
+      ],
+      "letters": [],
+      "sources": [
+        "sp_perte",
+        "sp_vol",
+        "pref_bdr_pieces",
+        "pref_correze",
+        "pref_loire_atlantique",
+        "pref_cotes_darmor"
       ]
     },
     {
@@ -1717,6 +1843,58 @@
         "sp_plainte",
         "sp_plainte_en_ligne"
       ]
+    },
+    {
+      "id": "dcem_damaged",
+      "kind": "warning",
+      "condition": {
+        "all": [
+          {
+            "question": "document_type",
+            "equals": "dcem"
+          },
+          {
+            "question": "what_happened",
+            "equals": "damaged"
+          }
+        ]
+      },
+      "title": {
+        "fr": "DCEM abîmé : peu d'informations disponibles",
+        "en": "Damaged DCEM: little information available"
+      },
+      "body": {
+        "fr": "La préfecture de Maine-et-Loire parle du duplicata de DCEM après perte ou vol, à demander en ligne. Les sources consultées ne décrivent pas le cas d'un DCEM abîmé.",
+        "en": "The Maine-et-Loire prefecture describes a DCEM duplicate after loss or theft, requested online. The sources we checked do not describe the case of a damaged DCEM."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Se renseigner avant de déposer",
+            "en": "Ask before applying"
+          },
+          "body": {
+            "fr": "Contactez le support de l'ANEF ou votre préfecture.",
+            "en": "Contact the ANEF support or your prefecture."
+          },
+          "link": {
+            "title": {
+              "fr": "Ouvrir le site de l'ANEF",
+              "en": "Open the ANEF website"
+            },
+            "url": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/"
+          }
+        }
+      ],
+      "contacts": [
+        "anef_contact",
+        "prefecture_directory"
+      ],
+      "letters": [],
+      "sources": [
+        "pref_maine_et_loire_dcem",
+        "pref_cotes_darmor"
+      ]
     }
   ],
   "deadlines": [
@@ -1755,7 +1933,10 @@
     "Plainte en ligne : R19620 « Vérifié le 23 octobre 2024 » ; F1435 « Vérifié le 08 juillet 2026 » confirme le service (atteinte aux biens, auteur inconnu). Le lien masecurite.interieur.gouv.fr est celui donné par service-public.",
     "Européens et membres de leur famille : démarche différente selon F21032 (renvoi vers F847, non relu ici). Non couvert par ce fichier.",
     "Délai de fabrication du duplicata (cartes de séjour) : non trouvé dans les sources consultées.",
-    "Seuil du renouvellement : les conditions ne comparent pas les dates. Une question oui/non « moins de 3 mois » (expires_soon) déclenche l'orientation ; la date n'est demandée que si la réponse est non, pour l'échéance -90 jours.",
-    "Identifiants contacts et letters (anef_contact, prefecture_directory, france_services, cannot_use_online, receipt_request, file_followup) : définis dans help.json par une autre personne, non relus ici. point_justice et defenseur_des_droits non utilisés : aucune source consultée ne les relie à cette démarche."
+    "Identifiants contacts et letters (anef_contact, prefecture_directory, france_services, cannot_use_online, receipt_request, file_followup) : définis dans help.json par une autre personne, non relus ici. point_justice et defenseur_des_droits non utilisés : aucune source consultée ne les relie à cette démarche.",
+    "Seuil du renouvellement : condition daysFromToday {min:0,max:89} sur permit_expiry_date (90 jours pour le Rhône, 3 mois pour les Bouches-du-Rhône, la Corrèze et la Loire-Atlantique).",
+    "Carte déjà expirée : aucune source consultée ne traite ce cas ; simple avertissement (warning) qui renvoie vers la préfecture et le support ANEF, sans orientation précise.",
+    "DCEM : la question « où » et la déclaration de vol ne sont pas posées pour un DCEM, car les sources (perte ou vol à l'étranger, plainte) ne parlent que de la carte de séjour. Le DCEM abîmé n'est décrit par aucune source (avertissement dcem_damaged).",
+    "Guides : identifiants de help.json (non relus ici). prefecture_appointment non utilisé : aucune source consultée ne dit qu'un rendez-vous est nécessaire pour le retrait du duplicata."
   ]
 }

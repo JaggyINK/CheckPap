@@ -144,7 +144,15 @@ Une condition est un objet JSON, l'une de ces formes :
 { "all": [ <condition>, <condition> ] }
 { "any": [ <condition>, <condition> ] }
 { "not": <condition> }
+{ "question": "permit_expiry_date", "daysFromToday": { "min": 0, "max": 89 } }
 ```
+
+`daysFromToday` ne s'utilise que sur une question `date`. L'app calcule le nombre de jours entre aujourd'hui et la date saisie (négatif si la date est passée) et vérifie qu'il est entre `min` et `max` inclus. Chaque borne est facultative. Exemples :
+- titre déjà expiré : `{ "max": -1 }` ;
+- expire dans moins de 3 mois : `{ "min": 0, "max": 89 }` ;
+- expire dans plus de 4 mois : `{ "min": 121 }`.
+
+On ne pose donc **jamais** de question "combien de temps reste-t-il" en plus d'une date : on utilise la date.
 
 Une condition portant sur une question sans réponse (sautée ou pas encore posée) est fausse. Une condition ne peut référencer qu'une question définie **plus haut** dans le tableau `questions`, et seulement des valeurs qui existent (`id` d'option, ou `"yes"` / `"no"`).
 
@@ -226,3 +234,31 @@ Les étapes (`steps`) peuvent aussi référencer des courriers : champ facultati
 - `subject` et `body` sont **en français uniquement** (ils sont adressés à l'administration). `summary` explique le contenu dans la langue de la personne.
 - Champs disponibles dans `{{ }}` : `full_name`, `birth_date`, `birth_place`, `nationality`, `foreigner_number`, `address`, `phone`, `email`, `city`, `prefecture`, `procedure`, `today`. `fields` liste ceux que la personne doit remplir (`city`, `today`, `procedure` et `prefecture` sont remplis par l'app ou demandés à part).
 - Un courrier ne fait que demander ou informer ; il ne cite un texte de loi que si une source le cite.
+
+
+## `guides` : fiches pratiques "Comment l'obtenir ?"
+
+Tableau dans `help.json`. Une fiche explique concrètement comment obtenir une pièce ou faire une action : où aller, en ligne ou sur place, combien ça coûte si la source le dit, combien de temps, pièges à éviter.
+
+```json
+{
+  "id": "ephoto",
+  "symbol": "camera",
+  "title": { "fr": "Faire une e-photo (photo d'identité numérique)", "en": "..." },
+  "summary": { "fr": "Une phrase : ce que c'est et pourquoi on vous la demande.", "en": "..." },
+  "steps": [
+    { "fr": "Étape 1, courte et concrète.", "en": "..." },
+    { "fr": "Étape 2.", "en": "..." }
+  ],
+  "cost": { "fr": "Prix, seulement si une source le donne.", "en": "..." },
+  "tip": { "fr": "Piège fréquent ou astuce tirée d'une source.", "en": "..." },
+  "links": [ { "title": { "fr": "Trouver une cabine ou un photographe agréé", "en": "..." }, "url": "https://..." } ],
+  "sources": ["..."]
+}
+```
+
+`cost`, `tip` et `links` sont facultatifs. Les pièces (`documents`) et les étapes (`steps`) des démarches référencent les fiches par un champ facultatif `"guides": ["ephoto", "fiscal_stamp"]`.
+
+Identifiants de fiches prévus : `ephoto`, `fiscal_stamp`, `sworn_translation`, `legalisation_apostille`, `proof_of_address`, `anef_account`, `prefecture_appointment`, `civil_status_france`, `tax_documents`, `criminal_record`, `language_certificate`, `civic_exam`, `loss_theft_report`, `health_insurance`.
+
+Domaines autorisés supplémentaires pour les fiches : `ants.gouv.fr`, `impots.gouv.fr`, `timbres.impots.gouv.fr`, `ameli.fr`, `france-education-international.fr`, `diplomatie.gouv.fr`, `justice.fr`, `cours-appel.justice.fr`, `casier-judiciaire.justice.gouv.fr`, `courdecassation.fr` (liste des traducteurs agréés), `cci-paris-idf.fr` (inscription au TEF), ces deux derniers parce que service-public y renvoie.

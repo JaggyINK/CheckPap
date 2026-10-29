@@ -5,12 +5,19 @@ import Foundation
 indirect enum Condition: Decodable, Hashable {
     case equals(question: String, value: String)
     case oneOf(question: String, values: [String])
+    /// Nombre de jours entre aujourd'hui et la date répondue (négatif si passée), entre `min` et `max` inclus.
+    case daysFromToday(question: String, min: Int?, max: Int?)
     case all([Condition])
     case any([Condition])
     case not(Condition)
 
     private enum Keys: String, CodingKey {
-        case question, equals, `in`, all, any, not
+        case question, equals, `in`, all, any, not, daysFromToday
+    }
+
+    private struct DayRange: Decodable {
+        let min: Int?
+        let max: Int?
     }
 
     init(from decoder: Decoder) throws {
@@ -27,10 +34,12 @@ indirect enum Condition: Decodable, Hashable {
                 self = .equals(question: question, value: value)
             } else if let values = try container.decodeIfPresent([String].self, forKey: .in) {
                 self = .oneOf(question: question, values: values)
+            } else if let range = try container.decodeIfPresent(DayRange.self, forKey: .daysFromToday) {
+                self = .daysFromToday(question: question, min: range.min, max: range.max)
             } else {
                 throw DecodingError.dataCorruptedError(
                     forKey: .question, in: container,
-                    debugDescription: "Condition sans 'equals' ni 'in' pour la question \(question)"
+                    debugDescription: "Condition sans 'equals', 'in' ni 'daysFromToday' pour la question \(question)"
                 )
             }
         }
@@ -41,6 +50,7 @@ indirect enum Condition: Decodable, Hashable {
         switch self {
         case let .equals(question, value): [(question, [value])]
         case let .oneOf(question, values): [(question, values)]
+        case let .daysFromToday(question, _, _): [(question, [])]
         case let .all(conditions), let .any(conditions): conditions.flatMap(\.references)
         case let .not(condition): condition.references
         }

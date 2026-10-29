@@ -354,8 +354,8 @@
         "en": "When does your current permit expire?"
       },
       "help": {
-        "fr": "Les délais pour déposer la demande se comptent à partir de cette date.",
-        "en": "The deadlines to apply are counted from this date."
+        "fr": "Les délais pour déposer la demande se comptent à partir de cette date. Si votre titre a déjà expiré, choisissez quand même sa date de fin, même si elle est passée.",
+        "en": "The deadlines to apply are counted from this date. If your permit has already expired, still choose its end date, even if it is in the past."
       },
       "example": {
         "fr": "Exemple : sur la carte, la date est écrite après \"Valable jusqu'au\".",
@@ -378,70 +378,6 @@
         "sp_f15898",
         "sp_f2209",
         "lf_r431_5"
-      ]
-    },
-    {
-      "id": "permit_status",
-      "kind": "single",
-      "title": {
-        "fr": "Combien de temps reste-t-il avant la fin de votre titre ?",
-        "en": "How long is left before your permit expires?"
-      },
-      "help": {
-        "fr": "Les fiches fixent une période pour déposer la demande. Cette réponse permet de vous signaler si vous êtes en avance ou en retard.",
-        "en": "The pages set a period in which to apply. This answer lets us tell you if you are early or late."
-      },
-      "example": {
-        "fr": "Exemple : votre titre finit le 30 juin et nous sommes le 15 mai : il reste moins de 2 mois.",
-        "en": "Example: your permit ends on 30 June and today is 15 May: less than 2 months are left."
-      },
-      "options": [
-        {
-          "id": "more_than_4_months",
-          "label": {
-            "fr": "Plus de 4 mois",
-            "en": "More than 4 months"
-          }
-        },
-        {
-          "id": "between_4_and_2_months",
-          "label": {
-            "fr": "Entre 4 et 2 mois",
-            "en": "Between 4 and 2 months"
-          }
-        },
-        {
-          "id": "less_than_2_months",
-          "label": {
-            "fr": "Moins de 2 mois",
-            "en": "Less than 2 months"
-          }
-        },
-        {
-          "id": "expired",
-          "label": {
-            "fr": "Mon titre a déjà expiré",
-            "en": "My permit has already expired"
-          }
-        }
-      ],
-      "condition": {
-        "question": "permit_type",
-        "in": [
-          "student",
-          "employee",
-          "temp_worker",
-          "private_family_life",
-          "talent",
-          "visitor",
-          "resident_card"
-        ]
-      },
-      "sources": [
-        "lf_r431_5",
-        "sp_f2231",
-        "sp_f15898",
-        "sp_f2209"
       ]
     },
     {
@@ -729,6 +665,10 @@
               {
                 "question": "card_kind",
                 "equals": "temporary"
+              },
+              {
+                "question": "employment_status",
+                "equals": "same_job"
               }
             ]
           },
@@ -737,6 +677,14 @@
               {
                 "question": "permit_type",
                 "equals": "private_family_life"
+              },
+              {
+                "question": "vpf_reason",
+                "in": [
+                  "spouse_of_french",
+                  "parent_of_french_child",
+                  "humanitarian"
+                ]
               },
               {
                 "question": "card_kind",
@@ -880,7 +828,6 @@
                 "in": [
                   "parent_of_french_child",
                   "family_ties",
-                  "spouse_of_eu_resident",
                   "humanitarian"
                 ]
               }
@@ -1102,61 +1049,11 @@
       "sources": [
         "sp_f17359",
         "sp_f2209"
-      ]
-    },
-    {
-      "id": "proof_of_address",
-      "category": "address",
-      "title": {
-        "fr": "Justificatif de domicile",
-        "en": "Proof of address"
-      },
-      "details": {
-        "fr": "Datant de moins de 6 mois.",
-        "en": "Less than 6 months old."
-      },
-      "tip": {
-        "fr": "Service-public indique qu'un justificatif de domicile sécurisé (avec un code-barres 2D-Doc) ne peut pas être refusé.",
-        "en": "Service-public says that a secure proof of address (with a 2D-Doc barcode) cannot be refused."
-      },
-      "condition": {
-        "all": [
-          {
-            "question": "permit_type",
-            "in": [
-              "student",
-              "employee",
-              "temp_worker",
-              "private_family_life",
-              "talent",
-              "visitor",
-              "resident_card"
-            ]
-          },
-          {
-            "not": {
-              "all": [
-                {
-                  "question": "permit_type",
-                  "equals": "private_family_life"
-                },
-                {
-                  "question": "vpf_reason",
-                  "in": [
-                    "other_vpf"
-                  ]
-                }
-              ]
-            }
-          }
-        ]
-      },
-      "sources": [
-        "sp_f33052",
-        "sp_f2231",
-        "sp_f15898",
-        "sp_f2209",
-        "sp_f302"
+      ],
+      "guides": [
+        "civil_status_france",
+        "sworn_translation",
+        "legalisation_apostille"
       ]
     },
     {
@@ -1167,12 +1064,16 @@
         "en": "Bill, lease or rent receipt"
       },
       "details": {
-        "fr": "Un de ces documents : facture d'électricité, de gaz, d'eau, de téléphone fixe ou d'accès à internet, bail de location ou quittance de loyer.",
-        "en": "One of these: electricity, gas, water, landline or internet bill, rental lease or rent receipt."
+        "fr": "Justificatif de domicile datant de moins de 6 mois. Un de ces documents : facture d'électricité, de gaz, d'eau, de téléphone fixe ou d'accès à internet, bail de location ou quittance de loyer.",
+        "en": "Proof of address less than 6 months old. One of these: electricity, gas, water, landline or internet bill, rental lease or rent receipt."
       },
       "example": {
         "fr": "Exemple : votre dernière facture d'électricité à votre nom.",
         "en": "Example: your latest electricity bill in your name."
+      },
+      "tip": {
+        "fr": "Service-public indique qu'un justificatif de domicile sécurisé (avec un code-barres 2D-Doc) ne peut pas être refusé.",
+        "en": "Service-public says that a secure proof of address (with a 2D-Doc barcode) cannot be refused."
       },
       "condition": {
         "all": [
@@ -1215,7 +1116,14 @@
         ]
       },
       "sources": [
-        "sp_f33052"
+        "sp_f33052",
+        "sp_f2231",
+        "sp_f15898",
+        "sp_f2209",
+        "sp_f302"
+      ],
+      "guides": [
+        "proof_of_address"
       ]
     },
     {
@@ -1271,6 +1179,9 @@
       },
       "sources": [
         "sp_f33052"
+      ],
+      "guides": [
+        "proof_of_address"
       ]
     },
     {
@@ -1326,6 +1237,9 @@
       },
       "sources": [
         "sp_f33052"
+      ],
+      "guides": [
+        "proof_of_address"
       ]
     },
     {
@@ -1381,6 +1295,9 @@
       },
       "sources": [
         "sp_f33052"
+      ],
+      "guides": [
+        "proof_of_address"
       ]
     },
     {
@@ -1436,6 +1353,9 @@
       },
       "sources": [
         "sp_f33052"
+      ],
+      "guides": [
+        "proof_of_address"
       ]
     },
     {
@@ -1502,6 +1422,9 @@
         "sp_f16922",
         "sp_f17359",
         "sp_f11201"
+      ],
+      "guides": [
+        "ephoto"
       ]
     },
     {
@@ -1991,6 +1914,9 @@
         "sp_f15898",
         "sp_f2209",
         "sp_f34501"
+      ],
+      "guides": [
+        "language_certificate"
       ]
     },
     {
@@ -2056,6 +1982,9 @@
         "sp_f15898",
         "sp_f2209",
         "sp_f39530"
+      ],
+      "guides": [
+        "civic_exam"
       ]
     },
     {
@@ -2085,6 +2014,11 @@
       },
       "sources": [
         "sp_f2209"
+      ],
+      "guides": [
+        "civil_status_france",
+        "sworn_translation",
+        "legalisation_apostille"
       ]
     },
     {
@@ -2176,6 +2110,10 @@
       },
       "sources": [
         "sp_f2209"
+      ],
+      "guides": [
+        "civil_status_france",
+        "sworn_translation"
       ]
     },
     {
@@ -2304,6 +2242,10 @@
       },
       "sources": [
         "sp_f2209"
+      ],
+      "guides": [
+        "civil_status_france",
+        "sworn_translation"
       ]
     },
     {
@@ -2478,6 +2420,9 @@
       },
       "sources": [
         "sp_f2209"
+      ],
+      "guides": [
+        "health_insurance"
       ]
     },
     {
@@ -2610,6 +2555,9 @@
       },
       "sources": [
         "sp_f302"
+      ],
+      "guides": [
+        "health_insurance"
       ]
     },
     {
@@ -2700,6 +2648,9 @@
       "sources": [
         "sp_f11201",
         "sp_f34501"
+      ],
+      "guides": [
+        "language_certificate"
       ]
     },
     {
@@ -2736,6 +2687,9 @@
       "sources": [
         "sp_f11201",
         "sp_f39530"
+      ],
+      "guides": [
+        "civic_exam"
       ]
     },
     {
@@ -2750,8 +2704,26 @@
         "en": "Required if you are married and a national of a country that allows polygamy."
       },
       "condition": {
-        "question": "married",
-        "equals": "yes"
+        "any": [
+          {
+            "question": "married",
+            "equals": "yes"
+          },
+          {
+            "all": [
+              {
+                "question": "permit_type",
+                "equals": "private_family_life"
+              },
+              {
+                "question": "vpf_reason",
+                "in": [
+                  "spouse_of_eu_resident"
+                ]
+              }
+            ]
+          }
+        ]
       },
       "sources": [
         "sp_f2209",
@@ -2869,6 +2841,9 @@
         "sp_f17359",
         "sp_a18881",
         "lf_lf2026_art128"
+      ],
+      "guides": [
+        "fiscal_stamp"
       ]
     },
     {
@@ -2893,6 +2868,9 @@
       "sources": [
         "sp_f2231",
         "sp_a18881"
+      ],
+      "guides": [
+        "fiscal_stamp"
       ]
     },
     {
@@ -2924,6 +2902,9 @@
       },
       "sources": [
         "sp_f11201"
+      ],
+      "guides": [
+        "fiscal_stamp"
       ]
     },
     {
@@ -2948,55 +2929,13 @@
       "sources": [
         "sp_f16922",
         "sp_a18881"
+      ],
+      "guides": [
+        "fiscal_stamp"
       ]
     }
   ],
   "steps": [
-    {
-      "id": "check_other_permit",
-      "phase": "before",
-      "title": {
-        "fr": "Trouver la fiche de votre titre",
-        "en": "Find the page for your permit"
-      },
-      "body": {
-        "fr": "Votre titre n'est pas encore couvert par cette liste. Ouvrez l'index des titres de séjour sur service-public.gouv.fr, choisissez votre titre et lisez la rubrique sur le renouvellement : délais, lieu de dépôt et pièces.",
-        "en": "Your permit is not covered by this list yet. Open the index of residence permits on service-public.gouv.fr, choose your permit and read the renewal section: deadlines, where to apply and documents."
-      },
-      "link": {
-        "title": {
-          "fr": "Voir les titres de séjour",
-          "en": "See residence permits"
-        },
-        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/N110"
-      },
-      "condition": {
-        "any": [
-          {
-            "question": "permit_type",
-            "equals": "other"
-          },
-          {
-            "all": [
-              {
-                "question": "permit_type",
-                "equals": "private_family_life"
-              },
-              {
-                "question": "vpf_reason",
-                "in": [
-                  "other_vpf"
-                ]
-              }
-            ]
-          }
-        ]
-      },
-      "sources": [
-        "sp_n110",
-        "sp_f2209"
-      ]
-    },
     {
       "id": "check_deadline",
       "phase": "before",
@@ -3102,6 +3041,9 @@
         "sp_f2209",
         "sp_f16922",
         "sp_f17359"
+      ],
+      "guides": [
+        "ephoto"
       ]
     },
     {
@@ -3196,6 +3138,10 @@
         "sp_f15898",
         "sp_f2209",
         "sp_f11201"
+      ],
+      "guides": [
+        "language_certificate",
+        "civic_exam"
       ]
     },
     {
@@ -3309,6 +3255,9 @@
       ],
       "letters": [
         "cannot_use_online"
+      ],
+      "guides": [
+        "anef_account"
       ]
     },
     {
@@ -3381,6 +3330,9 @@
       ],
       "letters": [
         "appointment_request"
+      ],
+      "guides": [
+        "prefecture_appointment"
       ]
     },
     {
@@ -3533,6 +3485,9 @@
         "sp_a18881",
         "sp_f33071",
         "sp_f2209"
+      ],
+      "guides": [
+        "fiscal_stamp"
       ]
     },
     {
@@ -3583,6 +3538,10 @@
         "sp_f15898",
         "sp_f302",
         "sp_f11201"
+      ],
+      "guides": [
+        "prefecture_appointment",
+        "fiscal_stamp"
       ]
     }
   ],
@@ -3997,8 +3956,10 @@
       "condition": {
         "all": [
           {
-            "question": "permit_status",
-            "equals": "more_than_4_months"
+            "question": "permit_expiry_date",
+            "daysFromToday": {
+              "min": 121
+            }
           },
           {
             "any": [
@@ -4064,8 +4025,11 @@
       "id": "late_filing",
       "kind": "warning",
       "condition": {
-        "question": "permit_status",
-        "equals": "less_than_2_months"
+        "question": "permit_expiry_date",
+        "daysFromToday": {
+          "min": 0,
+          "max": 59
+        }
       },
       "title": {
         "fr": "Le délai indiqué par les fiches est peut-être dépassé",
@@ -4106,8 +4070,10 @@
       "id": "permit_expired",
       "kind": "warning",
       "condition": {
-        "question": "permit_status",
-        "equals": "expired"
+        "question": "permit_expiry_date",
+        "daysFromToday": {
+          "max": -1
+        }
       },
       "title": {
         "fr": "Votre titre a déjà expiré",
@@ -4462,7 +4428,8 @@
     "Pages anciennes utilisées faute de version plus récente : F36206 (attestations ANEF, vérifiée le 15/12/2023), F15763 (récépissé, 17/11/2023), F33071 (timbre, 19/04/2024), F33052 (domicile, 05/08/2025). Aucune réforme lue ne les contredit, mais elles sont à revérifier.",
     "Le contenu du parcours ANEF (pièces réellement demandées en ligne) n'est pas lisible sans compte. Les modalités locales (rendez-vous, voie postale, demarche.numerique.gouv.fr) varient selon la préfecture et ne sont pas reprises. Le lien vers l'annuaire (lannuaire.service-public.gouv.fr) pointe vers la page d'accueil.",
     "La date de vérification de l'index N110 n'est pas affichée sur la page.",
-    "Questionnaire en entonnoir : la question permit_status (temps restant avant la fin du titre) double la date de fin, car les conditions ne savent pas comparer des dates ; elle sert uniquement aux avertissements too_early, late_filing et permit_expired. À remplacer si le moteur calcule un jour l'écart à partir de permit_expiry_date.",
+    "Échéances et avertissements de délai calculés avec daysFromToday sur permit_expiry_date : too_early si plus de 120 jours restants (titres ANEF, R431-5 « cent-vingtième jour »), late_filing entre 0 et 59 jours (« au plus tard 2 mois » dans les fiches, converti en 60 jours), permit_expired si la date est passée. La conversion mois/jours est une approximation à valider.",
+    "Relecture par profil : le justificatif de domicile générique a été fusionné dans la pièce locataire/propriétaire pour éviter un doublon avec les pièces d'hébergement ; la question « plus de 65 ans » n'est posée que lorsque les preuves de français ou d'examen civique sont demandées ; la question « marié(e) » n'est plus posée à l'époux d'un résident longue durée-UE (la déclaration de non polygamie lui est affichée directement, sous réserve de la nationalité, comme dans F2209).",
     "Titre déjà expiré : aucune source consultée ne dit à partir de quand un renouvellement devient une 1re demande ou une régularisation. L'outcome permit_expired est donc un warning (pas un redirect), sans montant du droit de visa de régularisation (180 € dans les fiches, 300 € dans l'actualité A18881 du 12/05/2026).",
     "Outcomes : les identifiants de contacts (france_services, point_justice, anef_contact, prefecture_directory, defenseur_des_droits) et de courriers (appointment_request, cannot_use_online, receipt_request, file_followup) doivent exister dans help.json. Le recours puis la saisine du Défenseur des droits viennent de F31969 (vérifiée le 03/07/2024, ancienne).",
     "Européens : redirection d'après F39 (vérifiée le 08/07/2026). Algériens : redirection vers F2215 (01/08/2026) et F2257 (01/10/2024, ancienne, antérieure aux taxes du 1er mai 2026)."

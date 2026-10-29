@@ -1,4 +1,14 @@
 {
+  "reviewNotes": [
+    "e-photo : aucune source consultée ne décrit un logo permettant de repérer les cabines agréées ; le site de l'ANEF parle seulement de cabine agréée ou de photographe agréé « Service en ligne ». À vérifier sur ants.gouv.fr.",
+    "Timbre fiscal : aucune source consultée ne mentionne un achat par téléphone. La validité d'1 an et le remboursement dans les 18 mois ne sont écrits que sur la fiche du timbre de nationalité (F32952) ; la fiche générale pour les étrangers (F33071) date du 19 avril 2024.",
+    "Timbre fiscal : le texte de l'ANEF cite « www.timbres-impots.gouv.fr » (avec un tiret) à un endroit, et « www.timbres.impots.gouv.fr » ailleurs ; service-public renvoie vers https://timbres.impots.gouv.fr.",
+    "Langue et examen civique : les pages de France Éducation International n'ont pas pu être lues (vérification anti-robot) ; les liens viennent de service-public (R75391, R52170).",
+    "Préfecture de police de Paris et autres préfectures : modalités de rendez-vous variables, non détaillées dans la fiche prefecture_appointment.",
+    "Fiches anciennes utilisées : F33071 (19/04/2024), F17318 (10/10/2024), F15763 (17/11/2023), F36206 (15/12/2023), F31969 (03/07/2024), R52170 (24/04/2025), F33052 (05/08/2025), F1402 (30/10/2025).",
+    "Casier judiciaire étranger : la seule source trouvée (F2726) concerne la déclaration de nationalité par mariage ; pas de source générale sur la façon de l'obtenir selon le pays.",
+    "Lien CCI Paris (francais.cci-paris-idf.fr) et lien Cour de cassation (courdecassation.fr) : domaines repris de service-public mais hors de la liste des domaines du schéma ; ils ne sont utilisés que comme liens d'action, pas comme sources."
+  ],
   "sources": [
     {
       "id": "fs_accueil",
@@ -145,6 +155,244 @@
       "publisher": "service-public.gouv.fr",
       "title": "Qu'est-ce qu'une attestation de demande de carte de séjour ? (Vérifié le 15 décembre 2023)",
       "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F36206",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f10619",
+      "publisher": "service-public.gouv.fr",
+      "title": "Quelle photo fournir pour un titre d'identité (passeport, carte d'identité...) ? (Vérifié le 08 octobre 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10619",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_r62705",
+      "publisher": "service-public.gouv.fr",
+      "title": "Trouver les coordonnées des photographes habilités et des cabines agréées (Vérifié le 11 mars 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R62705",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f22312",
+      "publisher": "service-public.gouv.fr",
+      "title": "Que doit faire un étranger en cas de vol de sa carte de séjour ? (Vérifié le 01 juillet 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F22312",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f21032",
+      "publisher": "service-public.gouv.fr",
+      "title": "Que doit faire un étranger en cas de perte de sa carte de séjour ? (Vérifié le 01 juillet 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F21032",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_a18881",
+      "publisher": "service-public.gouv.fr",
+      "title": "Titres de séjour : augmentation du montant des taxes demandées aux étrangers à compter du 1er mai (actualité publiée le 22 avril 2026, mise à jour le 12 mai 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/actualites/A18881",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f32952",
+      "publisher": "service-public.gouv.fr",
+      "title": "Comment acheter un timbre fiscal pour une demande de nationalité française ? (Vérifié le 01 mai 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F32952",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f33071",
+      "publisher": "service-public.gouv.fr",
+      "title": "Étranger en France : comment acheter un timbre fiscal ? (Vérifié le 19 avril 2024)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33071",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_r57169",
+      "publisher": "service-public.gouv.fr",
+      "title": "Demander le remboursement d'un timbre fiscal (Vérifié le 27 avril 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R57169",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f12956",
+      "publisher": "service-public.gouv.fr",
+      "title": "Traduction d'un document : comment trouver un traducteur agréé ? (Vérifié le 26 janvier 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F12956",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_r45936",
+      "publisher": "service-public.gouv.fr",
+      "title": "Trouver un expert agréé ou un traducteur agréé (outil de recherche, date de vérification non relevée)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R45936",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f1402",
+      "publisher": "service-public.gouv.fr",
+      "title": "Légalisation d'un acte public établi par une autorité étrangère (Vérifié le 30 octobre 2025)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1402",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f33052",
+      "publisher": "service-public.gouv.fr",
+      "title": "Demande de carte de séjour : quel justificatif de domicile ? (Vérifié le 05 août 2025)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33052",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f17318",
+      "publisher": "service-public.gouv.fr",
+      "title": "Sans domicile stable ou fixe (SDF) : en quoi consiste la domiciliation (ou élection de domicile) ? (Vérifié le 10 octobre 2024)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F17318",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_r59398",
+      "publisher": "service-public.gouv.fr",
+      "title": "Faire une demande sur internet pour un titre de séjour, un changement de situation, un titre de voyage, une demande de naturalisation - ANEF (Vérifié le 13 août 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R59398",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f1427",
+      "publisher": "service-public.gouv.fr",
+      "title": "Acte de naissance : demande de copie intégrale ou d'extrait (Vérifié le 14 août 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1427",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_r63676",
+      "publisher": "service-public.gouv.fr",
+      "title": "Demander une copie ou un extrait d'acte d'état civil à l'Ofpra si l'on est réfugié, apatride ou sous protection subsidiaire (Vérifié le 10 avril 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R63676",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "dipl_faq_etat_civil",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "État civil, questions fréquentes | France Diplomatie (date de mise à jour non relevée)",
+      "url": "https://www.diplomatie.gouv.fr/fr/services/faq/etat-civil",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "imp_bordereau",
+      "publisher": "impots.gouv.fr",
+      "title": "J'ai besoin d'un bordereau de situation fiscale. Comment l'obtenir ? | impots.gouv.fr (date non affichée)",
+      "url": "https://www.impots.gouv.fr/particulier/questions/jai-besoin-dun-bordereau-de-situation-fiscale-comment-lobtenir",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "imp_documents",
+      "publisher": "impots.gouv.fr",
+      "title": "J'ai besoin d'un document (avis d'impôt, formulaire...) | impots.gouv.fr (modifié le 07/01/2026)",
+      "url": "https://www.impots.gouv.fr/particulier/jai-besoin-dun-document-avis-dimpot-formulaire",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f34746",
+      "publisher": "service-public.gouv.fr",
+      "title": "Naturalisation française : quels justificatifs de revenus et d'impôts ? (Vérifié le 01 janvier 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34746",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f1420",
+      "publisher": "service-public.gouv.fr",
+      "title": "Demande d'extrait de casier judiciaire (bulletin n°3) (Vérifié le 22 mai 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1420",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f2726",
+      "publisher": "service-public.gouv.fr",
+      "title": "Déclaration de nationalité française par mariage (Vérifié le 01 mai 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2726",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f34501",
+      "publisher": "service-public.gouv.fr",
+      "title": "Carte de résident et carte de séjour pluriannuelle : comment justifier de votre connaissance du français ? (Vérifié le 10 février 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34501",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f11926",
+      "publisher": "service-public.gouv.fr",
+      "title": "Nationalité française : comment justifier de son niveau en français ? (Vérifié le 01 janvier 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F11926",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_r52170",
+      "publisher": "service-public.gouv.fr",
+      "title": "Trouver un organisme pour passer le test de connaissance du français (TCF) (Vérifié le 24 avril 2025)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R52170",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_r52169",
+      "publisher": "service-public.gouv.fr",
+      "title": "Trouver un centre agréé pour passer le test d'évaluation du français (TEF) (Vérifié le 26 décembre 2025)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R52169",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f39530",
+      "publisher": "service-public.gouv.fr",
+      "title": "Carte de séjour pluriannuelle et carte de résident : comment passer l'examen civique ? (Vérifié le 10 février 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F39530",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f39426",
+      "publisher": "service-public.gouv.fr",
+      "title": "Naturalisation française : comment passer l'examen civique ? (Vérifié le 16 juillet 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F39426",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_r75389",
+      "publisher": "service-public.gouv.fr",
+      "title": "Examen civique mention « carte de résident et carte de séjour pluriannuelle » : carte des centres agréés de la CCIP (Vérifié le 21 janvier 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R75389",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_r75391",
+      "publisher": "service-public.gouv.fr",
+      "title": "Examen civique mention « carte de résident et carte de séjour pluriannuelle » : carte des centres agréés de France éducation international (Vérifié le 21 janvier 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R75391",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "formation_civique_examen",
+      "publisher": "interieur.gouv.fr",
+      "title": "Informations générales sur l'examen civique | Formation civique, ministère de l'Intérieur (date de mise à jour non affichée)",
+      "url": "https://formation-civique.interieur.gouv.fr/examen-civique/informations-g%C3%A9n%C3%A9rales-sur-lexamen-civique/",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f1435",
+      "publisher": "service-public.gouv.fr",
+      "title": "Porter plainte (Vérifié le 08 juillet 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1435",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f10662",
+      "publisher": "service-public.gouv.fr",
+      "title": "Comment obtenir une attestation de droits (attestation Vitale) ? (Vérifié le 07 août 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10662",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "ameli_attestation",
+      "publisher": "ameli.fr",
+      "title": "Obtenir une attestation de droits | ameli.fr (date de mise à jour non relevée)",
+      "url": "https://www.ameli.fr/assure/adresses-et-contacts/l-obtention-d-un-document/obtenir-une-attestation/obtenir-une-attestation-de-droits",
       "consulted": "2026-10-29"
     }
   ],
@@ -450,6 +698,829 @@
         "sp_f15763",
         "sp_f36206",
         "lannuaire_prefecture"
+      ]
+    }
+  ],
+  "guides": [
+    {
+      "id": "ephoto",
+      "symbol": "camera",
+      "title": {
+        "fr": "Faire une e-photo (photo et signature numériques)",
+        "en": "Get an e-photo (digital photo and signature)"
+      },
+      "summary": {
+        "fr": "L'e-photo est une photo d'identité avec votre signature, enregistrée en ligne. Le site de l'ANEF vous demande son code pour déposer une demande de titre de séjour.",
+        "en": "An e-photo is an ID photo with your signature, stored online. The ANEF website asks for its code when you file a residence permit application."
+      },
+      "steps": [
+        {
+          "fr": "Trouvez une cabine photo agréée ou un photographe agréé « Service en ligne » avec la carte de l'ANTS.",
+          "en": "Find an approved photo booth or an approved \"Service en ligne\" photographer on the ANTS map."
+        },
+        {
+          "fr": "Faites la photo. Elle doit dater de moins de 6 mois et vous ressembler.",
+          "en": "Have the photo taken. It must be less than 6 months old and look like you."
+        },
+        {
+          "fr": "Gardez la planche photo : le code de l'e-photo y est écrit.",
+          "en": "Keep the photo sheet: the e-photo code is printed on it."
+        },
+        {
+          "fr": "Sur le site de l'ANEF, saisissez ce code à l'étape « Justificatifs » de votre demande.",
+          "en": "On the ANEF website, enter this code at the \"Justificatifs\" (supporting documents) step of your application."
+        }
+      ],
+      "tip": {
+        "fr": "Un code e-photo ne sert que pour une seule démarche en ligne et reste valable 6 mois. Le code peut mettre jusqu'à 48 heures à fonctionner. S'il ne marche toujours pas, signalez-le à la cabine (depuis la carte de l'ANTS) ou au photographe.",
+        "en": "An e-photo code can be used for one online procedure only and is valid for 6 months. The code may take up to 48 hours to work. If it still does not work, report it to the booth (through the ANTS map) or to the photographer."
+      },
+      "links": [
+        {
+          "title": {
+            "fr": "Trouver une cabine ou un photographe agréé",
+            "en": "Find an approved booth or photographer"
+          },
+          "url": "https://permisdeconduire.ants.gouv.fr/services/geolocaliser-les-photographes-habilites"
+        }
+      ],
+      "sources": [
+        "anef_faq",
+        "sp_f10619",
+        "sp_r62705",
+        "sp_f22312"
+      ]
+    },
+    {
+      "id": "fiscal_stamp",
+      "symbol": "eurosign.circle",
+      "title": {
+        "fr": "Acheter un timbre fiscal électronique",
+        "en": "Buy an electronic tax stamp"
+      },
+      "summary": {
+        "fr": "Les taxes du titre de séjour se paient par timbre fiscal électronique, au moment de la remise du titre. Les timbres fiscaux sont vendus uniquement sous forme électronique.",
+        "en": "Residence permit fees are paid with an electronic tax stamp when you collect your permit. Tax stamps are only sold in electronic form."
+      },
+      "steps": [
+        {
+          "fr": "Attendez le SMS de la préfecture : il indique que votre titre est prêt et le montant des taxes à payer.",
+          "en": "Wait for the prefecture's text message: it says your permit is ready and how much you have to pay."
+        },
+        {
+          "fr": "Achetez le timbre en ligne sur timbres.impots.gouv.fr. Le paiement se fait par carte bancaire (CB, Visa, Mastercard).",
+          "en": "Buy the stamp online at timbres.impots.gouv.fr. Payment is by bank card (CB, Visa, Mastercard)."
+        },
+        {
+          "fr": "Ou achetez-le dans un bureau de tabac équipé (point de vente agréé) ou un centre des impôts. Dans un bureau de tabac ou un centre des impôts, vous pouvez payer en espèces.",
+          "en": "Or buy it at an equipped tobacconist (approved point of sale) or a tax office. At a tobacconist or a tax office you can pay in cash."
+        },
+        {
+          "fr": "Vous recevez un PDF avec un code 2D, ou un SMS avec le numéro du timbre à 16 chiffres. Vérifiez le numéro à 16 chiffres et le montant.",
+          "en": "You receive a PDF with a 2D code, or a text message with the 16-digit stamp number. Check the 16-digit number and the amount."
+        },
+        {
+          "fr": "Si vous n'utilisez pas le timbre, demandez son remboursement en ligne sur timbres.impots.gouv.fr.",
+          "en": "If you do not use the stamp, ask for a refund online at timbres.impots.gouv.fr."
+        }
+      ],
+      "cost": {
+        "fr": "Depuis le 1er mai 2026 (service-public) : 350 € pour une première délivrance (150 € au tarif réduit, par exemple étudiant ou regroupement familial) ; 250 € pour un renouvellement (100 € au tarif réduit) ; 350 € pour un duplicata (150 € au tarif réduit) ; 255 € pour une demande de naturalisation (127,50 € en Guyane).",
+        "en": "Since 1 May 2026 (service-public): €350 for a first permit (€150 at the reduced rate, for example students or family reunification); €250 for a renewal (€100 at the reduced rate); €350 for a duplicate (€150 at the reduced rate); €255 for a naturalisation application (€127.50 in French Guiana)."
+      },
+      "tip": {
+        "fr": "Les timbres papier ne sont pas acceptés sur le site de l'ANEF. N'achetez pas un timbre amende par erreur. Pour le timbre de nationalité, service-public indique qu'il est valable 1 an et remboursable dans les 18 mois après l'achat.",
+        "en": "Paper stamps are not accepted on the ANEF website. Do not buy a fine stamp (timbre amende) by mistake. For the nationality stamp, service-public says it is valid for 1 year and refundable within 18 months of purchase."
+      },
+      "links": [
+        {
+          "title": {
+            "fr": "Acheter un timbre en ligne",
+            "en": "Buy a stamp online"
+          },
+          "url": "https://timbres.impots.gouv.fr/"
+        },
+        {
+          "title": {
+            "fr": "Trouver un buraliste partenaire",
+            "en": "Find a partner tobacconist"
+          },
+          "url": "https://www.impots.gouv.fr/paiement-de-proximite"
+        }
+      ],
+      "sources": [
+        "anef_faq",
+        "sp_a18881",
+        "sp_f33071",
+        "sp_f32952",
+        "sp_r57169"
+      ]
+    },
+    {
+      "id": "sworn_translation",
+      "symbol": "character.book.closed",
+      "title": {
+        "fr": "Faire traduire un document par un traducteur agréé",
+        "en": "Get a document translated by a sworn translator"
+      },
+      "summary": {
+        "fr": "Un document en langue étrangère doit souvent être traduit en français par un traducteur agréé, c'est-à-dire un expert inscrit sur la liste d'une cour d'appel ou de la Cour de cassation.",
+        "en": "A document in a foreign language often has to be translated into French by a sworn translator, that is, an expert listed by a court of appeal or by the Cour de cassation."
+      },
+      "steps": [
+        {
+          "fr": "Cherchez un traducteur avec l'outil de la Cour de cassation : recherche par lieu, ou listes des cours d'appel.",
+          "en": "Search for a translator with the Cour de cassation tool: search by location, or the courts of appeal lists."
+        },
+        {
+          "fr": "Vous pouvez aussi consulter le site du consulat en France du pays qui a établi le document.",
+          "en": "You can also check the website of the consulate in France of the country that issued the document."
+        },
+        {
+          "fr": "Demandez un devis : la recherche est gratuite, mais la traduction est payante.",
+          "en": "Ask for a quote: searching is free, but the translation is not."
+        },
+        {
+          "fr": "Si le document doit aussi être légalisé, faites d'abord la traduction.",
+          "en": "If the document also has to be legalised, have it translated first."
+        }
+      ],
+      "tip": {
+        "fr": "Un expert inscrit sur la liste nationale de la Cour de cassation figure aussi sur la liste de sa cour d'appel.",
+        "en": "An expert on the national list of the Cour de cassation is also on the list of their court of appeal."
+      },
+      "links": [
+        {
+          "title": {
+            "fr": "Trouver un traducteur agréé",
+            "en": "Find a sworn translator"
+          },
+          "url": "https://www.courdecassation.fr/mes-demarches/trouver-un-expert-agree-ou-un-traducteur-agree"
+        }
+      ],
+      "sources": [
+        "sp_f12956",
+        "sp_r45936",
+        "sp_f1402"
+      ]
+    },
+    {
+      "id": "legalisation_apostille",
+      "symbol": "checkmark.seal",
+      "title": {
+        "fr": "Faire légaliser ou apostiller un acte étranger",
+        "en": "Get a foreign document legalised or apostilled"
+      },
+      "summary": {
+        "fr": "Un acte public étranger (acte de naissance, jugement, diplôme...) présenté en France doit en principe être légalisé. Selon le pays, une apostille peut suffire, ou aucune formalité n'est demandée.",
+        "en": "A foreign public document (birth certificate, court ruling, diploma...) used in France must in principle be legalised. Depending on the country, an apostille may be enough, or no formality is required."
+      },
+      "steps": [
+        {
+          "fr": "Regardez dans le tableau du ministère des Affaires étrangères ce qui s'applique à votre pays : légalisation, apostille ou dispense.",
+          "en": "Check in the Ministry of Foreign Affairs table what applies to your country: legalisation, apostille or exemption."
+        },
+        {
+          "fr": "Faites traduire l'acte en français par un traducteur agréé avant de commencer la légalisation.",
+          "en": "Have the document translated into French by a sworn translator before starting legalisation."
+        },
+        {
+          "fr": "En général, l'acte est d'abord pré-légalisé par l'autorité du pays qui l'a établi (souvent son ministère des affaires étrangères).",
+          "en": "Usually the document is first pre-legalised by the authority of the issuing country (often its foreign ministry)."
+        },
+        {
+          "fr": "Puis l'ambassade ou le consulat de France dans ce pays le légalise, par courrier ou sur place selon le poste.",
+          "en": "Then the French embassy or consulate in that country legalises it, by post or in person depending on the office."
+        },
+        {
+          "fr": "En cas de doute, renseignez-vous auprès de l'ambassade ou du consulat de France dans le pays d'origine du document.",
+          "en": "If in doubt, ask the French embassy or consulate in the country where the document was issued."
+        }
+      ],
+      "cost": {
+        "fr": "Légalisation par un consulat de France : 60 € (30 € pour un Français inscrit au registre des Français de l'étranger). Un tarif différent peut s'appliquer pour certains pays.",
+        "en": "Legalisation by a French consulate: €60 (€30 for a French national registered abroad). A different rate may apply for some countries."
+      },
+      "tip": {
+        "fr": "Un document français destiné à une administration française ne doit pas être légalisé. Certains actes publics d'un pays de l'Union européenne sont acceptés sans formalité.",
+        "en": "A French document for a French administration must not be legalised. Some public documents from an EU country are accepted without any formality."
+      },
+      "links": [
+        {
+          "title": {
+            "fr": "Tableau légalisation et apostille par pays (PDF)",
+            "en": "Legalisation and apostille table by country (PDF)"
+          },
+          "url": "https://www.diplomatie.gouv.fr/files/files/leg-tableau-recap-du-droit-conventionnel-11-09-26.pdf"
+        },
+        {
+          "title": {
+            "fr": "Fiche service-public sur la légalisation",
+            "en": "Service-public page on legalisation"
+          },
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1402"
+        }
+      ],
+      "sources": [
+        "sp_f1402"
+      ]
+    },
+    {
+      "id": "proof_of_address",
+      "symbol": "house",
+      "title": {
+        "fr": "Fournir un justificatif de domicile",
+        "en": "Provide proof of address"
+      },
+      "summary": {
+        "fr": "Pour une demande de carte de séjour, il faut un justificatif de domicile de moins de 6 mois. Le document dépend de votre situation.",
+        "en": "For a residence permit application you need proof of address less than 6 months old. The document depends on your situation."
+      },
+      "steps": [
+        {
+          "fr": "Locataire ou propriétaire : une facture d'électricité, de gaz, d'eau, de téléphone fixe ou d'internet, ou le bail, ou une quittance de loyer.",
+          "en": "Tenant or owner: an electricity, gas, water, landline or internet bill, or the lease, or a rent receipt."
+        },
+        {
+          "fr": "Hébergé chez quelqu'un : une attestation datée et signée par la personne qui vous héberge, et une copie de sa carte d'identité ou de sa carte de séjour.",
+          "en": "Staying with someone: a dated and signed statement from your host, and a copy of their ID card or residence permit."
+        },
+        {
+          "fr": "Si l'adresse sur la carte de votre hébergeant n'est plus à jour, ajoutez un justificatif de domicile à son nom (acte de propriété, taxe d'habitation, bail ou facture).",
+          "en": "If the address on your host's card is out of date, add proof of address in their name (title deed, housing tax, lease or bill)."
+        },
+        {
+          "fr": "À l'hôtel : une attestation de l'hôtelier et la facture du dernier mois.",
+          "en": "Hotel: a statement from the hotel and last month's bill."
+        },
+        {
+          "fr": "Sans domicile stable : vous pouvez demander une domiciliation, qui vous donne une adresse et un justificatif de domicile.",
+          "en": "No stable home: you can apply for a postal address (domiciliation), which gives you an address and proof of address."
+        }
+      ],
+      "tip": {
+        "fr": "Un justificatif de domicile sécurisé, avec un code-barres 2D-Doc, ne peut pas être refusé. Pour certaines démarches (duplicata, changement d'adresse), service-public demande un justificatif de moins de 3 mois.",
+        "en": "A secure proof of address with a 2D-Doc barcode cannot be refused. For some procedures (duplicate, change of address), service-public asks for proof less than 3 months old."
+      },
+      "links": [
+        {
+          "title": {
+            "fr": "Modèle d'attestation d'hébergement",
+            "en": "Accommodation statement template"
+          },
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R39697"
+        },
+        {
+          "title": {
+            "fr": "En savoir plus sur la domiciliation",
+            "en": "Learn about domiciliation"
+          },
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F17318"
+        }
+      ],
+      "sources": [
+        "sp_f33052",
+        "sp_f17318",
+        "sp_f21032"
+      ]
+    },
+    {
+      "id": "anef_account",
+      "symbol": "person.crop.circle.badge.checkmark",
+      "title": {
+        "fr": "Utiliser mon compte sur le site de l'ANEF",
+        "en": "Use my account on the ANEF website"
+      },
+      "summary": {
+        "fr": "Le site de l'ANEF permet de déposer en ligne certaines demandes de titre de séjour, de suivre le dossier et de télécharger les attestations.",
+        "en": "The ANEF website lets you file some residence permit applications online, follow your file and download certificates."
+      },
+      "steps": [
+        {
+          "fr": "Trouvez votre numéro étranger : sur la carte de séjour, il est au-dessus de votre signature ou écrit à la verticale sur le côté droit, selon le modèle. Avec un visa, le numéro de visa est en haut à droite.",
+          "en": "Find your foreigner number: on the residence card it is above your signature or written vertically on the right, depending on the model. With a visa, the visa number is at the top right."
+        },
+        {
+          "fr": "Cliquez sur « SE CONNECTER », puis « PREMIERE VISITE ? CREER VOTRE COMPTE ». Saisissez votre numéro et les dates de début et de fin de validité de votre titre ou visa, puis votre adresse e-mail.",
+          "en": "Click \"SE CONNECTER\", then \"PREMIERE VISITE ? CREER VOTRE COMPTE\". Enter your number and the start and end dates of your permit or visa, then your email address."
+        },
+        {
+          "fr": "Déposez la demande : 5 ou 6 étapes, avec les justificatifs et le code e-photo. Une confirmation de dépôt arrive par e-mail et sur votre compte.",
+          "en": "File the application: 5 or 6 steps, with supporting documents and the e-photo code. A filing confirmation arrives by email and in your account."
+        },
+        {
+          "fr": "Suivez le dossier avec « ACCEDER A MON COMPTE » : dépôt, instruction en cours, décision prise, titre disponible.",
+          "en": "Follow your file with \"ACCEDER A MON COMPTE\": filed, being processed, decision made, permit available."
+        },
+        {
+          "fr": "Si votre titre arrive en fin de validité pendant l'examen, l'attestation de prolongation d'instruction est mise dans votre espace personnel. Téléchargez-la.",
+          "en": "If your permit expires while your file is being examined, the certificate extending the examination is placed in your personal space. Download it."
+        },
+        {
+          "fr": "Si la préfecture demande un complément, vous recevez un e-mail : ouvrez la notification dans votre compte et ajoutez le document.",
+          "en": "If the prefecture asks for more documents, you get an email: open the notification in your account and add the document."
+        }
+      ],
+      "tip": {
+        "fr": "Pour une première demande avec un visa, le compte est créé quand un agent commence à traiter la demande : vous recevez alors votre numéro étranger et un mot de passe provisoire. En cas de problème technique, contactez le centre de contact citoyen.",
+        "en": "For a first application with a visa, the account is created when an officer starts processing it: you then receive your foreigner number and a temporary password. If you have a technical problem, contact the citizen contact centre."
+      },
+      "links": [
+        {
+          "title": {
+            "fr": "Ouvrir le site de l'ANEF",
+            "en": "Open the ANEF website"
+          },
+          "url": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/"
+        }
+      ],
+      "sources": [
+        "anef_faq",
+        "sp_r59398"
+      ]
+    },
+    {
+      "id": "prefecture_appointment",
+      "symbol": "calendar",
+      "title": {
+        "fr": "Prendre rendez-vous à la préfecture",
+        "en": "Book a prefecture appointment"
+      },
+      "summary": {
+        "fr": "Certaines démarches se font en ligne sur l'ANEF. Pour les autres, et pour la remise du titre, la plupart des préfectures demandent de prendre rendez-vous.",
+        "en": "Some procedures are done online on ANEF. For the others, and to collect your permit, most prefectures ask you to book an appointment."
+      },
+      "steps": [
+        {
+          "fr": "Vérifiez d'abord si votre démarche se fait en ligne sur le site de l'ANEF.",
+          "en": "First check whether your procedure is done online on the ANEF website."
+        },
+        {
+          "fr": "Sinon, trouvez votre préfecture ou sous-préfecture dans l'annuaire et ouvrez son site internet.",
+          "en": "If not, find your prefecture or sub-prefecture in the directory and open its website."
+        },
+        {
+          "fr": "Suivez les indications du site : prise de rendez-vous en ligne, courriel ou courrier, selon la préfecture.",
+          "en": "Follow the website's instructions: online booking, email or post, depending on the prefecture."
+        },
+        {
+          "fr": "Quand votre titre est prêt, un SMS vous indique comment le récupérer. Sans SMS, regardez le site de votre préfecture.",
+          "en": "When your permit is ready, a text message tells you how to collect it. If you get no text, check your prefecture's website."
+        },
+        {
+          "fr": "Si aucun créneau n'est disponible, réessayez à d'autres moments, puis écrivez à la préfecture avec le modèle de demande de rendez-vous.",
+          "en": "If no slot is available, try again at other times, then write to the prefecture using the appointment request template."
+        }
+      ],
+      "tip": {
+        "fr": "Un point d'accueil numérique de préfecture ou une maison France services peut vous aider à faire la démarche en ligne.",
+        "en": "A prefecture digital help desk or a France services office can help you with the online procedure."
+      },
+      "links": [
+        {
+          "title": {
+            "fr": "Trouver ma préfecture",
+            "en": "Find my prefecture"
+          },
+          "url": "https://lannuaire.service-public.gouv.fr/navigation/prefecture"
+        },
+        {
+          "title": {
+            "fr": "Démarches possibles sur l'ANEF",
+            "en": "Procedures available on ANEF"
+          },
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R59398"
+        }
+      ],
+      "sources": [
+        "sp_f2209",
+        "sp_r59398",
+        "anef_faq",
+        "lannuaire_prefecture",
+        "lannuaire_pan",
+        "fs_demarches"
+      ]
+    },
+    {
+      "id": "civil_status_france",
+      "symbol": "doc.text",
+      "title": {
+        "fr": "Obtenir un acte d'état civil français",
+        "en": "Get a French civil status record"
+      },
+      "summary": {
+        "fr": "La demande d'un acte de naissance est gratuite. Où la faire dépend du lieu de naissance et de votre situation.",
+        "en": "Requesting a birth certificate is free. Where to apply depends on the place of birth and your situation."
+      },
+      "steps": [
+        {
+          "fr": "Né en France : demandez l'acte en ligne, ou à la mairie du lieu de naissance (par courrier ou sur place).",
+          "en": "Born in France: request the certificate online, or from the town hall of the place of birth (by post or in person)."
+        },
+        {
+          "fr": "Né à l'étranger et de nationalité française : demandez l'acte en ligne au Service central d'état civil de Nantes, ou par courrier (11, rue de la Maison Blanche, 44941 Nantes Cedex 09).",
+          "en": "Born abroad and French: request the certificate online from the Central Civil Status Service in Nantes, or by post (11, rue de la Maison Blanche, 44941 Nantes Cedex 09)."
+        },
+        {
+          "fr": "Devenu français par décret ou déclaration, sans acte de naissance français : écrivez au Service central d'état civil, Département Établissement, avec la preuve de nationalité et votre acte de naissance étranger (légalisé ou apostillé si besoin, et traduit).",
+          "en": "Became French by decree or declaration, with no French birth certificate: write to the Central Civil Status Service, Département Établissement, with proof of nationality and your foreign birth certificate (legalised or apostilled if needed, and translated)."
+        },
+        {
+          "fr": "Réfugié, apatride ou sous protection subsidiaire : demandez la copie à l'Ofpra en ligne, avec votre numéro Ofpra à 9 chiffres. C'est possible une fois votre état civil reconstitué.",
+          "en": "Refugee, stateless or under subsidiary protection: request the copy from Ofpra online, with your 9-digit Ofpra number. This is possible once your civil status has been rebuilt."
+        }
+      ],
+      "cost": {
+        "fr": "Gratuit.",
+        "en": "Free."
+      },
+      "tip": {
+        "fr": "Ne passez pas par des sites qui demandent de payer. Le Service central d'état civil n'accueille pas de public. Par courrier, comptez environ 30 jours.",
+        "en": "Do not use websites that ask you to pay. The Central Civil Status Service does not receive visitors. By post, allow about 30 days."
+      },
+      "links": [
+        {
+          "title": {
+            "fr": "Acte de naissance : naissance en France",
+            "en": "Birth certificate: born in France"
+          },
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1406"
+        },
+        {
+          "title": {
+            "fr": "Acte de naissance : naissance à l'étranger",
+            "en": "Birth certificate: born abroad"
+          },
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R1405"
+        },
+        {
+          "title": {
+            "fr": "Acte d'état civil auprès de l'Ofpra",
+            "en": "Civil status record from Ofpra"
+          },
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R63676"
+        }
+      ],
+      "sources": [
+        "sp_f1427",
+        "sp_r63676",
+        "dipl_faq_etat_civil"
+      ]
+    },
+    {
+      "id": "tax_documents",
+      "symbol": "doc.plaintext",
+      "title": {
+        "fr": "Obtenir un avis d'impôt ou un bordereau de situation fiscale",
+        "en": "Get a tax notice or a tax status statement"
+      },
+      "summary": {
+        "fr": "L'avis d'impôt sur les revenus prouve les revenus déclarés. Le bordereau de situation fiscale (modèle P. 237) indique si vos impôts sont payés. Les deux s'obtiennent dans votre espace Finances publiques.",
+        "en": "The income tax notice proves the income you declared. The tax status statement (form P. 237) shows whether your taxes are paid. Both are available in your Finances publiques online space."
+      },
+      "steps": [
+        {
+          "fr": "Connectez-vous à votre espace Finances publiques sur impots.gouv.fr.",
+          "en": "Log in to your Finances publiques space on impots.gouv.fr."
+        },
+        {
+          "fr": "Téléchargez vos avis d'impôt sur les revenus dans votre espace.",
+          "en": "Download your income tax notices from your space."
+        },
+        {
+          "fr": "Pour le bordereau : ouvrez la « Messagerie sécurisée », puis « Ecrire », « Demande de documents (Bordereaux, justificatifs avis d'imposition) », « Justificatif de paiement de vos impôts (Bordereau de situation) ».",
+          "en": "For the statement: open \"Messagerie sécurisée\", then \"Ecrire\", \"Demande de documents (Bordereaux, justificatifs avis d'imposition)\", \"Justificatif de paiement de vos impôts (Bordereau de situation)\"."
+        },
+        {
+          "fr": "Faites une demande séparée pour chaque impôt et chaque année.",
+          "en": "Make a separate request for each tax and each year."
+        },
+        {
+          "fr": "Vous pouvez aussi contacter votre centre des finances publiques : ses coordonnées sont sur vos avis d'impôt.",
+          "en": "You can also contact your public finance centre: its details are on your tax notices."
+        }
+      ],
+      "tip": {
+        "fr": "Pour une naturalisation, service-public demande le bordereau P. 237 des 3 dernières années, daté de moins de 3 mois au dépôt du dossier.",
+        "en": "For naturalisation, service-public asks for the P. 237 statement covering the last 3 years, dated less than 3 months before you file."
+      },
+      "links": [
+        {
+          "title": {
+            "fr": "Mon espace Finances publiques",
+            "en": "My Finances publiques space"
+          },
+          "url": "https://cfspart.impots.gouv.fr"
+        },
+        {
+          "title": {
+            "fr": "Comment obtenir le bordereau",
+            "en": "How to get the statement"
+          },
+          "url": "https://www.impots.gouv.fr/particulier/questions/jai-besoin-dun-bordereau-de-situation-fiscale-comment-lobtenir"
+        }
+      ],
+      "sources": [
+        "imp_bordereau",
+        "imp_documents",
+        "sp_f34746"
+      ]
+    },
+    {
+      "id": "criminal_record",
+      "symbol": "doc.text.magnifyingglass",
+      "title": {
+        "fr": "Obtenir un extrait de casier judiciaire",
+        "en": "Get a criminal record extract"
+      },
+      "summary": {
+        "fr": "Le bulletin n°3 du casier judiciaire français est gratuit et peut être délivré quelle que soit votre nationalité. Certaines démarches demandent aussi le casier des pays où vous avez vécu.",
+        "en": "Bulletin n°3 of the French criminal record is free and available whatever your nationality. Some procedures also ask for records from countries where you have lived."
+      },
+      "steps": [
+        {
+          "fr": "Faites la demande sur le site du casier judiciaire national.",
+          "en": "Apply on the national criminal record website."
+        },
+        {
+          "fr": "Sans FranceConnect, et si vous êtes né à l'étranger, joignez une copie de votre pièce d'identité (passeport ou carte).",
+          "en": "Without FranceConnect, if you were born abroad, attach a copy of your ID (passport or card)."
+        },
+        {
+          "fr": "Cliquez sur le lien de confirmation reçu par e-mail : sans ce clic, la demande n'est pas prise en compte.",
+          "en": "Click the confirmation link in the email: without this click, the request is not processed."
+        },
+        {
+          "fr": "Délai : 1 à 24 heures avec FranceConnect, 2 jours ouvrés par e-mail sans FranceConnect, environ 2 semaines par courrier.",
+          "en": "Time: 1 to 24 hours with FranceConnect, 2 working days by email without FranceConnect, about 2 weeks by post."
+        },
+        {
+          "fr": "Casier d'un autre pays : demandez-le aux autorités judiciaires ou administratives du pays concerné.",
+          "en": "Record from another country: ask the judicial or administrative authorities of that country."
+        }
+      ],
+      "cost": {
+        "fr": "Gratuit (bulletin n°3 français).",
+        "en": "Free (French bulletin n°3)."
+      },
+      "tip": {
+        "fr": "Pour une déclaration de nationalité par mariage, service-public demande un extrait de casier étranger, délivré après votre arrivée en France, pour chaque pays où vous avez vécu plus de 6 mois dans les 10 dernières années. Il n'est pas demandé aux réfugiés et apatrides protégés par l'Ofpra pour leur pays d'origine.",
+        "en": "For a nationality declaration by marriage, service-public asks for a foreign criminal record, issued after you arrived in France, for each country where you lived more than 6 months in the last 10 years. Refugees and stateless people protected by Ofpra do not need one from their country of origin."
+      },
+      "links": [
+        {
+          "title": {
+            "fr": "Demander le bulletin n°3 en ligne",
+            "en": "Request bulletin n°3 online"
+          },
+          "url": "https://casier-judiciaire.justice.gouv.fr/"
+        }
+      ],
+      "sources": [
+        "sp_f1420",
+        "sp_f2726"
+      ]
+    },
+    {
+      "id": "language_certificate",
+      "symbol": "text.bubble",
+      "title": {
+        "fr": "Prouver mon niveau de français",
+        "en": "Prove my French level"
+      },
+      "summary": {
+        "fr": "Depuis le 1er janvier 2026, une première carte de séjour pluriannuelle demande le niveau A2, une première carte de résident le niveau B1, et la naturalisation le niveau B2 à l'oral et à l'écrit. Certaines cartes ne sont pas concernées.",
+        "en": "Since 1 January 2026, a first multi-year residence permit requires level A2, a first resident card level B1, and naturalisation level B2 in speaking and writing. Some cards are not concerned."
+      },
+      "steps": [
+        {
+          "fr": "Vérifiez le niveau demandé pour votre démarche sur service-public.",
+          "en": "Check the level required for your procedure on service-public."
+        },
+        {
+          "fr": "Diplômes acceptés : DELF, DALF ou DELF Pro (France Éducation International), DCL, DUEF, DFP, ou un diplôme français à partir du CAP, BEP, CFG ou brevet.",
+          "en": "Accepted diplomas: DELF, DALF or DELF Pro (France Éducation International), DCL, DUEF, DFP, or a French diploma from CAP, BEP, CFG or brevet upwards."
+        },
+        {
+          "fr": "Sinon, passez un test reconnu par le ministère de l'Intérieur : le TCF (France Éducation International) ou le TEF (CCI Paris Île-de-France).",
+          "en": "Otherwise, take a test recognised by the Ministry of the Interior: TCF (France Éducation International) or TEF (CCI Paris Île-de-France)."
+        },
+        {
+          "fr": "Inscrivez-vous dans un centre agréé. Les épreuves se passent sur place, le même jour : oral, écrit, compréhension orale et écrite.",
+          "en": "Register at an approved centre. The tests take place in person on the same day: speaking, writing, listening and reading."
+        }
+      ],
+      "tip": {
+        "fr": "L'attestation de test est valable 2 ans. Les diplômes délivrés par un pays étranger, même francophone, ne sont pas acceptés pour la carte de séjour pluriannuelle. En cas de handicap ou de maladie, un aménagement ou une dispense est possible avec un certificat médical.",
+        "en": "A test certificate is valid for 2 years. Diplomas issued by a foreign country, even a French-speaking one, are not accepted for the multi-year permit. With a disability or illness, adjustments or an exemption are possible with a medical certificate."
+      },
+      "links": [
+        {
+          "title": {
+            "fr": "Trouver un centre TCF",
+            "en": "Find a TCF centre"
+          },
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R52170"
+        },
+        {
+          "title": {
+            "fr": "Trouver un centre TEF",
+            "en": "Find a TEF centre"
+          },
+          "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R52169"
+        }
+      ],
+      "sources": [
+        "sp_f34501",
+        "sp_f11926",
+        "sp_r52170",
+        "sp_r52169"
+      ]
+    },
+    {
+      "id": "civic_exam",
+      "symbol": "graduationcap",
+      "title": {
+        "fr": "Passer l'examen civique",
+        "en": "Take the civic exam"
+      },
+      "summary": {
+        "fr": "Depuis le 1er janvier 2026, la réussite à l'examen civique est demandée pour une première carte de séjour pluriannuelle, une première carte de résident et la naturalisation. Certaines personnes ne sont pas concernées.",
+        "en": "Since 1 January 2026, passing the civic exam is required for a first multi-year residence permit, a first resident card and naturalisation. Some people are not concerned."
+      },
+      "steps": [
+        {
+          "fr": "Vérifiez sur service-public si votre titre est concerné (par exemple, pas les renouvellements, ni les personnes de plus de 65 ans).",
+          "en": "Check on service-public whether your permit is concerned (for example, not renewals, nor people over 65)."
+        },
+        {
+          "fr": "Choisissez un centre agréé de la CCI Paris Île-de-France ou de France Éducation International, et inscrivez-vous.",
+          "en": "Choose an approved centre of CCI Paris Île-de-France or France Éducation International, and register."
+        },
+        {
+          "fr": "Préparez-vous gratuitement sur le site de la formation civique : programme, fiches par thème, liste des questions de connaissance.",
+          "en": "Prepare for free on the civic training website: syllabus, topic sheets, list of knowledge questions."
+        },
+        {
+          "fr": "Le jour de l'examen : 40 questions à choix multiples en français, sur ordinateur ou tablette, 45 minutes au maximum. Il faut 32 bonnes réponses.",
+          "en": "On exam day: 40 multiple-choice questions in French, on a computer or tablet, 45 minutes maximum. You need 32 correct answers."
+        }
+      ],
+      "cost": {
+        "fr": "Les droits d'inscription sont fixés par chaque centre et varient d'un centre à l'autre.",
+        "en": "Registration fees are set by each centre and vary from one centre to another."
+      },
+      "tip": {
+        "fr": "L'attestation de réussite n'a pas de durée de validité. Vous pouvez repasser l'examen autant de fois que nécessaire. Le ministère précise qu'il n'est pas nécessaire de payer pour s'entraîner. En cas de handicap ou de maladie, un aménagement ou une dispense est possible avec un certificat médical.",
+        "en": "The pass certificate does not expire. You can retake the exam as often as needed. The ministry says you do not need to pay to practise. With a disability or illness, adjustments or an exemption are possible with a medical certificate."
+      },
+      "links": [
+        {
+          "title": {
+            "fr": "Centres agréés CCI Paris Île-de-France",
+            "en": "CCI Paris Île-de-France approved centres"
+          },
+          "url": "https://francais.cci-paris-idf.fr/candidat?produit=21"
+        },
+        {
+          "title": {
+            "fr": "Centres agréés France Éducation International",
+            "en": "France Éducation International approved centres"
+          },
+          "url": "https://www.france-education-international.fr/centres-d-examen/carte?type-centre=examen_civique"
+        },
+        {
+          "title": {
+            "fr": "Se préparer (site de la formation civique)",
+            "en": "Prepare (civic training website)"
+          },
+          "url": "https://formation-civique.interieur.gouv.fr/"
+        }
+      ],
+      "sources": [
+        "sp_f39530",
+        "sp_f39426",
+        "sp_r75389",
+        "sp_r75391",
+        "formation_civique_examen"
+      ]
+    },
+    {
+      "id": "loss_theft_report",
+      "symbol": "exclamationmark.shield",
+      "title": {
+        "fr": "Déclarer la perte ou le vol de ma carte de séjour",
+        "en": "Report a lost or stolen residence card"
+      },
+      "summary": {
+        "fr": "Après une perte ou un vol, vous demandez un duplicata sur le site de l'ANEF. En cas de vol, il faut d'abord porter plainte.",
+        "en": "After a loss or theft, you apply for a duplicate on the ANEF website. If it was stolen, you must first report it to the police."
+      },
+      "steps": [
+        {
+          "fr": "Vol en France : déclarez le vol au commissariat ou à la gendarmerie. Un récépissé vous est remis.",
+          "en": "Theft in France: report it at a police or gendarmerie station. You receive a receipt."
+        },
+        {
+          "fr": "Si vous ne connaissez pas l'auteur du vol, la plainte peut aussi se faire en ligne sur masecurite.interieur.gouv.fr. Gardez le récépissé.",
+          "en": "If you do not know who stole it, you can also file the complaint online at masecurite.interieur.gouv.fr. Keep the receipt."
+        },
+        {
+          "fr": "Perte en France : préparez une déclaration sur l'honneur de la perte.",
+          "en": "Loss in France: prepare a sworn statement of loss."
+        },
+        {
+          "fr": "Sur le site de l'ANEF, choisissez « Je déclare un changement de situation », puis « Je signale la perte, le vol ou la détérioration de mon titre de séjour ».",
+          "en": "On the ANEF website, choose \"Je déclare un changement de situation\", then \"Je signale la perte, le vol ou la détérioration de mon titre de séjour\"."
+        },
+        {
+          "fr": "Joignez les pièces demandées : récépissé de plainte ou déclaration de perte, copie du titre si vous en avez une, passeport, justificatif de domicile de moins de 3 mois, code e-photo.",
+          "en": "Attach the requested documents: police receipt or statement of loss, copy of the card if you have one, passport, proof of address less than 3 months old, e-photo code."
+        }
+      ],
+      "tip": {
+        "fr": "La demande de duplicata rend la carte d'origine invalide, définitivement. Le duplicata garde les mêmes dates de validité. Si votre titre expire dans moins de 90 jours, l'ANEF vous oriente vers le renouvellement. Perte ou vol à l'étranger : déclarez-le à la police locale et au consulat de France, et demandez un visa de retour.",
+        "en": "Applying for a duplicate permanently cancels the original card. The duplicate keeps the same validity dates. If your permit expires in less than 90 days, ANEF directs you to a renewal. Loss or theft abroad: report it to the local police and the French consulate, and ask for a return visa."
+      },
+      "links": [
+        {
+          "title": {
+            "fr": "Trouver un commissariat ou une gendarmerie",
+            "en": "Find a police or gendarmerie station"
+          },
+          "url": "https://www.masecurite.interieur.gouv.fr/fr/trouver-un-commissariat-une-gendarmerie"
+        },
+        {
+          "title": {
+            "fr": "Ouvrir le site de l'ANEF",
+            "en": "Open the ANEF website"
+          },
+          "url": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/"
+        }
+      ],
+      "sources": [
+        "sp_f22312",
+        "sp_f21032",
+        "sp_f1435",
+        "anef_faq"
+      ]
+    },
+    {
+      "id": "health_insurance",
+      "symbol": "cross.case",
+      "title": {
+        "fr": "Obtenir une attestation de droits à l'assurance maladie",
+        "en": "Get a health insurance certificate"
+      },
+      "summary": {
+        "fr": "L'attestation de droits prouve que vous êtes couvert par l'Assurance maladie. La copie papier reçue avec la carte Vitale ne vaut pas attestation de droits.",
+        "en": "The certificate of entitlement proves you are covered by health insurance. The paper copy sent with the Vitale card is not a certificate of entitlement."
+      },
+      "steps": [
+        {
+          "fr": "Connectez-vous à votre compte ameli (site ou application Compte ameli).",
+          "en": "Log in to your ameli account (website or Compte ameli app)."
+        },
+        {
+          "fr": "Téléchargez l'attestation de droits au format PDF.",
+          "en": "Download the certificate of entitlement as a PDF."
+        },
+        {
+          "fr": "Pas de compte ? Créez-le en ligne, par téléphone ou dans un point d'accueil.",
+          "en": "No account? Create one online, by phone or at a reception point."
+        },
+        {
+          "fr": "Sans compte et sans pouvoir vous déplacer : appelez le 3646 (service gratuit + prix d'un appel), en général du lundi au vendredi de 8h30 à 17h30.",
+          "en": "No account and unable to travel: call 3646 (free service + call price), usually Monday to Friday 8:30am to 5:30pm."
+        },
+        {
+          "fr": "Vous pouvez aussi aller à l'accueil de votre CPAM.",
+          "en": "You can also go to your CPAM office."
+        }
+      ],
+      "tip": {
+        "fr": "Ces étapes concernent le régime général. Pour un autre régime (MSA, mutuelles de la fonction publique, régimes spéciaux), la démarche est différente.",
+        "en": "These steps are for the general scheme. For another scheme (MSA, civil service mutuals, special schemes), the procedure is different."
+      },
+      "links": [
+        {
+          "title": {
+            "fr": "Obtenir une attestation sur ameli",
+            "en": "Get a certificate on ameli"
+          },
+          "url": "https://www.ameli.fr/assure/adresses-et-contacts/l-obtention-d-un-document/obtenir-une-attestation/obtenir-une-attestation-de-droits"
+        },
+        {
+          "title": {
+            "fr": "Trouver ma CPAM",
+            "en": "Find my CPAM"
+          },
+          "url": "https://www.ameli.fr/assure/adresses-et-contacts"
+        }
+      ],
+      "sources": [
+        "sp_f10662",
+        "ameli_attestation"
       ]
     }
   ]

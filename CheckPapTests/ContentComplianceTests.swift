@@ -10,7 +10,8 @@ struct ContentComplianceTests {
         "administration-etrangers-en-france.interieur.gouv.fr", "interieur.gouv.fr",
         "legifrance.gouv.fr", "ofii.fr", "france-visas.gouv.fr", "demarches.interieur.gouv.fr",
         "immigration.interieur.gouv.fr", "data.gouv.fr", "lannuaire.service-public.gouv.fr",
-        "defenseurdesdroits.fr", "justice.fr",
+        "defenseurdesdroits.fr", "justice.fr", "ameli.fr", "france-education-international.fr",
+        "courdecassation.fr", "cci-paris-idf.fr",
     ]
 
     static func isAllowed(_ url: URL) -> Bool {
@@ -202,7 +203,13 @@ struct ContentComplianceTests {
         for source in help.sources {
             #expect(Self.isAllowed(source.url), "help : source hors domaines autorisés \(source.url)")
         }
-        for item in help.contacts.map({ ($0.id, $0.sources) }) + help.letters.map({ ($0.id, $0.sources) }) {
+        for guide in help.guides ?? [] {
+            for link in guide.links ?? [] {
+                #expect(Self.isAllowed(link.url), "help / \(guide.id) : lien hors domaines autorisés \(link.url)")
+            }
+        }
+        for item in help.contacts.map({ ($0.id, $0.sources) }) + help.letters.map({ ($0.id, $0.sources) })
+            + (help.guides ?? []).map({ ($0.id, $0.sources) }) {
             #expect(!item.1.isEmpty, "help / \(item.0) : aucune source")
             #expect(item.1.allSatisfy(known.contains), "help / \(item.0) : source inconnue")
         }

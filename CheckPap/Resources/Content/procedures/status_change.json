@@ -294,25 +294,6 @@
       ]
     },
     {
-      "id": "permit_still_valid",
-      "kind": "yesNo",
-      "title": {
-        "fr": "Votre titre de séjour actuel est-il encore valable aujourd'hui ?",
-        "en": "Is your current residence permit still valid today?"
-      },
-      "help": {
-        "fr": "Service-public indique que la demande de changement de statut se dépose avant la fin de validité de votre titre. Un récépissé ou une attestation de prolongation en cours de validité compte aussi : répondez oui et indiquez sa date de fin.",
-        "en": "Service-public says you file the change of status before your permit expires. A valid receipt or extension certificate also counts: answer yes and enter its end date."
-      },
-      "condition": null,
-      "sources": [
-        "sp_salarie",
-        "sp_rece",
-        "sp_entrepreneur",
-        "sp_talent"
-      ]
-    },
-    {
       "id": "permit_expiry_date",
       "kind": "date",
       "title": {
@@ -320,17 +301,14 @@
         "en": "When does your current permit expire?"
       },
       "help": {
-        "fr": "La date est écrite sur votre carte de séjour ou sur votre visa. Elle sert à calculer la période pour déposer votre demande.",
-        "en": "The date is written on your residence card or on your visa. It is used to work out when to file your application."
+        "fr": "La date est écrite sur votre carte de séjour, votre visa ou votre récépissé. Elle sert à calculer la période pour déposer votre demande. Si la date est déjà passée, vous pouvez quand même la choisir.",
+        "en": "The date is written on your residence card, visa or receipt. It is used to work out when to file your application. If the date has already passed, you can still choose it."
       },
       "example": {
-        "fr": "Exemple : \"Valable jusqu'au 30/09/2027\".",
-        "en": "Example: \"Valid until 30/09/2027\"."
+        "fr": "Exemple : \"Valable jusqu'au 30/09/2027\". Si vous avez un récépissé ou une attestation de prolongation, indiquez sa date de fin.",
+        "en": "Example: \"Valid until 30/09/2027\". If you have a receipt or an extension certificate, enter its end date."
       },
-      "condition": {
-        "question": "permit_still_valid",
-        "equals": "yes"
-      },
+      "condition": null,
       "sources": [
         "sp_salarie",
         "sp_rece",
@@ -891,6 +869,9 @@
         "sp_rece",
         "sp_entrepreneur",
         "sp_talent"
+      ],
+      "guides": [
+        "proof_of_address"
       ]
     },
     {
@@ -914,6 +895,9 @@
         "sp_rece",
         "sp_entrepreneur",
         "sp_talent"
+      ],
+      "guides": [
+        "proof_of_address"
       ]
     },
     {
@@ -933,6 +917,9 @@
       },
       "sources": [
         "sp_justificatif_domicile"
+      ],
+      "guides": [
+        "proof_of_address"
       ]
     },
     {
@@ -948,6 +935,9 @@
       },
       "sources": [
         "sp_justificatif_domicile"
+      ],
+      "guides": [
+        "proof_of_address"
       ]
     },
     {
@@ -971,6 +961,9 @@
       },
       "sources": [
         "sp_justificatif_domicile"
+      ],
+      "guides": [
+        "proof_of_address"
       ]
     },
     {
@@ -1002,6 +995,9 @@
         "sp_salarie",
         "sp_rece",
         "sp_entrepreneur"
+      ],
+      "guides": [
+        "ephoto"
       ]
     },
     {
@@ -1025,6 +1021,9 @@
       },
       "sources": [
         "sp_talent"
+      ],
+      "guides": [
+        "ephoto"
       ]
     },
     {
@@ -1104,6 +1103,9 @@
       },
       "sources": [
         "sp_rece"
+      ],
+      "guides": [
+        "health_insurance"
       ]
     },
     {
@@ -1230,6 +1232,9 @@
       },
       "sources": [
         "sp_entrepreneur"
+      ],
+      "guides": [
+        "tax_documents"
       ]
     },
     {
@@ -1487,6 +1492,9 @@
       },
       "sources": [
         "sp_entrepreneur"
+      ],
+      "guides": [
+        "tax_documents"
       ]
     },
     {
@@ -1506,6 +1514,9 @@
       },
       "sources": [
         "sp_entrepreneur"
+      ],
+      "guides": [
+        "tax_documents"
       ]
     },
     {
@@ -1685,6 +1696,9 @@
       },
       "sources": [
         "sp_talent"
+      ],
+      "guides": [
+        "criminal_record"
       ]
     },
     {
@@ -1793,6 +1807,9 @@
         "sp_entrepreneur",
         "sp_talent",
         "sp_actu_taxes_2026"
+      ],
+      "guides": [
+        "fiscal_stamp"
       ]
     },
     {
@@ -1817,6 +1834,9 @@
       "sources": [
         "sp_rece",
         "sp_actu_taxes_2026"
+      ],
+      "guides": [
+        "fiscal_stamp"
       ]
     },
     {
@@ -2071,6 +2091,9 @@
       },
       "sources": [
         "sp_entrepreneur"
+      ],
+      "guides": [
+        "sworn_translation"
       ]
     },
     {
@@ -2169,6 +2192,9 @@
       "letters": [
         "appointment_request",
         "cannot_use_online"
+      ],
+      "guides": [
+        "prefecture_appointment"
       ]
     },
     {
@@ -2199,6 +2225,9 @@
       ],
       "letters": [
         "appointment_request"
+      ],
+      "guides": [
+        "prefecture_appointment"
       ]
     },
     {
@@ -2233,6 +2262,9 @@
       ],
       "letters": [
         "cannot_use_online"
+      ],
+      "guides": [
+        "anef_account"
       ]
     },
     {
@@ -2334,6 +2366,10 @@
         "sp_talent",
         "sp_salarie",
         "sp_actu_taxes_2026"
+      ],
+      "guides": [
+        "fiscal_stamp",
+        "prefecture_appointment"
       ]
     },
     {
@@ -2482,15 +2518,19 @@
     "Autres changements de statut non traités faute de pièces spécifiques lues : étudiant vers vie privée et familiale (conjoint de Français, etc.), talent-chercheur vers salarié, talent - projet économique innovant et investissement, talent - profession artistique ou médicale (seuils cités par F17319 : 1 306,91 € et 41 386,48 €).",
     "Arrêté du 4 mai 2022 (liste nationale des pièces) et annexe 10 du CESEDA (points 26 à 28) non lus. Légifrance n'est lisible que par fragments.",
     "Ce qui dépend de la préfecture : mode de dépôt (guichet, courrier, plateforme en ligne, rendez-vous), sous-préfectures compétentes, renouvellement du récépissé, convocation pour la remise du titre, pièces locales complémentaires (formulaires, copies).",
-    "Pièces sans condition conservées : identity_document et current_permit figurent dans toutes les listes de pièces des fiches F15898 (changement de statut), F17319, F35795 et F16922 pour toutes les combinaisons traitées. Contrat d'engagement : F38329 le rend facultatif pour les Algériens (tous titres) et pour les Marocains et Tunisiens demandant un titre salarié ; la formulation « salarié » n'a pas été étendue au titre travailleur temporaire faute de source. Les autres dérogations de F38329 (Tunisiens dans d'autres cas, citoyens UE/EEE, Monégasques, accord de retrait du Royaume-Uni) ne concernent pas les titres traités ici."
+    "Pièces sans condition conservées : identity_document et current_permit figurent dans toutes les listes de pièces des fiches F15898 (changement de statut), F17319, F35795 et F16922 pour toutes les combinaisons traitées. Contrat d'engagement : F38329 le rend facultatif pour les Algériens (tous titres) et pour les Marocains et Tunisiens demandant un titre salarié ; la formulation « salarié » n'a pas été étendue au titre travailleur temporaire faute de source. Les autres dérogations de F38329 (Tunisiens dans d'autres cas, citoyens UE/EEE, Monégasques, accord de retrait du Royaume-Uni) ne concernent pas les titres traités ici.",
+    "Question « titre encore valable » supprimée (29/10/2026) : remplacée par des conditions daysFromToday sur permit_expiry_date (titre expiré : max -1 ; talent : moins de 60 jours ; dépôt en préfecture : plus de 60 jours avant). Les seuils 59/61 jours approchent « 2 mois ».",
+    "Fiche guide criminal_record liée à l'extrait de casier judiciaire du porteur de projet talent : la source demande un extrait du pays de nationalité, la fiche peut ne couvrir que le casier français. Fiche sworn_translation liée à l'étape entrepreneur (F35795 exige la traduction des actes d'état civil par un traducteur interprète agréé) ; aucune autre source lue n'exige de traduction pour ces titres. Fiches language_certificate et civic_exam non utilisées : non exigées pour les cartes temporaires traitées (voir note sur l'examen civique)."
   ],
   "outcomes": [
     {
       "id": "permit_expired",
       "kind": "redirect",
       "condition": {
-        "question": "permit_still_valid",
-        "equals": "no"
+        "question": "permit_expiry_date",
+        "daysFromToday": {
+          "max": -1
+        }
       },
       "title": {
         "fr": "Cette démarche suppose un titre encore valable",
@@ -2507,8 +2547,8 @@
             "en": "Check your document"
           },
           "body": {
-            "fr": "Si vous avez un récépissé ou une attestation de prolongation encore valable, revenez en arrière et répondez oui.",
-            "en": "If you have a receipt or an extension certificate that is still valid, go back and answer yes."
+            "fr": "Si vous avez un récépissé ou une attestation de prolongation encore valable, revenez en arrière et indiquez sa date de fin.",
+            "en": "If you have a receipt or an extension certificate that is still valid, go back and enter its end date."
           }
         },
         {
@@ -2541,6 +2581,135 @@
         "sp_salarie",
         "sp_autorisation_travail",
         "sp_aes"
+      ]
+    },
+    {
+      "id": "talent_late",
+      "kind": "warning",
+      "condition": {
+        "all": [
+          {
+            "question": "target_status",
+            "in": [
+              "talent_qualified",
+              "talent_blue_card",
+              "talent_project"
+            ]
+          },
+          {
+            "question": "permit_expiry_date",
+            "daysFromToday": {
+              "min": 0,
+              "max": 59
+            }
+          }
+        ]
+      },
+      "title": {
+        "fr": "La période indiquée pour déposer est peut-être dépassée",
+        "en": "The filing period given may have passed"
+      },
+      "body": {
+        "fr": "D'après service-public, la demande de carte talent se dépose sur internet au plus tôt 4 mois et au plus tard 2 mois avant la fin de validité du titre. Votre titre se termine dans moins de 2 mois.",
+        "en": "According to service-public, you file a talent card application online no earlier than 4 months and no later than 2 months before your permit expires. Your permit ends in less than 2 months."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Déposer sans attendre et se faire aider",
+            "en": "File without delay and get help"
+          },
+          "body": {
+            "fr": "Déposez votre demande au plus vite. Si vous avez une question sur votre dossier, contactez le centre de contact de l'ANEF ou votre préfecture.",
+            "en": "File your application as soon as possible. If you have a question about your file, contact the ANEF contact centre or your prefecture."
+          },
+          "link": {
+            "title": {
+              "fr": "Ouvrir le site de l'ANEF",
+              "en": "Open the ANEF website"
+            },
+            "url": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/"
+          }
+        }
+      ],
+      "contacts": [
+        "anef_contact",
+        "prefecture_directory",
+        "france_services"
+      ],
+      "letters": [],
+      "sources": [
+        "sp_talent"
+      ]
+    },
+    {
+      "id": "prefecture_window_not_open",
+      "kind": "warning",
+      "condition": {
+        "all": [
+          {
+            "any": [
+              {
+                "question": "target_status",
+                "in": [
+                  "rece",
+                  "entrepreneur"
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "question": "target_status",
+                    "in": [
+                      "salarie",
+                      "travailleur_temporaire"
+                    ]
+                  },
+                  {
+                    "question": "current_status",
+                    "in": [
+                      "student",
+                      "student_mobility"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "question": "permit_expiry_date",
+            "daysFromToday": {
+              "min": 61
+            }
+          }
+        ]
+      },
+      "title": {
+        "fr": "Vous êtes en avance : préparez votre dossier",
+        "en": "You are early: prepare your file"
+      },
+      "body": {
+        "fr": "D'après service-public, cette demande se dépose dans les 2 mois avant la fin de validité de votre titre. Vous pouvez déjà réunir les pièces. Pour le titre salarié ou travailleur temporaire, l'employeur peut déjà faire la demande d'autorisation de travail.",
+        "en": "According to service-public, this application is filed within the 2 months before your permit expires. You can already gather the documents. For the employee or temporary worker permit, the employer can already request the work authorisation."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Noter la date de début",
+            "en": "Note the start date"
+          },
+          "body": {
+            "fr": "La date de début des 2 mois est indiquée dans vos échéances.",
+            "en": "The start date of the 2 months is shown in your deadlines."
+          }
+        }
+      ],
+      "contacts": [],
+      "letters": [],
+      "sources": [
+        "sp_apres_etudes",
+        "sp_rece",
+        "sp_entrepreneur"
       ]
     },
     {

@@ -8,6 +8,7 @@ struct DocumentRow: View {
     let isChecked: Bool
     let toggle: () -> Void
 
+    @Environment(ContentStore.self) private var store
     @State private var expanded = false
 
     var body: some View {
@@ -63,6 +64,9 @@ struct DocumentRow: View {
             }
             if let tip = document.tip {
                 Callout(.tip, tip)
+            }
+            ForEach(store.help?.guides(for: document.guides) ?? []) { guide in
+                PracticalGuideCard(guide: guide)
             }
             DocumentReason(reasons: RulesEngine.reasons(for: document.condition, in: procedure, answers: answers))
             SourcesList(sources: procedure.sources(for: document.sources))

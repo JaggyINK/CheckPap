@@ -20,4 +20,4 @@ for entry in catalog.procedures {
         "\($0.questions.count) questions, \($0.documents.count) pièces, \($0.steps.count) étapes, \($0.outcomes?.count ?? 0) orientations"
     }
 }
-check(HelpContent.self, "help.json") { "\($0.contacts.count) contacts, \($0.letters.count) courriers" }
+check(HelpContent.self, "help.json") { "\($0.contacts.count) contacts, \($0.letters.count) courriers, \($0.guides?.count ?? 0) fiches pratiques" }

@@ -84,6 +84,7 @@ struct RequiredDocument: Decodable, Identifiable, Hashable {
     let details: LocalizedText?
     let example: LocalizedText?
     let tip: LocalizedText?
+    let guides: [String]?
     let condition: Condition?
     let sources: [String]
 }
@@ -99,6 +100,7 @@ struct GuideStep: Decodable, Identifiable, Hashable {
     let body: LocalizedText
     let link: StepLink?
     let letters: [String]?
+    let guides: [String]?
     let condition: Condition?
     let sources: [String]
 }

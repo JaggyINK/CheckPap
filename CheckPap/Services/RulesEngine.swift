@@ -5,7 +5,7 @@ import Foundation
 enum RulesEngine {
     typealias Answers = [String: String]
 
-    static func isSatisfied(_ condition: Condition?, answers: Answers) -> Bool {
+    static func isSatisfied(_ condition: Condition?, answers: Answers, today: Date = .now) -> Bool {
         guard let condition else { return true }
         switch condition {
         case let .equals(question, value):
@@ -13,13 +13,23 @@ enum RulesEngine {
         case let .oneOf(question, values):
             guard let answer = answers[question] else { return false }
             return values.contains(answer)
+        case let .daysFromToday(question, min, max):
+            guard let days = answers[question].flatMap({ daysFrom(today, to: $0) }) else { return false }
+            return days >= (min ?? .min) && days <= (max ?? .max)
         case let .all(conditions):
-            return conditions.allSatisfy { isSatisfied($0, answers: answers) }
+            return conditions.allSatisfy { isSatisfied($0, answers: answers, today: today) }
         case let .any(conditions):
-            return conditions.contains { isSatisfied($0, answers: answers) }
+            return conditions.contains { isSatisfied($0, answers: answers, today: today) }
         case let .not(condition):
-            return !isSatisfied(condition, answers: answers)
+            return !isSatisfied(condition, answers: answers, today: today)
         }
+    }
+
+    /// Jours entiers entre aujourd'hui et une date `AAAA-MM-JJ` (négatif si la date est passée).
+    static func daysFrom(_ today: Date, to dateString: String) -> Int? {
+        guard let date = DayDate.parse(dateString) else { return nil }
+        let calendar = Calendar.current
+        return calendar.dateComponents([.day], from: calendar.startOfDay(for: today), to: calendar.startOfDay(for: date)).day
     }
 
     /// Questions à poser, dans l'ordre, compte tenu des réponses déjà données.

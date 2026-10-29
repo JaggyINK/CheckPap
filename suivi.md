@@ -64,6 +64,18 @@ Dernière mise à jour du plan : 29/10/2026.
 - **Contenu au statut `draft`** : relecture humaine indispensable avant publication (voir `reviewNotes` de chaque fichier). Le décret n°2026-1001 change des délais au 30/10/2026 : à revérifier.
 - Reste à faire : traduire en anglais les nouveaux textes de l'interface (String Catalog), écran de choix de la langue et du département.
 
+**29/10/2026 (suite)**
+- Logo : initiales "CP" et pastille "validé" en V.
+- Chaque pièce dépend de la situation ("Pourquoi cette pièce ?" affiché dans l'app) ; test automatique contre les pièces "seulement si" sans condition.
+- Conditions sur les dates (`daysFromToday`) : plus de question "temps restant" en doublon avec la date ; un titre déjà expiré déclenche l'orientation adaptée.
+- Fiches pratiques "Comment l'obtenir ?" (e-photo, timbre fiscal, traduction, casier judiciaire...) reliées aux pièces et aux étapes.
+- Nouvelles démarches en cours de rédaction : passeport (français ou étranger), visa pour venir en France, voyager de la France vers l'étranger.
+
+## Feuille de route après la v1 (demandes de l'utilisatrice)
+
+- [ ] **Annuaire des consulats par nationalité et par lieu** : pour un passeport étranger, indiquer le consulat compétent selon le pays et le département de la personne. Nécessite une source structurée et maintenue (liste des représentations étrangères en France) et l'écran de choix du département (tâche 3.5).
+- [ ] **Onglet "1 étranger 1 solution"** : les droits des étrangers selon leur situation (santé, logement, travail, aides, scolarité, recours...), sur le modèle de "1 jeune 1 solution". Même principe que les démarches : quelques questions, puis les droits et aides qui correspondent, chacun sourcé, avec les services à contacter.
+
 ---
 
 ## Comment utiliser ce fichier

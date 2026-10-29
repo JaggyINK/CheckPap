@@ -36,6 +36,9 @@ struct StepRow: View {
                 if let link = step.link {
                     ExternalLinkLabel(link: link)
                 }
+                ForEach(store.help?.guides(for: step.guides) ?? []) { guide in
+                    PracticalGuideCard(guide: guide)
+                }
                 ForEach(store.help?.letters(for: step.letters) ?? []) { letter in
                     LetterButton(letter: letter, procedure: procedure)
                 }
