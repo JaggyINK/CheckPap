@@ -1,30 +1,90 @@
 {
   "schemaVersion": 1,
-  "contentVersion": "2026-10-29.1",
+  "contentVersion": "2026-10-29.3",
   "procedures": [
     {
       "id": "renewal",
       "symbol": "arrow.triangle.2.circlepath",
-      "title": { "fr": "Renouveler mon titre de séjour", "en": "Renew my residence permit" },
-      "subtitle": { "fr": "Mon titre arrive bientôt à expiration", "en": "My permit expires soon" }
+      "title": {
+        "fr": "Renouveler mon titre de séjour",
+        "en": "Renew my residence permit"
+      },
+      "subtitle": {
+        "fr": "Mon titre arrive bientôt à expiration",
+        "en": "My permit expires soon"
+      }
     },
     {
       "id": "status_change",
       "symbol": "arrow.left.arrow.right",
-      "title": { "fr": "Changer de statut", "en": "Change my status" },
-      "subtitle": { "fr": "Par exemple d'étudiant à salarié", "en": "For example, from student to employee" }
+      "title": {
+        "fr": "Changer de statut",
+        "en": "Change my status"
+      },
+      "subtitle": {
+        "fr": "Par exemple d'étudiant à salarié",
+        "en": "For example, from student to employee"
+      }
     },
     {
       "id": "naturalisation",
       "symbol": "person.crop.circle.badge.checkmark",
-      "title": { "fr": "Demander la nationalité française", "en": "Apply for French citizenship" },
-      "subtitle": { "fr": "Naturalisation par décret", "en": "Naturalisation by decree" }
+      "title": {
+        "fr": "Demander la nationalité française",
+        "en": "Apply for French citizenship"
+      },
+      "subtitle": {
+        "fr": "Naturalisation par décret",
+        "en": "Naturalisation by decree"
+      }
     },
     {
       "id": "duplicate",
       "symbol": "doc.on.doc",
-      "title": { "fr": "Remplacer un titre perdu ou volé", "en": "Replace a lost or stolen permit" },
-      "subtitle": { "fr": "Demande de duplicata", "en": "Duplicate request" }
+      "title": {
+        "fr": "Remplacer un titre perdu ou volé",
+        "en": "Replace a lost or stolen permit"
+      },
+      "subtitle": {
+        "fr": "Demande de duplicata",
+        "en": "Duplicate request"
+      }
+    },
+    {
+      "id": "passport",
+      "symbol": "person.crop.rectangle.stack",
+      "title": {
+        "fr": "Faire ou refaire un passeport",
+        "en": "Get or renew a passport"
+      },
+      "subtitle": {
+        "fr": "Passeport français ou de votre pays",
+        "en": "French passport or from your country"
+      }
+    },
+    {
+      "id": "visa_to_france",
+      "symbol": "airplane.arrival",
+      "title": {
+        "fr": "Venir en France avec un visa",
+        "en": "Come to France with a visa"
+      },
+      "subtitle": {
+        "fr": "Court ou long séjour, pour vous ou un proche",
+        "en": "Short or long stay, for you or a relative"
+      }
+    },
+    {
+      "id": "travel_abroad",
+      "symbol": "airplane.departure",
+      "title": {
+        "fr": "Voyager hors de France",
+        "en": "Travel outside France"
+      },
+      "subtitle": {
+        "fr": "Partir et revenir avec les bons documents",
+        "en": "Leave and come back with the right documents"
+      }
     }
   ]
 }

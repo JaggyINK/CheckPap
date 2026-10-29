@@ -1,0 +1,2072 @@
+{
+  "id": "travel_abroad",
+  "reviewStatus": "draft",
+  "lastVerified": "2026-10-29",
+  "title": {
+    "fr": "Voyager à l'étranger et revenir en France",
+    "en": "Travel abroad and come back to France"
+  },
+  "summary": {
+    "fr": "Cette démarche aide les personnes qui vivent en France à préparer un voyage à l'étranger, y compris dans leur pays d'origine. Elle indique quels documents permettent de revenir en France selon votre situation. Les règles d'entrée de chaque pays ne sont pas données ici : elles sont sur le site du ministère des Affaires étrangères.",
+    "en": "This helps people who live in France prepare a trip abroad, including to their country of origin. It shows which documents let you come back to France depending on your situation. Each country's entry rules are not given here: they are on the Ministry of Foreign Affairs website."
+  },
+  "sources": [
+    {
+      "id": "sp_retour_schengen",
+      "publisher": "service-public.gouv.fr",
+      "title": "Comment un étranger peut revenir en France après être sorti de l'espace Schengen ? (Vérifié le 10 avril 2024)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F12189",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_europe",
+      "publisher": "service-public.gouv.fr",
+      "title": "Peut-on s'installer ailleurs en Europe avec un titre de séjour français ? (Vérifié le 28 avril 2025)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1453",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_perte",
+      "publisher": "service-public.gouv.fr",
+      "title": "Que doit faire un étranger en cas de perte de sa carte de séjour ? (Vérifié le 01 juillet 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F21032",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_refugie",
+      "publisher": "service-public.gouv.fr",
+      "title": "Réfugié : titre de séjour, document de voyage et accompagnement (Vérifié le 01 juillet 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F15401",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_protection_subsidiaire",
+      "publisher": "service-public.gouv.fr",
+      "title": "Protection subsidiaire : statut, titre de séjour et titre de voyage (Vérifié le 01 juillet 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2689",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_apatride",
+      "publisher": "service-public.gouv.fr",
+      "title": "Apatride : statut, titre de séjour, document de voyage (Vérifié le 01 juillet 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F35534/1_1_1?idFicheParent=N106",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_demande_asile",
+      "publisher": "service-public.gouv.fr",
+      "title": "Demande d'asile (Vérifié le 07 mai 2025)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F35534/0",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_anef",
+      "publisher": "service-public.gouv.fr",
+      "title": "Faire une demande sur internet pour un titre de séjour, un changement de situation, un titre de voyage, une demande de naturalisation - ANEF (Vérifié le 13 août 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R59398",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_dcem",
+      "publisher": "service-public.gouv.fr",
+      "title": "Document de circulation pour étranger mineur (DCEM) (Vérifié le 30 juillet 2024)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2718",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_dcem_en_ligne",
+      "publisher": "service-public.gouv.fr",
+      "title": "Demander ou renouveler un DCEM (Vérifié le 30 mars 2023)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R64360",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_ast",
+      "publisher": "service-public.gouv.fr",
+      "title": "Autorisation de sortie du territoire (AST) (Vérifié le 20 mars 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1359",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_ast_formulaire",
+      "publisher": "service-public.gouv.fr",
+      "title": "Autorisation de sortie de territoire (AST), formulaire (Vérifié le 20 mars 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R46121",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "ofpra_faq",
+      "publisher": "ofpra.gouv.fr",
+      "title": "Foire aux questions : Je suis protégé par l'Ofpra (aucune date affichée)",
+      "url": "https://www.ofpra.gouv.fr/faq/je-suis-protege-par-lofpra",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "ofpra_originaux",
+      "publisher": "ofpra.gouv.fr",
+      "title": "Au 1er mars 2026, l'Ofpra ne prend plus les documents originaux (publié le 18 février 2026)",
+      "url": "https://www.ofpra.gouv.fr/actualites/au-1er-mars-2026-lofpra-ne-prend-plus-les-documents-originaux",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "dipl_cav",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Conseils aux voyageurs (page d'accueil, aucune date de mise à jour affichée)",
+      "url": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "dipl_faq_voyage",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Foire aux questions : Voyage (aucune date affichée)",
+      "url": "https://www.diplomatie.gouv.fr/fr/services/faq/voyage",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "dipl_ariane",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Faire connaître les services : Conseils aux voyageurs et Fil d'Ariane (mis à jour le 28 avril 2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/le-ministere-et-son-reseau/le-centre-de-crise-et-de-soutien/faire-connaitre-les-services-conseils-aux-voyageurs-et-fil-d-ariane/",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "dipl_representations",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Annuaire des représentations étrangères (aucune date affichée)",
+      "url": "https://www.diplomatie.gouv.fr/fr/services/j-ai-une-question/annuaire-et-contacts/representations-etrangeres",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "dipl_faq_contact",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Foire aux questions : Contact et renseignements (aucune date affichée)",
+      "url": "https://www.diplomatie.gouv.fr/fr/services/faq/contact-et-renseignements",
+      "consulted": "2026-10-29"
+    }
+  ],
+  "questions": [
+    {
+      "id": "status",
+      "kind": "single",
+      "title": {
+        "fr": "Quelle est votre situation en France ?",
+        "en": "What is your situation in France?"
+      },
+      "help": {
+        "fr": "Les documents qui permettent de revenir en France ne sont pas les mêmes selon votre situation.",
+        "en": "The documents that let you come back to France depend on your situation."
+      },
+      "options": [
+        {
+          "id": "french",
+          "label": {
+            "fr": "Je suis français(e)",
+            "en": "I am French"
+          },
+          "help": {
+            "fr": "Y compris si vous êtes devenu(e) français(e), par exemple par naturalisation.",
+            "en": "This includes people who became French, for example through naturalisation."
+          }
+        },
+        {
+          "id": "permit_valid",
+          "label": {
+            "fr": "J'ai un titre de séjour",
+            "en": "I have a residence permit"
+          },
+          "help": {
+            "fr": "Carte de séjour temporaire, carte pluriannuelle ou carte de résident.",
+            "en": "Temporary residence card, multi-year card or resident card."
+          }
+        },
+        {
+          "id": "receipt",
+          "label": {
+            "fr": "J'ai un récépissé, une attestation ou une autorisation provisoire de séjour",
+            "en": "I have a receipt, a certificate or a temporary residence authorisation"
+          },
+          "help": {
+            "fr": "Document remis pendant l'examen d'une demande de titre de séjour, sur papier ou sur le site de l'ANEF.",
+            "en": "A document given while a residence permit application is being processed, on paper or on the ANEF website."
+          }
+        },
+        {
+          "id": "protection",
+          "label": {
+            "fr": "Je demande l'asile, ou je suis réfugié(e), protégé(e) subsidiaire ou apatride",
+            "en": "I am an asylum seeker, a refugee, a subsidiary protection holder or stateless"
+          }
+        },
+        {
+          "id": "minor",
+          "label": {
+            "fr": "Je prépare le voyage de mon enfant mineur étranger",
+            "en": "I am preparing a trip for my foreign minor child"
+          }
+        }
+      ],
+      "condition": null,
+      "sources": [
+        "sp_retour_schengen",
+        "sp_refugie",
+        "sp_dcem"
+      ]
+    },
+    {
+      "id": "protection_type",
+      "kind": "single",
+      "title": {
+        "fr": "Quelle est votre situation exacte ?",
+        "en": "What is your exact situation?"
+      },
+      "help": {
+        "fr": "La décision de l'OFPRA ou de la CNDA indique le statut qui vous a été accordé.",
+        "en": "The OFPRA or CNDA decision states which status you were granted."
+      },
+      "options": [
+        {
+          "id": "asylum_seeker",
+          "label": {
+            "fr": "Ma demande d'asile est en cours",
+            "en": "My asylum application is in progress"
+          },
+          "help": {
+            "fr": "Vous avez une attestation de demande d'asile.",
+            "en": "You have an asylum application certificate."
+          }
+        },
+        {
+          "id": "refugee",
+          "label": {
+            "fr": "Je suis réfugié(e)",
+            "en": "I am a refugee"
+          }
+        },
+        {
+          "id": "subsidiary",
+          "label": {
+            "fr": "J'ai la protection subsidiaire",
+            "en": "I have subsidiary protection"
+          }
+        },
+        {
+          "id": "stateless",
+          "label": {
+            "fr": "Je suis reconnu(e) apatride",
+            "en": "I am recognised as stateless"
+          }
+        }
+      ],
+      "condition": {
+        "question": "status",
+        "equals": "protection"
+      },
+      "sources": [
+        "sp_demande_asile",
+        "sp_refugie",
+        "sp_protection_subsidiaire",
+        "sp_apatride"
+      ]
+    },
+    {
+      "id": "receipt_type",
+      "kind": "single",
+      "title": {
+        "fr": "Quel document avez-vous exactement ?",
+        "en": "Which document do you have exactly?"
+      },
+      "help": {
+        "fr": "Le nom du document est écrit en haut de la page. Sur l'ANEF, il est dans votre espace personnel.",
+        "en": "The name of the document is written at the top of the page. On ANEF, it is in your personal account."
+      },
+      "options": [
+        {
+          "id": "receipt_first",
+          "label": {
+            "fr": "Récépissé de première demande",
+            "en": "Receipt for a first application"
+          }
+        },
+        {
+          "id": "receipt_renewal",
+          "label": {
+            "fr": "Récépissé de demande de renouvellement",
+            "en": "Receipt for a renewal application"
+          }
+        },
+        {
+          "id": "attestation_deposit",
+          "label": {
+            "fr": "Attestation de dépôt de demande",
+            "en": "Certificate of application submission"
+          }
+        },
+        {
+          "id": "prolongation_first",
+          "label": {
+            "fr": "Attestation de prolongation d'instruction, pour une première demande",
+            "en": "Certificate of extended processing, for a first application"
+          }
+        },
+        {
+          "id": "prolongation_renewal",
+          "label": {
+            "fr": "Attestation de prolongation d'instruction, pour un renouvellement",
+            "en": "Certificate of extended processing, for a renewal"
+          }
+        },
+        {
+          "id": "favorable_decision",
+          "label": {
+            "fr": "Attestation de décision favorable",
+            "en": "Certificate of favourable decision"
+          }
+        },
+        {
+          "id": "aps",
+          "label": {
+            "fr": "Autorisation provisoire de séjour (APS)",
+            "en": "Temporary residence authorisation (APS)"
+          }
+        }
+      ],
+      "condition": {
+        "question": "status",
+        "equals": "receipt"
+      },
+      "sources": [
+        "sp_retour_schengen"
+      ]
+    },
+    {
+      "id": "destination",
+      "kind": "single",
+      "title": {
+        "fr": "Où allez-vous ?",
+        "en": "Where are you going?"
+      },
+      "help": {
+        "fr": "Service-public explique comment revenir en France après être sorti de l'espace Schengen. Pour les personnes protégées, le retour dans le pays d'origine suit des règles à part.",
+        "en": "Service-public explains how to come back to France after leaving the Schengen area. For protected people, going back to the country of origin follows separate rules."
+      },
+      "options": [
+        {
+          "id": "schengen",
+          "label": {
+            "fr": "Dans un autre pays de l'espace Schengen",
+            "en": "To another Schengen country"
+          }
+        },
+        {
+          "id": "outside_schengen",
+          "label": {
+            "fr": "Dans un pays hors de l'espace Schengen",
+            "en": "To a country outside the Schengen area"
+          }
+        },
+        {
+          "id": "origin_country",
+          "label": {
+            "fr": "Dans mon pays d'origine (ou celui de ma famille)",
+            "en": "To my country of origin (or my family's)"
+          },
+          "help": {
+            "fr": "Choisissez cette réponse même si ce pays est dans l'espace Schengen.",
+            "en": "Choose this answer even if that country is in the Schengen area."
+          }
+        }
+      ],
+      "condition": null,
+      "sources": [
+        "sp_retour_schengen",
+        "ofpra_faq"
+      ]
+    },
+    {
+      "id": "permit_expiry_date",
+      "kind": "date",
+      "title": {
+        "fr": "Quelle est la date de fin de validité de votre titre de séjour ?",
+        "en": "What is the expiry date of your residence permit?"
+      },
+      "help": {
+        "fr": "La date est écrite sur votre carte, à côté de « Valable jusqu'au » ou « Date d'expiration ».",
+        "en": "The date is written on your card, next to \"Valable jusqu'au\" or \"Date d'expiration\"."
+      },
+      "condition": {
+        "any": [
+          {
+            "question": "status",
+            "equals": "permit_valid"
+          },
+          {
+            "all": [
+              {
+                "question": "status",
+                "equals": "protection"
+              },
+              {
+                "question": "protection_type",
+                "in": [
+                  "refugee",
+                  "subsidiary",
+                  "stateless"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_retour_schengen"
+      ]
+    },
+    {
+      "id": "expires_before_return",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Cette date est-elle avant la date prévue de votre retour en France ?",
+        "en": "Is this date before the date you plan to come back to France?"
+      },
+      "help": {
+        "fr": "Comparez la date de fin de votre carte avec la date de votre billet retour.",
+        "en": "Compare the expiry date on your card with the date on your return ticket."
+      },
+      "condition": {
+        "question": "permit_expiry_date",
+        "daysFromToday": {
+          "min": 0
+        }
+      },
+      "sources": [
+        "sp_retour_schengen"
+      ]
+    },
+    {
+      "id": "has_travel_document",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Avez-vous déjà un titre de voyage valide ?",
+        "en": "Do you already have a valid travel document?"
+      },
+      "help": {
+        "fr": "C'est le document de voyage délivré par la préfecture aux personnes protégées par l'OFPRA. Il remplace le passeport du pays d'origine.",
+        "en": "This is the travel document the prefecture issues to people protected by OFPRA. It replaces the passport of the country of origin."
+      },
+      "example": {
+        "fr": "Exemple : titre de voyage pour réfugié (TVR), titre d'identité et de voyage (TIV) ou titre de voyage pour apatride.",
+        "en": "Example: refugee travel document (TVR), identity and travel document (TIV) or stateless person travel document."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "status",
+            "equals": "protection"
+          },
+          {
+            "question": "protection_type",
+            "in": [
+              "refugee",
+              "subsidiary",
+              "stateless"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_refugie",
+        "sp_protection_subsidiaire",
+        "sp_apatride"
+      ]
+    },
+    {
+      "id": "minor_has_dcem",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Votre enfant a-t-il un DCEM valide ?",
+        "en": "Does your child have a valid DCEM?"
+      },
+      "help": {
+        "fr": "Le DCEM (document de circulation pour étranger mineur) permet à l'enfant de revenir en France. Il est présenté en plus du passeport.",
+        "en": "The DCEM (travel document for foreign minors) lets the child come back to France. It is shown together with the passport."
+      },
+      "condition": {
+        "question": "status",
+        "equals": "minor"
+      },
+      "sources": [
+        "sp_dcem"
+      ]
+    },
+    {
+      "id": "minor_with_parent",
+      "kind": "yesNo",
+      "title": {
+        "fr": "Votre enfant voyage-t-il avec l'un de ses parents ?",
+        "en": "Is your child travelling with one of their parents?"
+      },
+      "help": {
+        "fr": "Ou avec une autre personne qui a l'autorité parentale. Un enfant qui voyage seulement avec son père ou seulement avec sa mère n'a pas besoin d'AST.",
+        "en": "Or with another person who has parental authority. A child travelling only with their father or only with their mother does not need an AST."
+      },
+      "condition": {
+        "question": "status",
+        "equals": "minor"
+      },
+      "sources": [
+        "sp_ast"
+      ]
+    }
+  ],
+  "documents": [
+    {
+      "id": "french_id",
+      "category": "identity",
+      "title": {
+        "fr": "Carte d'identité ou passeport",
+        "en": "Identity card or passport"
+      },
+      "details": {
+        "fr": "Le ministère des Affaires étrangères indique qu'au sein de l'Union européenne, la carte d'identité en cours de validité suffit. Hors de l'Union européenne, la plupart des États demandent un passeport valide plusieurs mois après la date prévue de retour en France.",
+        "en": "The Ministry of Foreign Affairs says that within the European Union, a valid identity card is enough. Outside the European Union, most countries ask for a passport that is still valid several months after your planned return to France."
+      },
+      "tip": {
+        "fr": "Le ministère conseille de garder des copies de vos papiers d'identité dans votre espace personnel sur service-public.fr. En cas de perte ou de vol, vous pourrez les télécharger.",
+        "en": "The ministry suggests keeping copies of your identity papers in your personal space on service-public.fr. If they are lost or stolen, you can download them."
+      },
+      "condition": {
+        "question": "status",
+        "equals": "french"
+      },
+      "sources": [
+        "dipl_faq_voyage"
+      ]
+    },
+    {
+      "id": "passport",
+      "category": "identity",
+      "title": {
+        "fr": "Passeport valide",
+        "en": "Valid passport"
+      },
+      "details": {
+        "fr": "Service-public demande un passeport valide pour revenir en France, avec votre titre de séjour ou votre document provisoire. Hors de l'Union européenne, la plupart des États demandent un passeport valide plusieurs mois après la date prévue de retour.",
+        "en": "Service-public asks for a valid passport to come back to France, together with your residence permit or your temporary document. Outside the European Union, most countries ask for a passport valid several months after your planned return."
+      },
+      "condition": {
+        "question": "status",
+        "in": [
+          "permit_valid",
+          "receipt"
+        ]
+      },
+      "sources": [
+        "sp_retour_schengen",
+        "dipl_faq_voyage"
+      ]
+    },
+    {
+      "id": "residence_permit",
+      "category": "residence",
+      "title": {
+        "fr": "Titre de séjour valide",
+        "en": "Valid residence permit"
+      },
+      "details": {
+        "fr": "Service-public indique que vous pouvez revenir en France avec votre passeport et votre titre de séjour valides.",
+        "en": "Service-public says you can come back to France with your valid passport and valid residence permit."
+      },
+      "example": {
+        "fr": "Exemple : carte de séjour temporaire, carte pluriannuelle, carte de résident.",
+        "en": "Example: temporary residence card, multi-year card, resident card."
+      },
+      "condition": {
+        "any": [
+          {
+            "question": "status",
+            "equals": "permit_valid"
+          },
+          {
+            "all": [
+              {
+                "question": "status",
+                "equals": "protection"
+              },
+              {
+                "question": "protection_type",
+                "in": [
+                  "refugee",
+                  "subsidiary",
+                  "stateless"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_retour_schengen",
+        "sp_europe"
+      ]
+    },
+    {
+      "id": "travel_document",
+      "category": "identity",
+      "title": {
+        "fr": "Titre de voyage délivré par la préfecture",
+        "en": "Travel document issued by the prefecture"
+      },
+      "details": {
+        "fr": "Service-public indique que ce document vous permet de sortir de France, puis d'y revenir. Réfugié : titre de voyage pour réfugié (TVR), valable 5 ans. Protection subsidiaire : titre d'identité et de voyage (TIV), valable 4 ans avec une carte pluriannuelle ou 5 ans avec une carte de résident. Apatride : titre de voyage pour apatride, valable 4 ou 5 ans selon la carte.",
+        "en": "Service-public says this document lets you leave France and then come back. Refugee: refugee travel document (TVR), valid 5 years. Subsidiary protection: identity and travel document (TIV), valid 4 years with a multi-year card or 5 years with a resident card. Stateless person: stateless travel document, valid 4 or 5 years depending on the card."
+      },
+      "tip": {
+        "fr": "Pour un réfugié ou un protégé subsidiaire, le document indique le ou les pays interdits. En général, c'est le pays d'origine.",
+        "en": "For a refugee or a subsidiary protection holder, the document shows the country or countries you may not travel to. Usually, this is the country of origin."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "status",
+            "equals": "protection"
+          },
+          {
+            "question": "protection_type",
+            "in": [
+              "refugee",
+              "subsidiary",
+              "stateless"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_refugie",
+        "sp_protection_subsidiaire",
+        "sp_apatride"
+      ],
+      "guides": [
+        "anef_account"
+      ]
+    },
+    {
+      "id": "renewal_receipt_bundle",
+      "category": "residence",
+      "title": {
+        "fr": "Récépissé de renouvellement et ancien titre périmé",
+        "en": "Renewal receipt and expired old permit"
+      },
+      "details": {
+        "fr": "Service-public indique que vous pouvez revenir avec votre récépissé de demande de renouvellement, accompagné de votre titre de séjour périmé et de votre passeport valide.",
+        "en": "Service-public says you can come back with your renewal receipt, together with your expired residence permit and your valid passport."
+      },
+      "condition": {
+        "question": "receipt_type",
+        "equals": "receipt_renewal"
+      },
+      "sources": [
+        "sp_retour_schengen"
+      ]
+    },
+    {
+      "id": "prolongation_renewal_bundle",
+      "category": "residence",
+      "title": {
+        "fr": "Attestation de prolongation d'instruction et ancien titre périmé",
+        "en": "Extended processing certificate and expired old permit"
+      },
+      "details": {
+        "fr": "D'après service-public, l'attestation délivrée pour un renouvellement permet de revenir. Elle doit être accompagnée de votre titre de séjour ou de votre visa de long séjour périmé, et de votre passeport valide. Le visa portant la mention « Dispense temporaire de carte de séjour » ne compte pas.",
+        "en": "According to service-public, the certificate issued for a renewal lets you come back. It must come with your expired residence permit or long-stay visa, and your valid passport. A visa marked \"Dispense temporaire de carte de séjour\" does not count."
+      },
+      "condition": {
+        "question": "receipt_type",
+        "equals": "prolongation_renewal"
+      },
+      "sources": [
+        "sp_retour_schengen"
+      ]
+    },
+    {
+      "id": "favorable_decision",
+      "category": "residence",
+      "title": {
+        "fr": "Attestation de décision favorable",
+        "en": "Certificate of favourable decision"
+      },
+      "details": {
+        "fr": "Service-public indique que cette attestation permet de revenir. Elle doit être accompagnée de votre passeport valide.",
+        "en": "Service-public says this certificate lets you come back. It must come with your valid passport."
+      },
+      "condition": {
+        "question": "receipt_type",
+        "equals": "favorable_decision"
+      },
+      "sources": [
+        "sp_retour_schengen"
+      ]
+    },
+    {
+      "id": "aps",
+      "category": "residence",
+      "title": {
+        "fr": "Autorisation provisoire de séjour (APS)",
+        "en": "Temporary residence authorisation (APS)"
+      },
+      "details": {
+        "fr": "Service-public indique que l'APS, avec votre passeport valide, vous permet de revenir.",
+        "en": "Service-public says the APS, together with your valid passport, lets you come back."
+      },
+      "condition": {
+        "question": "receipt_type",
+        "equals": "aps"
+      },
+      "sources": [
+        "sp_retour_schengen"
+      ]
+    },
+    {
+      "id": "return_visa",
+      "category": "residence",
+      "title": {
+        "fr": "Visa de retour",
+        "en": "Return visa"
+      },
+      "details": {
+        "fr": "Avec un récépissé de première demande ou une attestation de dépôt, service-public indique qu'il faut demander un visa de retour au consulat français du pays où vous séjournez. Dans des situations exceptionnelles (cas humanitaire, force majeure), un visa de retour préfectoral peut être accordé : il se demande avant le départ, coûte 6 € en timbres fiscaux et ne permet de revenir que par une frontière française.",
+        "en": "With a first-application receipt or a certificate of submission, service-public says you must apply for a return visa at the French consulate in the country where you are staying. In exceptional situations (humanitarian reasons, force majeure), a prefecture return visa may be granted: you apply before leaving, it costs €6 in tax stamps, and you can only come back through a French border."
+      },
+      "tip": {
+        "fr": "Le préfet décide librement de délivrer ou non le visa préfectoral.",
+        "en": "The prefect decides freely whether or not to issue the prefecture visa."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "receipt_type",
+            "in": [
+              "receipt_first",
+              "attestation_deposit"
+            ]
+          },
+          {
+            "question": "destination",
+            "in": [
+              "outside_schengen",
+              "origin_country"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_retour_schengen"
+      ],
+      "guides": [
+        "fiscal_stamp"
+      ]
+    },
+    {
+      "id": "entry_conditions",
+      "category": "resources",
+      "title": {
+        "fr": "Justificatifs des conditions d'entrée dans l'espace Schengen",
+        "en": "Proof that you meet the Schengen entry conditions"
+      },
+      "details": {
+        "fr": "Pour revenir dans l'espace Schengen, que votre nationalité soit soumise ou non à visa, service-public indique que vous devez justifier que vous remplissez les conditions d'entrée, par exemple des ressources suffisantes.",
+        "en": "To come back into the Schengen area, whether or not your nationality needs a visa, service-public says you must show that you meet the entry conditions, for example sufficient resources."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "status",
+            "in": [
+              "permit_valid",
+              "receipt",
+              "protection"
+            ]
+          },
+          {
+            "question": "destination",
+            "in": [
+              "outside_schengen",
+              "origin_country"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_retour_schengen"
+      ]
+    },
+    {
+      "id": "tv_ofpra_decision",
+      "category": "residence",
+      "title": {
+        "fr": "Pour demander le titre de voyage : preuve de votre protection",
+        "en": "To apply for the travel document: proof of your protection"
+      },
+      "details": {
+        "fr": "Service-public demande une preuve que vous êtes sous la protection de l'OFPRA, ou que vous êtes apatride. Par exemple : la décision qui vous accorde le statut.",
+        "en": "Service-public asks for proof that you are under OFPRA protection, or that you are stateless. For example: the decision granting you the status."
+      },
+      "tip": {
+        "fr": "Service-public demande aussi votre carte de séjour ou de résident en cours de validité (original et photocopie), et l'ancien titre de voyage s'il s'agit d'un renouvellement.",
+        "en": "Service-public also asks for your valid residence or resident card (original and photocopy), and the old travel document if you are renewing it."
+      },
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "status",
+                "equals": "protection"
+              },
+              {
+                "question": "protection_type",
+                "in": [
+                  "refugee",
+                  "subsidiary",
+                  "stateless"
+                ]
+              }
+            ]
+          },
+          {
+            "question": "has_travel_document",
+            "equals": "no"
+          }
+        ]
+      },
+      "sources": [
+        "sp_refugie",
+        "sp_protection_subsidiaire",
+        "sp_apatride"
+      ],
+      "guides": [
+        "anef_account"
+      ]
+    },
+    {
+      "id": "tv_address",
+      "category": "address",
+      "title": {
+        "fr": "Pour demander le titre de voyage : justificatif de domicile",
+        "en": "To apply for the travel document: proof of address"
+      },
+      "details": {
+        "fr": "Un justificatif de domicile à votre nom, ou une attestation d'hébergement avec la copie de la pièce d'identité de l'hébergeur. Pour la protection subsidiaire et les apatrides, service-public précise « moins de 3 mois ».",
+        "en": "Proof of address in your name, or a letter from your host with a copy of the host's ID. For subsidiary protection and stateless people, service-public says \"less than 3 months old\"."
+      },
+      "example": {
+        "fr": "Exemple : facture d'eau ou d'électricité, quittance de loyer.",
+        "en": "Example: water or electricity bill, rent receipt."
+      },
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "status",
+                "equals": "protection"
+              },
+              {
+                "question": "protection_type",
+                "in": [
+                  "refugee",
+                  "subsidiary",
+                  "stateless"
+                ]
+              }
+            ]
+          },
+          {
+            "question": "has_travel_document",
+            "equals": "no"
+          }
+        ]
+      },
+      "sources": [
+        "sp_refugie",
+        "sp_protection_subsidiaire",
+        "sp_apatride"
+      ]
+    },
+    {
+      "id": "tv_photo",
+      "category": "photo",
+      "title": {
+        "fr": "Pour demander le titre de voyage : e-photo",
+        "en": "To apply for the travel document: e-photo"
+      },
+      "details": {
+        "fr": "Le code de la e-photo, fourni par le photographe ou la cabine agréée. Pour un réfugié, service-public demande aussi 2 photos d'identité conformes aux normes.",
+        "en": "The e-photo code, given by the approved photographer or photo booth. For a refugee, service-public also asks for 2 ID photos that meet the standards."
+      },
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "status",
+                "equals": "protection"
+              },
+              {
+                "question": "protection_type",
+                "in": [
+                  "refugee",
+                  "subsidiary",
+                  "stateless"
+                ]
+              }
+            ]
+          },
+          {
+            "question": "has_travel_document",
+            "equals": "no"
+          }
+        ]
+      },
+      "sources": [
+        "sp_refugie",
+        "sp_protection_subsidiaire",
+        "sp_apatride"
+      ],
+      "guides": [
+        "ephoto"
+      ]
+    },
+    {
+      "id": "tv_stamp",
+      "category": "tax",
+      "title": {
+        "fr": "Pour demander le titre de voyage : timbre fiscal",
+        "en": "To apply for the travel document: tax stamp"
+      },
+      "details": {
+        "fr": "Réfugié : 45 €. Protection subsidiaire ou apatride : 40 € avec une carte pluriannuelle, 45 € avec une carte de résident.",
+        "en": "Refugee: €45. Subsidiary protection or stateless: €40 with a multi-year card, €45 with a resident card."
+      },
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "status",
+                "equals": "protection"
+              },
+              {
+                "question": "protection_type",
+                "in": [
+                  "refugee",
+                  "subsidiary",
+                  "stateless"
+                ]
+              }
+            ]
+          },
+          {
+            "question": "has_travel_document",
+            "equals": "no"
+          }
+        ]
+      },
+      "sources": [
+        "sp_refugie",
+        "sp_protection_subsidiaire",
+        "sp_apatride"
+      ],
+      "guides": [
+        "fiscal_stamp"
+      ]
+    },
+    {
+      "id": "minor_passport",
+      "category": "identity",
+      "title": {
+        "fr": "Pièce d'identité de l'enfant",
+        "en": "Child's identity document"
+      },
+      "details": {
+        "fr": "Service-public indique que le DCEM se présente en plus du passeport. Pour un enfant qui voyage sans ses parents, il demande aussi une pièce d'identité valide à son nom (carte d'identité ou passeport), avec un visa si le pays de destination l'exige.",
+        "en": "Service-public says the DCEM is shown together with the passport. For a child travelling without their parents, it also asks for a valid ID in the child's name (identity card or passport), with a visa if the destination country requires one."
+      },
+      "condition": {
+        "question": "status",
+        "equals": "minor"
+      },
+      "sources": [
+        "sp_dcem",
+        "sp_ast"
+      ]
+    },
+    {
+      "id": "dcem",
+      "category": "residence",
+      "title": {
+        "fr": "DCEM valide",
+        "en": "Valid DCEM"
+      },
+      "details": {
+        "fr": "D'après service-public, le DCEM permet au mineur de revenir en France, ou de passer les frontières extérieures de l'espace Schengen. Il est délivré pour 5 ans au maximum.",
+        "en": "According to service-public, the DCEM lets the minor come back to France, or cross the external borders of the Schengen area. It is issued for 5 years at most."
+      },
+      "tip": {
+        "fr": "Un DCEM délivré à Mayotte ne permet que le retour à Mayotte.",
+        "en": "A DCEM issued in Mayotte only allows return to Mayotte."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "status",
+            "equals": "minor"
+          },
+          {
+            "question": "minor_has_dcem",
+            "equals": "yes"
+          }
+        ]
+      },
+      "sources": [
+        "sp_dcem"
+      ]
+    },
+    {
+      "id": "ast_form",
+      "category": "family",
+      "title": {
+        "fr": "Autorisation de sortie du territoire (AST)",
+        "en": "Authorisation to leave the country (AST)"
+      },
+      "details": {
+        "fr": "Service-public indique qu'un mineur étranger qui vit habituellement en France doit avoir une AST s'il voyage sans une personne qui a l'autorité parentale. Un seul parent la signe. Sa durée est choisie par le parent, sans dépasser 1 an. Elle est présentée au garde-frontière.",
+        "en": "Service-public says a foreign minor who usually lives in France must have an AST if travelling without a person who has parental authority. Only one parent signs it. The parent chooses how long it lasts, up to 1 year. It is shown to the border guard."
+      },
+      "tip": {
+        "fr": "Aucun déplacement n'est nécessaire : le formulaire se remplit en ligne ou à la main.",
+        "en": "You do not need to go anywhere: the form is filled in online or by hand."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "status",
+            "equals": "minor"
+          },
+          {
+            "question": "minor_with_parent",
+            "equals": "no"
+          }
+        ]
+      },
+      "sources": [
+        "sp_ast",
+        "sp_ast_formulaire"
+      ]
+    },
+    {
+      "id": "ast_signer_id",
+      "category": "family",
+      "title": {
+        "fr": "Photocopie de la pièce d'identité du parent qui signe l'AST",
+        "en": "Photocopy of the ID of the parent who signs the AST"
+      },
+      "details": {
+        "fr": "Pour un parent qui n'est pas européen, service-public accepte un passeport en cours de validité ou un document de séjour français valide (carte de séjour temporaire, carte de résident, titre pour réfugiés et apatrides). La copie doit montrer le nom, la date et le lieu de naissance, la photo, la signature, les dates de validité et l'autorité qui l'a délivré.",
+        "en": "For a non-European parent, service-public accepts a valid passport or a valid French residence document (temporary residence card, resident card, document for refugees and stateless people). The copy must show the name, date and place of birth, photo, signature, validity dates and issuing authority."
+      },
+      "tip": {
+        "fr": "Le livret de famille ne peut pas être exigé à la frontière, même si l'enfant et le parent n'ont pas le même nom.",
+        "en": "The family record book cannot be required at the border, even if the child and the parent have different surnames."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "status",
+            "equals": "minor"
+          },
+          {
+            "question": "minor_with_parent",
+            "equals": "no"
+          }
+        ]
+      },
+      "sources": [
+        "sp_ast"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "check_entry_rules",
+      "phase": "before",
+      "title": {
+        "fr": "Vérifier les conditions d'entrée du pays de destination",
+        "en": "Check the entry rules of the destination country"
+      },
+      "body": {
+        "fr": "Le ministère des Affaires étrangères indique de vérifier les documents demandés (carte d'identité, passeport, visa) pour entrer et séjourner dans le pays de destination. Ils sont dans la fiche Conseils aux voyageurs du pays, rubrique « Entrée / Séjour ». Cette application ne donne pas les règles propres à chaque pays.",
+        "en": "The Ministry of Foreign Affairs says to check which documents (identity card, passport, visa) you need to enter and stay in the destination country. They are on the country's Travel advice page (\"Conseils aux voyageurs\"), section \"Entrée / Séjour\" (Entry / Stay). This app does not give each country's own rules."
+      },
+      "link": {
+        "title": {
+          "fr": "Ouvrir les Conseils aux voyageurs",
+          "en": "Open the travel advice"
+        },
+        "url": "https://www.diplomatie.gouv.fr/fr/conseils-aux-voyageurs"
+      },
+      "condition": null,
+      "sources": [
+        "dipl_faq_voyage",
+        "dipl_cav"
+      ]
+    },
+    {
+      "id": "contact_destination_embassy",
+      "phase": "before",
+      "title": {
+        "fr": "Contacter l'ambassade ou le consulat du pays de destination",
+        "en": "Contact the embassy or consulate of the destination country"
+      },
+      "body": {
+        "fr": "Pour vos questions sur le visa ou l'entrée dans un autre pays, service-public renvoie vers l'ambassade ou le consulat de ce pays en France. Le ministère des Affaires étrangères publie l'annuaire des ambassades et consulats étrangers en France.",
+        "en": "For questions about a visa or entry into another country, service-public refers you to that country's embassy or consulate in France. The Ministry of Foreign Affairs publishes the directory of foreign embassies and consulates in France."
+      },
+      "link": {
+        "title": {
+          "fr": "Ouvrir l'annuaire des représentations étrangères",
+          "en": "Open the directory of foreign embassies"
+        },
+        "url": "https://www.diplomatie.gouv.fr/fr/services/j-ai-une-question/annuaire-et-contacts/representations-etrangeres"
+      },
+      "condition": {
+        "not": {
+          "question": "destination",
+          "equals": "schengen"
+        }
+      },
+      "sources": [
+        "sp_europe",
+        "dipl_representations",
+        "dipl_faq_contact"
+      ]
+    },
+    {
+      "id": "check_passport_validity",
+      "phase": "before",
+      "title": {
+        "fr": "Vérifier la date de fin de votre passeport",
+        "en": "Check your passport's expiry date"
+      },
+      "body": {
+        "fr": "Hors de l'Union européenne, le ministère des Affaires étrangères indique que la plupart des États demandent un passeport valide plusieurs mois après la date prévue de retour en France. Le nombre de mois dépend du pays : il est dans la fiche Conseils aux voyageurs.",
+        "en": "Outside the European Union, the Ministry of Foreign Affairs says most countries ask for a passport valid several months after your planned return to France. The number of months depends on the country: it is on the Travel advice page."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "status",
+            "in": [
+              "french",
+              "permit_valid",
+              "receipt",
+              "minor"
+            ]
+          },
+          {
+            "not": {
+              "question": "destination",
+              "equals": "schengen"
+            }
+          }
+        ]
+      },
+      "sources": [
+        "dipl_faq_voyage"
+      ]
+    },
+    {
+      "id": "check_permit_validity",
+      "phase": "before",
+      "title": {
+        "fr": "Vérifier que votre titre de séjour couvre tout le voyage",
+        "en": "Check that your residence permit covers the whole trip"
+      },
+      "body": {
+        "fr": "Service-public indique que l'on revient en France avec un titre de séjour valide. Comparez sa date de fin avec la date de votre retour. Si elle est avant, voyez avec la préfecture ou sur l'ANEF avant de partir.",
+        "en": "Service-public says you come back to France with a valid residence permit. Compare its expiry date with your return date. If it is earlier, check with the prefecture or on ANEF before leaving."
+      },
+      "condition": {
+        "any": [
+          {
+            "question": "status",
+            "equals": "permit_valid"
+          },
+          {
+            "all": [
+              {
+                "question": "status",
+                "equals": "protection"
+              },
+              {
+                "question": "protection_type",
+                "in": [
+                  "refugee",
+                  "subsidiary",
+                  "stateless"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_retour_schengen"
+      ]
+    },
+    {
+      "id": "apply_travel_document",
+      "phase": "before",
+      "title": {
+        "fr": "Demander le titre de voyage sur l'ANEF",
+        "en": "Apply for the travel document on ANEF"
+      },
+      "body": {
+        "fr": "Service-public indique que la demande se fait sur le site de l'ANEF. Préparez la preuve de votre protection, votre carte en cours de validité, un justificatif de domicile, votre e-photo et le timbre fiscal. Le délai de délivrance n'est pas indiqué : faites la demande bien avant le voyage.",
+        "en": "Service-public says you apply on the ANEF website. Prepare proof of your protection, your valid card, proof of address, your e-photo and the tax stamp. The processing time is not given: apply well before the trip."
+      },
+      "link": {
+        "title": {
+          "fr": "Ouvrir le site de l'ANEF",
+          "en": "Open the ANEF website"
+        },
+        "url": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/"
+      },
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "status",
+                "equals": "protection"
+              },
+              {
+                "question": "protection_type",
+                "in": [
+                  "refugee",
+                  "subsidiary",
+                  "stateless"
+                ]
+              }
+            ]
+          },
+          {
+            "question": "has_travel_document",
+            "equals": "no"
+          }
+        ]
+      },
+      "sources": [
+        "sp_refugie",
+        "sp_protection_subsidiaire",
+        "sp_apatride",
+        "sp_anef"
+      ],
+      "guides": [
+        "anef_account",
+        "ephoto",
+        "fiscal_stamp"
+      ]
+    },
+    {
+      "id": "prefecture_return_visa",
+      "phase": "before",
+      "title": {
+        "fr": "En cas de situation exceptionnelle, demander un visa de retour à la préfecture",
+        "en": "In an exceptional situation, ask the prefecture for a return visa"
+      },
+      "body": {
+        "fr": "Service-public indique qu'un visa de retour préfectoral peut être accordé dans des situations exceptionnelles (cas humanitaire, force majeure). Il se demande avant le départ, à la préfecture ou à la sous-préfecture, et coûte 6 € en timbres fiscaux. Il ne permet de revenir que par une frontière française. Le préfet décide librement.",
+        "en": "Service-public says a prefecture return visa may be granted in exceptional situations (humanitarian reasons, force majeure). You apply before leaving, at the prefecture or sub-prefecture, and it costs €6 in tax stamps. It only lets you come back through a French border. The prefect decides freely."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "receipt_type",
+            "in": [
+              "receipt_first",
+              "attestation_deposit"
+            ]
+          },
+          {
+            "question": "destination",
+            "in": [
+              "outside_schengen",
+              "origin_country"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_retour_schengen"
+      ],
+      "guides": [
+        "fiscal_stamp"
+      ]
+    },
+    {
+      "id": "apply_dcem",
+      "phase": "before",
+      "title": {
+        "fr": "Demander le DCEM de votre enfant en ligne",
+        "en": "Apply online for your child's DCEM"
+      },
+      "body": {
+        "fr": "Un parent qui a un titre de séjour en cours de validité fait la demande sur internet. La confirmation de dépôt ne permet pas à l'enfant de revenir en France : un visa est alors nécessaire. Les délais varient selon les préfectures. Le DCEM est retiré en préfecture, avec l'enfant, contre un timbre fiscal de 50 €.",
+        "en": "A parent with a valid residence permit applies online. The submission confirmation does not let the child come back to France: a visa is then needed. Processing times vary by prefecture. The DCEM is collected at the prefecture, with the child, against a €50 tax stamp."
+      },
+      "link": {
+        "title": {
+          "fr": "Demander ou renouveler un DCEM",
+          "en": "Apply for or renew a DCEM"
+        },
+        "url": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/sejour/document-voyage"
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "status",
+            "equals": "minor"
+          },
+          {
+            "question": "minor_has_dcem",
+            "equals": "no"
+          }
+        ]
+      },
+      "sources": [
+        "sp_dcem",
+        "sp_dcem_en_ligne"
+      ],
+      "guides": [
+        "anef_account",
+        "ephoto",
+        "fiscal_stamp"
+      ]
+    },
+    {
+      "id": "fill_ast",
+      "phase": "before",
+      "title": {
+        "fr": "Remplir l'autorisation de sortie du territoire",
+        "en": "Fill in the authorisation to leave the country"
+      },
+      "body": {
+        "fr": "Remplissez le formulaire en ligne puis téléchargez-le, ou imprimez-le vierge et remplissez-le à la main. Il n'est pas nécessaire d'aller à la mairie, à la préfecture ou au commissariat. Joignez la photocopie de votre pièce d'identité.",
+        "en": "Fill in the form online and download it, or print it blank and fill it in by hand. You do not need to go to the town hall, the prefecture or the police station. Add a photocopy of your ID."
+      },
+      "link": {
+        "title": {
+          "fr": "Ouvrir le formulaire AST",
+          "en": "Open the AST form"
+        },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R46121"
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "status",
+            "equals": "minor"
+          },
+          {
+            "question": "minor_with_parent",
+            "equals": "no"
+          }
+        ]
+      },
+      "sources": [
+        "sp_ast",
+        "sp_ast_formulaire"
+      ]
+    },
+    {
+      "id": "register_ariane",
+      "phase": "before",
+      "title": {
+        "fr": "S'inscrire sur Fil d'Ariane",
+        "en": "Register on Fil d'Ariane"
+      },
+      "body": {
+        "fr": "Le ministère des Affaires étrangères recommande aux Français qui voyagent moins de 6 mois de s'inscrire sur Fil d'Ariane avant le départ. Ce service gratuit envoie des alertes et des consignes de sécurité par e-mail ou SMS en cas d'événement dans le pays.",
+        "en": "The Ministry of Foreign Affairs recommends that French nationals travelling for less than 6 months register on Fil d'Ariane before leaving. This free service sends alerts and safety instructions by email or text message if something happens in the country."
+      },
+      "link": {
+        "title": {
+          "fr": "Ouvrir Fil d'Ariane",
+          "en": "Open Fil d'Ariane"
+        },
+        "url": "https://fildariane.diplomatie.gouv.fr/fildariane-internet/accueil"
+      },
+      "condition": {
+        "question": "status",
+        "equals": "french"
+      },
+      "sources": [
+        "dipl_ariane",
+        "dipl_faq_voyage"
+      ]
+    },
+    {
+      "id": "return_visa_abroad",
+      "phase": "after",
+      "title": {
+        "fr": "Pendant le voyage : demander le visa de retour au consulat français",
+        "en": "During the trip: apply for the return visa at the French consulate"
+      },
+      "body": {
+        "fr": "Avec un récépissé de première demande ou une attestation de dépôt, service-public indique qu'il faut demander un visa de retour au consulat français du pays où vous séjournez, pour pouvoir revenir.",
+        "en": "With a first-application receipt or a certificate of submission, service-public says you must apply for a return visa at the French consulate in the country where you are staying, to be able to come back."
+      },
+      "link": {
+        "title": {
+          "fr": "Trouver le service des visas à l'étranger",
+          "en": "Find the visa service abroad"
+        },
+        "url": "https://france-visas.gouv.fr/web/france-visas/lieu-de-depot"
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "receipt_type",
+            "in": [
+              "receipt_first",
+              "attestation_deposit"
+            ]
+          },
+          {
+            "question": "destination",
+            "in": [
+              "outside_schengen",
+              "origin_country"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_retour_schengen"
+      ]
+    },
+    {
+      "id": "lost_permit_abroad",
+      "phase": "after",
+      "title": {
+        "fr": "Si vous perdez votre carte de séjour à l'étranger",
+        "en": "If you lose your residence card abroad"
+      },
+      "body": {
+        "fr": "Service-public indique de déclarer la perte à la police locale, puis à l'ambassade ou au consulat de France. Demandez ensuite un visa de retour à l'ambassade ou au consulat : ils font une enquête auprès de la préfecture qui a délivré votre titre. Dès votre retour en France, demandez un duplicata en ligne sur l'ANEF.",
+        "en": "Service-public says to report the loss to the local police, then to the French embassy or consulate. Then apply for a return visa at the embassy or consulate: they check with the prefecture that issued your permit. As soon as you are back in France, apply online for a duplicate on ANEF."
+      },
+      "link": {
+        "title": {
+          "fr": "Trouver le service des visas à l'étranger",
+          "en": "Find the visa service abroad"
+        },
+        "url": "https://france-visas.gouv.fr/web/france-visas/lieu-de-depot"
+      },
+      "condition": {
+        "any": [
+          {
+            "question": "status",
+            "equals": "permit_valid"
+          },
+          {
+            "all": [
+              {
+                "question": "status",
+                "equals": "protection"
+              },
+              {
+                "question": "protection_type",
+                "in": [
+                  "refugee",
+                  "subsidiary",
+                  "stateless"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_perte"
+      ],
+      "guides": [
+        "loss_theft_report",
+        "anef_account"
+      ]
+    },
+    {
+      "id": "lost_id_abroad_french",
+      "phase": "after",
+      "title": {
+        "fr": "Si vous perdez votre passeport ou votre carte d'identité à l'étranger",
+        "en": "If you lose your passport or identity card abroad"
+      },
+      "body": {
+        "fr": "Le ministère des Affaires étrangères indique de déclarer d'abord la perte ou le vol à la police locale. L'ambassade ou le consulat de France peut ensuite délivrer un laissez-passer ou un passeport temporaire. Cette formalité est payante et demande un délai.",
+        "en": "The Ministry of Foreign Affairs says to first report the loss or theft to the local police. The French embassy or consulate can then issue an emergency travel document or a temporary passport. This costs money and takes time."
+      },
+      "condition": {
+        "question": "status",
+        "equals": "french"
+      },
+      "sources": [
+        "dipl_faq_voyage"
+      ],
+      "guides": [
+        "loss_theft_report"
+      ]
+    },
+    {
+      "id": "crisis_line",
+      "phase": "after",
+      "title": {
+        "fr": "En cas de problème grave à l'étranger",
+        "en": "If something serious happens abroad"
+      },
+      "body": {
+        "fr": "Le ministère des Affaires étrangères indique que vous pouvez contacter l'ambassade ou le consulat, ou appeler la ligne d'urgence du Centre de crise et de soutien : +33 1 53 59 11 00 (appel non surtaxé).",
+        "en": "The Ministry of Foreign Affairs says you can contact the embassy or consulate, or call the emergency line of the Crisis and Support Centre: +33 1 53 59 11 00 (standard rate)."
+      },
+      "condition": {
+        "question": "status",
+        "equals": "french"
+      },
+      "sources": [
+        "dipl_faq_voyage"
+      ]
+    }
+  ],
+  "outcomes": [
+    {
+      "id": "asylum_seeker_travel",
+      "kind": "redirect",
+      "condition": {
+        "question": "protection_type",
+        "equals": "asylum_seeker"
+      },
+      "title": {
+        "fr": "Les sources consultées ne décrivent pas de voyage pendant une demande d'asile",
+        "en": "The sources we checked do not describe travel during an asylum application"
+      },
+      "body": {
+        "fr": "Service-public explique qu'une fois le statut de réfugié ou la protection subsidiaire accordé par l'OFPRA, la personne demande un titre de séjour et un titre de voyage. Les pages consultées ne décrivent aucun document qui permette à un demandeur d'asile de quitter la France puis d'y revenir pendant l'examen de sa demande.",
+        "en": "Service-public explains that once OFPRA grants refugee status or subsidiary protection, the person applies for a residence permit and a travel document. The pages we checked do not describe any document that lets an asylum seeker leave France and come back while the application is being examined."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Se renseigner avant tout départ",
+            "en": "Ask before any departure"
+          },
+          "body": {
+            "fr": "Posez la question à votre préfecture, ou à un point-justice pour un conseil gratuit sur votre situation.",
+            "en": "Ask your prefecture, or a point-justice for free advice on your situation."
+          }
+        }
+      ],
+      "contacts": [
+        "prefecture_directory",
+        "point_justice",
+        "france_services"
+      ],
+      "sources": [
+        "sp_demande_asile"
+      ]
+    },
+    {
+      "id": "protection_origin_country",
+      "kind": "redirect",
+      "condition": {
+        "all": [
+          {
+            "question": "protection_type",
+            "in": [
+              "refugee",
+              "subsidiary"
+            ]
+          },
+          {
+            "question": "destination",
+            "equals": "origin_country"
+          }
+        ]
+      },
+      "title": {
+        "fr": "Le retour dans le pays d'origine suit des règles particulières",
+        "en": "Going back to the country of origin follows special rules"
+      },
+      "body": {
+        "fr": "D'après l'OFPRA, une personne protégée qui a des craintes dans son pays n'est pas autorisée à y retourner. L'OFPRA rappelle en 2026 qu'il est toujours interdit aux bénéficiaires de la protection internationale d'utiliser leur passeport et de retourner dans leur pays d'origine. Service-public précise que le titre de voyage indique les pays interdits, en général le pays d'origine.",
+        "en": "According to OFPRA, a protected person who has fears in their country is not allowed to go back there. In 2026, OFPRA repeats that beneficiaries of international protection are still forbidden to use their passport and return to their country of origin. Service-public adds that the travel document lists the forbidden countries, usually the country of origin."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "En cas de nécessité impérieuse",
+            "en": "In case of compelling necessity"
+          },
+          "body": {
+            "fr": "L'OFPRA indique que, dans certains cas de nécessité impérieuse, vous devez demander un sauf-conduit à la préfecture de votre lieu de résidence. Elle peut demander l'avis de l'OFPRA sur les risques d'un tel retour.",
+            "en": "OFPRA says that, in some cases of compelling necessity, you must ask the prefecture where you live for a safe-conduct. The prefecture may ask OFPRA for its opinion on the risks of such a return."
+          },
+          "link": {
+            "title": {
+              "fr": "Lire la FAQ de l'OFPRA",
+              "en": "Read the OFPRA FAQ"
+            },
+            "url": "https://www.ofpra.gouv.fr/faq/je-suis-protege-par-lofpra"
+          }
+        },
+        {
+          "title": {
+            "fr": "Voyager vers un autre pays",
+            "en": "Travel to another country"
+          },
+          "body": {
+            "fr": "Vous pouvez revenir en arrière et choisir une autre destination. Le titre de voyage permet de voyager dans les autres pays.",
+            "en": "You can go back and choose another destination. The travel document lets you travel to other countries."
+          }
+        }
+      ],
+      "contacts": [
+        "prefecture_directory",
+        "point_justice"
+      ],
+      "sources": [
+        "ofpra_faq",
+        "ofpra_originaux",
+        "sp_refugie",
+        "sp_protection_subsidiaire"
+      ]
+    },
+    {
+      "id": "stateless_origin_country",
+      "kind": "warning",
+      "condition": {
+        "all": [
+          {
+            "question": "protection_type",
+            "equals": "stateless"
+          },
+          {
+            "question": "destination",
+            "equals": "origin_country"
+          }
+        ]
+      },
+      "title": {
+        "fr": "Ce que dit l'OFPRA pour les apatrides",
+        "en": "What OFPRA says for stateless people"
+      },
+      "body": {
+        "fr": "D'après l'OFPRA, une personne apatride peut se rendre dans son ou ses pays d'origine. Vérifiez les conditions d'entrée de ce pays dans la fiche Conseils aux voyageurs.",
+        "en": "According to OFPRA, a stateless person can travel to their country or countries of origin. Check that country's entry rules on its Travel advice page."
+      },
+      "actions": [],
+      "sources": [
+        "ofpra_faq"
+      ]
+    },
+    {
+      "id": "prolongation_first_no_return",
+      "kind": "redirect",
+      "condition": {
+        "all": [
+          {
+            "question": "receipt_type",
+            "equals": "prolongation_first"
+          },
+          {
+            "question": "destination",
+            "in": [
+              "outside_schengen",
+              "origin_country"
+            ]
+          }
+        ]
+      },
+      "title": {
+        "fr": "Ce document ne permet pas de revenir, d'après service-public",
+        "en": "This document does not let you come back, according to service-public"
+      },
+      "body": {
+        "fr": "Service-public indique que l'attestation de prolongation d'instruction d'une première demande de titre de séjour ne permet pas de revenir en France après être sorti de l'espace Schengen.",
+        "en": "Service-public says that the extended processing certificate for a first residence permit application does not let you come back to France after leaving the Schengen area."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Se renseigner avant de partir",
+            "en": "Ask before leaving"
+          },
+          "body": {
+            "fr": "Posez la question à votre préfecture ou au support de l'ANEF. Vous pouvez aussi attendre la décision sur votre demande : avec une attestation de décision favorable et votre passeport, service-public indique que le retour est possible.",
+            "en": "Ask your prefecture or ANEF support. You can also wait for the decision on your application: with a certificate of favourable decision and your passport, service-public says you can come back."
+          }
+        }
+      ],
+      "contacts": [
+        "anef_contact",
+        "prefecture_directory",
+        "point_justice"
+      ],
+      "sources": [
+        "sp_retour_schengen"
+      ]
+    },
+    {
+      "id": "return_visa_needed",
+      "kind": "warning",
+      "condition": {
+        "all": [
+          {
+            "question": "receipt_type",
+            "in": [
+              "receipt_first",
+              "attestation_deposit"
+            ]
+          },
+          {
+            "question": "destination",
+            "in": [
+              "outside_schengen",
+              "origin_country"
+            ]
+          }
+        ]
+      },
+      "title": {
+        "fr": "Un visa de retour est nécessaire",
+        "en": "A return visa is needed"
+      },
+      "body": {
+        "fr": "Avec ce document, service-public indique qu'il faut demander un visa de retour au consulat français du pays où vous séjournez, pour pouvoir revenir. Un visa préfectoral est possible seulement dans des situations exceptionnelles, et doit être demandé avant le départ.",
+        "en": "With this document, service-public says you must apply for a return visa at the French consulate in the country where you are staying, to be able to come back. A prefecture visa is only possible in exceptional situations, and must be requested before leaving."
+      },
+      "actions": [],
+      "contacts": [
+        "prefecture_directory"
+      ],
+      "sources": [
+        "sp_retour_schengen"
+      ]
+    },
+    {
+      "id": "receipt_schengen_unclear",
+      "kind": "warning",
+      "condition": {
+        "all": [
+          {
+            "question": "status",
+            "equals": "receipt"
+          },
+          {
+            "question": "destination",
+            "equals": "schengen"
+          }
+        ]
+      },
+      "title": {
+        "fr": "Voyage dans l'espace Schengen avec un document provisoire",
+        "en": "Travel in the Schengen area with a temporary document"
+      },
+      "body": {
+        "fr": "La page service-public consultée explique comment revenir en France après être sorti de l'espace Schengen. Elle ne dit pas si votre document provisoire permet de voyager dans les autres pays de l'espace Schengen. Renseignez-vous auprès de votre préfecture avant de partir.",
+        "en": "The service-public page we checked explains how to come back to France after leaving the Schengen area. It does not say whether your temporary document lets you travel to other Schengen countries. Ask your prefecture before leaving."
+      },
+      "actions": [],
+      "contacts": [
+        "prefecture_directory",
+        "anef_contact"
+      ],
+      "sources": [
+        "sp_retour_schengen"
+      ]
+    },
+    {
+      "id": "permit_already_expired",
+      "kind": "redirect",
+      "condition": {
+        "question": "permit_expiry_date",
+        "daysFromToday": {
+          "max": -1
+        }
+      },
+      "title": {
+        "fr": "Votre titre de séjour semble déjà expiré",
+        "en": "Your residence permit seems to have already expired"
+      },
+      "body": {
+        "fr": "Service-public indique que l'on revient en France avec un titre de séjour valide. Si vous avez demandé le renouvellement, un récépissé de renouvellement ou une attestation de prolongation d'instruction délivrée pour un renouvellement, avec votre ancien titre et votre passeport, permet de revenir.",
+        "en": "Service-public says you come back to France with a valid residence permit. If you have applied for a renewal, a renewal receipt or an extended processing certificate issued for a renewal, together with your old permit and your passport, lets you come back."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Vous avez un récépissé ou une attestation",
+            "en": "You have a receipt or certificate"
+          },
+          "body": {
+            "fr": "Revenez à la première question et choisissez « J'ai un récépissé, une attestation ou une autorisation provisoire de séjour ».",
+            "en": "Go back to the first question and choose \"I have a receipt, a certificate or a temporary residence authorisation\"."
+          }
+        },
+        {
+          "title": {
+            "fr": "Vous n'avez pas encore demandé le renouvellement",
+            "en": "You have not applied for a renewal yet"
+          },
+          "body": {
+            "fr": "La demande se fait sur le site de l'ANEF.",
+            "en": "You apply on the ANEF website."
+          },
+          "link": {
+            "title": {
+              "fr": "Ouvrir le site de l'ANEF",
+              "en": "Open the ANEF website"
+            },
+            "url": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/"
+          }
+        }
+      ],
+      "contacts": [
+        "anef_contact",
+        "prefecture_directory",
+        "point_justice"
+      ],
+      "sources": [
+        "sp_retour_schengen",
+        "sp_anef"
+      ]
+    },
+    {
+      "id": "permit_expires_during_trip",
+      "kind": "warning",
+      "condition": {
+        "question": "expires_before_return",
+        "equals": "yes"
+      },
+      "title": {
+        "fr": "Votre titre se termine pendant le voyage",
+        "en": "Your permit ends during the trip"
+      },
+      "body": {
+        "fr": "Service-public indique que l'on revient en France avec un titre de séjour valide. D'après la même page, un récépissé de demande de renouvellement, ou une attestation de prolongation d'instruction délivrée pour un renouvellement, permet aussi de revenir, avec l'ancien titre et le passeport. Faites la demande de renouvellement avant de partir.",
+        "en": "Service-public says you come back to France with a valid residence permit. According to the same page, a renewal receipt, or an extended processing certificate issued for a renewal, also lets you come back, together with the old permit and the passport. Apply for the renewal before leaving."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Demander le renouvellement",
+            "en": "Apply for a renewal"
+          },
+          "body": {
+            "fr": "La demande se fait sur le site de l'ANEF.",
+            "en": "You apply on the ANEF website."
+          },
+          "link": {
+            "title": {
+              "fr": "Ouvrir le site de l'ANEF",
+              "en": "Open the ANEF website"
+            },
+            "url": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/"
+          }
+        }
+      ],
+      "contacts": [
+        "anef_contact",
+        "prefecture_directory"
+      ],
+      "sources": [
+        "sp_retour_schengen",
+        "sp_anef"
+      ]
+    },
+    {
+      "id": "protection_no_travel_document",
+      "kind": "warning",
+      "condition": {
+        "all": [
+          {
+            "all": [
+              {
+                "question": "status",
+                "equals": "protection"
+              },
+              {
+                "question": "protection_type",
+                "in": [
+                  "refugee",
+                  "subsidiary",
+                  "stateless"
+                ]
+              }
+            ]
+          },
+          {
+            "question": "has_travel_document",
+            "equals": "no"
+          }
+        ]
+      },
+      "title": {
+        "fr": "Demandez le titre de voyage avant de partir",
+        "en": "Apply for the travel document before leaving"
+      },
+      "body": {
+        "fr": "Service-public indique que le titre de voyage vous permet de sortir de France, puis d'y revenir. Il se demande sur le site de l'ANEF. Les sources consultées ne donnent pas de délai de délivrance.",
+        "en": "Service-public says the travel document lets you leave France and then come back. You apply on the ANEF website. The sources we checked do not give a processing time."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Faire la demande",
+            "en": "Apply"
+          },
+          "body": {
+            "fr": "Connectez-vous à votre compte ANEF.",
+            "en": "Log in to your ANEF account."
+          },
+          "link": {
+            "title": {
+              "fr": "Ouvrir le site de l'ANEF",
+              "en": "Open the ANEF website"
+            },
+            "url": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/"
+          }
+        }
+      ],
+      "contacts": [
+        "anef_contact",
+        "france_services"
+      ],
+      "sources": [
+        "sp_refugie",
+        "sp_protection_subsidiaire",
+        "sp_apatride",
+        "sp_anef"
+      ]
+    },
+    {
+      "id": "minor_without_dcem",
+      "kind": "warning",
+      "condition": {
+        "all": [
+          {
+            "question": "status",
+            "equals": "minor"
+          },
+          {
+            "question": "minor_has_dcem",
+            "equals": "no"
+          }
+        ]
+      },
+      "title": {
+        "fr": "Sans DCEM, le retour de votre enfant peut demander un visa",
+        "en": "Without a DCEM, your child may need a visa to come back"
+      },
+      "body": {
+        "fr": "D'après service-public, le DCEM permet au mineur de revenir en France. La confirmation de dépôt de la demande ne permet pas à l'enfant d'être réadmis en France ou aux frontières de l'espace Schengen : un visa est nécessaire. Les délais varient selon les préfectures.",
+        "en": "According to service-public, the DCEM lets the minor come back to France. The application submission confirmation does not let the child be readmitted to France or at the Schengen borders: a visa is needed. Processing times vary by prefecture."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Demander le DCEM",
+            "en": "Apply for the DCEM"
+          },
+          "body": {
+            "fr": "La demande se fait en ligne par un parent qui a un titre de séjour en cours de validité.",
+            "en": "A parent with a valid residence permit applies online."
+          },
+          "link": {
+            "title": {
+              "fr": "Demander ou renouveler un DCEM",
+              "en": "Apply for or renew a DCEM"
+            },
+            "url": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/sejour/document-voyage"
+          }
+        }
+      ],
+      "contacts": [
+        "anef_contact",
+        "prefecture_directory"
+      ],
+      "sources": [
+        "sp_dcem",
+        "sp_dcem_en_ligne"
+      ]
+    }
+  ],
+  "deadlines": [
+    {
+      "id": "permit_end",
+      "relativeTo": "permit_expiry_date",
+      "offsetDays": 0,
+      "title": {
+        "fr": "Fin de validité de votre titre de séjour : votre retour doit avoir lieu avant, ou avec un document de renouvellement",
+        "en": "Your residence permit expires: come back before this date, or with a renewal document"
+      },
+      "condition": {
+        "any": [
+          {
+            "question": "status",
+            "equals": "permit_valid"
+          },
+          {
+            "all": [
+              {
+                "question": "status",
+                "equals": "protection"
+              },
+              {
+                "question": "protection_type",
+                "in": [
+                  "refugee",
+                  "subsidiary",
+                  "stateless"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_retour_schengen"
+      ]
+    }
+  ],
+  "reviewNotes": [
+    "Droit en vigueur : F12189 (règle centrale du retour) est « Vérifié le 10 avril 2024 », avant la hausse des taxes du 1er mai 2026 et avant le décret n°2026-1001 du 26 octobre 2026 (effets au 30/10/2026). Le montant de 6 € du visa préfectoral vient de cette page ancienne et n'a pas été recoupé. À revérifier après le 30/10/2026.",
+    "Noms des titres de voyage : la demande parlait de « TVE ». Les sources utilisent « titre de voyage pour réfugié (TVR) » (F15401), « titre d'identité et de voyage (TIV) » (F2689) et « titre de voyage biométrique pour apatride ». Noms des sources repris. Le sigle TVE n'a été trouvé dans aucune source consultée.",
+    "Demandeurs d'asile : aucune source consultée (F35534/0, Vérifié le 07 mai 2025) ne dit si un demandeur d'asile peut voyager ni avec quel document. La page du ministère immigration.interieur.gouv.fr « Demander l'asile en France » est bloquée (Cloudflare, HTTP 403). Orientation redirect vers la préfecture et le point-justice, sans règle.",
+    "Retour dans le pays d'origine : texte tiré de la FAQ OFPRA (sans date) et de l'actualité OFPRA du 18 février 2026. La FAQ OFPRA mentionne aussi la renonciation à la protection ; non reprise ici car ses conséquences (page anglaise « I want to renounce my protection ») n'ont pas été lues.",
+    "La FAQ OFPRA dit que le titre de voyage « doit être demandé à la préfecture » ; service-public (juillet 2026) dit que la demande se fait sur l'ANEF. Version ANEF retenue (plus récente).",
+    "Titre perdu ou expiré à l'étranger : F21032 traite la perte (visa de retour au consulat, enquête auprès de la préfecture). Aucune source consultée ne traite le cas d'un titre expiré pendant un séjour à l'étranger sans récépissé. La FAQ de france-visas.gouv.fr (qui en parlerait) est bloquée (HTTP 403) : non lue. Le vol à l'étranger (F22312) n'a pas été relu pour ce fichier.",
+    "Le lien « Service en charge des visas » (https://france-visas.gouv.fr/web/france-visas/lieu-de-depot) est celui donné par F12189 ; la page renvoie HTTP 403 à un accès automatisé, contenu non vérifié.",
+    "Lien DCEM : l'URL ANEF utilisée est celle donnée par service-public R64360 (« #/sejour/document-voyage »), Vérifié le 30 mars 2023. F2718 (DCEM) est Vérifié le 30 juillet 2024, avant la hausse des taxes de mai 2026 : le montant de 50 € est à revérifier.",
+    "Mineurs : le titre d'identité républicain (TIR) n'est pas traité ; aucune source consultée. L'AST n'est demandée que pour le statut « mineur » ; F1359 l'exige aussi pour les mineurs français qui voyagent sans parent, cas non posé ici. Le titre de voyage pour mineur réfugié ou protégé n'est pas détaillé (pièces en annexe de F15401/F2689 non reprises).",
+    "Espace Schengen : F1453 dit qu'un titre de séjour français autorise à « circuler dans les pays de l'espace Schengen ». Aucune source consultée ne dit si un récépissé, une attestation ou une APS le permet (avertissement receipt_schengen_unclear). La règle des 90 jours sur 180 n'a pas été reprise : les pages trouvées concernent les visas de court séjour, pas les titulaires de titre.",
+    "Destination « pays d'origine » pour un étranger non protégé : traitée comme un pays hors Schengen. Double nationalité (Français ayant aussi la nationalité du pays) : aucune source consultée.",
+    "Fil d'Ariane : la source le réserve aux « ressortissants français » ; étape montrée seulement aux Français. Ligne d'urgence du Centre de crise et de soutien montrée seulement aux Français (le CDCS protège les ressortissants français).",
+    "Visa du pays de destination : aucune source française ne dit explicitement « la France ne délivre pas ce visa ». L'étape renvoie vers les Conseils aux voyageurs (rubrique Entrée / Séjour, FAQ Voyage) et vers l'annuaire des représentations étrangères ; la consigne de s'adresser à l'ambassade du pays en France vient de F1453 (contexte installation en Europe).",
+    "Passeport valide « plusieurs mois après le retour » : phrase de la FAQ Voyage de diplomatie.gouv.fr, écrite pour les Français ; appliquée aussi aux étrangers comme règle des États de destination.",
+    "Comparaison date de fin du titre / date de retour : le schéma ne permet pas de comparer deux dates. Question yesNo « expires_before_return » posée après la date (seulement si le titre n'est pas expiré).",
+    "Récépissé / attestation : aucune source ne dit si le document provisoire doit être encore valide le jour du retour ; aucune question de date posée pour ces documents.",
+    "Pages diplomatie.gouv.fr « Conseils aux voyageurs », « FAQ Voyage », « Contact et renseignements » et « Annuaire des représentations étrangères » : aucune date de mise à jour affichée. FAQ OFPRA : aucune date affichée.",
+    "Contacts et guides : identifiants anef_contact, prefecture_directory, point_justice, france_services (contacts) et anef_account, loss_theft_report, ephoto, fiscal_stamp (guides) supposés définis dans help.json ; le tableau guides de help.json était vide à la lecture. defenseur_des_droits non utilisé : aucune source consultée ne le relie à cette démarche."
+  ]
+}

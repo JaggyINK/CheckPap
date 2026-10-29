@@ -1,0 +1,2106 @@
+{
+  "id": "passport",
+  "reviewStatus": "draft",
+  "lastVerified": "2026-10-29",
+  "title": {
+    "fr": "Faire ou renouveler un passeport",
+    "en": "Get or renew a passport"
+  },
+  "summary": {
+    "fr": "Cette démarche explique comment demander un passeport français, pour vous si vous êtes devenu français ou pour votre enfant français : première demande, renouvellement, perte ou vol. Si vous avez besoin du passeport d'un autre pays, elle vous oriente vers le consulat de ce pays.",
+    "en": "This explains how to apply for a French passport, for yourself if you became French or for your French child: first application, renewal, loss or theft. If you need a passport from another country, it points you to that country's consulate."
+  },
+  "sources": [
+    {
+      "id": "sp_majeur_premiere",
+      "publisher": "service-public.gouv.fr",
+      "title": "Passeport d'un majeur : première demande (Vérifié le 08 avril 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F14929",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_majeur_renouvellement",
+      "publisher": "service-public.gouv.fr",
+      "title": "Passeport d'un majeur : renouvellement (Vérifié le 22 mai 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F21091",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_majeur_perte",
+      "publisher": "service-public.gouv.fr",
+      "title": "Passeport perdu d'un majeur (Vérifié le 08 avril 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F21246",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_majeur_vol",
+      "publisher": "service-public.gouv.fr",
+      "title": "Passeport volé d'un majeur (Vérifié le 08 avril 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F21247",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_mineur_premiere",
+      "publisher": "service-public.gouv.fr",
+      "title": "Passeport d'un mineur : première demande (Vérifié le 19 juin 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F14930",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_mineur_renouvellement",
+      "publisher": "service-public.gouv.fr",
+      "title": "Passeport d'un mineur : renouvellement (Vérifié le 22 mai 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F21092",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_mineur_perte",
+      "publisher": "service-public.gouv.fr",
+      "title": "Passeport perdu d'un mineur (Vérifié le 29 septembre 2025)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F21244",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_mineur_vol",
+      "publisher": "service-public.gouv.fr",
+      "title": "Passeport volé d'un mineur (Vérifié le 19 juin 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F21245",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_prix",
+      "publisher": "service-public.gouv.fr",
+      "title": "Combien coûte un passeport ? (Vérifié le 05 août 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34752",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_timbre",
+      "publisher": "service-public.gouv.fr",
+      "title": "Passeport : comment acheter un timbre fiscal ? (Vérifié le 17 août 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F21258",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_domicile_majeur",
+      "publisher": "service-public.gouv.fr",
+      "title": "Carte d'identité ou passeport d'un majeur : quel justificatif de domicile présenter ? (Vérifié le 28 septembre 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F14807",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_domicile_mineur",
+      "publisher": "service-public.gouv.fr",
+      "title": "Carte d'identité ou passeport d'un mineur : quel justificatif de domicile présenter ? (Vérifié le 18 septembre 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F32675",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_abime",
+      "publisher": "service-public.gouv.fr",
+      "title": "Comment remplacer un passeport abîmé ? (Vérifié le 29 avril 2025)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F14932",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_photo",
+      "publisher": "service-public.gouv.fr",
+      "title": "Photo d'identité : quelles sont les normes à respecter ? (Vérifié le 08 octobre 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10619",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_photo_guichet",
+      "publisher": "service-public.gouv.fr",
+      "title": "La photo d'identité pour un passeport peut-elle être prise au guichet ? (Vérifié le 05 août 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1357",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_formulaire",
+      "publisher": "service-public.gouv.fr",
+      "title": "Comment remplir le formulaire ou la pré-demande de carte d'identité ou de passeport ? (Vérifié le 12 août 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33640",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_suivi",
+      "publisher": "service-public.gouv.fr",
+      "title": "Comment savoir où en est une demande de passeport ? (Vérifié le 05 août 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34757",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_nationalite",
+      "publisher": "service-public.gouv.fr",
+      "title": "Carte d'identité ou passeport : comment prouver sa nationalité française ? (Vérifié le 14 août 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F18713",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_vpf",
+      "publisher": "service-public.gouv.fr",
+      "title": "Carte de séjour \"vie privée et familiale\" d'un étranger en France (Vérifié le 01 mai 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2209",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_refugie",
+      "publisher": "service-public.gouv.fr",
+      "title": "Réfugié : titre de séjour, document de voyage et accompagnement (Vérifié le 01 juillet 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F15401",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_apatride",
+      "publisher": "service-public.gouv.fr",
+      "title": "Apatride : statut, titre de séjour, document de voyage (Vérifié le 01 juillet 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F15402",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_protection_subsidiaire",
+      "publisher": "service-public.gouv.fr",
+      "title": "Protection subsidiaire : statut, titre de séjour et titre de voyage (Vérifié le 01 juillet 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2689",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "ants_premiere",
+      "publisher": "passeport.ants.gouv.fr",
+      "title": "Faire une première demande de passeport (aucune date affichée)",
+      "url": "https://passeport.ants.gouv.fr/demarches-en-ligne/faire-une-premiere-demande-de-passeport",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "ants_renouvellement",
+      "publisher": "passeport.ants.gouv.fr",
+      "title": "Renouveler votre passeport (aucune date affichée)",
+      "url": "https://passeport.ants.gouv.fr/demarches-en-ligne/effectuer-le-renouvellement-de-votre-passeport",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "ants_dematerialisation",
+      "publisher": "passeport.ants.gouv.fr",
+      "title": "Villes adhérentes à la dématérialisation (aucune date affichée)",
+      "url": "https://passeport.ants.gouv.fr/services/villes-adherentes-a-la-dematerialisation",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "dipl_annuaire",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Annuaire des représentations étrangères (aucune date affichée)",
+      "url": "https://www.diplomatie.gouv.fr/fr/services/j-ai-une-question/annuaire-et-contacts/representations-etrangeres",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "dipl_faq",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Foire aux questions : Je recherche les coordonnées d'une ambassade / d'un consulat étranger en France (aucune date affichée)",
+      "url": "https://www.diplomatie.gouv.fr/fr/services/faq/contact-et-renseignements/je-recherche-les-coordonnees-d-une-ambassade-d-un-consulat-etranger-en-france",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "pref_bdr_pieces",
+      "publisher": "bouches-du-rhone.gouv.fr",
+      "title": "LISTE DE PIÈCES A FOURNIR – DUPLICATA DE TITRE DE SEJOUR (PDF, aucune date affichée)",
+      "url": "https://www.bouches-du-rhone.gouv.fr/content/download/36261/206032/file/Liste%20de%20pi%C3%A8ces%20duplicata.pdf",
+      "consulted": "2026-10-29"
+    }
+  ],
+  "questions": [
+    {
+      "id": "passport_country",
+      "kind": "single",
+      "title": {
+        "fr": "Quel passeport voulez-vous faire ?",
+        "en": "Which passport do you need?"
+      },
+      "help": {
+        "fr": "La France délivre seulement les passeports français. Un passeport d'un autre pays se demande auprès de l'ambassade ou du consulat de ce pays.",
+        "en": "France only issues French passports. A passport from another country is requested from that country's embassy or consulate."
+      },
+      "options": [
+        {
+          "id": "french",
+          "label": {
+            "fr": "Un passeport français",
+            "en": "A French passport"
+          },
+          "help": {
+            "fr": "Par exemple si vous êtes devenu français, ou pour votre enfant français.",
+            "en": "For example if you became French, or for your French child."
+          }
+        },
+        {
+          "id": "other",
+          "label": {
+            "fr": "Le passeport d'un autre pays",
+            "en": "A passport from another country"
+          },
+          "help": {
+            "fr": "Le passeport du pays dont vous avez la nationalité.",
+            "en": "The passport of the country you are a national of."
+          }
+        }
+      ],
+      "condition": null,
+      "sources": [
+        "sp_majeur_premiere",
+        "dipl_faq",
+        "pref_bdr_pieces"
+      ]
+    },
+    {
+      "id": "request_reason",
+      "kind": "single",
+      "title": {
+        "fr": "Pourquoi faites-vous la demande ?",
+        "en": "Why are you applying?"
+      },
+      "help": {
+        "fr": "Les pièces à présenter changent selon le cas.",
+        "en": "The documents to bring depend on your case."
+      },
+      "options": [
+        {
+          "id": "first",
+          "label": {
+            "fr": "C'est le premier passeport français",
+            "en": "It is the first French passport"
+          },
+          "help": {
+            "fr": "Par exemple après une naturalisation.",
+            "en": "For example after naturalisation."
+          }
+        },
+        {
+          "id": "renewal",
+          "label": {
+            "fr": "Renouveler un passeport français",
+            "en": "Renew a French passport"
+          },
+          "help": {
+            "fr": "Passeport bientôt expiré ou déjà expiré, changement de nom d'usage, ou passeport abîmé.",
+            "en": "Passport expiring soon or already expired, change of usual name, or damaged passport."
+          }
+        },
+        {
+          "id": "lost",
+          "label": {
+            "fr": "Le passeport a été perdu",
+            "en": "The passport was lost"
+          }
+        },
+        {
+          "id": "stolen",
+          "label": {
+            "fr": "Le passeport a été volé",
+            "en": "The passport was stolen"
+          }
+        }
+      ],
+      "condition": {
+        "question": "passport_country",
+        "equals": "french"
+      },
+      "sources": [
+        "sp_majeur_premiere",
+        "sp_majeur_renouvellement",
+        "sp_majeur_perte",
+        "sp_majeur_vol",
+        "sp_mineur_premiere",
+        "sp_mineur_renouvellement",
+        "sp_mineur_perte",
+        "sp_mineur_vol",
+        "sp_abime"
+      ]
+    },
+    {
+      "id": "applicant_age",
+      "kind": "single",
+      "title": {
+        "fr": "Quel âge aura la personne le jour du dépôt en mairie ?",
+        "en": "How old will the person be on the day of the town hall appointment?"
+      },
+      "help": {
+        "fr": "Le prix du timbre fiscal et les pièces changent selon l'âge. L'ANTS précise que le timbre doit correspondre à l'âge le jour du dépôt.",
+        "en": "The price of the tax stamp and the documents depend on age. ANTS says the stamp must match the age on the day of the appointment."
+      },
+      "options": [
+        {
+          "id": "adult",
+          "label": {
+            "fr": "18 ans ou plus",
+            "en": "18 or older"
+          }
+        },
+        {
+          "id": "minor_15_17",
+          "label": {
+            "fr": "Entre 15 et 17 ans",
+            "en": "Between 15 and 17"
+          }
+        },
+        {
+          "id": "minor_under_15",
+          "label": {
+            "fr": "Moins de 15 ans",
+            "en": "Under 15"
+          },
+          "help": {
+            "fr": "Un mineur français peut avoir un passeport à tout âge, même un bébé.",
+            "en": "A French minor can have a passport at any age, even a baby."
+          }
+        }
+      ],
+      "condition": {
+        "question": "passport_country",
+        "equals": "french"
+      },
+      "sources": [
+        "sp_prix",
+        "sp_mineur_premiere",
+        "ants_renouvellement"
+      ]
+    },
+    {
+      "id": "current_passport_expiry",
+      "kind": "date",
+      "title": {
+        "fr": "Quelle est la date d'expiration du passeport actuel ?",
+        "en": "What is the expiry date of the current passport?"
+      },
+      "help": {
+        "fr": "Elle est écrite sur la page avec la photo. Les pièces ne sont pas les mêmes si le passeport est périmé depuis plus de 5 ans.",
+        "en": "It is written on the photo page. The documents are not the same if the passport expired more than 5 years ago."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "passport_country",
+            "equals": "french"
+          },
+          {
+            "question": "request_reason",
+            "equals": "renewal"
+          }
+        ]
+      },
+      "sources": [
+        "sp_majeur_renouvellement",
+        "sp_mineur_renouvellement"
+      ]
+    },
+    {
+      "id": "id_card_status",
+      "kind": "single",
+      "title": {
+        "fr": "La personne a-t-elle une carte d'identité française ?",
+        "en": "Does the person have a French identity card?"
+      },
+      "help": {
+        "fr": "Une carte d'identité valide ou périmée depuis moins de 5 ans évite de fournir un acte de naissance et une preuve de nationalité.",
+        "en": "An identity card that is valid or expired less than 5 years ago means you do not need a birth certificate or proof of nationality."
+      },
+      "options": [
+        {
+          "id": "valid_or_recent",
+          "label": {
+            "fr": "Oui, valide ou périmée depuis moins de 5 ans",
+            "en": "Yes, valid or expired less than 5 years ago"
+          }
+        },
+        {
+          "id": "old_or_none",
+          "label": {
+            "fr": "Non, ou périmée depuis plus de 5 ans",
+            "en": "No, or expired more than 5 years ago"
+          }
+        }
+      ],
+      "condition": {
+        "all": [
+          {
+            "question": "passport_country",
+            "equals": "french"
+          },
+          {
+            "any": [
+              {
+                "question": "request_reason",
+                "in": [
+                  "first",
+                  "lost",
+                  "stolen"
+                ]
+              },
+              {
+                "all": [
+                  {
+                    "question": "request_reason",
+                    "equals": "renewal"
+                  },
+                  {
+                    "question": "current_passport_expiry",
+                    "daysFromToday": {
+                      "max": -1827
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_majeur_premiere",
+        "sp_majeur_renouvellement",
+        "sp_majeur_perte",
+        "sp_majeur_vol",
+        "sp_mineur_premiere",
+        "sp_mineur_renouvellement",
+        "sp_mineur_perte",
+        "sp_mineur_vol",
+        "sp_nationalite"
+      ]
+    },
+    {
+      "id": "birth_place",
+      "kind": "single",
+      "title": {
+        "fr": "Où la personne est-elle née ?",
+        "en": "Where was the person born?"
+      },
+      "help": {
+        "fr": "L'acte de naissance ne se demande pas au même endroit selon le lieu de naissance.",
+        "en": "The birth certificate is not requested from the same place depending on where you were born."
+      },
+      "options": [
+        {
+          "id": "france",
+          "label": {
+            "fr": "En France",
+            "en": "In France"
+          }
+        },
+        {
+          "id": "abroad",
+          "label": {
+            "fr": "À l'étranger",
+            "en": "Abroad"
+          },
+          "help": {
+            "fr": "C'est souvent le cas des personnes devenues françaises.",
+            "en": "This is often the case for people who became French."
+          }
+        }
+      ],
+      "condition": {
+        "all": [
+          {
+            "question": "passport_country",
+            "equals": "french"
+          },
+          {
+            "question": "id_card_status",
+            "equals": "old_or_none"
+          }
+        ]
+      },
+      "sources": [
+        "sp_nationalite"
+      ]
+    },
+    {
+      "id": "family_situation",
+      "kind": "single",
+      "title": {
+        "fr": "Quelle est la situation familiale de l'enfant ?",
+        "en": "What is the child's family situation?"
+      },
+      "help": {
+        "fr": "Le parent ou le tuteur qui fait la demande doit exercer l'autorité parentale. Certaines situations demandent une pièce en plus.",
+        "en": "The parent or guardian applying must have parental authority. Some situations need an extra document."
+      },
+      "options": [
+        {
+          "id": "together",
+          "label": {
+            "fr": "Les parents vivent ensemble",
+            "en": "The parents live together"
+          }
+        },
+        {
+          "id": "alternate",
+          "label": {
+            "fr": "Parents séparés, garde alternée",
+            "en": "Parents separated, shared custody"
+          }
+        },
+        {
+          "id": "exclusive",
+          "label": {
+            "fr": "Parents séparés, un seul parent a l'autorité parentale",
+            "en": "Parents separated, only one parent has parental authority"
+          }
+        },
+        {
+          "id": "one_parent",
+          "label": {
+            "fr": "L'enfant n'a qu'un seul parent",
+            "en": "The child has only one parent"
+          }
+        },
+        {
+          "id": "other_guardian",
+          "label": {
+            "fr": "Un tuteur ou l'aide sociale à l'enfance",
+            "en": "A guardian or child welfare services (ASE)"
+          }
+        }
+      ],
+      "condition": {
+        "all": [
+          {
+            "question": "passport_country",
+            "equals": "french"
+          },
+          {
+            "question": "applicant_age",
+            "in": [
+              "minor_15_17",
+              "minor_under_15"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_mineur_premiere",
+        "sp_mineur_renouvellement",
+        "sp_mineur_vol"
+      ]
+    },
+    {
+      "id": "housing",
+      "kind": "single",
+      "title": {
+        "fr": "Comment justifier l'adresse ?",
+        "en": "How can you prove the address?"
+      },
+      "help": {
+        "fr": "Pour un enfant, il s'agit de l'adresse du parent ou du tuteur qui fait la demande.",
+        "en": "For a child, this is the address of the parent or guardian applying."
+      },
+      "options": [
+        {
+          "id": "own",
+          "label": {
+            "fr": "J'ai une facture ou un document à mon nom",
+            "en": "I have a bill or document in my name"
+          }
+        },
+        {
+          "id": "hosted",
+          "label": {
+            "fr": "J'habite chez un proche",
+            "en": "I live with someone (family, friend)"
+          }
+        },
+        {
+          "id": "other",
+          "label": {
+            "fr": "Autre situation",
+            "en": "Other situation"
+          },
+          "help": {
+            "fr": "Hôtel, sans domicile stable, caravane, bateau, détention.",
+            "en": "Hotel, no stable home, caravan, boat, detention."
+          }
+        }
+      ],
+      "condition": {
+        "question": "passport_country",
+        "equals": "french"
+      },
+      "sources": [
+        "sp_domicile_majeur",
+        "sp_domicile_mineur"
+      ]
+    },
+    {
+      "id": "foreign_situation",
+      "kind": "single",
+      "title": {
+        "fr": "Quelle est votre situation ?",
+        "en": "What is your situation?"
+      },
+      "options": [
+        {
+          "id": "expired",
+          "label": {
+            "fr": "Mon passeport expire bientôt ou est expiré",
+            "en": "My passport expires soon or has expired"
+          }
+        },
+        {
+          "id": "lost_stolen",
+          "label": {
+            "fr": "Mon passeport a été perdu ou volé",
+            "en": "My passport was lost or stolen"
+          }
+        },
+        {
+          "id": "protection",
+          "label": {
+            "fr": "Je suis réfugié, protégé subsidiaire ou apatride",
+            "en": "I am a refugee, under subsidiary protection or stateless"
+          },
+          "help": {
+            "fr": "Service-public décrit pour vous un document de voyage délivré par la France.",
+            "en": "Service-public describes a travel document issued by France for you."
+          }
+        }
+      ],
+      "condition": {
+        "question": "passport_country",
+        "equals": "other"
+      },
+      "sources": [
+        "dipl_faq",
+        "pref_bdr_pieces",
+        "sp_refugie",
+        "sp_apatride",
+        "sp_protection_subsidiaire"
+      ]
+    }
+  ],
+  "documents": [
+    {
+      "id": "predemande",
+      "category": "other",
+      "title": {
+        "fr": "Numéro ou QR code de la pré-demande",
+        "en": "Pre-application number or QR code"
+      },
+      "details": {
+        "fr": "Si vous avez fait la pré-demande en ligne, apportez le numéro et/ou le QR code. Sinon, vous remplirez et signerez au guichet un formulaire cartonné, à l'encre noire et en majuscules.",
+        "en": "If you made the online pre-application, bring the number and/or QR code. Otherwise, you will fill in and sign a cardboard form at the counter, in black ink and capital letters."
+      },
+      "tip": {
+        "fr": "L'ANTS conseille d'imprimer le récapitulatif de la pré-demande.",
+        "en": "ANTS suggests printing the pre-application summary."
+      },
+      "condition": {
+        "question": "passport_country",
+        "equals": "french"
+      },
+      "sources": [
+        "sp_formulaire",
+        "ants_premiere",
+        "ants_renouvellement",
+        "sp_majeur_premiere",
+        "sp_majeur_renouvellement",
+        "sp_majeur_perte",
+        "sp_majeur_vol",
+        "sp_mineur_premiere",
+        "sp_mineur_renouvellement",
+        "sp_mineur_perte",
+        "sp_mineur_vol"
+      ]
+    },
+    {
+      "id": "photo",
+      "category": "photo",
+      "title": {
+        "fr": "1 photo d'identité",
+        "en": "1 ID photo"
+      },
+      "details": {
+        "fr": "Une seule photo, de moins de 6 mois, ressemblante et conforme aux normes. Elle doit être prise par un photographe habilité ou dans une cabine agréée.",
+        "en": "One photo only, less than 6 months old, a good likeness and meeting the standards. It must be taken by an approved photographer or in an approved photo booth."
+      },
+      "example": {
+        "fr": "Format 3,5 x 4,5 cm, fond uni clair (pas blanc), tête nue, bouche fermée.",
+        "en": "Size 3.5 x 4.5 cm, plain light background (not white), bare head, mouth closed."
+      },
+      "tip": {
+        "fr": "Service-public indique qu'une photo non conforme est rejetée. En métropole, la photo n'est pas prise au guichet ; en Guyane et à Mayotte, seulement s'il n'y a aucun photographe professionnel.",
+        "en": "Service-public says a photo that does not meet the standards is rejected. In mainland France, the photo is not taken at the counter; in French Guiana and Mayotte, only if there is no professional photographer."
+      },
+      "condition": {
+        "question": "passport_country",
+        "equals": "french"
+      },
+      "sources": [
+        "sp_photo",
+        "sp_photo_guichet",
+        "ants_premiere"
+      ]
+    },
+    {
+      "id": "address_own",
+      "category": "address",
+      "title": {
+        "fr": "Justificatif de domicile de moins d'1 an",
+        "en": "Proof of address less than 1 year old"
+      },
+      "details": {
+        "fr": "Un document à votre nom et prénom, daté de moins d'1 an le jour du dépôt. Pour un enfant, il est au nom du parent ou du tuteur qui fait la demande.",
+        "en": "A document with your first and last name, dated less than 1 year before the appointment. For a child, it is in the name of the parent or guardian applying."
+      },
+      "example": {
+        "fr": "Facture de téléphone, d'électricité, de gaz ou d'eau, quittance de loyer, attestation d'assurance du logement, relevé de la Caf.",
+        "en": "Phone, electricity, gas or water bill, rent receipt, home insurance certificate, Caf statement."
+      },
+      "tip": {
+        "fr": "Service-public indique que, pour le moment, l'avis d'imposition ou de non-imposition n'est pas accepté. Avec un contrat EDF, Engie, Total Direct Énergie ou Gaz Tarif Réglementé, le dispositif Justif'Adresse peut éviter de fournir le justificatif.",
+        "en": "Service-public says that, for now, the tax notice is not accepted. With an EDF, Engie, Total Direct Énergie or Gaz Tarif Réglementé contract, the Justif'Adresse system may avoid providing the document."
+      },
+      "guides": [
+        "proof_of_address"
+      ],
+      "condition": {
+        "all": [
+          {
+            "question": "passport_country",
+            "equals": "french"
+          },
+          {
+            "question": "housing",
+            "equals": "own"
+          }
+        ]
+      },
+      "sources": [
+        "sp_domicile_majeur",
+        "sp_domicile_mineur"
+      ]
+    },
+    {
+      "id": "address_hosted",
+      "category": "address",
+      "title": {
+        "fr": "Justificatifs si vous êtes hébergé",
+        "en": "Documents if you live with someone"
+      },
+      "details": {
+        "fr": "3 documents : la photocopie de la pièce d'identité de la personne qui vous héberge, son attestation sur l'honneur d'hébergement datée et signée (original), et son justificatif de domicile de moins d'1 an (original).",
+        "en": "3 documents: a photocopy of the host's ID, their signed and dated sworn statement that you live with them (original), and their proof of address less than 1 year old (original)."
+      },
+      "tip": {
+        "fr": "Service-public précise qu'aucun autre document ne doit être exigé.",
+        "en": "Service-public says no other document may be required."
+      },
+      "guides": [
+        "proof_of_address"
+      ],
+      "condition": {
+        "all": [
+          {
+            "question": "passport_country",
+            "equals": "french"
+          },
+          {
+            "question": "housing",
+            "equals": "hosted"
+          }
+        ]
+      },
+      "sources": [
+        "sp_domicile_majeur",
+        "sp_domicile_mineur"
+      ]
+    },
+    {
+      "id": "address_other",
+      "category": "address",
+      "title": {
+        "fr": "Justificatif de domicile selon votre situation",
+        "en": "Proof of address for your situation"
+      },
+      "details": {
+        "fr": "Service-public prévoit des pièces pour chaque cas : attestation d'élection de domicile (CCAS ou organisme agréé) si vous êtes sans domicile stable, attestation du gérant de l'hôtel avec un document à votre nom à la même adresse, etc.",
+        "en": "Service-public lists documents for each case: a certificate of domiciliation (CCAS or approved organisation) if you have no stable home, a certificate from the hotel manager with a document in your name at the same address, etc."
+      },
+      "guides": [
+        "proof_of_address"
+      ],
+      "condition": {
+        "all": [
+          {
+            "question": "passport_country",
+            "equals": "french"
+          },
+          {
+            "question": "housing",
+            "equals": "other"
+          }
+        ]
+      },
+      "sources": [
+        "sp_domicile_majeur",
+        "sp_domicile_mineur"
+      ]
+    },
+    {
+      "id": "current_passport",
+      "category": "identity",
+      "title": {
+        "fr": "Le passeport actuel",
+        "en": "The current passport"
+      },
+      "details": {
+        "fr": "L'original du passeport à renouveler. Il vous est rendu à la fin du rendez-vous, puis il doit être restitué au retrait du nouveau.",
+        "en": "The original passport you are renewing. It is given back to you at the end of the appointment, then it must be handed back when you collect the new one."
+      },
+      "tip": {
+        "fr": "S'il contient un visa encore valide, il peut être conservé pendant la durée de ce visa.",
+        "en": "If it contains a visa that is still valid, it can be kept for as long as the visa is valid."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "passport_country",
+            "equals": "french"
+          },
+          {
+            "question": "request_reason",
+            "equals": "renewal"
+          }
+        ]
+      },
+      "sources": [
+        "sp_majeur_renouvellement",
+        "sp_mineur_renouvellement",
+        "ants_renouvellement"
+      ]
+    },
+    {
+      "id": "id_card",
+      "category": "identity",
+      "title": {
+        "fr": "Carte d'identité française",
+        "en": "French identity card"
+      },
+      "details": {
+        "fr": "La carte d'identité de la personne qui aura le passeport, valide ou périmée depuis moins de 5 ans.",
+        "en": "The identity card of the person who will get the passport, valid or expired less than 5 years ago."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "passport_country",
+            "equals": "french"
+          },
+          {
+            "question": "id_card_status",
+            "equals": "valid_or_recent"
+          }
+        ]
+      },
+      "sources": [
+        "sp_majeur_premiere",
+        "sp_majeur_renouvellement",
+        "sp_majeur_perte",
+        "sp_majeur_vol",
+        "sp_mineur_premiere",
+        "sp_mineur_renouvellement",
+        "sp_mineur_perte",
+        "sp_mineur_vol",
+        "ants_premiere"
+      ]
+    },
+    {
+      "id": "birth_certificate_france",
+      "category": "civil_status",
+      "title": {
+        "fr": "Acte de naissance de moins de 3 mois (si demandé)",
+        "en": "Birth certificate less than 3 months old (if required)"
+      },
+      "details": {
+        "fr": "Copie intégrale ou extrait avec filiation. Il n'est pas demandé si l'état civil de la commune de naissance est dématérialisé : vérifiez sur la liste de l'ANTS. L'ANTS indique que c'est le cas pour tous les arrondissements de Paris.",
+        "en": "Full copy or extract with parents' names. It is not required if the birth town's civil records are digitised: check the ANTS list. ANTS says this is the case for all Paris districts."
+      },
+      "guides": [
+        "civil_status_france"
+      ],
+      "condition": {
+        "all": [
+          {
+            "question": "passport_country",
+            "equals": "french"
+          },
+          {
+            "question": "id_card_status",
+            "equals": "old_or_none"
+          },
+          {
+            "question": "birth_place",
+            "equals": "france"
+          }
+        ]
+      },
+      "sources": [
+        "sp_majeur_premiere",
+        "sp_majeur_renouvellement",
+        "sp_majeur_perte",
+        "sp_majeur_vol",
+        "sp_mineur_premiere",
+        "sp_mineur_renouvellement",
+        "sp_mineur_perte",
+        "sp_mineur_vol",
+        "ants_dematerialisation"
+      ]
+    },
+    {
+      "id": "birth_certificate_abroad",
+      "category": "civil_status",
+      "title": {
+        "fr": "Acte de naissance de moins de 3 mois (si demandé)",
+        "en": "Birth certificate less than 3 months old (if required)"
+      },
+      "details": {
+        "fr": "Copie intégrale ou extrait avec filiation, délivré par le Service central d'état civil de Nantes (Scec) ou par le consulat de France. Il n'est pas demandé si votre lieu de naissance figure sur la liste de dématérialisation de l'ANTS (la recherche propose « Étranger »).",
+        "en": "Full copy or extract with parents' names, issued by the Central Civil Status Office in Nantes (Scec) or by the French consulate. It is not required if your place of birth is on the ANTS digitisation list (the search offers \"Étranger\", abroad)."
+      },
+      "tip": {
+        "fr": "Service-public indique que l'acte délivré par le Scec de Nantes peut aussi prouver la nationalité française.",
+        "en": "Service-public says a certificate issued by the Scec in Nantes can also prove French nationality."
+      },
+      "guides": [
+        "civil_status_france"
+      ],
+      "condition": {
+        "all": [
+          {
+            "question": "passport_country",
+            "equals": "french"
+          },
+          {
+            "question": "id_card_status",
+            "equals": "old_or_none"
+          },
+          {
+            "question": "birth_place",
+            "equals": "abroad"
+          }
+        ]
+      },
+      "sources": [
+        "sp_majeur_premiere",
+        "sp_majeur_renouvellement",
+        "sp_majeur_perte",
+        "sp_majeur_vol",
+        "sp_mineur_premiere",
+        "sp_mineur_renouvellement",
+        "sp_mineur_perte",
+        "sp_mineur_vol",
+        "sp_nationalite",
+        "ants_dematerialisation"
+      ]
+    },
+    {
+      "id": "nationality_proof",
+      "category": "civil_status",
+      "title": {
+        "fr": "Preuve de la nationalité française (si demandée)",
+        "en": "Proof of French nationality (if required)"
+      },
+      "details": {
+        "fr": "Demandée seulement si la nationalité ne ressort pas de l'acte de naissance. D'après l'ANTS, ce n'est pas le cas si l'acte porte une mention de nationalité (décret de naturalisation, déclaration). Sinon, service-public cite : la déclaration d'acquisition enregistrée, l'ampliation du décret de naturalisation (ou une attestation de ce décret), ou un certificat de nationalité française.",
+        "en": "Only required if nationality does not appear on the birth certificate. According to ANTS, it is not needed if the certificate has a nationality note (naturalisation decree, declaration). Otherwise service-public lists: the registered declaration of acquisition, the copy of the naturalisation decree (or a certificate of this decree), or a certificate of French nationality."
+      },
+      "example": {
+        "fr": "Exemple : vous êtes devenu français par décret ; gardez l'ampliation du décret de naturalisation.",
+        "en": "Example: you became French by decree; keep the copy of the naturalisation decree."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "passport_country",
+            "equals": "french"
+          },
+          {
+            "question": "id_card_status",
+            "equals": "old_or_none"
+          }
+        ]
+      },
+      "sources": [
+        "sp_nationalite",
+        "ants_premiere",
+        "sp_majeur_premiere",
+        "sp_majeur_renouvellement",
+        "sp_majeur_perte",
+        "sp_majeur_vol",
+        "sp_mineur_premiere",
+        "sp_mineur_renouvellement",
+        "sp_mineur_perte",
+        "sp_mineur_vol"
+      ]
+    },
+    {
+      "id": "loss_declaration",
+      "category": "other",
+      "title": {
+        "fr": "Déclaration de perte",
+        "en": "Loss declaration"
+      },
+      "details": {
+        "fr": "À remplir sur place à la mairie, ou avec le formulaire cerfa n°14011 rempli, signé et imprimé.",
+        "en": "To fill in at the town hall, or with form cerfa no. 14011 filled in, signed and printed."
+      },
+      "guides": [
+        "loss_theft_report"
+      ],
+      "condition": {
+        "all": [
+          {
+            "question": "passport_country",
+            "equals": "french"
+          },
+          {
+            "question": "request_reason",
+            "equals": "lost"
+          }
+        ]
+      },
+      "sources": [
+        "sp_majeur_perte",
+        "sp_mineur_perte",
+        "ants_renouvellement"
+      ]
+    },
+    {
+      "id": "theft_declaration",
+      "category": "other",
+      "title": {
+        "fr": "Déclaration de vol",
+        "en": "Theft report"
+      },
+      "details": {
+        "fr": "Le récépissé remis par le commissariat ou la gendarmerie.",
+        "en": "The receipt given by the police station or gendarmerie."
+      },
+      "guides": [
+        "loss_theft_report"
+      ],
+      "condition": {
+        "all": [
+          {
+            "question": "passport_country",
+            "equals": "french"
+          },
+          {
+            "question": "request_reason",
+            "equals": "stolen"
+          }
+        ]
+      },
+      "sources": [
+        "sp_majeur_vol",
+        "sp_mineur_vol",
+        "ants_renouvellement"
+      ]
+    },
+    {
+      "id": "stamp_adult",
+      "category": "tax",
+      "title": {
+        "fr": "Timbre fiscal de 86 €",
+        "en": "86 € tax stamp"
+      },
+      "details": {
+        "fr": "Pour un majeur : 86 € en métropole et dans les départements d'outre-mer, sauf en Guyane (43 €, ou 44,50 € si la photo est prise au guichet). À Mayotte, 89 € si la photo est prise au guichet.",
+        "en": "For an adult: 86 € in mainland France and overseas departments, except French Guiana (43 €, or 44.50 € if the photo is taken at the counter). In Mayotte, 89 € if the photo is taken at the counter."
+      },
+      "tip": {
+        "fr": "Le timbre est électronique. Vous pouvez l'acheter à la fin de la pré-demande, sur timbres.impots.gouv.fr ou dans un bureau de tabac agréé.",
+        "en": "The stamp is electronic. You can buy it at the end of the pre-application, on timbres.impots.gouv.fr or in an approved tobacco shop."
+      },
+      "guides": [
+        "fiscal_stamp"
+      ],
+      "condition": {
+        "all": [
+          {
+            "question": "passport_country",
+            "equals": "french"
+          },
+          {
+            "question": "applicant_age",
+            "equals": "adult"
+          }
+        ]
+      },
+      "sources": [
+        "sp_prix",
+        "sp_timbre",
+        "sp_majeur_premiere",
+        "sp_majeur_renouvellement"
+      ]
+    },
+    {
+      "id": "stamp_15_17",
+      "category": "tax",
+      "title": {
+        "fr": "Timbre fiscal de 42 €",
+        "en": "42 € tax stamp"
+      },
+      "details": {
+        "fr": "Pour un mineur de 15 à 17 ans : 42 € (21 € en Guyane, 22,50 € si la photo est prise au guichet). À Mayotte, 45 € si la photo est prise au guichet.",
+        "en": "For a minor aged 15 to 17: 42 € (21 € in French Guiana, 22.50 € if the photo is taken at the counter). In Mayotte, 45 € if the photo is taken at the counter."
+      },
+      "tip": {
+        "fr": "D'après l'ANTS, l'enfant doit avoir entre 15 et 17 ans le jour du dépôt en mairie.",
+        "en": "According to ANTS, the child must be 15 to 17 on the day of the town hall appointment."
+      },
+      "guides": [
+        "fiscal_stamp"
+      ],
+      "condition": {
+        "all": [
+          {
+            "question": "passport_country",
+            "equals": "french"
+          },
+          {
+            "question": "applicant_age",
+            "equals": "minor_15_17"
+          }
+        ]
+      },
+      "sources": [
+        "sp_prix",
+        "sp_timbre",
+        "sp_mineur_premiere",
+        "ants_renouvellement"
+      ]
+    },
+    {
+      "id": "stamp_under_15",
+      "category": "tax",
+      "title": {
+        "fr": "Timbre fiscal de 17 €",
+        "en": "17 € tax stamp"
+      },
+      "details": {
+        "fr": "Pour un mineur de moins de 15 ans : 17 € (8,50 € en Guyane, 10 € si la photo est prise au guichet). À Mayotte, 20 € si la photo est prise au guichet.",
+        "en": "For a minor under 15: 17 € (8.50 € in French Guiana, 10 € if the photo is taken at the counter). In Mayotte, 20 € if the photo is taken at the counter."
+      },
+      "guides": [
+        "fiscal_stamp"
+      ],
+      "condition": {
+        "all": [
+          {
+            "question": "passport_country",
+            "equals": "french"
+          },
+          {
+            "question": "applicant_age",
+            "equals": "minor_under_15"
+          }
+        ]
+      },
+      "sources": [
+        "sp_prix",
+        "sp_timbre",
+        "sp_mineur_premiere",
+        "ants_renouvellement"
+      ]
+    },
+    {
+      "id": "guardian_id",
+      "category": "identity",
+      "title": {
+        "fr": "Pièce d'identité du parent ou du tuteur",
+        "en": "ID of the parent or guardian"
+      },
+      "details": {
+        "fr": "La pièce d'identité du représentant légal qui dépose la demande. L'ANTS demande l'original et une photocopie.",
+        "en": "The ID of the legal representative applying. ANTS asks for the original and a photocopy."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "passport_country",
+            "equals": "french"
+          },
+          {
+            "question": "applicant_age",
+            "in": [
+              "minor_15_17",
+              "minor_under_15"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_mineur_premiere",
+        "sp_mineur_renouvellement",
+        "sp_mineur_perte",
+        "sp_mineur_vol",
+        "ants_premiere"
+      ]
+    },
+    {
+      "id": "alternate_custody",
+      "category": "family",
+      "title": {
+        "fr": "Preuve de la résidence alternée (facultatif)",
+        "en": "Proof of shared residence (optional)"
+      },
+      "details": {
+        "fr": "Pour faire inscrire les 2 adresses de l'enfant : la décision du juge, la convention de divorce ou la convention parentale (copie), et un justificatif de domicile pour chaque parent.",
+        "en": "To have both of the child's addresses printed: the judge's decision, the divorce agreement or parental agreement (copy), and a proof of address for each parent."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "passport_country",
+            "equals": "french"
+          },
+          {
+            "question": "applicant_age",
+            "in": [
+              "minor_15_17",
+              "minor_under_15"
+            ]
+          },
+          {
+            "question": "family_situation",
+            "equals": "alternate"
+          }
+        ]
+      },
+      "sources": [
+        "sp_mineur_premiere",
+        "sp_mineur_renouvellement",
+        "sp_mineur_vol"
+      ]
+    },
+    {
+      "id": "exclusive_authority",
+      "category": "family",
+      "title": {
+        "fr": "Document sur l'autorité parentale exclusive",
+        "en": "Document showing sole parental authority"
+      },
+      "details": {
+        "fr": "Tout document qui montre que le parent qui fait la demande exerce seul l'autorité parentale.",
+        "en": "Any document showing that the parent applying has sole parental authority."
+      },
+      "example": {
+        "fr": "Exemple : un jugement du juge aux affaires familiales.",
+        "en": "Example: a family court judgment."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "passport_country",
+            "equals": "french"
+          },
+          {
+            "question": "applicant_age",
+            "in": [
+              "minor_15_17",
+              "minor_under_15"
+            ]
+          },
+          {
+            "question": "family_situation",
+            "equals": "exclusive"
+          }
+        ]
+      },
+      "sources": [
+        "sp_mineur_premiere",
+        "sp_mineur_renouvellement",
+        "sp_mineur_vol"
+      ]
+    },
+    {
+      "id": "delegated_authority",
+      "category": "family",
+      "title": {
+        "fr": "Justificatif de délégation de l'autorité parentale",
+        "en": "Proof of delegated parental authority"
+      },
+      "details": {
+        "fr": "Par exemple un jugement du juge aux affaires familiales. Si c'est l'aide sociale à l'enfance (Ase), il faut aussi un document sur la qualité professionnelle de la personne (carte professionnelle, attestation du conseil départemental).",
+        "en": "For example a family court judgment. If it is child welfare services (ASE), you also need a document about the person's job (professional card, certificate from the departmental council)."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "passport_country",
+            "equals": "french"
+          },
+          {
+            "question": "applicant_age",
+            "in": [
+              "minor_15_17",
+              "minor_under_15"
+            ]
+          },
+          {
+            "question": "family_situation",
+            "equals": "other_guardian"
+          }
+        ]
+      },
+      "sources": [
+        "sp_mineur_premiere",
+        "sp_mineur_renouvellement",
+        "sp_mineur_vol"
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "id": "when_to_renew",
+      "phase": "before",
+      "title": {
+        "fr": "Vérifier quand demander le renouvellement",
+        "en": "Check when to apply for renewal"
+      },
+      "body": {
+        "fr": "Le renouvellement peut être demandé dans l'année qui précède la date d'expiration du passeport. Pour un passeport abîmé, la démarche et le prix sont ceux d'un renouvellement. En cas de changement d'état civil (par exemple de prénom), la demande de modification se fait dans les 3 mois après la mise à jour de l'acte de naissance.",
+        "en": "You can apply for renewal in the year before the passport's expiry date. For a damaged passport, the process and price are those of a renewal. If your civil status changes (for example your first name), the change request must be made within 3 months of the birth certificate update."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "passport_country",
+            "equals": "french"
+          },
+          {
+            "question": "request_reason",
+            "equals": "renewal"
+          }
+        ]
+      },
+      "sources": [
+        "sp_majeur_renouvellement",
+        "sp_mineur_renouvellement",
+        "sp_abime"
+      ]
+    },
+    {
+      "id": "report_theft",
+      "phase": "before",
+      "title": {
+        "fr": "Déclarer le vol à la police ou à la gendarmerie",
+        "en": "Report the theft to the police or gendarmerie"
+      },
+      "body": {
+        "fr": "Allez au commissariat ou à la gendarmerie pour déclarer le vol. Un récépissé vous est remis. Pour le passeport d'un mineur, service-public indique que la plainte peut aussi se faire en ligne.",
+        "en": "Go to the police station or gendarmerie to report the theft. You will get a receipt. For a minor's passport, service-public says the complaint can also be made online."
+      },
+      "link": {
+        "title": {
+          "fr": "Trouver un commissariat ou une gendarmerie",
+          "en": "Find a police station or gendarmerie"
+        },
+        "url": "https://www.masecurite.interieur.gouv.fr/fr/trouver-un-commissariat-une-gendarmerie"
+      },
+      "guides": [
+        "loss_theft_report"
+      ],
+      "condition": {
+        "all": [
+          {
+            "question": "passport_country",
+            "equals": "french"
+          },
+          {
+            "question": "request_reason",
+            "equals": "stolen"
+          }
+        ]
+      },
+      "sources": [
+        "sp_majeur_vol",
+        "sp_mineur_vol"
+      ]
+    },
+    {
+      "id": "report_loss_later",
+      "phase": "before",
+      "title": {
+        "fr": "Si vous ne refaites pas le passeport tout de suite",
+        "en": "If you do not replace the passport right away"
+      },
+      "body": {
+        "fr": "La déclaration de perte se fait en même temps que le dépôt du dossier en mairie. Si vous ne demandez pas tout de suite un nouveau passeport, service-public demande de déclarer la perte à la police ou à la gendarmerie.",
+        "en": "The loss declaration is made at the same time as the application at the town hall. If you do not apply for a new passport right away, service-public asks you to report the loss to the police or gendarmerie."
+      },
+      "guides": [
+        "loss_theft_report"
+      ],
+      "condition": {
+        "all": [
+          {
+            "question": "passport_country",
+            "equals": "french"
+          },
+          {
+            "question": "request_reason",
+            "equals": "lost"
+          }
+        ]
+      },
+      "sources": [
+        "sp_majeur_perte",
+        "sp_mineur_perte"
+      ]
+    },
+    {
+      "id": "predemande_first",
+      "phase": "before",
+      "title": {
+        "fr": "Faire la pré-demande en ligne (facultatif)",
+        "en": "Make the online pre-application (optional)"
+      },
+      "body": {
+        "fr": "La pré-demande n'est pas obligatoire mais fait gagner du temps au guichet. Elle se fait avec un compte ANTS. Notez le numéro ou le QR code. D'après l'ANTS, la pré-demande est valable 12 mois : le rendez-vous en mairie doit avoir lieu dans ce délai.",
+        "en": "The pre-application is optional but saves time at the counter. You need an ANTS account. Write down the number or QR code. According to ANTS, the pre-application is valid for 12 months: the town hall appointment must take place within that time."
+      },
+      "link": {
+        "title": {
+          "fr": "Pré-demande pour un 1er passeport",
+          "en": "Pre-application for a first passport"
+        },
+        "url": "https://passeport.ants.gouv.fr/demarches-en-ligne/faire-une-premiere-demande-de-passeport"
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "passport_country",
+            "equals": "french"
+          },
+          {
+            "question": "request_reason",
+            "equals": "first"
+          }
+        ]
+      },
+      "sources": [
+        "sp_majeur_premiere",
+        "sp_mineur_premiere",
+        "ants_premiere",
+        "sp_formulaire"
+      ]
+    },
+    {
+      "id": "predemande_renewal",
+      "phase": "before",
+      "title": {
+        "fr": "Faire la pré-demande en ligne (facultatif)",
+        "en": "Make the online pre-application (optional)"
+      },
+      "body": {
+        "fr": "La pré-demande n'est pas obligatoire mais fait gagner du temps au guichet. Elle se fait avec un compte ANTS, aussi en cas de perte ou de vol. Notez le numéro ou le QR code. D'après l'ANTS, la pré-demande est valable 12 mois.",
+        "en": "The pre-application is optional but saves time at the counter. You need an ANTS account; this also applies for a loss or theft. Write down the number or QR code. According to ANTS, the pre-application is valid for 12 months."
+      },
+      "link": {
+        "title": {
+          "fr": "Pré-demande pour un renouvellement",
+          "en": "Pre-application for a renewal"
+        },
+        "url": "https://passeport.ants.gouv.fr/demarches-en-ligne/effectuer-le-renouvellement-de-votre-passeport"
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "passport_country",
+            "equals": "french"
+          },
+          {
+            "question": "request_reason",
+            "in": [
+              "renewal",
+              "lost",
+              "stolen"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_majeur_renouvellement",
+        "sp_majeur_perte",
+        "sp_majeur_vol",
+        "sp_mineur_renouvellement",
+        "sp_mineur_perte",
+        "sp_mineur_vol",
+        "ants_renouvellement"
+      ]
+    },
+    {
+      "id": "buy_stamp",
+      "phase": "before",
+      "title": {
+        "fr": "Acheter le timbre fiscal électronique",
+        "en": "Buy the electronic tax stamp"
+      },
+      "body": {
+        "fr": "Avec une pré-demande, vous pouvez payer le timbre à la fin, par carte bancaire. Sans pré-demande, achetez-le sur internet avant le rendez-vous, ou dans un bureau de tabac agréé. Le timbre est valable 1 an. S'il ne sert pas, son remboursement peut être demandé en ligne dans les 18 mois.",
+        "en": "With a pre-application, you can pay for the stamp at the end, by bank card. Without one, buy it online before the appointment, or in an approved tobacco shop. The stamp is valid for 1 year. If you do not use it, you can request a refund online within 18 months."
+      },
+      "link": {
+        "title": {
+          "fr": "Acheter le timbre en ligne",
+          "en": "Buy the stamp online"
+        },
+        "url": "https://timbres.impots.gouv.fr"
+      },
+      "guides": [
+        "fiscal_stamp"
+      ],
+      "condition": {
+        "question": "passport_country",
+        "equals": "french"
+      },
+      "sources": [
+        "sp_timbre",
+        "sp_prix",
+        "ants_premiere",
+        "ants_renouvellement"
+      ]
+    },
+    {
+      "id": "book_appointment",
+      "phase": "before",
+      "title": {
+        "fr": "Choisir une mairie équipée et prendre rendez-vous",
+        "en": "Choose an equipped town hall and book an appointment"
+      },
+      "body": {
+        "fr": "Vous pouvez aller dans n'importe quelle mairie équipée d'une station d'enregistrement, pas forcément celle de votre domicile. Beaucoup de mairies reçoivent seulement sur rendez-vous. L'ANTS précise qu'il faudra retirer le passeport dans la même mairie.",
+        "en": "You can go to any town hall equipped with a registration station, not necessarily the one where you live. Many town halls only see people by appointment. ANTS says you will have to collect the passport at the same town hall."
+      },
+      "link": {
+        "title": {
+          "fr": "Chercher un rendez-vous",
+          "en": "Find an appointment"
+        },
+        "url": "https://rendezvouspasseport.ants.gouv.fr/"
+      },
+      "condition": {
+        "question": "passport_country",
+        "equals": "french"
+      },
+      "sources": [
+        "sp_majeur_premiere",
+        "sp_majeur_renouvellement",
+        "sp_majeur_perte",
+        "sp_majeur_vol",
+        "sp_mineur_premiere",
+        "sp_mineur_renouvellement",
+        "sp_mineur_perte",
+        "sp_mineur_vol",
+        "ants_premiere"
+      ]
+    },
+    {
+      "id": "find_town_hall",
+      "phase": "before",
+      "title": {
+        "fr": "Trouver les mairies qui délivrent les passeports",
+        "en": "Find town halls that issue passports"
+      },
+      "body": {
+        "fr": "La liste des mairies équipées est consultable en ligne sur le site de l'ANTS.",
+        "en": "The list of equipped town halls is available online on the ANTS website."
+      },
+      "link": {
+        "title": {
+          "fr": "Trouver une mairie",
+          "en": "Find a town hall"
+        },
+        "url": "https://passeport.ants.gouv.fr/services/geolocaliser-une-mairie-habilitee"
+      },
+      "condition": {
+        "question": "passport_country",
+        "equals": "french"
+      },
+      "sources": [
+        "sp_majeur_premiere",
+        "sp_majeur_renouvellement",
+        "sp_majeur_perte",
+        "sp_majeur_vol",
+        "sp_mineur_premiere",
+        "sp_mineur_renouvellement",
+        "sp_mineur_perte",
+        "sp_mineur_vol"
+      ]
+    },
+    {
+      "id": "usage_name",
+      "phase": "before",
+      "title": {
+        "fr": "Nom d'usage : prévoir une pièce en plus",
+        "en": "Usual name: plan an extra document"
+      },
+      "body": {
+        "fr": "Pour faire inscrire un nom d'usage qui n'est pas encore sur un titre d'identité (nom de l'époux ou de l'épouse, nom de l'autre parent), d'autres documents sont demandés.",
+        "en": "To have a usual name added that is not yet on an ID document (spouse's name, other parent's name), other documents are required."
+      },
+      "condition": {
+        "question": "passport_country",
+        "equals": "french"
+      },
+      "sources": [
+        "sp_majeur_premiere",
+        "sp_majeur_renouvellement",
+        "sp_mineur_premiere"
+      ]
+    },
+    {
+      "id": "go_adult",
+      "phase": "submit",
+      "title": {
+        "fr": "Aller au rendez-vous avec les originaux",
+        "en": "Go to the appointment with the originals"
+      },
+      "body": {
+        "fr": "Votre présence est obligatoire : vos empreintes sont prises sur place. Apportez les documents originaux. Un récépissé de dépôt vous est remis.",
+        "en": "You must be there in person: your fingerprints are taken on site. Bring the original documents. You will get a filing receipt."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "passport_country",
+            "equals": "french"
+          },
+          {
+            "question": "applicant_age",
+            "equals": "adult"
+          }
+        ]
+      },
+      "sources": [
+        "sp_majeur_premiere",
+        "sp_majeur_renouvellement",
+        "sp_majeur_perte",
+        "sp_majeur_vol",
+        "ants_premiere"
+      ]
+    },
+    {
+      "id": "go_minor",
+      "phase": "submit",
+      "title": {
+        "fr": "Aller au rendez-vous avec l'enfant",
+        "en": "Go to the appointment with the child"
+      },
+      "body": {
+        "fr": "L'enfant et son parent ou tuteur doivent venir ensemble. Le représentant légal doit exercer l'autorité parentale et présenter sa propre pièce d'identité. Apportez les documents originaux.",
+        "en": "The child and their parent or guardian must come together. The legal representative must have parental authority and show their own ID. Bring the original documents."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "passport_country",
+            "equals": "french"
+          },
+          {
+            "question": "applicant_age",
+            "in": [
+              "minor_15_17",
+              "minor_under_15"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_mineur_premiere",
+        "sp_mineur_renouvellement",
+        "sp_mineur_perte",
+        "sp_mineur_vol"
+      ]
+    },
+    {
+      "id": "track",
+      "phase": "after",
+      "title": {
+        "fr": "Suivre la fabrication du passeport",
+        "en": "Track the passport production"
+      },
+      "body": {
+        "fr": "Le passeport n'est pas fabriqué sur place. Le délai dépend du lieu et de la période : service-public parle de plusieurs semaines, plus à l'approche des vacances d'été. Si vous avez donné un numéro de portable, un SMS vous prévient quand le passeport est prêt.",
+        "en": "The passport is not made on site. The time depends on the place and period: service-public mentions several weeks, longer before the summer holidays. If you gave a mobile number, a text message tells you when the passport is ready."
+      },
+      "link": {
+        "title": {
+          "fr": "Suivre ma demande",
+          "en": "Track my application"
+        },
+        "url": "https://moncompte.ants.gouv.fr/suivi_cni_passeport"
+      },
+      "condition": {
+        "question": "passport_country",
+        "equals": "french"
+      },
+      "sources": [
+        "sp_suivi",
+        "sp_majeur_perte",
+        "sp_majeur_premiere"
+      ]
+    },
+    {
+      "id": "collect_adult",
+      "phase": "after",
+      "title": {
+        "fr": "Retirer le passeport dans les 3 mois",
+        "en": "Collect the passport within 3 months"
+      },
+      "body": {
+        "fr": "Vous devez le retirer vous-même, à la mairie du dépôt, et le signer sur place. Après 3 mois, le passeport est détruit. Le passeport d'un majeur est valable 10 ans. En cas de renouvellement, l'ancien passeport doit être rendu.",
+        "en": "You must collect it yourself, at the town hall where you applied, and sign it there. After 3 months, the passport is destroyed. An adult's passport is valid for 10 years. For a renewal, the old passport must be handed back."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "passport_country",
+            "equals": "french"
+          },
+          {
+            "question": "applicant_age",
+            "equals": "adult"
+          }
+        ]
+      },
+      "sources": [
+        "sp_majeur_premiere",
+        "sp_majeur_renouvellement",
+        "sp_majeur_perte",
+        "sp_majeur_vol",
+        "ants_premiere"
+      ]
+    },
+    {
+      "id": "collect_minor",
+      "phase": "after",
+      "title": {
+        "fr": "Retirer le passeport de l'enfant dans les 3 mois",
+        "en": "Collect the child's passport within 3 months"
+      },
+      "body": {
+        "fr": "Avant 12 ans, le parent ou tuteur vient seul et signe. À partir de 12 ans, il vient avec l'enfant. À partir de 13 ans, l'enfant peut signer si son représentant légal est d'accord. Après 3 mois, le passeport est détruit. Le passeport d'un mineur est valable 5 ans. Service-public précise, pour un enfant de 12 ans ou plus, qu'il reste utilisable s'il devient majeur avant la fin.",
+        "en": "Under 12, the parent or guardian comes alone and signs. From 12, they come with the child. From 13, the child can sign if their legal representative agrees. After 3 months, the passport is destroyed. A minor's passport is valid for 5 years. Service-public says that, for a child aged 12 or over, it can still be used if they turn 18 before it expires."
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "passport_country",
+            "equals": "french"
+          },
+          {
+            "question": "applicant_age",
+            "in": [
+              "minor_15_17",
+              "minor_under_15"
+            ]
+          }
+        ]
+      },
+      "sources": [
+        "sp_mineur_premiere",
+        "sp_mineur_renouvellement",
+        "sp_mineur_perte",
+        "sp_mineur_vol"
+      ]
+    }
+  ],
+  "deadlines": [
+    {
+      "id": "renewal_window_start",
+      "relativeTo": "current_passport_expiry",
+      "offsetDays": -365,
+      "title": {
+        "fr": "Début de la période où le renouvellement peut être demandé",
+        "en": "Start of the period when renewal can be requested"
+      },
+      "condition": {
+        "all": [
+          {
+            "question": "passport_country",
+            "equals": "french"
+          },
+          {
+            "question": "request_reason",
+            "equals": "renewal"
+          }
+        ]
+      },
+      "sources": [
+        "sp_majeur_renouvellement",
+        "sp_mineur_renouvellement"
+      ]
+    }
+  ],
+  "outcomes": [
+    {
+      "id": "foreign_passport_expired",
+      "kind": "redirect",
+      "condition": {
+        "all": [
+          {
+            "question": "passport_country",
+            "equals": "other"
+          },
+          {
+            "question": "foreign_situation",
+            "equals": "expired"
+          }
+        ]
+      },
+      "title": {
+        "fr": "Ce passeport se demande auprès de votre pays",
+        "en": "This passport is requested from your country"
+      },
+      "body": {
+        "fr": "La France ne délivre pas les passeports des autres pays. Le renouvellement se fait auprès de l'ambassade ou du consulat de votre pays en France. Cette application ne décrit pas les règles des autres pays.",
+        "en": "France does not issue other countries' passports. Renewal is done at your country's embassy or consulate in France. This app does not describe other countries' rules."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Trouver l'ambassade ou le consulat de votre pays en France",
+            "en": "Find your country's embassy or consulate in France"
+          },
+          "body": {
+            "fr": "Le ministère des Affaires étrangères renvoie vers l'annuaire des représentations étrangères en France. Les pièces, le prix et le délai sont fixés par votre pays : consultez le site de votre consulat.",
+            "en": "The Ministry for Foreign Affairs points to the directory of foreign representations in France. The documents, price and processing time are set by your country: check your consulate's website."
+          },
+          "link": {
+            "title": {
+              "fr": "Ouvrir l'annuaire",
+              "en": "Open the directory"
+            },
+            "url": "https://www.diplomatie.gouv.fr/fr/services/j-ai-une-question/annuaire-et-contacts/representations-etrangeres"
+          }
+        },
+        {
+          "title": {
+            "fr": "Pour votre titre de séjour",
+            "en": "For your residence permit"
+          },
+          "body": {
+            "fr": "Pour un renouvellement de titre de séjour, service-public demande les pages du passeport sur l'état civil, les dates de validité, les cachets d'entrée et les visas, ou à défaut une attestation consulaire avec photo (exemple : fiche « vie privée et familiale »).",
+            "en": "To renew a residence permit, service-public asks for the passport pages with your personal details, validity dates, entry stamps and visas, or otherwise a consular certificate with a photo (example: \"vie privée et familiale\" page)."
+          },
+          "link": {
+            "title": {
+              "fr": "Voir la fiche service-public",
+              "en": "See the service-public page"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2209"
+          }
+        }
+      ],
+      "contacts": [
+        "prefecture_directory",
+        "france_services"
+      ],
+      "letters": [],
+      "sources": [
+        "dipl_faq",
+        "dipl_annuaire",
+        "sp_vpf",
+        "sp_majeur_premiere"
+      ]
+    },
+    {
+      "id": "foreign_passport_lost",
+      "kind": "redirect",
+      "condition": {
+        "all": [
+          {
+            "question": "passport_country",
+            "equals": "other"
+          },
+          {
+            "question": "foreign_situation",
+            "equals": "lost_stolen"
+          }
+        ]
+      },
+      "title": {
+        "fr": "Contactez le consulat de votre pays",
+        "en": "Contact your country's consulate"
+      },
+      "body": {
+        "fr": "La France ne délivre pas les passeports des autres pays. La préfecture des Bouches-du-Rhône parle d'une déclaration de perte ou de vol du passeport faite auprès du consulat de votre pays d'origine, et d'une attestation de demande de renouvellement du passeport.",
+        "en": "France does not issue other countries' passports. The Bouches-du-Rhône prefecture mentions a passport loss or theft report made at your home country's consulate, and a certificate showing you applied to renew the passport."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Trouver l'ambassade ou le consulat de votre pays en France",
+            "en": "Find your country's embassy or consulate in France"
+          },
+          "body": {
+            "fr": "Le ministère des Affaires étrangères renvoie vers l'annuaire des représentations étrangères en France. Les pièces, le prix et le délai sont fixés par votre pays : consultez le site de votre consulat.",
+            "en": "The Ministry for Foreign Affairs points to the directory of foreign representations in France. The documents, price and processing time are set by your country: check your consulate's website."
+          },
+          "link": {
+            "title": {
+              "fr": "Ouvrir l'annuaire",
+              "en": "Open the directory"
+            },
+            "url": "https://www.diplomatie.gouv.fr/fr/services/j-ai-une-question/annuaire-et-contacts/representations-etrangeres"
+          }
+        },
+        {
+          "title": {
+            "fr": "Si vous avez aussi perdu votre titre de séjour",
+            "en": "If you also lost your residence permit"
+          },
+          "body": {
+            "fr": "Pour un duplicata de titre de séjour, la préfecture des Bouches-du-Rhône demande ces deux documents du consulat. Gardez-les bien.",
+            "en": "For a duplicate residence permit, the Bouches-du-Rhône prefecture asks for these two documents from the consulate. Keep them safe."
+          }
+        },
+        {
+          "title": {
+            "fr": "Pour votre titre de séjour",
+            "en": "For your residence permit"
+          },
+          "body": {
+            "fr": "Pour un renouvellement de titre de séjour, service-public demande les pages du passeport sur l'état civil, les dates de validité, les cachets d'entrée et les visas, ou à défaut une attestation consulaire avec photo (exemple : fiche « vie privée et familiale »).",
+            "en": "To renew a residence permit, service-public asks for the passport pages with your personal details, validity dates, entry stamps and visas, or otherwise a consular certificate with a photo (example: \"vie privée et familiale\" page)."
+          },
+          "link": {
+            "title": {
+              "fr": "Voir la fiche service-public",
+              "en": "See the service-public page"
+            },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2209"
+          }
+        }
+      ],
+      "contacts": [
+        "prefecture_directory",
+        "france_services"
+      ],
+      "letters": [],
+      "sources": [
+        "pref_bdr_pieces",
+        "dipl_faq",
+        "dipl_annuaire",
+        "sp_vpf"
+      ]
+    },
+    {
+      "id": "protection_travel_document",
+      "kind": "redirect",
+      "condition": {
+        "all": [
+          {
+            "question": "passport_country",
+            "equals": "other"
+          },
+          {
+            "question": "foreign_situation",
+            "equals": "protection"
+          }
+        ]
+      },
+      "title": {
+        "fr": "Un document de voyage français existe pour vous",
+        "en": "A French travel document exists for you"
+      },
+      "body": {
+        "fr": "D'après service-public, un réfugié peut demander un titre de voyage pour réfugié, un protégé subsidiaire un titre d'identité et de voyage, et un apatride un titre de voyage pour apatride. Ces documents permettent de sortir de France puis d'y revenir. Ils indiquent les pays interdits, en général le pays d'origine.",
+        "en": "According to service-public, a refugee can apply for a refugee travel document, a person under subsidiary protection for an identity and travel document, and a stateless person for a stateless travel document. These documents let you leave France and come back. They show the countries you may not visit, usually your country of origin."
+      },
+      "actions": [
+        {
+          "title": {
+            "fr": "Faire la demande sur l'ANEF",
+            "en": "Apply on ANEF"
+          },
+          "body": {
+            "fr": "La demande se fait en ligne, dans la rubrique « Je demande un document de voyage ».",
+            "en": "You apply online, in the section \"Je demande un document de voyage\" (I request a travel document)."
+          },
+          "link": {
+            "title": {
+              "fr": "Ouvrir le site de l'ANEF",
+              "en": "Open the ANEF website"
+            },
+            "url": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/"
+          }
+        }
+      ],
+      "contacts": [
+        "anef_contact",
+        "france_services"
+      ],
+      "letters": [],
+      "sources": [
+        "sp_refugie",
+        "sp_protection_subsidiaire",
+        "sp_apatride"
+      ]
+    },
+    {
+      "id": "renewal_too_early",
+      "kind": "warning",
+      "condition": {
+        "all": [
+          {
+            "question": "passport_country",
+            "equals": "french"
+          },
+          {
+            "question": "request_reason",
+            "equals": "renewal"
+          },
+          {
+            "question": "current_passport_expiry",
+            "daysFromToday": {
+              "min": 366
+            }
+          }
+        ]
+      },
+      "title": {
+        "fr": "Votre passeport expire dans plus d'un an",
+        "en": "Your passport expires in more than a year"
+      },
+      "body": {
+        "fr": "D'après service-public, le renouvellement peut être demandé dans l'année qui précède la date d'expiration. Si vous renouvelez pour une autre raison (passeport abîmé, changement de nom d'usage ou d'état civil), la démarche reste possible.",
+        "en": "According to service-public, renewal can be requested in the year before the expiry date. If you are renewing for another reason (damaged passport, change of usual name or civil status), you can still apply."
+      },
+      "sources": [
+        "sp_majeur_renouvellement",
+        "sp_mineur_renouvellement",
+        "sp_abime"
+      ]
+    }
+  ],
+  "reviewNotes": [
+    "Périmètre : seules les demandes faites en France (mairie) sont couvertes. Les demandes à l'étranger (consulat de France, renouvellement à distance en Australie, au Canada, en Espagne et au Portugal, envoi par courrier, timbre de 96 €, 52 € ou 27 €) ne sont pas reprises.",
+    "Montants du timbre : F34752 « Vérifié le 05 août 2026 » (86 €, 42 €, 17 €, cas Guyane et Mayotte). F14929, F21091, F21246 et F21247 (« Vérifié le 08 avril 2026 » et « 22 mai 2026 ») donnent les mêmes montants. Aucune source consultée n'annonce de changement pour 2027 ; à revérifier au 1er janvier 2027 (loi de finances).",
+    "F21244 (passeport perdu d'un mineur) est « Vérifié le 29 septembre 2025 » et F14932 (passeport abîmé) « Vérifié le 29 avril 2025 » : plus anciennes que les autres fiches, mais cohérentes avec elles.",
+    "Pages ANTS (passeport.ants.gouv.fr) : aucune date de mise à jour visible ; lues via redirection JavaScript. Elles affichent un timbre de 86 € pour un majeur. Pré-demande valable 12 mois et retrait obligatoire dans la même mairie : repris de l'ANTS seulement.",
+    "Photo : service-public (F10619) et l'ANTS parlent d'une photo d'identité papier prise par un photographe habilité ou une cabine agréée ; aucune source consultée ne parle d'e-photo (code numérique) pour le passeport. La fiche « ephoto » de help.json (e-photo pour l'ANEF) n'est donc pas liée, pour éviter la confusion. Une fiche « photo papier » pourrait être utile.",
+    "Seuil « périmé depuis plus de 5 ans » codé comme daysFromToday max -1827 sur current_passport_expiry (approximation de 5 ans, années bissextiles non gérées au jour près).",
+    "Carte d'identité périmée : les fiches distinguent « moins de 5 ans » et « plus de 5 ans ». Regroupé en une seule question (valide ou périmée depuis moins de 5 ans / sinon), ce qui correspond à toutes les fiches France.",
+    "Acte de naissance pour une personne née à l'étranger : service-public dit de vérifier si l'état civil du lieu de naissance est dématérialisé ; l'outil ANTS propose « Étranger » comme pays de naissance, mais le résultat pour le Scec de Nantes n'a pas pu être lu (outil JavaScript). Non affirmé dans le texte.",
+    "Justificatif de nationalité : F18713 (« Vérifié le 14 août 2026 ») et la page ANTS se recoupent. F21244 formule la condition autrement (« en cas de situation particulière, naissance à l'étranger de parents nés à l'étranger par exemple »).",
+    "Vol (majeur) : F21247 ne mentionne que le commissariat ou la gendarmerie ; F21245 (mineur) ajoute la plainte en ligne. Lien « Trouver un commissariat » sur masecurite.interieur.gouv.fr, donné par service-public (domaine interieur.gouv.fr).",
+    "Passeport d'un autre pays : aucune source française consultée ne décrit les pièces à fournir à un consulat étranger ; renvoi vers le site du consulat. Le seul élément trouvé est la liste PDF (non datée) de la préfecture des Bouches-du-Rhône (déclaration de perte/vol faite au consulat et attestation de demande de renouvellement du passeport), pratique locale.",
+    "Déclarer un nouveau passeport étranger sur l'ANEF : aucune source préfectorale ou service-public trouvée. La FAQ de la préfecture de la Loire sur le changement de situation ne cite que l'adresse, l'état civil et la situation familiale. Point non repris ; à vérifier auprès de l'ANEF.",
+    "Annuaire des représentations étrangères (diplomatie.gouv.fr) : URL relevée depuis la FAQ du ministère ; aucune date affichée. Les anciennes URL « representations-etrangeres-en-france » renvoient une erreur 404.",
+    "Réfugiés, protégés subsidiaires, apatrides : redirection vers le document de voyage d'après F15401, F2689, F15402 (« Vérifié le 01 juillet 2026 »). Aucune source consultée (service-public) ne dit explicitement qu'il ne faut pas contacter le consulat du pays d'origine ; non affirmé. Coût (40 € ou 45 €) non repris.",
+    "Fiches (fiscal_stamp, proof_of_address, civil_status_france, loss_theft_report) et contacts (prefecture_directory, france_services, anef_contact) : identifiants présents dans help.json, contenu non relu ici. Leur contenu vise surtout les démarches d'étrangers (ANEF) : vérifier qu'il convient aussi au passeport français.",
+    "Nom d'usage : pièces exactes non détaillées (renvoi vers F868 et F1343, non relues).",
+    "La démarche n'est pas encore dans catalog.json (non modifié, comme demandé)."
+  ]
+}

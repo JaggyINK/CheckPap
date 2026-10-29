@@ -1,0 +1,1488 @@
+{
+  "id": "visa_to_france",
+  "reviewStatus": "draft",
+  "lastVerified": "2026-10-29",
+  "title": {
+    "fr": "Demander un visa pour venir en France",
+    "en": "Apply for a visa to come to France"
+  },
+  "summary": {
+    "fr": "Cette démarche aide à préparer une demande de visa pour la France, depuis l'étranger. Elle concerne la personne qui veut venir, ou un proche en France qui l'aide. Le besoin de visa, les pièces et les étapes dépendent de la nationalité, de la durée du séjour et de son motif.",
+    "en": "This helps you prepare a visa application for France, from abroad. It is for the person who wants to come, or for a relative in France who is helping. Whether a visa is needed, and which documents and steps apply, depend on nationality, length of stay and purpose."
+  },
+  "sources": [
+    {
+      "id": "sp_f21921",
+      "publisher": "service-public.gouv.fr",
+      "title": "Un étranger a-t-il besoin d'un visa pour venir en France ? (Vérifié le 12 octobre 2025)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F21921",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f16146",
+      "publisher": "service-public.gouv.fr",
+      "title": "Visa de court séjour Schengen (étranger en France pour 3 mois maximum) (Vérifié le 13 août 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F16146",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f16162",
+      "publisher": "service-public.gouv.fr",
+      "title": "Visa de long séjour (séjour de plus de 3 mois à 1 an) (Vérifié le 09 octobre 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F16162",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f1765",
+      "publisher": "service-public.gouv.fr",
+      "title": "Espace Schengen : quelles sont les conditions d'entrée et de circulation ? (Vérifié le 12 octobre 2025)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1765",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f39",
+      "publisher": "service-public.gouv.fr",
+      "title": "Quels titres de séjour un ressortissant étranger doit-il avoir pour rester en France plus de 3 mois ? (Vérifié le 08 juillet 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F39",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f2191",
+      "publisher": "service-public.gouv.fr",
+      "title": "Attestation d'accueil (Vérifié le 21 octobre 2025)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2191",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f2231",
+      "publisher": "service-public.gouv.fr",
+      "title": "Étudiant étranger en France : visa de long séjour ou titre de séjour (Vérifié le 01 août 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2231",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f15898",
+      "publisher": "service-public.gouv.fr",
+      "title": "Travail d'un étranger en France : carte de séjour - salarié/travailleur temporaire (Vérifié le 01 mai 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F15898",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f16922",
+      "publisher": "service-public.gouv.fr",
+      "title": "Carte talent : carte de séjour pluriannuelle d'un étranger en France (Vérifié le 01 juin 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F16922",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f1764",
+      "publisher": "service-public.gouv.fr",
+      "title": "L'époux étranger d'un Français peut-il séjourner en France ? (Vérifié le 04 août 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1764",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_f11166",
+      "publisher": "service-public.gouv.fr",
+      "title": "Regroupement familial (Vérifié le 01 juin 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F11166",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_a18881",
+      "publisher": "service-public.gouv.fr",
+      "title": "Timbre fiscal - Titres de séjour : augmentation du montant des taxes demandées aux étrangers à compter du 1er mai (Publié le 22 avril 2026, mise à jour le 12 mai 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/actualites/A18881",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_r50475",
+      "publisher": "service-public.gouv.fr",
+      "title": "Vérifier si vous avez besoin d'un visa - Assistant Visa (Vérifié le 12 août 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R50475",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_r50559",
+      "publisher": "service-public.gouv.fr",
+      "title": "Demander un visa (Vérifié le 12 août 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R50559",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_r56971",
+      "publisher": "service-public.gouv.fr",
+      "title": "France-Visas - Assistant-visas - Liste des pièces à fournir (Vérifié le 12 août 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R56971",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_r56972",
+      "publisher": "service-public.gouv.fr",
+      "title": "France-Visas - Coût du visa selon les pays (Vérifié le 12 août 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R56972",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_r57009",
+      "publisher": "service-public.gouv.fr",
+      "title": "France-visas - Étudiants (Vérifié le 27 avril 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R57009",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_r52684",
+      "publisher": "service-public.gouv.fr",
+      "title": "Valider un visa de long séjour valant titre de séjour (VLS-TS) et payer la taxe (Vérifié le 31 juillet 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R52684",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "sp_r68987",
+      "publisher": "service-public.gouv.fr",
+      "title": "Demande de regroupement familial (Vérifié le 28 avril 2026)",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R68987",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_crrv",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Commission de recours contre les décisions de refus de visa d'entrée en France - Annuaire (page sans date de vérification)",
+      "url": "https://lannuaire.service-public.gouv.fr/gouvernement/2d7cc402-d543-4729-9e56-e4da3ed8bbc6",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "annuaire_sdv",
+      "publisher": "lannuaire.service-public.gouv.fr",
+      "title": "Sous-direction des visas - Annuaire (page sans date de vérification)",
+      "url": "https://lannuaire.service-public.gouv.fr/gouvernement/ce6b3401-52a5-40eb-95af-1c612142e968",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "dip_externalisation",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "L'externalisation : des critères stricts pour des prestataires contrôlés par l'Etat (Mis à jour le 02 juillet 2026)",
+      "url": "https://www.diplomatie.gouv.fr/fr/venir-en-france/demander-un-visa-pour-la-france/le-traitement-des-demandes-de-visa/article/l-externalisation-des-criteres-stricts-pour-des-prestataires-controles-par-l",
+      "consulted": "2026-10-29"
+    },
+    {
+      "id": "dip_portail",
+      "publisher": "diplomatie.gouv.fr",
+      "title": "Le portail France-Visas (Publié le 05 novembre 2025)",
+      "url": "https://www.diplomatie.gouv.fr/fr/venir-en-france/demander-un-visa-pour-la-france/le-traitement-des-demandes-de-visa/article/le-portail-france-visas",
+      "consulted": "2026-10-29"
+    }
+  ],
+  "questions": [
+    {
+      "id": "nationality_group",
+      "kind": "single",
+      "title": {
+        "fr": "Quelle est la nationalité de la personne qui veut venir en France ?",
+        "en": "What is the nationality of the person who wants to come to France?"
+      },
+      "help": {
+        "fr": "Les règles de visa dépendent d'abord de la nationalité. Pour les autres nationalités, l'assistant visa de France-Visas donne la réponse exacte pays par pays.",
+        "en": "Visa rules depend first on nationality. For other nationalities, the France-Visas visa wizard gives the exact answer for each country."
+      },
+      "options": [
+        {
+          "id": "eu_eea_swiss",
+          "label": {
+            "fr": "Un pays de l'Union européenne, de l'Espace économique européen, ou la Suisse",
+            "en": "A European Union or European Economic Area country, or Switzerland"
+          },
+          "help": {
+            "fr": "L'Espace économique européen comprend l'Union européenne, l'Islande, le Liechtenstein et la Norvège.",
+            "en": "The European Economic Area includes the European Union, Iceland, Liechtenstein and Norway."
+          }
+        },
+        {
+          "id": "microstate",
+          "label": {
+            "fr": "Andorre, Monaco, Saint-Marin ou le Saint-Siège (Vatican)",
+            "en": "Andorra, Monaco, San Marino or the Holy See (Vatican)"
+          }
+        },
+        {
+          "id": "other",
+          "label": {
+            "fr": "Une autre nationalité",
+            "en": "Another nationality"
+          }
+        }
+      ],
+      "condition": null,
+      "sources": ["sp_f16162", "sp_f39", "sp_f1765", "sp_r50475"]
+    },
+    {
+      "id": "has_schengen_permit",
+      "kind": "yesNo",
+      "title": {
+        "fr": "La personne a-t-elle un titre de séjour, ou un visa de long séjour d'1 an ou plus, délivré par un autre pays de l'espace Schengen ?",
+        "en": "Does the person hold a residence permit, or a long-stay visa of 1 year or more, issued by another Schengen country?"
+      },
+      "help": {
+        "fr": "Service-public indique que le visa de court séjour concerne les personnes qui n'ont pas de titre de séjour ni de visa de long séjour dans un pays de l'espace Schengen.",
+        "en": "Service-public says the short-stay visa is for people who have no residence permit or long-stay visa in a Schengen country."
+      },
+      "example": {
+        "fr": "Exemple : une carte de séjour délivrée par l'Espagne, l'Allemagne ou la Belgique.",
+        "en": "Example: a residence card issued by Spain, Germany or Belgium."
+      },
+      "condition": { "question": "nationality_group", "in": ["microstate", "other"] },
+      "sources": ["sp_f16146", "sp_f1765"]
+    },
+    {
+      "id": "stay_length",
+      "kind": "single",
+      "title": {
+        "fr": "Combien de temps la personne veut-elle rester en France ?",
+        "en": "How long does the person want to stay in France?"
+      },
+      "help": {
+        "fr": "Le visa de court séjour (Schengen, type C) permet de rester 90 jours au maximum sur une période de 180 jours. Au-delà de 3 mois, il faut un visa de long séjour (type D).",
+        "en": "The short-stay visa (Schengen, type C) allows a stay of up to 90 days in any 180-day period. For more than 3 months, a long-stay visa (type D) is needed."
+      },
+      "options": [
+        {
+          "id": "short",
+          "label": {
+            "fr": "3 mois maximum (court séjour)",
+            "en": "3 months at most (short stay)"
+          }
+        },
+        {
+          "id": "long",
+          "label": {
+            "fr": "Plus de 3 mois (long séjour)",
+            "en": "More than 3 months (long stay)"
+          }
+        }
+      ],
+      "condition": { "question": "nationality_group", "in": ["microstate", "other"] },
+      "sources": ["sp_f16146", "sp_f16162"]
+    },
+    {
+      "id": "purpose_short",
+      "kind": "single",
+      "title": {
+        "fr": "Quel est le motif du séjour ?",
+        "en": "What is the purpose of the stay?"
+      },
+      "help": {
+        "fr": "Les pièces demandées varient selon l'objet du séjour.",
+        "en": "The documents requested depend on the purpose of the stay."
+      },
+      "options": [
+        { "id": "tourism", "label": { "fr": "Tourisme", "en": "Tourism" } },
+        {
+          "id": "family_private_visit",
+          "label": { "fr": "Visite à la famille ou à des proches", "en": "Visit to family or friends" }
+        },
+        { "id": "business", "label": { "fr": "Voyage professionnel", "en": "Business trip" } },
+        {
+          "id": "short_training",
+          "label": { "fr": "Formation courte ou stage", "en": "Short training course or internship" }
+        },
+        {
+          "id": "paid_activity",
+          "label": { "fr": "Activité rémunérée (travail payé)", "en": "Paid activity (paid work)" }
+        },
+        { "id": "other", "label": { "fr": "Autre motif", "en": "Another purpose" } }
+      ],
+      "condition": {
+        "all": [
+          { "question": "stay_length", "equals": "short" },
+          { "question": "has_schengen_permit", "equals": "no" }
+        ]
+      },
+      "sources": ["sp_f16146"]
+    },
+    {
+      "id": "accommodation",
+      "kind": "single",
+      "title": {
+        "fr": "Où la personne sera-t-elle logée en France ?",
+        "en": "Where will the person stay in France?"
+      },
+      "help": {
+        "fr": "Le montant de ressources demandé par jour dépend de la preuve d'hébergement.",
+        "en": "The amount of money required per day depends on the proof of accommodation."
+      },
+      "options": [
+        {
+          "id": "host",
+          "label": { "fr": "Chez un particulier (famille, ami)", "en": "With a private person (family, friend)" },
+          "help": {
+            "fr": "La personne qui accueille doit en général demander une attestation d'accueil à sa mairie.",
+            "en": "The host usually has to request a \"attestation d'accueil\" (hosting certificate) from their town hall."
+          }
+        },
+        {
+          "id": "hotel",
+          "label": { "fr": "À l'hôtel, avec une réservation", "en": "In a hotel, with a booking" }
+        },
+        {
+          "id": "other",
+          "label": { "fr": "Autre, ou pas encore de réservation", "en": "Other, or no booking yet" }
+        }
+      ],
+      "condition": {
+        "all": [
+          { "question": "stay_length", "equals": "short" },
+          { "question": "has_schengen_permit", "equals": "no" }
+        ]
+      },
+      "sources": ["sp_f1765", "sp_f21921", "sp_f2191"]
+    },
+    {
+      "id": "purpose_long",
+      "kind": "single",
+      "title": {
+        "fr": "Pour quel motif la personne vient-elle s'installer en France ?",
+        "en": "Why is the person coming to live in France?"
+      },
+      "help": {
+        "fr": "Le type de visa de long séjour, les pièces et les démarches après l'arrivée dépendent du motif.",
+        "en": "The type of long-stay visa, the documents and the steps after arrival depend on the purpose."
+      },
+      "options": [
+        { "id": "studies", "label": { "fr": "Études supérieures", "en": "Higher education" } },
+        {
+          "id": "employee",
+          "label": { "fr": "Travail comme salarié (CDI ou CDD)", "en": "Work as an employee (permanent or fixed-term contract)" }
+        },
+        {
+          "id": "talent",
+          "label": { "fr": "Talent (salarié qualifié, chercheur, carte bleue européenne...)", "en": "Talent (qualified employee, researcher, EU Blue Card...)" }
+        },
+        {
+          "id": "spouse_of_french",
+          "label": { "fr": "Rejoindre son époux ou épouse de nationalité française", "en": "Join a French spouse" }
+        },
+        {
+          "id": "family_reunification",
+          "label": { "fr": "Rejoindre un époux, une épouse ou un parent étranger qui vit en France (regroupement familial)", "en": "Join a foreign spouse or parent living in France (family reunification)" }
+        },
+        {
+          "id": "working_holiday",
+          "label": { "fr": "Vacances-travail (PVT)", "en": "Working holiday" }
+        },
+        {
+          "id": "visitor",
+          "label": { "fr": "Visiteur (vivre de ses ressources, sans travailler)", "en": "Visitor (living on own means, without working)" }
+        },
+        { "id": "other", "label": { "fr": "Autre motif", "en": "Another purpose" } }
+      ],
+      "condition": { "question": "stay_length", "equals": "long" },
+      "sources": ["sp_f16162", "sp_f2231", "sp_f15898", "sp_f16922", "sp_f1764", "sp_f11166"]
+    },
+    {
+      "id": "reunification_authorized",
+      "kind": "yesNo",
+      "title": {
+        "fr": "La personne qui vit en France a-t-elle déjà déposé la demande de regroupement familial auprès de l'Ofii ?",
+        "en": "Has the family member living in France already filed the family reunification request with Ofii?"
+      },
+      "help": {
+        "fr": "Le regroupement familial se demande d'abord en France, par la personne qui y vit. La demande de visa vient après.",
+        "en": "Family reunification is first requested in France, by the person who lives there. The visa application comes after."
+      },
+      "condition": { "question": "purpose_long", "equals": "family_reunification" },
+      "sources": ["sp_f11166"]
+    },
+    {
+      "id": "work_authorization_obtained",
+      "kind": "yesNo",
+      "title": {
+        "fr": "L'employeur en France a-t-il obtenu l'autorisation de travail ?",
+        "en": "Has the employer in France obtained the work authorisation?"
+      },
+      "help": {
+        "fr": "Service-public indique que l'employeur doit faire la demande d'autorisation de travail sur internet avant l'entrée en France. En cas d'accord, l'employeur vous prévient.",
+        "en": "Service-public says the employer must apply online for the work authorisation before you enter France. If it is granted, the employer lets you know."
+      },
+      "condition": { "question": "purpose_long", "equals": "employee" },
+      "sources": ["sp_f15898"]
+    },
+    {
+      "id": "talent_duration",
+      "kind": "single",
+      "title": {
+        "fr": "Combien de temps doit durer le séjour \"talent\" ?",
+        "en": "How long will the \"talent\" stay last?"
+      },
+      "help": {
+        "fr": "Le consulat ne délivre pas le même visa selon que le séjour dure moins d'1 an ou 1 an et plus.",
+        "en": "The consulate does not issue the same visa if the stay lasts less than 1 year or 1 year or more."
+      },
+      "options": [
+        { "id": "less_than_1y", "label": { "fr": "Moins d'1 an", "en": "Less than 1 year" } },
+        { "id": "one_year_or_more", "label": { "fr": "1 an ou plus", "en": "1 year or more" } }
+      ],
+      "condition": { "question": "purpose_long", "equals": "talent" },
+      "sources": ["sp_f16922"]
+    },
+    {
+      "id": "spouse_algerian",
+      "kind": "yesNo",
+      "title": {
+        "fr": "La personne qui veut venir est-elle de nationalité algérienne ?",
+        "en": "Is the person who wants to come an Algerian national?"
+      },
+      "help": {
+        "fr": "Pour l'époux ou l'épouse d'un Français, les démarches sont différentes pour les Algériens.",
+        "en": "For the spouse of a French national, the steps are different for Algerians."
+      },
+      "condition": { "question": "purpose_long", "equals": "spouse_of_french" },
+      "sources": ["sp_f1764"]
+    },
+    {
+      "id": "marriage_place",
+      "kind": "single",
+      "title": {
+        "fr": "Où le mariage a-t-il été célébré ?",
+        "en": "Where did the wedding take place?"
+      },
+      "help": {
+        "fr": "Pour être reconnu en France, un mariage célébré à l'étranger doit être transcrit sur les registres français du service central d'état civil de Nantes.",
+        "en": "To be recognised in France, a marriage celebrated abroad must be transcribed in the French registers of the central civil status office in Nantes."
+      },
+      "options": [
+        { "id": "france", "label": { "fr": "En France", "en": "In France" } },
+        {
+          "id": "abroad_transcribed",
+          "label": { "fr": "À l'étranger, et il a été transcrit", "en": "Abroad, and it has been transcribed" }
+        },
+        {
+          "id": "abroad_not_transcribed",
+          "label": { "fr": "À l'étranger, et il n'a pas été transcrit (ou je ne sais pas)", "en": "Abroad, and it has not been transcribed (or I don't know)" }
+        }
+      ],
+      "condition": { "question": "purpose_long", "equals": "spouse_of_french" },
+      "sources": ["sp_f1764"]
+    },
+    {
+      "id": "departure_date",
+      "kind": "date",
+      "title": {
+        "fr": "Quelle est la date prévue du départ vers la France ?",
+        "en": "What is the planned date of departure for France?"
+      },
+      "help": {
+        "fr": "Service-public indique que la demande de visa se fait au plus tôt 3 mois avant le départ prévu. Si vous ne connaissez pas encore la date, mettez une date approximative.",
+        "en": "Service-public says the visa application can be made at the earliest 3 months before the planned departure. If you don't know the date yet, enter an approximate date."
+      },
+      "condition": { "question": "nationality_group", "in": ["microstate", "other"] },
+      "sources": ["sp_f16146", "sp_f16162"]
+    },
+    {
+      "id": "previous_refusal",
+      "kind": "yesNo",
+      "title": {
+        "fr": "La personne a-t-elle déjà reçu un refus de visa pour ce projet ?",
+        "en": "Has the person already received a visa refusal for this trip?"
+      },
+      "help": {
+        "fr": "En cas de refus, il existe un recours avec un délai court. Les règles ne sont pas les mêmes pour le court et le long séjour.",
+        "en": "If a visa was refused, an appeal is possible within a short deadline. The rules are not the same for short and long stays."
+      },
+      "condition": { "question": "nationality_group", "in": ["microstate", "other"] },
+      "sources": ["sp_f16146", "sp_f16162"]
+    }
+  ],
+  "documents": [
+    {
+      "id": "france_visas_checklist",
+      "category": "other",
+      "title": {
+        "fr": "Liste des pièces donnée par l'assistant France-Visas",
+        "en": "Document list from the France-Visas wizard"
+      },
+      "details": {
+        "fr": "Service-public renvoie à l'assistant France-Visas pour connaître la liste exacte des pièces selon votre nationalité, votre lieu de résidence et le motif du séjour. Les pièces ci-dessous sont celles que service-public cite ; la liste France-Visas peut en demander d'autres.",
+        "en": "Service-public refers you to the France-Visas wizard for the exact list of documents for your nationality, country of residence and purpose of stay. The documents below are the ones service-public mentions; the France-Visas list may ask for more."
+      },
+      "condition": {
+        "any": [
+          { "question": "stay_length", "equals": "long" },
+          { "question": "has_schengen_permit", "equals": "no" }
+        ]
+      },
+      "sources": ["sp_f16146", "sp_f16162", "sp_r56971", "dip_portail"]
+    },
+    {
+      "id": "passport",
+      "category": "identity",
+      "title": { "fr": "Passeport", "en": "Passport" },
+      "details": {
+        "fr": "Le passeport doit être valide au moins 3 mois après la date de fin du visa demandé. Il doit avoir été délivré depuis moins de 10 ans et avoir au moins 2 pages vierges.",
+        "en": "The passport must be valid for at least 3 months after the end date of the visa requested. It must have been issued less than 10 years ago and have at least 2 blank pages."
+      },
+      "example": {
+        "fr": "Exemple : pour un visa qui se termine le 30 juin, le passeport doit être valable au moins jusqu'au 30 septembre.",
+        "en": "Example: for a visa ending on 30 June, the passport must be valid until at least 30 September."
+      },
+      "condition": {
+        "any": [
+          { "question": "stay_length", "equals": "long" },
+          { "question": "has_schengen_permit", "equals": "no" }
+        ]
+      },
+      "sources": ["sp_f16146", "sp_f16162"]
+    },
+    {
+      "id": "visa_fee",
+      "category": "tax",
+      "title": { "fr": "Droits de visa", "en": "Visa fee" },
+      "details": {
+        "fr": "Le montant dépend du pays et du type de visa. Il est donné dans la rubrique Tarifs de l'assistant France-Visas. Pour un visa de court séjour, il se paie au service des visas au moment du dépôt.",
+        "en": "The amount depends on the country and the type of visa. It is shown in the Fees section of the France-Visas wizard. For a short-stay visa, it is paid to the visa office when you submit the application."
+      },
+      "tip": {
+        "fr": "Si la demande est reçue par un prestataire privé, celui-ci peut demander des frais de service en plus. En cas de refus du visa ou d'annulation du séjour, la somme versée n'est pas remboursée.",
+        "en": "If the application is received by a private service provider, it may charge extra service fees. If the visa is refused or the trip is cancelled, the money paid is not refunded."
+      },
+      "condition": {
+        "any": [
+          { "question": "stay_length", "equals": "long" },
+          { "question": "has_schengen_permit", "equals": "no" }
+        ]
+      },
+      "sources": ["sp_f16146", "sp_f16162", "sp_r56972"]
+    },
+    {
+      "id": "travel_insurance",
+      "category": "other",
+      "title": { "fr": "Assurance médicale de voyage", "en": "Travel medical insurance" },
+      "details": {
+        "fr": "Une assurance qui couvre les dépenses médicales et hospitalières, y compris d'aide sociale, pour les soins reçus en France. La couverture minimum demandée est de 30 000 €.",
+        "en": "Insurance covering medical and hospital costs, including social assistance, for any care received in France. The minimum coverage required is €30,000."
+      },
+      "tip": {
+        "fr": "Si la personne est accueillie chez un particulier, service-public indique que l'assurance peut être prise par elle ou par la personne qui l'héberge.",
+        "en": "If the person stays with a private host, service-public says the insurance can be taken out by the visitor or by the host."
+      },
+      "condition": {
+        "all": [
+          { "question": "stay_length", "equals": "short" },
+          { "question": "has_schengen_permit", "equals": "no" }
+        ]
+      },
+      "sources": ["sp_f21921", "sp_f1765", "sp_f2191"]
+    },
+    {
+      "id": "purpose_proof_short",
+      "category": "other",
+      "title": { "fr": "Justificatifs de l'objet du séjour", "en": "Proof of the purpose of the stay" },
+      "details": {
+        "fr": "Service-public demande de justifier l'objet et les conditions du séjour : voyage privé ou professionnel, hébergement, rapatriement, etc. Le détail des pièces selon le motif est donné par France-Visas.",
+        "en": "Service-public asks you to show the purpose and conditions of the stay: private or business trip, accommodation, repatriation, etc. The detailed list for each purpose is given by France-Visas."
+      },
+      "condition": {
+        "all": [
+          { "question": "stay_length", "equals": "short" },
+          { "question": "has_schengen_permit", "equals": "no" }
+        ]
+      },
+      "sources": ["sp_f21921", "sp_f1765", "sp_r56971"]
+    },
+    {
+      "id": "hotel_booking",
+      "category": "address",
+      "title": { "fr": "Réservation d'hôtel", "en": "Hotel booking" },
+      "details": {
+        "fr": "La preuve de réservation d'une chambre d'hôtel sert de justificatif d'hébergement.",
+        "en": "Proof of a hotel room booking serves as proof of accommodation."
+      },
+      "condition": {
+        "all": [
+          { "question": "stay_length", "equals": "short" },
+          { "question": "accommodation", "equals": "hotel" }
+        ]
+      },
+      "sources": ["sp_f1765", "sp_f21921"]
+    },
+    {
+      "id": "attestation_accueil",
+      "category": "address",
+      "title": { "fr": "Attestation d'accueil", "en": "Hosting certificate (attestation d'accueil)" },
+      "details": {
+        "fr": "C'est la personne qui accueille en France qui la demande à la mairie du lieu d'hébergement (à Paris, Lyon et Marseille, à la mairie d'arrondissement). Elle doit être présente à la mairie. La mairie doit valider l'attestation avant la demande de visa. L'original est ensuite envoyé au visiteur, qui le joint à sa demande de visa.",
+        "en": "The host in France requests it from the town hall where the visitor will stay (in Paris, Lyon and Marseille, from the district town hall). The host must be present at the town hall. The town hall must approve it before the visa application. The original is then sent to the visitor, who adds it to the visa application."
+      },
+      "example": {
+        "fr": "Exemple : l'époux ou l'épouse et les enfants mineurs du visiteur peuvent figurer sur la même attestation.",
+        "en": "Example: the visitor's spouse and minor children can be listed on the same certificate."
+      },
+      "tip": {
+        "fr": "Elle coûte 30 € en timbre fiscal, payé par la personne qui accueille, même si la demande est refusée. Elle n'est pas demandée notamment si le visiteur a un visa de circulation Schengen, un visa \"famille de Français\", ou vient pour des obsèques ou une urgence médicale. La personne qui accueille doit connaître le numéro de passeport du visiteur.",
+        "en": "It costs €30 in tax stamps, paid by the host, even if the request is refused. It is not required in particular if the visitor has a Schengen circulation visa or a \"famille de Français\" (family of a French national) visa, or comes for a funeral or a medical emergency. The host needs the visitor's passport number."
+      },
+      "condition": {
+        "all": [
+          { "question": "stay_length", "equals": "short" },
+          { "question": "accommodation", "equals": "host" }
+        ]
+      },
+      "sources": ["sp_f2191", "sp_f21921"],
+      "guides": ["fiscal_stamp"]
+    },
+    {
+      "id": "resources_with_host",
+      "category": "resources",
+      "title": { "fr": "Preuve de ressources pendant le séjour", "en": "Proof of money for the stay" },
+      "details": {
+        "fr": "Avec une attestation d'accueil, le niveau de ressources demandé est de 32,50 € par jour de séjour en France. Les ressources peuvent être de l'argent liquide, des cartes bancaires, etc.",
+        "en": "With a hosting certificate, the amount required is €32.50 per day of stay in France. This can be cash, bank cards, etc."
+      },
+      "example": {
+        "fr": "Exemple : pour 20 jours, 20 × 32,50 € = 650 €.",
+        "en": "Example: for 20 days, 20 × €32.50 = €650."
+      },
+      "condition": {
+        "all": [
+          { "question": "stay_length", "equals": "short" },
+          { "question": "accommodation", "equals": "host" }
+        ]
+      },
+      "sources": ["sp_f1765", "sp_f21921"]
+    },
+    {
+      "id": "resources_with_hotel",
+      "category": "resources",
+      "title": { "fr": "Preuve de ressources pendant le séjour", "en": "Proof of money for the stay" },
+      "details": {
+        "fr": "Avec une réservation d'hôtel, le niveau de ressources demandé est de 65 € par jour de séjour en France. Les ressources peuvent être de l'argent liquide, des cartes bancaires, etc.",
+        "en": "With a hotel booking, the amount required is €65 per day of stay in France. This can be cash, bank cards, etc."
+      },
+      "example": {
+        "fr": "Exemple : pour 10 jours, 10 × 65 € = 650 €.",
+        "en": "Example: for 10 days, 10 × €65 = €650."
+      },
+      "condition": {
+        "all": [
+          { "question": "stay_length", "equals": "short" },
+          { "question": "accommodation", "equals": "hotel" }
+        ]
+      },
+      "sources": ["sp_f1765", "sp_f21921"]
+    },
+    {
+      "id": "resources_no_booking",
+      "category": "resources",
+      "title": { "fr": "Preuve de ressources pendant le séjour", "en": "Proof of money for the stay" },
+      "details": {
+        "fr": "Sans preuve de réservation d'hôtel, le niveau de ressources demandé est de 120 € par jour de séjour en France. Les ressources peuvent être de l'argent liquide, des cartes bancaires, etc.",
+        "en": "Without proof of a hotel booking, the amount required is €120 per day of stay in France. This can be cash, bank cards, etc."
+      },
+      "condition": {
+        "all": [
+          { "question": "stay_length", "equals": "short" },
+          { "question": "accommodation", "equals": "other" }
+        ]
+      },
+      "sources": ["sp_f1765", "sp_f21921"]
+    },
+    {
+      "id": "work_authorization_short",
+      "category": "work",
+      "title": { "fr": "Autorisation de travail", "en": "Work authorisation" },
+      "details": {
+        "fr": "Pour travailler pendant un court séjour, service-public demande une autorisation de travail, sauf pour certaines activités : manifestations sportives, culturelles, artistiques ou scientifiques, colloques et salons, tournages et spectacles, mannequinat, services à la personne pendant le séjour de l'employeur, certaines missions d'audit ou d'expertise, enseignement comme professeur invité.",
+        "en": "To work during a short stay, service-public requires a work authorisation, except for some activities: sports, cultural, artistic or scientific events, conferences and trade fairs, film and show production, modelling, personal services during the employer's stay, some audit or expert assignments, teaching as a visiting professor."
+      },
+      "condition": { "question": "purpose_short", "equals": "paid_activity" },
+      "sources": ["sp_f16146"]
+    },
+    {
+      "id": "long_stay_purpose_docs",
+      "category": "other",
+      "title": { "fr": "Pièces liées au motif du séjour", "en": "Documents for the purpose of the stay" },
+      "details": {
+        "fr": "Pour un visa de long séjour, les documents varient selon le motif : salarié, étudiant, famille de Français, famille d'un étranger installé en France, etc. Service-public renvoie à France-Visas pour la liste selon votre situation.",
+        "en": "For a long-stay visa, the documents depend on the purpose: employee, student, family of a French national, family of a foreigner settled in France, etc. Service-public refers you to France-Visas for the list for your situation."
+      },
+      "condition": { "question": "stay_length", "equals": "long" },
+      "sources": ["sp_f16162", "sp_r56971"]
+    },
+    {
+      "id": "studies_enrollment",
+      "category": "studies",
+      "title": { "fr": "Inscription ou préinscription dans l'enseignement supérieur", "en": "Enrolment or pre-enrolment in higher education" },
+      "details": {
+        "fr": "Il faut être inscrit ou préinscrit dans un établissement d'enseignement supérieur ou de formation initiale (université, grande école, etc.) ou dans un organisme de formation professionnelle supérieure.",
+        "en": "You must be enrolled or pre-enrolled in a higher education or initial training institution (university, grande école, etc.) or in a higher vocational training body."
+      },
+      "condition": { "question": "purpose_long", "equals": "studies" },
+      "sources": ["sp_f2231"]
+    },
+    {
+      "id": "studies_resources",
+      "category": "resources",
+      "title": { "fr": "Preuve de ressources (étudiant)", "en": "Proof of money (student)" },
+      "details": {
+        "fr": "Service-public demande de justifier de ressources d'au moins 877,5 € par mois. Cette condition ne s'applique pas si vous avez réussi le concours d'entrée d'un établissement qui a signé une convention avec l'État.",
+        "en": "Service-public asks you to show at least €877.50 per month. This does not apply if you passed the entrance exam of an institution that has signed an agreement with the State."
+      },
+      "condition": { "question": "purpose_long", "equals": "studies" },
+      "sources": ["sp_f2231"]
+    },
+    {
+      "id": "work_authorization_long",
+      "category": "work",
+      "title": { "fr": "Autorisation de travail obtenue par l'employeur", "en": "Work authorisation obtained by the employer" },
+      "details": {
+        "fr": "L'employeur fait la demande d'autorisation de travail sur internet avant votre entrée en France. En cas d'accord, l'administration l'en informe et il vous prévient. Vous pouvez alors demander le visa de long séjour valant titre de séjour (VLS-TS).",
+        "en": "The employer applies online for the work authorisation before you enter France. If it is granted, the administration informs the employer, who lets you know. You can then apply for the long-stay visa equivalent to a residence permit (VLS-TS)."
+      },
+      "condition": { "question": "purpose_long", "equals": "employee" },
+      "sources": ["sp_f15898"]
+    },
+    {
+      "id": "marriage_transcription",
+      "category": "family",
+      "title": { "fr": "Acte de mariage transcrit en France", "en": "Marriage certificate transcribed in France" },
+      "details": {
+        "fr": "Si le mariage a été célébré à l'étranger, il doit avoir été transcrit sur les registres français du service central d'état civil de Nantes pour être reconnu en France.",
+        "en": "If the marriage took place abroad, it must have been transcribed in the French registers of the central civil status office in Nantes to be recognised in France."
+      },
+      "condition": { "question": "marriage_place", "in": ["abroad_transcribed", "abroad_not_transcribed"] },
+      "sources": ["sp_f1764"]
+    },
+    {
+      "id": "reunification_papers",
+      "category": "family",
+      "title": { "fr": "Documents envoyés par la personne qui vit en France", "en": "Documents sent by the family member in France" },
+      "details": {
+        "fr": "Service-public indique que, dès la délivrance de l'attestation de dépôt, la personne qui vit en France transmet ce document et les pièces d'état civil à sa famille à l'étranger. L'époux ou l'épouse demande alors le VLS-TS au consulat, sans délai.",
+        "en": "Service-public says that, as soon as the filing certificate is issued, the family member in France sends it and the civil status documents to the family abroad. The spouse then applies for the VLS-TS at the consulate, without delay."
+      },
+      "condition": {
+        "all": [
+          { "question": "purpose_long", "equals": "family_reunification" },
+          { "question": "reunification_authorized", "equals": "yes" }
+        ]
+      },
+      "sources": ["sp_f11166"]
+    },
+    {
+      "id": "visitor_resources",
+      "category": "resources",
+      "title": { "fr": "Preuve de ressources (visiteur)", "en": "Proof of money (visitor)" },
+      "details": {
+        "fr": "Le visa de long séjour temporaire \"visiteur\" suppose de pouvoir vivre de ses seules ressources. Ce visa ne permet pas de travailler ni de percevoir des prestations sociales. Le montant demandé n'est pas indiqué par service-public : voir la liste France-Visas.",
+        "en": "The temporary long-stay \"visitor\" visa requires you to live on your own means only. This visa does not allow you to work or receive social benefits. Service-public does not give the amount: see the France-Visas list."
+      },
+      "condition": { "question": "purpose_long", "equals": "visitor" },
+      "sources": ["sp_f16162", "sp_r56971"]
+    }
+  ],
+  "steps": [
+    {
+      "id": "check_need_visa",
+      "phase": "before",
+      "title": { "fr": "Vérifier avec l'assistant visa", "en": "Check with the visa wizard" },
+      "body": {
+        "fr": "L'assistant visa de France-Visas indique, selon la nationalité, le lieu de résidence et le motif, si un visa est nécessaire, la liste des pièces à fournir et le tarif. Selon la nationalité et le type de passeport, une personne peut être dispensée de visa de court séjour. Pour un séjour de plus de 3 mois, une personne majeure doit demander un visa de long séjour même si sa nationalité la dispense de visa de court séjour.",
+        "en": "The France-Visas wizard tells you, based on nationality, country of residence and purpose, whether a visa is needed, the list of documents and the fee. Depending on nationality and passport type, a person may not need a short-stay visa. For a stay of more than 3 months, an adult must apply for a long-stay visa even if their nationality does not need a short-stay visa."
+      },
+      "link": {
+        "title": { "fr": "Ouvrir l'assistant visa", "en": "Open the visa wizard" },
+        "url": "https://france-visas.gouv.fr/web/france-visas/assistant-visa#/"
+      },
+      "condition": {
+        "any": [
+          { "question": "stay_length", "equals": "long" },
+          { "question": "has_schengen_permit", "equals": "no" }
+        ]
+      },
+      "sources": ["sp_r50475", "sp_r56971", "sp_r56972", "sp_f16146", "sp_f16162", "dip_portail"]
+    },
+    {
+      "id": "host_requests_attestation",
+      "phase": "before",
+      "title": { "fr": "La personne qui accueille demande l'attestation d'accueil", "en": "The host requests the hosting certificate" },
+      "body": {
+        "fr": "La personne qui accueille achète un timbre fiscal de 30 €, puis dépose la demande à sa mairie, souvent sur rendez-vous. Elle remplit et signe sur place le formulaire cerfa n°10798. Une fois l'attestation validée, elle envoie l'original au visiteur avant la demande de visa.",
+        "en": "The host buys a €30 tax stamp, then submits the request at their town hall, often by appointment. They fill in and sign form cerfa no. 10798 on site. Once the certificate is approved, they send the original to the visitor before the visa application."
+      },
+      "condition": {
+        "all": [
+          { "question": "stay_length", "equals": "short" },
+          { "question": "accommodation", "equals": "host" }
+        ]
+      },
+      "sources": ["sp_f2191"],
+      "guides": ["fiscal_stamp"]
+    },
+    {
+      "id": "employer_work_authorization",
+      "phase": "before",
+      "title": { "fr": "Attendre l'accord de l'autorisation de travail", "en": "Wait for the work authorisation approval" },
+      "body": {
+        "fr": "L'employeur fait la demande d'autorisation de travail sur internet. Vous pouvez demander le visa quand l'employeur vous a prévenu de l'accord.",
+        "en": "The employer applies for the work authorisation online. You can apply for the visa once the employer has told you it was granted."
+      },
+      "condition": { "question": "purpose_long", "equals": "employee" },
+      "sources": ["sp_f15898"]
+    },
+    {
+      "id": "studies_which_procedure",
+      "phase": "before",
+      "title": { "fr": "Trouver la bonne procédure étudiant", "en": "Find the right student procedure" },
+      "body": {
+        "fr": "Les étrangers de 72 pays doivent demander leur visa sur le site Études en France, au moment de la préinscription en ligne dans l'enseignement supérieur. Les autres passent par France-Visas. Service-public publie le tableau des pays concernés.",
+        "en": "Nationals of 72 countries must apply for their visa on the Études en France website, when they pre-enrol online in French higher education. Others apply through France-Visas. Service-public publishes the table of countries."
+      },
+      "link": {
+        "title": { "fr": "Voir le tableau des pays", "en": "See the table of countries" },
+        "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2231"
+      },
+      "condition": { "question": "purpose_long", "equals": "studies" },
+      "sources": ["sp_f2231", "sp_f16162", "sp_r57009"]
+    },
+    {
+      "id": "fill_online_form",
+      "phase": "submit",
+      "title": { "fr": "Remplir la demande de visa sur France-Visas", "en": "Fill in the visa application on France-Visas" },
+      "body": {
+        "fr": "La demande de visa se remplit sur internet, sur le site France-Visas. Service-public indique qu'elle se fait au plus tôt 3 mois avant le départ prévu, auprès des autorités consulaires françaises du pays où vous vivez.",
+        "en": "The visa application is filled in online, on the France-Visas website. Service-public says it can be made at the earliest 3 months before the planned departure, with the French consular authorities of the country where you live."
+      },
+      "link": {
+        "title": { "fr": "Ouvrir France-Visas", "en": "Open France-Visas" },
+        "url": "https://france-visas.gouv.fr/demande-de-visa"
+      },
+      "condition": {
+        "any": [
+          { "question": "stay_length", "equals": "long" },
+          { "question": "has_schengen_permit", "equals": "no" }
+        ]
+      },
+      "sources": ["sp_r50559", "sp_f16146", "sp_f16162"]
+    },
+    {
+      "id": "book_appointment",
+      "phase": "submit",
+      "title": { "fr": "Prendre rendez-vous pour déposer le dossier", "en": "Book an appointment to submit the file" },
+      "body": {
+        "fr": "Après avoir rempli la demande en ligne, prenez rendez-vous sur internet au consulat de France du pays où vous résidez. Dans beaucoup de pays, la réception des dossiers et la prise des empreintes sont confiées à un prestataire de services extérieur, contrôlé par l'administration. France-Visas indique le lieu de dépôt.",
+        "en": "After filling in the online application, book an appointment online at the French consulate of the country where you live. In many countries, receiving files and taking fingerprints is done by an external service provider supervised by the administration. France-Visas shows where to submit."
+      },
+      "link": {
+        "title": { "fr": "Trouver le lieu de dépôt", "en": "Find where to submit" },
+        "url": "https://france-visas.gouv.fr/web/france-visas/lieu-de-depot"
+      },
+      "condition": {
+        "any": [
+          { "question": "stay_length", "equals": "long" },
+          { "question": "has_schengen_permit", "equals": "no" }
+        ]
+      },
+      "sources": ["sp_f16146", "sp_f16162", "dip_externalisation"]
+    },
+    {
+      "id": "schengen_main_destination",
+      "phase": "submit",
+      "title": { "fr": "Voyage dans plusieurs pays Schengen", "en": "Trip to several Schengen countries" },
+      "body": {
+        "fr": "Si la destination principale ne peut pas être déterminée, c'est le pays d'entrée dans l'espace Schengen qui délivre le visa. Exemple de service-public : 15 jours en Belgique puis 15 jours en France, en arrivant par la Belgique : la demande se fait au consulat belge.",
+        "en": "If the main destination cannot be determined, the country where you enter the Schengen area issues the visa. Service-public's example: 15 days in Belgium then 15 days in France, arriving through Belgium: you apply at the Belgian consulate."
+      },
+      "condition": {
+        "all": [
+          { "question": "stay_length", "equals": "short" },
+          { "question": "has_schengen_permit", "equals": "no" }
+        ]
+      },
+      "sources": ["sp_f16146"]
+    },
+    {
+      "id": "submit_biometrics",
+      "phase": "submit",
+      "title": { "fr": "Déposer le dossier et donner ses données biométriques", "en": "Submit the file and give biometric data" },
+      "body": {
+        "fr": "Au rendez-vous, votre photo et vos empreintes digitales sont enregistrées dans un fichier appelé Visabio. Les empreintes ne sont pas prises pour un enfant de moins de 12 ans. Vous payez les droits de visa et recevez une quittance avec le montant versé.",
+        "en": "At the appointment, your photo and fingerprints are recorded in a database called Visabio. Fingerprints are not taken for children under 12. You pay the visa fee and get a receipt showing the amount paid."
+      },
+      "condition": {
+        "any": [
+          { "question": "stay_length", "equals": "long" },
+          { "question": "has_schengen_permit", "equals": "no" }
+        ]
+      },
+      "sources": ["sp_f16146", "sp_f16162"]
+    },
+    {
+      "id": "wait_for_decision",
+      "phase": "after",
+      "title": { "fr": "Attendre la réponse", "en": "Wait for the decision" },
+      "body": {
+        "fr": "Un refus de visa doit être écrit et donner ses motifs. Sans réponse au bout de 2 mois, la demande est considérée comme refusée (refus implicite). Les délais de recours partent de la notification du refus ou de ce refus implicite.",
+        "en": "A visa refusal must be in writing and give its reasons. With no answer after 2 months, the application is considered refused (implicit refusal). Appeal deadlines start from the notification of the refusal or from this implicit refusal."
+      },
+      "condition": {
+        "any": [
+          { "question": "stay_length", "equals": "long" },
+          { "question": "has_schengen_permit", "equals": "no" }
+        ]
+      },
+      "sources": ["sp_f16146", "sp_f16162"]
+    },
+    {
+      "id": "respect_90_180",
+      "phase": "after",
+      "title": { "fr": "Respecter la durée du court séjour", "en": "Respect the short-stay limit" },
+      "body": {
+        "fr": "Le visa de court séjour permet de rester 90 jours au maximum, en une ou plusieurs fois, dans les pays de l'espace Schengen sur une période de 180 jours. À la fin de ces 90 jours, il faut quitter l'espace Schengen. Le visa Schengen ne permet pas de s'installer en France.",
+        "en": "The short-stay visa allows a stay of up to 90 days, in one or several trips, in the Schengen countries over a 180-day period. After these 90 days, you must leave the Schengen area. The Schengen visa does not allow you to settle in France."
+      },
+      "condition": {
+        "all": [
+          { "question": "stay_length", "equals": "short" },
+          { "question": "has_schengen_permit", "equals": "no" }
+        ]
+      },
+      "sources": ["sp_f16146"]
+    },
+    {
+      "id": "validate_vls_ts",
+      "phase": "after",
+      "title": { "fr": "Valider le VLS-TS en ligne après l'arrivée", "en": "Validate the VLS-TS online after arrival" },
+      "body": {
+        "fr": "Dans les 3 mois suivant l'arrivée en France, il faut valider le visa de long séjour valant titre de séjour (VLS-TS) sur le site de l'ANEF et payer une taxe, qui s'ajoute aux droits de visa. Cette validation permet d'être en séjour régulier et de pouvoir repasser la frontière de l'espace Schengen. Montants indiqués par service-public : 100 € pour un étudiant, 300 € pour un salarié (CDI ou CDD). Depuis le 1er mai 2026, la taxe est de 300 €, avec un tarif réduit de 100 € pour certains motifs, dont le regroupement familial.",
+        "en": "Within 3 months of arriving in France, you must validate the long-stay visa equivalent to a residence permit (VLS-TS) on the ANEF website and pay a tax, on top of the visa fee. This validation makes your stay legal and lets you cross the Schengen border again. Amounts given by service-public: €100 for a student, €300 for an employee (permanent or fixed-term contract). Since 1 May 2026, the tax is €300, with a reduced rate of €100 for some purposes, including family reunification."
+      },
+      "link": {
+        "title": { "fr": "Ouvrir le site de l'ANEF", "en": "Open the ANEF website" },
+        "url": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/"
+      },
+      "condition": {
+        "any": [
+          { "question": "purpose_long", "in": ["studies", "employee", "family_reunification"] },
+          { "question": "spouse_algerian", "equals": "no" },
+          { "question": "talent_duration", "equals": "less_than_1y" }
+        ]
+      },
+      "sources": ["sp_f16162", "sp_r52684", "sp_f2231", "sp_f15898", "sp_f1764", "sp_f11166", "sp_f16922", "sp_a18881"],
+      "guides": ["anef_account"]
+    },
+    {
+      "id": "talent_card_online",
+      "phase": "after",
+      "title": { "fr": "Demander la carte de séjour \"talent\" en ligne", "en": "Apply online for the \"talent\" residence card" },
+      "body": {
+        "fr": "Pour un séjour d'1 an ou plus, le consulat délivre un visa de long séjour \"talent\" de 3 mois. La demande de carte de séjour se fait ensuite sur le site de l'ANEF, dans les 2 mois suivant l'entrée en France.",
+        "en": "For a stay of 1 year or more, the consulate issues a 3-month \"talent\" long-stay visa. You then apply for the residence card on the ANEF website, within 2 months of entering France."
+      },
+      "link": {
+        "title": { "fr": "Ouvrir le site de l'ANEF", "en": "Open the ANEF website" },
+        "url": "https://administration-etrangers-en-france.interieur.gouv.fr/particuliers/#/"
+      },
+      "condition": { "question": "talent_duration", "equals": "one_year_or_more" },
+      "sources": ["sp_f16922"],
+      "guides": ["anef_account"]
+    },
+    {
+      "id": "reunification_arrival",
+      "phase": "after",
+      "title": { "fr": "Entrer en France à temps et passer la visite médicale", "en": "Enter France in time and attend the medical check" },
+      "body": {
+        "fr": "La famille doit entrer en France dans les 3 mois suivant la délivrance des visas. Les frais de voyage sont à sa charge. Une visite médicale a lieu après l'arrivée, ou parfois dans le pays de départ si l'Ofii y est représenté. Le certificat médical remis par l'Ofii est indispensable pour obtenir un titre de séjour.",
+        "en": "The family must enter France within 3 months of the visas being issued. Travel costs are paid by the family. A medical check takes place after arrival, or sometimes in the home country if Ofii has an office there. The medical certificate given by Ofii is required to get a residence permit."
+      },
+      "condition": {
+        "all": [
+          { "question": "purpose_long", "equals": "family_reunification" },
+          { "question": "reunification_authorized", "equals": "yes" }
+        ]
+      },
+      "sources": ["sp_f11166"]
+    }
+  ],
+  "deadlines": [
+    {
+      "id": "application_window_start",
+      "relativeTo": "departure_date",
+      "offsetDays": -90,
+      "title": {
+        "fr": "À partir de cette date environ, vous pouvez déposer la demande de visa (3 mois avant le départ)",
+        "en": "From around this date, you can submit the visa application (3 months before departure)"
+      },
+      "condition": {
+        "any": [
+          { "question": "stay_length", "equals": "long" },
+          { "question": "has_schengen_permit", "equals": "no" }
+        ]
+      },
+      "sources": ["sp_f16146", "sp_f16162"]
+    },
+    {
+      "id": "vls_ts_validation_limit",
+      "relativeTo": "departure_date",
+      "offsetDays": 90,
+      "title": {
+        "fr": "Date limite pour valider le VLS-TS (3 mois après l'arrivée), si vous arrivez à la date prévue",
+        "en": "Deadline to validate the VLS-TS (3 months after arrival), if you arrive on the planned date"
+      },
+      "condition": {
+        "any": [
+          { "question": "purpose_long", "in": ["studies", "employee", "family_reunification"] },
+          { "question": "spouse_algerian", "equals": "no" },
+          { "question": "talent_duration", "equals": "less_than_1y" }
+        ]
+      },
+      "sources": ["sp_f16162", "sp_r52684"]
+    },
+    {
+      "id": "talent_card_limit",
+      "relativeTo": "departure_date",
+      "offsetDays": 60,
+      "title": {
+        "fr": "Date limite pour demander la carte \"talent\" (2 mois après l'entrée), si vous arrivez à la date prévue",
+        "en": "Deadline to apply for the \"talent\" card (2 months after entry), if you arrive on the planned date"
+      },
+      "condition": { "question": "talent_duration", "equals": "one_year_or_more" },
+      "sources": ["sp_f16922"]
+    }
+  ],
+  "outcomes": [
+    {
+      "id": "european_no_visa",
+      "kind": "redirect",
+      "condition": { "question": "nationality_group", "equals": "eu_eea_swiss" },
+      "title": {
+        "fr": "Pas de visa demandé pour cette nationalité",
+        "en": "No visa required for this nationality"
+      },
+      "body": {
+        "fr": "D'après service-public, les citoyens européens entrent dans l'espace Schengen avec une carte nationale d'identité ou un passeport en cours de validité. Les citoyens d'un pays de l'Espace économique européen et les Suisses n'ont pas besoin de visa de long séjour ni de titre de séjour pour rester plus de 3 mois.",
+        "en": "According to service-public, European citizens enter the Schengen area with a valid national ID card or passport. Citizens of a European Economic Area country and Swiss nationals do not need a long-stay visa or a residence permit to stay more than 3 months."
+      },
+      "actions": [
+        {
+          "title": { "fr": "Si un membre de la famille n'est pas européen", "en": "If a family member is not European" },
+          "body": {
+            "fr": "Les membres de la famille qui accompagnent un citoyen européen et qui ont une autre nationalité doivent avoir une carte de séjour particulière. Service-public explique laquelle.",
+            "en": "Family members who come with a European citizen and have another nationality must hold a specific residence card. Service-public explains which one."
+          },
+          "link": {
+            "title": { "fr": "Lire la fiche", "en": "Read the page" },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F39"
+          }
+        }
+      ],
+      "contacts": ["france_services"],
+      "sources": ["sp_f1765", "sp_f39", "sp_f16162"]
+    },
+    {
+      "id": "microstate_long_stay",
+      "kind": "redirect",
+      "condition": {
+        "all": [
+          { "question": "nationality_group", "equals": "microstate" },
+          { "question": "stay_length", "equals": "long" }
+        ]
+      },
+      "title": {
+        "fr": "Pas de visa de long séjour pour cette nationalité",
+        "en": "No long-stay visa for this nationality"
+      },
+      "body": {
+        "fr": "D'après service-public, les ressortissants d'Andorre, de Monaco, de Saint-Marin et du Saint-Siège (Vatican) sont dispensés de visa de long séjour, en application d'accords internationaux.",
+        "en": "According to service-public, nationals of Andorra, Monaco, San Marino and the Holy See (Vatican) do not need a long-stay visa, under international agreements."
+      },
+      "actions": [
+        {
+          "title": { "fr": "Vérifier votre situation", "en": "Check your situation" },
+          "body": {
+            "fr": "L'assistant visa de France-Visas donne la réponse pour votre nationalité et votre motif.",
+            "en": "The France-Visas wizard gives the answer for your nationality and purpose."
+          },
+          "link": {
+            "title": { "fr": "Ouvrir l'assistant visa", "en": "Open the visa wizard" },
+            "url": "https://france-visas.gouv.fr/web/france-visas/assistant-visa#/"
+          }
+        }
+      ],
+      "contacts": ["france_services"],
+      "sources": ["sp_f16162", "sp_r50475"]
+    },
+    {
+      "id": "microstate_short_stay",
+      "kind": "warning",
+      "condition": {
+        "all": [
+          { "question": "nationality_group", "equals": "microstate" },
+          { "question": "stay_length", "equals": "short" }
+        ]
+      },
+      "title": {
+        "fr": "Vérifiez d'abord si un visa est nécessaire",
+        "en": "First check whether a visa is needed"
+      },
+      "body": {
+        "fr": "Selon la nationalité et le type de passeport, une personne peut être dispensée de visa de court séjour. Les pages consultées ne disent pas si c'est le cas pour votre nationalité : l'assistant visa de France-Visas donne la réponse.",
+        "en": "Depending on nationality and passport type, a person may not need a short-stay visa. The pages consulted do not say whether this applies to your nationality: the France-Visas wizard gives the answer."
+      },
+      "actions": [
+        {
+          "title": { "fr": "Utiliser l'assistant visa", "en": "Use the visa wizard" },
+          "body": {
+            "fr": "Si l'assistant indique qu'aucun visa n'est nécessaire, les autres conditions d'entrée restent à respecter (passeport, ressources, assurance).",
+            "en": "If the wizard says no visa is needed, the other entry conditions still apply (passport, money, insurance)."
+          },
+          "link": {
+            "title": { "fr": "Ouvrir l'assistant visa", "en": "Open the visa wizard" },
+            "url": "https://france-visas.gouv.fr/web/france-visas/assistant-visa#/"
+          }
+        }
+      ],
+      "sources": ["sp_f16146", "sp_r50475", "sp_f1765"]
+    },
+    {
+      "id": "schengen_permit_short_stay",
+      "kind": "redirect",
+      "condition": {
+        "all": [
+          { "question": "has_schengen_permit", "equals": "yes" },
+          { "question": "stay_length", "equals": "short" }
+        ]
+      },
+      "title": {
+        "fr": "Le visa de court séjour ne semble pas correspondre à votre situation",
+        "en": "The short-stay visa does not seem to fit your situation"
+      },
+      "body": {
+        "fr": "D'après service-public, le visa de court séjour Schengen concerne les personnes qui n'ont pas de titre de séjour ni de visa de long séjour dans un pays de l'espace Schengen. Avec un titre de séjour (ou un visa de long séjour d'1 an ou plus) d'un pays Schengen, on passe la frontière en présentant un passeport en cours de validité et ce titre.",
+        "en": "According to service-public, the Schengen short-stay visa is for people who have no residence permit or long-stay visa in a Schengen country. With a residence permit (or a long-stay visa of 1 year or more) from a Schengen country, you cross the border by showing a valid passport and this permit."
+      },
+      "actions": [
+        {
+          "title": { "fr": "Vérifier avant de partir", "en": "Check before you travel" },
+          "body": {
+            "fr": "Les séjours restent limités à 90 jours sur 180 jours. L'assistant visa de France-Visas permet de confirmer votre cas.",
+            "en": "Stays are still limited to 90 days in any 180 days. The France-Visas wizard lets you confirm your case."
+          },
+          "link": {
+            "title": { "fr": "Ouvrir l'assistant visa", "en": "Open the visa wizard" },
+            "url": "https://france-visas.gouv.fr/web/france-visas/assistant-visa#/"
+          }
+        }
+      ],
+      "sources": ["sp_f16146", "sp_f1765", "sp_r50475"]
+    },
+    {
+      "id": "schengen_permit_long_stay",
+      "kind": "warning",
+      "condition": {
+        "all": [
+          { "question": "has_schengen_permit", "equals": "yes" },
+          { "question": "stay_length", "equals": "long" }
+        ]
+      },
+      "title": {
+        "fr": "Certains titres d'un autre pays européen dispensent du visa de long séjour",
+        "en": "Some permits from another European country remove the need for a long-stay visa"
+      },
+      "body": {
+        "fr": "D'après service-public, sont notamment dispensés de visa de long séjour : la personne qui a une \"carte de séjour de membre de la famille d'un citoyen de l'Union\" délivrée par un État de l'UE ; la personne qui a une carte de résident de longue durée-UE d'un autre État de l'UE, et sa famille ; certains salariés ICT en mobilité longue ; la personne qui a séjourné au moins 1 an dans un autre État de l'UE avec une carte bleue européenne, et sa famille. Dans les autres cas, un visa de long séjour reste demandé.",
+        "en": "According to service-public, the following people in particular do not need a long-stay visa: holders of a \"residence card of a family member of a Union citizen\" issued by an EU country; holders of an EU long-term resident card from another EU country, and their family; some ICT employees on long-term mobility; people who have lived at least 1 year in another EU country with an EU Blue Card, and their family. In other cases, a long-stay visa is still required."
+      },
+      "actions": [
+        {
+          "title": { "fr": "Lire la liste complète", "en": "Read the full list" },
+          "body": {
+            "fr": "La fiche service-public sur le visa de long séjour détaille ces dispenses.",
+            "en": "The service-public page on long-stay visas lists these exemptions in detail."
+          },
+          "link": {
+            "title": { "fr": "Lire la fiche", "en": "Read the page" },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F16162"
+          }
+        }
+      ],
+      "contacts": ["france_services"],
+      "sources": ["sp_f16162"]
+    },
+    {
+      "id": "reunification_not_filed",
+      "kind": "redirect",
+      "condition": { "question": "reunification_authorized", "equals": "no" },
+      "title": {
+        "fr": "La demande commence en France, auprès de l'Ofii",
+        "en": "The request starts in France, with Ofii"
+      },
+      "body": {
+        "fr": "D'après service-public, le regroupement familial est demandé par l'étranger qui vit en France avec un titre de séjour. Il transmet son dossier à l'Office français de l'immigration et de l'intégration (Ofii), sur internet ou par courrier recommandé. C'est le préfet qui décide. La demande de visa de la famille vient ensuite.",
+        "en": "According to service-public, family reunification is requested by the foreign national who lives in France with a residence permit. They send their file to the French Office for Immigration and Integration (Ofii), online or by registered mail. The prefect decides. The family's visa application comes afterwards."
+      },
+      "actions": [
+        {
+          "title": { "fr": "Pour la personne qui vit en France", "en": "For the family member in France" },
+          "body": {
+            "fr": "Service-public indique les conditions (séjour régulier, durée de résidence, ressources, logement) et propose un simulateur et la demande en ligne.",
+            "en": "Service-public explains the conditions (legal stay, length of residence, income, housing) and offers a simulator and the online application."
+          },
+          "link": {
+            "title": { "fr": "Faire la demande de regroupement familial", "en": "Apply for family reunification" },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/R68987"
+          }
+        }
+      ],
+      "contacts": ["france_services"],
+      "sources": ["sp_f11166", "sp_r68987"]
+    },
+    {
+      "id": "work_authorization_missing",
+      "kind": "redirect",
+      "condition": { "question": "work_authorization_obtained", "equals": "no" },
+      "title": {
+        "fr": "Il faut d'abord l'autorisation de travail",
+        "en": "The work authorisation comes first"
+      },
+      "body": {
+        "fr": "D'après service-public, pour venir travailler comme salarié, l'employeur doit faire la demande d'autorisation de travail sur internet avant votre entrée en France. Le visa se demande après l'accord.",
+        "en": "According to service-public, to come and work as an employee, the employer must apply online for the work authorisation before you enter France. The visa is requested after it is granted."
+      },
+      "actions": [
+        {
+          "title": { "fr": "Ce que vous pouvez faire", "en": "What you can do" },
+          "body": {
+            "fr": "Demandez à votre futur employeur où en est la demande. Revenez à cette démarche quand il vous a prévenu de l'accord.",
+            "en": "Ask your future employer about the status of the request. Come back to this procedure once they have told you it was granted."
+          },
+          "link": {
+            "title": { "fr": "Lire la fiche", "en": "Read the page" },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F15898"
+          }
+        }
+      ],
+      "sources": ["sp_f15898"]
+    },
+    {
+      "id": "algerian_spouse",
+      "kind": "warning",
+      "condition": { "question": "spouse_algerian", "equals": "yes" },
+      "title": {
+        "fr": "Règles particulières pour les Algériens",
+        "en": "Specific rules for Algerian nationals"
+      },
+      "body": {
+        "fr": "D'après service-public, l'Algérien marié avec un Français doit entrer en France avec un visa, et un visa de court séjour suffit. Pendant la validité de ce visa, il demande un certificat de résidence algérien d'1 an \"vie privée et familiale\". Il n'y a donc pas de VLS-TS à valider.",
+        "en": "According to service-public, an Algerian married to a French national must enter France with a visa, and a short-stay visa is enough. While this visa is valid, they apply for a 1-year Algerian residence certificate \"vie privée et familiale\" (private and family life). So there is no VLS-TS to validate."
+      },
+      "actions": [
+        {
+          "title": { "fr": "Lire la fiche", "en": "Read the page" },
+          "body": {
+            "fr": "Service-public détaille ensuite le certificat de résidence.",
+            "en": "Service-public then explains the residence certificate."
+          },
+          "link": {
+            "title": { "fr": "Lire la fiche", "en": "Read the page" },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1764"
+          }
+        }
+      ],
+      "contacts": ["prefecture_directory"],
+      "sources": ["sp_f1764"]
+    },
+    {
+      "id": "marriage_not_transcribed",
+      "kind": "warning",
+      "condition": { "question": "marriage_place", "equals": "abroad_not_transcribed" },
+      "title": {
+        "fr": "Le mariage doit être transcrit",
+        "en": "The marriage must be transcribed"
+      },
+      "body": {
+        "fr": "D'après service-public, un mariage célébré à l'étranger doit être transcrit sur les registres français du service central d'état civil de Nantes pour être reconnu en France. La transcription fait partie des conditions du titre de séjour d'époux de Français.",
+        "en": "According to service-public, a marriage celebrated abroad must be transcribed in the French registers of the central civil status office in Nantes to be recognised in France. Transcription is one of the conditions for the spouse-of-a-French-national residence permit."
+      },
+      "actions": [
+        {
+          "title": { "fr": "Lire la fiche", "en": "Read the page" },
+          "body": {
+            "fr": "La fiche service-public sur l'époux étranger d'un Français rappelle toutes les conditions.",
+            "en": "The service-public page on foreign spouses of French nationals lists all the conditions."
+          },
+          "link": {
+            "title": { "fr": "Lire la fiche", "en": "Read the page" },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1764"
+          }
+        }
+      ],
+      "sources": ["sp_f1764"]
+    },
+    {
+      "id": "paid_activity_short",
+      "kind": "warning",
+      "condition": { "question": "purpose_short", "equals": "paid_activity" },
+      "title": {
+        "fr": "Une autorisation de travail peut être demandée",
+        "en": "A work authorisation may be required"
+      },
+      "body": {
+        "fr": "D'après service-public, pour travailler pendant un court séjour, il faut une autorisation de travail, sauf pour certaines activités listées (événements, colloques, spectacles, mannequinat, professeur invité, etc.).",
+        "en": "According to service-public, to work during a short stay you need a work authorisation, except for some listed activities (events, conferences, shows, modelling, visiting professor, etc.)."
+      },
+      "actions": [
+        {
+          "title": { "fr": "Lire la fiche", "en": "Read the page" },
+          "body": {
+            "fr": "La fiche service-public sur le visa de court séjour donne la liste complète.",
+            "en": "The service-public page on short-stay visas gives the full list."
+          },
+          "link": {
+            "title": { "fr": "Lire la fiche", "en": "Read the page" },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F16146"
+          }
+        }
+      ],
+      "sources": ["sp_f16146"]
+    },
+    {
+      "id": "working_holiday_check",
+      "kind": "warning",
+      "condition": { "question": "purpose_long", "equals": "working_holiday" },
+      "title": {
+        "fr": "Le visa vacances-travail dépend de votre pays et de votre âge",
+        "en": "The working holiday visa depends on your country and age"
+      },
+      "body": {
+        "fr": "D'après service-public, ce visa n'est délivré que si votre pays a un accord \"vacances-travail\" avec la France (ou sans accord pour les Taïwanais). Selon le pays, il concerne les jeunes de 18 à 30 ans ou de 18 à 35 ans. Il dure 1 an au maximum, sauf exceptions prévues par certains accords.",
+        "en": "According to service-public, this visa is only issued if your country has a working holiday agreement with France (or without an agreement for Taiwanese nationals). Depending on the country, it is for young people aged 18 to 30 or 18 to 35. It lasts 1 year at most, except where some agreements provide otherwise."
+      },
+      "actions": [
+        {
+          "title": { "fr": "Voir les pays concernés", "en": "See the countries concerned" },
+          "body": {
+            "fr": "La fiche service-public détaille les règles pays par pays.",
+            "en": "The service-public page gives the rules country by country."
+          },
+          "link": {
+            "title": { "fr": "Lire la fiche", "en": "Read the page" },
+            "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F16162"
+          }
+        }
+      ],
+      "sources": ["sp_f16162"]
+    },
+    {
+      "id": "too_early_to_apply",
+      "kind": "warning",
+      "condition": { "question": "departure_date", "daysFromToday": { "min": 91 } },
+      "title": {
+        "fr": "Le départ est dans plus de 3 mois",
+        "en": "Departure is more than 3 months away"
+      },
+      "body": {
+        "fr": "Service-public indique que la demande de visa se fait au plus tôt 3 mois avant le départ prévu. Vous pouvez déjà préparer les pièces.",
+        "en": "Service-public says the visa application can be made at the earliest 3 months before the planned departure. You can already prepare the documents."
+      },
+      "actions": [],
+      "sources": ["sp_f16146", "sp_f16162"]
+    },
+    {
+      "id": "refusal_short_stay",
+      "kind": "warning",
+      "condition": {
+        "all": [
+          { "question": "previous_refusal", "equals": "yes" },
+          { "question": "stay_length", "equals": "short" }
+        ]
+      },
+      "title": {
+        "fr": "Refus de visa de court séjour : un recours préalable est obligatoire",
+        "en": "Short-stay visa refusal: a prior administrative appeal is required"
+      },
+      "body": {
+        "fr": "D'après service-public, avant de saisir le juge, il faut faire un recours administratif préalable obligatoire (Rapo). Il s'adresse par écrit au sous-directeur des visas (ministère de l'intérieur), dans un délai de 30 jours à partir de la notification du refus. Si le Rapo est rejeté, ou sans réponse dans les 2 mois, un recours en annulation peut être déposé dans les 2 mois devant le tribunal administratif de Nantes. Un recours ne rembourse pas les droits de visa.",
+        "en": "According to service-public, before going to court, you must file a mandatory prior administrative appeal (Rapo). It is sent in writing to the deputy director for visas (Ministry of the Interior), within 30 days of being notified of the refusal. If the Rapo is rejected, or not answered within 2 months, an annulment appeal can be filed within 2 months with the Nantes administrative court. An appeal does not refund the visa fee."
+      },
+      "actions": [
+        {
+          "title": { "fr": "Écrire au sous-directeur des visas", "en": "Write to the deputy director for visas" },
+          "body": {
+            "fr": "Adresse postale indiquée par l'annuaire de service-public : Sous-direction des visas, 11 rue de la Maison-Blanche, BP 103, 44036 Nantes Cedex 01. L'annuaire propose aussi une saisine par voie électronique.",
+            "en": "Postal address given by the service-public directory: Sous-direction des visas, 11 rue de la Maison-Blanche, BP 103, 44036 Nantes Cedex 01, France. The directory also offers an online contact form."
+          },
+          "link": {
+            "title": { "fr": "Voir la fiche de l'annuaire", "en": "See the directory entry" },
+            "url": "https://lannuaire.service-public.gouv.fr/gouvernement/ce6b3401-52a5-40eb-95af-1c612142e968"
+          }
+        },
+        {
+          "title": { "fr": "Se faire aider", "en": "Get help" },
+          "body": {
+            "fr": "Un point-justice peut vous informer gratuitement sur vos droits et les recours.",
+            "en": "A point-justice can give you free information about your rights and appeals."
+          }
+        }
+      ],
+      "contacts": ["point_justice", "france_services"],
+      "sources": ["sp_f16146", "annuaire_sdv"]
+    },
+    {
+      "id": "refusal_long_stay",
+      "kind": "warning",
+      "condition": {
+        "all": [
+          { "question": "previous_refusal", "equals": "yes" },
+          { "question": "stay_length", "equals": "long" }
+        ]
+      },
+      "title": {
+        "fr": "Refus de visa de long séjour : la commission de recours doit être saisie",
+        "en": "Long-stay visa refusal: the appeals commission must be contacted"
+      },
+      "body": {
+        "fr": "D'après service-public, vous pouvez demander au consulat de revoir sa décision (recours gracieux). Vous pouvez aussi saisir la Commission de recours contre les décisions de refus de visa d'entrée en France (CRRV), par courrier uniquement. Ce recours est obligatoire avant tout recours devant le juge. Il doit être fait dans les 30 jours suivant la notification du refus écrit, ou le refus implicite (pas de réponse du consulat en 2 mois). Il doit être motivé, rédigé en français, signé, avec les documents utiles. Un membre de la famille peut aussi le faire. Si la CRRV rejette le recours (ou ne répond pas en 2 mois), un recours en annulation est possible dans les 2 mois devant le tribunal administratif de Nantes.",
+        "en": "According to service-public, you can ask the consulate to review its decision (informal appeal). You can also contact the Commission for appeals against visa refusals (CRRV), by post only. This appeal is mandatory before any court case. It must be filed within 30 days of the written refusal being notified, or of the implicit refusal (no answer from the consulate within 2 months). It must give reasons, be written in French, be signed and include useful documents. A family member can also file it. If the CRRV rejects the appeal (or does not answer within 2 months), an annulment appeal is possible within 2 months with the Nantes administrative court."
+      },
+      "actions": [
+        {
+          "title": { "fr": "Écrire à la CRRV", "en": "Write to the CRRV" },
+          "body": {
+            "fr": "Adresse postale indiquée par l'annuaire de service-public : Commission de recours contre les refus de visas, BP 83609, 44036 Nantes Cedex 01.",
+            "en": "Postal address given by the service-public directory: Commission de recours contre les refus de visas, BP 83609, 44036 Nantes Cedex 01, France."
+          },
+          "link": {
+            "title": { "fr": "Voir la fiche de l'annuaire", "en": "See the directory entry" },
+            "url": "https://lannuaire.service-public.gouv.fr/gouvernement/2d7cc402-d543-4729-9e56-e4da3ed8bbc6"
+          }
+        },
+        {
+          "title": { "fr": "Se faire aider", "en": "Get help" },
+          "body": {
+            "fr": "Un point-justice peut vous informer gratuitement sur vos droits et les recours.",
+            "en": "A point-justice can give you free information about your rights and appeals."
+          }
+        }
+      ],
+      "contacts": ["point_justice", "france_services"],
+      "sources": ["sp_f16162", "annuaire_crrv"]
+    }
+  ],
+  "reviewNotes": [
+    "France-Visas inaccessible : france-visas.gouv.fr (et immigration.interieur.gouv.fr) renvoient une erreur 403 à nos outils de lecture. Aucune page France-Visas n'a été lue. Les liens France-Visas du fichier (assistant visa, demande de visa, lieu de dépôt) viennent des pages service-public R50475, R50559, R56971, R56972, R57009, F16146 et F16162, qui y renvoient. Toutes les informations du fichier viennent de service-public, de l'annuaire service-public et de diplomatie.gouv.fr.",
+    "Frais de visa 2026 : non trouvés. Service-public (F16146, F16162, R56972) renvoie à la rubrique Tarifs de France-Visas, non lisible. Aucun montant n'est donc donné. À compléter après lecture de France-Visas.",
+    "Photos d'identité : service-public indique seulement que la photo et les empreintes sont enregistrées dans Visabio. Le format et le nombre de photos à fournir ne sont pas publiés dans les pages lues : pas de pièce \"photo\" ni de fiche ephoto rattachée. À compléter depuis France-Visas.",
+    "Délai de traitement : aucune source lue ne donne un délai habituel d'instruction. Seul le refus implicite au bout de 2 mois est repris (F16146, F16162). Une page d'ambassade (vu.diplomatie.gouv.fr, vue seulement en résultat de recherche) évoque 5 jours ouvrés minimum pour un court séjour et 15 pour un long séjour : non lue, non reprise.",
+    "Date de dépôt : service-public (F16146, F16162, F21921) écrit \"au plus tôt 3 mois avant le départ\" / \"pas plus de 3 mois avant\". Un résultat de recherche (page d'ambassade non lue) évoque jusqu'à 6 mois avant le départ, ce qui correspondrait au code des visas européen. Contradiction possible ; la règle service-public est reprise, à vérifier sur France-Visas.",
+    "Conversions de délais : \"3 mois\" converti en 90 jours (fenêtre de dépôt J-90, validation du VLS-TS J+90, alerte trop tôt à partir de 91 jours) et \"2 mois\" en 60 jours (carte talent). Les échéances après l'arrivée sont calculées depuis la date de départ saisie, en supposant une arrivée le même jour : c'est indiqué dans leur titre.",
+    "Taxe de validation du VLS-TS : montants repris seulement là où une source les donne : 100 € étudiant (F2231, 01/08/2026), 300 € salarié CDI et CDD (F15898, 01/05/2026), 300 € tarif normal et 100 € tarif réduit dont regroupement familial (actualité A18881, mise à jour 12/05/2026). Pour l'époux de Français (F1764) et le talent (F16922), aucun montant n'est donné : non précisé. Les résultats de recherche montraient \"150 €\" sur la version anglaise de F2231 : la version française dit 100 €, reprise.",
+    "Recours : pour le court séjour, F16146 (13/08/2026) indique un Rapo auprès du sous-directeur des visas sous 30 jours, et non la CRRV. Pour le long séjour, F16162 (09/10/2026) indique la CRRV sous 30 jours, avec refus implicite du consulat au bout de 2 mois. L'annuaire de la CRRV parle d'un refus implicite \"après 30 jours d'absence de réponse\" : contradiction avec F16162, le délai de F16162 est repris.",
+    "Nationalités : la liste des pays dispensés de visa de court séjour n'est pas recopiée ; la question renvoie à l'assistant visa. Pour Andorre, Monaco, Saint-Marin et le Vatican, seule la dispense de visa de long séjour est sourcée (F16162) ; le court séjour renvoie à l'assistant.",
+    "Algériens : seules les règles pour l'époux ou l'épouse de Français sont traitées (F1764). F15898 et F2231 signalent des règles différentes pour les Algériens (salarié, étudiant) sans les détailler ici ; F11166 a un onglet \"Famille algérienne\" non repris. Le VLS-TS peut donc ne pas s'appliquer à un Algérien salarié ou étudiant : à vérifier.",
+    "Regroupement familial : F11166 parle d'\"attestation de dépôt\" transmise à la famille avant la demande de visa ; le texte a été repris tel quel, mais l'ordre exact (dépôt, décision du préfet, visa) mériterait une relecture. La question de l'app demande seulement si le dossier a été déposé à l'Ofii.",
+    "Motifs non détaillés : vacances-travail, visiteur, \"autre\", stage, formation courte et voyage d'affaires n'ont que des pièces génériques ; service-public renvoie à France-Visas pour la liste. Le visa \"étudiant-concours\" (F16189), le visa mineur scolarisé et l'outre-mer (F10610) ne sont pas traités.",
+    "diplomatie.gouv.fr : les deux pages utilisées portent \"Mise à jour : décembre 2019\" dans leur texte, malgré une date de mise à jour 2026 en en-tête. Elles servent seulement pour le rôle de l'assistant France-Visas et des prestataires de services extérieurs. Les noms des prestataires ne sont pas cités dans les textes affichés.",
+    "Système européen d'entrée/sortie (EES) : mentionné par service-public (F16146, F21921), non repris dans les étapes.",
+    "Fiches pratiques : fiscal_stamp (attestation d'accueil) et anef_account (validation du VLS-TS) sont référencées ; help.json ne contient pas encore de tableau guides. Le fichier catalog.json n'a pas été modifié : l'entrée visa_to_france reste à ajouter.",
+    "Contacts : point_justice et france_services proposés pour les refus ; aucune source lue ne décrit leur rôle pour les visas en particulier."
+  ]
+}
