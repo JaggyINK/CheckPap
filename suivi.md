@@ -97,6 +97,12 @@ Dernière mise à jour du plan : 29/10/2026.
 - Annuaire des préfectures (`prefectures.json`) : 101 départements avec adresse, téléphone et sous-préfectures ; site vérifié pour 50, page de rendez-vous pour Paris seulement (les sites des préfectures ont bloqué les vérifications). Sinon, l'app ouvre la fiche de la préfecture dans l'annuaire de l'administration.
 - À faire : relancer la vérification des sites et pages de rendez-vous des préfectures, lentement (une requête toutes les 3 secondes).
 
+**30/10/2026 (suite)**
+- Écran d'accueil au premier lancement : langue (langue du téléphone par défaut) puis code postal (facultatif), réutilisé pour la préfecture. Page Réglages (roue dentée dans Actualités) pour les changer.
+- 18 langues prévues : français, anglais, arabe, bengali, hindi, chinois simplifié, russe, indonésien, thaï, turc, ukrainien, dari, pachto, ourdou, tamoul, tigrigna, portugais, espagnol. Écriture de droite à gauche gérée (arabe, dari, pachto, ourdou). Si un contenu n'est pas traduit : anglais, puis français, avec un message.
+- Traduction de l'interface et des titres en cours (3 lots de langues) ; le contenu détaillé des démarches reste en français et en anglais pour l'instant.
+- Dossier `AppStore/` : fiche FR et EN (longueurs vérifiées), politique de confidentialité FR et EN (+ pages web), réponses aux questionnaires, notes pour Apple, script de captures (10 captures 1320 x 2868 générées). Manifeste de confidentialité ajouté à l'app.
+
 ## Feuille de route après la v1 (demandes de l'utilisatrice)
 
 - [ ] **Annuaire des consulats par nationalité et par lieu** (les fiches pays donnent déjà le lien vers l'ambassade du pays en France) : pour un passeport étranger, indiquer le consulat compétent selon le pays et le département de la personne. Nécessite une source structurée et maintenue (liste des représentations étrangères en France) et l'écran de choix du département (tâche 3.5).
@@ -2195,5 +2201,5 @@ git tag v1.0.0 && git push --tags
 27. Fréquence de mise à jour de l'annuaire des préfectures (régénération depuis l'annuaire officiel à chaque version de contenu ?).
 
 - [ ] **Actualités automatiques** : tâche planifiée (GitHub Actions) qui lit l'API Légifrance (compte PISTE à créer) et les actualités de service-public, propose des brouillons d'articles en pull request, publication après validation humaine ; l'app télécharge `news.json` en ligne.
-- [ ] **Traductions** : passer en anglais tous les nouveaux textes de l'interface (String Catalog).
+- [ ] **Traductions** : interface et titres en 18 langues (en cours) ; contenu détaillé des démarches, droits et actualités dans les langues prioritaires (à décider) ; relecture par des locuteurs natifs.
 - [ ] **Relecture humaine** de tout le contenu (statut "draft") et vérification des délais après le décret n°2026-1001.

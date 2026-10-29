@@ -4,6 +4,7 @@ import SwiftUI
 struct NewsView: View {
     @Environment(ContentStore.self) private var store
     @State private var filter: String?
+    @State private var showSettings = false
 
     var body: some View {
         ScrollView {
@@ -35,12 +36,25 @@ struct NewsView: View {
         .scrollIndicators(.hidden)
         .background(AppBackground())
         .toolbar(.hidden, for: .navigationBar)
+        .sheet(isPresented: $showSettings) { SettingsView() }
     }
 
     private var header: some View {
         VStack(alignment: .leading, spacing: 18) {
-            Wordmark()
-                .padding(.top, 8)
+            HStack {
+                Wordmark()
+                Spacer()
+                Button {
+                    showSettings = true
+                } label: {
+                    Image(systemName: "gearshape")
+                        .font(.title3)
+                        .frame(width: 44, height: 44)
+                }
+                .secondaryGlassButton()
+                .accessibilityLabel(Text("Réglages"))
+            }
+            .padding(.top, 8)
             VStack(alignment: .leading, spacing: 6) {
                 Text("Ce qui change pour vous")
                     .font(.largeTitle.weight(.bold))

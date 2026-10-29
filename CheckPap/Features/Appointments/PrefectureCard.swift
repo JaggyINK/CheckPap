@@ -5,8 +5,8 @@ import SwiftUI
 struct PrefectureCard: View {
     @Environment(ContentStore.self) private var store
     @Environment(\.locale) private var locale
-    @AppStorage("departmentCode") private var departmentCode = ""
-    @AppStorage("postalCode") private var postalCode = ""
+    @AppStorage(UserLocation.departmentKey) private var departmentCode = ""
+    @AppStorage(UserLocation.postalCodeKey) private var postalCode = ""
     @State private var input = ""
     @State private var notFound = false
     @State private var choosing = false

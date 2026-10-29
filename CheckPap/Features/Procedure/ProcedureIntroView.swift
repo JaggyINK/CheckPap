@@ -6,6 +6,7 @@ struct ProcedureIntroView: View {
     @Environment(ContentStore.self) private var store
     @Environment(Router.self) private var router
     @State private var iconBounce = false
+    @Environment(\.locale) private var locale
 
     private var symbol: String {
         store.catalog?.procedures.first { $0.id == procedure.id }?.symbol ?? "doc.text"
@@ -31,6 +32,13 @@ struct ProcedureIntroView: View {
                         .foregroundStyle(.secondary)
                 }
                 .staggeredAppear(1)
+
+                if !procedure.summary.isAvailable(in: locale) {
+                    Callout(.info, LocalizedText([
+                        "fr": "Cette démarche n'est pas encore traduite dans votre langue : elle s'affiche en anglais.",
+                        "en": "This procedure is not yet translated into your language: it is shown in English.",
+                    ]))
+                }
 
                 howItWorks
                     .staggeredAppear(2)

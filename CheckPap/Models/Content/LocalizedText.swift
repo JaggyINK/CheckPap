@@ -13,10 +13,21 @@ struct LocalizedText: Decodable, Hashable {
         values = try decoder.singleValueContainer().decode([String: String].self)
     }
 
-    /// Texte dans la langue demandée, avec repli sur le français.
+    /// Texte dans la langue demandée. Si le contenu n'est pas encore traduit dans cette langue :
+    /// anglais pour les langues autres que le français, puis français.
     func resolved(_ locale: Locale) -> String {
-        let code = locale.language.languageCode?.identifier ?? "fr"
-        return values[code] ?? values["fr"] ?? values.values.first ?? ""
+        let language = locale.language
+        let code = language.languageCode?.identifier ?? "fr"
+        let script = language.script.map { "\(code)-\($0.identifier)" }
+        return script.flatMap { values[$0] } ?? values[code]
+            ?? (code == "fr" ? nil : values["en"]) ?? values["fr"] ?? values.values.first ?? ""
+    }
+
+    func isAvailable(in locale: Locale) -> Bool {
+        let language = locale.language
+        let code = language.languageCode?.identifier ?? "fr"
+        let script = language.script.map { "\(code)-\($0.identifier)" }
+        return script.map { values[$0] != nil } == true || values[code] != nil
     }
 }
 

@@ -23,6 +23,11 @@ struct ContentComplianceTests {
         "guaranteed approval", "guaranteed success", "you will be granted",
     ]
 
+    /// Clés de langue possibles dans un texte traduit (voir AppLanguage).
+    static let languageCodes: Set<String> = [
+        "fr", "en", "ar", "bn", "hi", "zh-Hans", "ru", "id", "th", "tr", "uk", "fa", "ps", "ur", "ta", "ti", "pt", "es",
+    ]
+
     static func isAllowed(_ url: URL) -> Bool {
         guard url.scheme == "https", let host = url.host() else { return false }
         return allowedHosts.contains { host == $0 || host.hasSuffix("." + $0) } || host.hasSuffix(".gouv.fr")
@@ -138,7 +143,7 @@ struct ContentComplianceTests {
 
             func visit(_ value: Any, path: String) {
                 if let dict = value as? [String: Any] {
-                    if !dict.isEmpty, dict.keys.allSatisfy({ ["fr", "en", "ar"].contains($0) }) {
+                    if !dict.isEmpty, dict.keys.contains("fr"), dict.keys.allSatisfy({ Self.languageCodes.contains($0) }) {
                         for language in ["fr", "en"] where (dict[language] as? String ?? "").isEmpty {
                             missing.append("\(path).\(language)")
                         }
