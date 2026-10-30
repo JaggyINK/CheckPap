@@ -31,7 +31,7 @@ struct ResumeSection: View {
                                 }
                                 .padding(12)
                                 .frame(width: 220, alignment: .leading)
-                                .glassCard(cornerRadius: 18)
+                                .cardSurface(cornerRadius: 18)
                             }
                             .buttonStyle(PressableButtonStyle())
                         }

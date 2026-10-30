@@ -30,7 +30,6 @@ struct ProgressHeader: View {
             VStack(alignment: .leading, spacing: 4) {
                 ContentText(procedure.title)
                     .font(.title3.weight(.bold))
-                    .fontDesign(.rounded)
                     .fixedSize(horizontal: false, vertical: true)
                 if isComplete {
                     Text("Toutes vos pièces sont prêtes.")
@@ -46,7 +45,7 @@ struct ProgressHeader: View {
             Spacer(minLength: 0)
         }
         .padding(18)
-        .glassCard(cornerRadius: 24)
+        .cardSurface(cornerRadius: 24)
         .sensoryFeedback(.success, trigger: isComplete) { _, complete in complete }
     }
 }

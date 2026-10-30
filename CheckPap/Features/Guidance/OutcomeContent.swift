@@ -13,7 +13,6 @@ struct OutcomeContent: View {
             VStack(alignment: .leading, spacing: 8) {
                 ContentText(outcome.title)
                     .font(.title2.weight(.bold))
-                    .fontDesign(.rounded)
                     .fixedSize(horizontal: false, vertical: true)
                 ContentText(outcome.body)
                     .font(.body)
@@ -77,6 +76,6 @@ private struct ActionCard: View {
         }
         .padding(16)
         .frame(maxWidth: .infinity, alignment: .leading)
-        .glassCard(cornerRadius: 18)
+        .cardSurface(cornerRadius: 18)
     }
 }

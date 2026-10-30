@@ -21,7 +21,6 @@ struct ProcedureCard: View {
                     .font(.title3.weight(.semibold))
                     .foregroundStyle(Brand.teal)
                     .frame(width: 46, height: 46)
-                    .background(Brand.mint.opacity(0.18), in: .circle)
 
                 VStack(alignment: .leading, spacing: 3) {
                     ContentText(entry.title)
@@ -61,7 +60,7 @@ struct ProcedureCard: View {
             .padding(16)
             .frame(maxWidth: .infinity, alignment: .leading)
             .contentShape(.rect)
-            .glassCard(cornerRadius: 22)
+            .cardSurface(cornerRadius: 22)
         }
         .buttonStyle(PressableButtonStyle())
         .accessibilityElement(children: .combine)

@@ -43,7 +43,7 @@ struct RightCard: View {
         }
         .padding(16)
         .frame(maxWidth: .infinity, alignment: .leading)
-        .glassCard(cornerRadius: 20)
+        .cardSurface(cornerRadius: 20)
     }
 
     private var details: some View {

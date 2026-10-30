@@ -68,7 +68,7 @@ struct DocumentsSection: View {
                         .font(.caption.weight(.semibold))
                     }
                     .padding(12)
-                    .glassCard(cornerRadius: 14)
+                    .cardSurface(cornerRadius: 14)
                 }
             }
         }

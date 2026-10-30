@@ -37,7 +37,7 @@ struct DocumentReason: View {
         }
         .padding(12)
         .frame(maxWidth: .infinity, alignment: .leading)
-        .background(Brand.mint.opacity(0.10), in: .rect(cornerRadius: 14, style: .continuous))
+        .insetSurface()
         .accessibilityElement(children: .combine)
     }
 }

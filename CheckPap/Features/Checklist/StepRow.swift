@@ -24,7 +24,7 @@ struct StepRow: View {
                     .accessibilityLabel(state == .done ? Text("Marquer l'étape comme à faire") : Text("Marquer l'étape comme faite"))
                 if !isLast {
                     Rectangle()
-                        .fill(state == .done ? Brand.teal.opacity(0.6) : Brand.mint.opacity(0.35))
+                        .fill(state == .done ? Brand.teal.opacity(0.6) : Color(.separator))
                         .frame(width: 2)
                         .frame(maxHeight: .infinity)
                 }
@@ -33,11 +33,8 @@ struct StepRow: View {
             VStack(alignment: .leading, spacing: 8) {
                 if state == .current {
                     Text("Étape en cours")
-                        .font(.caption2.weight(.bold))
-                        .foregroundStyle(.white)
-                        .padding(.horizontal, 8)
-                        .padding(.vertical, 3)
-                        .background(Brand.teal, in: .capsule)
+                        .font(.caption.weight(.semibold))
+                        .foregroundStyle(Brand.teal)
                 }
                 ContentText(step.title)
                     .font(.body.weight(.semibold))
@@ -81,7 +78,7 @@ struct StepRow: View {
         .frame(width: 28, height: 28)
         .overlay {
             if state == .current {
-                Circle().stroke(Brand.mint, lineWidth: 3).padding(-4)
+                Circle().stroke(Brand.teal.opacity(0.35), lineWidth: 2).padding(-3)
             }
         }
     }

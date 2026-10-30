@@ -23,6 +23,13 @@
       "consulted": "2026-10-29"
     },
     {
+      "id": "pref_rdv_01",
+      "publisher": "ain.gouv.fr",
+      "title": "Prendre un rendez-vous - Outils - Les services de l'État dans l'Ain",
+      "url": "https://www.ain.gouv.fr/Outils/Prendre-un-rendez-vous",
+      "consulted": "2026-10-30"
+    },
+    {
       "id": "annuaire_sp_01",
       "publisher": "lannuaire.service-public.gouv.fr",
       "title": "Sous-préfecture - 3 résultat(s) Ain - Annuaire | Service Public",
@@ -35,6 +42,13 @@
       "title": "Préfecture - Aisne - Annuaire | Service Public",
       "url": "https://lannuaire.service-public.gouv.fr/hauts-de-france/aisne/715f7838-001b-4f45-9cd0-cfb95b6b6fd2",
       "consulted": "2026-10-29"
+    },
+    {
+      "id": "pref_rdv_02",
+      "publisher": "aisne.gouv.fr",
+      "title": "Étrangers en France - Démarches - Les services de l'État dans L'Aisne",
+      "url": "https://www.aisne.gouv.fr/Demarches/Etrangers-en-France",
+      "consulted": "2026-10-30"
     },
     {
       "id": "annuaire_sp_02",
@@ -51,6 +65,13 @@
       "consulted": "2026-10-29"
     },
     {
+      "id": "pref_rdv_03",
+      "publisher": "allier.gouv.fr",
+      "title": "Accueil des étrangers dans l'Allier - Démarches - Les services de l'État dans l'Allier",
+      "url": "https://www.allier.gouv.fr/Demarches/Accueil-des-etrangers-dans-l-Allier",
+      "consulted": "2026-10-30"
+    },
+    {
       "id": "annuaire_sp_03",
       "publisher": "lannuaire.service-public.gouv.fr",
       "title": "Sous-préfecture - 2 résultat(s) Allier - Annuaire | Service Public",
@@ -63,6 +84,13 @@
       "title": "Préfecture - Alpes-de-Haute-Provence - Annuaire | Service Public",
       "url": "https://lannuaire.service-public.gouv.fr/provence-alpes-cote-d-azur/alpes-de-haute-provence/e91978a4-0aff-4cdd-b27a-f752d54f6bc1",
       "consulted": "2026-10-29"
+    },
+    {
+      "id": "pref_rdv_04",
+      "publisher": "alpes-de-haute-provence.gouv.fr",
+      "title": "Etrangers en France - Démarches - Les services de l'État dans les Alpes-de-Haute-Provence",
+      "url": "https://www.alpes-de-haute-provence.gouv.fr/Demarches/Etrangers-en-France",
+      "consulted": "2026-10-30"
     },
     {
       "id": "annuaire_sp_04",
@@ -79,6 +107,13 @@
       "consulted": "2026-10-29"
     },
     {
+      "id": "pref_rdv_05",
+      "publisher": "hautes-alpes.gouv.fr",
+      "title": "Être étranger - Démarches - Les services de l'État dans les Hautes-Alpes",
+      "url": "https://www.hautes-alpes.gouv.fr/Demarches/Etre-etranger",
+      "consulted": "2026-10-30"
+    },
+    {
       "id": "annuaire_sp_05",
       "publisher": "lannuaire.service-public.gouv.fr",
       "title": "Sous-préfecture - 1 résultat(s) Hautes-Alpes - Annuaire | Service Public",
@@ -91,6 +126,13 @@
       "title": "Préfecture - Alpes-Maritimes - Annuaire | Service Public",
       "url": "https://lannuaire.service-public.gouv.fr/provence-alpes-cote-d-azur/alpes-maritimes/26a9c215-0daa-4ee8-849f-13a15c5dec5a",
       "consulted": "2026-10-29"
+    },
+    {
+      "id": "pref_rdv_06",
+      "publisher": "alpes-maritimes.gouv.fr",
+      "title": "Immigration et intégration - Démarches - Les services de l'État dans les Alpes-Maritimes",
+      "url": "https://www.alpes-maritimes.gouv.fr/Demarches/Immigration-et-integration",
+      "consulted": "2026-10-30"
     },
     {
       "id": "annuaire_sp_06",
@@ -107,6 +149,13 @@
       "consulted": "2026-10-29"
     },
     {
+      "id": "pref_rdv_07",
+      "publisher": "ardeche.gouv.fr",
+      "title": "Immigration : informations locales - Démarches - Les services de l'État en Ardèche",
+      "url": "https://www.ardeche.gouv.fr/Demarches/Immigration-informations-locales",
+      "consulted": "2026-10-30"
+    },
+    {
       "id": "annuaire_sp_07",
       "publisher": "lannuaire.service-public.gouv.fr",
       "title": "Sous-préfecture - 2 résultat(s) Ardèche - Annuaire | Service Public",
@@ -119,6 +168,13 @@
       "title": "Préfecture - Ardennes - Annuaire | Service Public",
       "url": "https://lannuaire.service-public.gouv.fr/grand-est/ardennes/3c16cdaf-0aef-45e6-b0bb-f39705c9be44",
       "consulted": "2026-10-29"
+    },
+    {
+      "id": "pref_rdv_08",
+      "publisher": "ardennes.gouv.fr",
+      "title": "Prendre un rendez-vous en ligne - Les services de l'État dans les Ardennes",
+      "url": "https://www.ardennes.gouv.fr/Prendre-un-rendez-vous-en-ligne",
+      "consulted": "2026-10-30"
     },
     {
       "id": "annuaire_sp_08",
@@ -135,6 +191,13 @@
       "consulted": "2026-10-29"
     },
     {
+      "id": "pref_rdv_09",
+      "publisher": "ariege.gouv.fr",
+      "title": "Etrangers - Démarches - Les services de l'État en Ariège",
+      "url": "https://www.ariege.gouv.fr/Demarches/Etrangers",
+      "consulted": "2026-10-30"
+    },
+    {
       "id": "annuaire_sp_09",
       "publisher": "lannuaire.service-public.gouv.fr",
       "title": "Sous-préfecture - 2 résultat(s) Ariège - Annuaire | Service Public",
@@ -147,6 +210,13 @@
       "title": "Préfecture - Aube - Annuaire | Service Public",
       "url": "https://lannuaire.service-public.gouv.fr/grand-est/aube/ab7e2333-bcc1-4d47-b705-a0dc6e1d058c",
       "consulted": "2026-10-29"
+    },
+    {
+      "id": "pref_rdv_10",
+      "publisher": "aube.gouv.fr",
+      "title": "Portail de l'ANEF- Administration Numérique pour les Etrangers en France - Démarches - Les services de l'État dans l'Aube",
+      "url": "https://www.aube.gouv.fr/Demarches/Portail-de-l-ANEF-Administration-Numerique-pour-les-Etrangers-en-France",
+      "consulted": "2026-10-30"
     },
     {
       "id": "annuaire_sp_10",
@@ -163,6 +233,13 @@
       "consulted": "2026-10-29"
     },
     {
+      "id": "pref_rdv_11",
+      "publisher": "aude.gouv.fr",
+      "title": "Immigration et intégration - Démarches - Les services de l’État dans l'Aude",
+      "url": "https://www.aude.gouv.fr/Demarches/Immigration-et-integration",
+      "consulted": "2026-10-30"
+    },
+    {
       "id": "annuaire_sp_11",
       "publisher": "lannuaire.service-public.gouv.fr",
       "title": "Sous-préfecture - 2 résultat(s) Aude - Annuaire | Service Public",
@@ -175,6 +252,13 @@
       "title": "Préfecture - Aveyron - Annuaire | Service Public",
       "url": "https://lannuaire.service-public.gouv.fr/occitanie/aveyron/15e75ffd-e4c3-4b3e-97e8-1f91760ab105",
       "consulted": "2026-10-29"
+    },
+    {
+      "id": "pref_rdv_12",
+      "publisher": "aveyron.gouv.fr",
+      "title": "Vos démarches étrangers dans l'Aveyron - Démarches - Les services de l'État en Aveyron",
+      "url": "https://www.aveyron.gouv.fr/Demarches/Vos-demarches-etrangers-dans-l-Aveyron",
+      "consulted": "2026-10-30"
     },
     {
       "id": "annuaire_sp_12",
@@ -191,6 +275,13 @@
       "consulted": "2026-10-29"
     },
     {
+      "id": "pref_rdv_13",
+      "publisher": "bouches-du-rhone.gouv.fr",
+      "title": "Accueil des étrangers - Démarches - Les services de l'État dans les Bouches-du-Rhône",
+      "url": "https://www.bouches-du-rhone.gouv.fr/Demarches/Accueil-des-etrangers",
+      "consulted": "2026-10-30"
+    },
+    {
       "id": "annuaire_sp_13",
       "publisher": "lannuaire.service-public.gouv.fr",
       "title": "Sous-préfecture - 3 résultat(s) Bouches-du-Rhône - Annuaire | Service Public",
@@ -203,6 +294,13 @@
       "title": "Préfecture - Calvados - Annuaire | Service Public",
       "url": "https://lannuaire.service-public.gouv.fr/normandie/calvados/72fbe34d-5350-42ae-90b9-e47106d0e7d8",
       "consulted": "2026-10-29"
+    },
+    {
+      "id": "pref_rdv_14",
+      "publisher": "calvados.gouv.fr",
+      "title": "Accueil des étrangers à la préfecture du Calvados - Démarches - Les services de l'État dans le Calvados",
+      "url": "https://www.calvados.gouv.fr/Demarches/Accueil-des-etrangers-a-la-prefecture-du-Calvados",
+      "consulted": "2026-10-30"
     },
     {
       "id": "annuaire_sp_14",
@@ -219,6 +317,13 @@
       "consulted": "2026-10-29"
     },
     {
+      "id": "pref_rdv_15",
+      "publisher": "cantal.gouv.fr",
+      "title": "Étrangers dans le Cantal - Démarches - Les services de l'État dans le Cantal",
+      "url": "https://www.cantal.gouv.fr/Demarches/Etrangers-dans-le-Cantal",
+      "consulted": "2026-10-30"
+    },
+    {
       "id": "annuaire_sp_15",
       "publisher": "lannuaire.service-public.gouv.fr",
       "title": "Sous-préfecture - 2 résultat(s) Cantal - Annuaire | Service Public",
@@ -231,6 +336,13 @@
       "title": "Préfecture - Charente - Annuaire | Service Public",
       "url": "https://lannuaire.service-public.gouv.fr/nouvelle-aquitaine/charente/b5738c18-0e90-4c8b-bca3-5f42f6c31807",
       "consulted": "2026-10-29"
+    },
+    {
+      "id": "pref_rdv_16",
+      "publisher": "charente.gouv.fr",
+      "title": "Publics étrangers - Démarches - Les services de l'État en Charente",
+      "url": "https://www.charente.gouv.fr/Demarches/Publics-etrangers",
+      "consulted": "2026-10-30"
     },
     {
       "id": "annuaire_sp_16",
@@ -247,6 +359,13 @@
       "consulted": "2026-10-29"
     },
     {
+      "id": "pref_rdv_17",
+      "publisher": "charente-maritime.gouv.fr",
+      "title": "Droits des étrangers - Accueil des étrangers en Charente-Maritime - Démarches - Les services de l'État en Charente-Maritime",
+      "url": "https://www.charente-maritime.gouv.fr/Demarches/Droits-des-etrangers-Accueil-des-etrangers-en-Charente-Maritime",
+      "consulted": "2026-10-30"
+    },
+    {
       "id": "annuaire_sp_17",
       "publisher": "lannuaire.service-public.gouv.fr",
       "title": "Sous-préfecture - 4 résultat(s) Charente-Maritime - Annuaire | Service Public",
@@ -261,6 +380,13 @@
       "consulted": "2026-10-29"
     },
     {
+      "id": "pref_rdv_18",
+      "publisher": "cher.gouv.fr",
+      "title": "Titre de séjour - Demande d'information - Enquêtes - Les services de l'État dans le Cher",
+      "url": "https://www.cher.gouv.fr/Enquetes/Titre-de-sejour-Demande-d-information",
+      "consulted": "2026-10-30"
+    },
+    {
       "id": "annuaire_sp_18",
       "publisher": "lannuaire.service-public.gouv.fr",
       "title": "Sous-préfecture - 2 résultat(s) Cher - Annuaire | Service Public",
@@ -273,6 +399,13 @@
       "title": "Préfecture - Corrèze - Annuaire | Service Public",
       "url": "https://lannuaire.service-public.gouv.fr/nouvelle-aquitaine/correze/74aff24d-6edf-4a6f-a9a3-3cbeea9309a3",
       "consulted": "2026-10-29"
+    },
+    {
+      "id": "pref_rdv_19",
+      "publisher": "correze.gouv.fr",
+      "title": "Etrangers : vos démarches - Démarches - Les services de l'État en Corrèze",
+      "url": "https://www.correze.gouv.fr/Demarches/Etrangers-vos-demarches",
+      "consulted": "2026-10-30"
     },
     {
       "id": "annuaire_sp_19",
@@ -317,6 +450,13 @@
       "consulted": "2026-10-29"
     },
     {
+      "id": "pref_rdv_21",
+      "publisher": "cote-dor.gouv.fr",
+      "title": "Prendre un rendez-vous en ligne - Outils - Les services de l'État en Côte-d'Or",
+      "url": "https://www.cote-dor.gouv.fr/Outils2/Prendre-un-rendez-vous-en-ligne",
+      "consulted": "2026-10-30"
+    },
+    {
       "id": "annuaire_sp_21",
       "publisher": "lannuaire.service-public.gouv.fr",
       "title": "Sous-préfecture - 2 résultat(s) Côte-d'Or - Annuaire | Service Public",
@@ -331,6 +471,13 @@
       "consulted": "2026-10-29"
     },
     {
+      "id": "pref_rdv_22",
+      "publisher": "cotes-darmor.gouv.fr",
+      "title": "Accueil étrangers - Démarches - Les services de l'État dans les Côtes-d'Armor",
+      "url": "https://www.cotes-darmor.gouv.fr/Demarches/Accueil-etrangers",
+      "consulted": "2026-10-30"
+    },
+    {
       "id": "annuaire_sp_22",
       "publisher": "lannuaire.service-public.gouv.fr",
       "title": "Sous-préfecture - 3 résultat(s) Côtes-d'Armor - Annuaire | Service Public",
@@ -343,6 +490,13 @@
       "title": "Préfecture - Creuse - Annuaire | Service Public",
       "url": "https://lannuaire.service-public.gouv.fr/nouvelle-aquitaine/creuse/14732cd9-a9ed-4528-9666-b57ea3660ace",
       "consulted": "2026-10-29"
+    },
+    {
+      "id": "pref_rdv_23",
+      "publisher": "creuse.gouv.fr",
+      "title": "Etrangers en France - Démarches - Les services de l'État dans la Creuse",
+      "url": "https://www.creuse.gouv.fr/Demarches/Etrangers-en-France",
+      "consulted": "2026-10-30"
     },
     {
       "id": "annuaire_sp_23",
@@ -1428,9 +1582,11 @@
       "address": "45 avenue Alsace-Lorraine, 01000 Bourg-en-Bresse",
       "phone": "0474323000",
       "website": "https://www.ain.gouv.fr/",
+      "appointmentUrl": "https://www.ain.gouv.fr/Outils/Prendre-un-rendez-vous",
       "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/auvergne-rhone-alpes/ain/sous_pref",
       "sources": [
         "annuaire_01",
+        "pref_rdv_01",
         "annuaire_sp_01"
       ]
     },
@@ -1445,9 +1601,11 @@
       "address": "2 rue Paul-Doumer, 02000 Laon",
       "phone": "0323218282",
       "website": "https://www.aisne.gouv.fr/",
+      "appointmentUrl": "https://www.aisne.gouv.fr/Demarches/Etrangers-en-France",
       "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/hauts-de-france/aisne/sous_pref",
       "sources": [
         "annuaire_02",
+        "pref_rdv_02",
         "annuaire_sp_02"
       ]
     },
@@ -1462,9 +1620,11 @@
       "address": "2 rue Michel-de-L'Hospital, 03000 Moulins",
       "phone": "0470483000",
       "website": "https://www.allier.gouv.fr/",
+      "appointmentUrl": "https://www.allier.gouv.fr/Demarches/Accueil-des-etrangers-dans-l-Allier",
       "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/auvergne-rhone-alpes/allier/sous_pref",
       "sources": [
         "annuaire_03",
+        "pref_rdv_03",
         "annuaire_sp_03"
       ]
     },
@@ -1479,9 +1639,11 @@
       "address": "Place André Thisy, 04000 Digne-les-Bains",
       "phone": "0492367200",
       "website": "https://www.alpes-de-haute-provence.gouv.fr/",
+      "appointmentUrl": "https://www.alpes-de-haute-provence.gouv.fr/Demarches/Etrangers-en-France",
       "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/provence-alpes-cote-d-azur/alpes-de-haute-provence/sous_pref",
       "sources": [
         "annuaire_04",
+        "pref_rdv_04",
         "annuaire_sp_04"
       ]
     },
@@ -1496,9 +1658,11 @@
       "address": "28 rue Saint-Arey, 05000 Gap",
       "phone": "0492404800",
       "website": "https://www.hautes-alpes.gouv.fr/",
+      "appointmentUrl": "https://www.hautes-alpes.gouv.fr/Demarches/Etre-etranger",
       "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/provence-alpes-cote-d-azur/hautes-alpes/sous_pref",
       "sources": [
         "annuaire_05",
+        "pref_rdv_05",
         "annuaire_sp_05"
       ]
     },
@@ -1513,9 +1677,11 @@
       "address": "Centre administratif, 147 boulevard du Mercantour, 06200 Nice",
       "phone": "0493722000",
       "website": "https://www.alpes-maritimes.gouv.fr/",
+      "appointmentUrl": "https://www.alpes-maritimes.gouv.fr/Demarches/Immigration-et-integration",
       "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/provence-alpes-cote-d-azur/alpes-maritimes/sous_pref",
       "sources": [
         "annuaire_06",
+        "pref_rdv_06",
         "annuaire_sp_06"
       ]
     },
@@ -1530,9 +1696,11 @@
       "address": "5 rue Pierre-Filliat, 07000 Privas",
       "phone": "0475665000",
       "website": "https://www.ardeche.gouv.fr/",
+      "appointmentUrl": "https://www.ardeche.gouv.fr/Demarches/Immigration-informations-locales",
       "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/auvergne-rhone-alpes/ardeche/sous_pref",
       "sources": [
         "annuaire_07",
+        "pref_rdv_07",
         "annuaire_sp_07"
       ]
     },
@@ -1547,9 +1715,11 @@
       "address": "1 place de la Préfecture, 08000 Charleville-Mézières",
       "phone": "0324596600",
       "website": "https://www.ardennes.gouv.fr/",
+      "appointmentUrl": "https://www.ardennes.gouv.fr/Prendre-un-rendez-vous-en-ligne",
       "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/grand-est/ardennes/sous_pref",
       "sources": [
         "annuaire_08",
+        "pref_rdv_08",
         "annuaire_sp_08"
       ]
     },
@@ -1564,9 +1734,11 @@
       "address": "2 rue de la Préfecture, 09000 Foix",
       "phone": "0561021000",
       "website": "https://www.ariege.gouv.fr/",
+      "appointmentUrl": "https://www.ariege.gouv.fr/Demarches/Etrangers",
       "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/occitanie/ariege/sous_pref",
       "sources": [
         "annuaire_09",
+        "pref_rdv_09",
         "annuaire_sp_09"
       ]
     },
@@ -1581,9 +1753,11 @@
       "address": "2 rue Pierre-Labonde, 10000 Troyes",
       "phone": "0325423500",
       "website": "https://www.aube.gouv.fr/",
+      "appointmentUrl": "https://www.aube.gouv.fr/Demarches/Portail-de-l-ANEF-Administration-Numerique-pour-les-Etrangers-en-France",
       "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/grand-est/aube/sous_pref",
       "sources": [
         "annuaire_10",
+        "pref_rdv_10",
         "annuaire_sp_10"
       ]
     },
@@ -1598,9 +1772,11 @@
       "address": "52 rue Jean-Bringer, 11000 Carcassonne",
       "phone": "0468102700",
       "website": "https://www.aude.gouv.fr/",
+      "appointmentUrl": "https://www.aude.gouv.fr/Demarches/Immigration-et-integration",
       "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/occitanie/aude/sous_pref",
       "sources": [
         "annuaire_11",
+        "pref_rdv_11",
         "annuaire_sp_11"
       ]
     },
@@ -1615,9 +1791,11 @@
       "address": "Centre administratif Foch, Place Foch, 12000 Rodez",
       "phone": "0565757171",
       "website": "https://www.aveyron.gouv.fr/",
+      "appointmentUrl": "https://www.aveyron.gouv.fr/Demarches/Vos-demarches-etrangers-dans-l-Aveyron",
       "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/occitanie/aveyron/sous_pref",
       "sources": [
         "annuaire_12",
+        "pref_rdv_12",
         "annuaire_sp_12"
       ]
     },
@@ -1632,9 +1810,11 @@
       "address": "1 rue Edmond Rostand, 13006 Marseille",
       "phone": "0484354000",
       "website": "https://www.bouches-du-rhone.gouv.fr/",
+      "appointmentUrl": "https://www.bouches-du-rhone.gouv.fr/Demarches/Accueil-des-etrangers",
       "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/provence-alpes-cote-d-azur/bouches-du-rhone/sous_pref",
       "sources": [
         "annuaire_13",
+        "pref_rdv_13",
         "annuaire_sp_13"
       ]
     },
@@ -1649,9 +1829,11 @@
       "address": "Rue Daniel-Huet, 14000 Caen",
       "phone": "0231306400",
       "website": "https://www.calvados.gouv.fr/",
+      "appointmentUrl": "https://www.calvados.gouv.fr/Demarches/Accueil-des-etrangers-a-la-prefecture-du-Calvados",
       "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/normandie/calvados/sous_pref",
       "sources": [
         "annuaire_14",
+        "pref_rdv_14",
         "annuaire_sp_14"
       ]
     },
@@ -1666,9 +1848,11 @@
       "address": "Cours Monthyon, 15000 Aurillac",
       "phone": "0471462300",
       "website": "https://www.cantal.gouv.fr/",
+      "appointmentUrl": "https://www.cantal.gouv.fr/Demarches/Etrangers-dans-le-Cantal",
       "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/auvergne-rhone-alpes/cantal/sous_pref",
       "sources": [
         "annuaire_15",
+        "pref_rdv_15",
         "annuaire_sp_15"
       ]
     },
@@ -1683,9 +1867,11 @@
       "address": "7-9 rue de la Préfecture, 16000 Angoulême",
       "phone": "0545976100",
       "website": "https://www.charente.gouv.fr/",
+      "appointmentUrl": "https://www.charente.gouv.fr/Demarches/Publics-etrangers",
       "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/nouvelle-aquitaine/charente/sous_pref",
       "sources": [
         "annuaire_16",
+        "pref_rdv_16",
         "annuaire_sp_16"
       ]
     },
@@ -1700,9 +1886,11 @@
       "address": "Cité administrative, Site Duperré, 5 Place des Cordeliers, 17000 La Rochelle",
       "phone": "0546274300",
       "website": "https://www.charente-maritime.gouv.fr/",
+      "appointmentUrl": "https://www.charente-maritime.gouv.fr/Demarches/Droits-des-etrangers-Accueil-des-etrangers-en-Charente-Maritime",
       "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/nouvelle-aquitaine/charente-maritime/sous_pref",
       "sources": [
         "annuaire_17",
+        "pref_rdv_17",
         "annuaire_sp_17"
       ]
     },
@@ -1717,9 +1905,11 @@
       "address": "place Marcel-Plaisant, 18000 Bourges",
       "phone": "0248671818",
       "website": "https://www.cher.gouv.fr/",
+      "appointmentUrl": "https://www.cher.gouv.fr/Enquetes/Titre-de-sejour-Demande-d-information",
       "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/centre-val-de-loire/cher/sous_pref",
       "sources": [
         "annuaire_18",
+        "pref_rdv_18",
         "annuaire_sp_18"
       ]
     },
@@ -1734,9 +1924,11 @@
       "address": "1 rue Souham, 19000 Tulle",
       "phone": "0555205520",
       "website": "https://www.correze.gouv.fr/",
+      "appointmentUrl": "https://www.correze.gouv.fr/Demarches/Etrangers-vos-demarches",
       "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/nouvelle-aquitaine/correze/sous_pref",
       "sources": [
         "annuaire_19",
+        "pref_rdv_19",
         "annuaire_sp_19"
       ]
     },
@@ -1785,9 +1977,11 @@
       "address": "53 rue de la Préfecture, 21000 Dijon",
       "phone": "0380446400",
       "website": "https://www.cote-dor.gouv.fr/",
+      "appointmentUrl": "https://www.cote-dor.gouv.fr/Outils2/Prendre-un-rendez-vous-en-ligne",
       "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/bourgogne-franche-comte/cote-d-or/sous_pref",
       "sources": [
         "annuaire_21",
+        "pref_rdv_21",
         "annuaire_sp_21"
       ]
     },
@@ -1802,9 +1996,11 @@
       "address": "1 place du Général-de-Gaulle, 22000 Saint-Brieuc",
       "phone": "0221273022",
       "website": "https://www.cotes-darmor.gouv.fr",
+      "appointmentUrl": "https://www.cotes-darmor.gouv.fr/Demarches/Accueil-etrangers",
       "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/bretagne/cotes-d-armor/sous_pref",
       "sources": [
         "annuaire_22",
+        "pref_rdv_22",
         "annuaire_sp_22"
       ]
     },
@@ -1819,9 +2015,11 @@
       "address": "place Louis-Lacrocq, 23000 Guéret",
       "phone": "0555515900",
       "website": "https://www.creuse.gouv.fr/",
+      "appointmentUrl": "https://www.creuse.gouv.fr/Demarches/Etrangers-en-France",
       "subprefecturesUrl": "https://lannuaire.service-public.gouv.fr/navigation/nouvelle-aquitaine/creuse/sous_pref",
       "sources": [
         "annuaire_23",
+        "pref_rdv_23",
         "annuaire_sp_23"
       ]
     },
@@ -3081,11 +3279,12 @@
     }
   ],
   "reviewNotes": [
-    "Départements sans appointmentUrl (aucune page \"Prendre un rendez-vous\" ou \"Étrangers\" vérifiée HTTP 200, à cause de la coupure des sites de préfecture décrite plus bas ; des pages candidates existent pour beaucoup d'entre eux) : 01 Ain, 02 Aisne, 03 Allier, 04 Alpes-de-Haute-Provence, 05 Hautes-Alpes, 06 Alpes-Maritimes, 07 Ardèche, 08 Ardennes, 09 Ariège, 10 Aube, 11 Aude, 12 Aveyron, 13 Bouches-du-Rhône, 14 Calvados, 15 Cantal, 16 Charente, 17 Charente-Maritime, 18 Cher, 19 Corrèze, 2A Corse-du-Sud, 2B Haute-Corse, 21 Côte-d'Or, 22 Côtes-d'Armor, 23 Creuse, 24 Dordogne, 25 Doubs, 26 Drôme, 27 Eure, 28 Eure-et-Loir, 29 Finistère, 30 Gard, 31 Haute-Garonne, 32 Gers, 33 Gironde, 34 Hérault, 35 Ille-et-Vilaine, 36 Indre, 37 Indre-et-Loire, 38 Isère, 39 Jura, 40 Landes, 41 Loir-et-Cher, 42 Loire, 43 Haute-Loire, 44 Loire-Atlantique, 45 Loiret, 46 Lot, 47 Lot-et-Garonne, 48 Lozère, 49 Maine-et-Loire, 50 Manche, 51 Marne, 52 Haute-Marne, 53 Mayenne, 54 Meurthe-et-Moselle, 55 Meuse, 56 Morbihan, 57 Moselle, 58 Nièvre, 59 Nord, 60 Oise, 61 Orne, 62 Pas-de-Calais, 63 Puy-de-Dôme, 64 Pyrénées-Atlantiques, 65 Hautes-Pyrénées, 66 Pyrénées-Orientales, 67 Bas-Rhin, 68 Haut-Rhin, 69 Rhône, 70 Haute-Saône, 71 Saône-et-Loire, 72 Sarthe, 73 Savoie, 74 Haute-Savoie, 76 Seine-Maritime, 77 Seine-et-Marne, 78 Yvelines, 79 Deux-Sèvres, 80 Somme, 81 Tarn, 82 Tarn-et-Garonne, 83 Var, 84 Vaucluse, 85 Vendée, 86 Vienne, 87 Haute-Vienne, 88 Vosges, 89 Yonne, 90 Territoire de Belfort, 91 Essonne, 92 Hauts-de-Seine, 93 Seine-Saint-Denis, 94 Val-de-Marne, 95 Val-d'Oise, 971 Guadeloupe, 972 Martinique, 973 Guyane, 974 La Réunion, 976 Mayotte. L'app renvoie au site de la préfecture.",
+    "Départements sans appointmentUrl (aucune page \"Prendre un rendez-vous\" ou \"Étrangers\" trouvée et vérifiée HTTP 200 avec un titre parlant des étrangers, du séjour ou des rendez-vous, ou site ayant refusé la connexion) : 2A Corse-du-Sud, 2B Haute-Corse, 24 Dordogne, 25 Doubs, 26 Drôme, 27 Eure, 28 Eure-et-Loir, 29 Finistère, 30 Gard, 31 Haute-Garonne, 32 Gers, 33 Gironde, 34 Hérault, 35 Ille-et-Vilaine, 36 Indre, 37 Indre-et-Loire, 38 Isère, 39 Jura, 40 Landes, 41 Loir-et-Cher, 42 Loire, 43 Haute-Loire, 44 Loire-Atlantique, 45 Loiret, 46 Lot, 47 Lot-et-Garonne, 48 Lozère, 49 Maine-et-Loire, 50 Manche, 51 Marne, 52 Haute-Marne, 53 Mayenne, 54 Meurthe-et-Moselle, 55 Meuse, 56 Morbihan, 57 Moselle, 58 Nièvre, 59 Nord, 60 Oise, 61 Orne, 62 Pas-de-Calais, 63 Puy-de-Dôme, 64 Pyrénées-Atlantiques, 65 Hautes-Pyrénées, 66 Pyrénées-Orientales, 67 Bas-Rhin, 68 Haut-Rhin, 69 Rhône, 70 Haute-Saône, 71 Saône-et-Loire, 72 Sarthe, 73 Savoie, 74 Haute-Savoie, 76 Seine-Maritime, 77 Seine-et-Marne, 78 Yvelines, 79 Deux-Sèvres, 80 Somme, 81 Tarn, 82 Tarn-et-Garonne, 83 Var, 84 Vaucluse, 85 Vendée, 86 Vienne, 87 Haute-Vienne, 88 Vosges, 89 Yonne, 90 Territoire de Belfort, 91 Essonne, 92 Hauts-de-Seine, 93 Seine-Saint-Denis, 94 Val-de-Marne, 95 Val-d'Oise, 971 Guadeloupe, 972 Martinique, 973 Guyane, 974 La Réunion, 976 Mayotte. L'app renvoie au site de la préfecture.",
     "Départements sans subprefecturesUrl : l'annuaire n'y liste aucune sous-préfecture (75 Paris, 90 Territoire de Belfort, 976 Mayotte).",
-    "Champ website omis (site indiqué par l'annuaire mais réponse HTTP 200 non vérifiée, voir la note sur la coupure) : 49 Maine-et-Loire, 50 Manche, 51 Marne, 52 Haute-Marne, 53 Mayenne, 54 Meurthe-et-Moselle, 55 Meuse, 56 Morbihan, 57 Moselle, 58 Nièvre, 59 Nord, 60 Oise, 61 Orne, 62 Pas-de-Calais, 63 Puy-de-Dôme, 64 Pyrénées-Atlantiques, 65 Hautes-Pyrénées, 66 Pyrénées-Orientales, 67 Bas-Rhin, 68 Haut-Rhin, 69 Rhône, 70 Haute-Saône, 71 Saône-et-Loire, 72 Sarthe, 73 Savoie, 74 Haute-Savoie, 76 Seine-Maritime, 77 Seine-et-Marne, 78 Yvelines, 79 Deux-Sèvres, 80 Somme, 81 Tarn, 82 Tarn-et-Garonne, 83 Var, 84 Vaucluse, 85 Vendée, 86 Vienne, 87 Haute-Vienne, 88 Vosges, 89 Yonne, 90 Territoire de Belfort, 91 Essonne, 92 Hauts-de-Seine, 93 Seine-Saint-Denis, 94 Val-de-Marne, 95 Val-d'Oise, 971 Guadeloupe, 972 Martinique, 973 Guyane, 974 La Réunion, 976 Mayotte.",
-    "Vérification des sites de préfecture interrompue le 2026-10-29 vers 23h40 : les serveurs des sites *.gouv.fr des préfectures ont coupé toutes les connexions depuis notre poste (erreur HTTP/2 ENHANCE_YOUR_CALM, limitation de débit) pendant plus d'une heure. Les pages d'accueil des départements 01 à 48 (dont 2A et 2B) ont répondu HTTP 200 avant la coupure ; les autres n'ont pas pu être vérifiées. Aucune page de rendez-vous des sites *.gouv.fr de préfecture n'a pu être vérifiée HTTP 200 : appointmentUrl n'est donc renseigné que pour Paris. À refaire en relançant le script de crawl lent (une requête toutes les 3 secondes).",
-    "Pistes repérées mais non vérifiées (à contrôler avant ajout) : l'annuaire liste un lien de prise de rendez-vous sur certains sites (par exemple /Prendre-un-rendez-vous pour le Val-de-Marne, /Prendre-un-rendez-vous-en-ligne pour le Vaucluse) ; pour le Rhône, l'inventaire cite https://www.rhone.gouv.fr/Prendre-un-rendez-vous/Accueil-des-etrangers.",
+    "Champ website omis (site indiqué par l'annuaire mais réponse HTTP 200 non obtenue) : 49 Maine-et-Loire, 50 Manche, 51 Marne, 52 Haute-Marne, 53 Mayenne, 54 Meurthe-et-Moselle, 55 Meuse, 56 Morbihan, 57 Moselle, 58 Nièvre, 59 Nord, 60 Oise, 61 Orne, 62 Pas-de-Calais, 63 Puy-de-Dôme, 64 Pyrénées-Atlantiques, 65 Hautes-Pyrénées, 66 Pyrénées-Orientales, 67 Bas-Rhin, 68 Haut-Rhin, 69 Rhône, 70 Haute-Saône, 71 Saône-et-Loire, 72 Sarthe, 73 Savoie, 74 Haute-Savoie, 76 Seine-Maritime, 77 Seine-et-Marne, 78 Yvelines, 79 Deux-Sèvres, 80 Somme, 81 Tarn, 82 Tarn-et-Garonne, 83 Var, 84 Vaucluse, 85 Vendée, 86 Vienne, 87 Haute-Vienne, 88 Vosges, 89 Yonne, 90 Territoire de Belfort, 91 Essonne, 92 Hauts-de-Seine, 93 Seine-Saint-Denis, 94 Val-de-Marne, 95 Val-d'Oise, 971 Guadeloupe, 972 Martinique, 973 Guyane, 974 La Réunion, 976 Mayotte.",
+    "Vérification des sites de préfecture : un premier passage le 2026-10-29 a été coupé vers 23h40 par les serveurs des sites *.gouv.fr des préfectures (connexions refusées, limitation de débit) ; les pages d'accueil des départements 01 à 48 (dont 2A et 2B) avaient répondu HTTP 200 avant la coupure. Un second passage le 2026-10-30 (une requête toutes les 3 secondes, une seule à la fois) a vérifié les pages de rendez-vous ou \"Étrangers\" des départements 01 à 23, puis les sites de la Dordogne, du Doubs et de la Drôme ont de nouveau refusé la connexion ; le passage a été arrêté sans insister. Les sources des pages de rendez-vous vérifiées ce jour-là portent la date du 2026-10-30. Reste à vérifier : appointmentUrl à partir du 24 (Dordogne), website à partir du 49 (Maine-et-Loire) et pour l'outre-mer.",
+    "Pistes repérées mais non vérifiées pour les départements restants (à contrôler avant ajout) : l'annuaire liste un lien de prise de rendez-vous sur certains sites (par exemple /Prendre-un-rendez-vous pour le Val-de-Marne, /Prendre-un-rendez-vous-en-ligne pour le Vaucluse) ; pour le Rhône, l'inventaire cite https://www.rhone.gouv.fr/Prendre-un-rendez-vous/Accueil-des-etrangers.",
+    "Cher : le lien \"Demande de RDV\" du site redirige vers le formulaire \"Titre de séjour - Demande d'information\" ; c'est cette adresse finale qui est retenue. Ain, Ardennes, Côte-d'Or : page générale de prise de rendez-vous de la préfecture (pas de rubrique \"Étrangers\" retenue). Aube : la page retenue présente le portail ANEF pour les étrangers.",
     "Paris : le site de la préfecture de police exige JavaScript et cookies ; la page \"Titres de séjour - Nous contacter\" a répondu HTTP 200 après la redirection de contrôle et contient les liens de prise de rendez-vous (titre de séjour). Le téléphone indiqué par l'annuaire est le 3430. L'adresse est celle du siège (1 bis rue de Lutèce) ; les premières demandes se font aux CRE du 17e et du 9e (voir inventaire).",
     "Rhône : coordonnées de la préfecture du Rhône (Lyon). Mayotte : préfecture de Mayotte ; l'annuaire n'y liste aucune sous-préfecture.",
     "Champ phone : premier numéro de la fiche annuaire, espaces retirés. Les fiches indiquent souvent aussi le serveur vocal national 34 00, non repris.",

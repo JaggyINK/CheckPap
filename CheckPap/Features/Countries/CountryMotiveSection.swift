@@ -49,7 +49,7 @@ struct CountryMotiveSection: View {
         }
         .padding(18)
         .frame(maxWidth: .infinity, alignment: .leading)
-        .glassCard(cornerRadius: 22)
+        .cardSurface(cornerRadius: 22)
     }
 }
 

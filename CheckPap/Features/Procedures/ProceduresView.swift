@@ -10,14 +10,9 @@ struct ProceduresView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 24) {
-                VStack(alignment: .leading, spacing: 8) {
-                    Text("Vos démarches, une étape à la fois.")
-                        .font(.largeTitle.weight(.bold))
-                        .fontDesign(.rounded)
-                    Text("Choisissez un thème, répondez à quelques questions et retrouvez les pièces demandées.")
-                        .foregroundStyle(.secondary)
-                }
-                .staggeredAppear(0)
+                Text("Choisissez un thème, répondez à quelques questions et retrouvez les pièces demandées.")
+                    .font(.subheadline)
+                    .foregroundStyle(.secondary)
 
                 if query.isEmpty {
                     ResumeSection()
@@ -36,7 +31,7 @@ struct ProceduresView: View {
 
                 IndependentServiceNotice()
                     .padding(14)
-                    .glassCard(cornerRadius: 18)
+                    .cardSurface(cornerRadius: 18)
             }
             .padding(.horizontal, 20)
             .padding(.bottom, 24)
@@ -44,7 +39,7 @@ struct ProceduresView: View {
         .scrollIndicators(.hidden)
         .background(AppBackground())
         .navigationTitle("Démarches")
-        .navigationBarTitleDisplayMode(.inline)
+        .navigationBarTitleDisplayMode(.large)
         .searchable(text: $query, prompt: Text("Rechercher une démarche"))
         .onAppear(perform: openRequestedCountry)
     }

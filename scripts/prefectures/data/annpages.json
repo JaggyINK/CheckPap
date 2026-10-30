@@ -1,0 +1,608 @@
+{
+ "01": {
+  "url": "https://lannuaire.service-public.gouv.fr/auvergne-rhone-alpes/ain/52540ade-49fd-4b93-9de0-d1b7834097c5",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/auvergne-rhone-alpes/ain/52540ade-49fd-4b93-9de0-d1b7834097c5",
+  "title": "Préfecture - Ain - Annuaire | Service Public"
+ },
+ "02": {
+  "url": "https://lannuaire.service-public.gouv.fr/hauts-de-france/aisne/715f7838-001b-4f45-9cd0-cfb95b6b6fd2",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/hauts-de-france/aisne/715f7838-001b-4f45-9cd0-cfb95b6b6fd2",
+  "title": "Préfecture - Aisne - Annuaire | Service Public"
+ },
+ "03": {
+  "url": "https://lannuaire.service-public.gouv.fr/auvergne-rhone-alpes/allier/862954e0-d918-4581-bdb3-e397df94003d",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/auvergne-rhone-alpes/allier/862954e0-d918-4581-bdb3-e397df94003d",
+  "title": "Préfecture - Allier - Annuaire | Service Public"
+ },
+ "04": {
+  "url": "https://lannuaire.service-public.gouv.fr/provence-alpes-cote-d-azur/alpes-de-haute-provence/e91978a4-0aff-4cdd-b27a-f752d54f6bc1",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/provence-alpes-cote-d-azur/alpes-de-haute-provence/e91978a4-0aff-4cdd-b27a-f752d54f6bc1",
+  "title": "Préfecture - Alpes-de-Haute-Provence - Annuaire | Service Public"
+ },
+ "05": {
+  "url": "https://lannuaire.service-public.gouv.fr/provence-alpes-cote-d-azur/hautes-alpes/b90485a7-f293-4dd6-84b2-8bd60df5c2fb",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/provence-alpes-cote-d-azur/hautes-alpes/b90485a7-f293-4dd6-84b2-8bd60df5c2fb",
+  "title": "Préfecture - Hautes-Alpes - Annuaire | Service Public"
+ },
+ "06": {
+  "url": "https://lannuaire.service-public.gouv.fr/provence-alpes-cote-d-azur/alpes-maritimes/26a9c215-0daa-4ee8-849f-13a15c5dec5a",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/provence-alpes-cote-d-azur/alpes-maritimes/26a9c215-0daa-4ee8-849f-13a15c5dec5a",
+  "title": "Préfecture - Alpes-Maritimes - Annuaire | Service Public"
+ },
+ "07": {
+  "url": "https://lannuaire.service-public.gouv.fr/auvergne-rhone-alpes/ardeche/5763d4b9-36f1-46ef-8a1f-be2586b82f0e",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/auvergne-rhone-alpes/ardeche/5763d4b9-36f1-46ef-8a1f-be2586b82f0e",
+  "title": "Préfecture - Ardèche - Annuaire | Service Public"
+ },
+ "08": {
+  "url": "https://lannuaire.service-public.gouv.fr/grand-est/ardennes/3c16cdaf-0aef-45e6-b0bb-f39705c9be44",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/grand-est/ardennes/3c16cdaf-0aef-45e6-b0bb-f39705c9be44",
+  "title": "Préfecture - Ardennes - Annuaire | Service Public"
+ },
+ "09": {
+  "url": "https://lannuaire.service-public.gouv.fr/occitanie/ariege/02f0cd6c-39a8-4804-abca-db83f1dbf3fb",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/occitanie/ariege/02f0cd6c-39a8-4804-abca-db83f1dbf3fb",
+  "title": "Préfecture - Ariège - Annuaire | Service Public"
+ },
+ "10": {
+  "url": "https://lannuaire.service-public.gouv.fr/grand-est/aube/ab7e2333-bcc1-4d47-b705-a0dc6e1d058c",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/grand-est/aube/ab7e2333-bcc1-4d47-b705-a0dc6e1d058c",
+  "title": "Préfecture - Aube - Annuaire | Service Public"
+ },
+ "11": {
+  "url": "https://lannuaire.service-public.gouv.fr/occitanie/aude/c5fb7c1b-2426-47bf-b96b-991f84e63a1f",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/occitanie/aude/c5fb7c1b-2426-47bf-b96b-991f84e63a1f",
+  "title": "Préfecture - Aude - Annuaire | Service Public"
+ },
+ "12": {
+  "url": "https://lannuaire.service-public.gouv.fr/occitanie/aveyron/15e75ffd-e4c3-4b3e-97e8-1f91760ab105",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/occitanie/aveyron/15e75ffd-e4c3-4b3e-97e8-1f91760ab105",
+  "title": "Préfecture - Aveyron - Annuaire | Service Public"
+ },
+ "13": {
+  "url": "https://lannuaire.service-public.gouv.fr/provence-alpes-cote-d-azur/bouches-du-rhone/e5bd70c4-80df-41da-bb65-2e53299b9119",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/provence-alpes-cote-d-azur/bouches-du-rhone/e5bd70c4-80df-41da-bb65-2e53299b9119",
+  "title": "Préfecture - Bouches-du-Rhône - Annuaire | Service Public"
+ },
+ "14": {
+  "url": "https://lannuaire.service-public.gouv.fr/normandie/calvados/72fbe34d-5350-42ae-90b9-e47106d0e7d8",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/normandie/calvados/72fbe34d-5350-42ae-90b9-e47106d0e7d8",
+  "title": "Préfecture - Calvados - Annuaire | Service Public"
+ },
+ "15": {
+  "url": "https://lannuaire.service-public.gouv.fr/auvergne-rhone-alpes/cantal/9b4029f4-b42c-4b5d-9934-483d5b38b63f",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/auvergne-rhone-alpes/cantal/9b4029f4-b42c-4b5d-9934-483d5b38b63f",
+  "title": "Préfecture - Cantal - Annuaire | Service Public"
+ },
+ "16": {
+  "url": "https://lannuaire.service-public.gouv.fr/nouvelle-aquitaine/charente/b5738c18-0e90-4c8b-bca3-5f42f6c31807",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/nouvelle-aquitaine/charente/b5738c18-0e90-4c8b-bca3-5f42f6c31807",
+  "title": "Préfecture - Charente - Annuaire | Service Public"
+ },
+ "17": {
+  "url": "https://lannuaire.service-public.gouv.fr/nouvelle-aquitaine/charente-maritime/b15e371b-5e5d-4a51-b030-411823e4eb3e",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/nouvelle-aquitaine/charente-maritime/b15e371b-5e5d-4a51-b030-411823e4eb3e",
+  "title": "Préfecture - Charente-Maritime - Annuaire | Service Public"
+ },
+ "18": {
+  "url": "https://lannuaire.service-public.gouv.fr/centre-val-de-loire/cher/3594994d-5d1f-4276-89fa-7e6494d3ebb0",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/centre-val-de-loire/cher/3594994d-5d1f-4276-89fa-7e6494d3ebb0",
+  "title": "Préfecture - Cher - Annuaire | Service Public"
+ },
+ "19": {
+  "url": "https://lannuaire.service-public.gouv.fr/nouvelle-aquitaine/correze/74aff24d-6edf-4a6f-a9a3-3cbeea9309a3",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/nouvelle-aquitaine/correze/74aff24d-6edf-4a6f-a9a3-3cbeea9309a3",
+  "title": "Préfecture - Corrèze - Annuaire | Service Public"
+ },
+ "21": {
+  "url": "https://lannuaire.service-public.gouv.fr/bourgogne-franche-comte/cote-d-or/32bfc2bc-9fc9-494b-b0d7-ad7ba0025c69",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/bourgogne-franche-comte/cote-d-or/32bfc2bc-9fc9-494b-b0d7-ad7ba0025c69",
+  "title": "Préfecture - Côte-d'Or - Annuaire | Service Public"
+ },
+ "22": {
+  "url": "https://lannuaire.service-public.gouv.fr/bretagne/cotes-d-armor/106c2d6a-4f2b-4aa6-b08a-998e63790aab",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/bretagne/cotes-d-armor/106c2d6a-4f2b-4aa6-b08a-998e63790aab",
+  "title": "Préfecture - Côtes-d'Armor - Annuaire | Service Public"
+ },
+ "23": {
+  "url": "https://lannuaire.service-public.gouv.fr/nouvelle-aquitaine/creuse/14732cd9-a9ed-4528-9666-b57ea3660ace",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/nouvelle-aquitaine/creuse/14732cd9-a9ed-4528-9666-b57ea3660ace",
+  "title": "Préfecture - Creuse - Annuaire | Service Public"
+ },
+ "24": {
+  "url": "https://lannuaire.service-public.gouv.fr/nouvelle-aquitaine/dordogne/770ad5fe-b798-4bac-9df2-1f0ecd3d6e57",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/nouvelle-aquitaine/dordogne/770ad5fe-b798-4bac-9df2-1f0ecd3d6e57",
+  "title": "Préfecture - Dordogne - Annuaire | Service Public"
+ },
+ "25": {
+  "url": "https://lannuaire.service-public.gouv.fr/bourgogne-franche-comte/doubs/27632011-2e64-484f-9707-00afd5ddb0d9",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/bourgogne-franche-comte/doubs/27632011-2e64-484f-9707-00afd5ddb0d9",
+  "title": "Préfecture - Doubs - Annuaire | Service Public"
+ },
+ "26": {
+  "url": "https://lannuaire.service-public.gouv.fr/auvergne-rhone-alpes/drome/d8c995cf-0b36-4eef-a68d-dd0802c76cbf",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/auvergne-rhone-alpes/drome/d8c995cf-0b36-4eef-a68d-dd0802c76cbf",
+  "title": "Préfecture - Drôme - Annuaire | Service Public"
+ },
+ "27": {
+  "url": "https://lannuaire.service-public.gouv.fr/normandie/eure/ec1de053-417a-4088-8ddb-02b5089b657f",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/normandie/eure/ec1de053-417a-4088-8ddb-02b5089b657f",
+  "title": "Préfecture - Eure - Annuaire | Service Public"
+ },
+ "28": {
+  "url": "https://lannuaire.service-public.gouv.fr/centre-val-de-loire/eure-et-loir/d1dc3abd-cdb8-4d93-aca2-6106411883d8",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/centre-val-de-loire/eure-et-loir/d1dc3abd-cdb8-4d93-aca2-6106411883d8",
+  "title": "Préfecture - Eure-et-Loir - Annuaire | Service Public"
+ },
+ "29": {
+  "url": "https://lannuaire.service-public.gouv.fr/bretagne/finistere/2a739ac5-4620-45fc-82c5-83fe8db07df0",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/bretagne/finistere/2a739ac5-4620-45fc-82c5-83fe8db07df0",
+  "title": "Préfecture - Finistère - Annuaire | Service Public"
+ },
+ "2A": {
+  "url": "https://lannuaire.service-public.gouv.fr/corse/corse-du-sud/4806a1b0-e34a-416f-95e3-21f729837f8f",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/corse/corse-du-sud/4806a1b0-e34a-416f-95e3-21f729837f8f",
+  "title": "Préfecture - Corse-du-Sud - Annuaire | Service Public"
+ },
+ "2B": {
+  "url": "https://lannuaire.service-public.gouv.fr/corse/haute-corse/9e476da4-b440-4767-a3d5-f32753dec22b",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/corse/haute-corse/9e476da4-b440-4767-a3d5-f32753dec22b",
+  "title": "Préfecture - Haute-Corse - Annuaire | Service Public"
+ },
+ "30": {
+  "url": "https://lannuaire.service-public.gouv.fr/occitanie/gard/6c56f81e-c303-4006-bf23-0e35ecf0b9c0",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/occitanie/gard/6c56f81e-c303-4006-bf23-0e35ecf0b9c0",
+  "title": "Préfecture - Gard - Annuaire | Service Public"
+ },
+ "31": {
+  "url": "https://lannuaire.service-public.gouv.fr/occitanie/haute-garonne/bcbcfb2e-89ec-44a4-b2ae-28f87c55357f",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/occitanie/haute-garonne/bcbcfb2e-89ec-44a4-b2ae-28f87c55357f",
+  "title": "Préfecture - Haute-Garonne - Annuaire | Service Public"
+ },
+ "32": {
+  "url": "https://lannuaire.service-public.gouv.fr/occitanie/gers/dd662b7a-5485-48d6-ad1a-f1720b05830f",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/occitanie/gers/dd662b7a-5485-48d6-ad1a-f1720b05830f",
+  "title": "Préfecture - Gers - Annuaire | Service Public"
+ },
+ "33": {
+  "url": "https://lannuaire.service-public.gouv.fr/nouvelle-aquitaine/gironde/03ba0b47-7bd0-4e68-9a14-4125b9ae0484",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/nouvelle-aquitaine/gironde/03ba0b47-7bd0-4e68-9a14-4125b9ae0484",
+  "title": "Préfecture - Gironde - Annuaire | Service Public"
+ },
+ "34": {
+  "url": "https://lannuaire.service-public.gouv.fr/occitanie/herault/cc7a5287-6ebb-4dc7-af37-fab99bc266a6",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/occitanie/herault/cc7a5287-6ebb-4dc7-af37-fab99bc266a6",
+  "title": "Préfecture - Hérault - Annuaire | Service Public"
+ },
+ "35": {
+  "url": "https://lannuaire.service-public.gouv.fr/bretagne/ille-et-vilaine/229f6896-6ee0-443d-901c-0a3f44b15f30",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/bretagne/ille-et-vilaine/229f6896-6ee0-443d-901c-0a3f44b15f30",
+  "title": "Préfecture - Ille-et-Vilaine - Annuaire | Service Public"
+ },
+ "36": {
+  "url": "https://lannuaire.service-public.gouv.fr/centre-val-de-loire/indre/1c1f751c-55a1-4056-ab65-33b2f7392a81",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/centre-val-de-loire/indre/1c1f751c-55a1-4056-ab65-33b2f7392a81",
+  "title": "Préfecture - Indre - Annuaire | Service Public"
+ },
+ "37": {
+  "url": "https://lannuaire.service-public.gouv.fr/centre-val-de-loire/indre-et-loire/206b64cc-3e35-4f28-a521-f3da90bf54cb",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/centre-val-de-loire/indre-et-loire/206b64cc-3e35-4f28-a521-f3da90bf54cb",
+  "title": "Préfecture - Indre-et-Loire - Annuaire | Service Public"
+ },
+ "38": {
+  "url": "https://lannuaire.service-public.gouv.fr/auvergne-rhone-alpes/isere/d43894ef-bf14-42d2-b07d-0c1f6b906026",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/auvergne-rhone-alpes/isere/d43894ef-bf14-42d2-b07d-0c1f6b906026",
+  "title": "Préfecture - Isère - Annuaire | Service Public"
+ },
+ "39": {
+  "url": "https://lannuaire.service-public.gouv.fr/bourgogne-franche-comte/jura/989adb94-9d39-4054-aaf5-2572aa11ec63",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/bourgogne-franche-comte/jura/989adb94-9d39-4054-aaf5-2572aa11ec63",
+  "title": "Préfecture - Jura - Annuaire | Service Public"
+ },
+ "40": {
+  "url": "https://lannuaire.service-public.gouv.fr/nouvelle-aquitaine/landes/634271f6-e001-48ff-97bd-4b91ca455d0a",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/nouvelle-aquitaine/landes/634271f6-e001-48ff-97bd-4b91ca455d0a",
+  "title": "Préfecture - Landes - Annuaire | Service Public"
+ },
+ "41": {
+  "url": "https://lannuaire.service-public.gouv.fr/centre-val-de-loire/loir-et-cher/d5282ebc-1fcd-4bf5-ab53-269d21b0bc67",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/centre-val-de-loire/loir-et-cher/d5282ebc-1fcd-4bf5-ab53-269d21b0bc67",
+  "title": "Préfecture - Loir-et-Cher - Annuaire | Service Public"
+ },
+ "42": {
+  "url": "https://lannuaire.service-public.gouv.fr/auvergne-rhone-alpes/loire/19fefc85-ec18-4b72-b858-516e20cf1147",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/auvergne-rhone-alpes/loire/19fefc85-ec18-4b72-b858-516e20cf1147",
+  "title": "Préfecture - Loire - Annuaire | Service Public"
+ },
+ "43": {
+  "url": "https://lannuaire.service-public.gouv.fr/auvergne-rhone-alpes/haute-loire/389ea306-c22b-42f2-b5d4-186b7e742301",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/auvergne-rhone-alpes/haute-loire/389ea306-c22b-42f2-b5d4-186b7e742301",
+  "title": "Préfecture - Haute-Loire - Annuaire | Service Public"
+ },
+ "44": {
+  "url": "https://lannuaire.service-public.gouv.fr/pays-de-la-loire/loire-atlantique/99392b20-dff3-40bd-9496-8d6d999b7872",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/pays-de-la-loire/loire-atlantique/99392b20-dff3-40bd-9496-8d6d999b7872",
+  "title": "Préfecture - Loire-Atlantique - Annuaire | Service Public"
+ },
+ "45": {
+  "url": "https://lannuaire.service-public.gouv.fr/centre-val-de-loire/loiret/3040f259-ddb7-4e8a-bd5a-9ea9149270e2",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/centre-val-de-loire/loiret/3040f259-ddb7-4e8a-bd5a-9ea9149270e2",
+  "title": "Préfecture - Loiret - Annuaire | Service Public"
+ },
+ "46": {
+  "url": "https://lannuaire.service-public.gouv.fr/occitanie/lot/2b702572-9604-48f4-b836-518f5a841bb1",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/occitanie/lot/2b702572-9604-48f4-b836-518f5a841bb1",
+  "title": "Préfecture - Lot - Annuaire | Service Public"
+ },
+ "47": {
+  "url": "https://lannuaire.service-public.gouv.fr/nouvelle-aquitaine/lot-et-garonne/5f7fffa8-a2f3-4830-9c59-d8c67d56ba8a",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/nouvelle-aquitaine/lot-et-garonne/5f7fffa8-a2f3-4830-9c59-d8c67d56ba8a",
+  "title": "Préfecture - Lot-et-Garonne - Annuaire | Service Public"
+ },
+ "48": {
+  "url": "https://lannuaire.service-public.gouv.fr/occitanie/lozere/77157508-65b5-4cc4-b427-28d0d7c8109a",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/occitanie/lozere/77157508-65b5-4cc4-b427-28d0d7c8109a",
+  "title": "Préfecture - Lozère - Annuaire | Service Public"
+ },
+ "49": {
+  "url": "https://lannuaire.service-public.gouv.fr/pays-de-la-loire/maine-et-loire/c28fed7b-ba94-4baa-97ca-0346b526229d",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/pays-de-la-loire/maine-et-loire/c28fed7b-ba94-4baa-97ca-0346b526229d",
+  "title": "Préfecture - Maine-et-Loire - Annuaire | Service Public"
+ },
+ "50": {
+  "url": "https://lannuaire.service-public.gouv.fr/normandie/manche/e5db6c06-1ccb-4402-a7a8-f0ceb5ac9268",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/normandie/manche/e5db6c06-1ccb-4402-a7a8-f0ceb5ac9268",
+  "title": "Préfecture - Manche - Annuaire | Service Public"
+ },
+ "51": {
+  "url": "https://lannuaire.service-public.gouv.fr/grand-est/marne/1cb215c2-96e1-4a94-921a-98a370bc9887",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/grand-est/marne/1cb215c2-96e1-4a94-921a-98a370bc9887",
+  "title": "Préfecture - Marne - Annuaire | Service Public"
+ },
+ "52": {
+  "url": "https://lannuaire.service-public.gouv.fr/grand-est/haute-marne/15395ad3-2176-46b0-9d0a-ee60133d7906",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/grand-est/haute-marne/15395ad3-2176-46b0-9d0a-ee60133d7906",
+  "title": "Préfecture - Haute-Marne - Annuaire | Service Public"
+ },
+ "53": {
+  "url": "https://lannuaire.service-public.gouv.fr/pays-de-la-loire/mayenne/869d8e5a-0c0a-468c-8736-ce74cfacbc76",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/pays-de-la-loire/mayenne/869d8e5a-0c0a-468c-8736-ce74cfacbc76",
+  "title": "Préfecture - Mayenne - Annuaire | Service Public"
+ },
+ "54": {
+  "url": "https://lannuaire.service-public.gouv.fr/grand-est/meurthe-et-moselle/b07dff0b-5af8-4359-9c04-ffeb1cba13c9",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/grand-est/meurthe-et-moselle/b07dff0b-5af8-4359-9c04-ffeb1cba13c9",
+  "title": "Préfecture - Meurthe-et-Moselle - Annuaire | Service Public"
+ },
+ "55": {
+  "url": "https://lannuaire.service-public.gouv.fr/grand-est/meuse/7ced2ae9-068c-40c5-8175-e0f2fbd596b1",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/grand-est/meuse/7ced2ae9-068c-40c5-8175-e0f2fbd596b1",
+  "title": "Préfecture - Meuse - Annuaire | Service Public"
+ },
+ "56": {
+  "url": "https://lannuaire.service-public.gouv.fr/bretagne/morbihan/966f71dd-d463-4994-ad32-2f351bccb55c",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/bretagne/morbihan/966f71dd-d463-4994-ad32-2f351bccb55c",
+  "title": "Préfecture - Morbihan - Annuaire | Service Public"
+ },
+ "57": {
+  "url": "https://lannuaire.service-public.gouv.fr/grand-est/moselle/b72ca22f-907c-48ff-91e0-c8b3aa953ae5",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/grand-est/moselle/b72ca22f-907c-48ff-91e0-c8b3aa953ae5",
+  "title": "Préfecture - Moselle - Annuaire | Service Public"
+ },
+ "58": {
+  "url": "https://lannuaire.service-public.gouv.fr/bourgogne-franche-comte/nievre/2cf88fcb-e2ee-4531-805b-13135f256ff6",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/bourgogne-franche-comte/nievre/2cf88fcb-e2ee-4531-805b-13135f256ff6",
+  "title": "Préfecture - Nièvre - Annuaire | Service Public"
+ },
+ "59": {
+  "url": "https://lannuaire.service-public.gouv.fr/hauts-de-france/nord/88df876f-8048-41cd-b985-d796bd21580e",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/hauts-de-france/nord/88df876f-8048-41cd-b985-d796bd21580e",
+  "title": "Préfecture - Nord - Annuaire | Service Public"
+ },
+ "60": {
+  "url": "https://lannuaire.service-public.gouv.fr/hauts-de-france/oise/51d7cd1b-4d4e-4910-9a7b-947ffd055ced",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/hauts-de-france/oise/51d7cd1b-4d4e-4910-9a7b-947ffd055ced",
+  "title": "Préfecture - Oise - Annuaire | Service Public"
+ },
+ "61": {
+  "url": "https://lannuaire.service-public.gouv.fr/normandie/orne/c4fd783b-bdcc-402d-b870-223fc4445b0c",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/normandie/orne/c4fd783b-bdcc-402d-b870-223fc4445b0c",
+  "title": "Préfecture - Orne - Annuaire | Service Public"
+ },
+ "62": {
+  "url": "https://lannuaire.service-public.gouv.fr/hauts-de-france/pas-de-calais/a198c12b-5ae6-4c67-9a29-fb47323c8b7f",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/hauts-de-france/pas-de-calais/a198c12b-5ae6-4c67-9a29-fb47323c8b7f",
+  "title": "Préfecture - Pas-de-Calais - Annuaire | Service Public"
+ },
+ "63": {
+  "url": "https://lannuaire.service-public.gouv.fr/auvergne-rhone-alpes/puy-de-dome/d495649e-148a-4d09-97c2-2c11263bd7cf",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/auvergne-rhone-alpes/puy-de-dome/d495649e-148a-4d09-97c2-2c11263bd7cf",
+  "title": "Préfecture - Puy-de-Dôme - Annuaire | Service Public"
+ },
+ "64": {
+  "url": "https://lannuaire.service-public.gouv.fr/nouvelle-aquitaine/pyrenees-atlantiques/1f948f35-9246-4220-92dd-dfc63c909135",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/nouvelle-aquitaine/pyrenees-atlantiques/1f948f35-9246-4220-92dd-dfc63c909135",
+  "title": "Préfecture - Pyrénées-Atlantiques - Annuaire | Service Public"
+ },
+ "65": {
+  "url": "https://lannuaire.service-public.gouv.fr/occitanie/hautes-pyrenees/46f1fa23-691f-4c8e-bc70-93e9c8c42e1c",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/occitanie/hautes-pyrenees/46f1fa23-691f-4c8e-bc70-93e9c8c42e1c",
+  "title": "Préfecture - Hautes-Pyrénées - Annuaire | Service Public"
+ },
+ "66": {
+  "url": "https://lannuaire.service-public.gouv.fr/occitanie/pyrenees-orientales/26e27775-3024-4da5-b6d7-ecb3b0a8733c",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/occitanie/pyrenees-orientales/26e27775-3024-4da5-b6d7-ecb3b0a8733c",
+  "title": "Préfecture - Pyrénées-Orientales - Annuaire | Service Public"
+ },
+ "67": {
+  "url": "https://lannuaire.service-public.gouv.fr/grand-est/bas-rhin/2d5be364-275d-4e49-93cd-f132cfd45255",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/grand-est/bas-rhin/2d5be364-275d-4e49-93cd-f132cfd45255",
+  "title": "Préfecture - Bas-Rhin - Annuaire | Service Public"
+ },
+ "68": {
+  "url": "https://lannuaire.service-public.gouv.fr/grand-est/haut-rhin/9a58d701-f793-486d-863c-63ee35dd2b10",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/grand-est/haut-rhin/9a58d701-f793-486d-863c-63ee35dd2b10",
+  "title": "Préfecture - Haut-Rhin - Annuaire | Service Public"
+ },
+ "69": {
+  "url": "https://lannuaire.service-public.gouv.fr/auvergne-rhone-alpes/rhone/97aee73f-4216-4b70-94bb-bc5bd5d76984",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/auvergne-rhone-alpes/rhone/97aee73f-4216-4b70-94bb-bc5bd5d76984",
+  "title": "Préfecture - Rhône - Annuaire | Service Public"
+ },
+ "70": {
+  "url": "https://lannuaire.service-public.gouv.fr/bourgogne-franche-comte/haute-saone/f0726527-39a6-4c4c-a6cd-2284d82d48b9",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/bourgogne-franche-comte/haute-saone/f0726527-39a6-4c4c-a6cd-2284d82d48b9",
+  "title": "Préfecture - Haute-Saône - Annuaire | Service Public"
+ },
+ "71": {
+  "url": "https://lannuaire.service-public.gouv.fr/bourgogne-franche-comte/saone-et-loire/e27befdb-2fb3-47fd-955a-60c930941d02",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/bourgogne-franche-comte/saone-et-loire/e27befdb-2fb3-47fd-955a-60c930941d02",
+  "title": "Préfecture - Saône-et-Loire - Annuaire | Service Public"
+ },
+ "72": {
+  "url": "https://lannuaire.service-public.gouv.fr/pays-de-la-loire/sarthe/885ea458-c4db-4634-8d91-d651c44ba72d",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/pays-de-la-loire/sarthe/885ea458-c4db-4634-8d91-d651c44ba72d",
+  "title": "Préfecture - Sarthe - Annuaire | Service Public"
+ },
+ "73": {
+  "url": "https://lannuaire.service-public.gouv.fr/auvergne-rhone-alpes/savoie/81344c70-3601-481e-857d-a24f50b5e5a7",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/auvergne-rhone-alpes/savoie/81344c70-3601-481e-857d-a24f50b5e5a7",
+  "title": "Préfecture - Savoie - Annuaire | Service Public"
+ },
+ "74": {
+  "url": "https://lannuaire.service-public.gouv.fr/auvergne-rhone-alpes/haute-savoie/7996bb87-77d0-4570-a7cd-325e0cc48b2f",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/auvergne-rhone-alpes/haute-savoie/7996bb87-77d0-4570-a7cd-325e0cc48b2f",
+  "title": "Préfecture - Haute-Savoie - Annuaire | Service Public"
+ },
+ "75": {
+  "url": "https://lannuaire.service-public.gouv.fr/ile-de-france/paris/90c98979-445b-4410-8dc9-feae721b0738",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/ile-de-france/paris/90c98979-445b-4410-8dc9-feae721b0738",
+  "title": "Préfecture de police de Paris - Annuaire | Service Public"
+ },
+ "76": {
+  "url": "https://lannuaire.service-public.gouv.fr/normandie/seine-maritime/67aefdb7-9729-43ee-bc54-a768300c1f20",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/normandie/seine-maritime/67aefdb7-9729-43ee-bc54-a768300c1f20",
+  "title": "Préfecture - Seine-Maritime - Annuaire | Service Public"
+ },
+ "77": {
+  "url": "https://lannuaire.service-public.gouv.fr/ile-de-france/seine-et-marne/245006d0-6cc2-4b53-861a-c2e9b8a6747b",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/ile-de-france/seine-et-marne/245006d0-6cc2-4b53-861a-c2e9b8a6747b",
+  "title": "Préfecture - Seine-et-Marne - Annuaire | Service Public"
+ },
+ "78": {
+  "url": "https://lannuaire.service-public.gouv.fr/ile-de-france/yvelines/b8310757-c178-43fe-aec5-0cb4803b86b2",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/ile-de-france/yvelines/b8310757-c178-43fe-aec5-0cb4803b86b2",
+  "title": "Préfecture - Yvelines - Annuaire | Service Public"
+ },
+ "79": {
+  "url": "https://lannuaire.service-public.gouv.fr/nouvelle-aquitaine/deux-sevres/e4859d0d-a7c5-44a9-a714-7b3252f74552",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/nouvelle-aquitaine/deux-sevres/e4859d0d-a7c5-44a9-a714-7b3252f74552",
+  "title": "Préfecture - Deux-Sèvres - Annuaire | Service Public"
+ },
+ "80": {
+  "url": "https://lannuaire.service-public.gouv.fr/hauts-de-france/somme/57fbd6c8-62b5-443b-bf52-d7b3db5b2b47",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/hauts-de-france/somme/57fbd6c8-62b5-443b-bf52-d7b3db5b2b47",
+  "title": "Préfecture - Somme - Annuaire | Service Public"
+ },
+ "81": {
+  "url": "https://lannuaire.service-public.gouv.fr/occitanie/tarn/677614ea-f87a-48ca-9f3d-928e5aa2b272",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/occitanie/tarn/677614ea-f87a-48ca-9f3d-928e5aa2b272",
+  "title": "Préfecture - Tarn - Annuaire | Service Public"
+ },
+ "82": {
+  "url": "https://lannuaire.service-public.gouv.fr/occitanie/tarn-et-garonne/6e8b5540-e240-41d3-a029-b6262c5a5373",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/occitanie/tarn-et-garonne/6e8b5540-e240-41d3-a029-b6262c5a5373",
+  "title": "Préfecture - Tarn-et-Garonne - Annuaire | Service Public"
+ },
+ "83": {
+  "url": "https://lannuaire.service-public.gouv.fr/provence-alpes-cote-d-azur/var/162ab3b2-360f-46cc-ac83-67c967b214bd",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/provence-alpes-cote-d-azur/var/162ab3b2-360f-46cc-ac83-67c967b214bd",
+  "title": "Préfecture - Var - Annuaire | Service Public"
+ },
+ "84": {
+  "url": "https://lannuaire.service-public.gouv.fr/provence-alpes-cote-d-azur/vaucluse/55e56746-59d1-4cb5-8b4a-136171fb5784",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/provence-alpes-cote-d-azur/vaucluse/55e56746-59d1-4cb5-8b4a-136171fb5784",
+  "title": "Préfecture - Vaucluse - Annuaire | Service Public"
+ },
+ "85": {
+  "url": "https://lannuaire.service-public.gouv.fr/pays-de-la-loire/vendee/f1a3efbb-cff0-4990-90f1-6d40c13abdfa",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/pays-de-la-loire/vendee/f1a3efbb-cff0-4990-90f1-6d40c13abdfa",
+  "title": "Préfecture - Vendée - Annuaire | Service Public"
+ },
+ "86": {
+  "url": "https://lannuaire.service-public.gouv.fr/nouvelle-aquitaine/vienne/044f4ada-e551-426d-8c62-6d7b19f5d21a",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/nouvelle-aquitaine/vienne/044f4ada-e551-426d-8c62-6d7b19f5d21a",
+  "title": "Préfecture - Vienne - Annuaire | Service Public"
+ },
+ "87": {
+  "url": "https://lannuaire.service-public.gouv.fr/nouvelle-aquitaine/haute-vienne/86d0ebc6-a84b-4cc8-a178-f5172ca3584c",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/nouvelle-aquitaine/haute-vienne/86d0ebc6-a84b-4cc8-a178-f5172ca3584c",
+  "title": "Préfecture - Haute-Vienne - Annuaire | Service Public"
+ },
+ "88": {
+  "url": "https://lannuaire.service-public.gouv.fr/grand-est/vosges/f999af82-5a34-4f67-a8df-52a2a8c177d1",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/grand-est/vosges/f999af82-5a34-4f67-a8df-52a2a8c177d1",
+  "title": "Préfecture - Vosges - Annuaire | Service Public"
+ },
+ "89": {
+  "url": "https://lannuaire.service-public.gouv.fr/bourgogne-franche-comte/yonne/cc30c13c-3551-4a44-8750-bc5bca8d6f92",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/bourgogne-franche-comte/yonne/cc30c13c-3551-4a44-8750-bc5bca8d6f92",
+  "title": "Préfecture - Yonne - Annuaire | Service Public"
+ },
+ "90": {
+  "url": "https://lannuaire.service-public.gouv.fr/bourgogne-franche-comte/territoire-de-belfort/6ade1784-caf8-438a-869d-6139cb1b6353",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/bourgogne-franche-comte/territoire-de-belfort/6ade1784-caf8-438a-869d-6139cb1b6353",
+  "title": "Préfecture - Territoire de Belfort - Annuaire | Service Public"
+ },
+ "91": {
+  "url": "https://lannuaire.service-public.gouv.fr/ile-de-france/essonne/68982b67-c7ab-46f7-aa74-c9a46a7d04ad",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/ile-de-france/essonne/68982b67-c7ab-46f7-aa74-c9a46a7d04ad",
+  "title": "Préfecture - Essonne - Annuaire | Service Public"
+ },
+ "92": {
+  "url": "https://lannuaire.service-public.gouv.fr/ile-de-france/hauts-de-seine/0d56064a-bf03-4ef4-a8b0-85d882fa4677",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/ile-de-france/hauts-de-seine/0d56064a-bf03-4ef4-a8b0-85d882fa4677",
+  "title": "Préfecture - Hauts-de-Seine - Annuaire | Service Public"
+ },
+ "93": {
+  "url": "https://lannuaire.service-public.gouv.fr/ile-de-france/seine-saint-denis/6cbec247-95d0-4aca-befe-352a3805c7de",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/ile-de-france/seine-saint-denis/6cbec247-95d0-4aca-befe-352a3805c7de",
+  "title": "Préfecture - Seine-Saint-Denis - Annuaire | Service Public"
+ },
+ "94": {
+  "url": "https://lannuaire.service-public.gouv.fr/ile-de-france/val-de-marne/dc82689e-1fe2-495d-aceb-6f1fed3c5690",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/ile-de-france/val-de-marne/dc82689e-1fe2-495d-aceb-6f1fed3c5690",
+  "title": "Préfecture - Val-de-Marne - Annuaire | Service Public"
+ },
+ "95": {
+  "url": "https://lannuaire.service-public.gouv.fr/ile-de-france/val-d-oise/70ca07b0-db06-41a7-ae0f-58239c9a643a",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/ile-de-france/val-d-oise/70ca07b0-db06-41a7-ae0f-58239c9a643a",
+  "title": "Préfecture - Val-d'Oise - Annuaire | Service Public"
+ },
+ "971": {
+  "url": "https://lannuaire.service-public.gouv.fr/guadeloupe/guadeloupe/7121906b-cecf-46b5-abe5-ec4f9ef8c669",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/guadeloupe/guadeloupe/7121906b-cecf-46b5-abe5-ec4f9ef8c669",
+  "title": "Préfecture - Guadeloupe - Annuaire | Service Public"
+ },
+ "972": {
+  "url": "https://lannuaire.service-public.gouv.fr/martinique/martinique/f9d7fb06-b1c4-4fb4-9840-235085c3e637",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/martinique/martinique/f9d7fb06-b1c4-4fb4-9840-235085c3e637",
+  "title": "Préfecture - Martinique - Annuaire | Service Public"
+ },
+ "973": {
+  "url": "https://lannuaire.service-public.gouv.fr/guyane/guyane/1efa4780-c58a-4b68-84ca-725d0c7cf82c",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/guyane/guyane/1efa4780-c58a-4b68-84ca-725d0c7cf82c",
+  "title": "Préfecture - Guyane - Annuaire | Service Public"
+ },
+ "974": {
+  "url": "https://lannuaire.service-public.gouv.fr/la-reunion/la-reunion/b10e78eb-7e1f-4a39-a345-5356a242b6d9",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/la-reunion/la-reunion/b10e78eb-7e1f-4a39-a345-5356a242b6d9",
+  "title": "Préfecture - La Réunion - Annuaire | Service Public"
+ },
+ "976": {
+  "url": "https://lannuaire.service-public.gouv.fr/mayotte/mayotte/d67b1697-0e17-45a5-a1e3-eaa12eba8270",
+  "status": 200,
+  "final": "https://lannuaire.service-public.gouv.fr/mayotte/mayotte/d67b1697-0e17-45a5-a1e3-eaa12eba8270",
+  "title": "Préfecture - Mayotte - Annuaire | Service Public"
+ }
+}

@@ -29,7 +29,7 @@ struct AppointmentSection: View {
                 }
                 .padding(16)
                 .frame(maxWidth: .infinity, alignment: .leading)
-                .glassCard(cornerRadius: 20)
+                .cardSurface(cornerRadius: 20)
             }
         }
     }

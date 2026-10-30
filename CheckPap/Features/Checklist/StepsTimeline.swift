@@ -39,7 +39,7 @@ struct StepsTimeline: View {
                             }
                         }
                         .padding(18)
-                        .glassCard(cornerRadius: 22)
+                        .cardSurface(cornerRadius: 22)
                     }
                 }
             }

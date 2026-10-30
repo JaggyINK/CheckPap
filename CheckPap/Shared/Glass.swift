@@ -1,69 +1,39 @@
 import SwiftUI
 
-// Liquid Glass n'existe qu'à partir d'iOS 26. L'app vise iOS 17 minimum :
-// ces fonctions choisissent l'effet verre quand il est disponible,
-// et un matériau translucide classique sinon.
+// Surfaces et boutons de l'app, dans le style des apps Apple :
+// le verre (Liquid Glass) reste réservé à la barre d'onglets et à la barre de navigation,
+// gérées par le système ; le contenu repose sur des surfaces opaques et sobres.
 
 extension View {
-    /// Carte en verre : fond Liquid Glass sur iOS 26+, matériau flouté avant.
-    @ViewBuilder
-    func glassCard(cornerRadius: CGFloat = 24) -> some View {
-        if #available(iOS 26.0, *) {
-            self.glassEffect(.regular, in: .rect(cornerRadius: cornerRadius))
-        } else {
-            self.background(.ultraThinMaterial, in: .rect(cornerRadius: cornerRadius))
-        }
+    /// Carte de contenu : surface opaque, coins arrondis, fin trait de séparation.
+    func cardSurface(cornerRadius: CGFloat = 14) -> some View {
+        let radius = min(cornerRadius, 16)
+        return background(Color(.secondarySystemGroupedBackground), in: .rect(cornerRadius: radius, style: .continuous))
+            .overlay {
+                RoundedRectangle(cornerRadius: radius, style: .continuous)
+                    .strokeBorder(Color(.separator).opacity(0.5), lineWidth: 0.5)
+            }
     }
 
-    /// Bouton principal : style verre teinté sur iOS 26+, bouton plein avant.
-    @ViewBuilder
-    func primaryGlassButton() -> some View {
-        if #available(iOS 26.0, *) {
-            self.buttonStyle(.glassProminent)
-        } else {
-            self.buttonStyle(.borderedProminent)
-        }
+    /// Zone en retrait à l'intérieur d'une carte (exemple, astuce, date...).
+    func insetSurface(cornerRadius: CGFloat = 10) -> some View {
+        background(Color(.tertiarySystemFill), in: .rect(cornerRadius: cornerRadius, style: .continuous))
     }
 
-    /// Bouton secondaire : verre clair sur iOS 26+, bouton bordé avant.
-    @ViewBuilder
-    func secondaryGlassButton() -> some View {
-        if #available(iOS 26.0, *) {
-            self.buttonStyle(.glass)
-        } else {
-            self.buttonStyle(.bordered)
-        }
+    /// Bouton principal : fond plein de la couleur d'accent.
+    func primaryButton() -> some View {
+        buttonStyle(.borderedProminent)
+    }
+
+    /// Bouton secondaire.
+    func secondaryButton() -> some View {
+        buttonStyle(.bordered)
     }
 }
 
-/// Fond de l'app : un dégradé doux menthe et sarcelle en haut, qui se fond dans le fond système.
-/// Le verre a besoin de couleurs derrière lui pour être visible.
+/// Fond de l'app : le fond groupé du système (gris très clair, ou noir en mode sombre).
 struct AppBackground: View {
     var body: some View {
-        Group {
-            if #available(iOS 18.0, *) {
-                MeshGradient(
-                    width: 3,
-                    height: 3,
-                    points: [
-                        [0, 0], [0.5, 0], [1, 0],
-                        [0, 0.45], [0.6, 0.35], [1, 0.5],
-                        [0, 1], [0.5, 1], [1, 1],
-                    ],
-                    colors: [
-                        Brand.mint.opacity(0.45), Brand.teal.opacity(0.30), Brand.mint.opacity(0.25),
-                        Brand.mint.opacity(0.15), Color(.systemBackground), Brand.teal.opacity(0.12),
-                        Color(.systemBackground), Color(.systemBackground), Brand.mint.opacity(0.10),
-                    ]
-                )
-            } else {
-                LinearGradient(
-                    colors: [Brand.mint.opacity(0.35), Color(.systemBackground)],
-                    startPoint: .top,
-                    endPoint: .center
-                )
-            }
-        }
-        .ignoresSafeArea()
+        Color(.systemGroupedBackground).ignoresSafeArea()
     }
 }

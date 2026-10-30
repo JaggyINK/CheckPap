@@ -20,13 +20,12 @@ struct ProcedureIntroView: View {
                     .foregroundStyle(Brand.teal)
                     .symbolEffect(.bounce, value: iconBounce)
                     .frame(width: 88, height: 88)
-                    .glassCard(cornerRadius: 28)
+                    .cardSurface(cornerRadius: 28)
                     .staggeredAppear(0)
 
                 VStack(alignment: .leading, spacing: 10) {
                     ContentText(procedure.title)
                         .font(.largeTitle.weight(.bold))
-                        .fontDesign(.rounded)
                     ContentText(procedure.summary)
                         .font(.body)
                         .foregroundStyle(.secondary)
@@ -84,7 +83,7 @@ struct ProcedureIntroView: View {
         }
         .padding(18)
         .frame(maxWidth: .infinity, alignment: .leading)
-        .glassCard(cornerRadius: 22)
+        .cardSurface(cornerRadius: 22)
     }
 }
 
@@ -100,7 +99,6 @@ private struct IntroStep: View {
                 .font(.body.weight(.semibold))
                 .foregroundStyle(Brand.teal)
                 .frame(width: 36, height: 36)
-                .background(Brand.mint.opacity(0.18), in: .circle)
             VStack(alignment: .leading, spacing: 2) {
                 Text(title)
                     .font(.subheadline.weight(.semibold))

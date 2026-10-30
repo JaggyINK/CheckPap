@@ -31,7 +31,7 @@ struct OptionButton: View {
             .padding(16)
             .frame(maxWidth: .infinity, alignment: .leading)
             .contentShape(.rect)
-            .glassCard(cornerRadius: 18)
+            .cardSurface(cornerRadius: 18)
             .overlay {
                 RoundedRectangle(cornerRadius: 18, style: .continuous)
                     .strokeBorder(Brand.teal, lineWidth: isSelected ? 2 : 0)

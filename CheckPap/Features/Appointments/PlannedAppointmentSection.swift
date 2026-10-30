@@ -34,12 +34,12 @@ struct PlannedAppointmentSection: View {
                     Label("Oui, j'enregistre mon rendez-vous", systemImage: "calendar.badge.plus")
                         .frame(maxWidth: .infinity)
                 }
-                .secondaryGlassButton()
+                .secondaryButton()
             }
         }
         .padding(16)
         .frame(maxWidth: .infinity, alignment: .leading)
-        .glassCard(cornerRadius: 20)
+        .cardSurface(cornerRadius: 20)
         .sheet(isPresented: $editing) {
             AppointmentFormSheet(procedureTitle: title, existing: planned.first, onSave: save)
         }
@@ -63,7 +63,7 @@ struct PlannedAppointmentSection: View {
             }
             .frame(width: 64)
             .padding(.vertical, 8)
-            .background(Brand.mint.opacity(0.2), in: .rect(cornerRadius: 14, style: .continuous))
+            .insetSurface()
 
             VStack(alignment: .leading, spacing: 4) {
                 Text("Votre rendez-vous")
@@ -95,7 +95,7 @@ struct PlannedAppointmentSection: View {
             Button(role: .destructive) { delete(appointment) } label: { Label("Supprimer", systemImage: "trash") }
         }
         .font(.footnote.weight(.semibold))
-        .secondaryGlassButton()
+        .secondaryButton()
         if remindersRefused {
             Text("Les notifications sont désactivées pour Check Pap. Vous pouvez les activer dans les Réglages de l'iPhone.")
                 .font(.caption)

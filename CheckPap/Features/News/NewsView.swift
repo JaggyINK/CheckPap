@@ -28,7 +28,7 @@ struct NewsView: View {
 
                 IndependentServiceNotice()
                     .padding(14)
-                    .glassCard(cornerRadius: 18)
+                    .cardSurface(cornerRadius: 18)
             }
             .padding(.horizontal, 20)
             .padding(.bottom, 24)
@@ -51,14 +51,14 @@ struct NewsView: View {
                         .font(.title3)
                         .frame(width: 44, height: 44)
                 }
-                .secondaryGlassButton()
+                .buttonStyle(.plain)
+                .foregroundStyle(Brand.teal)
                 .accessibilityLabel(Text("Réglages"))
             }
             .padding(.top, 8)
             VStack(alignment: .leading, spacing: 6) {
-                Text("Ce qui change pour vous")
+                Text("Actualités")
                     .font(.largeTitle.weight(.bold))
-                    .fontDesign(.rounded)
                 Text("Lois, taxes, délais et aides : les dernières nouvelles publiées par l'administration.")
                     .foregroundStyle(.secondary)
             }

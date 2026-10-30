@@ -36,9 +36,9 @@ struct PrefectureCard: View {
                     .font(.title3.monospacedDigit())
                     .padding(.horizontal, 14)
                     .padding(.vertical, 10)
-                    .glassCard(cornerRadius: 14)
+                    .cardSurface(cornerRadius: 14)
                 Button("Valider", action: lookUp)
-                    .primaryGlassButton()
+                    .primaryButton()
                     .disabled(input.filter(\.isNumber).count != 5)
             }
             if notFound {
@@ -110,6 +110,6 @@ struct PrefectureCard: View {
             Label(title, systemImage: "calendar.badge.plus")
                 .frame(maxWidth: .infinity)
         }
-        .primaryGlassButton()
+        .primaryButton()
     }
 }

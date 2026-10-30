@@ -31,12 +31,12 @@ struct PermitCard: View {
                         Label("Ajouter mon titre de séjour", systemImage: "plus")
                             .frame(maxWidth: .infinity)
                     }
-                    .primaryGlassButton()
+                    .primaryButton()
                 }
             }
             .padding(18)
             .frame(maxWidth: .infinity, alignment: .leading)
-            .glassCard(cornerRadius: 22)
+            .cardSurface(cornerRadius: 22)
             .sheet(isPresented: $editing) {
                 PermitFormSheet(renewal: renewal, initial: info) { newInfo in
                     if let old = info { NotificationService.cancel(old.notificationIds) }
@@ -96,7 +96,7 @@ struct PermitCard: View {
             Button(role: .destructive) { remove(info) } label: { Label("Supprimer", systemImage: "trash") }
         }
         .font(.footnote.weight(.semibold))
-        .secondaryGlassButton()
+        .secondaryButton()
 
         if remindersRefused {
             Text("Les notifications sont désactivées pour Check Pap. Vous pouvez les activer dans les Réglages de l'iPhone.")

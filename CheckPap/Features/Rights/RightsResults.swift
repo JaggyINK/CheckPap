@@ -14,7 +14,6 @@ struct RightsResults: View {
         VStack(alignment: .leading, spacing: 22) {
             Text("\(matching.count) droits et aides peuvent vous concerner")
                 .font(.title3.weight(.bold))
-                .fontDesign(.rounded)
                 .contentTransition(.numericText(value: Double(matching.count)))
                 .animation(.snappy, value: matching.count)
 

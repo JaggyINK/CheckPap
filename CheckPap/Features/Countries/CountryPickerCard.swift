@@ -32,7 +32,7 @@ struct CountryPickerCard: View {
             .padding(16)
             .frame(maxWidth: .infinity, alignment: .leading)
             .contentShape(.rect)
-            .glassCard(cornerRadius: 22)
+            .cardSurface(cornerRadius: 22)
         }
         .buttonStyle(PressableButtonStyle())
     }

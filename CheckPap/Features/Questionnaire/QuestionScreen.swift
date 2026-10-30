@@ -14,7 +14,6 @@ struct QuestionScreen: View {
             VStack(alignment: .leading, spacing: 20) {
                 ContentText(question.title)
                     .font(.title2.weight(.bold))
-                    .fontDesign(.rounded)
                     .fixedSize(horizontal: false, vertical: true)
 
                 if let help = question.help {
@@ -65,7 +64,7 @@ struct QuestionScreen: View {
                 .datePickerStyle(.graphical)
                 .labelsHidden()
                 .padding(8)
-                .glassCard(cornerRadius: 22)
+                .cardSurface(cornerRadius: 22)
         }
     }
 

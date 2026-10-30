@@ -16,3 +16,6 @@ build/
 
 # Captures et exports temporaires
 /exports/
+
+# Cache des pages des préfectures (régénérable)
+scripts/prefectures/data/cache/

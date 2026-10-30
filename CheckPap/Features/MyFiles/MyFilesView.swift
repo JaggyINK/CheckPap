@@ -27,7 +27,7 @@ struct MyFilesView: View {
                     Text("Quand vous commencez une démarche, elle apparaît ici avec votre liste de pièces.")
                 } actions: {
                     Button("Voir les démarches", action: onBrowse)
-                        .primaryGlassButton()
+                        .primaryButton()
                 }
                 .listRowBackground(Color.clear)
                 .listRowSeparator(.hidden)

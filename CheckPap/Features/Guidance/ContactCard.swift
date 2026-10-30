@@ -10,7 +10,6 @@ struct ContactCard: View {
                 .font(.body.weight(.semibold))
                 .foregroundStyle(Brand.teal)
                 .frame(width: 40, height: 40)
-                .background(Brand.mint.opacity(0.18), in: .circle)
 
             VStack(alignment: .leading, spacing: 6) {
                 ContentText(contact.title)
@@ -36,7 +35,7 @@ struct ContactCard: View {
         }
         .padding(16)
         .frame(maxWidth: .infinity, alignment: .leading)
-        .glassCard(cornerRadius: 18)
+        .cardSurface(cornerRadius: 18)
     }
 }
 

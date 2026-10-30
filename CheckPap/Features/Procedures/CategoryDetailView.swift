@@ -13,11 +13,10 @@ struct CategoryDetailView: View {
                         .font(.title.weight(.semibold))
                         .foregroundStyle(Brand.teal)
                         .frame(width: 60, height: 60)
-                        .glassCard(cornerRadius: 18)
+                        .cardSurface(cornerRadius: 18)
                     VStack(alignment: .leading, spacing: 4) {
                         ContentText(category.title)
                             .font(.title.weight(.bold))
-                            .fontDesign(.rounded)
                         ContentText(category.subtitle)
                             .font(.subheadline)
                             .foregroundStyle(.secondary)

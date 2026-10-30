@@ -20,7 +20,6 @@ struct CategoryTile: View {
                     .font(.title2.weight(.semibold))
                     .foregroundStyle(Brand.teal)
                     .frame(width: 48, height: 48)
-                    .background(Brand.mint.opacity(0.18), in: .rect(cornerRadius: 14, style: .continuous))
                 Spacer(minLength: 0)
                 ContentText(category.title)
                     .font(.headline)
@@ -37,7 +36,7 @@ struct CategoryTile: View {
             .padding(16)
             .frame(maxWidth: .infinity, minHeight: 170, alignment: .topLeading)
             .contentShape(.rect)
-            .glassCard(cornerRadius: 24)
+            .cardSurface(cornerRadius: 24)
         }
         .buttonStyle(PressableButtonStyle())
         .accessibilityElement(children: .combine)

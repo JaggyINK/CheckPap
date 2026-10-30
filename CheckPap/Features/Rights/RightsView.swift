@@ -40,7 +40,6 @@ struct RightsView: View {
                 VStack(alignment: .leading, spacing: 8) {
                     Text("1 étranger, 1 solution")
                         .font(.largeTitle.weight(.bold))
-                        .fontDesign(.rounded)
                     Text("Les droits et aides qui peuvent vous concerner, et où les demander.")
                         .foregroundStyle(.secondary)
                 }
@@ -60,7 +59,7 @@ struct RightsView: View {
 
                 IndependentServiceNotice()
                     .padding(14)
-                    .glassCard(cornerRadius: 18)
+                    .cardSurface(cornerRadius: 18)
             }
             .padding(.horizontal, 20)
             .padding(.bottom, 24)

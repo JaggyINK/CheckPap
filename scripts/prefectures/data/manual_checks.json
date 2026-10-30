@@ -1,0 +1,16 @@
+{
+ "75": {
+  "websiteStatus": 200,
+  "appointmentUrl": "https://www.prefecturedepolice.interieur.gouv.fr/demarches/titres-de-sejour-nous-contacter",
+  "appointmentTitle": "Titres de séjour - Nous contacter | Préfecture de Police"
+ },
+ "_notes": [
+  "Vérification des sites de préfecture : un premier passage le 2026-10-29 a été coupé vers 23h40 par les serveurs des sites *.gouv.fr des préfectures (connexions refusées, limitation de débit) ; les pages d'accueil des départements 01 à 48 (dont 2A et 2B) avaient répondu HTTP 200 avant la coupure. Un second passage le 2026-10-30 (une requête toutes les 3 secondes, une seule à la fois) a vérifié les pages de rendez-vous ou \"Étrangers\" des départements 01 à 23, puis les sites de la Dordogne, du Doubs et de la Drôme ont de nouveau refusé la connexion ; le passage a été arrêté sans insister. Les sources des pages de rendez-vous vérifiées ce jour-là portent la date du 2026-10-30. Reste à vérifier : appointmentUrl à partir du 24 (Dordogne), website à partir du 49 (Maine-et-Loire) et pour l'outre-mer.",
+  "Pistes repérées mais non vérifiées pour les départements restants (à contrôler avant ajout) : l'annuaire liste un lien de prise de rendez-vous sur certains sites (par exemple /Prendre-un-rendez-vous pour le Val-de-Marne, /Prendre-un-rendez-vous-en-ligne pour le Vaucluse) ; pour le Rhône, l'inventaire cite https://www.rhone.gouv.fr/Prendre-un-rendez-vous/Accueil-des-etrangers.",
+  "Cher : le lien \"Demande de RDV\" du site redirige vers le formulaire \"Titre de séjour - Demande d'information\" ; c'est cette adresse finale qui est retenue. Ain, Ardennes, Côte-d'Or : page générale de prise de rendez-vous de la préfecture (pas de rubrique \"Étrangers\" retenue). Aube : la page retenue présente le portail ANEF pour les étrangers.",
+  "Paris : le site de la préfecture de police exige JavaScript et cookies ; la page \"Titres de séjour - Nous contacter\" a répondu HTTP 200 après la redirection de contrôle et contient les liens de prise de rendez-vous (titre de séjour). Le téléphone indiqué par l'annuaire est le 3430. L'adresse est celle du siège (1 bis rue de Lutèce) ; les premières demandes se font aux CRE du 17e et du 9e (voir inventaire).",
+  "Rhône : coordonnées de la préfecture du Rhône (Lyon). Mayotte : préfecture de Mayotte ; l'annuaire n'y liste aucune sous-préfecture.",
+  "Champ phone : premier numéro de la fiche annuaire, espaces retirés. Les fiches indiquent souvent aussi le serveur vocal national 34 00, non repris.",
+  "Libellés \"Préfecture du/de la/de l'...\" : article ajouté selon l'usage grammatical ; le nom du département vient de l'annuaire (\"Préfecture - <département>\")."
+ ]
+}

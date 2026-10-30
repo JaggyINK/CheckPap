@@ -11,7 +11,6 @@ struct ReviewScreen: View {
                 VStack(alignment: .leading, spacing: 6) {
                     Text("Vérifiez vos réponses")
                         .font(.title2.weight(.bold))
-                        .fontDesign(.rounded)
                     Text("Touchez une réponse pour la modifier.")
                         .font(.subheadline)
                         .foregroundStyle(.secondary)
@@ -26,7 +25,7 @@ struct ReviewScreen: View {
                     }
                 }
                 .padding(.horizontal, 16)
-                .glassCard(cornerRadius: 22)
+                .cardSurface(cornerRadius: 22)
 
                 Callout(.info, LocalizedText([
                     "fr": "Cette liste est une aide pour préparer votre dossier. Elle ne remplace pas les informations de votre préfecture.",

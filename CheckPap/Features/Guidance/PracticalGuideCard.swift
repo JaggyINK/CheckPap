@@ -17,7 +17,6 @@ struct PracticalGuideCard: View {
                         .font(.subheadline.weight(.semibold))
                         .foregroundStyle(Brand.teal)
                         .frame(width: 30, height: 30)
-                        .background(Brand.mint.opacity(0.18), in: .circle)
                     VStack(alignment: .leading, spacing: 1) {
                         Text("Comment l'obtenir ?")
                             .font(.caption.weight(.semibold))
@@ -44,7 +43,7 @@ struct PracticalGuideCard: View {
         }
         .padding(12)
         .frame(maxWidth: .infinity, alignment: .leading)
-        .background(Brand.mint.opacity(0.10), in: .rect(cornerRadius: 14, style: .continuous))
+        .insetSurface()
     }
 
     private var details: some View {

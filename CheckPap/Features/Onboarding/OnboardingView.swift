@@ -37,7 +37,6 @@ private struct LanguagePage: View {
             VStack(alignment: .leading, spacing: 8) {
                 Text("Bienvenue sur Check Pap")
                     .font(.largeTitle.weight(.bold))
-                    .fontDesign(.rounded)
                 Text("Vos démarches en France, une étape à la fois. Choisissez votre langue.")
                     .foregroundStyle(.secondary)
             }
@@ -67,7 +66,7 @@ private struct LanguagePage: View {
                         }
                         .padding(16)
                         .contentShape(.rect)
-                        .glassCard(cornerRadius: 18)
+                        .cardSurface(cornerRadius: 18)
                     }
                     .buttonStyle(PressableButtonStyle())
                     .staggeredAppear(index + 2)
@@ -85,7 +84,7 @@ private struct LanguagePage: View {
                     .frame(maxWidth: .infinity)
                     .padding(.vertical, 6)
             }
-            .primaryGlassButton()
+            .primaryButton()
             .controlSize(.large)
             IndependentServiceNotice()
         }
@@ -108,11 +107,10 @@ private struct PostalCodePage: View {
                 .font(.system(size: 40, weight: .semibold))
                 .foregroundStyle(Brand.teal)
                 .frame(width: 88, height: 88)
-                .glassCard(cornerRadius: 28)
+                .cardSurface(cornerRadius: 28)
             VStack(alignment: .leading, spacing: 8) {
                 Text("Où habitez-vous ?")
                     .font(.largeTitle.weight(.bold))
-                    .fontDesign(.rounded)
                 Text("Votre code postal nous permet de vous indiquer votre préfecture et où prendre rendez-vous. Il reste sur votre téléphone.")
                     .foregroundStyle(.secondary)
             }
@@ -122,7 +120,7 @@ private struct PostalCodePage: View {
                 .font(.title2.monospacedDigit())
                 .focused($focused)
                 .padding(16)
-                .glassCard(cornerRadius: 18)
+                .cardSurface(cornerRadius: 18)
             if invalid {
                 Text("Ce code postal ne semble pas valide : il doit comporter 5 chiffres.")
                     .font(.footnote)
@@ -141,7 +139,7 @@ private struct PostalCodePage: View {
                     .frame(maxWidth: .infinity)
                     .padding(.vertical, 6)
             }
-            .primaryGlassButton()
+            .primaryButton()
             .controlSize(.large)
             .disabled(postalCode.filter(\.isNumber).count != 5)
             Button("Plus tard", action: onFinish)

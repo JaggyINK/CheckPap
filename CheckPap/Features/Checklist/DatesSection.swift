@@ -34,7 +34,7 @@ private struct DateCard: View {
             }
             .frame(width: 70)
             .padding(.vertical, 8)
-            .background(Brand.mint.opacity(0.18), in: .rect(cornerRadius: 14, style: .continuous))
+            .insetSurface()
 
             VStack(alignment: .leading, spacing: 6) {
                 ContentText(deadline.title)
@@ -48,6 +48,6 @@ private struct DateCard: View {
         }
         .padding(16)
         .frame(maxWidth: .infinity, alignment: .leading)
-        .glassCard(cornerRadius: 20)
+        .cardSurface(cornerRadius: 20)
     }
 }

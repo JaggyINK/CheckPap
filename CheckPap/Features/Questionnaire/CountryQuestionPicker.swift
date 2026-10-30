@@ -27,7 +27,7 @@ struct CountryQuestionPicker: View {
                     .autocorrectionDisabled()
             }
             .padding(12)
-            .glassCard(cornerRadius: 14)
+            .cardSurface(cornerRadius: 14)
 
             LazyVStack(spacing: 8) {
                 ForEach(countries.prefix(query.isEmpty ? 40 : 200)) { country in
@@ -47,7 +47,7 @@ struct CountryQuestionPicker: View {
                         .padding(.horizontal, 14)
                         .padding(.vertical, 10)
                         .contentShape(.rect)
-                        .glassCard(cornerRadius: 14)
+                        .cardSurface(cornerRadius: 14)
                     }
                     .buttonStyle(PressableButtonStyle())
                 }

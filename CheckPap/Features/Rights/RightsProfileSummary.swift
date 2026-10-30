@@ -23,20 +23,15 @@ struct RightsProfileSummary: View {
                 Spacer()
                 Button("Modifier", action: onEdit)
                     .font(.subheadline.weight(.semibold))
-                    .secondaryGlassButton()
+                    .secondaryButton()
             }
-            FlowLayout(spacing: 6) {
-                ForEach(labels, id: \.self) { label in
-                    Text(verbatim: label)
-                        .font(.caption.weight(.semibold))
-                        .padding(.horizontal, 10)
-                        .padding(.vertical, 5)
-                        .background(Brand.mint.opacity(0.18), in: .capsule)
-                }
-            }
+            Text(verbatim: labels.joined(separator: " · "))
+                .font(.subheadline)
+                .foregroundStyle(.secondary)
+                .fixedSize(horizontal: false, vertical: true)
         }
         .padding(18)
         .frame(maxWidth: .infinity, alignment: .leading)
-        .glassCard(cornerRadius: 22)
+        .cardSurface(cornerRadius: 22)
     }
 }

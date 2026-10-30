@@ -69,11 +69,8 @@ private struct CountryRow: View {
                 Spacer()
                 if detailed {
                     Text("Fiche détaillée")
-                        .font(.caption2.weight(.semibold))
-                        .foregroundStyle(Brand.teal)
-                        .padding(.horizontal, 8)
-                        .padding(.vertical, 3)
-                        .background(Brand.mint.opacity(0.18), in: .capsule)
+                        .font(.caption)
+                        .foregroundStyle(.secondary)
                 }
                 Image(systemName: "chevron.forward")
                     .font(.footnote.weight(.semibold))

@@ -108,6 +108,18 @@ Dernière mise à jour du plan : 29/10/2026.
 - En haut de l'onglet Démarches : "Reprendre mes dossiers" et "Les plus demandées" (champ `featured` du catalogue).
 - Nouveaux libellés traduits dans les 18 langues.
 
+**30/10/2026 (fin de journée)**
+- Style revu pour un rendu "fait par une équipe" : fond gris système, cartes opaques avec un fin contour, icônes sans pastilles colorées, plus de dégradé ni d'animations d'apparition en cascade, badges décoratifs retirés, boutons natifs, grands titres de navigation. Liquid Glass gardé uniquement pour la barre d'onglets et la barre de navigation (gérées par iOS).
+- Préfectures : pages de rendez-vous vérifiées pour 23 départements (01 à 19, 21 à 23, Paris), sites pour 50 ; les sites bloquent les vérifications rapides. Scripts de reprise copiés dans `scripts/prefectures/`.
+- Captures App Store régénérées avec le nouveau style.
+
+**Reste à faire (prochaine session)**
+- Préfectures : reprendre la vérification lente à partir de la Dordogne (`scripts/prefectures/README.md`).
+- Vérifier à l'écran, avec un dossier rempli : "Votre dossier est prêt", rendez-vous enregistré, carte "Votre destination".
+- Compléter les `[À COMPLÉTER]` du dossier `AppStore/` (e-mail de contact, nom de l'éditeur), publier les pages web (GitHub Pages), choisir la Team et vérifier le bundle ID dans Xcode.
+- Faire relire le contenu (statut brouillon) et les traductions (priorité : tigrigna, pachto).
+- Choisir les prochaines fonctions : export PDF, lexique, suivi après dépôt avec relance (recommandées), coffre-fort de documents, widget, lecture à voix haute, contenu détaillé traduit.
+
 ## Feuille de route après la v1 (demandes de l'utilisatrice)
 
 - [ ] **Annuaire des consulats par nationalité et par lieu** (les fiches pays donnent déjà le lien vers l'ambassade du pays en France) : pour un passeport étranger, indiquer le consulat compétent selon le pays et le département de la personne. Nécessite une source structurée et maintenue (liste des représentations étrangères en France) et l'écran de choix du département (tâche 3.5).

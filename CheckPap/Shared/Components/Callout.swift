@@ -25,7 +25,7 @@ struct Callout: View {
             switch self {
             case .example: Brand.teal
             case .tip: .orange
-            case .info: .indigo
+            case .info: .secondary
             }
         }
     }
@@ -56,7 +56,7 @@ struct Callout: View {
         }
         .padding(12)
         .frame(maxWidth: .infinity, alignment: .leading)
-        .background(kind.tint.opacity(0.10), in: .rect(cornerRadius: 14, style: .continuous))
+        .insetSurface()
         .accessibilityElement(children: .combine)
     }
 }

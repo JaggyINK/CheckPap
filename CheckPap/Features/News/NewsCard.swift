@@ -11,6 +11,12 @@ struct NewsCard: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 12) {
+            if featured {
+                Text("À la une")
+                    .font(.caption.weight(.bold))
+                    .textCase(.uppercase)
+                    .foregroundStyle(Brand.teal)
+            }
             HStack(spacing: 8) {
                 Label {
                     NewsCategory.title(item.category, store: store)
@@ -29,7 +35,7 @@ struct NewsCard: View {
 
             ContentText(item.title)
                 .font(featured ? .title2.weight(.bold) : .headline)
-                .fontDesign(featured ? .rounded : .default)
+                
                 .fixedSize(horizontal: false, vertical: true)
             ContentText(item.summary)
                 .font(.subheadline)
@@ -51,11 +57,9 @@ struct NewsCard: View {
                                 Image(systemName: entry.symbol)
                             }
                             .font(.caption.weight(.semibold))
-                            .padding(.horizontal, 10)
-                            .padding(.vertical, 6)
-                            .background(Brand.mint.opacity(0.18), in: .capsule)
                         }
-                        .buttonStyle(PressableButtonStyle())
+                        .buttonStyle(.bordered)
+                        .controlSize(.small)
                         .tint(Brand.teal)
                     }
                 }
@@ -63,17 +67,6 @@ struct NewsCard: View {
         }
         .padding(featured ? 20 : 16)
         .frame(maxWidth: .infinity, alignment: .leading)
-        .glassCard(cornerRadius: featured ? 26 : 20)
-        .overlay(alignment: .topLeading) {
-            if featured {
-                Text("À la une")
-                    .font(.caption2.weight(.bold))
-                    .foregroundStyle(.white)
-                    .padding(.horizontal, 8)
-                    .padding(.vertical, 4)
-                    .background(Brand.teal, in: .capsule)
-                    .offset(x: 16, y: -10)
-            }
-        }
+        .cardSurface(cornerRadius: featured ? 26 : 20)
     }
 }

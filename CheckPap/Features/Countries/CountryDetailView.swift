@@ -15,12 +15,11 @@ struct CountryDetailView: View {
                     Text(verbatim: country.flag)
                         .font(.system(size: 44))
                         .frame(width: 72, height: 72)
-                        .glassCard(cornerRadius: 22)
+                        .cardSurface(cornerRadius: 22)
                         .accessibilityHidden(true)
                     VStack(alignment: .leading, spacing: 4) {
                         ContentText(country.name)
                             .font(.largeTitle.weight(.bold))
-                            .fontDesign(.rounded)
                         Text(CountryRegion.title(country.region))
                             .font(.subheadline)
                             .foregroundStyle(.secondary)
@@ -54,7 +53,7 @@ struct CountryDetailView: View {
                 }
                 .padding(18)
                 .frame(maxWidth: .infinity, alignment: .leading)
-                .glassCard(cornerRadius: 22)
+                .cardSurface(cornerRadius: 22)
 
                 if store.entry(id: "expatriation") != nil {
                     PrimaryActionButton(title: "Préparer mon départ", symbol: "checklist") {
@@ -90,6 +89,6 @@ private struct HighlightCard: View {
         }
         .padding(16)
         .frame(maxWidth: .infinity, alignment: .leading)
-        .glassCard(cornerRadius: 20)
+        .cardSurface(cornerRadius: 20)
     }
 }

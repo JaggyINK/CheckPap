@@ -1,0 +1,573 @@
+{
+ "01": {
+  "home": "https://www.ain.gouv.fr/",
+  "homeStatus": 200,
+  "homeFinal": "https://www.ain.gouv.fr/",
+  "tried": [
+   {
+    "url": "https://www.ain.gouv.fr/Outils/Prendre-un-rendez-vous",
+    "score": 8,
+    "status": 200,
+    "final": "https://www.ain.gouv.fr/Outils/Prendre-un-rendez-vous",
+    "title": "Prendre un rendez-vous - Outils - Les services de l'État dans l'Ain",
+    "h1": "Prendre un rendez-vous Paramètres d’affichage",
+    "ok": true
+   }
+  ],
+  "chosen": {
+   "url": "https://www.ain.gouv.fr/Outils/Prendre-un-rendez-vous",
+   "score": 8,
+   "status": 200,
+   "final": "https://www.ain.gouv.fr/Outils/Prendre-un-rendez-vous",
+   "title": "Prendre un rendez-vous - Outils - Les services de l'État dans l'Ain",
+   "h1": "Prendre un rendez-vous Paramètres d’affichage",
+   "ok": true
+  }
+ },
+ "02": {
+  "home": "https://www.aisne.gouv.fr/",
+  "homeStatus": 200,
+  "homeFinal": "https://www.aisne.gouv.fr/",
+  "tried": [
+   {
+    "url": "https://www.aisne.gouv.fr/Demarches/Etrangers-en-France",
+    "score": 18,
+    "status": 200,
+    "final": "https://www.aisne.gouv.fr/Demarches/Etrangers-en-France",
+    "title": "Étrangers en France - Démarches - Les services de l'État dans L'Aisne",
+    "h1": "Étrangers en France Paramètres d’affichage",
+    "ok": true
+   }
+  ],
+  "chosen": {
+   "url": "https://www.aisne.gouv.fr/Demarches/Etrangers-en-France",
+   "score": 18,
+   "status": 200,
+   "final": "https://www.aisne.gouv.fr/Demarches/Etrangers-en-France",
+   "title": "Étrangers en France - Démarches - Les services de l'État dans L'Aisne",
+   "h1": "Étrangers en France Paramètres d’affichage",
+   "ok": true
+  }
+ },
+ "03": {
+  "home": "https://www.allier.gouv.fr/",
+  "homeStatus": 200,
+  "homeFinal": "https://www.allier.gouv.fr/",
+  "tried": [
+   {
+    "url": "https://www.allier.gouv.fr/Demarches/Accueil-des-etrangers-dans-l-Allier",
+    "score": 18,
+    "status": 200,
+    "final": "https://www.allier.gouv.fr/Demarches/Accueil-des-etrangers-dans-l-Allier",
+    "title": "Accueil des étrangers dans l'Allier - Démarches - Les services de l'État dans l'Allier",
+    "h1": "Accueil des étrangers dans l'Allier Paramètres d’affichage",
+    "ok": true
+   }
+  ],
+  "chosen": {
+   "url": "https://www.allier.gouv.fr/Demarches/Accueil-des-etrangers-dans-l-Allier",
+   "score": 18,
+   "status": 200,
+   "final": "https://www.allier.gouv.fr/Demarches/Accueil-des-etrangers-dans-l-Allier",
+   "title": "Accueil des étrangers dans l'Allier - Démarches - Les services de l'État dans l'Allier",
+   "h1": "Accueil des étrangers dans l'Allier Paramètres d’affichage",
+   "ok": true
+  }
+ },
+ "04": {
+  "home": "https://www.alpes-de-haute-provence.gouv.fr/",
+  "homeStatus": 200,
+  "homeFinal": "https://www.alpes-de-haute-provence.gouv.fr/",
+  "tried": [
+   {
+    "url": "https://www.alpes-de-haute-provence.gouv.fr/Demarches/Etrangers-en-France",
+    "score": 18,
+    "status": 200,
+    "final": "https://www.alpes-de-haute-provence.gouv.fr/Demarches/Etrangers-en-France",
+    "title": "Etrangers en France - Démarches - Les services de l'État dans les Alpes-de-Haute-Provence",
+    "h1": "Etrangers en France Paramètres d’affichage",
+    "ok": true
+   }
+  ],
+  "chosen": {
+   "url": "https://www.alpes-de-haute-provence.gouv.fr/Demarches/Etrangers-en-France",
+   "score": 18,
+   "status": 200,
+   "final": "https://www.alpes-de-haute-provence.gouv.fr/Demarches/Etrangers-en-France",
+   "title": "Etrangers en France - Démarches - Les services de l'État dans les Alpes-de-Haute-Provence",
+   "h1": "Etrangers en France Paramètres d’affichage",
+   "ok": true
+  }
+ },
+ "05": {
+  "home": "https://www.hautes-alpes.gouv.fr/",
+  "homeStatus": 200,
+  "homeFinal": "https://www.hautes-alpes.gouv.fr/",
+  "tried": [
+   {
+    "url": "https://www.hautes-alpes.gouv.fr/Demarches/Etre-etranger",
+    "score": 18,
+    "status": 200,
+    "final": "https://www.hautes-alpes.gouv.fr/Demarches/Etre-etranger",
+    "title": "Être étranger - Démarches - Les services de l'État dans les Hautes-Alpes",
+    "h1": "Être étranger Paramètres d’affichage",
+    "ok": true
+   }
+  ],
+  "chosen": {
+   "url": "https://www.hautes-alpes.gouv.fr/Demarches/Etre-etranger",
+   "score": 18,
+   "status": 200,
+   "final": "https://www.hautes-alpes.gouv.fr/Demarches/Etre-etranger",
+   "title": "Être étranger - Démarches - Les services de l'État dans les Hautes-Alpes",
+   "h1": "Être étranger Paramètres d’affichage",
+   "ok": true
+  }
+ },
+ "06": {
+  "home": "https://www.alpes-maritimes.gouv.fr/",
+  "homeStatus": 200,
+  "homeFinal": "https://www.alpes-maritimes.gouv.fr/",
+  "tried": [
+   {
+    "url": "https://www.alpes-maritimes.gouv.fr/Demarches/Immigration-et-integration",
+    "score": 18,
+    "status": 200,
+    "final": "https://www.alpes-maritimes.gouv.fr/Demarches/Immigration-et-integration",
+    "title": "Immigration et intégration - Démarches - Les services de l'État dans les Alpes-Maritimes",
+    "h1": "Immigration et intégration Paramètres d’affichage",
+    "ok": true
+   }
+  ],
+  "chosen": {
+   "url": "https://www.alpes-maritimes.gouv.fr/Demarches/Immigration-et-integration",
+   "score": 18,
+   "status": 200,
+   "final": "https://www.alpes-maritimes.gouv.fr/Demarches/Immigration-et-integration",
+   "title": "Immigration et intégration - Démarches - Les services de l'État dans les Alpes-Maritimes",
+   "h1": "Immigration et intégration Paramètres d’affichage",
+   "ok": true
+  }
+ },
+ "07": {
+  "home": "https://www.ardeche.gouv.fr/",
+  "homeStatus": 200,
+  "homeFinal": "https://www.ardeche.gouv.fr/",
+  "tried": [
+   {
+    "url": "https://www.ardeche.gouv.fr/Demarches/Immigration-informations-locales",
+    "score": 18,
+    "status": 200,
+    "final": "https://www.ardeche.gouv.fr/Demarches/Immigration-informations-locales",
+    "title": "Immigration : informations locales - Démarches - Les services de l'État en Ardèche",
+    "h1": "Immigration : informations locales Paramètres d’affichage",
+    "ok": true
+   }
+  ],
+  "chosen": {
+   "url": "https://www.ardeche.gouv.fr/Demarches/Immigration-informations-locales",
+   "score": 18,
+   "status": 200,
+   "final": "https://www.ardeche.gouv.fr/Demarches/Immigration-informations-locales",
+   "title": "Immigration : informations locales - Démarches - Les services de l'État en Ardèche",
+   "h1": "Immigration : informations locales Paramètres d’affichage",
+   "ok": true
+  }
+ },
+ "08": {
+  "home": "https://www.ardennes.gouv.fr/",
+  "homeStatus": 200,
+  "homeFinal": "https://www.ardennes.gouv.fr/",
+  "tried": [
+   {
+    "url": "https://www.ardennes.gouv.fr/Prendre-un-rendez-vous-en-ligne",
+    "score": 9,
+    "status": 200,
+    "final": "https://www.ardennes.gouv.fr/Prendre-un-rendez-vous-en-ligne",
+    "title": "Prendre un rendez-vous en ligne - Les services de l'État dans les Ardennes",
+    "h1": "Prendre un rendez-vous en ligne Paramètres d’affichage",
+    "ok": true
+   }
+  ],
+  "chosen": {
+   "url": "https://www.ardennes.gouv.fr/Prendre-un-rendez-vous-en-ligne",
+   "score": 9,
+   "status": 200,
+   "final": "https://www.ardennes.gouv.fr/Prendre-un-rendez-vous-en-ligne",
+   "title": "Prendre un rendez-vous en ligne - Les services de l'État dans les Ardennes",
+   "h1": "Prendre un rendez-vous en ligne Paramètres d’affichage",
+   "ok": true
+  }
+ },
+ "09": {
+  "home": "https://www.ariege.gouv.fr/",
+  "homeStatus": 200,
+  "homeFinal": "https://www.ariege.gouv.fr/",
+  "tried": [
+   {
+    "url": "https://www.ariege.gouv.fr/Demarches/Etrangers",
+    "score": 18,
+    "status": 200,
+    "final": "https://www.ariege.gouv.fr/Demarches/Etrangers",
+    "title": "Etrangers - Démarches - Les services de l'État en Ariège",
+    "h1": "Etrangers Paramètres d’affichage",
+    "ok": true
+   }
+  ],
+  "chosen": {
+   "url": "https://www.ariege.gouv.fr/Demarches/Etrangers",
+   "score": 18,
+   "status": 200,
+   "final": "https://www.ariege.gouv.fr/Demarches/Etrangers",
+   "title": "Etrangers - Démarches - Les services de l'État en Ariège",
+   "h1": "Etrangers Paramètres d’affichage",
+   "ok": true
+  }
+ },
+ "10": {
+  "home": "https://www.aube.gouv.fr/",
+  "homeStatus": 200,
+  "homeFinal": "https://www.aube.gouv.fr/",
+  "tried": [
+   {
+    "url": "https://www.aube.gouv.fr/Demarches/Portail-de-l-ANEF-Administration-Numerique-pour-les-Etrangers-en-France",
+    "score": 18,
+    "status": 200,
+    "final": "https://www.aube.gouv.fr/Demarches/Portail-de-l-ANEF-Administration-Numerique-pour-les-Etrangers-en-France",
+    "title": "Portail de l'ANEF- Administration Numérique pour les Etrangers en France - Démarches - Les services de l'État dans l'Aube",
+    "h1": "Portail de l'ANEF- Administration Numérique pour les Etrangers en France Paramètres d’affichage",
+    "ok": true
+   }
+  ],
+  "chosen": {
+   "url": "https://www.aube.gouv.fr/Demarches/Portail-de-l-ANEF-Administration-Numerique-pour-les-Etrangers-en-France",
+   "score": 18,
+   "status": 200,
+   "final": "https://www.aube.gouv.fr/Demarches/Portail-de-l-ANEF-Administration-Numerique-pour-les-Etrangers-en-France",
+   "title": "Portail de l'ANEF- Administration Numérique pour les Etrangers en France - Démarches - Les services de l'État dans l'Aube",
+   "h1": "Portail de l'ANEF- Administration Numérique pour les Etrangers en France Paramètres d’affichage",
+   "ok": true
+  }
+ },
+ "11": {
+  "home": "https://www.aude.gouv.fr/",
+  "homeStatus": 200,
+  "homeFinal": "https://www.aude.gouv.fr/",
+  "tried": [
+   {
+    "url": "https://www.aude.gouv.fr/Demarches/Immigration-et-integration",
+    "score": 18,
+    "status": 200,
+    "final": "https://www.aude.gouv.fr/Demarches/Immigration-et-integration",
+    "title": "Immigration et intégration - Démarches - Les services de l’État dans l'Aude",
+    "h1": "Immigration et intégration Paramètres d’affichage",
+    "ok": true
+   }
+  ],
+  "chosen": {
+   "url": "https://www.aude.gouv.fr/Demarches/Immigration-et-integration",
+   "score": 18,
+   "status": 200,
+   "final": "https://www.aude.gouv.fr/Demarches/Immigration-et-integration",
+   "title": "Immigration et intégration - Démarches - Les services de l’État dans l'Aude",
+   "h1": "Immigration et intégration Paramètres d’affichage",
+   "ok": true
+  }
+ },
+ "12": {
+  "home": "https://www.aveyron.gouv.fr/",
+  "homeStatus": 200,
+  "homeFinal": "https://www.aveyron.gouv.fr/",
+  "tried": [
+   {
+    "url": "https://www.aveyron.gouv.fr/Demarches/Immigration-et-integration",
+    "score": 18,
+    "status": 200,
+    "final": "https://www.aveyron.gouv.fr/Demarches/Vos-demarches-etrangers-dans-l-Aveyron",
+    "title": "Vos démarches étrangers dans l'Aveyron - Démarches - Les services de l'État en Aveyron",
+    "h1": "Vos démarches étrangers dans l'Aveyron Paramètres d’affichage",
+    "ok": true
+   }
+  ],
+  "chosen": {
+   "url": "https://www.aveyron.gouv.fr/Demarches/Immigration-et-integration",
+   "score": 18,
+   "status": 200,
+   "final": "https://www.aveyron.gouv.fr/Demarches/Vos-demarches-etrangers-dans-l-Aveyron",
+   "title": "Vos démarches étrangers dans l'Aveyron - Démarches - Les services de l'État en Aveyron",
+   "h1": "Vos démarches étrangers dans l'Aveyron Paramètres d’affichage",
+   "ok": true
+  }
+ },
+ "13": {
+  "home": "https://www.bouches-du-rhone.gouv.fr/",
+  "homeStatus": 200,
+  "homeFinal": "https://www.bouches-du-rhone.gouv.fr/",
+  "tried": [
+   {
+    "url": "https://www.bouches-du-rhone.gouv.fr/Demarches/Accueil-des-etrangers",
+    "score": 18,
+    "status": 200,
+    "final": "https://www.bouches-du-rhone.gouv.fr/Demarches/Accueil-des-etrangers",
+    "title": "Accueil des étrangers - Démarches - Les services de l'État dans les Bouches-du-Rhône",
+    "h1": "Accueil des étrangers Paramètres d’affichage",
+    "ok": true
+   }
+  ],
+  "chosen": {
+   "url": "https://www.bouches-du-rhone.gouv.fr/Demarches/Accueil-des-etrangers",
+   "score": 18,
+   "status": 200,
+   "final": "https://www.bouches-du-rhone.gouv.fr/Demarches/Accueil-des-etrangers",
+   "title": "Accueil des étrangers - Démarches - Les services de l'État dans les Bouches-du-Rhône",
+   "h1": "Accueil des étrangers Paramètres d’affichage",
+   "ok": true
+  }
+ },
+ "14": {
+  "home": "https://www.calvados.gouv.fr/",
+  "homeStatus": 200,
+  "homeFinal": "https://www.calvados.gouv.fr/",
+  "tried": [
+   {
+    "url": "https://www.calvados.gouv.fr/Demarches/Accueil-des-etrangers-a-la-prefecture-du-Calvados",
+    "score": 18,
+    "status": 200,
+    "final": "https://www.calvados.gouv.fr/Demarches/Accueil-des-etrangers-a-la-prefecture-du-Calvados",
+    "title": "Accueil des étrangers à la préfecture du Calvados - Démarches - Les services de l'État dans le Calvados",
+    "h1": "Accueil des étrangers à la préfecture du Calvados Paramètres d’affichage",
+    "ok": true
+   }
+  ],
+  "chosen": {
+   "url": "https://www.calvados.gouv.fr/Demarches/Accueil-des-etrangers-a-la-prefecture-du-Calvados",
+   "score": 18,
+   "status": 200,
+   "final": "https://www.calvados.gouv.fr/Demarches/Accueil-des-etrangers-a-la-prefecture-du-Calvados",
+   "title": "Accueil des étrangers à la préfecture du Calvados - Démarches - Les services de l'État dans le Calvados",
+   "h1": "Accueil des étrangers à la préfecture du Calvados Paramètres d’affichage",
+   "ok": true
+  }
+ },
+ "15": {
+  "home": "https://www.cantal.gouv.fr/",
+  "homeStatus": 200,
+  "homeFinal": "https://www.cantal.gouv.fr/",
+  "tried": [
+   {
+    "url": "https://www.cantal.gouv.fr/Demarches/Etrangers-dans-le-Cantal",
+    "score": 18,
+    "status": 200,
+    "final": "https://www.cantal.gouv.fr/Demarches/Etrangers-dans-le-Cantal",
+    "title": "Étrangers dans le Cantal - Démarches - Les services de l'État dans le Cantal",
+    "h1": "Étrangers dans le Cantal Paramètres d’affichage",
+    "ok": true
+   }
+  ],
+  "chosen": {
+   "url": "https://www.cantal.gouv.fr/Demarches/Etrangers-dans-le-Cantal",
+   "score": 18,
+   "status": 200,
+   "final": "https://www.cantal.gouv.fr/Demarches/Etrangers-dans-le-Cantal",
+   "title": "Étrangers dans le Cantal - Démarches - Les services de l'État dans le Cantal",
+   "h1": "Étrangers dans le Cantal Paramètres d’affichage",
+   "ok": true
+  }
+ },
+ "16": {
+  "home": "https://www.charente.gouv.fr/",
+  "homeStatus": 200,
+  "homeFinal": "https://www.charente.gouv.fr/",
+  "tried": [
+   {
+    "url": "https://www.charente.gouv.fr/Demarches/Publics-etrangers",
+    "score": 18,
+    "status": 200,
+    "final": "https://www.charente.gouv.fr/Demarches/Publics-etrangers",
+    "title": "Publics étrangers - Démarches - Les services de l'État en Charente",
+    "h1": "Publics étrangers Paramètres d’affichage",
+    "ok": true
+   }
+  ],
+  "chosen": {
+   "url": "https://www.charente.gouv.fr/Demarches/Publics-etrangers",
+   "score": 18,
+   "status": 200,
+   "final": "https://www.charente.gouv.fr/Demarches/Publics-etrangers",
+   "title": "Publics étrangers - Démarches - Les services de l'État en Charente",
+   "h1": "Publics étrangers Paramètres d’affichage",
+   "ok": true
+  }
+ },
+ "17": {
+  "home": "https://www.charente-maritime.gouv.fr/",
+  "homeStatus": 200,
+  "homeFinal": "https://www.charente-maritime.gouv.fr/",
+  "tried": [
+   {
+    "url": "https://www.charente-maritime.gouv.fr/Demarches/Droits-des-etrangers-Accueil-des-etrangers-en-Charente-Maritime",
+    "score": 18,
+    "status": 200,
+    "final": "https://www.charente-maritime.gouv.fr/Demarches/Droits-des-etrangers-Accueil-des-etrangers-en-Charente-Maritime",
+    "title": "Droits des étrangers - Accueil des étrangers en Charente-Maritime - Démarches - Les services de l'État en Charente-Maritime",
+    "h1": "Droits des étrangers Paramètres d’affichage",
+    "ok": true
+   }
+  ],
+  "chosen": {
+   "url": "https://www.charente-maritime.gouv.fr/Demarches/Droits-des-etrangers-Accueil-des-etrangers-en-Charente-Maritime",
+   "score": 18,
+   "status": 200,
+   "final": "https://www.charente-maritime.gouv.fr/Demarches/Droits-des-etrangers-Accueil-des-etrangers-en-Charente-Maritime",
+   "title": "Droits des étrangers - Accueil des étrangers en Charente-Maritime - Démarches - Les services de l'État en Charente-Maritime",
+   "h1": "Droits des étrangers Paramètres d’affichage",
+   "ok": true
+  }
+ },
+ "18": {
+  "home": "https://www.cher.gouv.fr/",
+  "homeStatus": 200,
+  "homeFinal": "https://www.cher.gouv.fr/",
+  "tried": [
+   {
+    "url": "http://www.cher.gouv.fr/Enquetes/Demande-de-RDV",
+    "score": 28,
+    "status": 200,
+    "final": "https://www.cher.gouv.fr/Enquetes/Titre-de-sejour-Demande-d-information",
+    "title": "Titre de séjour - Demande d'information - Enquêtes - Les services de l'État dans le Cher",
+    "h1": "Titre de séjour - Demande d'information Paramètres d’affichage",
+    "ok": true
+   }
+  ],
+  "chosen": {
+   "url": "http://www.cher.gouv.fr/Enquetes/Demande-de-RDV",
+   "score": 28,
+   "status": 200,
+   "final": "https://www.cher.gouv.fr/Enquetes/Titre-de-sejour-Demande-d-information",
+   "title": "Titre de séjour - Demande d'information - Enquêtes - Les services de l'État dans le Cher",
+   "h1": "Titre de séjour - Demande d'information Paramètres d’affichage",
+   "ok": true
+  }
+ },
+ "19": {
+  "home": "https://www.correze.gouv.fr/",
+  "homeStatus": 200,
+  "homeFinal": "https://www.correze.gouv.fr/",
+  "tried": [
+   {
+    "url": "https://www.correze.gouv.fr/Demarches/Etrangers-vos-demarches",
+    "score": 18,
+    "status": 200,
+    "final": "https://www.correze.gouv.fr/Demarches/Etrangers-vos-demarches",
+    "title": "Etrangers : vos démarches - Démarches - Les services de l'État en Corrèze",
+    "h1": "Etrangers : vos démarches Paramètres d’affichage",
+    "ok": true
+   }
+  ],
+  "chosen": {
+   "url": "https://www.correze.gouv.fr/Demarches/Etrangers-vos-demarches",
+   "score": 18,
+   "status": 200,
+   "final": "https://www.correze.gouv.fr/Demarches/Etrangers-vos-demarches",
+   "title": "Etrangers : vos démarches - Démarches - Les services de l'État en Corrèze",
+   "h1": "Etrangers : vos démarches Paramètres d’affichage",
+   "ok": true
+  }
+ },
+ "21": {
+  "home": "https://www.cote-dor.gouv.fr/",
+  "homeStatus": 200,
+  "homeFinal": "https://www.cote-dor.gouv.fr/",
+  "tried": [
+   {
+    "url": "https://www.cote-dor.gouv.fr/Outils2/Prendre-un-rendez-vous-en-ligne",
+    "score": 8,
+    "status": 200,
+    "final": "https://www.cote-dor.gouv.fr/Outils2/Prendre-un-rendez-vous-en-ligne",
+    "title": "Prendre un rendez-vous en ligne - Outils - Les services de l'État en Côte-d'Or",
+    "h1": "Prendre un rendez-vous en ligne Paramètres d’affichage",
+    "ok": true
+   }
+  ],
+  "chosen": {
+   "url": "https://www.cote-dor.gouv.fr/Outils2/Prendre-un-rendez-vous-en-ligne",
+   "score": 8,
+   "status": 200,
+   "final": "https://www.cote-dor.gouv.fr/Outils2/Prendre-un-rendez-vous-en-ligne",
+   "title": "Prendre un rendez-vous en ligne - Outils - Les services de l'État en Côte-d'Or",
+   "h1": "Prendre un rendez-vous en ligne Paramètres d’affichage",
+   "ok": true
+  }
+ },
+ "22": {
+  "home": "https://www.cotes-darmor.gouv.fr",
+  "homeStatus": 200,
+  "homeFinal": "https://www.cotes-darmor.gouv.fr",
+  "tried": [
+   {
+    "url": "https://www.cotes-darmor.gouv.fr/Demarches/Accueil-etrangers",
+    "score": 18,
+    "status": 200,
+    "final": "https://www.cotes-darmor.gouv.fr/Demarches/Accueil-etrangers",
+    "title": "Accueil étrangers - Démarches - Les services de l'État dans les Côtes-d'Armor",
+    "h1": "Accueil étrangers Paramètres d’affichage",
+    "ok": true
+   }
+  ],
+  "chosen": {
+   "url": "https://www.cotes-darmor.gouv.fr/Demarches/Accueil-etrangers",
+   "score": 18,
+   "status": 200,
+   "final": "https://www.cotes-darmor.gouv.fr/Demarches/Accueil-etrangers",
+   "title": "Accueil étrangers - Démarches - Les services de l'État dans les Côtes-d'Armor",
+   "h1": "Accueil étrangers Paramètres d’affichage",
+   "ok": true
+  }
+ },
+ "23": {
+  "home": "https://www.creuse.gouv.fr/",
+  "homeStatus": 200,
+  "homeFinal": "https://www.creuse.gouv.fr/",
+  "tried": [
+   {
+    "url": "https://www.creuse.gouv.fr/Demarches/Etrangers-en-France",
+    "score": 18,
+    "status": 200,
+    "final": "https://www.creuse.gouv.fr/Demarches/Etrangers-en-France",
+    "title": "Etrangers en France - Démarches - Les services de l'État dans la Creuse",
+    "h1": "Etrangers en France Paramètres d’affichage",
+    "ok": true
+   }
+  ],
+  "chosen": {
+   "url": "https://www.creuse.gouv.fr/Demarches/Etrangers-en-France",
+   "score": 18,
+   "status": 200,
+   "final": "https://www.creuse.gouv.fr/Demarches/Etrangers-en-France",
+   "title": "Etrangers en France - Démarches - Les services de l'État dans la Creuse",
+   "h1": "Etrangers en France Paramètres d’affichage",
+   "ok": true
+  }
+ },
+ "24": {
+  "home": "https://www.dordogne.gouv.fr/",
+  "homeStatus": null,
+  "refused": "https://www.dordogne.gouv.fr/",
+  "tried": [],
+  "chosen": null
+ },
+ "25": {
+  "home": "https://www.doubs.gouv.fr/",
+  "homeStatus": null,
+  "refused": "https://www.doubs.gouv.fr/",
+  "tried": [],
+  "chosen": null
+ },
+ "26": {
+  "home": "https://www.drome.gouv.fr/",
+  "homeStatus": null,
+  "refused": "https://www.drome.gouv.fr/",
+  "tried": [],
+  "chosen": null
+ }
+}

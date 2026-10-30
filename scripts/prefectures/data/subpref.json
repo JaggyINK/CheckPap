@@ -1,0 +1,1043 @@
+{
+ "01": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/auvergne-rhone-alpes/ain/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 3 résultat(s) Ain - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 3 résultat(s) Ain - Annuaire | Service Public",
+   "Sous-préfecture - Belley",
+   "Sous-préfecture - Gex",
+   "Sous-préfecture - Nantua"
+  ]
+ },
+ "02": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/hauts-de-france/aisne/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 4 résultat(s) Aisne - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 4 résultat(s) Aisne - Annuaire | Service Public",
+   "Sous-préfecture - Château-Thierry",
+   "Sous-préfecture - Saint-Quentin",
+   "Sous-préfecture - Soissons",
+   "Sous-préfecture - Vervins"
+  ]
+ },
+ "03": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/auvergne-rhone-alpes/allier/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 2 résultat(s) Allier - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 2 résultat(s) Allier - Annuaire | Service Public",
+   "Sous-préfecture - Montluçon",
+   "Sous-préfecture - Vichy"
+  ]
+ },
+ "04": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/provence-alpes-cote-d-azur/alpes-de-haute-provence/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 3 résultat(s) Alpes-de-Haute-Provence - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 3 résultat(s) Alpes-de-Haute-Provence - Annuaire | Service Public",
+   "Sous-préfecture - Barcelonnette",
+   "Sous-préfecture - Castellane",
+   "Sous-préfecture - Forcalquier"
+  ]
+ },
+ "05": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/provence-alpes-cote-d-azur/hautes-alpes/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 1 résultat(s) Hautes-Alpes - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 1 résultat(s) Hautes-Alpes - Annuaire | Service Public",
+   "Sous-préfecture - Briançon"
+  ]
+ },
+ "06": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/provence-alpes-cote-d-azur/alpes-maritimes/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 2 résultat(s) Alpes-Maritimes - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 2 résultat(s) Alpes-Maritimes - Annuaire | Service Public",
+   "Sous-préfecture - Grasse",
+   "Sous-préfecture - Nice montagne"
+  ]
+ },
+ "07": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/auvergne-rhone-alpes/ardeche/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 2 résultat(s) Ardèche - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 2 résultat(s) Ardèche - Annuaire | Service Public",
+   "Sous-préfecture - Largentière",
+   "Sous-préfecture - Tournon-sur-Rhône"
+  ]
+ },
+ "08": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/grand-est/ardennes/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 3 résultat(s) Ardennes - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 3 résultat(s) Ardennes - Annuaire | Service Public",
+   "Sous-préfecture - Rethel",
+   "Sous-préfecture - Sedan",
+   "Sous-préfecture - Vouziers"
+  ]
+ },
+ "09": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/occitanie/ariege/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 2 résultat(s) Ariège - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 2 résultat(s) Ariège - Annuaire | Service Public",
+   "Sous-préfecture - Pamiers",
+   "Sous-préfecture - Saint-Girons"
+  ]
+ },
+ "10": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/grand-est/aube/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 2 résultat(s) Aube - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 2 résultat(s) Aube - Annuaire | Service Public",
+   "Sous-préfecture - Bar-sur-Aube",
+   "Sous-préfecture - Nogent-sur-Seine"
+  ]
+ },
+ "11": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/occitanie/aude/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 2 résultat(s) Aude - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 2 résultat(s) Aude - Annuaire | Service Public",
+   "Sous-préfecture - Limoux",
+   "Sous-préfecture - Narbonne"
+  ]
+ },
+ "12": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/occitanie/aveyron/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 2 résultat(s) Aveyron - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 2 résultat(s) Aveyron - Annuaire | Service Public",
+   "Sous-préfecture - Millau",
+   "Sous-préfecture - Villefranche-de-Rouergue"
+  ]
+ },
+ "13": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/provence-alpes-cote-d-azur/bouches-du-rhone/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 3 résultat(s) Bouches-du-Rhône - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 3 résultat(s) Bouches-du-Rhône - Annuaire | Service Public",
+   "Sous-préfecture - Aix-en-Provence",
+   "Sous-préfecture - Arles",
+   "Sous-préfecture - Istres"
+  ]
+ },
+ "14": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/normandie/calvados/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 3 résultat(s) Calvados - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 3 résultat(s) Calvados - Annuaire | Service Public",
+   "Sous-préfecture - Bayeux",
+   "Sous-préfecture - Lisieux",
+   "Sous-préfecture - Vire"
+  ]
+ },
+ "15": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/auvergne-rhone-alpes/cantal/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 2 résultat(s) Cantal - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 2 résultat(s) Cantal - Annuaire | Service Public",
+   "Sous-préfecture - Mauriac",
+   "Sous-préfecture - Saint-Flour"
+  ]
+ },
+ "16": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/nouvelle-aquitaine/charente/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 2 résultat(s) Charente - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 2 résultat(s) Charente - Annuaire | Service Public",
+   "Sous-préfecture - Cognac",
+   "Sous-préfecture - Confolens"
+  ]
+ },
+ "17": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/nouvelle-aquitaine/charente-maritime/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 4 résultat(s) Charente-Maritime - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 4 résultat(s) Charente-Maritime - Annuaire | Service Public",
+   "Sous-préfecture - Jonzac",
+   "Sous-préfecture - Rochefort-sur-Mer",
+   "Sous-préfecture - Saint-Jean-d'Angély",
+   "Sous-préfecture - Saintes"
+  ]
+ },
+ "18": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/centre-val-de-loire/cher/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 2 résultat(s) Cher - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 2 résultat(s) Cher - Annuaire | Service Public",
+   "Sous-préfecture - Saint-Amand-Montrond",
+   "Sous-préfecture - Vierzon"
+  ]
+ },
+ "19": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/nouvelle-aquitaine/correze/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 2 résultat(s) Corrèze - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 2 résultat(s) Corrèze - Annuaire | Service Public",
+   "Sous-préfecture - Brive-la-Gaillarde",
+   "Sous-préfecture - Ussel"
+  ]
+ },
+ "21": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/bourgogne-franche-comte/cote-d-or/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 2 résultat(s) Côte-d'Or - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 2 résultat(s) Côte-d'Or - Annuaire | Service Public",
+   "Sous-préfecture - Beaune",
+   "Sous-préfecture - Montbard"
+  ]
+ },
+ "22": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/bretagne/cotes-d-armor/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 3 résultat(s) Côtes-d'Armor - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 3 résultat(s) Côtes-d'Armor - Annuaire | Service Public",
+   "Sous-préfecture - Dinan",
+   "Sous-préfecture - Guingamp",
+   "Sous-préfecture - Lannion"
+  ]
+ },
+ "23": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/nouvelle-aquitaine/creuse/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 1 résultat(s) Creuse - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 1 résultat(s) Creuse - Annuaire | Service Public",
+   "Sous-préfecture - Aubusson"
+  ]
+ },
+ "24": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/nouvelle-aquitaine/dordogne/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 3 résultat(s) Dordogne - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 3 résultat(s) Dordogne - Annuaire | Service Public",
+   "Sous-préfecture - Bergerac",
+   "Sous-préfecture - Nontron",
+   "Sous-préfecture - Sarlat-la-Canéda"
+  ]
+ },
+ "25": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/bourgogne-franche-comte/doubs/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 2 résultat(s) Doubs - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 2 résultat(s) Doubs - Annuaire | Service Public",
+   "Sous-préfecture - Montbéliard",
+   "Sous-préfecture - Pontarlier"
+  ]
+ },
+ "26": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/auvergne-rhone-alpes/drome/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 2 résultat(s) Drôme - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 2 résultat(s) Drôme - Annuaire | Service Public",
+   "Sous-préfecture - Die",
+   "Sous-préfecture - Nyons"
+  ]
+ },
+ "27": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/normandie/eure/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 2 résultat(s) Eure - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 2 résultat(s) Eure - Annuaire | Service Public",
+   "Sous-préfecture - Bernay",
+   "Sous-préfecture - Les Andelys"
+  ]
+ },
+ "28": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/centre-val-de-loire/eure-et-loir/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 3 résultat(s) Eure-et-Loir - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 3 résultat(s) Eure-et-Loir - Annuaire | Service Public",
+   "Sous-préfecture - Châteaudun",
+   "Sous-préfecture - Dreux",
+   "Sous-préfecture - Nogent-le-Rotrou"
+  ]
+ },
+ "29": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/bretagne/finistere/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 3 résultat(s) Finistère - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 3 résultat(s) Finistère - Annuaire | Service Public",
+   "Sous-préfecture - Brest",
+   "Sous-préfecture - Châteaulin",
+   "Sous-préfecture - Morlaix"
+  ]
+ },
+ "2A": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/corse/corse-du-sud/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 1 résultat(s) Corse-du-Sud - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 1 résultat(s) Corse-du-Sud - Annuaire | Service Public",
+   "Sous-préfecture - Sartène"
+  ]
+ },
+ "2B": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/corse/haute-corse/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 2 résultat(s) Haute-Corse - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 2 résultat(s) Haute-Corse - Annuaire | Service Public",
+   "Sous-préfecture - Calvi",
+   "Sous-préfecture - Corte"
+  ]
+ },
+ "30": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/occitanie/gard/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 2 résultat(s) Gard - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 2 résultat(s) Gard - Annuaire | Service Public",
+   "Sous-préfecture - Alès",
+   "Sous-préfecture - Le Vigan"
+  ]
+ },
+ "31": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/occitanie/haute-garonne/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 2 résultat(s) Haute-Garonne - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 2 résultat(s) Haute-Garonne - Annuaire | Service Public",
+   "Sous-préfecture - Muret",
+   "Sous-préfecture - Saint-Gaudens"
+  ]
+ },
+ "32": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/occitanie/gers/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 2 résultat(s) Gers - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 2 résultat(s) Gers - Annuaire | Service Public",
+   "Sous-préfecture - Condom",
+   "Sous-préfecture - Mirande"
+  ]
+ },
+ "33": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/nouvelle-aquitaine/gironde/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 5 résultat(s) Gironde - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 5 résultat(s) Gironde - Annuaire | Service Public",
+   "Sous-préfecture - Arcachon",
+   "Sous-préfecture - Blaye",
+   "Sous-préfecture - Langon",
+   "Sous-préfecture - Lesparre-Médoc",
+   "Sous-préfecture - Libourne"
+  ]
+ },
+ "34": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/occitanie/herault/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 2 résultat(s) Hérault - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 2 résultat(s) Hérault - Annuaire | Service Public",
+   "Sous-préfecture - Béziers",
+   "Sous-préfecture - Lodève"
+  ]
+ },
+ "35": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/bretagne/ille-et-vilaine/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 3 résultat(s) Ille-et-Vilaine - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 3 résultat(s) Ille-et-Vilaine - Annuaire | Service Public",
+   "Sous-préfecture - Fougères Vitré",
+   "Sous-préfecture - Redon",
+   "Sous-préfecture - Saint-Malo"
+  ]
+ },
+ "36": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/centre-val-de-loire/indre/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 3 résultat(s) Indre - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 3 résultat(s) Indre - Annuaire | Service Public",
+   "Sous-préfecture - Issoudun",
+   "Sous-préfecture - La Châtre",
+   "Sous-préfecture - Le Blanc"
+  ]
+ },
+ "37": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/centre-val-de-loire/indre-et-loire/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 2 résultat(s) Indre-et-Loire - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 2 résultat(s) Indre-et-Loire - Annuaire | Service Public",
+   "Sous-préfecture - Chinon",
+   "Sous-préfecture - Loches"
+  ]
+ },
+ "38": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/auvergne-rhone-alpes/isere/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 2 résultat(s) Isère - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 2 résultat(s) Isère - Annuaire | Service Public",
+   "Sous-préfecture - La Tour-du-Pin",
+   "Sous-préfecture - Vienne"
+  ]
+ },
+ "39": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/bourgogne-franche-comte/jura/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 2 résultat(s) Jura - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 2 résultat(s) Jura - Annuaire | Service Public",
+   "Sous-préfecture - Dole",
+   "Sous-préfecture - Saint-Claude"
+  ]
+ },
+ "40": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/nouvelle-aquitaine/landes/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 1 résultat(s) Landes - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 1 résultat(s) Landes - Annuaire | Service Public",
+   "Sous-préfecture - Dax"
+  ]
+ },
+ "41": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/centre-val-de-loire/loir-et-cher/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 2 résultat(s) Loir-et-Cher - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 2 résultat(s) Loir-et-Cher - Annuaire | Service Public",
+   "Sous-préfecture - Romorantin-Lanthenay",
+   "Sous-préfecture - Vendôme"
+  ]
+ },
+ "42": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/auvergne-rhone-alpes/loire/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 2 résultat(s) Loire - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 2 résultat(s) Loire - Annuaire | Service Public",
+   "Sous-préfecture - Montbrison",
+   "Sous-préfecture - Roanne"
+  ]
+ },
+ "43": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/auvergne-rhone-alpes/haute-loire/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 2 résultat(s) Haute-Loire - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 2 résultat(s) Haute-Loire - Annuaire | Service Public",
+   "Sous-préfecture - Brioude",
+   "Sous-préfecture - Yssingeaux"
+  ]
+ },
+ "44": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/pays-de-la-loire/loire-atlantique/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 2 résultat(s) Loire-Atlantique - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 2 résultat(s) Loire-Atlantique - Annuaire | Service Public",
+   "Sous-préfecture - Châteaubriant-Ancenis",
+   "Sous-préfecture - Saint-Nazaire"
+  ]
+ },
+ "45": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/centre-val-de-loire/loiret/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 2 résultat(s) Loiret - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 2 résultat(s) Loiret - Annuaire | Service Public",
+   "Sous-préfecture - Montargis",
+   "Sous-préfecture - Pithiviers"
+  ]
+ },
+ "46": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/occitanie/lot/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 2 résultat(s) Lot - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 2 résultat(s) Lot - Annuaire | Service Public",
+   "Sous-préfecture - Figeac",
+   "Sous-préfecture - Gourdon"
+  ]
+ },
+ "47": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/nouvelle-aquitaine/lot-et-garonne/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 2 résultat(s) Lot-et-Garonne - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 2 résultat(s) Lot-et-Garonne - Annuaire | Service Public",
+   "Sous-préfecture - Marmande-Nérac",
+   "Sous-préfecture - Villeneuve-sur-Lot"
+  ]
+ },
+ "48": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/occitanie/lozere/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 1 résultat(s) Lozère - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 1 résultat(s) Lozère - Annuaire | Service Public",
+   "Sous-préfecture - Florac"
+  ]
+ },
+ "49": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/pays-de-la-loire/maine-et-loire/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 3 résultat(s) Maine-et-Loire - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 3 résultat(s) Maine-et-Loire - Annuaire | Service Public",
+   "Sous-préfecture - Cholet",
+   "Sous-préfecture - Saumur",
+   "Sous-préfecture - Segré-en-Anjou Bleu"
+  ]
+ },
+ "50": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/normandie/manche/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 3 résultat(s) Manche - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 3 résultat(s) Manche - Annuaire | Service Public",
+   "Sous-préfecture - Avranches",
+   "Sous-préfecture - Cherbourg",
+   "Sous-préfecture - Coutances"
+  ]
+ },
+ "51": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/grand-est/marne/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 3 résultat(s) Marne - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 3 résultat(s) Marne - Annuaire | Service Public",
+   "Sous-préfecture - Reims",
+   "Sous-préfecture - Vitry-le-François",
+   "Sous-préfecture - Épernay"
+  ]
+ },
+ "52": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/grand-est/haute-marne/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 2 résultat(s) Haute-Marne - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 2 résultat(s) Haute-Marne - Annuaire | Service Public",
+   "Sous-préfecture - Langres",
+   "Sous-préfecture - Saint-Dizier"
+  ]
+ },
+ "53": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/pays-de-la-loire/mayenne/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 2 résultat(s) Mayenne - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 2 résultat(s) Mayenne - Annuaire | Service Public",
+   "Sous-préfecture - Château-Gontier",
+   "Sous-préfecture - Mayenne"
+  ]
+ },
+ "54": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/grand-est/meurthe-et-moselle/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 3 résultat(s) Meurthe-et-Moselle - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 3 résultat(s) Meurthe-et-Moselle - Annuaire | Service Public",
+   "Sous-préfecture - Lunéville",
+   "Sous-préfecture - Toul",
+   "Sous-préfecture - Val de Briey"
+  ]
+ },
+ "55": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/grand-est/meuse/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 2 résultat(s) Meuse - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 2 résultat(s) Meuse - Annuaire | Service Public",
+   "Sous-préfecture - Commercy",
+   "Sous-préfecture - Verdun"
+  ]
+ },
+ "56": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/bretagne/morbihan/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 2 résultat(s) Morbihan - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 2 résultat(s) Morbihan - Annuaire | Service Public",
+   "Sous-préfecture - Lorient",
+   "Sous-préfecture - Pontivy"
+  ]
+ },
+ "57": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/grand-est/moselle/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 4 résultat(s) Moselle - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 4 résultat(s) Moselle - Annuaire | Service Public",
+   "Sous-préfecture - Forbach-Boulay-Moselle",
+   "Sous-préfecture - Sarrebourg Château-Salins",
+   "Sous-préfecture - Sarreguemines",
+   "Sous-préfecture - Thionville"
+  ]
+ },
+ "58": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/bourgogne-franche-comte/nievre/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 3 résultat(s) Nièvre - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 3 résultat(s) Nièvre - Annuaire | Service Public",
+   "Sous-préfecture - Château-Chinon",
+   "Sous-préfecture - Clamecy",
+   "Sous-préfecture - Cosne-Cours-sur-Loire"
+  ]
+ },
+ "59": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/hauts-de-france/nord/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 5 résultat(s) Nord - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 5 résultat(s) Nord - Annuaire | Service Public",
+   "Sous-préfecture - Avesnes-sur-Helpe",
+   "Sous-préfecture - Cambrai",
+   "Sous-préfecture - Douai",
+   "Sous-préfecture - Dunkerque",
+   "Sous-préfecture - Valenciennes"
+  ]
+ },
+ "60": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/hauts-de-france/oise/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 3 résultat(s) Oise - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 3 résultat(s) Oise - Annuaire | Service Public",
+   "Sous-préfecture - Clermont-sur-Oise",
+   "Sous-préfecture - Compiègne",
+   "Sous-préfecture - Senlis"
+  ]
+ },
+ "61": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/normandie/orne/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 2 résultat(s) Orne - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 2 résultat(s) Orne - Annuaire | Service Public",
+   "Sous-préfecture - Argentan",
+   "Sous-préfecture - Mortagne-au-Perche"
+  ]
+ },
+ "62": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/hauts-de-france/pas-de-calais/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 6 résultat(s) Pas-de-Calais - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 6 résultat(s) Pas-de-Calais - Annuaire | Service Public",
+   "Sous-préfecture - Boulogne-sur-Mer",
+   "Sous-préfecture - Béthune",
+   "Sous-préfecture - Calais",
+   "Sous-préfecture - Lens",
+   "Sous-préfecture - Montreuil-sur-Mer",
+   "Sous-préfecture - Saint-Omer"
+  ]
+ },
+ "63": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/auvergne-rhone-alpes/puy-de-dome/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 4 résultat(s) Puy-de-Dôme - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 4 résultat(s) Puy-de-Dôme - Annuaire | Service Public",
+   "Sous-préfecture - Ambert",
+   "Sous-préfecture - Issoire",
+   "Sous-préfecture - Riom",
+   "Sous-préfecture - Thiers"
+  ]
+ },
+ "64": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/nouvelle-aquitaine/pyrenees-atlantiques/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 2 résultat(s) Pyrénées-Atlantiques - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 2 résultat(s) Pyrénées-Atlantiques - Annuaire | Service Public",
+   "Sous-préfecture - Bayonne",
+   "Sous-préfecture - Oloron-Sainte-Marie"
+  ]
+ },
+ "65": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/occitanie/hautes-pyrenees/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 2 résultat(s) Hautes-Pyrénées - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 2 résultat(s) Hautes-Pyrénées - Annuaire | Service Public",
+   "Sous-préfecture - Argelès-Gazost",
+   "Sous-préfecture - Bagnères-de-Bigorre"
+  ]
+ },
+ "66": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/occitanie/pyrenees-orientales/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 2 résultat(s) Pyrénées-Orientales - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 2 résultat(s) Pyrénées-Orientales - Annuaire | Service Public",
+   "Sous-préfecture - Céret",
+   "Sous-préfecture - Prades"
+  ]
+ },
+ "67": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/grand-est/bas-rhin/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 4 résultat(s) Bas-Rhin - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 4 résultat(s) Bas-Rhin - Annuaire | Service Public",
+   "Sous-préfecture - Haguenau-Wissembourg",
+   "Sous-préfecture - Molsheim",
+   "Sous-préfecture - Saverne",
+   "Sous-préfecture - Sélestat-Erstein"
+  ]
+ },
+ "68": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/grand-est/haut-rhin/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 3 résultat(s) Haut-Rhin - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 3 résultat(s) Haut-Rhin - Annuaire | Service Public",
+   "Sous-préfecture - Altkirch",
+   "Sous-préfecture - Mulhouse",
+   "Sous-préfecture - Thann-Guebwiller"
+  ]
+ },
+ "69": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/auvergne-rhone-alpes/rhone/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 1 résultat(s) Rhône - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 1 résultat(s) Rhône - Annuaire | Service Public",
+   "Sous-préfecture - Villefranche-sur-Saône"
+  ]
+ },
+ "70": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/bourgogne-franche-comte/haute-saone/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 1 résultat(s) Haute-Saône - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 1 résultat(s) Haute-Saône - Annuaire | Service Public",
+   "Sous-préfecture - Lure"
+  ]
+ },
+ "71": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/bourgogne-franche-comte/saone-et-loire/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 4 résultat(s) Saône-et-Loire - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 4 résultat(s) Saône-et-Loire - Annuaire | Service Public",
+   "Sous-préfecture - Autun",
+   "Sous-préfecture - Chalon-sur-Saône",
+   "Sous-préfecture - Charolles",
+   "Sous-préfecture - Louhans‑Châteaurenaud"
+  ]
+ },
+ "72": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/pays-de-la-loire/sarthe/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 2 résultat(s) Sarthe - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 2 résultat(s) Sarthe - Annuaire | Service Public",
+   "Sous-préfecture - La Flèche",
+   "Sous-préfecture - Mamers"
+  ]
+ },
+ "73": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/auvergne-rhone-alpes/savoie/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 2 résultat(s) Savoie - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 2 résultat(s) Savoie - Annuaire | Service Public",
+   "Sous-préfecture - Albertville",
+   "Sous-préfecture - Saint-Jean-de-Maurienne"
+  ]
+ },
+ "74": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/auvergne-rhone-alpes/haute-savoie/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 3 résultat(s) Haute-Savoie - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 3 résultat(s) Haute-Savoie - Annuaire | Service Public",
+   "Sous-préfecture - Bonneville",
+   "Sous-préfecture - Saint-Julien-en-Genevois",
+   "Sous-préfecture - Thonon-les-Bains"
+  ]
+ },
+ "75": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/ile-de-france/paris/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - Aucun résultat - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - Aucun résultat - Annuaire | Service Public"
+  ]
+ },
+ "76": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/normandie/seine-maritime/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 2 résultat(s) Seine-Maritime - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 2 résultat(s) Seine-Maritime - Annuaire | Service Public",
+   "Sous-préfecture - Dieppe",
+   "Sous-préfecture - Le Havre"
+  ]
+ },
+ "77": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/ile-de-france/seine-et-marne/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 4 résultat(s) Seine-et-Marne - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 4 résultat(s) Seine-et-Marne - Annuaire | Service Public",
+   "Sous-préfecture - Fontainebleau",
+   "Sous-préfecture - Meaux",
+   "Sous-préfecture - Provins",
+   "Sous-préfecture - Torcy"
+  ]
+ },
+ "78": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/ile-de-france/yvelines/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 3 résultat(s) Yvelines - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 3 résultat(s) Yvelines - Annuaire | Service Public",
+   "Sous-préfecture - Mantes-la-Jolie",
+   "Sous-préfecture - Rambouillet",
+   "Sous-préfecture - Saint-Germain-en-Laye"
+  ]
+ },
+ "79": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/nouvelle-aquitaine/deux-sevres/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 2 résultat(s) Deux-Sèvres - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 2 résultat(s) Deux-Sèvres - Annuaire | Service Public",
+   "Sous-préfecture - Bressuire",
+   "Sous-préfecture - Parthenay"
+  ]
+ },
+ "80": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/hauts-de-france/somme/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 3 résultat(s) Somme - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 3 résultat(s) Somme - Annuaire | Service Public",
+   "Sous-préfecture - Abbeville",
+   "Sous-préfecture - Montdidier",
+   "Sous-préfecture - Péronne"
+  ]
+ },
+ "81": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/occitanie/tarn/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 1 résultat(s) Tarn - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 1 résultat(s) Tarn - Annuaire | Service Public",
+   "Sous-préfecture - Castres"
+  ]
+ },
+ "82": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/occitanie/tarn-et-garonne/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 1 résultat(s) Tarn-et-Garonne - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 1 résultat(s) Tarn-et-Garonne - Annuaire | Service Public",
+   "Sous-préfecture - Castelsarrasin"
+  ]
+ },
+ "83": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/provence-alpes-cote-d-azur/var/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 2 résultat(s) Var - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 2 résultat(s) Var - Annuaire | Service Public",
+   "Sous-préfecture - Brignoles",
+   "Sous-préfecture - Draguignan"
+  ]
+ },
+ "84": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/provence-alpes-cote-d-azur/vaucluse/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 2 résultat(s) Vaucluse - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 2 résultat(s) Vaucluse - Annuaire | Service Public",
+   "Sous-préfecture - Apt",
+   "Sous-préfecture - Carpentras"
+  ]
+ },
+ "85": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/pays-de-la-loire/vendee/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 2 résultat(s) Vendée - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 2 résultat(s) Vendée - Annuaire | Service Public",
+   "Sous-préfecture - Fontenay-le-Comte",
+   "Sous-préfecture - Les Sables-d'Olonne"
+  ]
+ },
+ "86": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/nouvelle-aquitaine/vienne/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 2 résultat(s) Vienne - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 2 résultat(s) Vienne - Annuaire | Service Public",
+   "Sous-préfecture - Châtellerault",
+   "Sous-préfecture - Montmorillon"
+  ]
+ },
+ "87": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/nouvelle-aquitaine/haute-vienne/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 2 résultat(s) Haute-Vienne - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 2 résultat(s) Haute-Vienne - Annuaire | Service Public",
+   "Sous-préfecture - Bellac",
+   "Sous-préfecture - Rochechouart"
+  ]
+ },
+ "88": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/grand-est/vosges/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 2 résultat(s) Vosges - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 2 résultat(s) Vosges - Annuaire | Service Public",
+   "Sous-préfecture - Neufchâteau",
+   "Sous-préfecture - Saint-Dié-des-Vosges"
+  ]
+ },
+ "89": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/bourgogne-franche-comte/yonne/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 2 résultat(s) Yonne - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 2 résultat(s) Yonne - Annuaire | Service Public",
+   "Sous-préfecture - Avallon",
+   "Sous-préfecture - Sens"
+  ]
+ },
+ "90": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/bourgogne-franche-comte/territoire-de-belfort/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - Aucun résultat - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - Aucun résultat - Annuaire | Service Public"
+  ]
+ },
+ "91": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/ile-de-france/essonne/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 2 résultat(s) Essonne - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 2 résultat(s) Essonne - Annuaire | Service Public",
+   "Sous-préfecture - Palaiseau",
+   "Sous-préfecture - Étampes"
+  ]
+ },
+ "92": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/ile-de-france/hauts-de-seine/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 2 résultat(s) Hauts-de-Seine - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 2 résultat(s) Hauts-de-Seine - Annuaire | Service Public",
+   "Sous-préfecture - Antony",
+   "Sous-préfecture - Boulogne-Billancourt"
+  ]
+ },
+ "93": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/ile-de-france/seine-saint-denis/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 2 résultat(s) Seine-Saint-Denis - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 2 résultat(s) Seine-Saint-Denis - Annuaire | Service Public",
+   "Sous-préfecture - Le Raincy",
+   "Sous-préfecture - Saint-Denis"
+  ]
+ },
+ "94": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/ile-de-france/val-de-marne/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 2 résultat(s) Val-de-Marne - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 2 résultat(s) Val-de-Marne - Annuaire | Service Public",
+   "Sous-préfecture - L'Haÿ-les-Roses",
+   "Sous-préfecture - Nogent-sur-Marne"
+  ]
+ },
+ "95": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/ile-de-france/val-d-oise/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 2 résultat(s) Val-d'Oise - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 2 résultat(s) Val-d'Oise - Annuaire | Service Public",
+   "Sous-préfecture - Argenteuil",
+   "Sous-préfecture - Sarcelles"
+  ]
+ },
+ "971": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/guadeloupe/guadeloupe/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 1 résultat(s) Guadeloupe - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 1 résultat(s) Guadeloupe - Annuaire | Service Public",
+   "Sous-préfecture - Pointe-à-Pitre"
+  ]
+ },
+ "972": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/martinique/martinique/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 3 résultat(s) Martinique - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 3 résultat(s) Martinique - Annuaire | Service Public",
+   "Sous-préfecture - La Trinité",
+   "Sous-préfecture - Le Marin",
+   "Sous-préfecture - Saint-Pierre (Martinique)"
+  ]
+ },
+ "973": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/guyane/guyane/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 2 résultat(s) Guyane - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 2 résultat(s) Guyane - Annuaire | Service Public",
+   "Sous-préfecture - Saint-Georges",
+   "Sous-préfecture - Saint-Laurent-du-Maroni"
+  ]
+ },
+ "974": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/la-reunion/la-reunion/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - 3 résultat(s) La Réunion - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - 3 résultat(s) La Réunion - Annuaire | Service Public",
+   "Sous-préfecture - Saint-Benoît",
+   "Sous-préfecture - Saint-Paul",
+   "Sous-préfecture - Saint-Pierre (La Réunion)"
+  ]
+ },
+ "976": {
+  "url": "https://lannuaire.service-public.gouv.fr/navigation/mayotte/mayotte/sous_pref",
+  "status": 200,
+  "title": "Sous-préfecture - Aucun résultat - Annuaire | Service Public",
+  "names": [
+   "Sous-préfecture - Aucun résultat - Annuaire | Service Public"
+  ]
+ }
+}

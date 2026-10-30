@@ -1,6 +1,6 @@
 # Check Pap
 
-Application iOS (SwiftUI, iOS 17 minimum, style Liquid Glass sur iOS 26+, 18 langues prévues) qui aide les personnes étrangères en France, et les Français qui partent vivre à l'étranger, à préparer leurs démarches. Utilisable dans toute la France.
+Application iOS (SwiftUI, iOS 17 minimum, interface native et sobre avec Liquid Glass pour la navigation sur iOS 26+, 18 langues) qui aide les personnes étrangères en France, et les Français qui partent vivre à l'étranger, à préparer leurs démarches. Utilisable dans toute la France.
 
 Service indépendant. Les démarches officielles sont gratuites. L'app informe et oriente ; elle ne donne pas de conseil juridique et ne promet aucun résultat.
 
@@ -87,4 +87,7 @@ Le format exact est décrit dans `docs/content-schema.md`.
 ./scripts/check_content.sh          # décode tous les JSON avec les vrais modèles, sans simulateur
 python3 scripts/add_to_catalog.py   # range une nouvelle démarche dans le catalogue
 ./scripts/render_app_icon.sh        # régénère l'icône depuis le logo SwiftUI
+python3 scripts/merge_translations.py fichier.json   # intègre des traductions (interface et contenu)
+./AppStore/screenshots/take_screenshots.sh           # captures App Store en français et en anglais
+# Préfectures : voir scripts/prefectures/README.md
 ```

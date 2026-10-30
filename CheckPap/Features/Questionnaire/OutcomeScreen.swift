@@ -17,7 +17,7 @@ struct OutcomeScreen: View {
                     .foregroundStyle(.orange)
                     .symbolEffect(.bounce, value: outcome.id)
                     .frame(width: 72, height: 72)
-                    .glassCard(cornerRadius: 24)
+                    .cardSurface(cornerRadius: 24)
                     .staggeredAppear(0)
 
                 OutcomeContent(procedure: procedure, outcome: outcome)

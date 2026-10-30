@@ -17,7 +17,9 @@ struct ChoiceChip: View {
                     if isSelected {
                         Capsule().fill(Brand.teal)
                     } else {
-                        Capsule().fill(.clear).glassCard(cornerRadius: 50)
+                        Capsule()
+                            .fill(Color(.secondarySystemGroupedBackground))
+                            .overlay(Capsule().strokeBorder(Color(.separator), lineWidth: 0.5))
                     }
                 }
                 .contentShape(.capsule)

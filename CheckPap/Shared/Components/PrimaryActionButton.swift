@@ -19,7 +19,7 @@ struct PrimaryActionButton: View {
             .frame(maxWidth: .infinity)
             .padding(.vertical, 6)
         }
-        .primaryGlassButton()
+        .primaryButton()
         .controlSize(.large)
         .padding(.horizontal, 20)
         .padding(.bottom, 8)
