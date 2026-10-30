@@ -113,6 +113,9 @@ Dernière mise à jour du plan : 29/10/2026.
 - Préfectures : pages de rendez-vous vérifiées pour 23 départements (01 à 19, 21 à 23, Paris), sites pour 50 ; les sites bloquent les vérifications rapides. Scripts de reprise copiés dans `scripts/prefectures/`.
 - Captures App Store régénérées avec le nouveau style.
 
+- Langues : 34 textes récents (écran d'accueil, réglages, carte "Mon titre de séjour") n'étaient pas traduits ; traduits dans les 17 langues. Nouveau contrôle `scripts/check_translations.py`, lancé par `check_content.sh`, qui signale tout texte non traduit.
+- Texte écrit en miroir dans le simulateur : ce n'est pas un défaut de l'app, c'est l'option de test d'Xcode "Right-to-Left Pseudolanguage" (schéma > Options > App Language). Pour tester l'arabe, choisir "Arabic".
+
 **Reste à faire (prochaine session)**
 - Préfectures : reprendre la vérification lente à partir de la Dordogne (`scripts/prefectures/README.md`).
 - Vérifier à l'écran, avec un dossier rempli : "Votre dossier est prêt", rendez-vous enregistré, carte "Votre destination".

@@ -1703,8 +1703,218 @@
         }
       }
     },
-    "Ajouter mon titre de séjour": {},
-    "Ajoutez la date de fin de votre titre de séjour : l'app vous rappellera quand déposer votre demande de renouvellement.": {},
+    "Ajouter mon titre de séjour": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add my residence permit"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "إضافة بطاقة إقامتي"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "আমার রেসিডেন্স পারমিট যোগ করুন"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "मेरा निवास परमिट जोड़ें"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "添加我的居留证"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Добавить мой вид на жительство"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tambahkan izin tinggal saya"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เพิ่มใบอนุญาตพำนักของฉัน"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oturma iznimi ekle"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Додати мій дозвіл на проживання"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "افزودن اجازه اقامت من"
+          }
+        },
+        "ps": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "زما د اوسېدو اجازه‌لیک اضافه کړئ"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "میرا رہائشی اجازت نامہ شامل کریں"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "எனது குடியிருப்பு அனுமதியைச் சேர்க்கவும்"
+          }
+        },
+        "ti": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ፍቓድ መንበሪየይ ወስኹ"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Adicionar minha autorização de residência"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Añadir mi permiso de residencia"
+          }
+        }
+      }
+    },
+    "Ajoutez la date de fin de votre titre de séjour : l'app vous rappellera quand déposer votre demande de renouvellement.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add the end date of your residence permit: the app will remind you when to apply for renewal."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "أضف تاريخ انتهاء بطاقة إقامتك: سيذكّرك التطبيق بموعد تقديم طلب التجديد."
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "আপনার রেসিডেন্স পারমিটের মেয়াদ শেষের তারিখ যোগ করুন: কখন নবায়নের আবেদন করতে হবে, অ্যাপটি আপনাকে মনে করিয়ে দেবে।"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "अपने निवास परमिट की समाप्ति तिथि जोड़ें: ऐप आपको याद दिलाएगा कि नवीनीकरण का आवेदन कब देना है।"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "请添加您居留证的到期日期：应用会提醒您何时提交续签申请。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Добавьте дату окончания вашего вида на жительство: приложение напомнит, когда подать заявление на продление."
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tambahkan tanggal berakhir izin tinggal Anda: aplikasi akan mengingatkan Anda kapan harus mengajukan perpanjangan."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เพิ่มวันหมดอายุของใบอนุญาตพำนักของคุณ: แอปจะเตือนคุณว่าควรยื่นคำขอต่ออายุเมื่อใด"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oturma izninizin bitiş tarihini ekleyin: uygulama, yenileme başvurusunu ne zaman yapmanız gerektiğini size hatırlatacak."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Додайте дату закінчення вашого дозволу на проживання: застосунок нагадає, коли подати заяву на продовження."
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تاریخ ختم اجازه اقامت خود را اضافه کنید: اپلیکیشن به شما یادآوری می‌کند که چه وقت درخواست تمدید را بدهید."
+          }
+        },
+        "ps": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "د خپل د اوسېدو اجازه‌لیک د پای نېټه اضافه کړئ: اپلیکېشن به تاسو ته یادونه وکړي چې کله د نوي کولو غوښتنه وسپارئ."
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "اپنے رہائشی اجازت نامے کی آخری تاریخ شامل کریں: ایپ آپ کو یاد دلائے گی کہ تجدید کی درخواست کب دینی ہے۔"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "உங்கள் குடியிருப்பு அனுமதியின் காலாவதி தேதியைச் சேர்க்கவும்: புதுப்பிப்பு விண்ணப்பத்தை எப்போது கொடுக்க வேண்டும் என்று ஆப் உங்களுக்கு நினைவூட்டும்."
+          }
+        },
+        "ti": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ናይ ፍቓድ መንበሪኹም ዕለት መወዳእታ ወስኹ፦ ኣፕሊኬሽን መዓስ ናይ ምሕዳስ ሕቶ ከም እተቕርቡ ከዘኻኽረኩም እዩ።"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Adicione a data de fim da sua autorização de residência: o app vai avisar quando fazer o pedido de renovação."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Añada la fecha de fin de su permiso de residencia: la app le recordará cuándo presentar su solicitud de renovación."
+          }
+        }
+      }
+    },
     "Amériques": {
       "localizations": {
         "ar": {
@@ -3507,7 +3717,112 @@
         }
       }
     },
-    "Bienvenue sur Check Pap": {},
+    "Bienvenue sur Check Pap": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Welcome to Check Pap"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "مرحبًا بك في Check Pap"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Check Pap-এ স্বাগতম"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Check Pap में आपका स्वागत है"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "欢迎使用 Check Pap"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Добро пожаловать в Check Pap"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Selamat datang di Check Pap"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ยินดีต้อนรับสู่ Check Pap"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Check Pap'e hoş geldiniz"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ласкаво просимо до Check Pap"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "به Check Pap خوش آمدید"
+          }
+        },
+        "ps": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Check Pap ته ښه راغلاست"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Check Pap میں خوش آمدید"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Check Pap-க்கு வரவேற்கிறோம்"
+          }
+        },
+        "ti": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "እንቋዕ ናብ Check Pap ብደሓን መጻእኩም"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bem-vindo ao Check Pap"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bienvenido a Check Pap"
+          }
+        }
+      }
+    },
     "Bon à savoir": {
       "localizations": {
         "ar": {
@@ -3826,7 +4141,112 @@
         }
       }
     },
-    "Ce code postal ne semble pas valide : il doit comporter 5 chiffres.": {},
+    "Ce code postal ne semble pas valide : il doit comporter 5 chiffres.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This postcode does not seem valid: it must have 5 digits."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "يبدو أن هذا الرمز البريدي غير صحيح: يجب أن يتكون من 5 أرقام."
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "এই পোস্টকোডটি সঠিক মনে হচ্ছে না: এতে 5টি সংখ্যা থাকতে হবে।"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "यह पोस्टल कोड सही नहीं लगता: इसमें 5 अंक होने चाहिए।"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "此邮政编码似乎无效：必须为 5 位数字。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Этот почтовый индекс кажется неверным: он должен состоять из 5 цифр."
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kode pos ini sepertinya tidak valid: harus terdiri dari 5 angka."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "รหัสไปรษณีย์นี้ดูเหมือนไม่ถูกต้อง: ต้องมี 5 หลัก"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bu posta kodu geçerli görünmüyor: 5 rakamdan oluşmalıdır."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Цей поштовий індекс виглядає неправильним: він має складатися з 5 цифр."
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "این کود پستی درست به نظر نمی‌رسد: باید 5 رقم داشته باشد."
+          }
+        },
+        "ps": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "دا پوستي کوډ سم نه ښکاري: باید 5 عددونه ولري."
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "یہ پوسٹل کوڈ درست نہیں لگتا: اس میں 5 ہندسے ہونے چاہئیں۔"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "இந்த அஞ்சல் குறியீடு சரியாகத் தெரியவில்லை: இதில் 5 இலக்கங்கள் இருக்க வேண்டும்."
+          }
+        },
+        "ti": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "እዚ ፖስታዊ ኮድ ቅኑዕ ኣይመስልን፦ 5 ኣሃዛት ክህልዎ ኣለዎ።"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Este código postal não parece válido: ele deve ter 5 dígitos."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Este código postal no parece válido: debe tener 5 cifras."
+          }
+        }
+      }
+    },
     "Ce que dit ce courrier": {
       "localizations": {
         "ar": {
@@ -4251,7 +4671,112 @@
         }
       }
     },
-    "Cette date est écrite sur votre carte. Si elle est déjà passée, indiquez-la quand même.": {},
+    "Cette date est écrite sur votre carte. Si elle est déjà passée, indiquez-la quand même.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This date is written on your card. If it has already passed, please enter it anyway."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "هذا التاريخ مكتوب على بطاقتك. إذا كان قد مضى، أدخله على أي حال."
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "এই তারিখটি আপনার কার্ডে লেখা আছে। তারিখটি পার হয়ে গেলেও লিখে দিন।"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "यह तारीख आपके कार्ड पर लिखी है। अगर यह बीत चुकी है, तो भी इसे लिखें।"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "此日期写在您的卡上。即使已经过期，也请填写。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Эта дата указана на вашей карте. Если она уже прошла, всё равно укажите её."
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tanggal ini tertulis di kartu Anda. Jika sudah lewat, tetap masukkan."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "วันที่นี้เขียนอยู่บนบัตรของคุณ หากเลยวันนั้นไปแล้ว โปรดกรอกไว้เช่นกัน"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bu tarih kartınızda yazıyor. Tarih geçmiş olsa bile lütfen girin."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ця дата вказана на вашій картці. Якщо вона вже минула, все одно вкажіть її."
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "این تاریخ روی کارت شما نوشته شده است. اگر گذشته باشد هم، لطفاً آن را وارد کنید."
+          }
+        },
+        "ps": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "دا نېټه ستاسو په کارت لیکل شوې ده. که تېره شوې وي، بیا هم یې ولیکئ."
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "یہ تاریخ آپ کے کارڈ پر لکھی ہے۔ اگر یہ گزر چکی ہے، تب بھی اسے درج کریں۔"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "இந்தத் தேதி உங்கள் அட்டையில் எழுதப்பட்டுள்ளது. அது ஏற்கனவே கடந்திருந்தாலும், அதை உள்ளிடவும்."
+          }
+        },
+        "ti": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "እዚ ዕለት ኣብ ካርድኹም ተጻሒፉ ኣሎ። እንተ ሓለፈ'ውን፡ በጃኹም ኣእትውዎ።"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esta data está escrita no seu cartão. Se ela já passou, informe-a mesmo assim."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esta fecha está escrita en su tarjeta. Si ya ha pasado, indíquela de todos modos."
+          }
+        }
+      }
+    },
     "Changer": {
       "localizations": {
         "ar": {
@@ -4465,7 +4990,112 @@
         }
       }
     },
-    "Choisir": {},
+    "Choisir": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choose"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "اختيار"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "বেছে নিন"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "चुनें"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "选择"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Выбрать"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pilih"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เลือก"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Seç"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Вибрати"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "انتخاب"
+          }
+        },
+        "ps": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "غوره کول"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "منتخب کریں"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "தேர்வு செய்யவும்"
+          }
+        },
+        "ti": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ምረጹ"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Escolher"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Elegir"
+          }
+        }
+      }
+    },
     "Choisir mon département dans la liste": {
       "localizations": {
         "ar": {
@@ -4891,9 +5521,324 @@
         }
       }
     },
-    "Code postal": {},
-    "Code postal non valide.": {},
-    "Code postal, ex. : 94000": {},
+    "Code postal": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Postcode"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "الرمز البريدي"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "পোস্টকোড"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "पोस्टल कोड"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "邮政编码"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Почтовый индекс"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kode pos"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "รหัสไปรษณีย์"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Posta kodu"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Поштовий індекс"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "کود پستی"
+          }
+        },
+        "ps": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "پوستي کوډ"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "پوسٹل کوڈ"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "அஞ்சல் குறியீடு"
+          }
+        },
+        "ti": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ፖስታዊ ኮድ"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Código postal"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Código postal"
+          }
+        }
+      }
+    },
+    "Code postal non valide.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Invalid postcode."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "الرمز البريدي غير صحيح."
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "পোস্টকোডটি সঠিক নয়।"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "पोस्टल कोड सही नहीं है।"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "邮政编码无效。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Неверный почтовый индекс."
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kode pos tidak valid."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "รหัสไปรษณีย์ไม่ถูกต้อง"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geçersiz posta kodu."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Неправильний поштовий індекс."
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "کود پستی درست نیست."
+          }
+        },
+        "ps": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "پوستي کوډ سم نه دی."
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "پوسٹل کوڈ درست نہیں۔"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "அஞ்சல் குறியீடு சரியில்லை."
+          }
+        },
+        "ti": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ፖስታዊ ኮድ ቅኑዕ ኣይኮነን።"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Código postal inválido."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Código postal no válido."
+          }
+        }
+      }
+    },
+    "Code postal, ex. : 94000": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Postcode, e.g. 94000"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "الرمز البريدي، مثال: 94000"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "পোস্টকোড, যেমন: 94000"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "पोस्टल कोड, उदाहरण: 94000"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "邮政编码，例如：94000"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Почтовый индекс, напр.: 94000"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kode pos, mis.: 94000"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "รหัสไปรษณีย์ เช่น 94000"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Posta kodu, örn.: 94000"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Поштовий індекс, напр.: 94000"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "کود پستی، مثال: 94000"
+          }
+        },
+        "ps": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "پوستي کوډ، بېلګه: 94000"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "پوسٹل کوڈ، مثال: 94000"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "அஞ்சல் குறியீடு, எ.கா.: 94000"
+          }
+        },
+        "ti": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ፖስታዊ ኮድ፡ ንኣብነት፦ 94000"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Código postal, ex.: 94000"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Código postal, p. ej.: 94000"
+          }
+        }
+      }
+    },
     "Commencer": {
       "localizations": {
         "ar": {
@@ -9348,7 +10293,112 @@
         }
       }
     },
-    "Fin de validité": {},
+    "Fin de validité": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Expiry date"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تاريخ انتهاء الصلاحية"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "মেয়াদ শেষের তারিখ"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "समाप्ति तिथि"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "有效期至"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Срок действия до"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Berlaku hingga"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "วันหมดอายุ"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Geçerlilik sonu"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Дійсний до"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تاریخ ختم اعتبار"
+          }
+        },
+        "ps": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "د اعتبار پای"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "میعاد ختم ہونے کی تاریخ"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "காலாவதி தேதி"
+          }
+        },
+        "ti": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ዕለት መወዳእታ"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fim da validade"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fin de validez"
+          }
+        }
+      }
+    },
     "Gardées uniquement sur ce téléphone, pour vos prochains courriers.": {
       "localizations": {
         "ar": {
@@ -9879,7 +10929,112 @@
         }
       }
     },
-    "Indiquez le type de votre titre (bouton Modifier) pour voir vos dates de renouvellement.": {},
+    "Indiquez le type de votre titre (bouton Modifier) pour voir vos dates de renouvellement.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Choose your permit type (Edit button) to see your renewal dates."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "حدّد نوع بطاقتك (زر «تعديل») لرؤية مواعيد التجديد."
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "নবায়নের তারিখ দেখতে আপনার পারমিটের ধরন দিন (“সম্পাদনা” বোতাম)।"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "नवीनीकरण की तारीखें देखने के लिए अपने परमिट का प्रकार बताएं (“बदलें” बटन)।"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "请填写您的居留证类型（“修改”按钮），以查看续签日期。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Укажите тип вашего документа (кнопка «Изменить»), чтобы увидеть даты продления."
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pilih jenis izin Anda (tombol Ubah) untuk melihat tanggal perpanjangan."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ระบุประเภทใบอนุญาตของคุณ (ปุ่ม “แก้ไข”) เพื่อดูวันต่ออายุ"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yenileme tarihlerinizi görmek için izin türünüzü belirtin (Düzenle düğmesi)."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Вкажіть тип вашого дозволу (кнопка «Змінити»), щоб побачити дати продовження."
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "نوع اجازه اقامت خود را مشخص کنید (دکمه «تغییر») تا تاریخ‌های تمدید را ببینید."
+          }
+        },
+        "ps": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "د خپل اجازه‌لیک ډول وټاکئ (د «بدلول» تڼۍ) ترڅو د نوي کولو نېټې ووینئ."
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تجدید کی تاریخیں دیکھنے کے لیے اپنے اجازت نامے کی قسم بتائیں («ترمیم» بٹن)۔"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "புதுப்பிப்பு தேதிகளைப் பார்க்க, உங்கள் அனுமதியின் வகையைக் குறிப்பிடவும் (“மாற்று” பொத்தான்)."
+          }
+        },
+        "ti": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ናይ ምሕዳስ ዕለታት ንምርኣይ፡ ዓይነት ፍቓድኩም ኣመልክቱ (መልጎም «ቀይር»)።"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Indique o tipo da sua autorização (botão Editar) para ver as datas de renovação."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Indique el tipo de su permiso (botón Editar) para ver sus fechas de renovación."
+          }
+        }
+      }
+    },
     "Indiquez votre code postal pour trouver votre préfecture et sa page de rendez-vous.": {
       "localizations": {
         "ar": {
@@ -10516,8 +11671,218 @@
         }
       }
     },
-    "Langue": {},
-    "Langue du téléphone": {},
+    "Langue": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Language"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "اللغة"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ভাষা"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "भाषा"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "语言"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Язык"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bahasa"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ภาษา"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dil"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Мова"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "زبان"
+          }
+        },
+        "ps": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ژبه"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "زبان"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "மொழி"
+          }
+        },
+        "ti": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ቋንቋ"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Idioma"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Idioma"
+          }
+        }
+      }
+    },
+    "Langue du téléphone": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Phone language"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "لغة الهاتف"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ফোনের ভাষা"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "फ़ोन की भाषा"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "手机语言"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Язык телефона"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bahasa ponsel"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ภาษาของโทรศัพท์"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Telefon dili"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Мова телефону"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "زبان تیلفون"
+          }
+        },
+        "ps": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "د ټیلیفون ژبه"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "فون کی زبان"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "தொலைபேசி மொழி"
+          }
+        },
+        "ti": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ቋንቋ ተሌፎን"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Idioma do telefone"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Idioma del teléfono"
+          }
+        }
+      }
+    },
     "Langue et intégration": {
       "localizations": {
         "ar": {
@@ -12426,7 +13791,112 @@
         }
       }
     },
-    "Mes démarches en cours": {},
+    "Mes démarches en cours": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "My ongoing procedures"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "إجراءاتي الجارية"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "আমার চলমান প্রক্রিয়া"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "मेरी चल रही प्रक्रियाएँ"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "我正在办理的手续"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Мои текущие процедуры"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Proses saya yang sedang berjalan"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เรื่องที่ฉันกำลังดำเนินการ"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Devam eden işlemlerim"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Мої поточні процедури"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "کارهای اداری جاری من"
+          }
+        },
+        "ps": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "زما روانې ادارې چارې"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "میری جاری کارروائیاں"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "நடந்துகொண்டிருக்கும் எனது நடைமுறைகள்"
+          }
+        },
+        "ti": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ኣብ መስርሕ ዘለዉ ጉዳያተይ"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Meus processos em andamento"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mis trámites en curso"
+          }
+        }
+      }
+    },
     "Modifier": {
       "localizations": {
         "ar": {
@@ -12852,7 +14322,112 @@
         }
       }
     },
-    "Mon titre de séjour": {},
+    "Mon titre de séjour": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "My residence permit"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "بطاقة إقامتي"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "আমার রেসিডেন্স পারমিট"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "मेरा निवास परमिट"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "我的居留证"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Мой вид на жительство"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Izin tinggal saya"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ใบอนุญาตพำนักของฉัน"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oturma iznim"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Мій дозвіл на проживання"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "اجازه اقامت من"
+          }
+        },
+        "ps": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "زما د اوسېدو اجازه‌لیک"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "میرا رہائشی اجازت نامہ"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "எனது குடியிருப்பு அனுமதி"
+          }
+        },
+        "ti": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ፍቓድ መንበሪየይ"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Minha autorização de residência"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mi permiso de residencia"
+          }
+        }
+      }
+    },
     "Moyen-Orient": {
       "localizations": {
         "ar": {
@@ -13914,7 +15489,112 @@
         }
       }
     },
-    "OK": {},
+    "OK": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "حسنًا"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ঠিক আছে"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ठीक है"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "好"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ОК"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ตกลง"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tamam"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "خوب"
+          }
+        },
+        "ps": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "سمه ده"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ٹھیک ہے"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "சரி"
+          }
+        },
+        "ti": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ሕራይ"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK"
+          }
+        }
+      }
+    },
     "Océanie": {
       "localizations": {
         "ar": {
@@ -14445,7 +16125,112 @@
         }
       }
     },
-    "Ouvrir les réglages de l'iPhone pour Check Pap": {},
+    "Ouvrir les réglages de l'iPhone pour Check Pap": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open iPhone Settings for Check Pap"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "فتح إعدادات iPhone لتطبيق Check Pap"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Check Pap-এর জন্য iPhone সেটিংস খুলুন"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Check Pap के लिए iPhone सेटिंग्स खोलें"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "打开 iPhone 设置中的 Check Pap"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Открыть настройки iPhone для Check Pap"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buka Pengaturan iPhone untuk Check Pap"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เปิดการตั้งค่า iPhone สำหรับ Check Pap"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Check Pap için iPhone Ayarlarını aç"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Відкрити налаштування iPhone для Check Pap"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "باز کردن تنظیمات iPhone برای Check Pap"
+          }
+        },
+        "ps": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "د Check Pap لپاره د iPhone تنظیمات پرانیزئ"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Check Pap کے لیے iPhone کی سیٹنگز کھولیں"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Check Pap-க்கான iPhone அமைப்புகளைத் திறக்கவும்"
+          }
+        },
+        "ti": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ን Check Pap ናይ iPhone ቅጥዕታት ክፈቱ"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abrir os Ajustes do iPhone para o Check Pap"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abrir los Ajustes del iPhone para Check Pap"
+          }
+        }
+      }
+    },
     "Où ?": {
       "localizations": {
         "ar": {
@@ -14764,7 +16549,112 @@
         }
       }
     },
-    "Où habitez-vous ?": {},
+    "Où habitez-vous ?": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Where do you live?"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "أين تسكن؟"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "আপনি কোথায় থাকেন?"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "आप कहाँ रहते हैं?"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "您住在哪里？"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Где вы живёте?"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Di mana Anda tinggal?"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "คุณอาศัยอยู่ที่ไหน"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nerede oturuyorsunuz?"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Де ви живете?"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "کجا زندگی می‌کنید؟"
+          }
+        },
+        "ps": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تاسو چېرته اوسېږئ؟"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "آپ کہاں رہتے ہیں؟"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "நீங்கள் எங்கே வசிக்கிறீர்கள்?"
+          }
+        },
+        "ti": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ኣበይ ትነብሩ?"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Onde você mora?"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "¿Dónde vive?"
+          }
+        }
+      }
+    },
     "Où partent le plus de Français": {
       "localizations": {
         "ar": {
@@ -15614,7 +17504,112 @@
         }
       }
     },
-    "Plus tard": {},
+    "Plus tard": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Later"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "لاحقًا"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "পরে"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "बाद में"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "稍后"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Позже"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nanti"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ภายหลัง"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Daha sonra"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Пізніше"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "بعداً"
+          }
+        },
+        "ps": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "وروسته"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "بعد میں"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "பிறகு"
+          }
+        },
+        "ti": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ጸኒሑ"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mais tarde"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Más tarde"
+          }
+        }
+      }
+    },
     "Pour qui ?": {
       "localizations": {
         "ar": {
@@ -16463,7 +18458,112 @@
         }
       }
     },
-    "Préparer mon renouvellement": {},
+    "Préparer mon renouvellement": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Prepare my renewal"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "التحضير لتجديد بطاقتي"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "আমার নবায়নের প্রস্তুতি নিন"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "मेरे नवीनीकरण की तैयारी करें"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "准备续签"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Подготовить продление"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Siapkan perpanjangan saya"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เตรียมการต่ออายุ"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Yenilememi hazırla"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Підготувати продовження"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "آمادگی برای تمدید"
+          }
+        },
+        "ps": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "د نوي کولو چمتووالی"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تجدید کی تیاری کریں"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "புதுப்பிப்புக்குத் தயார் செய்யவும்"
+          }
+        },
+        "ti": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ንምሕዳስ ምድላው"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preparar minha renovação"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preparar mi renovación"
+          }
+        }
+      }
+    },
     "Préparer un courrier": {
       "localizations": {
         "ar": {
@@ -18805,7 +20905,112 @@
         }
       }
     },
-    "Revoir l'écran d'accueil": {},
+    "Revoir l'écran d'accueil": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "See the welcome screen again"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "عرض شاشة الترحيب مرة أخرى"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "স্বাগত স্ক্রিন আবার দেখুন"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "स्वागत स्क्रीन फिर से देखें"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "再次查看欢迎页面"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Снова открыть экран приветствия"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lihat lagi layar sambutan"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ดูหน้าต้อนรับอีกครั้ง"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Karşılama ekranını tekrar gör"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Знову переглянути вітальний екран"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "دیدن دوباره صفحه خوش‌آمد"
+          }
+        },
+        "ps": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "د ښه راغلاست پاڼه بیا وګورئ"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "خوش آمدید اسکرین دوبارہ دیکھیں"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "வரவேற்புத் திரையை மீண்டும் பார்க்கவும்"
+          }
+        },
+        "ti": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "መእተዊ ገጽ እንደገና ርኣዩ"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ver novamente a tela de boas-vindas"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Volver a ver la pantalla de bienvenida"
+          }
+        }
+      }
+    },
     "Récapitulatif": {
       "localizations": {
         "ar": {
@@ -18912,7 +21117,112 @@
         }
       }
     },
-    "Réglages": {},
+    "Réglages": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Settings"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "الإعدادات"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "সেটিংস"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "सेटिंग्स"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "设置"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Настройки"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pengaturan"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "การตั้งค่า"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ayarlar"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Налаштування"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تنظیمات"
+          }
+        },
+        "ps": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تنظیمات"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "سیٹنگز"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "அமைப்புகள்"
+          }
+        },
+        "ti": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ቅጥዕታት"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ajustes"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ajustes"
+          }
+        }
+      }
+    },
     "Répondez à quelques questions": {
       "localizations": {
         "ar": {
@@ -19231,7 +21541,112 @@
         }
       }
     },
-    "Sert à trouver votre préfecture. Il reste sur votre téléphone.": {},
+    "Sert à trouver votre préfecture. Il reste sur votre téléphone.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Used to find your prefecture. It stays on your phone."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "يُستخدم للعثور على مقر المحافظة (⁦préfecture⁩) الخاص بك. يبقى على هاتفك."
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "আপনার প্রিফেকচার খুঁজে পেতে এটি ব্যবহার করা হয়। এটি আপনার ফোনেই থাকে।"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "इससे आपकी प्रीफ़ेक्चर ढूँढी जाती है। यह आपके फ़ोन पर ही रहता है।"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "用于查找您所属的省政府。它只保存在您的手机上。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Нужен, чтобы найти вашу префектуру. Он остаётся на вашем телефоне."
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Digunakan untuk menemukan prefektur Anda. Data ini tetap di ponsel Anda."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ใช้เพื่อค้นหาสำนักงานจังหวัดของคุณ ข้อมูลนี้เก็บไว้ในโทรศัพท์ของคุณเท่านั้น"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Valiliğinizi bulmak için kullanılır. Telefonunuzda kalır."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Потрібен, щоб знайти вашу префектуру. Він залишається у вашому телефоні."
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "برای پیدا کردن دفتر ولایت شما (⁦préfecture⁩) استفاده می‌شود. فقط روی تیلفون شما می‌ماند."
+          }
+        },
+        "ps": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ستاسو د ولایت دفتر (⁦préfecture⁩) موندلو لپاره کارول کېږي. یوازې ستاسو په ټیلیفون کې پاتې کېږي."
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "اس سے آپ کا پریفیکچر دفتر (⁦préfecture⁩) تلاش کیا جاتا ہے۔ یہ آپ کے فون پر ہی رہتا ہے۔"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "உங்கள் பிரிஃபெக்சரைக் கண்டறிய இது பயன்படுகிறது. இது உங்கள் தொலைபேசியிலேயே இருக்கும்."
+          }
+        },
+        "ti": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ፕረፈክቱርኩም ንምርካብ ይጥቀመሉ። ኣብ ተሌፎንኩም ጥራይ ይጸንሕ።"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Serve para encontrar a sua prefeitura (préfecture). Ele fica no seu telefone."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sirve para encontrar su prefectura. Se queda en su teléfono."
+          }
+        }
+      }
+    },
     "Service indépendant. Les démarches officielles sont gratuites.": {
       "localizations": {
         "ar": {
@@ -20080,7 +22495,112 @@
         }
       }
     },
-    "Tapez le nom du pays pour le trouver plus vite.": {},
+    "Tapez le nom du pays pour le trouver plus vite.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Type the country name to find it faster."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "اكتب اسم البلد للعثور عليه بسرعة أكبر."
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "দ্রুত খুঁজে পেতে দেশের নাম লিখুন।"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "देश जल्दी ढूँढने के लिए उसका नाम लिखें।"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "输入国家名称，可以更快找到。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Введите название страны, чтобы быстрее её найти."
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ketik nama negara agar lebih cepat ditemukan."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "พิมพ์ชื่อประเทศเพื่อค้นหาได้เร็วขึ้น"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Daha hızlı bulmak için ülke adını yazın."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Введіть назву країни, щоб швидше її знайти."
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "نام کشور را بنویسید تا زودتر پیدا شود."
+          }
+        },
+        "ps": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "د هېواد نوم ولیکئ چې ژر پیدا شي."
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ملک جلدی تلاش کرنے کے لیے اس کا نام لکھیں۔"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "விரைவாகக் கண்டறிய நாட்டின் பெயரைத் தட்டச்சு செய்யவும்."
+          }
+        },
+        "ti": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ቀልጢፍኩም ንምርካብ ስም ሃገር ጸሓፉ።"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Digite o nome do país para encontrá-lo mais rápido."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Escriba el nombre del país para encontrarlo más rápido."
+          }
+        }
+      }
+    },
     "Taux de change du %@": {
       "localizations": {
         "ar": {
@@ -20187,7 +22707,112 @@
         }
       }
     },
-    "Terminer": {},
+    "Terminer": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Done"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "إنهاء"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "শেষ করুন"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "पूरा करें"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "完成"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Готово"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Selesai"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เสร็จสิ้น"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Bitir"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Готово"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "پایان"
+          }
+        },
+        "ps": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "پای ته رسول"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "مکمل کریں"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "முடிக்கவும்"
+          }
+        },
+        "ti": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ወድኡ"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Concluir"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Terminar"
+          }
+        }
+      }
+    },
     "Touchez le numéro d'une étape quand elle est faite.": {
       "localizations": {
         "ar": {
@@ -21684,8 +24309,218 @@
         }
       }
     },
-    "Voir la fiche": {},
-    "Voir la fiche de la préfecture (site, horaires)": {},
+    "Voir la fiche": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "See details"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "عرض التفاصيل"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "বিস্তারিত দেখুন"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "जानकारी देखें"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "查看详情"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Подробнее"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lihat detail"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ดูรายละเอียด"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ayrıntıları gör"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Детальніше"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "دیدن جزئیات"
+          }
+        },
+        "ps": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "جزئیات وګورئ"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تفصیل دیکھیں"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "விவரங்களைப் பார்க்கவும்"
+          }
+        },
+        "ti": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ዝርዝር ርኣዩ"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ver detalhes"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ver detalles"
+          }
+        }
+      }
+    },
+    "Voir la fiche de la préfecture (site, horaires)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "See prefecture details (website, opening hours)"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "عرض تفاصيل المحافظة (الموقع، أوقات العمل)"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "প্রিফেকচারের বিস্তারিত দেখুন (ওয়েবসাইট, খোলার সময়)"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "प्रीफ़ेक्चर की जानकारी देखें (वेबसाइट, समय)"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "查看省政府详情（网站、开放时间）"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Информация о префектуре (сайт, часы работы)"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Lihat detail prefektur (situs web, jam buka)"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ดูรายละเอียดสำนักงานจังหวัด (เว็บไซต์ เวลาทำการ)"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Valilik ayrıntılarını gör (site, çalışma saatleri)"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Інформація про префектуру (сайт, години роботи)"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "دیدن جزئیات دفتر ولایت (ویب‌سایت، ساعات کاری)"
+          }
+        },
+        "ps": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "د ولایت دفتر جزئیات وګورئ (وېبپاڼه، د کار وختونه)"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "پریفیکچر کی تفصیل دیکھیں (ویب سائٹ، اوقات)"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "பிரிஃபெக்சர் விவரங்களைப் பார்க்கவும் (இணையதளம், நேரங்கள்)"
+          }
+        },
+        "ti": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ዝርዝር ፕረፈክቱር ርኣዩ (መርበብ ሓበሬታ፡ ሰዓታት ስራሕ)"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ver detalhes da prefeitura (site, horários)"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ver los detalles de la prefectura (web, horarios)"
+          }
+        }
+      }
+    },
     "Voir les démarches": {
       "localizations": {
         "ar": {
@@ -21898,7 +24733,112 @@
         }
       }
     },
-    "Vos démarches en France, une étape à la fois. Choisissez votre langue.": {},
+    "Vos démarches en France, une étape à la fois. Choisissez votre langue.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your procedures in France, one step at a time. Choose your language."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "إجراءاتك في فرنسا، خطوة بخطوة. اختر لغتك."
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ফ্রান্সে আপনার প্রশাসনিক কাজ, ধাপে ধাপে। আপনার ভাষা বেছে নিন।"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "फ़्रांस में आपकी प्रक्रियाएँ, एक-एक कदम। अपनी भाषा चुनें।"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "您在法国的手续，一步一步来。请选择您的语言。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ваши процедуры во Франции, шаг за шагом. Выберите язык."
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Urusan Anda di Prancis, selangkah demi selangkah. Pilih bahasa Anda."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "เรื่องเอกสารของคุณในฝรั่งเศส ทีละขั้นตอน เลือกภาษาของคุณ"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Fransa'daki işlemleriniz, adım adım. Dilinizi seçin."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ваші процедури у Франції, крок за кроком. Виберіть мову."
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "کارهای اداری شما در فرانسه، قدم به قدم. زبان خود را انتخاب کنید."
+          }
+        },
+        "ps": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "په فرانسه کې ستاسو ادارې چارې، ګام په ګام. خپله ژبه وټاکئ."
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "فرانس میں آپ کی کارروائیاں، ایک ایک قدم۔ اپنی زبان منتخب کریں۔"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "பிரான்சில் உங்கள் நடைமுறைகள், ஒவ்வொரு படியாக. உங்கள் மொழியைத் தேர்வு செய்யவும்."
+          }
+        },
+        "ti": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ጉዳያትኩም ኣብ ፈረንሳ፡ ስጉምቲ ብስጉምቲ። ቋንቋኹም ምረጹ።"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Seus trâmites na França, uma etapa de cada vez. Escolha o seu idioma."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sus trámites en Francia, paso a paso. Elija su idioma."
+          }
+        }
+      }
+    },
     "Vos démarches, une étape à la fois.": {
       "localizations": {
         "ar": {
@@ -22111,8 +25051,218 @@
         }
       }
     },
-    "Votre code postal": {},
-    "Votre code postal nous permet de vous indiquer votre préfecture et où prendre rendez-vous. Il reste sur votre téléphone.": {},
+    "Votre code postal": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your postcode"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "رمزك البريدي"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "আপনার পোস্টকোড"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "आपका पोस्टल कोड"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "您的邮政编码"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ваш почтовый индекс"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Kode pos Anda"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "รหัสไปรษณีย์ของคุณ"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Posta kodunuz"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ваш поштовий індекс"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "کود پستی شما"
+          }
+        },
+        "ps": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ستاسو پوستي کوډ"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "آپ کا پوسٹل کوڈ"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "உங்கள் அஞ்சல் குறியீடு"
+          }
+        },
+        "ti": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ፖስታዊ ኮድኩም"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Seu código postal"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Su código postal"
+          }
+        }
+      }
+    },
+    "Votre code postal nous permet de vous indiquer votre préfecture et où prendre rendez-vous. Il reste sur votre téléphone.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your postcode lets us show you your prefecture and where to book an appointment. It stays on your phone."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "يتيح لنا رمزك البريدي أن نخبرك بمقر المحافظة (⁦préfecture⁩) وبمكان حجز موعد. يبقى على هاتفك."
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "আপনার পোস্টকোড দিয়ে আমরা আপনার প্রিফেকচার এবং কোথায় অ্যাপয়েন্টমেন্ট নিতে হবে তা জানাতে পারি। এটি আপনার ফোনেই থাকে।"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "आपके पोस्टल कोड से हम आपको आपकी प्रीफ़ेक्चर और अपॉइंटमेंट लेने की जगह बता सकते हैं। यह आपके फ़ोन पर ही रहता है।"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "通过您的邮政编码，我们可以告诉您所属的省政府以及在哪里预约。它只保存在您的手机上。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "По почтовому индексу мы подскажем вашу префектуру и где записаться на приём. Он остаётся на вашем телефоне."
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Dengan kode pos Anda, kami dapat menunjukkan prefektur Anda dan tempat membuat janji temu. Data ini tetap di ponsel Anda."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "รหัสไปรษณีย์ช่วยให้เราแจ้งสำนักงานจังหวัดของคุณและสถานที่นัดหมายได้ ข้อมูลนี้เก็บไว้ในโทรศัพท์ของคุณเท่านั้น"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Posta kodunuz sayesinde size valiliğinizi ve nereden randevu alacağınızı gösterebiliriz. Telefonunuzda kalır."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "За поштовим індексом ми підкажемо вашу префектуру і де записатися на прийом. Він залишається у вашому телефоні."
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "با کود پستی شما، می‌توانیم دفتر ولایت (⁦préfecture⁩) و جای گرفتن وقت ملاقات را به شما نشان دهیم. فقط روی تیلفون شما می‌ماند."
+          }
+        },
+        "ps": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ستاسو پوستي کوډ موږ سره مرسته کوي چې تاسو ته ستاسو د ولایت دفتر (⁦préfecture⁩) او د وخت اخیستلو ځای وښیو. یوازې ستاسو په ټیلیفون کې پاتې کېږي."
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "آپ کے پوسٹل کوڈ سے ہم آپ کو آپ کا پریفیکچر دفتر (⁦préfecture⁩) اور ملاقات کا وقت لینے کی جگہ بتا سکتے ہیں۔ یہ آپ کے فون پر ہی رہتا ہے۔"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "உங்கள் அஞ்சல் குறியீட்டைக் கொண்டு, உங்கள் பிரிஃபெக்சரையும் எங்கே சந்திப்பு முன்பதிவு செய்வது என்பதையும் நாங்கள் காட்ட முடியும். இது உங்கள் தொலைபேசியிலேயே இருக்கும்."
+          }
+        },
+        "ti": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ፖስታዊ ኮድኩም ፕረፈክቱርኩምን ቆጸራ ኣበይ ከም እትሕዙን ንምሕባርኩም ይሕግዘና። ኣብ ተሌፎንኩም ጥራይ ይጸንሕ።"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Seu código postal nos permite indicar a sua prefeitura (préfecture) e onde marcar um atendimento. Ele fica no seu telefone."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Su código postal nos permite indicarle su prefectura y dónde pedir cita. Se queda en su teléfono."
+          }
+        }
+      }
+    },
     "Votre commune dépend peut-être d'une sous-préfecture : voir la liste": {
       "localizations": {
         "ar": {
@@ -22219,7 +25369,112 @@
         }
       }
     },
-    "Votre destination": {},
+    "Votre destination": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your destination"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "وجهتك"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "আপনার গন্তব্য"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "आपका गंतव्य"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "您的目的地"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ваш пункт назначения"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tujuan Anda"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "จุดหมายของคุณ"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Varış yeriniz"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ваш пункт призначення"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "مقصد شما"
+          }
+        },
+        "ps": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ستاسو منزل"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "آپ کی منزل"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "உங்கள் சேருமிடம்"
+          }
+        },
+        "ti": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "መዕለቢኹም"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Seu destino"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Su destino"
+          }
+        }
+      }
+    },
     "Votre dossier est prêt !": {
       "localizations": {
         "ar": {
@@ -22750,8 +26005,218 @@
         }
       }
     },
-    "Votre titre de séjour": {},
-    "Votre titre de séjour arrive à sa date de fin aujourd'hui.": {},
+    "Votre titre de séjour": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your residence permit"
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "بطاقة إقامتك"
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "আপনার রেসিডেন্স পারমিট"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "आपका निवास परमिट"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "您的居留证"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ваш вид на жительство"
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Izin tinggal Anda"
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ใบอนุญาตพำนักของคุณ"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oturma izniniz"
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ваш дозвіл на проживання"
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "اجازه اقامت شما"
+          }
+        },
+        "ps": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ستاسو د اوسېدو اجازه‌لیک"
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "آپ کا رہائشی اجازت نامہ"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "உங்கள் குடியிருப்பு அனுமதி"
+          }
+        },
+        "ti": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ፍቓድ መንበሪኹም"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sua autorização de residência"
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Su permiso de residencia"
+          }
+        }
+      }
+    },
+    "Votre titre de séjour arrive à sa date de fin aujourd'hui.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Your residence permit expires today."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "تنتهي صلاحية بطاقة إقامتك اليوم."
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "আপনার রেসিডেন্স পারমিটের মেয়াদ আজ শেষ হচ্ছে।"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "आपके निवास परमिट की अवधि आज समाप्त हो रही है।"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "您的居留证今天到期。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Срок действия вашего вида на жительство заканчивается сегодня."
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Izin tinggal Anda berakhir hari ini."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ใบอนุญาตพำนักของคุณหมดอายุวันนี้"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Oturma izninizin süresi bugün doluyor."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Термін дії вашого дозволу на проживання закінчується сьогодні."
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "اعتبار اجازه اقامت شما امروز ختم می‌شود."
+          }
+        },
+        "ps": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ستاسو د اوسېدو اجازه‌لیک نن پای ته رسېږي."
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "آپ کے رہائشی اجازت نامے کی میعاد آج ختم ہو رہی ہے۔"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "உங்கள் குடியிருப்பு அனுமதி இன்று காலாவதியாகிறது."
+          }
+        },
+        "ti": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "ፍቓድ መንበሪኹም ሎሚ ይውዳእ።"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sua autorização de residência termina hoje."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Su permiso de residencia vence hoy."
+          }
+        }
+      }
+    },
     "Votre âge : %lld ans": {
       "localizations": {
         "ar": {
@@ -23176,7 +26641,112 @@
         }
       }
     },
-    "« Langue du téléphone » suit le réglage de votre iPhone.": {},
+    "« Langue du téléphone » suit le réglage de votre iPhone.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "“Phone language” follows your iPhone setting."
+          }
+        },
+        "ar": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "«لغة الهاتف» تتبع إعدادات جهاز iPhone."
+          }
+        },
+        "bn": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "“ফোনের ভাষা” আপনার iPhone-এর সেটিং অনুসরণ করে।"
+          }
+        },
+        "hi": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "“फ़ोन की भाषा” आपके iPhone की सेटिंग के अनुसार होती है।"
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "“手机语言”跟随您的 iPhone 设置。"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "«Язык телефона» соответствует настройке вашего iPhone."
+          }
+        },
+        "id": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "“Bahasa ponsel” mengikuti pengaturan iPhone Anda."
+          }
+        },
+        "th": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "“ภาษาของโทรศัพท์” จะเป็นไปตามการตั้งค่า iPhone ของคุณ"
+          }
+        },
+        "tr": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "“Telefon dili”, iPhone ayarınızı takip eder."
+          }
+        },
+        "uk": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "«Мова телефону» відповідає налаштуванню вашого iPhone."
+          }
+        },
+        "fa": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "«زبان تیلفون» از تنظیمات iPhone شما پیروی می‌کند."
+          }
+        },
+        "ps": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "«د ټیلیفون ژبه» ستاسو د iPhone تنظیمات تعقیبوي."
+          }
+        },
+        "ur": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "«فون کی زبان» آپ کے iPhone کی سیٹنگ کے مطابق ہوتی ہے۔"
+          }
+        },
+        "ta": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "“தொலைபேசி மொழி” உங்கள் iPhone அமைப்பைப் பின்பற்றுகிறது."
+          }
+        },
+        "ti": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "«ቋንቋ ተሌፎን» ንቅጥዕታት iPhone ኹም ይስዕብ።"
+          }
+        },
+        "pt": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "“Idioma do telefone” segue o ajuste do seu iPhone."
+          }
+        },
+        "es": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "«Idioma del teléfono» sigue el ajuste de su iPhone."
+          }
+        }
+      }
+    },
     "À joindre": {
       "localizations": {
         "ar": {

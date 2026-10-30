@@ -8,3 +8,4 @@ cp scripts/check_content.swift "$TMP_DIR/main.swift"
 xcrun swiftc -o "$TMP_DIR/check" CheckPap/Models/Content/*.swift "$TMP_DIR/main.swift"
 "$TMP_DIR/check" CheckPap/Resources/Content
 rm -rf "$TMP_DIR"
+python3 scripts/check_translations.py || true
